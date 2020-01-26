@@ -34,4 +34,6 @@ Support for the CML-U CPU is provided by the following:
 ## Documentation
 
 Documentation for the CML-U CPU may be found at the [Intel Resource and Design Center](https://www.intel.com/content/www/us/en/design/resource-design-center.html).
-Some documentation may require signing an NDA.
+Some documentation may require signing an NDA. After logging in with a privileged
+account, the [Comet Lake U Technical Library](https://www.intel.com/content/www/us/en/secure/design/confidential/products-and-solutions/processors-and-chipsets/comet-lake-u/technical-library.html)
+will be available with all relevant documentation.

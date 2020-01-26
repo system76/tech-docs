@@ -1,7 +1,7 @@
 SOURCES=\
 	$(shell find src -iname '*.md') \
 	book.toml
-VERSION=$(git rev-parse HEAD)
+VERSION=$(shell git rev-parse HEAD)
 
 book: $(SOURCES)
 	mdbook build

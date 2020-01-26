@@ -1,0 +1,10 @@
+[book]
+authors = ["Jeremy Soller"]
+language = "en"
+multilingual = false
+src = "src"
+title = "System76 Models"
+
+[build]
+create-missing = false
+use-default-preprocessors = false

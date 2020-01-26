@@ -2,6 +2,6 @@
 
 This book contains technical documentation for System76 models.
 
-## Models
+- [Models](models/README.md)
+- [Components](components/README.md)
 
-- [Lemur Pro (lemp9)](lemp9/README.md)

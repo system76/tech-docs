@@ -1,8 +1,9 @@
 # Lemur Pro (lemp9)
 
 - CPU
-    - Intel i7-10510U
-    - Intel i5-10210U
+    - Supports [Intel Comet Lake-U CPUs](../../components/intel/cpu/cml-u/README.md)
+        - [Intel i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html)
+        - [Intel i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-10-ghz.html)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
     - Backlit Keyboard, with standard PS/2 keycodes and SCI hotkeys

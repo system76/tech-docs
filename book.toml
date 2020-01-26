@@ -3,7 +3,7 @@ authors = ["Jeremy Soller"]
 language = "en"
 multilingual = false
 src = "src"
-title = "System76 Models"
+title = "System76 Technical Documentation"
 
 [build]
 create-missing = false

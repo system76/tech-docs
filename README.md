@@ -1,6 +1,6 @@
 # System76 Technical Documentation
 
-WIP in-depth documentation about System76 products
+Technical documentation about System76 products, can be viewed at https://system76.github.io/tech-docs/
 
 ## Editing
 

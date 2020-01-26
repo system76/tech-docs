@@ -2,10 +2,16 @@
 
 The Intel Comet Lake-U CPU is designed for mobile devices and includes an
 integrated PCH, the [Intel 400 series chipset](../../pch/400-lp/README.md).
-
 The available SKUs may be seen at the [Intel ARK](https://ark.intel.com/content/www/us/en/ark/products/codename/90354/comet-lake.html).
 
-## Firmware Support
+**Documentation**
+
+Documentation for the CML-U CPU may be found at the [Intel Resource and Design Center](https://www.intel.com/content/www/us/en/design/resource-design-center.html).
+Some documentation may require signing an NDA. After logging in with a privileged
+account, the [Comet Lake U Technical Library](https://www.intel.com/content/www/us/en/secure/design/confidential/products-and-solutions/processors-and-chipsets/comet-lake-u/technical-library.html)
+will be available with all relevant documentation.
+
+**Firmware Support**
 
 Support for the CML-U CPU is provided by the following:
 
@@ -21,7 +27,7 @@ Support for the CML-U CPU is provided by the following:
     - VBT is edited using Intel Binary Modification Program (BMP)
     - Sample VBT is available from Intel FSP repository
     - Correct VBT is provided with System76 firmware
-- Intel Management Engine (ME) 14.0
+- [Intel Management Engine (ME) 14.0](../../me/README.md)
     - Configured using the Intel Firmware Descriptor (FD) as well as ME filesystem
     - Intel FD and ME filesystem is edited by Intel Flash Image Tool (FIT)
     - Correct Intel FD and ME is provided with System76 firmware
@@ -31,9 +37,3 @@ Support for the CML-U CPU is provided by the following:
     - Correct microcode is provided with System76 firmware
 - Model-specific configuration can be found in model documentation
 
-## Documentation
-
-Documentation for the CML-U CPU may be found at the [Intel Resource and Design Center](https://www.intel.com/content/www/us/en/design/resource-design-center.html).
-Some documentation may require signing an NDA. After logging in with a privileged
-account, the [Comet Lake U Technical Library](https://www.intel.com/content/www/us/en/secure/design/confidential/products-and-solutions/processors-and-chipsets/comet-lake-u/technical-library.html)
-will be available with all relevant documentation.

@@ -19,10 +19,14 @@
     - HDMI video
     - USB-C DisplayPort video
 - Memory
-    - Channel 0: 8-GB on-board DDR4 Samsung K4AAG165WA-BCTD
+    - Channel 0: 8-GB on-board DDR4 [Samsung K4AAG165WA-BCTD](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCTD/)
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM
 - Networking
     - M.2 PCIe/CNVi WiFi/Bluetooth
+- Power
+    - 19V, 3.42A (65W) AC adapter
+    - 73Wh battery
+    - [TI BQ24780S Battery Charger](https://www.ti.com/product/BQ24780S)
 - Sound
     - Realtek ALC293D
     - Internal speaker

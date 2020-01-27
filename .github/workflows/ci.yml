@@ -1,0 +1,26 @@
+---
+
+name: CI
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  push:
+    branches:
+      - '!master'
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    container: rust:slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Build
+        env:
+          MDBOOK_VERSION: 0.3.5
+        run: |
+          cargo install mdbook --no-default-features --features output,search --vers ${MDBOOK_VERSION}
+          mdbook build

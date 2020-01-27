@@ -1,0 +1,36 @@
+---
+
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    container: rust:slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Build
+        env:
+          MDBOOK_VERSION: 0.3.5
+        run: |
+          cargo install mdbook --no-default-features --features output,search --vers ${MDBOOK_VERSION}
+          mdbook build
+
+      - name: Setup Hosting
+        run: |
+          touch docs/.nojekyll &&
+          echo "tech-docs.system76.com" > docs/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./book

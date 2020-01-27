@@ -25,8 +25,8 @@ jobs:
 
       - name: Setup Hosting
         run: |
-          touch docs/.nojekyll &&
-          echo "tech-docs.system76.com" > docs/CNAME
+          touch book/.nojekyll &&
+          echo "tech-docs.system76.com" > book/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2

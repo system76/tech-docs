@@ -23,4 +23,4 @@ jobs:
           MDBOOK_VERSION: 0.3.5
         run: |
           cargo install mdbook --no-default-features --features output,search --vers ${MDBOOK_VERSION}
-          make book
+          mdbook build

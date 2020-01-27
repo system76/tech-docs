@@ -10,7 +10,7 @@ on:
 jobs:
   Deploy:
     runs-on: ubuntu-latest
-    container: rust
+    container: rust:slim
 
     steps:
       - name: Checkout
@@ -21,7 +21,7 @@ jobs:
           MDBOOK_VERSION: 0.3.0
         run: |
           cargo install mdbook --vers ${MDBOOK_VERSION}
-          mdbook build
+          make book
 
       - name: Setup Hosting
         run: |

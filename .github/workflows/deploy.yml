@@ -20,7 +20,7 @@ jobs:
         env:
           MDBOOK_VERSION: 0.3.0
         run: |
-          cargo install mdbook --vers ${MDBOOK_VERSION}
+          cargo install mdbook --no-default-features --features output,search --vers ${MDBOOK_VERSION}
           make book
 
       - name: Setup Hosting

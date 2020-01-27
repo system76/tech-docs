@@ -1,16 +1,14 @@
 ---
 
-name: CI
+name: Deploy
 
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
   push:
     branches:
-      - '!master'
+      - master
 
 jobs:
-  Build:
+  Deploy:
     runs-on: ubuntu-latest
     container: rust
 
@@ -25,15 +23,6 @@ jobs:
           cargo install mdbook --vers ${MDBOOK_VERSION}
           mdbook build
 
-  Deploy:
-    runs-on: ubuntu-latest
-
-    needs:
-      - Build
-
-    if: github.ref == 'refs/heads/master'
-
-    steps:
       - name: Setup Hosting
         run: |
           touch docs/.nojekyll &&

@@ -1,16 +1,18 @@
 # System76 Technical Documentation
 
-Technical documentation about System76 products, can be viewed at https://system76.github.io/tech-docs/
+This repository contains the Technical documentation about System76 products. It
+can be viewed at https://tech-docs.system76.com.
 
 ## Editing
 
 There are two methods to view and edit the book. There is a quick method that
-does not include additional UI elemenents such as search, and the complete way
+does not include additional UI elements such as search, and the complete way
 that will render the book as it is rendered on the official website.
 
 ### GitHub (Quick)
 
-The book can be viewed and edited on GitHub by going to [src/README.md](src/README.md).
+The book can be viewed and edited on GitHub by going to
+[src/README.md](src/README.md).
 
 ### mdBook (Complete)
 

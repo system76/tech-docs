@@ -8,3 +8,9 @@ title = "System76 Technical Documentation"
 [build]
 create-missing = false
 use-default-preprocessors = false
+
+[output.html]
+theme = "theme"
+additional-css = ["theme/variables.css"]
+git-repository-url = "https://github.com/system76/tech-docs"
+git-repository-icon = "fa-github"

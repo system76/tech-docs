@@ -44,5 +44,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
 - USB
     - 1280x720 CCD camera
     - USB 3.1 Gen 2 Type-C (left)
+        - [ANX7411 USB-C Port Controller](https://www.analogix.com/en/products/usb-c-port-controller/anx7411)
+        - [ANX7440 USB 3.1/DisplayPort Mux](https://www.analogix.com/en/products/re-timersrepeaters/anx7440)
     - USB 3.1 Gen 2 Type-A (left)
     - USB 3.1 Gen 1 Type-A (right)

@@ -1,0 +1,35 @@
+# [0-Contents](src/models/thelio-major-b2/thelio-major-b2-service-manual/0-Contents.md)
+- ## Thelio B2 BIOS Overview
+     - ### [BIOS](src/models/thelio-major-b2/thelio-major-b2-service-manual/1-BIOS.md)
+          - #### M.I.T.
+          - #### System
+          - #### BIOS
+          - #### Peripherals
+          - #### Chipset
+          - #### Power
+          - #### Save & Exit
+
+- ## Thelio B2 Hardware Overview
+     - ### [External Overview](src/models/thelio-major-b2/thelio-major-b2-service-manual/2-External-Overview.md)
+          - #### Ports Overview
+          - #### Power Switch Connections Overview
+     - ### [Internal Overview](src/models/thelio-major-b2/thelio-major-b2-service-manual/3-Internal-Overview.md)
+          - #### Power Switch Connections Overview
+          - #### Thelio I/O Board
+          - #### External Displays
+- ## User Serviceable Parts and Repairs
+     - ### [Top Case (Remove or Replace)](src/models/thelio-major-b2/thelio-major-b2-service-manual/5-Top-Case-Remove-Replace.md)
+          - #### Removing the Top Case
+          - #### Replacing the Top Case
+     - ### [Shroud (Remove or Replace)](src/models/thelio-major-b2/thelio-major-b2-service-manual/6-Shroud-Remove-Replace.md)
+          - #### Removing the Shroud
+          - #### Replacing the Shroud
+     - ###  RAM (Remove or Replace)
+          - #### Removing the RAM
+          - #### Replacing the RAM
+     - ### Drives (Remove or Replace)
+          - #### Replacing a 2.5" Drive
+          - #### Replacing an M.2/NVMe Drive
+     - ### GPUs (Remove or Replace)
+     - ### CPU Thermal Paste (Remove or Replace)
+     - ### Specifications

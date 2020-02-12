@@ -16,7 +16,7 @@
      - ### Internal Overview
           - #### Power Switch Connections Overview
           - #### Thelio I/O Board
-
+          - #### External Displays
 - ## User Serviceable Parts and Repairs
      - ### Top Case (Remove or Replace)
           - #### Removing the Top Case

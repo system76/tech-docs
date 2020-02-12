@@ -3,8 +3,11 @@
 ## Hardware Keyboard Shortcuts:
 
 F12 : Boot Menu
+
 F9  : System Information
+
 ESC : BIOS
+
 END : Q-Flash
 
 [Image]
@@ -13,7 +16,7 @@ END : Q-Flash
 
 ## System
 
-!BIOS[System summary in BIOS](path/to/photo.png)
+![System summary in BIOS](path/to/photo.png)
 
 **Fig. 2:** System summary in BIOS.
 

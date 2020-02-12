@@ -41,8 +41,7 @@ Also to maintain width of table-->
 
 **Fig. 14:** Power Button and Motherboard power connectors attached to Thelio IO board.
 
-![Thelio internal power switch (underside of the Thelio IO board)]
-(/path/to/image.png)
+
 
 **Fig. 15:** Thelio internal power switch (underside of the Thelio IO board).
 
@@ -50,3 +49,14 @@ The Thelio IO power button can be used to power on the Thelio when the top case 
 The button is located on the underside of the Thelio IO Board (Fig. 15, above).
 
 ## Motherboard Power button
+
+The motherboard power button is connected on the part of the front panel header missing a pin. Due to a design oddity of motherboards used for Thelio, the positive and negative power button lines must be flipped.
+
+![Motherboard power button and Thelio Power Button connections.](/path/to/image.png)
+
+**Fig. 16:** Motherboard power button and Thelio Power Button connections.
+
+This is the pinout:  
+
+| LED- | LED+ | BTN+ | BTN- | None |
+|------|:----:|:----:|:----:|:----:|

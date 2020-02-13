@@ -1,7 +1,7 @@
 # SERVICE MANUAL
 
 - ## Thelio B2 BIOS Overview
-     - ### [BIOS]()
+     - ### BIOS
           - #### M.I.T.
           - #### System
           - #### BIOS
@@ -11,21 +11,21 @@
           - #### Save & Exit
 
 - ## Thelio B2 Hardware Overview
-     - ### [External Overview](thelio-major-b2-service-manual/2-External-Overview.md)
+     - ### External Overview
           - #### Ports Overview
           - #### Power Switch Connections Overview
-     - ### [Internal Overview](thelio-major-b2-service-manual/3-Internal-Overview.md)
+     - ### Internal Overview
           - #### Power Switch Connections Overview
           - #### Thelio I/O Board
           - #### External Displays
 - ## User Serviceable Parts and Repairs
-     - ### [Top Case (Remove or Replace)](thelio-major-b2-service-manual/5-Top-Case-Remove-Replace.md)
+     - ### Top Case (Remove or Replace)
           - #### Removing the Top Case
           - #### Replacing the Top Case
-     - ### [Shroud (Remove or Replace)](thelio-major-b2/thelio-major-b2-service-manual/6-Shroud-Remove-Replace.md)
+     - ### Shroud (Remove or Replace)
           - #### Removing the Shroud
           - #### Replacing the Shroud
-     - ###  [RAM (Remove or Replace)](/thelio-major-b2-service-manual/7-RAM-Remove-Replace.md)
+     - ###  RAM (Remove or Replace)
           - #### Removing the RAM
           - #### Replacing the RAM
      - ### Drives (Remove or Replace)

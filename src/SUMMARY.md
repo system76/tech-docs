@@ -15,6 +15,7 @@
             - [GPUs (Remove or Replace)](models/thelio-major-b2/thelio-major-b2-service-manual/8-GPU-Remove-Replace/8-GPU-Remove-Replace.md)
             - [Drives (Remove or Replace)](models/thelio-major-b2/thelio-major-b2-service-manual/9-Drives-Remove-Replace/9-Drives-Remove-Replace.md)
             - [CPU Thermal Paste (Remove or Replace)](models/thelio-major-b2/thelio-major-b2-service-manual/10-CPU-Thermal-Paste-Remove-Replace/CPU-Thermal-Paste-Remove-Replace.md)
+            -[Specifications](models/thelio-major-b2/thelio-major-b2-service-manual/Specifications/Specifications.md)
 - [Components](components/README.md)
     - [Intel](components/intel/README.md)
         - [Central Processing Unit (CPU)](components/intel/cpu/README.md)

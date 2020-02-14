@@ -60,6 +60,14 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 ![Close up view of the PCIe slot](/path/to/image.png)
 
+**Fig. 27:** Close up view of the PCIe slot.
+
+![Replacing the thumbscrews and GPU Bracket](/path/to/image.png)
+
+**Fig. 28:** Replacing the thumbscrews and GPU Bracket.
+
+
+
 1. After removing the GPU (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe lane slot until it clicks into place.
 2. Once the GPU is securely in place, attach the internal and external brackets.
 3. Securely fasten the brackets in place with the provided thumbscrews.
@@ -69,6 +77,14 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 7. Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.
 
 **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connectors in your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
+
+![Showing variations of pin connections on GPU cards - 8-pin ](/path/to/image.png)
+![Showing variations of pin connections on GPU cards - 12-pin ](/path/to/image.png)
+![Showing variations of pin connections on GPU cards - 16-pin ](/path/to/image.png)
+
+**Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (left), 12-pin (middle), 16-pin (right).
+
+<!--placement of the pictures may change-->
 
 8. Once the GPU is connected and the power cables secured, replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.

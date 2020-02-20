@@ -1,5 +1,7 @@
 # Internal Overview
 
+![Internal Overview](../images/thelio-major-b2_side-view.png)
+
 ## Power Switch Connections Overview
 
 The Thelio power button is wired as in the diagram and photo.

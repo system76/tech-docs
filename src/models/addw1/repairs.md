@@ -2,7 +2,7 @@
 
 Many components on your Adder WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
-- Replacing the keyboard
+- [Replacing the keyboard](#replacing-the-keyboard)
 - Removing the bottom cover
 - Replacing the RAM
 - Replacing an M.2/NVMe SSD

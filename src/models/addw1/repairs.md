@@ -18,7 +18,7 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
 **Difficulty:** Low    
-**Screws:** 2 total - 2 large M2, black (Keyboard M2)    
+**Screws:** 2 total - 2 x M2 (black)
 
 ### Steps to replace the keyboard:
 
@@ -52,3 +52,32 @@ connector to secure.
 14. Flip the Adder WS over.
 15. Replace the 2 screws holding the keyboard in place.
 16. Boot your Adder WS and confirm the keyboard is operational.
+
+## Removing the bottom cover:
+
+Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium    
+**Screws:** 14 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black)
+
+### Steps to remove the bottom cover:
+
+1. Place the Adder WS lid-side down.
+2. Remove the external battery.
+3. [Remove the keyboard.](#replacing-the-keyboard)
+4. Remove the two screws underneath the keyboard labeled ‘M2’.
+
+
+
+5. Remove the 12 perimeter screws.
+6. The bottom cover will lift off, starting from the front corners working to the back
+near the hinges.
+
+### Steps to replace the bottom cover:
+
+1. Align the bottom cover to the case towards the back and hinges.
+2. Set the bottom cover along the edges and confirm the bottom cover is seated.
+3. Replace the 12 perimeter screws.
+4. Replace the 2 keyboard screws.

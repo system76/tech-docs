@@ -13,6 +13,6 @@ The Thelio MB1 has several ports accessible from the rear of the machine.
 
 As well as an additional expansion port available via the PCI slot on the board.
 
-![External Thelio Ports Overview](/path/to/image.png)
+![External Thelio Ports Overview](../images/thelio-major-b2_back-ports.png)
 
 **Fig. 8:** External Thelio Ports Overview.

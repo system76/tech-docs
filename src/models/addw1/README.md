@@ -1,6 +1,7 @@
 # Adder WS (addw1)
 
 - [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
 
 ![Adder WS](./img/addw1.png)
 

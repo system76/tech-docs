@@ -4,6 +4,7 @@
 - [Models](models/README.md)
     - [Adder WS (addw1)](models/addw1/README.md)
         - [External Overview](models/addw1/external-overview.md)
+        - [Internal Overview](models/addw1/internal-overview.md)
     - [Lemur Pro (lemp9)](models/lemp9/README.md)
 - [Components](components/README.md)
     - [Intel](components/intel/README.md)

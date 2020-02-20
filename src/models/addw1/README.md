@@ -2,7 +2,7 @@
 
 - [External Overview](./external-overview.md)
 
-![Adder WS](./addw1.png)
+![Adder WS](./img/addw1.png)
 
 The System76 Adder WS is a laptop with the following specifications:
 

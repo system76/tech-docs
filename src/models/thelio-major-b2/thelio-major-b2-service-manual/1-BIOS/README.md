@@ -1,1 +1,0 @@
-Most of these README files are currently duplicates of the main article, but in future they could be used for staging edits, or listing changes, or how or why we're writing that section the way we are.

@@ -4,6 +4,8 @@
 - [Models](models/README.md)
     - [Lemur Pro (lemp9)](models/lemp9/README.md)
     - [Thelio Major B2 (thelio-major-b2)](models/thelio-major-b2/README.md)
+            - [External Overview](models/thelio-major-b2/external-overview.md)
+            - [Internal Overview](models/thelio-major-b2/internal-overview.md)
             - [Service Manual](models/thelio-major-b2/repairs.md)
     - [Intel](components/intel/README.md)
         - [Central Processing Unit (CPU)](components/intel/cpu/README.md)

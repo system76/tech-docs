@@ -1,6 +1,6 @@
 # Contents
 ## Thelio Major B2 BIOS Overview
-  ### BIOS
+- ### BIOS
   #### M.I.T.
   #### System
   #### BIOS
@@ -11,17 +11,17 @@
 
 ## User Serviceable Parts and Repairs
   ### Top Case (Remove or Replace)
-    #### Removing the Top Case
-    #### Replacing the Top Case
+  #### Removing the Top Case
+  #### Replacing the Top Case
   ### Shroud (Remove or Replace)
-    #### Removing the Shroud
-    #### Replacing the Shroud
+  #### Removing the Shroud
+  #### Replacing the Shroud
   ###  RAM (Remove or Replace)
-    #### Removing the RAM
-    #### Replacing the RAM
+  #### Removing the RAM
+  #### Replacing the RAM
   ### Drives (Remove or Replace)
-    #### Replacing a 2.5" Drive
-    #### Replacing an M.2/NVMe Drive
+  #### Replacing a 2.5" Drive
+  #### Replacing an M.2/NVMe Drive
   ### GPUs (Remove or Replace)
   ### CPU Thermal Paste (Remove or Replace)
   ### Specifications

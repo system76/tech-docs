@@ -1,5 +1,5 @@
 # Contents
-- ## Thelio B2 BIOS Overview
+- ## Thelio Major B2 BIOS Overview
      - ### BIOS
           - #### M.I.T.
           - #### System
@@ -9,7 +9,7 @@
           - #### Power
           - #### Save & Exit
 
-- ## Thelio B2 Hardware Overview
+- ## Thelio Major B2 Hardware Overview
      - ### External Overview
           - #### Ports Overview
           - #### Power Switch Connections Overview
@@ -96,6 +96,11 @@ Before servicing your Thelio, be sure to power off and unplug all cords from the
 
 Top Case removal is simple and requires, at most, a cross-head (Phillips) screwdriver.
 
+You can find video instructions on this process [here.](https://youtu.be/Ku91wRHFGY8)
+
+Link for the video for Top Case Service:
+(https://youtu.be/Ku91wRHFGY8)
+
 Tools required: Fingers or Cross-head (Phillips) screwdriver
 
 Time estimate: 2 minutes
@@ -109,14 +114,16 @@ Screws: 8 total
 
 **Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).
 
+<!--locations of photos and/or description may change.-->
+
 Removing the lid will give you easy access to all components inside.
-To remove the lid, you’ll need to unscrew the 4 thumbscrews from the back of the Thelio.
-These thumbscrews will be on the top left and right, and bottom left and right of the back of the case.
+To remove the lid, you’ll need to unscrew the eight (8) thumbscrews from the back of the Thelio.
+These thumbscrews will be on the top left and right, middle left and right, and bottom left and right of the back of the case.
 
 Do not unscrew any screws in the center of the panel here, as those screws correspond with parts inside; removing them will not assist you in removing the lid.
 All of Thelio’s thumbscrews are the same size, so don’t worry about mixing them up.
 And while a screwdriver is recommended for this procedure, it is not required.
-Once you have removed all 4 thumb-screws from the back of the lid, lift the lid up and off of the chassis.
+Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
 
 ![Thelio internals with Top Case completely removed](/path/to/image.png)
@@ -146,6 +153,7 @@ This guide explains how to easily replace the Thelio’s Top Case after performi
 
 **Fig. 11:** Aligning the Thelio Top Case for replacing (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).
 
+<!--locations of photos and/or description may change.-->
 
 # Shroud (Remove or replace)
 
@@ -169,6 +177,7 @@ CPU Cooler Shroud removal is simple and requires, at most, a cross-head (Phillip
 <!-- location of pictures on the page may change -->
 
 <!--Hyperlink to Removing Top Case section needed.-->
+<!--This section especially needs checked for accuracy.-->
 1. Follow the steps in Removing the Top Case
 2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
 3. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
@@ -213,6 +222,12 @@ CPU Cooler Shroud replacement is simple and requires, at most, a cross-head (Phi
 
 RAM stick removal is simple and requires only removing the Top Case and releasing internal clips. A cross-head (Phillips) screwdriver may be helpful.
 
+You can find video instructions on this process [here.](https://youtu.be/OFv8ByuDGU0)
+
+Link for the video for RAM Service:
+(https://youtu.be/OFv8ByuDGU0)
+
+
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver (for Top Case)
 
 **Time estimate:** 5 minutes
@@ -234,6 +249,7 @@ RAM stick removal is simple and requires only removing the Top Case and releasin
 
 1. Follow the steps in Removing the Top Case.
 2. It may be helpful, but is not necessary, to Remove the CPU Cooler Shroud.
+<!--it may be necessary on this model.-->
 3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
 4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
 
@@ -276,29 +292,29 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 
 ## Removing the GPU
 
-GPU Removal is a multistep process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
+GPU Removal is a multi-step process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 **Time estimate:** 10 minutes.
 **Difficulty:** ***Medium***
-**Screws:** 16 total
-  - 16 Thumbscrews (Phillips/Crosshead).
+**Screws:** 19 total
+  - 19 Thumbscrews (Phillips/Crosshead).
 
 In this guide, you will learn how to remove the graphics card on your Thelio. These steps must be taken in order to replace the GPU.
-You can find video instructions on this process [here.](https://www.youtube.com/watch?v=isHxPhDeffs)
+You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
 
 Link for the video for GPU removal:
-(https://www.youtube.com/watch?v=isHxPhDeffs)
+(https://youtu.be/3bUcp0S1HrE)
 
 
 **Before you remove the lid, be sure to power off and unplug all cords from the computer.**
 
 1. First follow the steps in Removing the Top Case.
 2. It may also be helpful to Remove the CPU Cooler Shroud.
-3. To remove your graphics card, twist off the 4 thumbscrews from the PCI bracket.
+3. To remove your graphics card, twist off the 3 thumbscrews from the PCI bracket.
 4. Remove the GPU brace. Unscrew the bottom two screws, and then the top two screws, to remove the brace. Both the PCI bracket and the GPU brace keep your graphics card secure and in place (Fig 23).
 5. Remove the GPU from the PCIe slot by pressing on the release clip on the right. This is where your chosen (non-metal) poking tool may come in handy, to reach the clip on the board without trying to squeeze your hand between components.
-6. Disconnect the power cables from the GPU (if applicable), and tie back any cables you aren’t planning on using with the provided velcro straps.
+6. Disconnect the power cables from the GPU (if applicable), and tie back any cables you are not planning on using with the provided velcro straps.
 7. Now you are ready to install an alternative or replacement GPU.
 8. If you are not planning on installing another GPU follow the steps to Replace the CPU Cooler Shroud, Replace the Top Case, and reconnect all cables and peripherals.
 
@@ -323,8 +339,8 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 **Time estimate:** 10 minutes.
 **Difficulty:** ***Medium***
-**Screws:** 16 total
-  - 16 Thumbscrews (Phillips/Crosshead).
+**Screws:** 19 total
+  - 19 Thumbscrews (Phillips/Crosshead).
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on Removing the GPU
 
@@ -342,7 +358,7 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 
 
-1. After removing the GPU (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe lane slot until it clicks into place.
+1. After removing the GPU (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe slot until it clicks into place.
 2. Once the GPU is securely in place, attach the internal and external brackets.
 3. Securely fasten the brackets in place with the provided thumbscrews.
 4. Prepare the necessary power connectors for your graphics card. You can tell which wires you’ll need by looking at the ports on the front of your GPU. The necessary cabling is provided inside your Thelio’s chassis.
@@ -350,7 +366,7 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 6. Connect the power cables to the GPU selecting the cables based on the number of pins (See NOTE below).
 7. Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.
 
-**NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connectors in your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
+**NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
 
 ![Showing variations of pin connections on GPU cards - 8-pin ](/path/to/image.png)
 ![Showing variations of pin connections on GPU cards - 12-pin ](/path/to/image.png)
@@ -366,19 +382,26 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 # Drives (Remove or Replace)
 
+In this guide, you will learn how to remove or replace drives in your Thelio.
+You can find video instructions on this process [here.](https://youtu.be/6fIeVEaY7dE)
+
+Link for the video for Drive Service removal:
+(https://youtu.be/6fIeVEaY7dE)
+
+
 ## 2.5" SATA Drives
 
-The thelio B1 provides four (4) slots for 2.5” SATA drives. They are housed in the Thelio Drive Cage for easy access. Each drive is connected to a SATA port on the Thelio IO board, which acts as a conduit, connecting the drives to the motherboard.
+The Thelio Major B2 provides eight (8) slots for 2.5” SATA drives. They are housed in the Thelio Drive Cage for easy access. Each drive is connected to a SATA port on the Thelio IO board, which acts as a conduit, connecting the drives to the motherboard.
 
 
 ## M.2 Drives
 
-The Thelio B1 has two M.2 drive slots. One on the inside of the board, above the PCIe slot which holds the GPU, and one on the back of the unit on the outside of the board (pictured above).
+The Thelio Major B1 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (pictured above).
 
-The internal M.2 storage drive is situated somewhat behind the GPU in the chassis. If you install an M.2 drive in this slot, you may need to remove the GPU beforehand to free up space. You can find video instructions on this process here. If your Thelio has only one M.2 drive, or do not have a GPU installed. You can simply unscrew the M.2 drive from the chassis, without needing to remove a GPU.
+One internal M.2 storage drive is situated somewhat behind the top GPU in the chassis. If you install an M.2 drive in this slot, you may need to remove the GPU beforehand to free up space. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE) Another M.2 drive is situated beneath the right RAM slots, and so you will likely need to remove the CPU Cooler Shroud to gain easier access. If your Thelio has only one M.2 drive, or do not have a GPU installed. You can simply unscrew the M.2 drive from the chassis, without needing to remove a GPU.
 
 Link for the video for GPU removal:
-(https://www.youtube.com/watch?v=isHxPhDeffs)
+(https://youtu.be/3bUcp0S1HrE)
 
 ## Removing a 2.5" Drive
 
@@ -407,8 +430,8 @@ Removing a 2.5” is simple. A cross-head (Phillips) screwdriver may be helpful.
 To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. We’ve provided screws for you on the chassis because we know just how easy they are to lose.
 
 1. Follow the steps to Remove the Top case.
-2. You may want to remove the washer out of the bracket. Do so by simply pushing up from underneath the bracket until the washer pops out.
-3. Next, simply slide each screw along the top bar to the opening and remove the screw.
+2. You may want to remove the washer out of the provided bar-bracket. Do so by simply pushing up from underneath the bracket until the washer pops out.
+3. Next, simply slide each screw along the bar-bracket to the opening and remove the screw.
 4. Screw these four thumbscrews into the holes at the corners of the drive to keep it securely fastened in the drive cage.
 5. Before inserting the drive into the drive cage, line up the connectors on the drive with the connectors in the drive cage.
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
@@ -418,7 +441,7 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. We
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
-## Removing an M.2 Drives
+## Removing an M.2 Drive
 
 Removing an M.2 drive is simple, but may require removal of the GPU or CPU Cooler Shroud for easier access. A cross-head (Phillips) screwdriver is required.
 
@@ -447,13 +470,13 @@ Replacing an M.2 drive is simple, but may require removal of the GPU or CPU Cool
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 **Time estimate:** 5-10 minutes.
 **Difficulty:** ***Easy-Medium***
-**Screws:** 9 total
-  - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.
+**Screws:** 13 total
+  - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-  ![Thelio's front M.2 drive slot](/path/to/image.png)
+  ![Thelio's front M.2 drive slots](/path/to/image.png)
 
-  **Fig. 32:** Thelio’s front M.2 drive slot.
+  **Fig. 32:** Thelio’s front M.2 drive slots.
 
 1. Follow the steps to Remove the Top Case.
 2. Remove the CPU Cooler Shroud (if applicable).
@@ -500,8 +523,8 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 1. Follow the steps in Removing the Top Case.
 2. Follow the steps in Removing the CPU Cooler Shroud.
 3. Follow the steps in Removing the GPU (if applicable).
-4. Gently but firmly separate the Cooling Fan from the Heat Sink (fig. 33). The fan is held on by clips which can be pried from the sides of the heatsink.
-5. Next, disconnect the power cables from the Cooling Fan.
+4. Gently but firmly separate the Cooling Fans from the Heat Sink (fig. 33). The fans are held on by clips which can be pried from the sides of the heatsink.
+5. Next, disconnect the power cables from the Cooling Fans.
 6. Remove the four (4) bracket screws fastening the Heat Sink to the board. Loosen the screws one at a time and moving from opposite corner to opposite corner across the Heat Sink. For example: first, top left screw, then bottom right screw (fig. 34). This ensures even pressure between the brackets and the motherboard.
 7. Lift the Heat Sink off of the motherboard.
 8. You’ll notice that there is Thermal Paste coating the bottom of the Heat Sink as well as the CPU core.
@@ -555,8 +578,8 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 2. Once the Heat Sink and CPU core are free of old Thermal Paste, apply new paste in a line down the middle of the CPU core (fig. 37).
 3. Once the paste is applied, replace the Heat Sink over top of it. The Heat Sink will spread the thermal paste across the CPU core, there is no need to spread it yourself.
 4. Re-fasten the four (4) screws on the Heat Sink. In fastening the screws, partially tighten them one at a time, and move diagonally to the opposite corner. For example, tighten the top-left screw halfway, then move to the bottom right, and tighten that halfway, and so on. This ensures even pressure between the brackets and the motherboard.
-5. Once the Heat Sink is fastened down, clip the CPU Cooling Fan back onto the Heat Sink.
-6. Reconnect the power cables to the CPU Cooling Fan.
+5. Once the Heat Sink is fastened down, clip the CPU Cooling Fans back onto the Heat Sink.
+6. Reconnect the power cables to the CPU Cooling Fans.
 7. Follow the steps in Replacing the GPU (if applicable).
 8. Next, follow the steps in Replacing the CPU Cooler Shroud.
 9. Follow the steps in Replacing the Top Case.

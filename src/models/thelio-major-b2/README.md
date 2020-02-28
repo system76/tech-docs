@@ -14,27 +14,33 @@ Intel® Core™ X series
 
 **Graphics** 	
 
-Up to 3× AMD® or NVIDIA® Graphics
+Up to 2× AMD® or NVIDIA® Graphics
 
 **Video Ports (Dependent on GPU selection):**
 
 - Radeon RX 550: 1× DisplayPort, 1× HDMI, 1× DVI
 
-- Radeon RX 580: 3× DisplayPort, 1× HDMI,
+- Radeon RX 590: 3× DisplayPort, 1× HDMI
+
+- Radeon RX 5700: 3× DisplayPort, 1× HDMI
+
+- Radeon RX 5700 XT: 3× DisplayPort, 1× HDMI
 
 - RX Vega 64: 3× DisplayPort, 1× HDMI
 
-- GeForce RTX 2070: 3× DisplayPort, 1× HDMI, 1× USB Type-C
+- GeForce RTX 2060 Super: 3× DisplayPort, 1× HDMI
 
-- GeForce RTX 2080: 3× DisplayPort, 1× HDMI, 1× USB Type-C
+- GeForce RTX 2070 Super: 3× DisplayPort, 1× HDMI, 1× USB Type-C
+
+- GeForce RTX 2080 Super: 3× DisplayPort, 1× HDMI, 1× USB Type-C
 
 - GeForce RTX 2080Ti: × DisplayPort, 1× HDMI, 1× USB Type-C
 
-- Titan V: 3× DisplayPort, 1× HDMI
+- RTX Titan: 3× DisplayPort, 1× HDMI, 1× USB Type-C
 
 **Memory** 	
 
-Up to 128 GB Quad Channel DDR4 @ 2666 MHz
+Up to 256 GB Quad Channel DDR4
 
 **Storage** 	
 
@@ -42,16 +48,14 @@ Up to 46 TB, M.2 NVMe and 2.5″ SATA drives
 
 **Rear Ports** 	
 
-- 4× USB 3.1 Gen 1
-- 4× USB 3.1 Gen 2 Type-A
-- 1× USB 3.1 Type-C
-- 1× RJ-45 Port
+- 1× USB 3.1 Type C
+- 1× USB3.1 Gen 2 Type A (red)
+- 6× USB 3.1 Gen 1
+- 1× RJ-45 Port (Ethernet)
 
 **Rear Audio** 	
 
-- Mic Jack
-- Line In
-- Line Out
+6× auido jacks (Center/Subwoofer Speaker Out, Rear Speaker Out, Side Speaker Out, Line In, Line Out, Mic In)
 
 **Networking** 	
 
@@ -60,7 +64,7 @@ Up to 46 TB, M.2 NVMe and 2.5″ SATA drives
 
 **Power Supply** 	
 
-1300W 80+ Certified (90% or greater power efficiency)
+1000W 80+ Certified (90% or greater power efficiency)
 
 **Dimensions** 	
 
@@ -70,4 +74,4 @@ Height × Width × Depth
 
 **Model** 	
 
-thelio-major-b1
+thelio-major-b2

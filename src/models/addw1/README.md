@@ -3,6 +3,7 @@
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
+- [UEFI Setup & Specifications](./setup-specs.md)
 
 ![Adder WS](./img/addw1.png)
 

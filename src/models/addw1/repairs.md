@@ -191,7 +191,7 @@ Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a 
 
 ### Steps to replace the WiFi/Bluetooth module
 
-1. Follow the steps above to remove the cover.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card.
 3. Gently remove the two antennas by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot.

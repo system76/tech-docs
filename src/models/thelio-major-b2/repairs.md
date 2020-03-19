@@ -104,7 +104,7 @@ Difficulty: <span style="color:green">Easy</span>
 Screws: 8 total
   - 8 Thumbscrews (Phillips/Crosshead).
 
-![Thelio Outer Case views](/path/to/image.png)
+![Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
 
 **Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).
 
@@ -120,7 +120,7 @@ And while a screwdriver is recommended for this procedure, it is not required.
 Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
 
-![Thelio internals with Top Case completely removed](/path/to/image.png)
+![Thelio internals with Top Case completely removed](../../pictures/thelio/thelio-b1/)
 
 **Fig. 10:** Thelio internals with Top Case completely removed.
 
@@ -143,7 +143,7 @@ This guide explains how to easily replace the Thelio’s Top Case after performi
 3. Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally.
 4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
 
-![Aligning the Thelio Top Case for replacing](/path/to/image.png)
+![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.JPG)
 
 **Fig. 11:** Aligning the Thelio Top Case for replacing (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).
 
@@ -163,8 +163,8 @@ CPU Cooler Shroud removal is simple and requires, at most, a cross-head (Phillip
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Removing CPU Cooler Shroud thumbscrews](/path/to/image.png)
-  ![Internal view of the CPU Cooler Shroud](/path/to/image.png)
+  ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio/thelio-b1/)
+  ![Internal view of the CPU Cooler Shroud](../../pictures/thelio/thelio-b1/)
 
 **Fig. 18:** Removing CPU Cooler Shroud thumbscrews (left). Internal view of the CPU Cooler Shroud (right).
 
@@ -191,14 +191,14 @@ CPU Cooler Shroud replacement is simple and requires, at most, a cross-head (Phi
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![CPU Cooler with Shroud removed side](/path/to/image.png)
-  ![CPU Cooler with Shroud removed top](/path/to/image.png)
+  ![CPU Cooler with Shroud removed side](../../pictures/thelio/thelio-b1/cooler/cooler-without-shroud.JPG)
+  ![CPU Cooler with Shroud removed top](../../pictures/thelio/thelio-b1/cooler/cooler-and-fan-without-shroud.JPG)
 
 **Fig. 19:** CPU Cooler with Shroud removed side view (left) and top (right).
 
 <!-- location of pictures on the page may change -->
 
-  ![Replacing the CPU Cooler Shroud and thumbscrews](/path/to/image.png)
+  ![Replacing the CPU Cooler Shroud and thumbscrews](../../pictures/thelio/thelio-b1/)
 
 **Fig. 20:** Replacing the CPU Cooler Shroud and thumbscrews.
 
@@ -231,11 +231,11 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Accessing the RAM release clips](/path/to/image.png)
+  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.JPG)
 
-  ![Placement of the RAM notch on the motherboard](/path/to/image.png)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.JPG)
 
-  ![Placement of the RAM notch on the RAM stick](/path/to/image.png)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
 **Fig. 21:** Accessing the RAM release clips (left). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (right)
 
@@ -264,11 +264,11 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Placement of the RAM notch on the motherboard](/path/to/image.png)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram/ram-board-slot-notch-indicated.JPG)
 
-  ![Placement of the RAM notch on the RAM stick](/path/to/image.png)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
-  ![Pressing the RAM stick down into place](/path/to/image.png)
+  ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.JPG)
 
   **Fig. 22:** Indicating the RAM notch on the motherboard (left), and on the RAM stick (middle). Pressing the RAM stick down into place (right).
 
@@ -315,16 +315,16 @@ Link for the video for GPU removal:
 7. Now you are ready to install an alternative or replacement GPU.
 8. If you are not planning on installing another GPU follow the steps to Replace the CPU Cooler Shroud, Replace the Top Case, and reconnect all cables and peripherals.
 
-![Removing the thumbscrews and GPU Bracket](/path/to/image.png)
+![Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.
 
-![Close view of the GPU leaving the PCIe slot](/path/to/image.png)
-![PCIe release switch](/path/to/image.png)
+![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/)
+![PCIe release switch](../../pictures/thelio/thelio-b1/)
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (left) and the PCIe release switch (right).
 
-![Removal of the GPU external view](/path/to/image.png)
+![Removal of the GPU external view](../../pictures/thelio/thelio-b1/)
 
 **Fig. 25:** Removal of the GPU external view.
 
@@ -344,15 +344,15 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on Removing the GPU
 
-  ![Thelio internal context view of PCIe slot](/path/to/image.png)
+  ![Thelio internal context view of PCIe slot](../../pictures/thelio/thelio-b1/)
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 
-![Close up view of the PCIe slot](/path/to/image.png)
+![Close up view of the PCIe slot](../../pictures/thelio/thelio-b1/)
 
 **Fig. 27:** Close up view of the PCIe slot.
 
-![Replacing the thumbscrews and GPU Bracket](/path/to/image.png)
+![Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
 **Fig. 28:** Replacing the thumbscrews and GPU Bracket.
 
@@ -368,9 +368,9 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
 
-![Showing variations of pin connections on GPU cards - 8-pin ](/path/to/image.png)
-![Showing variations of pin connections on GPU cards - 12-pin ](/path/to/image.png)
-![Showing variations of pin connections on GPU cards - 16-pin ](/path/to/image.png)
+![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/)
+![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/)
+![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/)
 
 **Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (left), 12-pin (middle), 16-pin (right).
 
@@ -443,7 +443,7 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. We
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
 7. Replace the Top Case and reconnect all cables.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](/path/to/image.png)
+![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/)
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
@@ -486,7 +486,7 @@ Replacing an M.2 drive is simple, but may require removal of the GPU or CPU Cool
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-  ![Thelio's front M.2 drive slots](/path/to/image.png)
+  ![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
 
   **Fig. 32:** Thelio’s front M.2 drive slots.
 
@@ -551,21 +551,21 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 **NOTE: DO NOT use your Thelio without thermal paste.** Steps 11-12 above are there simply to help you reassemble your machine if you are not yet ready to apply new Thermal Paste. Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
 
-![Removing the CPU Cooler Fan from the Heat Sink](/path/to/image.png)
+![Removing the CPU Cooler Fan from the Heat Sink](../../pictures/thelio/thelio-b1/)
 
 **Fig. 33:** Removing the CPU Cooler Fan from the Heat Sink.
 
-![Loosening/Removing screws on opposite corners](/path/to/image.png)
+![Loosening/Removing screws on opposite corners](../../pictures/thelio/thelio-b1/)
 
 **Fig. 34:** Loosening/Removing screws on opposite corners.
 
-![Lifting the Heat Sink free](/path/to/image.png)
-![The bottom of the heat sink covered in old Thermal Paste](/path/to/image.png)
+![Lifting the Heat Sink free](../../pictures/thelio/thelio-b1/)
+![The bottom of the heat sink covered in old Thermal Paste](../../pictures/thelio/thelio-b1/)
 
 **Fig. 35:** Lifting the Heat Sink free (left). The bottom of the heat sink covered in old Thermal Paste.
 
-![Cleaning old thermal paste of the bottom of the Heat Sink](/path/to/image.png)
-![Cleaning old thermal paste of the CPU Core](/path/to/image.png)
+![Cleaning old thermal paste of the bottom of the Heat Sink](../../pictures/thelio/thelio-b1/)
+![Cleaning old thermal paste of the CPU Core](../../pictures/thelio/thelio-b1/)
 
 **Fig. 36:** Cleaning old thermal paste of the bottom of the Heat Sink (left), and off the CPU core (right).
 
@@ -599,7 +599,8 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 11. Power on the Thelio to ensure successful boot.
 
 
-![A cleaned CPU core](/path/to/image.png)
-![Reapplied thermal paste on the core](/path/to/image.png)
+![A cleaned CPU core](../../pictures/thelio/thelio-b1/)
 
-**Fig. 37:** A cleaned CPU core (left), reapplied Thermal paste on the core (right).
+![Reapplied thermal paste on the core](../../pictures/thelio/thelio-b1/)
+
+**Fig. 37:** A cleaned CPU core (left), reapplied thermal paste on the core (right).

@@ -40,43 +40,45 @@ ESC : BIOS
 
 END : Q-Flash
 
-[Image]
+## M.I.T
+
+![M.I.T](./img/MIT.BMP)
 
 **Fig. 1:** The M.I.T. page allows tweaking the frequency of some system components.
 
 ## System
 
-![System summary in BIOS](path/to/photo.png)
+![System summary in BIOS](./img/System.BMP)
 
 **Fig. 2:** System summary in BIOS.
 
 ## BIOS
 
-![BIOS boot summary](path/to/photo.png)
+![BIOS boot summary](./img/BIOS.BMP)
 
 **Fig. 3:** BIOS boot summary.
 
 ## Peripherals
 
-[Image]
+![Peripherals](./img/Peripherals.BMP)
 
 **Fig. 4:** BIOS section for Peripheral setup.
 
 ## Chipset
 
-[Image]
+![Chipset](./img/Chipset.BMP)
 
 **Fig. 5:** Chipset information in Thelio BIOS.
 
 ## Power
 
-[Image]
+![Power](./img/Power.BMP)
 
 Fig. 6: Power Management settings.
 
 ## Save & Exit
 
-[Image]
+![Save & Exit](./img/Save&Exit.BMP)
 
 Fig. 7: Exit the BIOS saving changes to settings.
 

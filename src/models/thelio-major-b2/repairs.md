@@ -319,7 +319,7 @@ Link for the video for GPU removal:
 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.
 
-![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/)
+![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
 ![PCIe release switch](../../pictures/thelio/thelio-b1/)
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (left) and the PCIe release switch (right).
@@ -368,9 +368,9 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
 
-![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/)
-![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/)
-![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/)
+![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-8pin.jpg)
+![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
+![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-16pin.jpg)
 
 **Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (left), 12-pin (middle), 16-pin (right).
 
@@ -443,7 +443,10 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. We
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
 7. Replace the Top Case and reconnect all cables.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/)
+![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.JPG)
+![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.JPG)
+![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.JPG)
+![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.JPG)
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
@@ -551,21 +554,20 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 **NOTE: DO NOT use your Thelio without thermal paste.** Steps 11-12 above are there simply to help you reassemble your machine if you are not yet ready to apply new Thermal Paste. Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
 
-![Removing the CPU Cooler Fan from the Heat Sink](../../pictures/thelio/thelio-b1/)
+![Removing the CPU Cooler Fan from the Heat Sink](../../pictures/thelio/thelio-b1/cooler/separating-fan-and-cooler)
 
 **Fig. 33:** Removing the CPU Cooler Fan from the Heat Sink.
 
-![Loosening/Removing screws on opposite corners](../../pictures/thelio/thelio-b1/)
+![Loosening/Removing screws on opposite corners](../../pictures/thelio/thelio-b1/cooler/unscrew-cpu-cooler-bracket.JPG)
 
 **Fig. 34:** Loosening/Removing screws on opposite corners.
 
-![Lifting the Heat Sink free](../../pictures/thelio/thelio-b1/)
-![The bottom of the heat sink covered in old Thermal Paste](../../pictures/thelio/thelio-b1/)
+![Lifting the Heat Sink free](../../pictures/thelio/thelio-b1/cooler/cpu-cooler-with-old-paste.JPG)
 
 **Fig. 35:** Lifting the Heat Sink free (left). The bottom of the heat sink covered in old Thermal Paste.
 
-![Cleaning old thermal paste of the bottom of the Heat Sink](../../pictures/thelio/thelio-b1/)
-![Cleaning old thermal paste of the CPU Core](../../pictures/thelio/thelio-b1/)
+![Cleaning old thermal paste of the bottom of the Heat Sink](../../pictures/thelio/thelio-b1/cooler/cleaning-cooler.JPG)
+![Cleaning old thermal paste of the CPU Core](../../pictures/thelio/thelio-b1/cpu/cleaning-cpu-core.JPG)
 
 **Fig. 36:** Cleaning old thermal paste of the bottom of the Heat Sink (left), and off the CPU core (right).
 
@@ -599,8 +601,8 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 11. Power on the Thelio to ensure successful boot.
 
 
-![A cleaned CPU core](../../pictures/thelio/thelio-b1/)
+![A cleaned CPU core](../../pictures/thelio/thelio-b1/cpu/cpu-core-wiped-clean.JPG)
 
-![Reapplied thermal paste on the core](../../pictures/thelio/thelio-b1/)
+![Reapplied thermal paste on the core](../../pictures/thelio/thelio-b1/cpu/new-thermal-paste-cpu-core.JPG)
 
 **Fig. 37:** A cleaned CPU core (left), reapplied thermal paste on the core (right).

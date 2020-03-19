@@ -99,7 +99,7 @@ Tools required: Fingers or Cross-head (Phillips) screwdriver
 
 Time estimate: 2 minutes
 
-Difficulty: **Easy**
+Difficulty: <span style="color:green">Easy</span>
 
 Screws: 8 total
   - 8 Thumbscrews (Phillips/Crosshead).
@@ -127,13 +127,13 @@ Now you can proceed with servicing your machine.
 ## Replacing the Top Case
 Top Case replacement is simple and requires, at most, a cross-head (Phillips) screwdriver.
 
-Tools required: Fingers or Cross-head (Phillips) screwdriver
+**Tools required**: Fingers or Cross-head (Phillips) screwdriver
 
-Time estimate: 2 minutes
+**Time estimate**: 2 minutes
 
-Difficulty: **Easy**
+**Difficulty:** <span style="color:green">Easy</span>
 
-Screws: 8 total
+**Screws:** 8 total
  - 8 Thumbscrews (Phillips/Crosshead).
 
 This guide explains how to easily replace the Thelio’s Top Case after performing maintenance.
@@ -158,7 +158,7 @@ CPU Cooler Shroud removal is simple and requires, at most, a cross-head (Phillip
 
 **Time estimate:** 2 minutes
 
-**Difficulty:** *Easy*
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
@@ -186,7 +186,7 @@ CPU Cooler Shroud replacement is simple and requires, at most, a cross-head (Phi
 
 **Time estimate:** 2 minutes
 
-**Difficulty:** *Easy*
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
@@ -226,7 +226,7 @@ Link for the video for RAM Service:
 
 **Time estimate:** 5 minutes
 
-**Difficulty:** *Easy*
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
@@ -259,7 +259,7 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 
 **Time estimate:** 5 minutes
 
-**Difficulty:** *Easy*
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
@@ -289,8 +289,11 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 GPU Removal is a multi-step process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 10 minutes.
-**Difficulty:** ***Medium***
+
+**Difficulty:** <span style="color:yellow">Medium</span>
+
 **Screws:** 19 total
   - 19 Thumbscrews (Phillips/Crosshead).
 
@@ -331,8 +334,11 @@ Link for the video for GPU removal:
 GPU Replacement is a multistep process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful.
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 10 minutes.
-**Difficulty:** ***Medium***
+
+**Difficulty:** <span style="color:yellow">Medium</span>
+
 **Screws:** 19 total
   - 19 Thumbscrews (Phillips/Crosshead).
 
@@ -400,8 +406,11 @@ Link for the video for GPU removal:
 ## Removing a 2.5" Drive
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 10 minutes.
-**Difficulty:** ***Easy***
+
+**Difficulty:** <span style="color:green">Easy</span>
+
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 4 Thumbscrews (Phillips/Crosshead) per Drive.
@@ -415,8 +424,11 @@ If you would like to remove the drive, gently pull on the drive and slide it out
 Removing a 2.5” is simple. A cross-head (Phillips) screwdriver may be helpful.
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 10 minutes.
-**Difficulty:** ***Easy***
+
+**Difficulty:** *Easy*
+
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 4 Thumbscrews (Phillips/Crosshead) per Drive.
@@ -440,8 +452,11 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. We
 Removing an M.2 drive is simple, but may require removal of the GPU or CPU Cooler Shroud for easier access. A cross-head (Phillips) screwdriver is required.
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 5-10 minutes.
-**Difficulty:** ***Easy-Medium***
+
+**Difficulty:** <span style="color:green">Easy</span>
+
 **Screws:** 9 total
   - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
@@ -462,8 +477,11 @@ Removing an M.2 drive is simple, but may require removal of the GPU or CPU Coole
 Replacing an M.2 drive is simple, but may require removal of the GPU or CPU Cooler Shroud for easier access. A cross-head (Phillips) screwdriver is required.
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
 **Time estimate:** 5-10 minutes.
-**Difficulty:** ***Easy-Medium***
+
+**Difficulty:** <span style="color:green">Easy</span>
+
 **Screws:** 13 total
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
@@ -505,7 +523,7 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 
 **Time estimate:** 15-20 mins.
 
-**Difficulty:** ***Hard***
+**Difficulty:** <span style="color:red">Hard</span>
 
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) on the Top Case.
@@ -560,7 +578,7 @@ Removing CPU thermal paste is straightforward but precise, involved, and require
 
 **Time estimate:** 15-20 mins.
 
-**Difficulty:** ***Hard***
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) on the Top Case.

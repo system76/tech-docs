@@ -22,6 +22,6 @@ As well as an additional expansion port available via the PCI slot on the board.
 
 ![Thelio external display ports overview](img/thelio-major-b2_video_ports-diagrams.png)
 
-**Fig. 17:** Thelio external display ports overview.
+**Fig. 2:** Thelio external display ports overview.
 
 If your Thelio does not have a GPU, then connect external monitors to the ports at the top, which are connected directly to the motherboard. If the Thelio has a GPU installed, then the top video out ports are disabled automatically.

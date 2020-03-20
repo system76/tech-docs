@@ -264,13 +264,13 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram/ram-board-slot-notch-indicated.JPG)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
   ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
 
-  **Fig. 22:** Indicating the RAM notch on the motherboard (left), and on the RAM stick (middle). Pressing the RAM stick down into place (right).
+  **Fig. 22:** Indicating the RAM notch on the motherboard (top), and on the RAM stick (middle). Pressing the RAM stick down into place (bottom).
 
 1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
 2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.
@@ -315,23 +315,23 @@ Link for the video for GPU removal:
 7. Now you are ready to install an alternative or replacement GPU.
 8. If you are not planning on installing another GPU follow the steps to Replace the CPU Cooler Shroud, Replace the Top Case, and reconnect all cables and peripherals.
 
-![Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
+<!--[Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
-**Fig. 23:** Removing the thumbscrews and GPU Bracket.
+**Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
 ![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
-![PCIe release switch](../../pictures/thelio/thelio-b1/)
+![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom.png)
 
-**Fig. 24:** Close view of the GPU leaving the PCIe slot (left) and the PCIe release switch (right).
+**Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
 
 ![Removal of the GPU external view](../../pictures/thelio/thelio-b1/)
 
-**Fig. 25:** Removal of the GPU external view.
+<!--**Fig. 25:** Removal of the GPU external view.-->
 
 
 ## Replacing the GPU
 
-GPU Replacement is a multistep process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful.
+GPU Replacement is a multi-step process, but it is not complicated. A cross-head (Phillips) screwdriver may be helpful.
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
@@ -348,13 +348,13 @@ GPU Replacement is a multistep process, but it is not complicated. A cross-head 
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 
-![Close up view of the PCIe slot](../../pictures/thelio/thelio-b1/)
+![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close.png)
 
-**Fig. 27:** Close up view of the PCIe slot.
+**Fig. 27:** Close up view of the PCIe slots.
 
-![Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
+<!--[Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
-**Fig. 28:** Replacing the thumbscrews and GPU Bracket.
+**Fig. 28:** Replacing the thumbscrews and GPU Bracket.-->
 
 
 

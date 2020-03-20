@@ -120,7 +120,7 @@ And while a screwdriver is recommended for this procedure, it is not required.
 Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
 
-![Thelio internals with Top Case completely removed](../../pictures/thelio/thelio-b1/)
+![Thelio internals with Top Case completely removed](../../pictures/thelio-major/thelio-major-b2/IMG_1099.jpeg)
 
 **Fig. 10:** Thelio internals with Top Case completely removed.
 
@@ -143,7 +143,7 @@ This guide explains how to easily replace the Thelio’s Top Case after performi
 3. Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally.
 4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
 
-![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.JPG)
+![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
 
 **Fig. 11:** Aligning the Thelio Top Case for replacing (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).
 

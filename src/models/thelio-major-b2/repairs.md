@@ -119,7 +119,7 @@ All of Thelio’s thumbscrews are the same size, so don’t worry about mixing t
 And while a screwdriver is recommended for this procedure, it is not required.
 Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
-
+<!--WARNING this is actually an R1-->
 ![Thelio internals with Top Case completely removed](../../pictures/thelio-major/thelio-major-b2/IMG_1099.jpeg)
 
 **Fig. 10:** Thelio internals with Top Case completely removed.

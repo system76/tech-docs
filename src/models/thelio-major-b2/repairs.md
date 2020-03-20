@@ -191,10 +191,10 @@ CPU Cooler Shroud replacement is simple and requires, at most, a cross-head (Phi
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![CPU Cooler with Shroud removed side](../../pictures/thelio/thelio-b1/cooler/cooler-without-shroud.JPG)
-  ![CPU Cooler with Shroud removed top](../../pictures/thelio/thelio-b1/cooler/cooler-and-fan-without-shroud.JPG)
+  ![IMAGE NEEDED](../../path/to/picture.png)
+  ![IMAGE NEEDED](../../path/to/picture.png)
 
-**Fig. 19:** CPU Cooler with Shroud removed side view (left) and top (right).
+**Fig. 19:** CPU Cooler with Shroud removed side view and top view.
 
 <!-- location of pictures on the page may change -->
 
@@ -231,13 +231,13 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.JPG)
+  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.png)
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.JPG)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
-**Fig. 21:** Accessing the RAM release clips (left). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (right)
+**Fig. 21:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
 
 <!-- location of pictures on the page may change -->
 
@@ -266,9 +266,9 @@ RAM stick replacement is simple and requires only access to the RAM slots on the
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram/ram-board-slot-notch-indicated.JPG)
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
-  ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.JPG)
+  ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
 
   **Fig. 22:** Indicating the RAM notch on the motherboard (left), and on the RAM stick (middle). Pressing the RAM stick down into place (right).
 

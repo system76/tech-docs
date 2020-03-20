@@ -20,7 +20,7 @@ As well as an additional expansion port available via the PCI slot on the board.
 
 # External Displays
 
-![Thelio external display ports overview](/path/to/image.png)
+![Thelio external display ports overview](img/thelio-major-b2_video_ports-diagrams.png)
 
 **Fig. 17:** Thelio external display ports overview.
 

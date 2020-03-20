@@ -114,7 +114,7 @@ These thumbscrews will be on the top left and right, middle left and right, and 
 
 Do not unscrew any screws in the center of the panel here, as those screws correspond with parts inside; removing them will not assist you in removing the lid.
 All of Thelio’s thumbscrews are the same size, so don’t worry about mixing them up.
-While a screwdriver is recommended for this procedure, it is not required.
+hile a screwdriver is recommended for this procedure, it is not required.
 Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
 <!--WARNING this is actually an R1-->

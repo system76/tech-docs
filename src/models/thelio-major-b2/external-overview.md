@@ -2,7 +2,7 @@
 
 ## Ports Overview
 
-The Thelio MB1 has several ports accessible from the rear of the machine.
+The Thelio MB2 has several ports accessible from the rear of the machine.
 
 - 4 USB 3.1 Gen 1 Ports
 - 4 USB 3.1 Gen 2 Ports
@@ -15,7 +15,7 @@ As well as an additional expansion port available via the PCI slot on the board.
 
 ![External Thelio Ports Overview](img/thelio-major-b2_back-ports.png)
 
-**Fig. 8:** External Thelio Ports Overview.
+**Fig. 1:** External Thelio Ports Overview.
 
 
 # External Displays

@@ -6,7 +6,7 @@ General Thelio Major B2 Information Goes here.
 
 **Operating System** 	
 
-Pop!\_OS 18.10 or 18.04 LTS (64-bit) or Ubuntu 18.04 LTS (64-bit)
+Pop!\_OS 19.10 or 18.04 LTS (64-bit) or Ubuntu 18.04 LTS (64-bit)
 
 **Processor** 	
 

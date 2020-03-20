@@ -88,8 +88,6 @@ Fig. 7: Exit the BIOS saving changes to settings.
 ## Removing the Top Case
 Before servicing your Thelio, be sure to power off and unplug all cords from the computer.
 
-Top Case removal is simple and requires, at most, a cross-head (Phillips) screwdriver.
-
 You can find video instructions on this process [here.](https://youtu.be/Ku91wRHFGY8)
 
 Link for the video for Top Case Service:
@@ -110,13 +108,13 @@ Screws: 8 total
 
 <!--locations of photos and/or description may change.-->
 
-Removing the lid will give you easy access to all components inside.
+Removing the lid will give you access to all components inside.
 To remove the lid, you’ll need to unscrew the eight (8) thumbscrews from the back of the Thelio.
 These thumbscrews will be on the top left and right, middle left and right, and bottom left and right of the back of the case.
 
 Do not unscrew any screws in the center of the panel here, as those screws correspond with parts inside; removing them will not assist you in removing the lid.
 All of Thelio’s thumbscrews are the same size, so don’t worry about mixing them up.
-And while a screwdriver is recommended for this procedure, it is not required.
+While a screwdriver is recommended for this procedure, it is not required.
 Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
 Now you can proceed with servicing your machine.
 <!--WARNING this is actually an R1-->

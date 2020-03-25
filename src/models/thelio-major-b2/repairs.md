@@ -151,28 +151,37 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 ## Removing the Shroud
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver
+**Tools required:** Cross-head (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
 
 **Difficulty:** <span style="color:green">Easy</span>
 
-**Screws:** 12 total
-  - 12 Thumbscrews (Phillips/Crosshead).
+**Screws:** 16 total
+  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
+  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
+  - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
 
-  ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio/thelio-b1/)
-  ![Internal view of the CPU Cooler Shroud](../../pictures/thelio/thelio-b1/)
+  ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230.jpg)
+  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959.jpg)
+  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003.jpg)
+  ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220.jpg)
+    ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
+  ![Internal view of the CPU Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154416.jpg)
+  ![Cooler and fan set aside](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154503.jpg)
 
-**Fig. 18:** Removing CPU Cooler Shroud thumbscrews (left). Internal view of the CPU Cooler Shroud (right).
 
-<!-- location of pictures on the page may change -->
+**Fig. 18:** Removing CPU Cooler Shroud thumbscrews (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down), Side view of Cooler Shroud (2nd down). Internal view with Shroud removed (3rd down) Internal view of the CPU Cooler Shroud (bottom).
+
 
 <!--Hyperlink to Removing Top Case section needed.-->
 <!--This section especially needs checked for accuracy.-->
 1. Follow the steps in Removing the Top Case
 2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-3. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
-4. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
+3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+4. Set the bracket and screws safely aside.
+5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
+5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
 
 
 ## Replacing the Shroud
@@ -183,24 +192,28 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 **Difficulty:** <span style="color:green">Easy</span>
 
-**Screws:** 12 total
-  - 12 Thumbscrews (Phillips/Crosshead).
+**Screws:** 16 total
+  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
+  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
+  - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
 
-  ![IMAGE NEEDED](../../path/to/picture.png)
-  ![IMAGE NEEDED](../../path/to/picture.png)
+  ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
+    ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003.jpg)
+  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959.jpg)
+  ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215.jpg)
 
-**Fig. 19:** CPU Cooler with Shroud removed side view and top view.
+**Fig. 19:** CPU Cooler with Shroud removed (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down) and shroud replaced (bottom).
 
-<!-- location of pictures on the page may change -->
 
-  ![Replacing the CPU Cooler Shroud and thumbscrews](../../pictures/thelio/thelio-b1/)
+  ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230.jpg)
 
 **Fig. 20:** Replacing the CPU Cooler Shroud and thumbscrews.
 
 1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
 2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
 3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
-4. Follow the steps in Replacing the Top Case.
+4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+5. Follow the steps in Replacing the Top Case.
 
 <!--Hyperlink to Replacing Top Case section needed.-->
 
@@ -315,7 +328,7 @@ Link for the video for GPU removal:
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
 
-![Removal of the GPU external view](../../pictures/thelio/thelio-b1/)
+<!--[Removal of the GPU external view](../../pictures/thelio/thelio-b1/)-->
 
 <!--**Fig. 25:** Removal of the GPU external view.-->
 
@@ -334,7 +347,7 @@ Link for the video for GPU removal:
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on Removing the GPU
 
-  ![Thelio internal context view of PCIe slot](../../pictures/thelio/thelio-b1/)
+  ![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 

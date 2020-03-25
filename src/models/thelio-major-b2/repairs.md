@@ -160,7 +160,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 **Screws:** 16 total
   - 8 Thumbscrews (Phillips/Cross-head) Top Case.
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
@@ -195,7 +195,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 **Screws:** 16 total
   - 8 Thumbscrews (Phillips/Cross-head) Top Case.
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)

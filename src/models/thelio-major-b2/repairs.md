@@ -162,11 +162,11 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
   - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
 
-  ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230.jpg)
-  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959.jpg)
-  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003.jpg)
+  ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
+  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
+  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
   ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220.jpg)
-    ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
+  ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
   ![Internal view of the CPU Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154416.jpg)
   ![Cooler and fan set aside](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154503.jpg)
 
@@ -198,14 +198,14 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   - 4 Phillips/Cross-head (non-thumbscrews) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
-    ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003.jpg)
-  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959.jpg)
+  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
+  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
   ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215.jpg)
 
 **Fig. 19:** CPU Cooler with Shroud removed (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down) and shroud replaced (bottom).
 
 
-  ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230.jpg)
+  ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
 **Fig. 20:** Replacing the CPU Cooler Shroud and thumbscrews.
 

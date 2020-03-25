@@ -165,7 +165,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
-  ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220.jpg)
+  ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220-arrow.jpg)
   ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
   ![Internal view of the CPU Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154416.jpg)
   ![Cooler and fan set aside](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154503.jpg)
@@ -324,7 +324,7 @@ Link for the video for GPU removal:
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
 ![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
-![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom.png)
+![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom-highlighted.png)
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
 

@@ -1,4 +1,4 @@
-# [Contents](#contents)
+# [Contents](#Contents)
 ## Thelio Major B2 BIOS Overview
 ### [BIOS](#BIOS)
 - [M.I.T.](#mit)

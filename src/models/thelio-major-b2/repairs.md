@@ -12,11 +12,7 @@
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
 - [Removing the Top Case](#removing-the-top-case)
-<<<<<<< HEAD
 - [Replacing the Top Case](#replacing-the-top-case)
-=======
-- Replacing the Top Case
->>>>>>> b59018827eda28a410fbdc55d0fd4450c7dc1c6f
 ### Shroud (Remove or Replace)
 - [Removing the Shroud](#removing-the-shroud)
 - [Replacing the Shroud](#replacing-the-shroud)

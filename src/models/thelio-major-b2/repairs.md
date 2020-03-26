@@ -11,7 +11,7 @@
 
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
-- Removing the Top Case
+- [Removing the Top Case](#removing-the-top-case)
 - Replacing the Top Case
 ### Shroud (Remove or Replace)
 - Removing the Shroud
@@ -609,10 +609,8 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 10. Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.
 11. Power on the Thelio to ensure successful boot.
 
-[PICTURES NEEDED]
+![A cleaned CPU core](../../pictures/thelio-major/thelio-major-r1/CPU/threadripper-close2.jpg)
 
-<!--[A cleaned CPU core](../../pictures/path/to/picture)
+![Reapplied thermal paste on the core](../../pictures/thelio-major/thelio-major-r1/CPU/cpu-with-thermal-paste.jpg)
 
-![Reapplied thermal paste on the core](../../pictures/path-to-picture)
-
-**Fig. 37:** A cleaned CPU core (left), reapplied thermal paste on the core (right).-->
+**Fig. 37:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).

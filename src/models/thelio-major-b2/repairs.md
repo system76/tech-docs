@@ -1,9 +1,9 @@
-# Contents
+# [Contents](#contents)
 ## Thelio Major B2 BIOS Overview
-### BIOS
+### [BIOS](#BIOS)
 - [M.I.T.](#mit)
 - [System](#system)
-- [BIOS](#bios)
+- [BIOS Menu](#biosmenu)
 - [Peripherals](#peripherals)
 - [Chipset](#chipset)
 - [Power](#power)
@@ -54,7 +54,7 @@ END : Q-Flash
 
 **Fig. 2:** System summary in BIOS.
 
-## BIOS
+## BIOS Menu
 
 ![BIOS boot summary](./img/BIOS.BMP)
 
@@ -84,6 +84,7 @@ Fig. 6: Power Management settings.
 
 Fig. 7: Exit the BIOS saving changes to settings.
 
+Return to [Contents](#contents)
 
 # Top Case (Remove or replace)
 
@@ -124,6 +125,9 @@ Now you can proceed with servicing your machine.
 
 **Fig. 10:** Thelio internals with Top Case completely removed.
 
+Return to [Contents](#contents)
+
+
 ## Replacing the Top Case
 This guide explains how to replace the Thelio’s Top Case after performing maintenance.
 
@@ -148,6 +152,9 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 <!-- (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).-->
 
 <!--locations of photos and/or description may change.-->
+
+Return to [Contents](#contents)
+
 
 # Shroud (Remove or replace)
 
@@ -185,6 +192,8 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
 5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
 
+Return to [Contents](#contents)
+
 
 ## Replacing the Shroud
 
@@ -215,9 +224,11 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
 3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
 4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
-5. Follow the steps in Replacing the Top Case.
+5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 
 <!--Hyperlink to Replacing Top Case section needed.-->
+
+Return to [Contents](#contents)
 
 
 # RAM (Remove or Replace)
@@ -249,14 +260,14 @@ Link for the video for RAM Service:
 
 <!-- location of pictures on the page may change -->
 
-1. Follow the steps in Removing the Top Case.
-2. It may be helpful, but is not necessary, to Remove the CPU Cooler Shroud.
+1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
+2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
 <!--it may be necessary on this model.-->
 3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
 4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
 
-<!--Hyperlink to Removing Top Case section needed.-->
-<!--Hyperlink to Removing The Cooler Shroud section needed.-->
+
+Return to [Contents](#contents)
 
 
 ## Replacing RAM Sticks
@@ -287,6 +298,8 @@ Link for the video for RAM Service:
 7. Reconnect external power cable and turn power-supply switch to the on position.
 8. Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.
 
+Return to [Contents](#contents)
+
 
 # GPU (Remove or replace)
 
@@ -312,14 +325,14 @@ Link for the video for GPU removal:
 
 **Before you remove the lid, be sure to power off and unplug all cords from the computer.**
 
-1. First follow the steps in Removing the Top Case.
-2. It may also be helpful to Remove the CPU Cooler Shroud.
+1. First follow the steps in [Removing the Top Case.](#removing-the-top-case)
+2. It may also be helpful to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
 3. To remove your graphics card, twist off the 3 thumbscrews from the PCI bracket.
 4. Remove the GPU brace. Unscrew the bottom two screws, and then the top two screws, to remove the brace. Both the PCI bracket and the GPU brace keep your graphics card secure and in place (Fig 23).
 5. Remove the GPU from the PCIe slot by pressing on the release clip on the right. This is where your chosen (non-metal) poking tool may come in handy, to reach the clip on the board without trying to squeeze your hand between components.
 6. Disconnect the power cables from the GPU (if applicable), and tie back any cables you are not planning on using with the provided velcro straps.
-7. Now you are ready to install an alternative or replacement GPU.
-8. If you are not planning on installing another GPU follow the steps to Replace the CPU Cooler Shroud, Replace the Top Case, and reconnect all cables and peripherals.
+7. Now you are ready to install an alternative or [replacement GPU.](#replacing-the-gpu)
+8. If you are not planning on installing another GPU follow the steps to [Replace the CPU Cooler Shroud,](#replacing-the-shroud) [Replace the Top Case,](#replacing-top-case) and reconnect all cables and peripherals.
 
 <!--[Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
@@ -333,6 +346,8 @@ Link for the video for GPU removal:
 <!--[Removal of the GPU external view](../../pictures/thelio/thelio-b1/)-->
 
 <!--**Fig. 25:** Removal of the GPU external view.-->
+
+Return to [Contents](#contents)
 
 
 ## Replacing the GPU
@@ -365,7 +380,7 @@ Link for the video for GPU removal:
 
 
 
-1. After removing the GPU (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe slot until it clicks into place.
+1. After [removing the GPU](#removing-the-gpu) (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe slot until it clicks into place.
 2. Once the GPU is securely in place, attach the internal and external brackets.
 3. Securely fasten the brackets in place with the provided thumbscrews.
 4. Prepare the necessary power connectors for your graphics card. You can tell which wires you’ll need by looking at the ports on the front of your GPU. The necessary cabling is provided inside your Thelio’s chassis.
@@ -385,6 +400,8 @@ Link for the video for GPU removal:
 
 8. Once the GPU is connected and the power cables secured, replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.
+
+Return to [Contents](#contents)
 
 
 # Drives (Remove or Replace)
@@ -426,6 +443,9 @@ Link for the video for GPU removal:
 
 To remove the drive, gently pull on the drive and slide it out from the drive cage.
 
+Return to [Contents](#contents)
+
+
 ## Installing a 2.5 Drive
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
@@ -440,13 +460,13 @@ To remove the drive, gently pull on the drive and slide it out from the drive ca
 
 To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Extra screws are provided on the chassis for convenience.
 
-1. Follow the steps to Remove the Top case.
+1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
 2. You may want to remove the washer out of the provided bar-bracket. Do so by pushing up from underneath the bracket until the washer pops out.
 3. Next, slide each screw along the bar-bracket to the opening and remove the screw.
 4. Screw these four thumbscrews into the holes at the corners of the drive to keep it securely fastened in the drive cage.
 5. Before inserting the drive into the drive cage, line up the connectors on the drive with the connectors in the drive cage.
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
-7. Replace the Top Case and reconnect all cables.
+7. [Replace the Top Case](#replacing-the-top-case) and reconnect all cables.
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
@@ -455,6 +475,9 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
+
+Return to [Contents](#contents)
+
 
 ## Removing an M.2 Drive
 
@@ -470,16 +493,19 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier a
   - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-1. Follow the steps to Remove the Top Case.
-2. Remove the CPU Cooler Shroud (if applicable).
-3. Remove the GPU (if applicable).
+1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
+2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
+3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Gently, but firmly remove the M.2 drive horizontally from the slot.
 6. Replace the screw, fastening the M.2 in place.
-7. Replace the GPU (if applicable).
-8. Replace the CPU Cooler Shroud (if applicable).
-9. Replace the Top Case.
+7. [Replace the GPU](#replacing-the-gpu) (if applicable).
+8. [Replace the CPU Cooler Shroud](#replacing-the-shroud) (if applicable).
+9. [Replace the Top Case.](#replacing-the-top-case)
 10. Reconnect all cables and peripherals.
+
+Return to [Contents](#contents)
+
 
 ## Replacing an M.2 Drive
 
@@ -499,16 +525,16 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
 
   **Fig. 32:** Thelio’s front M.2 drive slots.
 
-1. Follow the steps to Remove the Top Case.
-2. Remove the CPU Cooler Shroud (if applicable).
-3. Remove the GPU (if applicable).
+1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
+2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
+3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Line up the notch on the M.2 drive.
 6. Insert the new drive into its port on the motherboard.
 7. Replace the screw, fastening the M.2 in place.
-8. Replace the GPU (if applicable).
-9. Replace the CPU Cooler Shroud (if applicable).
-10. Replace the Top Case.
+8. [Replace the GPU](#replacing-the-gpu) (if applicable).
+9. [Replace the CPU](replacing-the-cooler) Cooler Shroud (if applicable).
+10. [Replace the Top Case.](#replacing-the-top-case)
 11. Reconnect all cables and peripherals.
 
 NOTE: By default, the first of the two M.2 drives (NVMe or not) stores your operating system, so you will need to reinstall the OS after replacing it. This can be done by restoring from a backup, or from a fresh install.
@@ -516,6 +542,8 @@ NOTE: By default, the first of the two M.2 drives (NVMe or not) stores your oper
 Pop!\_OS users, instructions to reinstall the OS can be found here: https://system76.com/pop
 
 Ubuntu users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-ubuntu/.
+
+Return to [Contents](#contents)
 
 
 # CPU Thermal Paste (Remove or Replace)
@@ -544,9 +572,9 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 <!-- all of these screw numbers will need verified-->
 
-1. Follow the steps in Removing the Top Case.
-2. Follow the steps in Removing the CPU Cooler Shroud.
-3. Follow the steps in Removing the GPU (if applicable).
+1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
+2. Follow the steps in [Removing the CPU Cooler Shroud.](#removing-the-shroud)
+3. Follow the steps in [Removing the GPU](#removing-the-gpu) (if applicable).
 4. Gently but firmly separate the Cooling Fans from the Heat Sink (fig. 33). The fans are held on by clips which can be pried from the sides of the heat sink.
 5. Next, disconnect the power cables from the Cooling Fans.
 6. Remove the four (4) bracket screws fastening the Heat Sink to the board. Loosen the screws one at a time. Move from opposite corner to opposite corner, diagonally across the Heat Sink. For example: first, top left screw, then bottom right screw (fig. 34). This ensures even pressure between the brackets and the motherboard.
@@ -556,9 +584,9 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 10. If you are replacing the Thermal Paste, continue on to the section Replacing the CPU Thermal Paste (See Important NOTE below).
 11. Replace the Heat Sink over the CPU core.
 12. Re-fasten the Heat Sink screws, again using the opposite corner method described above.
-13. Follow the steps to Replace the GPU (if applicable).
-14. Follow the steps to Replace the CPU Cooler Shroud.
-15. Follow the steps to Replace the Top Case.
+13. Follow the steps to [Replace the GPU](#replacing-the-gpu) (if applicable).
+14. Follow the steps to [Replace the CPU Cooler Shroud.](#replacing-the-shroud)
+15. Follow the steps to [Replace the Top Case.](#replacing-the-top-case)
 
 **NOTE: DO NOT use your Thelio without thermal paste.** Steps 11-12 above are there to help you reassemble your machine if you are not yet ready to apply new Thermal Paste. Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
@@ -581,6 +609,8 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 **Fig. 36:** Cleaning old thermal paste of the bottom of the Heat Sink (left), and off the CPU core (right).-->
 
+Return to [Contents](#contents)
+
 
 ## Replace the CPU Thermal paste
 
@@ -598,15 +628,15 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
   - 4 Bracket Screws securing the CPU heat sink.
 
 
-1. Follow steps 1-9 in Removing the CPU Thermal Paste.
+1. Follow steps 1-9 in [Removing the CPU Thermal Paste.](#removing-cpu-thermal-paste)
 2. Once the Heat Sink and CPU core are free of old Thermal Paste, apply new paste in a line down the middle of the CPU core (fig. 37).
 3. Once the paste is applied, replace the Heat Sink over top of it. The Heat Sink will spread the thermal paste across the CPU core, there is no need to spread it yourself.
 4. Re-fasten the four (4) screws on the Heat Sink. In fastening the screws, partially tighten them one at a time, and move diagonally to the opposite corner. For example, tighten the top-left screw halfway, then move to the bottom right, and tighten that halfway. Repeat until all screws are tight. This ensures even pressure between the brackets and the motherboard.
 5. Once the Heat Sink is fastened down, clip the CPU Cooling Fans back onto the Heat Sink.
 6. Reconnect the power cables to the CPU Cooling Fans.
-7. Follow the steps in Replacing the GPU (if applicable).
-8. Next, follow the steps in Replacing the CPU Cooler Shroud.
-9. Follow the steps in Replacing the Top Case.
+7. Follow the steps in [Replacing the GPU](#replacing-the-gpu) (if applicable).
+8. Next, follow the steps in [Replacing the CPU Cooler Shroud.](#replacing-the-shroud)
+9. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 10. Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.
 11. Power on the Thelio to ensure successful boot.
 
@@ -615,3 +645,5 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 ![Reapplied thermal paste on the core](../../pictures/thelio-major/thelio-major-r1/CPU/cpu-with-thermal-paste.jpg)
 
 **Fig. 37:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).
+
+Return to [Contents](#contents)

@@ -1,31 +1,34 @@
 # Contents
 ## Thelio Major B2 BIOS Overview
 ### BIOS
-- M.I.T.
-- System
-- BIOS
-- Peripherals
-- Chipset
-- Power
-- Save & Exit
+- [M.I.T.](#m.i.t.)
+- [System](#system)
+- [BIOS](#bios)
+- [Peripherals](#peripherals)
+- [Chipset](#chipset)
+- [Power](#power)
+- [Save & Exit](#save-&-exit)
 
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
-- Removing the Top Case
-- Replacing the Top Case
+- [Removing the Top Case](#removing-the-top-case)
+- [Replacing the Top Case](#replacing-the-top-case)
 ### Shroud (Remove or Replace)
-- Removing the Shroud
-- Replacing the Shroud
+- [Removing the Shroud](#removing-the-shroud)
+- [Replacing the Shroud](#replacing-the-shroud)
 ### RAM (Remove or Replace)
-- Removing the RAM
-- Replacing the RAM
+- [Removing the RAM](#removing-the-ram)
+- [Replacing the RAM](#replacing-the-ram)
+### GPU (Remove or Replace)
+- [Removing the GPU](#removing-the-gpu)
+- [Replacing the GPU](#replacing-the-gpu)
 ### Drives (Remove or Replace)
-- Replacing a 2.5" Drive
-- Replacing an M.2/NVMe Drive
-### GPUs (Remove or Replace)
+- [Replacing a 2.5" Drive](#replacing-a-2.5"-drive)
+- [Replacing an M.2/NVMe Drive](#replacing-an-m.2-/-nvme-drive)
 ### CPU Thermal Paste (Remove or Replace)
+- [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
 ### Specifications
-
+- [Specification](#specifications)
 
 
 # BIOS

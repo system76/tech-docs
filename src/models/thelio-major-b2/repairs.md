@@ -23,8 +23,8 @@
 - [Removing the GPU](#removing-the-gpu)
 - [Replacing the GPU](#replacing-the-gpu)
 ### Drives (Remove or Replace)
-- [Replacing a 2.5" Drive](#replacing-a-2.5"-drive)
-- [Replacing an M.2/NVMe Drive](#replacing-an-m.2-/-nvme-drive)
+- [Replacing a 2.5" Drive](#replacing-a-25-drive)
+- [Replacing an M.2/NVMe Drive](#replacing-an-m2-nvme-drive)
 ### CPU Thermal Paste (Remove or Replace)
 - [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
 ### Specifications

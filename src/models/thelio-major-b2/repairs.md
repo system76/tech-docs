@@ -7,7 +7,7 @@
 - [Peripherals](#peripherals)
 - [Chipset](#chipset)
 - [Power](#power)
-- [Save & Exit](#save-and-exit)
+- [Save and Exit](#save-and-exit)
 
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
@@ -17,13 +17,13 @@
 - [Removing the Shroud](#removing-the-shroud)
 - [Replacing the Shroud](#replacing-the-shroud)
 ### RAM (Remove or Replace)
-- [Removing the RAM](#removing-RAM-sticks)
-- [Replacing the RAM](#replacing-RAM-sticks)
+- [Removing the RAM](#removing-ram-sticks)
+- [Replacing the RAM](#replacing-ram-sticks)
 ### GPU (Remove or Replace)
 - [Removing the GPU](#removing-the-gpu)
 - [Replacing the GPU](#replacing-the-gpu)
 ### Drives (Remove or Replace)
-- [Replacing a 2.5" Drive](#replacing-a-25-drive)
+- [Replacing a 2.5" Drive](#replacing-a-2-5-drive)
 - [Replacing an M.2/NVMe Drive](#replacing-an-m2-nvme-drive)
 ### CPU Thermal Paste (Remove or Replace)
 - [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
@@ -79,7 +79,7 @@ END : Q-Flash
 
 Fig. 6: Power Management settings.
 
-## Save & Exit
+## Save and Exit
 
 ![Save & Exit](./img/Save&Exit.BMP)
 
@@ -96,7 +96,7 @@ You can find video instructions on this process [here.](https://youtu.be/Ku91wRH
 Link for the video for Top Case Service:
 (https://youtu.be/Ku91wRHFGY8)
 
-Tools required: Fingers or Cross-head (Phillips) screwdriver
+Tools required: Fingers or Crosshead (Phillips) screwdriver
 
 Time estimate: 2 minutes
 
@@ -128,7 +128,7 @@ Now you can proceed with servicing your machine.
 ## Replacing the Top Case
 This guide explains how to replace the Thelio’s Top Case after performing maintenance.
 
-**Tools required**: Fingers or Cross-head (Phillips) screwdriver
+**Tools required**: Fingers or Crosshead (Phillips) screwdriver
 
 **Time estimate**: 2 minutes
 
@@ -154,16 +154,16 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 ## Removing the Shroud
 
-**Tools required:** Cross-head (Phillips) screwdriver
+**Tools required:** Crosshead (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
 
 **Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 16 total
-  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
-  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
+  - 8 Thumbscrews (Phillips/Crosshead) Top Case.
+  - 4 Thumbscrews (Phillips/Crosshead) Shroud.
+  - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
@@ -181,7 +181,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 <!--This section especially needs checked for accuracy.-->
 1. Follow the steps in Removing the Top Case
 2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
 4. Set the bracket and screws safely aside.
 5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
 5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
@@ -189,16 +189,16 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 ## Replacing the Shroud
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
 
 **Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 16 total
-  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
-  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
+  - 8 Thumbscrews (Phillips/Crosshead) Top Case.
+  - 4 Thumbscrews (Phillips/Crosshead) Shroud.
+  - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
@@ -215,7 +215,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
 2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
 3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
-4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
 5. Follow the steps in Replacing the Top Case.
 
 <!--Hyperlink to Replacing Top Case section needed.-->
@@ -231,7 +231,7 @@ Link for the video for RAM Service:
 (https://youtu.be/OFv8ByuDGU0)
 
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver (for Top Case)
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver (for Top Case)
 
 **Time estimate:** 5 minutes
 
@@ -262,7 +262,7 @@ Link for the video for RAM Service:
 
 ## Replacing RAM Sticks
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver (for Top Case)
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver (for Top Case)
 
 **Time estimate:** 5 minutes
 
@@ -293,9 +293,9 @@ Link for the video for RAM Service:
 
 ## Removing the GPU
 
-For this procedure, a cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
+For this procedure, a Crosshead (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 10 minutes.
 
@@ -339,7 +339,7 @@ Link for the video for GPU removal:
 ## Replacing the GPU
 
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 10 minutes.
 
@@ -411,9 +411,9 @@ One internal M.2 storage drive is situated partially behind the top GPU in the c
 Link for the video for GPU removal:
 (https://youtu.be/3bUcp0S1HrE)
 
-## Removing a 2.5" Drive
+## Replacing a 2.5 Drive
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 10 minutes.
 
@@ -427,10 +427,9 @@ Link for the video for GPU removal:
 
 To remove the drive, gently pull on the drive and slide it out from the drive cage.
 
-## Installing a 2.5: Drive
+## Installing a 2.5 Drive
 
-
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 10 minutes.
 
@@ -460,9 +459,9 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 
 ## Removing an M.2 Drive
 
-Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier access. A cross-head (Phillips) screwdriver is required.
+Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier access. A Crosshead (Phillips) screwdriver is required.
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 5-10 minutes.
 
@@ -485,9 +484,9 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier a
 
 ## Replacing an M.2 Drive
 
-Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for easier access. A cross-head (Phillips) screwdriver is required.
+Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for easier access. A Crosshead (Phillips) screwdriver is required.
 
-**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
 **Time estimate:** 5-10 minutes.
 
@@ -533,7 +532,7 @@ This guide will explain how to remove the CPU Cooler, clean the CPU of thermal p
 
 Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may also require removing the GPU for easier access.
 
-**Tools required:** Cross-head (Phillips) screwdriver, Rubbing Alcohol, Paper Towels, Thermal Paste.
+**Tools required:** Crosshead (Phillips) screwdriver, Rubbing Alcohol, Paper Towels, Thermal Paste.
 
 **Time estimate:** 15-20 mins.
 
@@ -588,7 +587,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also require removing the GPU for easier access.
 
-**Tools required:** Cross-head (Phillips) screwdriver, Thermal Paste.
+**Tools required:** Crosshead (Phillips) screwdriver, Thermal Paste.
 
 **Time estimate:** 15-20 mins.
 

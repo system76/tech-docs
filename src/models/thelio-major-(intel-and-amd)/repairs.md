@@ -106,9 +106,9 @@ Difficulty: <span style="color:green">Easy</span>
 Screws: 8 total
   - 8 Thumbscrews (Phillips/Crosshead).
 
-![Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
+<!--[Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
 
-**Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).
+**Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).-->
 
 <!--locations of photos and/or description may change.-->
 
@@ -373,7 +373,7 @@ Link for the video for GPU removal:
 
 **Fig. 27:** Close up view of the PCIe slots.
 
-[PICTURES NEEDED]
+<!--[PICTURES NEEDED]-->
 
 <!--[Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
@@ -566,7 +566,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 **Difficulty:** <span style="color:red">Hard</span>
 
-**Screws:** 12 total
+**Screws:** 16 total
   - 8 Thumbscrews (Phillips/Crosshead) on the Top Case.
   - 4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler Shroud.
   - 4 Bracket Screws securing the CPU heat sink.
@@ -591,7 +591,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 **NOTE: DO NOT use your Thelio without thermal paste.** Steps 11-12 above are there to help you reassemble your machine if you are not yet ready to apply new Thermal Paste. Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
-[PICTURES NEEDED]
+<!--[PICTURES NEEDED]-->
 
 <!--[Removing the CPU Cooler Fan from the Heat Sink](../../pictures/path-to-picture)
 

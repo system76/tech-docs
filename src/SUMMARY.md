@@ -3,8 +3,8 @@
 [Introduction](README.md)
 - [Models](models/README.md)
     - [Lemur Pro (lemp9)](models/lemp9/README.md)
-    - [Thelio Major (Intel and AMD)](models/thelio-major-(intel-and-amd)/README.md)
-        - [External Overview](models/thelio-major-(intel-and-amd)/external-overview.md
+    - [Thelio Major (Intel and AMD)](models/thelio-major-(intel-and-amd\)/README.md)
+        - [External Overview](models/thelio-major-(intel-and-amd\)/external-overview.md)
         - [Internal Overview](models/thelio-major-(intel-and-amd)/internal-overview.md)
         - [Parts & Repairs](models/thelio-major-(intel-and-amd)/repairs.md)
     - [Thelio Mega R1 (thelio-mega-r1)](models/thelio-mega-r1/README.md)

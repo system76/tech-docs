@@ -23,13 +23,12 @@
 - [Removing the GPU](#removing-the-gpu)
 - [Replacing the GPU](#replacing-the-gpu)
 ### Drives (Remove or Replace)
-- [Replacing a 2.5" Drive](#replacing-a-two-and-a-half-inch-drive)
-- [Replacing an M.2/NVMe Drive](#replacing-an-m2-nvme-drive)
+- [Replacing a 2.5 Drive](#replacing-a-25-drive)
+- [Replacing an M.2/NVMe Drive](#replacing-an-m2-drive)
 ### CPU Thermal Paste (Remove or Replace)
 - [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
 ### Specifications
 - [Specification](#specifications)
-
 
 # BIOS
 
@@ -411,7 +410,7 @@ One internal M.2 storage drive is situated partially behind the top GPU in the c
 Link for the video for GPU removal:
 (https://youtu.be/3bUcp0S1HrE)
 
-## Replacing a two and a half inch Drive
+## Replacing a 2.5 Drive
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 

@@ -426,7 +426,7 @@ Link for the video for GPU removal:
 
 To remove the drive, gently pull on the drive and slide it out from the drive cage.
 
-## Installing a two and a half inch Drive
+## Installing a 2.5 Drive
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
@@ -495,7 +495,7 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-  ![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
+![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
 
   **Fig. 32:** Thelio’s front M.2 drive slots.
 

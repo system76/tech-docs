@@ -1,5 +1,4 @@
 # Table of Contents
-- [Contents](#Contents)
 ## Thelio Major B2 BIOS Overview
 ### [BIOS](#BIOS)
 - [M.I.T.](#mit)
@@ -85,7 +84,7 @@ Fig. 6: Power Management settings.
 
 Fig. 7: Exit the BIOS saving changes to settings.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 # Top Case (Remove or replace)
 
@@ -126,7 +125,7 @@ Now you can proceed with servicing your machine.
 
 **Fig. 10:** Thelio internals with Top Case completely removed.
 
-Return to [Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replacing the Top Case
@@ -154,7 +153,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 <!--locations of photos and/or description may change.-->
 
-Return to [Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 # Shroud (Remove or replace)
@@ -193,7 +192,7 @@ Return to [Contents](#Contents)
 5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
 5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
 
-Return to [Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replacing the Shroud
@@ -229,7 +228,7 @@ Return to [Contents](#Contents)
 
 <!--Hyperlink to Replacing Top Case section needed.-->
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 # RAM (Remove or Replace)
@@ -268,7 +267,7 @@ Link for the video for RAM Service:
 4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
 
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replacing RAM Sticks
@@ -299,7 +298,7 @@ Link for the video for RAM Service:
 7. Reconnect external power cable and turn power-supply switch to the on position.
 8. Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 # GPU (Remove or replace)
@@ -348,7 +347,7 @@ Link for the video for GPU removal:
 
 <!--**Fig. 25:** Removal of the GPU external view.-->
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replacing the GPU
@@ -402,7 +401,7 @@ Link for the video for GPU removal:
 8. Once the GPU is connected and the power cables secured, replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 # Drives (Remove or Replace)
@@ -444,7 +443,7 @@ Link for the video for GPU removal:
 
 To remove the drive, gently pull on the drive and slide it out from the drive cage.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Installing a 2.5 Drive
@@ -477,7 +476,7 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Removing an M.2 Drive
@@ -505,7 +504,7 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier a
 9. [Replace the Top Case.](#replacing-the-top-case)
 10. Reconnect all cables and peripherals.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replacing an M.2 Drive
@@ -544,7 +543,7 @@ Pop!\_OS users, instructions to reinstall the OS can be found here: https://syst
 
 Ubuntu users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-ubuntu/.
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 # CPU Thermal Paste (Remove or Replace)
@@ -610,7 +609,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 **Fig. 36:** Cleaning old thermal paste of the bottom of the Heat Sink (left), and off the CPU core (right).-->
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)
 
 
 ## Replace the CPU Thermal paste
@@ -649,4 +648,4 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 
 **Fig. 37:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).
 
-[Return to Contents](#Contents)
+[Return to Contents](#table-of-contents)

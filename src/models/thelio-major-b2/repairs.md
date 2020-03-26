@@ -209,8 +209,8 @@ Return to [Contents](#contents)
   - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
-  ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215.jpg)
-    ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
+  ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215-arrow.jpg)
+  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
 
 **Fig. 19:** CPU Cooler with Shroud removed (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down) and shroud replaced (bottom).
@@ -338,8 +338,8 @@ Link for the video for GPU removal:
 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
-![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
-![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom-highlighted.png)
+    ![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
+    ![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom-highlighted.png)
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
 
@@ -364,11 +364,11 @@ Return to [Contents](#contents)
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on Removing the GPU
 
-  ![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
+    ![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 
-![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close.png)
+    ![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close.png)
 
 **Fig. 27:** Close up view of the PCIe slots.
 
@@ -390,9 +390,9 @@ Return to [Contents](#contents)
 
 **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
 
-![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-8pin.jpg)
-![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
-![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-16pin.jpg)
+    ![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-8pin.jpg)
+    ![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
+    ![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-16pin.jpg)
 
 **Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (left), 12-pin (middle), 16-pin (right).
 
@@ -468,11 +468,11 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
 7. [Replace the Top Case](#replacing-the-top-case) and reconnect all cables.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
+    ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
+    ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
+    ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
+    ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
+    ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
 **Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
@@ -521,7 +521,7 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
+    ![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
 
   **Fig. 32:** Thelio’s front M.2 drive slots.
 

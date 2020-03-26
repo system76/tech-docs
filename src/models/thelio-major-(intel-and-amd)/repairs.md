@@ -641,6 +641,8 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 10. Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.
 11. Power on the Thelio to ensure successful boot.
 
+**NOTE: The pictures shown here are the Thelio R1 (AMD) model with a Threadripper processor. However, the process and cautions when removing and replacing thermal paste are the same for both Intel and AMD Thelio Majors.**
+
 ![A cleaned CPU core](../../pictures/thelio-major/thelio-major-r1/CPU/threadripper-close2.jpg)
 
 ![Reapplied thermal paste on the core](../../pictures/thelio-major/thelio-major-r1/CPU/cpu-with-thermal-paste.jpg)

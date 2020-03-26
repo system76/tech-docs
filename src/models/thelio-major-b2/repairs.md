@@ -1,13 +1,13 @@
 # Contents
 ## Thelio Major B2 BIOS Overview
 ### BIOS
-- [M.I.T.](#m.i.t.)
+- [M.I.T.](#mit)
 - [System](#system)
 - [BIOS](#bios)
 - [Peripherals](#peripherals)
 - [Chipset](#chipset)
 - [Power](#power)
-- [Save & Exit](#save-&-exit)
+- [Save & Exit](#save-exit)
 
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
@@ -17,8 +17,8 @@
 - [Removing the Shroud](#removing-the-shroud)
 - [Replacing the Shroud](#replacing-the-shroud)
 ### RAM (Remove or Replace)
-- [Removing the RAM](#removing-the-ram)
-- [Replacing the RAM](#replacing-the-ram)
+- [Removing the RAM](#removing-the-RAM)
+- [Replacing the RAM](#replacing-the-RAM)
 ### GPU (Remove or Replace)
 - [Removing the GPU](#removing-the-gpu)
 - [Replacing the GPU](#replacing-the-gpu)

@@ -200,9 +200,9 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
-  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
-  ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
   ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215.jpg)
+    ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
+  ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
 
 **Fig. 19:** CPU Cooler with Shroud removed (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down) and shroud replaced (bottom).
 
@@ -432,7 +432,7 @@ To remove the drive, gently pull on the drive and slide it out from the drive ca
 
 **Time estimate:** 10 minutes.
 
-**Difficulty:** *Easy*
+**Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) in the Top Case.

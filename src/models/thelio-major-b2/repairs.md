@@ -7,7 +7,7 @@
 - [Peripherals](#peripherals)
 - [Chipset](#chipset)
 - [Power](#power)
-- [Save & Exit](#save-exit)
+- [Save & Exit](#save-and-exit)
 
 ## User Serviceable Parts and Repairs
 ### Top Case (Remove or Replace)
@@ -17,8 +17,8 @@
 - [Removing the Shroud](#removing-the-shroud)
 - [Replacing the Shroud](#replacing-the-shroud)
 ### RAM (Remove or Replace)
-- [Removing the RAM](#removing-the-RAM)
-- [Replacing the RAM](#replacing-the-RAM)
+- [Removing the RAM](#removing-RAM-sticks)
+- [Replacing the RAM](#replacing-RAM-sticks)
 ### GPU (Remove or Replace)
 - [Removing the GPU](#removing-the-gpu)
 - [Replacing the GPU](#replacing-the-gpu)

@@ -27,10 +27,9 @@
 - [Replacing an M.2/NVMe Drive](#replacing-an-m2-drive)
 ### CPU Thermal Paste (Remove or Replace)
 - [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
-### Specifications
-- [Specification](#specifications)
 
 # BIOS
+Thelio systems ship with the BIOS configured to the preferred settings. For example: OSes are installed on Thelio systems in UEFI mode by default. It is not necessary to change any of these BIOS settings, however the BIOS menus are shown here for reference.
 
 ## Hardware Keyboard Shortcuts:
 
@@ -147,7 +146,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 ![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
 
-**Fig. 11:** Aligning the Thelio Top Case for replacment.
+**Fig. 11:** Aligning the Thelio Top Case for replacment. A Thelio (non-major) is pictured here, but the alignment process is the same.
 
 <!-- (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).-->
 
@@ -218,7 +217,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
   ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
-**Fig. 20:** Replacing the CPU Cooler Shroud and thumbscrews.
+**Fig. 20:** Replacing the CPU Cooler Shroud thumbscrews.
 
 1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
 2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
@@ -434,9 +433,8 @@ Link for the video for GPU removal:
 ![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
 ![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-16pin.jpg)
 
-**Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (left), 12-pin (middle), 16-pin (right).
+**Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (top), 12-pin (middle), 16-pin (bottom).
 
-<!--placement of the pictures may change-->
 
 8. Once the GPU is connected and the power cables secured, replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.
@@ -514,7 +512,7 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
-**Fig: 31** Fig. 31: (above and below-right) Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
+**Fig: 31** Fig. 31: Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
 [Return to Contents](#table-of-contents)
 
@@ -561,7 +559,7 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-    ![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
+![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
   **Fig. 32:** Thelio Major (thelio-major-r1) front M.2 drive slots (left).
   **Fig. 33:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
 

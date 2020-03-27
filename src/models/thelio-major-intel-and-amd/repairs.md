@@ -29,7 +29,7 @@
 - [Remove the CPU Thermal Paste](#remove-the-cpu-thermal-paste)
 
 # BIOS
-Thelio systems ship with the BIOS configured to the preferred settings. For example: OSes are installed on Thelio systems in UEFI mode by default. It is not necessary to change any of these BIOS settings, however the BIOS menus are shown here for reference.
+Thelio systems ship with the BIOS configured to the preferred settings. For example, OSes are installed on Thelio systems in UEFI mode by default. It is not necessary to change any of these BIOS settings, however the BIOS menus are shown here for reference.
 
 ## Hardware Keyboard Shortcuts:
 
@@ -235,16 +235,16 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 Thelio Major B2
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
-|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:| 
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
 | **2 Modules** | **X**        | **X**         | **X**         | **X**         |      | **X**        |               | **X**         |               |
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
-|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:| 
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
 | **4 Modules** |              | **X**         |               | **X**         |      | **X**        |               | **X**         |               |
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
-|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:| 
-| **6 Modules** |              | **X**         |               | **X**         |      |              |               |               |               | 
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
+| **6 Modules** |              | **X**         |               | **X**         |      |              |               |               |               |
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
@@ -252,7 +252,7 @@ Thelio Major B2
 
 Thelio Major R1
 
-| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       | 
+| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       |
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **1 Modules** | **X**        | **X**         | **X**         | **X**         |      | **X**         |               | **X**         | **X**         |
 
@@ -260,16 +260,16 @@ Thelio Major R1
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **2 Modules** | **X**        | **X**         | **X**         | **X**         |      |  **X**        |               | **X**         |               |
 
-| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       | 
+| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       |
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **4 Modules** |              | **X**         |               | **X**         |      |  **X**        |               | **X**         |               |
 
-| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       | 
-|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:| 
+| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **6 Modules** |              |               |               | **X**         |      |  **X**        |               |               |               |
 
-| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       | 
-|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:| 
+| Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **8 Modules** |              |               |               |               |      |               |               |               |               |
 
 ## Removing RAM Sticks
@@ -457,10 +457,23 @@ The Thelio Major B2 provides eight (8) slots for 2.5” SATA drives. They are ho
 
 
 ## M.2 Drives
+The number and location of M.2 drives, differs between the Thelio Major R and B models.
 
-The Thelio Major B2 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (pictured above).
+![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
+  **Fig. 32:** Thelio Major (thelio-major-r2) front M.2 drive slots (left).
+  **Fig. 33:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
 
-One internal M.2 storage drive is situated partially behind the top GPU in the chassis. If you install an M.2 drive in this slot, remove the GPU beforehand to free up space. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE) Another M.2 drive is situated beneath the right RAM slots. Remove the CPU Cooler Shroud to gain easier access. If your Thelio has only one M.2 drive, or do not have a GPU installed, unscrew the M.2 drive from the chassis.
+
+### Thelio Major R2
+
+The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (**Fig. 32**).
+
+
+### Thelio Major B2
+
+The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (**Fig. 33**).
+
+Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Shroud and/or GPU to gain easier access. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
 
 Link for the video for GPU removal:
 (https://youtu.be/3bUcp0S1HrE)
@@ -559,10 +572,6 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
-  **Fig. 32:** Thelio Major (thelio-major-r1) front M.2 drive slots (left).
-  **Fig. 33:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
-
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
 2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
 3. [Remove the GPU](#removing-the-gpu) (if applicable).
@@ -577,7 +586,7 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
 
 NOTE: By default, the first of the two M.2 drives (NVMe or not) stores your operating system, so you will need to reinstall the OS after replacing it. This can be done by restoring from a backup, or from a fresh install.
 
-Pop!\_OS users, instructions to reinstall the OS can be found here: https://system76.com/pop
+Pop!\_OS users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-pop/
 
 Ubuntu users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-ubuntu/.
 

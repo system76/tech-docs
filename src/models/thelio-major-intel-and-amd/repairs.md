@@ -1,6 +1,6 @@
 # Table of Contents
 ## Thelio Major B2 BIOS Overview
-### [BIOS](#BIOS)
+### [BIOS](#bios)
 - [M.I.T.](#mit)
 - [System](#system)
 - [BIOS Menu](#biosmenu)

@@ -521,9 +521,9 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 12 Thumbscrews (Phillips/Crosshead) in the Top Case.
   - 1 M.2 securing screw (per Drive).
 
-    ![Thelio's front M.2 drive slots](../../pictures/thelio/thelio-b1/)
-
-  **Fig. 32:** Thelio’s front M.2 drive slots.
+    ![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
+  **Fig. 32:** Thelio Major (thelio-major-r1) front M.2 drive slots (left).
+  **Fig. 33:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
 
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
 2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
@@ -646,6 +646,6 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 
 ![Reapplied thermal paste on the core](../../pictures/thelio-major/thelio-major-r1/CPU/cpu-with-thermal-paste.jpg)
 
-**Fig. 37:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).
+**Fig. 34:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).
 
 [Return to Contents](#table-of-contents)

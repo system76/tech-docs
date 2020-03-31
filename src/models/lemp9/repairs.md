@@ -26,7 +26,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ![Bottom case screws](./img/bottom-case-screws.jpg)
 
-3. The bottom cover will lift off, starting from the hinges and working towards the front.
+3. Lift the bottom cover off, starting from the hinges and working towards the front.
 
 ## Replacing the RAM
 
@@ -51,7 +51,7 @@ The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which canno
 This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 5 minutes    
+**Time estimate:** 15 minutes    
 **Difficulty:** Medium
 
 ### Steps to replace the M.2 drive:
@@ -66,7 +66,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 ![M.2 screws](./img/m2-screws.jpg)
 
 4. Remove the existing M.2 drive by pulling it out of the slot.
-5. Insert the new M.2 drive into the slot and hold it in place.
+5. Insert the new M.2 drive into the slot and hold it down.
 6. Replace the retainer screw.
 
 ## Replacing the cooling system:
@@ -82,18 +82,19 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ### Steps to replace the fans/heatsink/thermal paste:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the CPU heatsink screws (highlighted yellow here).
+2. Locate the CPU heatsink screws (highlighted yellow here) as well as the fan connector and screws (highlighted in red).
 
 ![Heatsink/fan screws](./img/heatsink-fan.jpg)
 
-3. Remove the heatsink screws in reverse order, starting with #3, then #2, and finally #1.
-4. Remove the screws holding the fan onto the case.
-5. Disconnect the small connector plugging the fan into the motherboard.
+3. Disconnect the small connector plugging the fan into the motherboard.
+4. Remove the heatsink screws in reverse order, starting with #3, then #2, and finally #1.
+5. Remove the screws holding the fan onto the case.
 6. Carefully remove the heatsink/fans from the case.
 7. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
 8. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU.
-9. Plug the fan back in. Carefully replace the fan and heat sink.
+9. Carefully replace the fan and heat sink.
 10. Replace the heatsink screws, starting with #1, then #2, and finally #3. Also replace the fan screws. Do not fully tighten until all screws are in place.
+11. Plug the fan back in.
 
 ## Replacing the main battery
 

@@ -8,9 +8,23 @@
 
 ![Right Ports](./img/ports-right.jpg)
 
+## Front side overview:
+
+![Front Ports](./img/ports-front.png)
+
+## Back side overview:
+
+![Back Ports](./img/ports-back.png)
+
+## Speakers
+
+The grilles for the built-in speakers are located on the bottom of the machine, angled outward.
+
+![Bottom Ports](./img/ports-bottom.jpg)
+
 ## Keyboard Shortcuts
 
-The Adder WS has the following actions available using the Fn and Function keys:
+The Lemur Pro has the following actions available using the Fn and Function keys:
 
 |Key                        |Shortcut|Action                              |
 |---------------------------|--------|------------------------------------|
@@ -29,4 +43,5 @@ The Adder WS has the following actions available using the Fn and Function keys:
 |1                          |Fn+1    |Toggle fan between max/automatic    |
 
 ## External Displays
-The Adder WS supports HDMI and DisplayPort over USB-C connections for external displays.
+
+This model supports HDMI and DisplayPort over USB-C connections for external displays.

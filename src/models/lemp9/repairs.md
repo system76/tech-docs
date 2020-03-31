@@ -53,7 +53,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 ### Steps to replace the M.2 drive:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the M.2 drives (or slots.) The primary slot is next to the battery (highlighted red here), while the secondary slot is above the battery (highlighted yellow).
+2. Locate the M.2 drives (or slots.) The primary slot is next to the battery (highlighted yellow here), while the secondary slot is above the battery (highlighted red).
 
 ![M.2 slots](./img/m2-slots.jpg)
 

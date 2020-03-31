@@ -13,7 +13,7 @@ Removing the cover is required to access the internal components. Prior to remov
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Easy  
-**Screws:** 12 total - 12 x M2 perimeter (black)
+**Screws:** 12 total
 
 ### Steps to remove the bottom cover:
 

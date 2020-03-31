@@ -1,5 +1,9 @@
 # Lemur Pro (lemp9)
 
+- [Parts & Repairs](./repairs.md)
+
+![Lemur Pro](./img/lemp9.png)
+
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU

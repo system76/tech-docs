@@ -1,5 +1,7 @@
 # Lemur Pro (lemp9)
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
 ![Lemur Pro](./img/lemp9.png)

@@ -5,6 +5,10 @@ Many components in your Lemur Pro can be upgraded or replaced as necessary. Foll
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the main battery](#replacing-the-main-battery)
+- [Replacing the CMOS battery](#replacing-the-cmos-battery)
+- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
 ## Removing the bottom cover:
 
@@ -129,3 +133,24 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 5. Re-connect the CMOS battery as well as the main internal battery.
 6. Power up the Lemur Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
+## Replacing the wireless card
+
+Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium
+
+### Steps to replace the WiFi/Bluetooth module
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the wireless card (next to the CPU fan.) Remove any tape if present.
+
+![Wireless card](./img/wireless-card.jpg)
+
+3. Gently remove the two antennas by pulling them up and away from the wireless card.
+4. Remove the retaining screw opposite the M.2 slot.
+5. Remove the wireless card from the M.2 slot.
+6. Insert the new wireless card into the M.2 slot.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._

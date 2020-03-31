@@ -8,6 +8,7 @@
         - [Parts & Repairs](models/addw1/repairs.md)
         - [UEFI Setup & Specs](models/addw1/setup-specs.md)
     - [Lemur Pro (lemp9)](models/lemp9/README.md)
+		- [Parts & Repairs](models/lemp9/repairs.md)
 - [Components](components/README.md)
     - [Intel](components/intel/README.md)
         - [Central Processing Unit (CPU)](components/intel/cpu/README.md)

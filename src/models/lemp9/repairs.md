@@ -91,6 +91,24 @@ Depending on your climate and the age of the machine, it may be necessary to app
 9. Plug the fan back in. Carefully replace the fan and heat sink.
 10. Replace the heatsink screws, starting with #1, then #2, and finally #3. Also replace the fan screws. Do not fully tighten until all screws are in place.
 
+## Replacing the main battery
+
+The battery provides primary power whenever the system is unplugged.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 5 minutes    
+**Difficulty:** Easy
+
+### Steps to replace the main battery
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Unplug the white connector that connects the battery to the motherboard.
+
+![Main battery](./img/battery.jpg)
+
+3. Remove the battery.
+4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
+
 ## Replacing the CMOS battery:
 
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
@@ -107,8 +125,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ![CMOS battery](./img/cmos.jpg)
 
 3. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, use a thin plastic tool to pry the battery up from where it's stuck to the case.
-
-4. Disconnect the main internal battery, then hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. [Disconnect the main internal battery](#replacing-the-main-battery), then hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery as well as the main internal battery.
 6. Power up the Lemur Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 

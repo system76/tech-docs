@@ -58,6 +58,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 ![M.2 slots](./img/m2-slots.jpg)
 
 3. Unscrew the retainer screw opposite the M.2 slot.
+
+![M.2 screws](./img/m2-screws.jpg)
+
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.

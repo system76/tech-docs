@@ -8,26 +8,6 @@
 
 ![Right Ports](./img/ports-right.jpg)
 
-## Front LED lights
-
-![Front LED lights](./img/front-leds.png)
-
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |DC power plugged in                              |
-|                                        |Green          |Computer is on                                   |
-|                                        |Blinking green |Computer is sleeping                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
-|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on<br/>(WiFi/Bluetooth disabled)|
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |
-|![Num Lock LED](./img/led-numlock.png)  |Green          |Num Lock enabled                                 |
-|![Caps Lock LED](./img/led-capslock.png)|Green          |Caps Lock enabled                                |
-|![Scroll Lock LED](./img/led-scroll.png)|Green          |Scroll Lock enabled                              |
-|![GPU LED](./img/led-gpu.png)           |Off            |GPU in MSHYBRD Mode                              |
-|                                        |Green          |GPU in Discrete Mode                             |
-
 ## Keyboard Shortcuts
 
 The Adder WS has the following actions available using the Fn and Function keys:
@@ -49,4 +29,4 @@ The Adder WS has the following actions available using the Fn and Function keys:
 |1                          |Fn+1    |Toggle fan between max/automatic    |
 
 ## External Displays
-The Adder WS supports Mini DisplayPort, HDMI, and DisplayPort over USB-C connections for external displays.
+The Adder WS supports HDMI and DisplayPort over USB-C connections for external displays.

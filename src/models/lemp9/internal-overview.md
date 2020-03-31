@@ -4,7 +4,7 @@
 
 The following components can be replaced using the instructions under [Parts & Repairs](./repairs.md).
 
-![Internal Overview](./img/components-highlighted.jpg)
+![Internal Components](./img/components-highlighted.jpg)
 
 - CPU fan/heatsink is highlighted in cyan
 - M.2 SSDs are highlighted in yellow
@@ -12,8 +12,15 @@ The following components can be replaced using the instructions under [Parts & R
 - Wireless card is highlighted in green
 - Battery is highlighted in orange
 
-## Under-the-keyboard overview:
+## Other connectors:
 
-![Under-the-Keyboard Overview](./img/under-keyboard-highlighted.png)
+These components are not considered user-serviceable, but may be replaced by our hardware team or a local repair shop. The connectors may be reseated for troubleshooting purposes.
 
-- CMOS battery is highlighted in red
+![Internal Connectors](./img/connectors-highlighted.jpg)
+
+- LCD cable connector is highlighted in yellow
+- Touchpad connector is highlighted in red
+- Keyboard connector (main) is highlighted in green
+- Keyboard backlight connector is highlighted in pink
+- Speaker connectors are highlighted in cyan
+- Speakers are highlighted in brown

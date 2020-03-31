@@ -64,3 +64,29 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
+
+## Replacing the cooling system:
+
+If the CPU fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new CPU fan. Contact Support to start a warranty claim or parts purchase.
+
+Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 20 minutes    
+**Difficulty:** High
+
+### Steps to replace the fans/heatsink/thermal paste:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the CPU heatsink screws (highlighted yellow here).
+
+![Heatsink/fan screws](./img/heatsink-fan.jpg)
+
+3. Remove the heatsink screws in reverse order, starting with #3, then #2, and finally #1.
+4. Remove the screws holding the fan onto the case.
+5. Disconnect the small connector plugging the fan into the motherboard.
+6. Carefully remove the heatsink/fans from the case.
+7. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+8. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU.
+9. Plug the fan back in. Carefully replace the fan and heat sink.
+10. Replace the heatsink screws, starting with #1, then #2, and finally #3. Also replace the fan screws. Do not fully tighten until all screws are in place.

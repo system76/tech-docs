@@ -4,6 +4,7 @@ Many components in your Lemur Pro can be upgraded or replaced as necessary. Foll
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
+- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 
 ## Removing the bottom cover:
 
@@ -43,9 +44,20 @@ The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which canno
 
 ## Replacing an M.2/NVMe SSD:
 
-M.2 SSDs offer, at minimum, SATA III speeds and performance in a package about the size of a stick of gum. NVMe M.2 SSDs offer even higher performance. The Adder WS supports two M.2 SSDs, size 2280, either M.2 SATA or NVMe M.2 PCIe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
 **Difficulty:** Medium
 
+### Steps to replace the M.2 drive:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the M.2 drives (or slots.) The primary slot is next to the battery (highlighted red here), while the secondary slot is above the battery (highlighted yellow).
+
+![M.2 slots](./img/m2-slots.jpg)
+
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.

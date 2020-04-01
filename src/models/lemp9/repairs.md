@@ -16,7 +16,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** <span style="color:green">Easy</span>  
+**Difficulty:** Easy  
 **Screws:** 12 total
 
 ### Steps to remove the bottom cover:
@@ -34,7 +34,7 @@ The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which canno
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** <span style="color:yellow">Medium</span>
+**Difficulty:** Medium
 
 ### Steps to replace the RAM:
 
@@ -52,7 +52,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** <span style="color:yellow">Medium</span>
+**Difficulty:** Medium
 
 ### Steps to replace the M.2 drive:
 
@@ -77,7 +77,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 20 minutes    
-**Difficulty:** <span style="color:red">Hard</span>
+**Difficulty:** High
 
 ### Steps to replace the fans/heatsink/thermal paste:
 
@@ -102,7 +102,7 @@ The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** <span style="color:green">Easy</span>
+**Difficulty:** Easy
 
 ### Steps to replace the main battery
 
@@ -120,7 +120,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** <span style="color:yellow">Medium</span>
+**Difficulty:** Medium
 
 ### Steps to replace the CMOS battery:
 
@@ -140,7 +140,7 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** <span style="color:yellow">Medium</span>
+**Difficulty:** Medium
 
 ### Steps to replace the WiFi/Bluetooth module
 

@@ -33,7 +33,7 @@ Removing the cover is required to access the internal components. Prior to remov
 The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 15 minutes    
+**Time estimate:** 10 minutes    
 **Difficulty:** Medium
 
 ### Steps to replace the RAM:
@@ -51,7 +51,7 @@ The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which canno
 This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 15 minutes    
+**Time estimate:** 10 minutes    
 **Difficulty:** Medium
 
 ### Steps to replace the M.2 drive:

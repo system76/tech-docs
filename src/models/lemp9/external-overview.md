@@ -40,7 +40,6 @@ The Lemur Pro has the following actions available using the Fn and Function keys
 |![Fn-F10](./img/fn-f10.png)|Fn+F10  |Toggle webcam                       |
 |![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode                |
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                             |
-|1                          |Fn+1    |Toggle fan between max/automatic    |
 
 ## External Displays
 

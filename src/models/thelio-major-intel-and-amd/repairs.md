@@ -84,13 +84,13 @@ END : Q-Flash
 
 ![Power](./img/Power.BMP)
 
-Fig. 6: Power Management settings.
+**Fig. 6:** Power Management settings.
 
 ## Save and Exit
 
 ![Save & Exit](./img/Save&Exit.BMP)
 
-Fig. 7: Exit the BIOS saving changes to settings.
+**Fig. 7:** Exit the BIOS saving changes to settings.
 
 [Return to Contents](#table-of-contents)
 
@@ -104,14 +104,20 @@ You can find video instructions on this process [here.](https://youtu.be/Ku91wRH
 Link for the video for Top Case Service:
 (https://youtu.be/Ku91wRHFGY8)
 
-Tools required: Fingers or Crosshead (Phillips) screwdriver
+**Tools required:** Fingers or Cross-head (Phillips) screwdriver
 
-Time estimate: 2 minutes
+**Time estimate:** 2 minutes
 
-Difficulty: <span style="color:green">Easy</span>
+**Difficulty:** <span style="color:green">Easy</span>
 
-Screws: 8 total
-  - 8 Thumbscrews (Phillips/Crosshead).
+**Screws:** 8 total
+  - 8 Thumbscrews (Phillips/Cross-head).
+
+**Note:** These thumbscrews will be on the top left and right, middle left and right, and bottom left and right of the back of the case.
+
+Do not unscrew any screws in the center of the panel. Those screws correspond with parts inside; removing them will not assist you in removing the lid.
+
+All of Thelio’s thumbscrews are the same size, and are interchangeable.
 
 <!--[Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
 
@@ -121,16 +127,9 @@ PHOTOS NEED ADDED WITH SCREWS HIGHLIGHTED
 
 <!--locations of photos and/or description may change.-->
 
-Removing the lid will give you access to all components inside.
-To remove the lid, unscrew the eight (8) thumbscrews from the back of the Thelio.
-These thumbscrews will be on the top left and right, middle left and right, and bottom left and right of the back of the case.
+1. unscrew the eight (8) thumbscrews from the back of the Thelio.
+2. Lift the lid up and off of the chassis.
 
-Do not unscrew any screws in the center of the panel. Those screws correspond with parts inside; removing them will not assist you in removing the lid.
-All of Thelio’s thumbscrews are the same size, and are interchangeable.
-While a screwdriver is recommended for this procedure, it is not required.
-Once you have removed all eight (8) thumb-screws from the back of the lid, lift the lid up and off of the chassis.
-Now you can proceed with servicing your machine.
-<!--WARNING this is actually an R1-->
 ![Thelio internals with Top Case completely removed](../../pictures/thelio-major/thelio-major-b2/IMG_1099.jpeg)
 
 **Fig. 10:** Thelio internals with Top Case completely removed.
@@ -153,7 +152,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 1. Align the grooves inside the case with the front of the Thelio frame (the side where the power-button is located).
 2. Once aligned, the case should easily slide down over the chassis.
 3. Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally. There should be no space between the bottom of the Top Case and the Thelio frame.
-4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
+4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch, and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
 
 ![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
 
@@ -198,16 +197,16 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 ## Removing the CPU Cooler Shroud
 
-**Tools required:** Crosshead (Phillips) screwdriver
+**Tools required:** Cross-head (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
 
 **Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 16 total
-  - 8 Thumbscrews (Phillips/Crosshead) Top Case.
-  - 4 Thumbscrews (Phillips/Crosshead) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
+  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
+  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
@@ -243,7 +242,7 @@ Fig. #: Removed Cooler Shroud for reference.
 <!--This section especially needs checked for accuracy.-->
 1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
 2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
 4. Set the bracket and screws safely aside.
 5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
 5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
@@ -253,16 +252,16 @@ Fig. #: Removed Cooler Shroud for reference.
 
 ## Replacing the CPU Cooler Shroud
 
-**Tools required:** Fingers or Crosshead (Phillips) screwdriver
+**Tools required:** Fingers or Cross-head (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
 
 **Difficulty:** <span style="color:green">Easy</span>
 
 **Screws:** 16 total
-  - 8 Thumbscrews (Phillips/Crosshead) Top Case.
-  - 4 Thumbscrews (Phillips/Crosshead) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
+  - 8 Thumbscrews (Phillips/Cross-head) Top Case.
+  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
 
@@ -362,7 +361,11 @@ Link for the video for RAM Service:
 
   ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.png)
 
+caption
+
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+
+caption
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
@@ -423,23 +426,22 @@ caption
 
 ## Removing the GPU
 
-For this procedure, a Crosshead (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
-
-**Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
-
-**Time estimate:** 10 minutes.
-
-**Difficulty:** <span style="color:yellow">Medium</span>
-
-**Screws:** 19 total
-  - 19 Thumbscrews (Phillips/Crosshead).
-
 In this guide, you will learn how to remove the graphics card on your Thelio. These steps must be taken in order to replace the GPU.
 You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
 
 Link for the video for GPU removal:
 (https://youtu.be/3bUcp0S1HrE)
 
+For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
+
+**Tools required:** Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
+
+**Time estimate:** 10 minutes.
+
+**Difficulty:** <span style="color:yellow">Medium</span>
+
+**Screws:** 19 total
+  - 19 Thumbscrews (Phillips/Cross-head).
 
 **Before you remove the lid, be sure to power off and unplug all cords from the computer.**
 
@@ -473,6 +475,7 @@ caption
 
 ## Replacing the GPU
 
+For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
@@ -483,7 +486,7 @@ caption
 **Screws:** 19 total
   - 19 Thumbscrews (Phillips/Crosshead).
 
-  If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on Removing the GPU
+  If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on [Removing the GPU](#removing-the-gpu)
 
 ![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
 
@@ -693,10 +696,11 @@ Ubuntu users, instructions to reinstall the OS can be found here: https://suppor
 
 If you are experiencing thermal issues with your Thelio, one possible solution is to change the Thermal paste. Thermal paste helps transfer heat from the CPU to the CPU Cooler via the heat sink.
 
-Thermal paste can lose its effectiveness over time and may need to be removed and replaced.
+Thermal paste can lose its effectiveness over time and may need to be re-applied.
 
 This guide will explain how to remove the CPU Cooler, clean the CPU of thermal paste, and reapply a new coat.
 
+**WARNING: DO NOT use your Thelio without thermal paste.** Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
 ## Remove the CPU Thermal Paste
 
@@ -731,7 +735,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 14. Follow the steps to [Replace the CPU Cooler Shroud.](#replacing-the-shroud)
 15. Follow the steps to [Replace the Top Case.](#replacing-the-top-case)
 
-**NOTE: DO NOT use your Thelio without thermal paste.** Steps 11-12 above are there to help you reassemble your machine if you are not yet ready to apply new Thermal Paste. Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
+
 
 <!--[PICTURES NEEDED]-->
 

@@ -101,7 +101,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 5 minutes    
+**Time estimate:** 10 minutes    
 **Difficulty:** Easy
 
 ### Steps to replace the main battery
@@ -111,7 +111,7 @@ The battery provides primary power whenever the system is unplugged.
 
 ![Main battery](./img/battery.jpg)
 
-3. Remove the battery.
+3. Remove the battery. The battery is secured with tape, which can be pulled off. The tabs around the battery will also need to be held back for the battery to come out.
 4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
 
 ## Replacing the CMOS battery:

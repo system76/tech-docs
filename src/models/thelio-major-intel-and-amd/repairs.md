@@ -115,6 +115,8 @@ Screws: 8 total
 
 <!--[Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
 
+PHOTOS NEED ADDED WITH SCREWS HIGHLIGHTED
+
 **Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).-->
 
 <!--locations of photos and/or description may change.-->
@@ -156,6 +158,8 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 ![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
 
 **Fig. 11:** Aligning the Thelio Top Case for replacment. A Thelio (non-major) is pictured here, but the alignment process is the same.
+
+<!--STRAIGHTEN ALIGNMENT PHOTO AND HIGHLIGHT ALIGNMENT DETAILS-->
 
 <!-- (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).-->
 
@@ -206,15 +210,33 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
+
+Fig. #: the 4 CPU Cooler Shroud thumbscrews.
+
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
+
+Fig. #: Top two Phillips screws of the Cooler bracket.
+
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
+
+Fig. #: Bottom two Phillips screws of the Cooler bracket.
+
   ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220-arrow.jpg)
+
+Fig. #: Showing the direction to remove the Cooler Shroud.
+
   ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
+
+Fig. #: Exposed Cooler Shroud.
+
   ![Internal view of the CPU Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154416.jpg)
+
+Fig. #: Removed Cooler Shroud for reference.
+
   ![Cooler and fan set aside](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154503.jpg)
 
 
-**Fig. 18:** Removing CPU Cooler Shroud thumbscrews (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down), Side view of Cooler Shroud (2nd down). Internal view with Shroud removed (3rd down) Internal view of the CPU Cooler Shroud (bottom).
+**Fig. 18:** Removed CPU Cooler Shroud and attached fan beside Thelio Chassis.
 
 
 <!--Hyperlink to Removing Top Case section needed.-->
@@ -243,12 +265,20 @@ This guide explains how to replace the Thelio’s Top Case after performing main
   - 4 Non-Thumbscrews (Phillips/Crosshead) Shroud Bracket.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
+
+Fig. #: The exposed cooler.
+
   ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215-arrow.jpg)
+
+Fig. #: Direction for replacing the Shroud.
+
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
+
+Fig. #: Top two Phillips screws of the Cooler bracket replaced.
+
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
 
-**Fig. 19:** CPU Cooler with Shroud removed (top), bracket screws on the chassis base (2nd down), bracket screws on cooler shroud (3rd down) and shroud replaced (bottom).
-
+Fig. #: Bottom two Phillips screws of the Cooler bracket.
 
   ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
@@ -269,7 +299,11 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 
 # RAM (Remove or Replace)
 
-Thelio Major B2
+The motherboard in the Thelio Majors require specific placement of the RAM sticks in order for the RAM modules to be utilized properly and for the system to boot.
+
+You can use the following tables to determine the placement of your RAM modules by number used.
+
+## Thelio Major B2
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
@@ -287,7 +321,7 @@ Thelio Major B2
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
 | **8 Modules** |              |               |               |               |      |
 
-Thelio Major R1
+## Thelio Major R1
 
 | Modules Used  | DDR4_D2      | DDR4_D1       | DDR4_C2       | DDR4_C1       | CPU  |  DDR4_A1      | DDR4_A2       | DDR4_B1       | DDR4_B2       |
 |---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -359,9 +393,17 @@ Link for the video for RAM Service:
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
+caption
+
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
+caption
+
   ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
+
+caption
+
+[IMAGE HIGHLIGHTS NEEDED]
 
   **Fig. 22:** Indicating the RAM notch on the motherboard (top), and on the RAM stick (middle). Pressing the RAM stick down into place (bottom).
 
@@ -415,6 +457,9 @@ Link for the video for GPU removal:
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
 ![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
+
+caption
+
 ![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom-highlighted.png)
 
 **Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
@@ -465,6 +510,8 @@ Link for the video for GPU removal:
 7. Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.
 
 **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
+
+[PUT IN COLLAGE]
 
 ![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-8pin.jpg)
 ![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
@@ -557,9 +604,21 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 7. [Replace the Top Case](#replacing-the-top-case) and reconnect all cables.
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
+
+caption
+
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
+
+caption
+
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
+
+caption
+
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
+
+caption
+
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
 **Fig: 31** Fig. 31: Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.

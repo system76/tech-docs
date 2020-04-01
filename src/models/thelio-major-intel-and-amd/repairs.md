@@ -13,9 +13,18 @@
 ### Top Case (Remove or Replace)
 - [Removing the Top Case](#removing-the-top-case)
 - [Replacing the Top Case](#replacing-the-top-case)
-### Shroud (Remove or Replace)
-- [Removing the Shroud](#removing-the-shroud)
-- [Replacing the Shroud](#replacing-the-shroud)
+### Power Button (Remove or Replace)
+- [Removing the Power Button](#removing-the-power-button)
+- [Replacing the Power Button](#replacing-the-power-buttom)
+### IO Board (Remove or Replace)
+- [Removing the IO Board](#removing-the-io-board)
+- [Replacing the IO Board](#replacing-the-io-board)
+### Case Fan (Remove or Replace)
+- [Removing the Case Fan](#removing-the-case-fan)
+- [Replacing the Case Fan](#replacing-the-case-fan)
+### CPU Cooler Shroud (Remove or Replace)
+- [Removing the CPU Cooler Shroud](#removing-the-cpu-cooler-shroud)
+- [Replacing the CPU Cooler Shroud](#replacing-the-cpu-cooler-shroud)
 ### RAM (Remove or Replace)
 - [Removing the RAM](#removing-ram-sticks)
 - [Replacing the RAM](#replacing-ram-sticks)
@@ -155,9 +164,35 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 [Return to Contents](#table-of-contents)
 
 
-# Shroud (Remove or replace)
 
-## Removing the Shroud
+# Power Button (Remove or Replace)
+
+## Removing the Power Button
+
+## Replacing the Power Button
+
+
+
+
+# IO Board (Remove or Replace)
+
+## Removing the IO Board
+
+## Replacing the IO Board
+
+
+
+# Case Fan (Remove or Replace)
+
+## Removing the Case Fan
+
+## Replacing the Case Fan
+
+
+
+# CPU Cooler Shroud (Remove or replace)
+
+## Removing the CPU Cooler Shroud
 
 **Tools required:** Crosshead (Phillips) screwdriver
 
@@ -194,7 +229,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 [Return to Contents](#table-of-contents)
 
 
-## Replacing the Shroud
+## Replacing the CPU Cooler Shroud
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver
 
@@ -228,6 +263,8 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 <!--Hyperlink to Replacing Top Case section needed.-->
 
 [Return to Contents](#table-of-contents)
+
+
 
 
 # RAM (Remove or Replace)

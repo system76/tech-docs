@@ -442,15 +442,15 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.png)
+  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips-highlighted.png)
 
 41
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
 
 42
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
 **Fig. 43:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
 
@@ -477,11 +477,11 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
 
 44
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
 45
 

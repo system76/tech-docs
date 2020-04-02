@@ -541,7 +541,7 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
-![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
+![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-highlighted.JPG)
 
 caption
 
@@ -571,11 +571,11 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on [Removing the GPU](#removing-the-gpu)
 
-![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
+![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014-highlighted.jpg)
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 
-![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close.png)
+![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close-highlighted.png)
 
 **Fig. 27:** Close up view of the PCIe slots.
 

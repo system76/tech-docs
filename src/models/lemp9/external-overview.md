@@ -41,6 +41,15 @@ The Lemur Pro has the following actions available using the Fn and Function keys
 |![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode                |
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                             |
 
+## LED indicators
+
+There is an LED light next to the DC-in connector (charger port.) The color and pattern indicate:
+
+- **Solid green:** Powered on and not suspended.
+- **Flashing green:** Powered on and suspended.
+- **Solid yellow:** Powered off and charging.
+- **Off:** Powered off and not charging.
+
 ## External Displays
 
 This model supports HDMI and DisplayPort over USB-C connections for external displays.

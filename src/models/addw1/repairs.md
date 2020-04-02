@@ -17,7 +17,7 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Low    
+**Difficulty:** Easy <span style="color:green;">●</span>    
 **Screws:** 2 total - 2 x M2 (black)
 
 ### Steps to replace the keyboard:
@@ -59,7 +59,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Medium    
+**Difficulty:** Medium <span style="color:orange;">●</span>    
 **Screws:** 14 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black)
 
 ### Steps to remove the bottom cover:
@@ -91,7 +91,7 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 15 minutes    
-**Difficulty:** Medium
+**Difficulty:** Medium <span style="color:orange;">●</span> 
 
 ### Steps to replace the RAM:
 
@@ -109,7 +109,7 @@ M.2 SSDs offer, at minimum, SATA III speeds and performance in a package about t
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
-**Difficulty:** Medium
+**Difficulty:** Medium <span style="color:orange;">●</span> 
 
 ### Steps to replace the M.2 drive:
 
@@ -131,7 +131,7 @@ In rare cases, or after several years, it may be necessary to apply new thermal 
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
-**Difficulty:** High
+**Difficulty:** High <span style="color:red;">●</span> 
 
 ### Steps to replace the fans/heatsink/thermal paste:
 
@@ -153,7 +153,7 @@ The CMOS battery supplies power to the Adder WS's CMOS chip. Changes you make to
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
-**Difficulty:** Medium
+**Difficulty:** Medium <span style="color:orange;">●</span> 
 
 ### Steps to replace the CMOS battery:
 
@@ -174,7 +174,7 @@ The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
-**Difficulty:** Easy
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the external battery
 
@@ -187,7 +187,7 @@ Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a 
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
-**Difficulty:** Medium
+**Difficulty:** Medium <span style="color:orange;">●</span> 
 
 ### Steps to replace the WiFi/Bluetooth module
 

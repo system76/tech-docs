@@ -154,7 +154,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 3. Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally. There should be no space between the bottom of the Top Case and the Thelio frame.
 4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch, and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
 
-![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
+![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view-highlighted.png)
 
 **Fig. 11:** Aligning the Thelio Top Case for replacment. A Thelio (non-major) is pictured here, but the alignment process is the same.
 

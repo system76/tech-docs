@@ -16,12 +16,14 @@
 ### Power Button (Remove or Replace)
 - [Removing the Power Button](#removing-the-power-button)
 - [Replacing the Power Button](#replacing-the-power-buttom)
-### IO Board (Remove or Replace)
+
+<!--### IO Board (Remove or Replace)
 - [Removing the IO Board](#removing-the-io-board)
 - [Replacing the IO Board](#replacing-the-io-board)
 ### Case Fan (Remove or Replace)
 - [Removing the Case Fan](#removing-the-case-fan)
-- [Replacing the Case Fan](#replacing-the-case-fan)
+- [Replacing the Case Fan](#replacing-the-case-fan)-->
+
 ### CPU Cooler Shroud (Remove or Replace)
 - [Removing the CPU Cooler Shroud](#removing-the-cpu-cooler-shroud)
 - [Replacing the CPU Cooler Shroud](#replacing-the-cpu-cooler-shroud)
@@ -174,13 +176,18 @@ If you’ve purchased a new top case for your Thelio (or received one for a supp
 ## Removing the Power Button
 The power button assembly is held on by a single nut inside the case.
 
+**Tools required:** Needle-nose pliers.
 
+**Time estimate:** 5 minutes
 
-1. Unplug the power button’s wire from the 90-degree connector.
-2. Next, unscrew the nut from the power button. Use a pair of needle-nose pliers to loosen the nut.
-3. Once the nut has been loosened, use your fingers to remove it the rest of the way.
-4. With the wire unplugged and the nut removed, the power button can be pushed out the front of the case.
-5. The black plastic rectangle inside of the case will also be loose at this point, and can be removed.
+**Difficulty:** <span style="color:green">Easy</span>
+
+1. Follow the steps to [remove the top case](#removing-the-top-case)
+2. Unplug the power button’s wire from the 90-degree connector (Fig. 12).
+3. Next, unscrew the nut from the power button. Use a pair of needle-nose pliers to loosen the nut (Fig. 14).
+4. Once the nut has been loosened, use your fingers to remove it the rest of the way (Fig. 15).
+5. With the wire unplugged and the nut removed, the power button can be pushed out the front of the case (Fig. 17).
+6. The black plastic rectangle inside of the case will also be loose at this point, and can be removed.
 
 ![Unplugging power button from 90-degree connector](../../pictures/thelio-power-button/unplug-1.jpg)
 
@@ -210,14 +217,23 @@ The power button assembly is held on by a single nut inside the case.
 
 **Fig. 18:** Power being pulled completely through Top Case.
 
+[Return to Contents](#table-of-contents)
+
 
 ## Replacing the Power Button
 
-1. Line up the black plastic rectangle with the hole inside of the case.
-2. While holding the black plastic rectangle to the hole, feed the power button wire through the hole and push the power button into the case.
-3. While holding the button in from the front, thread the power button wire through the nut, then screw the nut onto the power button.
-4. Tighten the nut with a pair of needle-nose pliers to ensure the plastic bracket doesn’t move around later.
-5. Finally, plug the power button’s wire into the 90-degree connector so the red wire is on the left.
+**Tools required:** Needle-nose pliers.
+
+**Time estimate:** 5 minutes
+
+**Difficulty:** <span style="color:green">Easy</span>
+
+1. Line up the black plastic rectangle with the hole inside of the case (Fig. 20).
+2. While holding the black plastic rectangle to the hole, feed the power button wire through the hole and push the power button into the case (Fig. 21).
+3. While holding the button in from the front, thread the power button wire through the nut, then screw the nut onto the power button (Fig. 24).
+4. Tighten the nut with a pair of needle-nose pliers to ensure the plastic bracket doesn’t move around later (Fig. 26).
+5. Finally, plug the power button’s wire into the 90-degree connector so the red wire is on the left (Fig. 27).
+6. Follow the steps to [replace the top case](#replacing-the-top-case)
 
 ![Empty power button hole](../../pictures/thelio-power-button/power-button-hole.jpg)
 
@@ -259,13 +275,31 @@ The power button assembly is held on by a single nut inside the case.
 
 **Fig. 28:** The completed power button assembly.
 
+[Return to Contents](#table-of-contents)
+
+
+<!-- This will be for v2.0
 
 # IO Board (Remove or Replace)
 
 ## Removing the IO Board
 
+**Tools required:**
+
+**Time estimate:**
+
+**Difficulty:** <span style="color:orange">Medium</span>
+
 ## Replacing the IO Board
 
+**Tools required:**
+
+**Time estimate:**
+
+**Difficulty:** <span style="color:orange">Medium</span>
+
+
+[Return to Contents](#table-of-contents)
 
 
 # Case Fan (Remove or Replace)
@@ -274,6 +308,8 @@ The power button assembly is held on by a single nut inside the case.
 
 ## Replacing the Case Fan
 
+[Return to Contents](#table-of-contents)
+-->
 
 
 # CPU Cooler Shroud (Remove or replace)
@@ -477,21 +513,21 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
-44
+**Fig. 44:**
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
-45
+**Fig. 45**
 
   ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
 
-46
+**Fig. 46**
 
 [IMAGE HIGHLIGHTS NEEDED]
 
-  **Fig. 22:** Indicating the RAM notch on the motherboard (top), and on the RAM stick (middle). Pressing the RAM stick down into place (bottom).
+**Fig. 22:** Indicating the RAM notch on the motherboard (top), and on the RAM stick (middle). Pressing the RAM stick down into place (bottom).
 
 1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
 2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.

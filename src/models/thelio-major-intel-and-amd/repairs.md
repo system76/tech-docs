@@ -156,7 +156,7 @@ This guide explains how to replace the Thelio’s Top Case after performing main
 3. Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally. There should be no space between the bottom of the Top Case and the Thelio frame.
 4. To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch, and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.
 
-![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view.png)
+![Aligning the Thelio Top Case for replacing](../../pictures/thelio/thelio-b1/case/replacing-case-internal-view-highlighted.png)
 
 **Fig. 11:** Aligning the Thelio Top Case for replacment. A Thelio (non-major) is pictured here, but the alignment process is the same.
 
@@ -478,15 +478,15 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.png)
+  ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips-highlighted.png)
 
 41
 
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
 
 42
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
 **Fig. 43:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
 
@@ -513,11 +513,15 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
+<<<<<<< HEAD
 ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
+=======
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
+>>>>>>> f1156b50be8c82a204d0b789a4eab6dcba5453b9
 
 **Fig. 44:**
 
-  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
+  ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
 **Fig. 45**
 
@@ -577,7 +581,7 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
-![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close.JPG)
+![Close view of the GPU leaving the PCIe slot](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-highlighted.JPG)
 
 caption
 
@@ -607,11 +611,11 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on [Removing the GPU](#removing-the-gpu)
 
-![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014.jpg)
+![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014-highlighted.jpg)
 
 **Fig. 26:** Thelio internal context view of PCIe slot.
 
-![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close.png)
+![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close-highlighted.png)
 
 **Fig. 27:** Close up view of the PCIe slots.
 

@@ -101,8 +101,8 @@ Depending on your climate and the age of the machine, it may be necessary to app
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
-**Difficulty:** Easy
+**Time estimate:** 15 minutes    
+**Difficulty:** Medium
 
 ### Steps to replace the main battery
 

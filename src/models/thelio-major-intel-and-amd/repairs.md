@@ -184,31 +184,31 @@ The power button assembly is held on by a single nut inside the case.
 
 ![Unplugging power button from 90-degree connector](../../pictures/thelio-power-button/unplug-1.jpg)
 
-**Fig. #:** Unplugging power button from 90-degree connector.
+**Fig. 12:** Unplugging power button from 90-degree connector.
 
 ![Cable disconnected from 90-degree connector](../../pictures/thelio-power-button/unplug-2.jpg)
 
-**Fig. #:** Cable disconnected from 90-degree connector.
+**Fig. 13:** Cable disconnected from 90-degree connector.
 
 ![Needle-nose pliers can help with unscrewing the nut](../../pictures/thelio-power-button/needle-nose.jpg)
 
-**Fig. #:** Needle-nose pliers can help with unscrewing the nut.
+**Fig. 14:** Needle-nose pliers can help with unscrewing the nut.
 
 ![Once loose, the nut can be unscrewed with fingers](../../pictures/thelio-power-button/unscrewing.jpg)
 
-**Fig. #:** Once loose, the nut can be unscrewed with fingers.
+**Fig. 15:** Once loose, the nut can be unscrewed with fingers.
 
 ![Removing the nut](../../pictures/thelio-power-button/nut-removal.jpg)
 
-**Fig. #:** Removing the nut.
+**Fig. 16:** Removing the nut.
 
 ![Removing button through hole in top-case](../../pictures/thelio-power-button/button-removal-1.jpg)
 
-**Fig. #:** Once the nut is removed, push the power button through the hole in the Top Case.
+**Fig. 17:** Once the nut is removed, push the power button through the hole in the Top Case.
 
 ![Button removed through Top Case hole](../../pictures/thelio-power-button/button-removal-2.jpg)
 
-**Fig. #:** Power being pulled completely through Top Case.
+**Fig. 18:** Power being pulled completely through Top Case.
 
 
 ## Replacing the Power Button
@@ -221,43 +221,43 @@ The power button assembly is held on by a single nut inside the case.
 
 ![Empty power button hole](../../pictures/thelio-power-button/power-button-hole.jpg)
 
-**Fig. #:** The empty power button hole in the Top Case.
+**Fig. 19:** The empty power button hole in the Top Case.
 
 ![Aligning the internal bracket](../../pictures/thelio-power-button/bracket.jpg)
 
-**Fig. #:** Aligning the internal bracket.
+**Fig. 20:** Aligning the internal bracket.
 
 ![Inserting power button cables](../../pictures/thelio-power-button/button-installation-1.jpg)
 
-**Fig. #:** Inserting power button cables.
+**Fig. 21:** Inserting power button cables.
 
 ![Inserting power button through top case](../../pictures/thelio-power-button/button-installation-2.jpg)
 
-**Fig. #:** Inserting power button through Top Case.
+**Fig. 22:** Inserting power button through Top Case.
 
 ![Power button fully inserted](../../pictures/thelio-power-button/button-installation-3.jpg)
 
-**Fig. #:** Power button fully inserted in the Top Case.
+**Fig. 23:** Power button fully inserted in the Top Case.
 
 ![Inserting cables through nut](../../pictures/thelio-power-button/nut-installation-1.jpg)
 
-**Fig. #:** Inserting cables through nut.
+**Fig. 24:** Inserting cables through nut.
 
 ![Finger tighenting nut](../../pictures/thelio-power-button/nut-installation-2.jpg)
 
-**Fig. #:** Finger tightening the nut.
+**Fig. 25:** Finger tightening the nut.
 
 ![Tightening the nut with needle-nose pliers](../../pictures/thelio-power-button/nut-installation-3.jpg)
 
-**Fig. #:** Tightening the nut with needle-nose pliers
+**Fig. 26:** Tightening the nut with needle-nose pliers
 
 ![Connecting the 90-degree connector.](../../pictures/thelio-power-button/plugging-in-wire.jpg)
 
-**Fig. #:** Connecting the 90-degree connector.
+**Fig. 27:** Connecting the 90-degree connector.
 
 ![Final assembly](../../pictures/thelio-power-button/final-assembly.jpg)
 
-**Fig. #:** The completed power button assembly.
+**Fig. 28:** The completed power button assembly.
 
 
 # IO Board (Remove or Replace)
@@ -293,32 +293,32 @@ The power button assembly is held on by a single nut inside the case.
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
-Fig. #: the 4 CPU Cooler Shroud thumbscrews.
+**Fig. 29:** the 4 CPU Cooler Shroud thumbscrews.
 
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
 
-Fig. #: Top two Phillips screws of the Cooler bracket.
+**Fig. 30:** Top two Phillips screws of the Cooler bracket.
 
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
 
-Fig. #: Bottom two Phillips screws of the Cooler bracket.
+**Fig. 31:** Bottom two Phillips screws of the Cooler bracket.
 
   ![Side View of Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154220-arrow.jpg)
 
-Fig. #: Showing the direction to remove the Cooler Shroud.
+**Fig. 32:** Showing the direction to remove the Cooler Shroud.
 
   ![Internals with Shroud Removed](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154453.jpg)
 
-Fig. #: Exposed Cooler Shroud.
+**Fig. 33:** Exposed Cooler Shroud.
 
   ![Internal view of the CPU Cooler Shroud](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154416.jpg)
 
-Fig. #: Removed Cooler Shroud for reference.
+**Fig. 34:** Removed Cooler Shroud for reference.
 
   ![Cooler and fan set aside](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154503.jpg)
 
 
-**Fig. 18:** Removed CPU Cooler Shroud and attached fan beside Thelio Chassis.
+**Fig. 35:** Removed CPU Cooler Shroud and attached fan beside Thelio Chassis.
 
 
 <!--Hyperlink to Removing Top Case section needed.-->
@@ -348,23 +348,23 @@ Fig. #: Removed Cooler Shroud for reference.
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
 
-Fig. #: The exposed cooler.
+Fig. 36: The exposed cooler.
 
   ![Shroud replaced](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154215-arrow.jpg)
 
-Fig. #: Direction for replacing the Shroud.
+Fig. 37: Direction for replacing the Shroud.
 
   ![Bracket screws, top (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_160959-highlighted.jpg)
 
-Fig. #: Top two Phillips screws of the Cooler bracket replaced.
+Fig. 38: Top two Phillips screws of the Cooler bracket replaced.
 
   ![Bracket screws, bottom (close)](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161003-highlighted.jpg)
 
-Fig. #: Bottom two Phillips screws of the Cooler bracket.
+Fig. 39: Bottom two Phillips screws of the Cooler bracket.
 
   ![Replace the CPU Cooler Shroud and thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
-**Fig. 20:** Replacing the CPU Cooler Shroud thumbscrews.
+**Fig. 40:** Replacing the CPU Cooler Shroud thumbscrews.
 
 1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
 2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
@@ -444,15 +444,15 @@ Link for the video for RAM Service:
 
   ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips.png)
 
-caption
+41
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
-caption
+42
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
-**Fig. 21:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
+**Fig. 43:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
 
 <!-- location of pictures on the page may change -->
 
@@ -479,15 +479,15 @@ caption
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
 
-caption
+44
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated.JPG)
 
-caption
+45
 
   ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
 
-caption
+46
 
 [IMAGE HIGHLIGHTS NEEDED]
 

@@ -639,9 +639,7 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
 [PUT IN COLLAGE]
 
-![Showing variations of pin connections on GPU cards - 8-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-8pin.jpg)
-![Showing variations of pin connections on GPU cards - 12-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-12-pin.jpg)
-![Showing variations of pin connections on GPU cards - 16-pin ](../../pictures/thelio/thelio-b1/gpu/gpu-16pin.jpg)
+![Showing variations of pin connections on GPU cards - 8/12/16 pin ](../../pictures/thelio/thelio-b1/gpu/gpu-pin-types.png)
 
 **Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (top), 12-pin (middle), 16-pin (bottom).
 

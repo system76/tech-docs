@@ -480,17 +480,15 @@ Link for the video for RAM Service:
 
   ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips-highlighted.png)
 
-41
+**Fig.41:** Accessing the RAM release clips.
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
 
-42
+**Fig. 42:** Placement of the RAM notch on the motherboard.
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
-**Fig. 43:** Accessing the RAM release clips (top). Placement of the RAM notch on the motherboard (middle) and on the RAM stick (bottom)
-
-<!-- location of pictures on the page may change -->
+**Fig. 43:**  Placement of the RAM notch on the RAM stick.
 
 1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
 2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
@@ -513,25 +511,20 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
-<<<<<<< HEAD
-![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated.png)
-=======
-  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
->>>>>>> f1156b50be8c82a204d0b789a4eab6dcba5453b9
 
-**Fig. 44:**
+  ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
+
+
+**Fig. 44:** Indicating the RAM notch on the motherboard.
 
   ![Placement of the RAM notch on the RAM stick](../../pictures/thelio/thelio-b1/ram/ram-with-notch-indicated-highlighted.JPG)
 
-**Fig. 45**
+**Fig. 45** Indicating the RAM notch on the RAM stick.
 
   ![Pressing the RAM stick down into place](../../pictures/thelio/thelio-b1/ram/replace-ram.png)
 
-**Fig. 46**
+**Fig. 46** Pressing the RAM stick down into place.
 
-[IMAGE HIGHLIGHTS NEEDED]
-
-**Fig. 22:** Indicating the RAM notch on the motherboard (top), and on the RAM stick (middle). Pressing the RAM stick down into place (bottom).
 
 1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
 2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.

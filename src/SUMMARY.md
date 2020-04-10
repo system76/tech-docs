@@ -15,7 +15,7 @@
         - [External Overview](models/thelio-major-intel-and-amd/external-overview.md)
         - [Internal Overview](models/thelio-major-intel-and-amd/internal-overview.md)
         - [Parts & Repairs](models/thelio-major-intel-and-amd/repairs.md)
-    - [Thelio Mega R1 (thelio-mega-r1](models/thelio-mega-r1/README.md)
+    - [Thelio Mega R1 (thelio-mega-r1)](models/thelio-mega-r1/README.md)
         - [External Overview](models/thelio-mega-r1/external-overview.md)
         - [Internal Overview](models/thelio-mega-r1/internal-overview.md)
         - [Parts & Repairs](models/thelio-mega-r1/repairs.md)

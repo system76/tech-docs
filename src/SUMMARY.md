@@ -16,7 +16,7 @@
         - [External Overview](models/thelio-mega-r1/external-overview.md)
         - [Internal Overview](models/thelio-mega-r1/internal-overview.md)
         - [Parts & Repairs](models/thelio-mega-r1/repairs.md)
-    - [Components](components/README.md)
+- [Components](components/README.md)
     - [Intel](components/intel/README.md)
         - [Central Processing Unit (CPU)](components/intel/cpu/README.md)
             - [Comet Lake-U (CML-U)](components/intel/cpu/cml-u/README.md)

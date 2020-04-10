@@ -838,7 +838,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
 2. Follow the steps in [Removing the CPU Cooler Shroud.](#removing-the-shroud)
 3. Follow the steps in [Removing the GPU](#removing-the-gpu) (if applicable).
-4. Gently but firmly separate the Cooling Fans from the Heat Sink (fig. 33). The fans are held on by clips which can be pried from the sides of the heat sink.
+4. Gently but firmly separate the Cooling Fans from the Heat Sink. The fans are held on by clips which can be pried from the sides of the heat sink.
 5. Next, disconnect the power cables from the Cooling Fans.
 6. Remove the four (4) bracket screws fastening the Heat Sink to the board. Loosen the screws one at a time. Move from opposite corner to opposite corner, diagonally across the Heat Sink. For example: first, top left screw, then bottom right screw (fig. 34). This ensures even pressure between the brackets and the motherboard.
 7. Lift the Heat Sink off of the motherboard.

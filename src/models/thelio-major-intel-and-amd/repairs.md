@@ -515,10 +515,10 @@ Link for the video for RAM Service:
   - 12 Thumbscrews (Phillips/Crosshead).
 
   1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
-  2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.
+  2. Insert the RAM stick in the slot. The order of the slots matters, (see tables above).
   3. Press evenly on the memory stick until both tabs lock into place. You’ll hear two clicks once it’s seated, and the clips will snap closed against the RAM.
-  4. Once the RAM is in place, replace the CPU Cooler Shroud (if applicable).
-  5. Replace the Top Case. <!--Hyperlink to Replacing the Top Case section needed here-->
+  4. Once the RAM is in place, [replace the CPU Cooler Shroud](#replacing-the-cpu-cooler-shroud) (if applicable).
+  5. [Replace the Top Case.](#replacing-the-top-case)
   6. Reconnect external devices: keyboard, mouse, monitor(s).
   7. Reconnect external power cable and turn power-supply switch to the on position.
   8. Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.
@@ -722,25 +722,25 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 6. Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.
 7. [Replace the Top Case](#replacing-the-top-case) and reconnect all cables.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
+![Thelio Top Bracket with provided drive screws](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
 
-54 caption
+**Fig.54:** Thelio Top Bracket with provided drive screws.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
+![Aligning the drive screws and grommets with drive cage slots](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
 
-55 caption
+**Fig. 55:** Aligning the drive screws and grommets with drive cage slots.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
+![Inserting the drive in to the cage slot](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
 
-56 caption
+**Fig. 56:** Inserting the drive in to the cage slot.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
+![Drive inserted almost fully in the slot](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
 
-57 caption
+**Fig. 57:** Drive inserted almost fully in the slot.
 
-![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
+![Pressing the drive firmly into place](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
-**Fig: 58** Fig. 31: Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
+**Fig: 58** Pressing the drive firmly into place.
 
 [Return to Contents](#table-of-contents)
 

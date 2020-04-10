@@ -327,6 +327,14 @@ The power button assembly is held on by a single nut inside the case.
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
   - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
+  <!--This section especially needs checked for accuracy.-->
+  1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
+  2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
+  3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+  4. Set the bracket and screws safely aside.
+  5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
+  5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
+
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
 **Fig. 29:** the 4 CPU Cooler Shroud thumbscrews.
@@ -357,15 +365,6 @@ The power button assembly is held on by a single nut inside the case.
 **Fig. 35:** Removed CPU Cooler Shroud and attached fan beside Thelio Chassis.
 
 
-<!--Hyperlink to Removing Top Case section needed.-->
-<!--This section especially needs checked for accuracy.-->
-1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
-2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
-4. Set the bracket and screws safely aside.
-5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
-5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
-
 [Return to Contents](#table-of-contents)
 
 
@@ -381,6 +380,14 @@ The power button assembly is held on by a single nut inside the case.
   - 8 Thumbscrews (Phillips/Cross-head) Top Case.
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
   - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
+
+  1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
+  2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
+  3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
+  4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+  5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
+
+  <!--Hyperlink to Replacing Top Case section needed.-->
 
   ![Exposed Cooler](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154457.jpg)
 
@@ -402,13 +409,7 @@ Fig. 39: Bottom two Phillips screws of the Cooler bracket.
 
 **Fig. 40:** Replacing the CPU Cooler Shroud thumbscrews.
 
-1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
-2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
-3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
-4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
-5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 
-<!--Hyperlink to Replacing Top Case section needed.-->
 
 [Return to Contents](#table-of-contents)
 
@@ -478,6 +479,13 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
+  1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
+  2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
+  <!--it may be necessary on this model.-->
+  3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
+  4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
+
+
   ![Accessing the RAM release clips](../../pictures/thelio/thelio-b1/ram/release-ram-clips-highlighted.png)
 
 **Fig.41:** Accessing the RAM release clips.
@@ -490,11 +498,6 @@ Link for the video for RAM Service:
 
 **Fig. 43:**  Placement of the RAM notch on the RAM stick.
 
-1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
-2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
-<!--it may be necessary on this model.-->
-3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
-4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
 
 
 [Return to Contents](#table-of-contents)
@@ -511,6 +514,15 @@ Link for the video for RAM Service:
 **Screws:** 12 total
   - 12 Thumbscrews (Phillips/Crosshead).
 
+  1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
+  2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.
+  3. Press evenly on the memory stick until both tabs lock into place. You’ll hear two clicks once it’s seated, and the clips will snap closed against the RAM.
+  4. Once the RAM is in place, replace the CPU Cooler Shroud (if applicable).
+  5. Replace the Top Case. <!--Hyperlink to Replacing the Top Case section needed here-->
+  6. Reconnect external devices: keyboard, mouse, monitor(s).
+  7. Reconnect external power cable and turn power-supply switch to the on position.
+  8. Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.
+
 
   ![Placement of the RAM notch on the motherboard](../../pictures/thelio/thelio-b1/ram/ram-board-slot-notch-indicated-highlighted.png)
 
@@ -526,14 +538,6 @@ Link for the video for RAM Service:
 **Fig. 46** Pressing the RAM stick down into place.
 
 
-1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
-2. Insert the RAM stick in the slot. The order of the slots matters, and there must be a RAM stick in the <!--is this slot the same in Major?--> left slot for the machine to boot.
-3. Press evenly on the memory stick until both tabs lock into place. You’ll hear two clicks once it’s seated, and the clips will snap closed against the RAM.
-4. Once the RAM is in place, replace the CPU Cooler Shroud (if applicable).
-5. Replace the Top Case. <!--Hyperlink to Replacing the Top Case section needed here-->
-6. Reconnect external devices: keyboard, mouse, monitor(s).
-7. Reconnect external power cable and turn power-supply switch to the on position.
-8. Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.
 
 [Return to Contents](#table-of-contents)
 
@@ -580,7 +584,7 @@ caption
 
 ![PCIe release switch](../../pictures/thelio/thelio-b1/gpu/gpu-pins-in-pci-slot-close-zoom-highlighted.png)
 
-**Fig. 24:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
+**Fig. 47:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
 
 <!--[Removal of the GPU external view](../../pictures/thelio/thelio-b1/)-->
 
@@ -604,20 +608,25 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on [Removing the GPU](#removing-the-gpu)
 
+  **Fig. 28:** Replacing the thumbscrews and GPU Bracket.-->
+  **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
+
+
+  ![Showing variations of pin connections on GPU cards - 8/12/16 pin ](../../pictures/thelio/thelio-b1/gpu/gpu-pin-types.png)
+
+  **Fig: 48** Showing variations of pin connections on GPU cards - 16-pin (left), 12-pin (middle), 8-pin (right).
+
 ![Thelio internal context view of PCIe slot](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_161014-highlighted.jpg)
 
-**Fig. 26:** Thelio internal context view of PCIe slot.
+**Fig. 49:** Thelio internal context view of PCIe slot.
 
 ![Close up view of the PCIe slot](../../pictures/thelio-major/thelio-major-r1/motherboard/pci-context-close-highlighted.png)
 
-**Fig. 27:** Close up view of the PCIe slots.
+**Fig. 50:** Close up view of the PCIe slots.
 
 <!--[PICTURES NEEDED]-->
 
-<!--[Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
-
-**Fig. 28:** Replacing the thumbscrews and GPU Bracket.-->
-
+<!--[Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)-->
 
 
 1. After [removing the GPU](#removing-the-gpu) (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe slot until it clicks into place.
@@ -627,18 +636,11 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 5. Do not connect the cables to the GPU until it has been inserted in the PCIe slot and secured with the brackets.
 6. Connect the power cables to the GPU selecting the cables based on the number of pins (See NOTE below).
 7. Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.
-
-**NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
-
-[PUT IN COLLAGE]
-
-![Showing variations of pin connections on GPU cards - 8/12/16 pin ](../../pictures/thelio/thelio-b1/gpu/gpu-pin-types.png)
-
-**Fig: 30** Showing variations of pin connections on GPU cards - 8-pin (top), 12-pin (middle), 16-pin (bottom).
-
-
-8. Once the GPU is connected and the power cables secured, replace the Top Case, reconnect external power cable.
+8. Once the GPU is connected and the power cables secured (fig #), replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.
+
+[IMAGE OF GPU CABLING]
+**Fig. 51**
 
 [Return to Contents](#table-of-contents)
 
@@ -661,18 +663,18 @@ The Thelio Major B2 provides eight (8) slots for 2.5” SATA drives. They are ho
 The number and location of M.2 drives, differs between the Thelio Major R and B models.
 
 ![Thelio Major's front M.2 drive slots](./img/thelio-major_diagram_config-large.png)
-  **Fig. 32:** Thelio Major (thelio-major-r2) front M.2 drive slots (left).
-  **Fig. 33:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
+  **Fig. 52:** Thelio Major (thelio-major-r2) front M.2 drive slots (left).
+  **Fig. 53:** Thelio Major (thelio-major-b2) front M.2 drive slots (right)
 
 
 ### Thelio Major R2
 
-The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (**Fig. 32**).
+The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (**Fig. 52**).
 
 
 ### Thelio Major B2
 
-The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (**Fig. 33**).
+The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (**Fig. 53**).
 
 Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Shroud and/or GPU to gain easier access. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
 
@@ -722,23 +724,23 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio-major/thelio-major-r1/screw-top-bracket-with-screws.jpg)
 
-caption
+54 caption
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage3.png)
 
-caption
+55 caption
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage4.png)
 
-caption
+56 caption
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage.png)
 
-caption
+57 caption
 
 ![Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage](../../pictures/thelio/thelio-b1/drives-drivecage/inserting-drive-in-drivecage2.png)
 
-**Fig: 31** Fig. 31: Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
+**Fig: 58** Fig. 31: Sequence of shots showing the removal and/or replacement of 2.5” drives in the Thelio drive cage.
 
 [Return to Contents](#table-of-contents)
 
@@ -797,7 +799,7 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
 10. [Replace the Top Case.](#replacing-the-top-case)
 11. Reconnect all cables and peripherals.
 
-NOTE: By default, the first of the two M.2 drives (NVMe or not) stores your operating system, so you will need to reinstall the OS after replacing it. This can be done by restoring from a backup, or from a fresh install.
+**NOTE:** By default, the first of the two M.2 drives (NVMe or not) stores your operating system, so you will need to reinstall the OS after replacing it. This can be done by restoring from a backup, or from a fresh install.
 
 Pop!\_OS users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-pop/
 
@@ -905,8 +907,10 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 
 ![A cleaned CPU core](../../pictures/thelio-major/thelio-major-r1/CPU/threadripper-close2.jpg)
 
+**Fig. 59:** A cleaned CPU core.
+
 ![Reapplied thermal paste on the core](../../pictures/thelio-major/thelio-major-r1/CPU/cpu-with-thermal-paste.jpg)
 
-**Fig. 34:** A cleaned CPU core (top), reapplied thermal paste on the core (bottom).
+**Fig. 60:** Reapplied thermal paste on the core.
 
 [Return to Contents](#table-of-contents)

@@ -129,7 +129,7 @@ PHOTOS NEED ADDED WITH SCREWS HIGHLIGHTED
 
 <!--locations of photos and/or description may change.-->
 
-1. unscrew the eight (8) thumbscrews from the back of the Thelio.
+1. Unscrew the eight (8) thumbscrews from the back of the Thelio.
 2. Lift the lid up and off of the chassis.
 
 ![Thelio internals with Top Case completely removed](../../pictures/thelio-major/thelio-major-b2/IMG_1099.jpeg)
@@ -328,12 +328,13 @@ The power button assembly is held on by a single nut inside the case.
   - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
   <!--This section especially needs checked for accuracy.-->
-  1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
-  2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-  3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
-  4. Set the bracket and screws safely aside.
-  5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
-  5. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
+1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
+2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
+3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+4. Set the bracket and screws safely aside.
+5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
+6. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
+
 
   ![Removing CPU Cooler Shroud thumbscrews](../../pictures/thelio-major/thelio-major-b2/IMG_20200321_154230-highlighted.jpg)
 
@@ -381,11 +382,17 @@ The power button assembly is held on by a single nut inside the case.
   - 4 Thumbscrews (Phillips/Cross-head) Shroud.
   - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
 
-  1. Slide the Cooler Shroud horizontally over the CPU cooling fan, encasing it.
-  2. Align the holes of the Shroud with the holes framing the air-vent on the back of the chassis.
-  3. Replace the four thumbscrews on the back of the case, fastening the shroud to the outer frame.
-  4. Replace the four (4) support bracket screws holding up the cooler shroud. There are two (2) Crosshead (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
-  5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
+1. Slide the Cooler Shroud horizontally over the CPU
+cooling fan, encasing it.
+2. Align the holes of the Shroud with the holes framing
+the air-vent on the back of the chassis.
+3. Replace the four thumbscrews on the back of the case,
+fastening the shroud to the outer frame.
+4. Replace the four (4) support bracket screws holding up
+the cooler shroud. There are two (2) Cross-head (Phillips)
+screws at the bottom of the chassis, and two (2) on the
+side of the shroud.
+5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 
   <!--Hyperlink to Replacing Top Case section needed.-->
 

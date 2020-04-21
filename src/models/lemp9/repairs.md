@@ -6,9 +6,9 @@ Many components in your Lemur Pro can be upgraded or replaced as necessary. Foll
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the main battery](#replacing-the-main-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Replacing the main battery](#replacing-the-main-battery)
 
 ## Removing the bottom cover:
 
@@ -96,24 +96,6 @@ Depending on your climate and the age of the machine, it may be necessary to app
 10. Replace the heatsink screws, starting with #1, then #2, and finally #3. Also replace the fan screws. Do not fully tighten until all screws are in place.
 11. Plug the fan back in.
 
-## Replacing the main battery
-
-The battery provides primary power whenever the system is unplugged.
-
-**Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 15 minutes    
-**Difficulty:** Medium <span style="color:orange;">●</span>
-
-### Steps to replace the main battery
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Unplug the white connector that connects the battery to the motherboard.
-
-![Main battery](./img/battery.jpg)
-
-3. Remove the battery. The battery is secured with tape, which can be pulled off. The tabs around the battery will also need to be held back for the battery to come out.
-4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
-
 ## Replacing the CMOS battery:
 
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
@@ -155,3 +137,23 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 6. Insert the new wireless card into the M.2 slot.
 7. Replace the retaining screw.
 8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+
+## Replacing the main battery
+
+The battery provides primary power whenever the system is unplugged.
+
+**CAUTION:** Do not use metal tools to remove the battery. Do not touch the battery contacts with your hands or metal objects. If the battery is damaged during repairs, do not reinsert it into the laptop. Do not continue to use the computer if it contains a damaged battery. It is a potential fire hazard to operate a computer with a damaged battery. Keep children away from, and properly dispose of, the damaged battery. Always dispose of batteries carefully, by placing a piece of tape on the contact points. Take damaged batteries to an electronics recycling center and contact System76 to purchase a replacement. Batteries may explode or leak if exposed to fire, or if improperly handled or discarded. Only use batteries designed for your specific computer. The product that you have purchased contains a rechargeable battery. The battery is recyclable. At the end of its useful life, under various state and local laws, it may be illegal to dispose of this battery into the municipal waste stream. Check with your local solid waste officials for details in your area for recycling options or proper disposal.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 15 minutes    
+**Difficulty:** High <span style="color:red;">●</span>
+
+### Steps to replace the main battery
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Unplug the white connector that connects the battery to the motherboard.
+
+![Main battery](./img/battery.jpg)
+
+3. Remove the battery. The battery is secured with tape, which can be pulled off. The tabs around the battery will also need to be held back for the battery to come out.
+4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.

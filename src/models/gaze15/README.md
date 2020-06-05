@@ -19,7 +19,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - or NVIDIA GeForce GTX 1650 Ti
         - 1 x HDMI, 1 x Mini DisplayPort 1.4
     - or NVIDIA GeForce GTX 1660
-        - 1 x HDMI, 1 x Mini DisplayPort 1.2, 1 x DisplayPort 1.3 over USB 3.1 Type-C
+        - 1 x HDMI, 1 x Mini DisplayPort 1.4, 1 x DisplayPort 1.4 over USB 3.1 Type-C
     - eDP 15.6" or 17.3" 1920x1080@120Hz LCD
 - Memory
     - Up to 64GB dual-channel DDR4 @ 2666 MHz, or

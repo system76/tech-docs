@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Lemur Pro](./img/lemp9.png)
+![Gazelle](./img/gaze15.webp)
 
 The System76 Lemur Pro is a laptop with the following specifications:
 

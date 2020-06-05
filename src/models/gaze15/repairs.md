@@ -7,9 +7,9 @@ Many components in your Lemur Pro can be upgraded or replaced as necessary. Foll
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- Replacing the CMOS battery
-- Replacing the external battery
-- Replacing the WiFi/Bluetooth module
+- [Replacing the CMOS battery](#replacing-the-cmos-battery)
+- [Replacing the external battery](#replacing-the-external-battery)
+- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
 ## Replacing the keyboard:
 
@@ -135,3 +135,59 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 7. Carefully replace the heatsink.
 8. Replace the screws, starting with #1, then #2, and so on until #11. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
+
+## Replacing the CMOS battery:
+
+The CMOS battery supplies power to the Gazelle's CMOS chip. Changes you make to the UEFI firmware settings and the comptuer's hardware clock are stored on the CMOS. If your Gazelle doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the CMOS battery:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the CMOS battery, which is connected to the motherboard via a red and black wire, between the 2.5" drive bay and the edge of the computer.
+
+![CMOS battery](./img/cmos-battery.jpg)
+
+3. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, use a thin plastic tool to pry the battery up from where it's stuck to the case.
+4. Power up the Gazelle. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+5. Press Enter at the CMOS/UEFI reset message prompts.
+6. If the system boots into the BIOS/UEFI setup utility, press F4 to load defaults, then F10 to save and resume normal boot.
+
+## Replacing the external battery:
+
+The battery provides primary power whenever the system is unplugged.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 1 minute  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to replace the CMOS battery:
+
+1. Slide the locks that hold the battery to their unlocked positions. (One lock will click into place, while the other is on a spring.)
+2. Hold back the spring-loaded lock while removing the battery.
+3. Replace the battery/insert the new battery, then slide the clicking lock to its locked position.
+
+## Replacing the wireless card:
+
+Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the WiFi/Bluetooth module:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the wireless module.
+
+![Wireless card](./img/wireless-card.jpg)
+
+3. Gently remove the two antennas by pulling them up and away from the wireless card.
+4. Remove the retaining screw opposite the M.2 slot.
+5. Remove the wireless card from the M.2 slot.
+6. Insert the new wireless card into the M.2 slot.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._

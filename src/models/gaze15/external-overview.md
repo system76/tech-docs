@@ -57,3 +57,18 @@ The Gazelle has the following actions available using the Fn and Function keys:
 |/                          |Fn+/    |Cycle keyboard color               |
 |-                          |Fn+-    |Decrease keyboard brightness       |
 |+                          |Fn++    |Increase keyboard brightness       |
+
+## LED indicators
+
+The Gazelle 15 has the following LED indicators:
+
+|Icon                                    |Color          |Description                                      |
+|----------------------------------------|---------------|-------------------------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |DC power plugged in                              |
+|                                        |Green          |Computer is on                                   |
+|                                        |Blinking green |Computer is sleeping                             |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
+|                                        |Green          |Battery fully charged                            |
+|                                        |Blinking orange|Battery critically low                           |
+|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on<br/>(WiFi/Bluetooth disabled)|
+|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |

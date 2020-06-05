@@ -1,4 +1,4 @@
-# Lemur Pro (lemp9)
+# Gazelle (gaze15)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

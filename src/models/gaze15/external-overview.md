@@ -1,4 +1,4 @@
-# Lemur Pro (External Overview)
+# Gazelle (External Overview)
 
 ## Left side overview:
 

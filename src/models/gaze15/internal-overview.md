@@ -1,4 +1,4 @@
-# Lemur Pro (Internal Overview)
+# Gazelle (Internal Overview)
 
 ## User-replaceable components:
 

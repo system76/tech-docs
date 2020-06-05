@@ -1,4 +1,4 @@
-# Lemur Pro (Parts & Repairs)
+# Gazelle (Parts & Repairs)
 
 Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

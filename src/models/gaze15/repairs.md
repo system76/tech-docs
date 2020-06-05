@@ -5,8 +5,8 @@ Many components in your Lemur Pro can be upgraded or replaced as necessary. Foll
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
-- Replacing an M.2/NVMe SSD
-- Replacing the fans/heatsink/thermal paste
+- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - Replacing the CMOS battery
 - Replacing the external battery
 - Replacing the WiFi/Bluetooth module
@@ -78,7 +78,7 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 **Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
-### Steps to remove the bottom cover:
+### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
@@ -88,3 +88,50 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 3. Remove the RAM from the slot.
 4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
 
+## Replacing an M.2/NVMe SSD:
+
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the M.2 drive:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the M.2 drive (or slot.)
+
+![M.2 slots](./img/m2-slots.jpg)
+
+3. Unscrew the retainer screw opposite the M.2 slot.
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.
+
+## Replacing the cooling system:
+
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the fans/heatsink/thermal paste:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the CPU heatsink screws.
+3. Remove the screws, starting with #1, then #2, and continuing until you have removed #11.
+
+![Thermal screws](./img/thermal-screws.jpg)
+
+4. Carefully remove the heatsink/fans from the case.
+5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+
+![Heatsink](./img/heatsink-removed.jpg)
+
+6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU core.
+
+![Thermal paste](./img/thermal-paste.jpg)
+
+7. Carefully replace the heatsink.
+8. Replace the screws, starting with #1, then #2, and so on until #11. Do not fully tighten until all of the screws have been started, then fully tighten all screws.

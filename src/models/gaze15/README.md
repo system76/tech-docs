@@ -46,9 +46,9 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - 1 x USB 2.0
         - 1 x USB 3.0
         - 1 x USB 3.1
-        - 1 x USB 3.1 Type-C
+        - 1 x USB 3.2 Type-C
     - GTX 1660 Ti:
         - 1 x USB 2.0
         - 1 x USB 3.0
         - 1 x USB 3.1
-        - 1 x USB 3.1 Type-C with DisplayPort 1.3
+        - 1 x USB 3.2 Type-C with DisplayPort 1.4

@@ -3,8 +3,8 @@
 Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Replacing the keyboard](#replacing-the-keyboard)
-- Removing the bottom cover
-- Replacing the RAM
+- [Removing the bottom cover](#removing-the-bottom-cover)
+- [Replacing the RAM](#replacing-the-ram)
 - Replacing an M.2/NVMe SSD
 - Replacing the fans/heatsink/thermal paste
 - Replacing the CMOS battery
@@ -58,8 +58,33 @@ Removing the cover is required to access the internal components. Prior to remov
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 17 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black); 3 x M2 battery (black)
+**Screws:** 17 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black); 3 x M2 under-battery (black)
 
 ### Steps to remove the bottom cover:
 
 1. Place the Gazelle lid-side down.
+2. Remove the external battery.
+3. Remove the 13 perimiter screws, 2 keyboard screws, and 3 under-battery screws.
+
+![Bottom panel screws](./img/bottom-panel-screws.jpg)
+
+4. Lift the bottom cover off, starting from the front corners working to the back near the hinges.
+
+## Replacing the RAM:
+
+RAM acts as temporary storage for your computer. More RAM generally provides better performance. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to remove the bottom cover:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
+
+![RAM removal](./img/ram-removal.jpg)
+
+3. Remove the RAM from the slot.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
+

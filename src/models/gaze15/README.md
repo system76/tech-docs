@@ -6,7 +6,7 @@
 
 ![Gazelle](./img/gaze15.webp)
 
-The System76 Lemur Pro is a laptop with the following specifications:
+The System76 Gazelle is a laptop with the following specifications:
 
 - CPU
     - Supports Intel Comet Lake CPUs

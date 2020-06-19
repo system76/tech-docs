@@ -4,35 +4,35 @@
 
 ### 1650 & 1650 Ti
 
-![Left Ports](./img/left-a.png)
+![Left Ports](./img/left-a.jpg)
 
 ### 1660 Ti
 
-![Left Ports](./img/left-b.png)
+![Left Ports](./img/left-b.jpg)
 
 ## Right side overview:
 
 ### 1650 & 1650 Ti
 
-![Right Ports](./img/right-a.png)
+![Right Ports](./img/right-a.jpg)
 
 ### 1660 Ti
 
-![Right Ports](./img/right-b.png)
+![Right Ports](./img/right-b.jpg)
 
 ## Front side overview:
 
-![Front Ports](./img/front.png)
+![Front Ports](./img/front.jpg)
 
 ## Back side overview:
 
 ### 1650 & 1650 Ti
 
-![Back Ports](./img/back-a.png)
+![Back Ports](./img/back-a.jpg)
 
 ### 1660 Ti
 
-![Back Ports](./img/back-b.png)
+![Back Ports](./img/back-b.jpg)
 
 ## Keyboard Shortcuts
 

@@ -34,6 +34,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
 - Power
     - 19V, 3.42A (65W) AC adapter
+      - Included AC adapter uses C7 power cord
     - 73Wh battery
     - [TI BQ24780S Battery Charger](https://www.ti.com/product/BQ24780S)
 - Sound

@@ -16,7 +16,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - [Intel HM470](https://ark.intel.com/content/www/us/en/ark/products/203697/intel-hm470-chipset.html)
 - Firmware
     - [System76 Open Firmware](https://github.com/system76/firmware-open)
-    - [System76 Open EC](https://github.com/system76/ec)
+- EC
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - GPU
     - NVIDIA GeForce RTX 2080 (Max-Q)
         - ports here

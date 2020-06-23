@@ -1,13 +1,16 @@
 # Oryx Pro (Internal Overview)
 
-## User-replaceable components:
+## Components and connectors:
 
-The following components can be replaced using the instructions under [Parts & Repairs](./repairs.md).
+Refer to [Parts & Repairs](./repairs.md) when replacing components.
 
 ![Internal Components](./img/components-highlighted.jpg)
 
-- CPU fan/heatsink is highlighted in cyan
+- Fan/heatsink module is highlighted in cyan
+- Fan connector is highlighted in purple
 - RAM is highlighted in green
 - Wireless card is highlighted in pink
-- M.2 SSDs are highlighted in yellow
+- Battery connector is highlighted in red
 - Battery is highlighted in orange
+- M.2 SSDs are highlighted in yellow
+- Speaker connector is highlighted in blue

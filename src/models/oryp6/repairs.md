@@ -107,53 +107,31 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 ## Replacing the cooling system:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+
+Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the CPU heatsink screws.
-3. Remove the screws, starting with #1, then #2, and continuing until you have removed #11.
+3. Remove the silver screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #6.
 
 ![Thermal screws](./img/thermal-screws.jpg)
 
-4. Carefully remove the heatsink/fans from the case.
-5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
-
-![Heatsink](./img/heatsink-removed.jpg)
-
-6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU core.
-
-![Thermal paste](./img/thermal-paste.jpg)
-
+4. Remove the 6 black screws holding the fans onto the chassis (highlighted yellow above.) *Note: Do not remove the smaller black screws holding the fan covers onto the fans.*
+5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove
+6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
 7. Carefully replace the heatsink.
-8. Replace the screws, starting with #1, then #2, and so on until #11. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
+8. Replace the black fan screws.
+9. Replace the silver heatsink screws, starting with #1, then #2, and so on until #6. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
 
-## Replacing the CMOS battery:
-
-The CMOS battery supplies power to the Gazelle's CMOS chip. Changes you make to the UEFI firmware settings and the comptuer's hardware clock are stored on the CMOS. If your Gazelle doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the CMOS battery:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the CMOS battery, which is connected to the motherboard via a red and black wire, between the 2.5" drive bay and the edge of the computer.
-
-![CMOS battery](./img/cmos-battery.jpg)
-
-3. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, use a thin plastic tool to pry the battery up from where it's stuck to the case.
-4. Power up the Gazelle. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
-5. Press Enter at the CMOS/UEFI reset message prompts.
-6. If the system boots into the BIOS/UEFI setup utility, press F4 to load defaults, then F10 to save and resume normal boot.
-
-## Replacing the external battery:
+## Replacing the battery:
 
 The battery provides primary power whenever the system is unplugged.
 

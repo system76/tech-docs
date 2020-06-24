@@ -1,6 +1,6 @@
 # Oryx Pro (Parts & Repairs)
 
-Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Oryx Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
@@ -22,34 +22,33 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 ### Steps to replace the keyboard:
 
-1. Place the Gazelle lid-side down.
-2. Remove the 2 keyboard screws, indicated by the small keyboard icons (highlighted yellow below).
+1. Place the Oryx Pro lid-side down.
+2. Remove the 2 keyboard screws, indicated by the small keyboard icons.
 
-![Keyboard screws](./img/bottom-screws.jpg)
+![Keyboard screws](./img/keyboard-screws.jpg)
 
-3. Open the Gazelle and place it on its side.
-4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted green above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
-5. Set the Gazelle down, then pull the keyboard loose, starting from the top side.
-
-![Keyboard removal](./img/keyboard-removal.jpg)
-
-6. Flip the keyboard over onto the trackpad.
+5. Flip the keyboard over onto the touchpad and set the Oryx Pro back down. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
-7. Pull the large ribbon cable out of the connector.
-8. The small ribbon cables have latches. Gently pull the latches from both sides and remove the ribbon cables.
+6. Flip the black latches (shown below) upwards to free the ribbon cables.
+
+![Keyboard connectors](./img/keyboard-connectors.jpg)
+
+7. Pull the ribbon cables out of the connectors.
 9. Remove the keyboard and replace it with the new one.
-10. Insert the large ribbon cable into the connector.
-11. Seat the small ribbon cables, then apply pressure equally to both sides of the connector to secure.
-12. Flip the keyboard over and press the bottom tabs of the keyboard into the case.
-13. Secure the keyboard by pressing down on the edges of the keyboard.
-14. Flip the Gazelle over.
-15. Replace the 2 screws holding the keyboard in place.
-16. Boot your Gazelle and confirm the keyboard is operational.
+10. Carefully slide both ribbon cables into their connectors.
+11. Flip the black latches back into place to secure the ribbon cables.
+12. Place the keyboard back into position, starting with the tabs on the bottom edge.
+13. Secure the rest of the keyboard by pressing down on each of its edges.
+14. Turn the machine lid-side down again.
+15. Replace the 2 keyboard screws.
+16. Boot the machine and confirm the keyboard and keyboard backlight are operational.
 
 ## Removing the bottom cover:
 

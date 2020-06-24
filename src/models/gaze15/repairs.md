@@ -1,6 +1,6 @@
 # Gazelle (Parts & Repairs)
 
-Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Gazelle can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)

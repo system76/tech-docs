@@ -57,17 +57,16 @@ Removing the cover is required to access the internal components. Prior to remov
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 17 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black); 3 x M2 under-battery (black)
+**Screws:** 13 total - 11 x M2 (black); 2 x M2.5 (black)
 
 ### Steps to remove the bottom cover:
 
-1. Place the Gazelle lid-side down.
-2. Remove the external battery.
-3. Remove the 13 perimiter screws, 2 keyboard screws, and 3 under-battery screws.
+1. Place the Oryx Pro lid-side down.
+2. Remove the 13 bottom panel screws. Note that two of the screws are longer than the rest (highlighted red below.)
 
-![Bottom panel screws](./img/bottom-screws.jpg)
+![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-4. Lift the bottom cover off, starting from the front corners working to the back near the hinges.
+3. Lift the bottom panel off of the case.
 
 ## Replacing the RAM:
 
@@ -82,7 +81,7 @@ The Oryx Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
-![RAM removal](./img/ram-removal.jpg)
+![RAM removal](./img/ram-slots.jpg)
 
 3. Remove the RAM from the slot.
 4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
@@ -98,14 +97,13 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 ### Steps to replace the M.2 drive:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the M.2 drive (or slot.)
+2. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slots](./img/m2-slots.jpg)
 
-3. Unscrew the retainer screw opposite the M.2 slot.
-4. Remove the existing M.2 drive by pulling it out of the slot.
-5. Insert the new M.2 drive into the slot and hold it in place.
-6. Replace the retainer screw.
+3. Remove the existing M.2 drive by pulling it out of the slot.
+4. Insert the new M.2 drive into the slot and hold it in place.
+5. Replace the retainer screw.
 
 ## Replacing the cooling system:
 

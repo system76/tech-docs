@@ -1,6 +1,6 @@
 # Gazelle (Parts & Repairs)
 
-Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Gazelle can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
@@ -110,7 +110,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 ## Replacing the cooling system:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+If one of the fans becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+
+Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

@@ -19,12 +19,10 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - GPU
     - NVIDIA GeForce RTX 2080 Super (Max-Q)
-        - ports here
     - or NVIDIA GeForce RTX 2070 (Max-Q)
-        - ports here
     - or NVIDIA GeForce RTX 2060
-        - ports here
     - eDP 15.6" or 17.3" 1920x1080@144Hz LCD
+    - HDMI, Mini DisplayPort 1.4, and DisplayPort over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

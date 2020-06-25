@@ -7,8 +7,8 @@ Many components in your Oryx Pro can be upgraded or replaced as necessary. Follo
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the battery](#replacing-the-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the external battery](#replacing-the-external-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
 ## Replacing the keyboard:
@@ -112,7 +112,7 @@ If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, yo
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
@@ -124,30 +124,66 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal screws](./img/thermal-screws.jpg)
 
 4. Remove the 6 black screws holding the fans onto the chassis (highlighted yellow above.) *Note: Do not remove the smaller black screws holding the fan covers onto the fans.*
-5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove
-6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
-7. Carefully replace the heatsink.
-8. Replace the black fan screws.
-9. Replace the silver heatsink screws, starting with #1, then #2, and so on until #6. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
+5. If there is any clear tape securing the heatsink/fans or the fan wires, remove it.
+6. Unplug the two white fan connectors from the motherboard (highlighted cyan above).
+7. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+
+![Heatsink assembly](./img/heatsink.jpg)
+
+8. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+9. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
+
+![Thermal paste application](./img/thermal-paste.jpg)
+
+10. Carefully replace the heatsink.
+11. Replace the silver heatsink screws, starting with #1, then #2, and so on until #6.
+12. Replace the black fan screws.
+13. Plug the two white fan connectors back into the motherboard.
+
 
 ## Replacing the battery:
 
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 1 minute  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Time estimate:** 5 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the battery:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. If there is an M.2 SSD in the slot closest to the battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
+3. The battery is held in by four of the bottom panel screws and one additional screw underneath the M.2 SSD. Remove the final screw, highlighted red below.
+
+![Battery screws](./img/battery-screws.jpg)
+
+4. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard and remove the battery.
+5. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
+
+## Replacing the CMOS battery:
+
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the CMOS battery:
 
-1. Slide the locks that hold the battery to their unlocked positions. (One lock will click into place, while the other is on a spring.)
-2. Hold back the spring-loaded lock while removing the battery.
-3. Replace the battery/insert the new battery, then slide the clicking lock to its locked position.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. If there is an M.2 SSD in the slot closest to the main battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
+3. Follow the steps above to [remove the main battery](#replacing-the-battery). The CMOS battery is located underneath the main battery.
+
+![CMOS battery](./img/cmos-battery.jpg)
+
+4. Unplug the small white connector that connects the CMOS battery to the motherboard, highlighted yellow above. If you are replacing the battery, use a thin plastic tool to pry the battery up from where it's stuck to the case.
+5. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+6. Re-connect the CMOS battery, [replace the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
+7. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the wireless card:
 
-Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -156,13 +192,13 @@ Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a s
 ### Steps to replace the WiFi/Bluetooth module:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the wireless module.
+2. Locate the wireless module. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.jpg)
 
-3. Gently remove the two antennas by pulling them up and away from the wireless card.
-4. Remove the retaining screw opposite the M.2 slot.
-5. Remove the wireless card from the M.2 slot.
-6. Insert the new wireless card into the M.2 slot.
+3. Gently remove the two antennas (highlighted pink above) by pulling them up and away from the wireless card.
+4. Remove the retaining screw opposite the M.2 slot, highlighted cyan above.
+5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
+6. Insert the new wireless card into the M.2 slot at an angle.
 7. Replace the retaining screw.
-8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._

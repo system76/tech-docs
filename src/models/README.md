@@ -6,4 +6,5 @@ This documentation includes the following System76 models:
 - [Gazelle (gaze15)](gaze15/README.md)
 - [Lemur Pro (lemp9)](lemp9/README.md)
 - [Oryx Pro (oryp6)](oryp6/README.md)
+- [Serval WS (serw12)](serw12/README.md)
 - [Thelio Major B2 (thelio-major-b2)](thelio-major-b2/service-manual.md)

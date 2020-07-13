@@ -1,4 +1,4 @@
-# Oryx Pro (External Overview)
+# Serval WS (External Overview)
 
 ## Left side overview:
 
@@ -18,7 +18,7 @@
 
 ### Keyboard Shortcuts
 
-The Oryx Pro has the following actions available using the Fn and Function keys:
+The Serval WS has the following actions available using the Fn and Function keys:
 
 |Key                        |Shortcut|Action                             |
 |---------------------------|--------|-----------------------------------|
@@ -34,21 +34,23 @@ The Oryx Pro has the following actions available using the Fn and Function keys:
 |![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode               |
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                            |
 |![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
+|1                          |Fn+1    |Toggle fan between max/automatic   |
 |![Fn-*](./img/fn-star.png) |Fn+*    |Toggle keyboard backlight          |
-|/                          |Fn+/    |Cycle keyboard color               |
-|-                          |Fn+-    |Decrease keyboard brightness       |
-|+                          |Fn++    |Increase keyboard brightness       |
+|/ (numpad)                 |Fn+/    |Cycle keyboard color               |
+|- (numpad)                 |Fn+-    |Decrease keyboard brightness       |
+|+ (numpad)                 |Fn++    |Increase keyboard brightness       |
 
 ## LED indicators
 
-The Oryx Pro has the following LED indicators:
+The Serval WS has the following LED indicators:
 
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
-|                                        |Green          |Powered on                                       |
-|                                        |Blinking green |Sleeping (suspended)                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |
+|Icon                                    |Color          |Description                                  |
+|----------------------------------------|---------------|---------------------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in             |
+|                                        |Green          |Powered on                                   |
+|                                        |Blinking green |Sleeping (suspended)                         |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                             |
+|                                        |Green          |Battery fully charged                        |
+|                                        |Blinking orange|Battery critically low                       |
+|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on (WiFi/Bluetooth disabled)|
+|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                       |

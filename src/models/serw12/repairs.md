@@ -1,54 +1,32 @@
-# Oryx Pro (Parts & Repairs)
+# Serval WS (Parts & Repairs)
 
-Many components in your Oryx Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Serval WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
+- [Removing the battery](#removing-the-battery)
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the battery](#replacing-the-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
-## Replacing the keyboard:
+## Removing the battery:
 
-Keyboard replacement is simple and requires only a cross-head screwdriver.
+The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 2 total - 2 x M2 (black)
 
-### Steps to replace the keyboard:
+### Steps to remove the battery:
 
-1. Place the Oryx Pro lid-side down.
-2. Remove the 2 keyboard screws, indicated by the small keyboard icons.
+1. Place the Serval WS lid-side down.
+2. Unscrew the two battery screws (highlighted yellow below.)
 
-![Keyboard screws](./img/keyboard-screws.jpg)
+![Battery screws](./img/battery-screws.jpg)
 
-3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted green above) until the keyboard pops out.
-
-![Keyboard push point](./img/keyboard-push-point.jpg)
-
-5. Flip the keyboard over onto the touchpad and set the Oryx Pro back down. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
-
-![Keyboard ribbons](./img/keyboard-ribbons.jpg)
-
-6. Flip the black latches (shown below) upwards to free the ribbon cables.
-
-![Keyboard connectors](./img/keyboard-connectors.jpg)
-
-7. Pull the ribbon cables out of the connectors.
-9. Remove the keyboard and replace it with the new one.
-10. Carefully slide both ribbon cables into their connectors.
-11. Flip the black latches back into place to secure the ribbon cables.
-12. Place the keyboard back into position, starting with the tabs on the bottom edge.
-13. Secure the rest of the keyboard by pressing down on each of its edges.
-14. Turn the machine lid-side down again.
-15. Replace the 2 keyboard screws.
-16. Boot the machine and confirm the keyboard and keyboard backlight are operational.
+3. Pick the battery up and remove it from the slot.
 
 ## Removing the bottom cover:
 
@@ -57,28 +35,65 @@ Removing the cover is required to access the internal components. Prior to remov
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 13 total - 11 x M2 (black); 2 x M2.5 (black)
 
 ### Steps to remove the bottom cover:
 
-1. Place the Oryx Pro lid-side down.
-2. Remove the 13 bottom panel screws. Note that two of the screws are longer than the rest (highlighted red below.)
+1. [Remove the battery](#removing-the-battery).
+2. Remove the 5 bottom panel screws (highlighted red below.)
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-3. Lift the bottom panel off of the case.
+3. Slide the bottom panel away from the battery slot, then lift it off of the case.
 
-## Replacing the RAM:
+## Replacing the keyboard:
 
-The Oryx Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The keyboard can be replaced using the instructions below.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
+### Steps to replace the keyboard:
+
+1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove the two keyboard screws (circled green and cyan below.)
+
+![Keyboard screws](./img/keyboard-screws.jpg)
+
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+
+![Keyboard push point](./img/keyboard-push-point.jpg)
+
+5. Flip the keyboard over onto the touchpad and set the Serval WS back down. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+
+![Keyboard ribbons](./img/keyboard-ribbons.jpg)
+
+6. Flip the black latches (highlighted red below) upwards to free the ribbon cables.
+
+![Keyboard connectors](./img/keyboard-connectors.jpg)
+
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. Place the keyboard back into position, starting with the tabs on the bottom edge.
+12. Secure the rest of the keyboard by pressing down on each of its edges.
+13. Turn the machine lid-side down again.
+14. Replace the 2 keyboard screws, the bottom panel, and the battery.
+15. Boot the machine and confirm the keyboard and keyboard backlight are operational.
+
+## Replacing the RAM:
+
+The Serval WS 12 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
 ![RAM removal](./img/ram-slots.jpg)
@@ -92,11 +107,11 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:orange;">●</span>  
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slots](./img/m2-slots.jpg)
@@ -140,25 +155,6 @@ Depending on your climate and the age of the machine, it may be necessary to app
 12. Replace the black fan screws.
 13. Plug the two white fan connectors back into the motherboard.
 
-
-## Replacing the battery:
-
-The battery provides primary power whenever the system is unplugged.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the battery:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. If there is an M.2 SSD in the slot closest to the battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
-3. The battery is held in by four of the bottom panel screws and one additional screw underneath the M.2 SSD. Remove the final screw, highlighted red below.
-
-![Battery screws](./img/battery-screws.jpg)
-
-4. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard and remove the battery.
-5. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
 
 ## Replacing the CMOS battery:
 

@@ -3,11 +3,12 @@
 Many components in your Serval WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Removing the battery](#removing-the-battery)
-- [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
+- [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the CPU](#replacing-the-cpu)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
@@ -122,7 +123,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 ## Replacing the cooling system:
 
-If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+The Serval WS 12 has a single heatsink for the CPU and GPU. One fan is attached to the heatsink, while one additional fan is separate from the heatsink.
+
+If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
@@ -130,31 +133,65 @@ Depending on your climate and the age of the machine, it may be necessary to app
 **Time estimate:** 15 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-### Steps to replace the fans/heatsink/thermal paste:
+### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the CPU heatsink screws.
-3. Remove the silver screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #6.
+3. Remove the eight numbered screws in reverse order, starting with #8, then #7, and continuing until you have removed #1. Screws 1-6 (highlighted red below) are on the heat sink, while 7-8 (highlighted green below) are on the attached fan.
 
 ![Thermal screws](./img/thermal-screws.jpg)
 
-4. Remove the 6 black screws holding the fans onto the chassis (highlighted yellow above.) *Note: Do not remove the smaller black screws holding the fan covers onto the fans.*
-5. If there is any clear tape securing the heatsink/fans or the fan wires, remove it.
-6. Unplug the two white fan connectors from the motherboard (highlighted cyan above).
-7. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+
+4. Unplug the white fan connector (for the attached fan) from the motherboard.
+5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste. If necessary, apply pressure using a flat object wedged underneath the ends of the heatsink pipes.
+
+![Prying off the heatsink](./img/heatsink-pressure.jpg)
+
+6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Heatsink assembly](./img/heatsink.jpg)
 
-8. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
-9. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
+![Thermal paste removal](./img/thermal-paste-1.jpg)
 
-![Thermal paste application](./img/thermal-paste.jpg)
+7. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
 
-10. Carefully replace the heatsink.
-11. Replace the silver heatsink screws, starting with #1, then #2, and so on until #6.
-12. Replace the black fan screws.
-13. Plug the two white fan connectors back into the motherboard.
+![Thermal paste application](./img/thermal-paste-2.jpg)
 
+8. Carefully replace the heatsink.
+9. Replace the heatsink and fan screws, starting with #1, then #2, and so on until #8.
+10. Plug the white fan connector (for the attached fan) back into the motherboard.
+
+### Steps to replace the additional fan:
+
+1. Follow the steps above to [remove the heatsink](#steps-to-replace-the-heatsinkthermal-paste).
+2. Remove the three screws (highlighted yellow in the above section) holding the additional fan in place.
+3. Unplug the black connector from the motherboard (pictured below) and remove the additional fan.
+
+![Additional fan](./img/additional-fan.jpg)
+
+## Replacing the CPU:
+
+The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 20 minutes    
+**Difficulty:** High <span style="color:red;">●</span>
+
+### Steps to replace the CPU:
+
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the bottom cover](#removing-the-bottom-cover), and [remove the heatsink](#replacing-the-cooling-system).
+2. Lift up the lever holding the CPU in place, highlighted red below.
+
+![CPU lever](./img/cpu-lever.jpg)
+
+![Raised CPU lever](./img/cpu-lever-open.jpg)
+
+3. Carefully lift the old CPU out of the socket. **Caution:** Be careful not to bend any of the gold pins on the bottom of the CPU.
+4. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation.
+
+![Triangle on socket](./img/triangle-socket.jpg)
+
+5. Replace the thermal paste, heatsink/fan(s), bottom panel, and battery.
 
 ## Replacing the CMOS battery:
 

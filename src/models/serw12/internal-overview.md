@@ -8,9 +8,10 @@
 - Additional fan is highlighted in olive
 - Fan connectors are highlighted in pink
 - M.2 SSDs are highlighted in yellow
+- Wireless card is below the top M.2 SSD, highlighted dashed red
 - CMOS battery connector is highlighted in cyan
 - RAM is highlighted in light green
-- 2.5" drive bay is highlighted in red
+- 2.5" drive bay is highlighted in dark red
 - Battery slot is highlighted in orange
 
 ## Under-keyboard components and connectors:

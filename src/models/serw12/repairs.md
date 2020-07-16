@@ -195,28 +195,31 @@ The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing 
 
 ## Replacing the CMOS battery:
 
-The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Medium <span style="color:orange;">●</span>
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. If there is an M.2 SSD in the slot closest to the main battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
-3. Follow the steps above to [remove the main battery](#replacing-the-battery). The CMOS battery is located underneath the main battery.
+1. Follow the steps above to [remove the main battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the CMOS battery, which is in between the M.2 SSD slots and the RAM slots, just next to the battery slot.
 
 ![CMOS battery](./img/cmos-battery.jpg)
 
-4. Unplug the small white connector that connects the CMOS battery to the motherboard, highlighted yellow above. If you are replacing the battery, use a thin plastic tool to pry the battery up from where it's stuck to the case.
-5. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-6. Re-connect the CMOS battery, [replace the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
-7. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+3. From the side of the battery that is not covered, pull the battery up to free it from the slot, then remove it.
+4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+5. Place the new (or existing) CMOS battery in the black plastic slot, starting with the side that will cover the battery, then push the opposite side back into place.
+
+![CMOS battery installation](./img/cmos-installation.jpg)
+
+6. Replace the bottom panel and main battery.
+7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the wireless card:
 
-Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Serval WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -224,14 +227,16 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the wireless module. Remove any clear tape that is securing the wires.
+1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+2. If there is an M.2 SSD in the slot closest to the fan/heatsink, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
+3. Locate the wireless module. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.jpg)
 
-3. Gently remove the two antennas (highlighted pink above) by pulling them up and away from the wireless card.
-4. Remove the retaining screw opposite the M.2 slot, highlighted cyan above.
-5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
-6. Insert the new wireless card into the M.2 slot at an angle.
-7. Replace the retaining screw.
-8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+4. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
+5. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
+6. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
+7. Insert the new wireless card into the M.2 slot at an angle.
+8. Replace the retaining screw.
+9. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+10. Replace the M.2 SSD, bottom cover, and battery.

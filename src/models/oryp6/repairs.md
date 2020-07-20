@@ -153,7 +153,7 @@ The battery provides primary power whenever the system is unplugged.
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. If there is an M.2 SSD in the slot closest to the battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
-3. The battery is held in by four of the bottom panel screws and one additional screw underneath the M.2 SSD. Remove the final screw, highlighted red below.
+3. The battery is held in by three of the bottom panel screws and two additional screws, one of which is underneath the M.2 SSD. Remove the two final screws, highlighted red below.
 
 ![Battery screws](./img/battery-screws.jpg)
 

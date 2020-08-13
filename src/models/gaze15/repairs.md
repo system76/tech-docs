@@ -90,7 +90,7 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The top slot (shown with the yellow box in the image below) supports either SATA III or PCIe NVMe Generation 3, and the bottom slot (orange box) supports only PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

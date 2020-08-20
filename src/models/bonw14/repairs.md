@@ -67,22 +67,19 @@ The keyboard can be replaced using the instructions below.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
-5. Set the Bonobo WS back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the Bonobo WS back down and raise the keyboard away from the chassis. The largest ribbon cable (highlighted red below) is for the keyboard, while the two smaller ribbon cables (highlighted green) are for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
-6. Flip the black latches (highlighted red below) upwards to free the ribbon cables.
-
-![Keyboard connectors](./img/keyboard-connectors.jpg)
-
+6. Flip the black latches upwards to free the ribbon cables.
 7. Pull the ribbon cables out of the connectors.
 8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
+9. Carefully slide all three ribbon cables into their connectors.
 10. Flip the black latches back into place to secure the ribbon cables.
 11. Place the keyboard back into position, starting with the tabs on the bottom edge.
 12. Secure the rest of the keyboard by pressing down on each of its edges.
 13. Turn the machine lid-side down again.
-14. Replace the 2 keyboard screws, the bottom panel, and the battery.
+14. Replace the 2 keyboard screws, the battery, and the bottom panel.
 15. Boot the machine and confirm the keyboard and keyboard backlight are operational.
 
 ## Replacing the RAM:
@@ -123,7 +120,7 @@ This model supports up to four M.2 SSDs. All M.2 slots are size 2280.
 
 ![M.2 slots](./img/m2-slots.jpg)
 
-_In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe only, and the two orange slots are for SATA or PCIe NVMe._
+_In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe only, and the two orange slots work with SATA or PCIe NVMe._
 
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
@@ -192,13 +189,13 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![LED bar screws and connector](./img/led-bar-screws.jpg)
 
 3. Raise the black latch on the ribbon cable connector (highlighted red above) to free the ribbon cable, then remove the ribbon cable; gently peel the cable away from any adhesive present.
-4. Gently remove the LED light bar.
+4. Remove the LED light bar.
 5. [Remove the black metal M.2 cover](#replacing-an-m2nvme-ssd). _Removing the M.2 cover is optional, but makes it easier to free the fan wires later._
 6. Remove the eight fan screws (highlighted yellow below.)
 
 ![Thermal screws](./img/thermal-screws.jpg)
 
-7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you hae removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
+7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you have removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
 8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.) Remove any clear tape holding the fan wires in place.
 9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
 10. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
@@ -238,7 +235,7 @@ The Bonobo WS uses an LGA 1200 socket for the CPU. If you are upgrading or repla
 ![CPU cover](./img/cpu-cover.jpg)
 
 4. Carefully lift the old CPU out of the socket. **Caution:** Be careful not to bend any of the gold pins in the CPU socket, and do not touch the gold plates on the bottom of the CPU.
-5. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation.
+5. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation (highlighted yellow below.)
 
 ![Triangle on socket](./img/cpu-triangle.jpg)
 
@@ -269,5 +266,5 @@ The Bonobo WS uses an MXM III slot for the GPU. If you are upgrading or replacin
 
 ![GPU raised at an angle](./img/gpu-raised.jpg)
 
-5. Place the new GPU (or re-seat the existing GPU) into the slot at an angle, then hold it down and replace the screws and connector.
+5. Place the new GPU (or reseat the existing GPU) into the slot at an angle, then hold it down and replace the screws and connector.
 6. Replace the thermal paste, heatsink/fan(s), battery, and bottom panel.

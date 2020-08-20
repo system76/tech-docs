@@ -34,7 +34,7 @@ Removing the cover is required to access the internal components. Prior to remov
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 1 minute  
+**Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the battery:

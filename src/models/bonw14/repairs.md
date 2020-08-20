@@ -177,7 +177,7 @@ If the fans become noisy and cleaning them out doesn't fix the issue, you may ne
 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
 **Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 

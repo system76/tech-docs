@@ -1,9 +1,9 @@
-# Serval WS (Parts & Repairs)
+# Bonobo WS (Parts & Repairs)
 
-Many components in your Serval WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Bonobo WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
-- [Removing the battery](#removing-the-battery)
 - [Removing the bottom cover](#removing-the-bottom-cover)
+- [Removing the battery](#removing-the-battery)
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
@@ -11,23 +11,6 @@ Many components in your Serval WS can be upgraded or replaced as necessary. Foll
 - [Replacing the CPU](#replacing-the-cpu)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
-
-## Removing the battery:
-
-The battery provides primary power whenever the system is unplugged.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 1 minute  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to remove the battery:
-
-1. Place the Serval WS lid-side down.
-2. Unscrew the two battery screws (highlighted yellow below.)
-
-![Battery screws](./img/battery-screws.jpg)
-
-3. Pick the battery up and remove it from the slot.
 
 ## Removing the bottom cover:
 
@@ -39,12 +22,29 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. [Remove the battery](#removing-the-battery).
-2. Remove the 5 bottom panel screws (highlighted red below.)
+1. Remove the 8 bottom panel screws (highlighted red below.)
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-3. Slide the bottom panel away from the battery slot, then lift it off of the case.
+2. Slide the bottom panel away from the battery slot while lifting it up and off of the case (the panel detaches at a slight angle.)
+
+## Removing the battery:
+
+The battery provides primary power whenever the system is unplugged.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 1 minute  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to remove the battery:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). _(Removing the bottom cover is optional, but can make removing the battery significantly easier.)_
+2. Slide the locking battery slider (highlighted green below) to the "unlocked" position.
+
+![Battery sliders](./img/battery-sliders.jpg)
+
+3. Hold the spring-loaded battery slider (highlighted yellow above) in the "unlocked" position.
+4. Starting from the top, lift the battery up and out of the slot.
 
 ## Replacing the keyboard:
 
@@ -56,8 +56,8 @@ The keyboard can be replaced using the instructions below.
 
 ### Steps to replace the keyboard:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove the two keyboard screws (circled green and cyan below.)
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
+2. Remove the two keyboard screws (circled yellow below.)
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
@@ -66,7 +66,7 @@ The keyboard can be replaced using the instructions below.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
-5. Flip the keyboard over onto the touchpad and set the Serval WS back down. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the Bonobo WS back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
@@ -86,44 +86,51 @@ The keyboard can be replaced using the instructions below.
 
 ## Replacing the RAM:
 
-The Serval WS 12 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Bonobo WS 14 supports up to 128GB (4x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the RAM:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
+2. Two RAM slots are located on the bottom of the machine, while two are underneath the keyboard. If necessary, follow the steps above to [remove the keyboard](#replacing-the-keyboard).
+3. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
+
+![RAM removal](./img/ram-slots.jpg)
+
+4. Remove the RAM from the slot.
+5. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
+
+## Replacing an M.2/NVMe SSD:
+
+This model supports up to four M.2 SSDs. All M.2 slots are size 2280.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-### Steps to replace the RAM:
-
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
-
-![RAM removal](./img/ram-slots.jpg)
-
-3. Remove the RAM from the slot.
-4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
-
-## Replacing an M.2/NVMe SSD:
-
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Easy <span style="color:orange;">●</span>  
-
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Unscrew the retainer screw opposite the M.2 slot.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
+2. If working with any of the PCIe NVMe-capable slots, unscrew the three screws (highlighted red below) and remove the black metal cover from above those three slots.
+
+![M.2 cover](./img/m2-cover.jpg)
+
+3. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slots](./img/m2-slots.jpg)
 
-3. Remove the existing M.2 drive by pulling it out of the slot.
-4. Insert the new M.2 drive into the slot and hold it in place.
-5. Replace the retainer screw.
+_In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe only, and the two orange slots are for SATA or PCIe NVMe._
+
+4. Remove the existing M.2 drive by pulling it out of the slot.
+5. Insert the new M.2 drive into the slot and hold it in place.
+6. Replace the retainer screw.
 
 ## Replacing the cooling system:
 
-The Serval WS 12 has a single heatsink for the CPU and GPU. One fan is attached to the heatsink, while one additional fan is separate from the heatsink.
+The Bonobo WS 12 has a single heatsink assembly with two fans for the CPU and GPU.
 
 If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
 
@@ -135,19 +142,25 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the CPU heatsink screws.
-3. Remove the eight numbered screws in reverse order, starting with #8, then #7, and continuing until you have removed #1. Screws 1-6 (highlighted red below) are on the heat sink, while 7-8 (highlighted green below) are on the attached fan.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
+2. Remove the three LED bar screws (highlighted green below).
+
+![LED bar screws and connector](./img/led-bar-screws.jpg)
+
+3. Raise the black latch on the ribbon cable connector (highlighted red above) to free the ribbon cable, then remove the ribbon cable; gently peel the cable away from any adhesive present.
+4. Gently remove the LED light bar.
+5. [Remove the black metal M.2 cover](#replacing-an-m2nvme-ssd). _Removing the M.2 cover is optional, but makes it easier to free the fan wires later._
+6. Remove the eight fan screws (highlighted yellow below.)
 
 ![Thermal screws](./img/thermal-screws.jpg)
 
-
-4. Unplug the white fan connector (for the attached fan) from the motherboard.
-5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste. If necessary, apply pressure using a flat object wedged underneath the ends of the heatsink pipes.
+7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you hae removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
+8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.)
+9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste. If necessary, apply pressure using a flat object wedged underneath the ends of the heatsink pipes.
 
 ![Prying off the heatsink](./img/heatsink-pressure.jpg)
 
-6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+10. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Heatsink assembly](./img/heatsink.jpg)
 
@@ -161,14 +174,6 @@ Depending on your climate and the age of the machine, it may be necessary to app
 9. Replace the heatsink and fan screws, starting with #1, then #2, and so on until #8.
 10. Plug the white fan connector (for the attached fan) back into the motherboard.
 
-### Steps to replace the additional fan:
-
-1. Follow the steps above to [remove the heatsink](#steps-to-replace-the-heatsinkthermal-paste).
-2. Remove the three screws (highlighted yellow in the above section) holding the additional fan in place.
-3. Unplug the black connector from the motherboard (pictured below) and remove the additional fan.
-
-![Additional fan](./img/additional-fan.jpg)
-
 ## Replacing the CPU:
 
 The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
@@ -179,7 +184,7 @@ The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing 
 
 ### Steps to replace the CPU:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the bottom cover](#removing-the-bottom-cover), and [remove the heatsink](#replacing-the-cooling-system).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the heatsink](#replacing-the-cooling-system).
 2. Lift up the lever holding the CPU in place, highlighted red below.
 
 ![CPU lever](./img/cpu-lever.jpg)
@@ -203,7 +208,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the main battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the main battery](#removing-the-battery).
 2. Locate the CMOS battery, which is in between the M.2 SSD slots and the RAM slots, just next to the battery slot.
 
 ![CMOS battery](./img/cmos-battery.jpg)
@@ -227,7 +232,7 @@ Your Serval WS's WiFi and Bluetooth are both handled by the same module. It is a
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
 2. If there is an M.2 SSD in the slot closest to the fan/heatsink, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
 3. Locate the wireless module. Remove any clear tape that is securing the wires.
 

@@ -1,18 +1,18 @@
-# Serval WS (Internal Overview)
+# Bonobo WS (Internal Overview)
 
 ## Bottom components and connectors:
 
 ![Internal Components](./img/components-highlighted.jpg)
 
+- LED bar is highlighted in purple
 - Fan/heatsink module is highlighted in white
-- Additional fan is highlighted in olive
+- Keyboard screwholes are highlighted in red
 - Fan connectors are highlighted in pink
-- M.2 SSDs are highlighted in yellow
-- Wireless card is below the top M.2 SSD, highlighted dashed red
-- CMOS battery connector is highlighted in cyan
-- RAM is highlighted in light green
-- 2.5" drive bay is highlighted in dark red
+- M.2 SSDs are highlighted in cyan
+- RAM is highlighted in green
+- CMOS battery is highlighted in yellow
 - Battery slot is highlighted in orange
+- Speakers are highlighted in olive
 
 ## Under-keyboard components and connectors:
 

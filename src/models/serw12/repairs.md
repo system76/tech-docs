@@ -108,7 +108,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Easy <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
 

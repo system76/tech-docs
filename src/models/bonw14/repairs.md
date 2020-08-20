@@ -7,10 +7,11 @@ Many components in your Bonobo WS can be upgraded or replaced as necessary. Foll
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the CPU](#replacing-the-cpu)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Replacing the GPU](#replacing-the-gpu)
 
 ## Removing the bottom cover:
 
@@ -128,6 +129,49 @@ _In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe onl
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
 
+## Replacing the wireless card:
+
+Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the WiFi/Bluetooth module:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the keyboard](#replacing-the-keyboard).
+2. Locate the wireless module. Remove any clear tape that is securing the wires.
+
+![Wireless card](./img/wireless-card.jpg)
+
+3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
+4. Remove the retaining screw opposite the M.2 slot, highlighted green above.
+5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
+6. Insert the new wireless card into the M.2 slot at an angle.
+7. Replace the retaining screw.
+8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+9. Replace the keyboard, battery, and bottom cover.
+
+## Replacing the CMOS battery:
+
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the CMOS battery:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the main battery](#removing-the-battery).
+2. Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green below.)
+
+![CMOS battery](./img/cmos-battery.jpg)
+
+3. If you are replacing the CMOS battery, pull it away from the adhesive holding it to the case.
+4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+5. Re-connect the CMOS battery, replace the main battery, and replace the bottom panel.
+7. Power up the Bonobo WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+
 ## Replacing the cooling system:
 
 The Bonobo WS 12 has a single heatsink assembly with two fans for the CPU and GPU.
@@ -155,7 +199,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal screws](./img/thermal-screws.jpg)
 
 7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you hae removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
-8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.)
+8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.) Remove any clear tape holding the fan wires in place.
 9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
 10. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
@@ -168,13 +212,13 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal paste application](./img/thermal-paste-2.jpg)
 
 12. Carefully replace the heatsink.
-13. Replace the spring-loaded heatsink screws, starting with #1, then #2, and so on until #7. _The three screws over the CPU are slightly thinner, while the four screws over the GPU are slightly thicker._
+13. Replace the spring-loaded heatsink screws, starting with #1, then #2, and so on until #7. _The three screws over the CPU are slightly thicker, while the four screws over the GPU are slightly thinner._
 14. Replace the eight fan screws.
 15. Plug the white fan connectors back into the motherboard.
 
 ## Replacing the CPU:
 
-The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
+The Bonobo WS uses an LGA 1200 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 20 minutes    
@@ -183,63 +227,47 @@ The Serval WS uses an AM4 socket for the CPU. If you are upgrading or replacing 
 ### Steps to replace the CPU:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the heatsink](#replacing-the-cooling-system).
-2. Lift up the lever holding the CPU in place, highlighted red below.
+2. Lift up the lever holding the CPU cover in place, highlighted red below.
 
-![CPU lever](./img/cpu-lever.jpg)
+![CPU lever (lowered)](./img/cpu-lever-1.jpg)
 
-![Raised CPU lever](./img/cpu-lever-open.jpg)
+![CPU lever (raised)](./img/cpu-lever-2.jpg)
 
-3. Carefully lift the old CPU out of the socket. **Caution:** Be careful not to bend any of the gold pins on the bottom of the CPU.
-4. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation.
+3. Flip over the CPU cover.
 
-![Triangle on socket](./img/triangle-socket.jpg)
+![CPU cover](./img/cpu-cover.jpg)
 
-5. Replace the thermal paste, heatsink/fan(s), bottom panel, and battery.
+4. Carefully lift the old CPU out of the socket. **Caution:** Be careful not to bend any of the gold pins in the CPU socket, and do not touch the gold plates on the bottom of the CPU.
+5. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation.
 
-## Replacing the CMOS battery:
+![Triangle on socket](./img/cpu-triangle.jpg)
 
-The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
+6. Once the CPU is placed in the correct orientation, replace the CPU cover and lower the lever back down; lowering the lever may take some force.
+
+![CPU lever (lowering)](./img/cpu-lever-3.jpg)
+
+7. Replace the thermal paste, heatsink/fan(s), battery, and bottom panel.
+
+## Replacing the GPU:
+
+The Bonobo WS uses an MXM III slot for the GPU. If you are upgrading or replacing your GPU, follow the steps below.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 20 minutes    
+**Difficulty:** High <span style="color:red;">●</span>
 
-### Steps to replace the CMOS battery:
+### Steps to replace the GPU:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the main battery](#removing-the-battery).
-2. Locate the CMOS battery, which is in between the M.2 SSD slots and the RAM slots, just next to the battery slot.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the heatsink](#replacing-the-cooling-system).
+2. Unplug the power cable, highlighted cyan below.
 
-![CMOS battery](./img/cmos-battery.jpg)
 
-3. From the side of the battery that is not covered, pull the battery up to free it from the slot, then remove it.
-4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Place the new (or existing) CMOS battery in the black plastic slot, starting with the side that will cover the battery, then push the opposite side back into place.
+![GPU screws and connector](./img/gpu-screws.jpg)
 
-![CMOS battery installation](./img/cmos-installation.jpg)
+3. Unscrew the two screws, highlighted red above.
+4. Raise the GPU to an angle and remove it from the slot.
 
-6. Replace the bottom panel and main battery.
-7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+![GPU raised at an angle](./img/gpu-raised.jpg)
 
-## Replacing the wireless card:
-
-Your Serval WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the WiFi/Bluetooth module:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
-2. If there is an M.2 SSD in the slot closest to the fan/heatsink, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
-3. Locate the wireless module. Remove any clear tape that is securing the wires.
-
-![Wireless card](./img/wireless-card.jpg)
-
-4. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
-5. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
-6. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
-7. Insert the new wireless card into the M.2 slot at an angle.
-8. Replace the retaining screw.
-9. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
-10. Replace the M.2 SSD, bottom cover, and battery.
+5. Place the new GPU (or re-seat the existing GPU) into the slot at an angle, then hold it down and replace the screws and connector.
+6. Replace the thermal paste, heatsink/fan(s), battery, and bottom panel.

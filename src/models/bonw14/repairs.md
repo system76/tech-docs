@@ -156,23 +156,21 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you hae removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
 8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.)
-9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste. If necessary, apply pressure using a flat object wedged underneath the ends of the heatsink pipes.
-
-![Prying off the heatsink](./img/heatsink-pressure.jpg)
-
+9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
 10. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
-
-![Heatsink assembly](./img/heatsink.jpg)
 
 ![Thermal paste removal](./img/thermal-paste-1.jpg)
 
-7. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
+![Heatsink assembly](./img/heatsink.jpg)
+
+11. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
 
 ![Thermal paste application](./img/thermal-paste-2.jpg)
 
-8. Carefully replace the heatsink.
-9. Replace the heatsink and fan screws, starting with #1, then #2, and so on until #8.
-10. Plug the white fan connector (for the attached fan) back into the motherboard.
+12. Carefully replace the heatsink.
+13. Replace the spring-loaded heatsink screws, starting with #1, then #2, and so on until #7. _The three screws over the CPU are slightly thinner, while the four screws over the GPU are slightly thicker._
+14. Replace the eight fan screws.
+15. Plug the white fan connectors back into the motherboard.
 
 ## Replacing the CPU:
 

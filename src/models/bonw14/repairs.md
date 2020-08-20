@@ -178,7 +178,7 @@ If the fans become noisy and cleaning them out doesn't fix the issue, you may ne
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
+**Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the heatsink/thermal paste:
@@ -218,7 +218,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 The Bonobo WS uses an LGA 1200 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 20 minutes    
+**Time estimate:** 25 minutes    
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the CPU:
@@ -250,7 +250,7 @@ The Bonobo WS uses an LGA 1200 socket for the CPU. If you are upgrading or repla
 The Bonobo WS uses an MXM III slot for the GPU. If you are upgrading or replacing your GPU, follow the steps below.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 20 minutes    
+**Time estimate:** 25 minutes    
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the GPU:

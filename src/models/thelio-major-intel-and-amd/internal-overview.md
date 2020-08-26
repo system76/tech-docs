@@ -1,13 +1,26 @@
 # Internal Overview
 
-![Internal Overview](../images/thelio-major-b2_side-view.png)
+## Thelio Major B1
+
+![Internal Overview](../../pictures/thelio-major/thelio-major-b1/thelio-major-b1_internal-diagram_config.png)
+
+## Thelio Major B2
+
+![Internal Overview](../../pictures/thelio-major/thelio-major-b2/thelio-major-b2_diagram_config2.png)
+
+## Thelio Major R1
+
+![Internal Overview](../../pictures/thelio-major/thelio-major-r1/thelio-major-r1_internal-diagram_config.png)
+
+## Thelio Major R2
+
+![Internal Overview](../../pictures/thelio-major/thelio-major-r2/thelio-major-r2_internal-diagram_config-v3.png)
 
 ## Power Switch Connections Overview
 
 The Thelio power button is wired as in the diagram and photo.
 
-![Close up of Thelio power switch wiring](/path/to/image.png)
-![Thelio power switch Wiring Diagram](/path/to/image.png)
+![Thelio power switch Wiring Diagram](../../pictures/thelio-power-button/power-switch-overview.png)
 
 **Fig. 12:** Close up of Thelio power switch wiring (left). Thelio power switch Wiring Diagram (right).
 
@@ -22,7 +35,7 @@ For reference, this is the pinout:
 | 5V | D- | D+ | GND | None |
 | ---|----|----|-----|------|
 
-![Thelio IO Board Pinout](/path/to/image.png)
+![Thelio IO Board Pinout](../../pictures/thelio-power-button/thelio-io-board.png)
 
 **Fig. 13:** Thelio IO Board Pinout.
 
@@ -39,7 +52,7 @@ This is the pinout:
 <!-- Formatted in this way to preserve bold formatting in both rows.
 Also to maintain width of table-->
 
-![Power Button and Motherboard power connectors attached to Thelio IO board](/path/to/image.png)
+![Power Button and Motherboard power connectors attached to Thelio IO board](../../pictures/thelio-power-button/io-power-button.png)
 
 **Fig. 14:** Power Button and Motherboard power connectors attached to Thelio IO board.
 
@@ -54,7 +67,7 @@ The button is located on the underside of the Thelio IO Board (Fig. 15, above).
 
 The motherboard power button is connected on the part of the front panel header missing a pin. Due to a design oddity of motherboards used for Thelio, the positive and negative power button lines must be flipped.
 
-![Motherboard power button and Thelio Power Button connections.](/path/to/image.png)
+![Motherboard power button and Thelio Power Button connections.](../../pictures/thelio-power-button/motherboard-power-button.png)
 
 **Fig. 16:** Motherboard power button and Thelio Power Button connections.
 

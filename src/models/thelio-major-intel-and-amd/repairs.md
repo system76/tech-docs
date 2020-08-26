@@ -429,6 +429,24 @@ The motherboard in the Thelio Majors require specific placement of the RAM stick
 
 You can use the following tables to determine the placement of your RAM modules by number used.
 
+## Thelio Major B1
+
+| Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
+| **2 Modules** | **X**        | **X**         | **X**         | **X**         |      | **X**        |               | **X**         |               |
+
+| Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
+| **4 Modules** |              | **X**         |               | **X**         |      | **X**        |               | **X**         |               |
+
+| Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
+| **6 Modules** |              | **X**         |               | **X**         |      |              |               |               |               |
+
+| Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |
+|---------------|:------------:|:-------------:|:-------------:|:-------------:|:----:|:------------:|:-------------:|:-------------:|:-------------:|
+| **8 Modules** |              |               |               |               |      |
+
 ## Thelio Major B2
 
 | Modules Used  | DDR4_1_1B    | DDR4_3_2B     | DDR4_2_1A     | DDR4_4_2A     | CPU  | DDR4_4_2C    | DDR4_2_1C     | DDR4_3_2D     | DDR4_1_1D     |

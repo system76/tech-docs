@@ -1,12 +1,12 @@
-# Bonobo WS (External Overview)
+# Darter Pro (External Overview)
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.png)
+![Left Ports](./img/ports-left.jpg)
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.png)
+![Right Ports](./img/ports-right.jpg)
 
 ## Front side overview:
 
@@ -18,7 +18,7 @@
 
 ### Keyboard Shortcuts
 
-The Bonobo WS has the following actions available using the Fn and Function keys:
+The Darter Pro has the following actions available using the Fn and Function keys:
 
 |Key                        |Shortcut|Action                             |
 |---------------------------|--------|-----------------------------------|
@@ -41,7 +41,7 @@ The Bonobo WS has the following actions available using the Fn and Function keys
 
 ## LED indicators
 
-The Bonobo WS has the following LED indicators:
+The Darter Pro has the following LED indicators:
 
 |Icon                                    |Color          |Description                                      |
 |----------------------------------------|---------------|-------------------------------------------------|
@@ -51,4 +51,5 @@ The Bonobo WS has the following LED indicators:
 |![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
 |                                        |Green          |Battery fully charged                            |
 |                                        |Blinking orange|Battery critically low                           |
+|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on<br/>(WiFi/Bluetooth disabled)|
 |![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |

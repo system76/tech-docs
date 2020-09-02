@@ -18,8 +18,8 @@ Many components in your Darter Pro can be upgraded or replaced as necessary. Fol
 The keyboard can be replaced using the instructions below. Removing the keyboard is required for removing the bottom panel.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Time estimate:** 5 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the keyboard:
 
@@ -52,7 +52,7 @@ _Note: Unplugging the ribbon cables is not required to remove the bottom cover._
 Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the bottom cover:
@@ -73,7 +73,7 @@ Removing the cover is required to access the internal components. Prior to remov
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the battery:
@@ -91,7 +91,7 @@ The Darter Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MH
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
@@ -128,7 +128,7 @@ This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Gener
 Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 12 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to replace the WiFi/Bluetooth module:

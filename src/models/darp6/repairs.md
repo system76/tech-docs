@@ -95,7 +95,7 @@ The Darter Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MH
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the keyboard cover](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
 ![RAM slots](./img/ram-slots.jpg)

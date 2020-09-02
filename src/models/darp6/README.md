@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Bonobo WS](./img/darp6.png)
+![Darter Pro](./img/darp6.png)
 
 The System76 Darter Pro is a laptop with the following specifications:
 

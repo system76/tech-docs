@@ -38,7 +38,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - Combined microphone & S/PDIF (optical) 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - 2x M.2 (PCIe NVMe or SATA)
+    - 1x M.2 (PCIe NVMe or SATA)
+    - 1x M.2 (PCIe NVMe only)
     - MicroSD card reader
 - USB
     - 3x USB 3.2 Gen 1 Type-A

@@ -10,8 +10,6 @@ Many components in your Darter Pro can be upgraded or replaced as necessary. Fol
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the CPU](#replacing-the-cpu)
-- [Replacing the GPU](#replacing-the-gpu)
 
 ## Replacing the keyboard:
 

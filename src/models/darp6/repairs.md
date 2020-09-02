@@ -165,7 +165,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-The Darter Pro 6 has a single fan and heatsink to cool the CPU.
+The Darter Pro 6 has a single fan and heatsink to cool the CPU. The fan and heatsink can be removed or replaced separately from one another.
 
 If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
 
@@ -187,15 +187,16 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ### Steps to replace the heatsink/thermal paste:
 
-1. Remove the three heatsink screws (highlighted red above) in order, starting with #1, then #2, and finally #3.
-2. Remove the heatsink from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.
-3. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove the three heatsink screws (highlighted red above) in order, starting with #1, then #2, and finally #3.
+3. Remove the heatsink from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.
+4. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.jpg)
 
-4. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU chip.
+5. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU chip.
 
 ![Thermal paste application](./img/thermal-paste-application.jpg)
 
-5. Carefully replace the heatsink.
-6. Replace the three heatsink screws, starting with #1, then #2, and finally #3.
+6. Carefully replace the heatsink.
+7. Replace the three heatsink screws, starting with #1, then #2, and finally #3.

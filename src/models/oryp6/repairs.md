@@ -88,7 +88,7 @@ The Oryx Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-most slot (closest to the battery) supports only PCIe NVMe Generation 3, and the outer-most slot (farthest away from the battery) supports either SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

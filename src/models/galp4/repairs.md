@@ -1,6 +1,6 @@
-# Darter Pro (Parts & Repairs)
+# Galago Pro (Parts & Repairs)
 
-Many components in your Darter Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Galago Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
@@ -21,12 +21,12 @@ The keyboard can be replaced using the instructions below. Removing the keyboard
 
 ### Steps to replace the keyboard:
 
-1. Remove the two keyboard screws (highlighted red below).
+1. Remove the two keyboard screws, highlighted red below.
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
 2. Open the lid slightly and place the machine on its side.
-3. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+3. Push the screwdriver into the keyboard push point (highlighted blue above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
@@ -34,9 +34,9 @@ The keyboard can be replaced using the instructions below. Removing the keyboard
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
-_Note: Unplugging the ribbon cables is not required to remove the bottom cover._
+_Note: Unplugging the ribbon cables is not required to remove the bottom cover; the keyboard can be flipped over onto the touchpad without unplugging the ribbon cables._
 
-5. Flip the black latches upwards to free the ribbon cables.
+5. Flip the black latches away from the white connectors to free the ribbon cables.
 6. Pull the ribbon cables out of the connectors.
 7. Remove the keyboard and replace it with the new one.
 8. Carefully slide both ribbon cables into their connectors.
@@ -60,7 +60,7 @@ Removing the cover is required to access the internal components. Prior to remov
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
 2. Follow the steps above to [remove the keyboard](#replacing-the-keyboard).
-3. Remove the three under-keyboard screws holding the bottom panel in place from above, highlighted cyan below.
+3. Remove the three under-keyboard screws holding the bottom panel in place from above, highlighted yellow below.
 
 ![Under-keyboard screws](./img/under-keyboard-screws.jpg)
 
@@ -77,7 +77,7 @@ The battery provides primary power whenever the system is unplugged.
 ### Steps to remove the battery:
 
 1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove the seven battery screws, highlighted red below.
+2. Remove the five battery screws, highlighted cyan below.
 
 ![Battery screws](./img/battery.jpg)
 
@@ -85,7 +85,7 @@ The battery provides primary power whenever the system is unplugged.
 
 ## Replacing the RAM:
 
-The Darter Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Galago Pro 4 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -123,7 +123,7 @@ This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Gener
 
 ## Replacing the wireless card:
 
-Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Galago Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 12 minutes  
@@ -137,7 +137,7 @@ Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is 
 ![Wireless card](./img/wireless-card.jpg)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
-4. Remove the retaining screw opposite the M.2 slot, highlighted green above.
+4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
 5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
 6. Insert the new wireless card into the M.2 slot at an angle.
 7. Replace the retaining screw.
@@ -165,7 +165,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-The Darter Pro 6 has a single fan and heatsink to cool the CPU. The fan and heatsink can be removed or replaced separately from one another.
+The Galago Pro 4 has a single fan and heatsink to cool the CPU. The fan and heatsink can be removed or replaced separately from one another.
 
 If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
 

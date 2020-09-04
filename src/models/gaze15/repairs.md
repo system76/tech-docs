@@ -72,7 +72,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-RAM acts as temporary storage for your computer. More RAM generally provides better performance. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+RAM acts as temporary storage for your computer. More RAM generally provides better performance. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

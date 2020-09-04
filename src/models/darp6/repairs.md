@@ -85,7 +85,7 @@ The battery provides primary power whenever the system is unplugged.
 
 ## Replacing the RAM:
 
-The Darter Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MHz. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Darter Pro 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2666MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

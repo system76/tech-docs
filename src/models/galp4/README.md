@@ -33,7 +33,7 @@ The System76 Galago Pro is a laptop with the following specifications:
 - Sound
     - Internal speakers & microphone
     - 3.5mm headphone jack
-    - 3m5mm microphone jack
+    - 3.5mm microphone jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
     - 1x M.2 (PCIe NVMe or SATA) SSD

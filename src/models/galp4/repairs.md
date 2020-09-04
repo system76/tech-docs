@@ -7,6 +7,7 @@ Many components in your Galago Pro can be upgraded or replaced as necessary. Fol
 - [Removing the battery](#removing-the-battery)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing a 2.5" storage drive](#replacing-a-25-storage-drive)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
@@ -120,6 +121,24 @@ This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Gener
 4. Insert the new M.2 drive into the slot and hold it in place.
 5. Replace the retainer screw.
 6. If a square brace was present on the old drive, transfer it to the new drive.
+
+## Replacing a 2.5" storage drive:
+
+This model supports one 2.5" (7mm) SATA III SSD or HDD.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to replace the 2.5" storage drive:
+
+1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+2. Lift the 2.5" drive out of the drive slot.
+
+![M.2 slot](./img/sata-connector.jpg)
+
+3. Unplug the SATA connector (highlighted green above) from the 2.5" drive.
+4. Plug the SATA connector into the new 2.5" drive and set the drive into the drive slot. (The drive is secured by the bottom cover.)
 
 ## Replacing the wireless card:
 

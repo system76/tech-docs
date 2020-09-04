@@ -29,7 +29,7 @@ The System76 Galago Pro is a laptop with the following specifications:
         - or Intel Wireelss-AC 9560
 - Power
     - 40W (19V, 2.1A) AC adapter
-    - 35.3Wh -cell Lithium-Ion battery
+    - 35.3Wh 3-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone
     - 3.5mm headphone jack

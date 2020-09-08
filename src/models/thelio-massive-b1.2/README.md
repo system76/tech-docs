@@ -1,0 +1,72 @@
+# Thelio Massive (thelio-massive-b1.2)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Massive](./img/thelio-massive-b1.2.png)
+
+The System76 Thelio Massive is a desktop with the following specifications:
+
+- CPU options
+    - Up to two matching CPUs
+    - Supports 2nd Gen Intel Xeon Scalable processors
+        - [Bronze 3204](https://ark.intel.com/content/www/us/en/ark/products/193381/intel-xeon-bronze-3204-processor-8-25m-cache-1-90-ghz.html)
+        - [Silver 4210](https://ark.intel.com/content/www/us/en/ark/products/193384/intel-xeon-silver-4210-processor-13-75m-cache-2-20-ghz.html)
+        - [Silver 4214](https://ark.intel.com/content/www/us/en/ark/products/193385/intel-xeon-silver-4214-processor-16-5m-cache-2-20-ghz.html)
+        - [Silver 4216](https://ark.intel.com/content/www/us/en/ark/products/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz.html)
+        - [Gold 5520](https://ark.intel.com/content/www/us/en/ark/products/193388/intel-xeon-gold-5220-processor-24-75m-cache-2-20-ghz.html)
+        - [Gold 6230](https://ark.intel.com/content/www/us/en/ark/products/192437/intel-xeon-gold-6230-processor-27-5m-cache-2-10-ghz.html)
+        - [Gold 6238](https://ark.intel.com/content/www/us/en/ark/products/193949/intel-xeon-gold-6238-processor-30-25m-cache-2-10-ghz.html)
+        - [Gold 6252](https://ark.intel.com/content/www/us/en/ark/products/192447/intel-xeon-gold-6252-processor-35-75m-cache-2-10-ghz.html)
+        - [Platinum 8270](https://ark.intel.com/content/www/us/en/ark/products/192482/intel-xeon-platinum-8270-processor-35-75m-cache-2-70-ghz.html)
+        - [Platinum 8276](https://ark.intel.com/content/www/us/en/ark/products/192470/intel-xeon-platinum-8276-processor-38-5m-cache-2-20-ghz.html)
+        - [Platinum 8280](https://ark.intel.com/content/www/us/en/ark/products/192478/intel-xeon-platinum-8280-processor-38-5m-cache-2-70-ghz.html)
+- Motherboard
+    - ASUS WS C621E SAGE running System76 Firmware (non-open)
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- GPU options
+    - Up to four GPUs (PCIe 3.0 x16)
+    - Offered with the following GPUs:
+        - [AMD Radeon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)
+            - HDMI 2.0b, DisplayPort 1.4, Dual-Link DVI-D
+        - [AMD Radeon RX 5700 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-5700-xt)
+            - HDMI 2.0b, 3x DisplayPort 1.4
+        - [NVIDIA GeForce RTX 2060 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2060-super/)
+            - HDMI 2.0b, 2x DisplayPort 1.4, Dual-Link DVI-D, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA GeForce RTX 2070 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070-super/)
+            - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA GeForce RTX 2080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-super/)
+            - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA GeForce RTX 2080 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-ti/)
+            - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Titan RTX](https://www.nvidia.com/en-us/deep-learning-ai/products/titan-rtx/)
+            - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+- Memory
+    - Up to 1536GB (12x128GB) six-channel Registered ECC DDR4 DIMMs @ 2933 MHz
+    - Up to 768GB (6x128GB) per CPU
+- Networking
+    - 2x Gigabit Ethernet
+    - Optional Gigabyte Wireless-AC (a/b/g/n/ac) with Bluetooth
+- Power
+    - EVGA SuperNOVA 1600W G2 80+ Gold Certified PSU
+    - C19 power cable
+- Sound
+    - 3.5mm line out
+    - 3.5mm line in
+    - 3.5mm microphone jack
+    - Optical S/PDIF out
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 1x M.2 (PCIe NVMe or SATA)
+    - 8x 2.5" SATA
+    - 4x 2.5" U.2 (NVMe) SAS
+    - SD card reader
+- USB
+    - 1x USB 3.1 Gen 2 Type-C
+    - 1x USB 3.1 Gen 2 Type-A
+    - 4x USB 3.1 Gen 1 Type-A
+    - 4x USB 2.0 Type-A
+- Dimensions
+    - 49.2cm x 26.2cm x 52.7cm

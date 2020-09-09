@@ -30,7 +30,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM
 
-The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. If you're purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Lemur Pro 9 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

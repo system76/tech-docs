@@ -7,6 +7,7 @@ Many components in your Thelio Massive can be upgraded or replaced as necessary.
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Replacing the RAM](#replacing-the-ram)
 
 ## Removing the top case:
 
@@ -129,7 +130,7 @@ The CPU shroud guides airflow through the CPU coolers. It covers the CPUs and RA
 
 ## Replacing the RAM:
 
-Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) per CPU. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) per CPU. The RAM is Registered ECC DDR4 DIMMs running at a speed of 2933MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 15 minutes  
@@ -138,4 +139,15 @@ Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) 
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-CPU-shroud).
+2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
+
+![RAM slots](./img/ram-slots.jpg)
+
+3. Insert the new RAM (or re-seat the existing RAM) into the slot. The RAM stick will only fit in one direction; the larger group of pins goes on top. Use the following guides for placement of the RAM sticks:
+    - Single-CPU RAM slot placement:
+    ![1-CPU RAM order](./img/ram-order-1cpu.jpg)
+    - Dual-CPU RAM slot placement:
+    ![2-CPU RAM order](./img/ram-order-2cpu.jpg)
+
+4. Replace the CPU shroud, inner partition, and top case.
 

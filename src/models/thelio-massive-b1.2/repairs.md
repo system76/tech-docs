@@ -367,7 +367,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 The Thelio-IO boards connect to the motherboard's USB headers for firmware updates and fan control within the host OS.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 20 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to check the USB wiring:

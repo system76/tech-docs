@@ -166,7 +166,7 @@ The battery provides primary power whenever the system is unplugged.
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-### Steps to replace the CMOS battery:
+### Steps to replace the external battery:
 
 1. Slide the locks that hold the battery to their unlocked positions. (One lock will click into place, while the other is on a spring.)
 2. Hold back the spring-loaded lock while removing the battery.

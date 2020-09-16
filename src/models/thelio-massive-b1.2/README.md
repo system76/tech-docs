@@ -28,7 +28,7 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - GPU options
     - Up to four GPUs (PCIe 3.0 x16)
-    - Offered with the following GPUs:
+    - Tested with the following GPUs:
         - [AMD Radeon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)
             - HDMI 2.0b, DisplayPort 1.4, Dual-Link DVI-D
         - [AMD Radeon RX 5700 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-5700-xt)

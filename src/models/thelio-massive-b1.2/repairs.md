@@ -15,6 +15,7 @@ Many components in your Thelio Massive can be upgraded or replaced as necessary.
 - [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste)
 - [Replacing the top exhaust fans](#replacing-the-top-exhaust-fans)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
+- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-power-button)
 
 ## Removing the top case:
 
@@ -334,17 +335,44 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ### Steps to check the front power button wiring:
 
-1. On the front power button receptacle, the four-pin connector should have the black wire on the left and the red wire on the right.
-2. The front power button receptacle should plug into the `PFPD` port on the Thelio-IO board closest to the front corner of the machine, with the red wire on the left and the black wire on the right (this is the opposite orientation as the front receptacle.)
-3. The `PMBD` port on the Thelio-IO board should connect to the motherboard:
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
+2. On the back of the power button, the four pins should be connected to the four-wire connector as follows:
+
+![Power button wiring](./img/power-button-wiring.jpg)
+
+3. On the front power button receptacle, the four-pin connector should have the red wire on the left and the black wire on the right.
+
+![Power button receptacle](./img/power-button-receptacle.jpg)
+
+4. The front power button receptacle should plug into the `PFPD` port on the Thelio-IO board closest to the front corner of the machine, with the red wire on the left and the black wire on the right.
+
+![Power button wiring on Thelio-IO board](./img/power-wiring-thelio-io.jpg)
+
+5. The `PMBD` port on the Thelio-IO board should connect to the motherboard:
     - The red wire on the four-port connector should be on the left (the farthest in) on the Thelio-IO board.
     - The other side of the cable connects to the bottom right of the motherboard:
         - The individual black wire plugs into `POWERLED+`.
         - The individual red wire plugs into `POWERLED-`.
         - The two-wire connector plugs into `POWERBTN#` and `GND`, with the blue wire on the left (into `POWERBTN#`.)
-4. See the photos in the [Replace the Thelio Power Button](https://support.system76.com/articles/thelio-power-button/) support article for the wiring of the button itself.
+
+![Power button wiring on motherboard](./img/power-wiring-motherboard.jpg)
 
 ### Steps to replace the power button:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Follow the instructions in the [Replace the Thelio Power Button](https://support.system76.com/articles/thelio-power-button/) support article.
+
+## Troubleshooting the Thelio-IO USB connection:
+
+The Thelio-IO boards connect to the motherboard's USB headers for firmware updates and fan control within the host OS.
+
+**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Time estimate:** 20 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to check the USB wiring:
+
+1. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the left (farthest into the case).
+2. The two four-pin cables plug into the motherboard's USB headers just to the left of the [M.2 slot](#replacing-the-m2-drive).
+
+![USB wiring on Thelio-IO board](./img/thelio-io-usb.webp)

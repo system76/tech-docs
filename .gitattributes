@@ -6,3 +6,5 @@
 *.JPG filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.PNG filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.WEBP filter=lfs diff=lfs merge=lfs -text

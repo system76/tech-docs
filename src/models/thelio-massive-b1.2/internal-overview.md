@@ -1,32 +1,41 @@
-# Darter Pro (Internal Overview)
+# Thelio Massive (Internal Overview)
 
-## Bottom components and connectors:
+## Side overview:
 
-![Internal Components](./img/components-highlighted.jpg)
+![Internal overview (side)](./img/internal-overview-side.jpg)
 
-- RAM slots are highlighted in dark green
-- M.2 SSD is highlighted in purple
-- Wireless card is highlighted in yellow
-- CMOS battery connector is highlighted in pink
-- CMOS battery is highlighted in white
-- Fan/heatsink module is highlighted in navy
-- Fan connector is highlighted in light red
-- Webcam/microphone connector is highlighted in orange
-- LCD panel connector is highlighted in light green
-- Main battery connector is highlighted in cyan
-- Main battery is highlighted in brown
-- Speaker connectors are highlighted in maroon
-- Speakers are highlighted in olive
-- Touchpad connector is underneath the battery, highlighted in dashed red
-- Touchpad button connector is highlighted in dashed green
-- Front LED connector is highlighted in dashed yellow
+- RAM slots are highlighted in green
+- PCIe slots are highlighted in red
+- M.2 SSD is highlighted in cyan
+- Power supply is highlighted in yellow
+- 2.5" drive slots are highlighted in purple
+- Thelio-IO to motherboard connections are highlighted in olive
 
-## Under-keyboard components and connectors:
+### PCIe slot guide:
 
-![Under-Keyboard Connectors](./img/under-keyboard.jpg)
+From top to bottom:
 
-- Keyboard connector is highlighted in cyan
-- Keyboard backlight connector is highlighted in green
-- Power button/LED connector is highlighted in red
-- Left-side USB connector is highlighted in yellow
-- Bottom panel screws are highlighted in pink
+1. PCIe Gen 3 x16 slot (GPU 4)
+    - Only available if two CPUs are installed
+2. PCIe Gen 3 x8 slot
+    - Only available if two CPUs are installed
+3. PCIe Gen 3 x16 slot (GPU 1)
+    - Runs at x8 if slot 4 (immediately below) is also in use
+4. PCIe Gen 3 x8 slot
+5. PCIe Gen 3 x16 slot (GPU 2)
+6. PCIe Gen 3 x8 slot
+    - Only available if two CPUs are installed
+7. PCIe Gen 3 x16 slot (GPU 3)
+    - Only available if two CPUs are installed
+
+See the repairs page for [GPU installation instructions](./repairs.md#replacing-a-gpu), including recommended GPU placement.
+
+## Top overview:
+
+![Internal overview (top)](./img/internal-overview-top.jpg)
+
+- RAM slot clips are highlighted in green
+- Top exhaust fans are highlighted in yellow
+- SATA ports are highlighted in cyan
+- SAS (U.2) ports are highlighted in purple
+- Power button receptacle is highlighted in red

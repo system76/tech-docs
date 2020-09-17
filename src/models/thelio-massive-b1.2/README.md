@@ -48,7 +48,7 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - Up to 1536GB (12x128GB) six-channel Registered ECC DDR4 DIMMs @ 2933 MHz
     - Up to 768GB (6x128GB) per CPU
 - Networking
-    - 2x Gigabit Ethernet
+    - 2x Gigabit Ethernet (Intel I210-AT)
     - Optional Gigabyte Wireless-AC (a/b/g/n/ac) with Bluetooth
 - Power
     - EVGA SuperNOVA 1600W G2 80+ Gold Certified PSU

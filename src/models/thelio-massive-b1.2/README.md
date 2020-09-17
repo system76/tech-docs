@@ -24,6 +24,7 @@ The System76 Thelio Massive is a desktop with the following specifications:
         - [Platinum 8280](https://ark.intel.com/content/www/us/en/ark/products/192478/intel-xeon-platinum-8280-processor-38-5m-cache-2-70-ghz.html)
 - Motherboard
     - ASUS WS C621E SAGE running System76 Firmware (non-open)
+    - Intel C621 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - GPU options
@@ -53,10 +54,10 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - EVGA SuperNOVA 1600W G2 80+ Gold Certified PSU
     - C19 power cable
 - Sound
-    - 3.5mm line out
-    - 3.5mm line in
-    - 3.5mm microphone jack
+    - 3.5mm line out, line in, microphone jacks
     - Optical S/PDIF out
+    - Up to 7.1-channel audio output
+    - Realtek ALC S1220A audio chipset
     - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
 - Storage
     - 1x M.2 (PCIe NVMe or SATA)

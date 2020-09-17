@@ -196,7 +196,7 @@ _Note for older revisions: thelio-massive-b1.0 included two additional screws co
 
 ## Replacing the RAM:
 
-Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) per CPU. The RAM is Registered ECC DDR4 DIMMs running at a speed of 2933MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) per CPU. The RAM sticks are Registered ECC DDR4 DIMMs running at a speed of 2933MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 15 minutes  

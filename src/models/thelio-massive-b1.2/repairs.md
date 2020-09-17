@@ -87,8 +87,8 @@ _In the below photo, the eight SATA slots are highlighted green, while the four 
 Thelio Massive b1.2 has four case-mounted fans: two on the bottom, and two on the side next to the motherboard.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
 2. Unscrew the fan's screws on the opposite side from where it's mounted. (For the bottom fans, the machine will need to be tilted to access the screws on the bottom.)

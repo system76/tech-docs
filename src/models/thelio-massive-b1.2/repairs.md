@@ -139,6 +139,10 @@ Thelio Massive supports up to four dual-slot GPUs with PCIe 3.0 x16. Mixing NVID
 7. Once all GPUs are installed, replace the back PCIe bracket, inner partition, and top case.
     - The inner partition includes a plastic GPU brace, which may be sized differently depending on how many GPUs your system shipped with. To remove the brace, unscrew it from the inner partition.
 
+![GPU brace screws](./img/gpu-brace-screws.jpg)
+
+_The plastic GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
+
 ## Replacing the M.2 drive:
 
 Thelio Massive has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA III. The following M.2 sizes are supported: 2242, 2260, 2280, 22110.

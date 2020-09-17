@@ -333,7 +333,8 @@ If the front power button doesn't power the machine on or doesn't light up when 
 ### Steps to power the machine on using the internal power button:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Push the small button labeled B0 on the Thelio-IO board closest to the front corner of the case.
+2. Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.
+3. Push the small button labeled B0 on the Thelio-IO board closest to the front corner of the case.
 
 ![Internal power button](./img/b0-button.jpg)
 

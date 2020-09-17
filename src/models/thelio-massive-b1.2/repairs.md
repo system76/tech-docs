@@ -106,7 +106,7 @@ Thelio Massive b1.2 has four case-mounted fans: two on the bottom, and two on th
 
 Thelio Massive supports up to four dual-slot GPUs with PCIe 3.0 x16. Mixing NVIDIA and AMD GPUs is not recommended.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
@@ -147,7 +147,7 @@ _The plastic GPU brace's primary function is to prevent damage during shipping. 
 
 Thelio Massive has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA III. The following M.2 sizes are supported: 2242, 2260, 2280, 22110.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 

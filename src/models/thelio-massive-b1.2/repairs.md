@@ -15,7 +15,7 @@ Many components in your Thelio Massive can be upgraded or replaced as necessary.
 - [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste)
 - [Replacing the top exhaust fans](#replacing-the-top-exhaust-fans)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
-- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-power-button)
+- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
 
 ## Removing the top case:
 

@@ -293,7 +293,7 @@ The CPUs clip into the heatsinks before the heatsinks are installed onto the mot
 
 ![CPU installation](./img/cpu-installation.webp)
 
-7. Place the heatsink/CPU back onto the motherboard, matching the triangles on the CPU clip/CPU (highlighted above) with the diagonal corner on the CPU socket (highlighted below).
+7. Place the heatsink/CPU back onto the motherboard, matching the triangles on the plastic clip/CPU (highlighted above) with the diagonal corner on the CPU socket (highlighted below).
 
 ![CPU orientation](./img/motherboard-triangle.jpg)
 

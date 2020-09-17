@@ -377,7 +377,8 @@ The Thelio-IO boards connect to the motherboard's USB headers for firmware updat
 
 ### Steps to check the USB wiring:
 
-1. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the left (farthest into the case).
-2. The two four-pin cables plug into the motherboard's USB headers just to the left of the [M.2 slot](#replacing-the-m2-drive).
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the left (farthest into the case).
+3. The two four-pin cables plug into the motherboard's USB headers just to the left of the [M.2 slot](#replacing-the-m2-drive).
 
 ![USB wiring on Thelio-IO board](./img/thelio-io-usb.webp)

@@ -200,7 +200,7 @@ Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) 
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-CPU-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
 
 ![RAM slots](./img/ram-slots.jpg)
@@ -223,7 +223,7 @@ Thelio Massive b1.2 contains four CPU fans (two per CPU.) All coolers and fans a
 
 ### Steps to replace the CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-CPU-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Each fan is secured by two clips (one on each side). Pull the clip down (away from the fan), then sideways (away from the heatsink) to release the fan.
 
 ![CPU fan clips](./img/cpu-fan-clips.jpg)
@@ -248,7 +248,7 @@ Thelio Massive b1.2 contains two CPU coolers (one for each CPU.) Each cooler con
 
 ### Steps to replace the CPU cooler:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-CPU-shroud), and [remove the CPU fans](#replacing-the-cpu-fans) for the cooler you are removing.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the CPU fans](#replacing-the-cpu-fans) for the cooler you are removing.
 2. Locate the hex key/Allen wrench, which is attached to the case via the velcro cable ties behind the motherboard.
 3. While holding the cooler in place so it doesn't fall, loosen the cooler's screws in reverse order, starting with the center screws (labeled #2), then the corner screws (labeled #1).
     - The corner screws require reaching the hex key through the holes in the heatsink.
@@ -272,7 +272,7 @@ The CPUs clip into the heatsinks before the heatsinks are installed onto the mot
 
 ### Steps to replace the CPU/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-CPU-shroud), [remove the CPU fans](#replacing-the-cpu-fans), and [remove the CPU cooler](#replacing-the-cpu-cooler).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the CPU fans](#replacing-the-cpu-fans), and [remove the CPU cooler](#replacing-the-cpu-cooler).
 2. The CPU is held onto the heatsink by two plastic clips. Release one of the clips by pulling down on the large plastic tab, then carefully lift the CPU off of the heatsink.
     - **Caution:** Do not touch the gold pads on the CPU.
     - It may take some pressure to break the seal of the thermal paste.

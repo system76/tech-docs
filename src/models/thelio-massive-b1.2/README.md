@@ -68,6 +68,6 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - 1x USB 3.1 Gen 2 Type-C
     - 1x USB 3.1 Gen 2 Type-A
     - 4x USB 3.1 Gen 1 Type-A
-    - 4x USB 2.0 Type-A
+    - 2x USB 2.0 Type-A
 - Dimensions
     - 49.2cm x 26.2cm x 52.7cm

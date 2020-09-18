@@ -369,7 +369,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ## Troubleshooting the Thelio-IO USB connection:
 
-The Thelio-IO boards connect to the motherboard's USB headers for firmware updates and fan control within the host OS.
+The Thelio-IO boards connect to the motherboard's USB headers for firmware updates and fan control within the host OS. If the fans seem to be stuck on full blast, check the Thelio-IO USB connections.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 15 minutes  

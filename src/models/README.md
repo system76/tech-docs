@@ -11,3 +11,4 @@ This documentation includes the following System76 models:
 - [Oryx Pro (oryp6)](oryp6/README.md)
 - [Serval WS (serw12)](serw12/README.md)
 - [Thelio Major B2 (thelio-major-b2)](thelio-major-b2/service-manual.md)
+- [Thelio Massive (thelio-massive-b1.2)](thelio-massive-b1.2/README.md)

@@ -40,7 +40,8 @@ The System76 Serval WS is a laptop with the following specifications:
     - Microphone 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - 2x M.2 (PCIe NVMe or SATA)
+    - M.2 SSD (slot 1): PCIe NVMe Gen 2
+    - M.2 SSD (slot 2): PCIe NVMe Gen 3 or SATA III
     - 1x 2.5" 7mm (SATA)
     - MicroSD card reader
 - USB

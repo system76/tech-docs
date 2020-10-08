@@ -58,13 +58,13 @@ Removing the cover is required to access the internal components. Prior to remov
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 17 total - 12 x M2 perimeter (black); 2 x M2 keyboard (black); 3 x M2 under-battery (black)
+**Screws:** 17 total - 12 x M2 (black); 2 x M2 keyboard (black); 3 x M2 under-battery (black)
 
 ### Steps to remove the bottom cover:
 
 1. Place the Gazelle lid-side down.
 2. Remove the external battery.
-3. Remove the 13 perimiter screws, 2 keyboard screws, and 3 under-battery screws.
+3. Remove the 12 unmarked screws, 2 keyboard screws, and 3 under-battery screws.
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 

@@ -18,10 +18,12 @@ As well as an additional expansion port available via the PCI slot on the board.
 **Fig. 1:** External Thelio Ports Overview.
 
 
-# External Displays
+# Connecting Displays
 
 ![Thelio external display ports overview](img/thelio-major-b2_video_ports-diagrams.png)
 
 **Fig. 2:** Thelio external display ports overview.
 
-If your Thelio does not have a GPU, then connect external monitors to the ports at the top, which are connected directly to the motherboard. If the Thelio has a GPU installed, then the top video out ports are disabled automatically. These ports and locations will change depending on the GPU that you select.
+Ports will differ from the above image, depending on which graphics cards you have installed.
+
+Since neither Threadripper or Intel Core X processors have integrated graphics, a discrete graphics card is required to use displays on your Thelio Major.

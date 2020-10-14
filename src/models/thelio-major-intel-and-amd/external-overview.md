@@ -2,21 +2,29 @@
 
 ## Ports Overview
 
-The Thelio MB2 has several ports accessible from the rear of the machine.
+Your Thelio Major has several ports accessible from the rear of the machine.
 
+Thelio Major B2 (Intel):
 - 4 USB 3.1 Gen 1 Ports
 - 4 USB 3.1 Gen 2 Ports
 - 1 USB 3.1 Gen 1 Type-C
-- 1 Ethernet (1Gb)
-- Audio In/Out ports (3.44mm).
+- 1 RJ45 Ethernet port
+- Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
 - 1 Standard 3-prong AC wall adapter port connected to the power supply (with power switch).
-
-As well as an additional expansion port available via the PCI slot on the board.
 
 ![External Thelio Ports Overview](img/thelio-major-b2_back-ports.png)
 
 **Fig. 1:** External Thelio Ports Overview.
 
+Thelio Major R2 (AMD):
+- 4 USB 2.0 Type-A
+- 1 USB 3.2 Gen 2 Type-C
+- 5 USB 3.2 Gen 2 Type-A
+- 1 RJ45 Ethernet port
+- Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
+- Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
+
+![External Thelio Ports Overview](img/thelio-major-r2_back-ports.png)
 
 # External Displays
 

@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Thelio Massive](./img/meer5-short.png)
+![Short Meerkat](./img/meer5-short.png)
 
 The System76 Thelio Massive is a desktop with the following specifications:
 

@@ -3,18 +3,9 @@
 Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 
 - [Removing the bottom panel](#removing-the-bottom-panel)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the case fans](#replacing-the-case-fans)
-- [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
 - [Replacing the RAM](#replacing-the-ram)
-- [Replacing the CPU fans](#replacing-the-cpu-fans)
-- [Replacing the CPU cooler](#replacing-the-cpu-cooler)
-- [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste)
-- [Replacing the top exhaust fans](#replacing-the-top-exhaust-fans)
-- [Troubleshooting the power button](#troubleshooting-the-power-button)
-- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
+- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drive)
 
 ## Removing the bottom panel:
 

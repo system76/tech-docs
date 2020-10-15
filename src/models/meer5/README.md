@@ -6,7 +6,7 @@
 
 ![Short Meerkat](./img/meer5-short.png)
 
-The System76 Thelio Massive is a desktop with the following specifications:
+The System76 Meerkat is a desktop with the following specifications:
 
 - CPU options
     - [i3-10110U](https://ark.intel.com/content/www/us/en/ark/products/196451/intel-core-i3-10110u-processor-4m-cache-up-to-4-10-ghz.html)

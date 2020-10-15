@@ -1,6 +1,6 @@
 # Meerkat (Parts & Repairs)
 
-Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
+Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 
 - [Removing the bottom panel](#removing-the-bottom-panel)
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
@@ -64,17 +64,17 @@ Your Meerkat supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 SODIMM
 
 ![RAM latch](./img/ram-latch.jpg)
 
-3. Once both latches are released, the RAM stick will pop up, pushed the spring tension from the RAM slot. This means that the RAM stick can be pulled backwards out of the slot.
+3. Once both latches are released, the RAM stick will pop up, pushed the spring tension from the RAM slot. This means the RAM stick can be pulled backwards out of the slot.
 
 ![Unlatched RAM](./img/unlatched-ram.jpg)
 
-4. To install a RAM stick, slide the stick into the slot at roughly the same angle it was sitting after the latches were released, then push the back edge of the RAM stick downwards so that the latches on the sides re-engage.
+4. To install a RAM stick, slide the stick into the slot at roughly the same angle it was sitting after the latches were released, then push the back edge of the RAM stick downwards so the latches on the sides re-engage.
 
 5. Replace the bottom panel.
 
 ## Adding/removing a 2.5" storage drive:
 
-If your Meerkat is the tall variety, it has a 2.5" drive bay built in to the bottom panel.
+If your Meerkat is the tall variety, it has a 2.5" drive bay built into the bottom panel.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

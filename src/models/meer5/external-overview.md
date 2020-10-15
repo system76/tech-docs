@@ -9,10 +9,10 @@
 ![Back Ports](./img/ports-diagram_short-back.png)
 
 ### Left side overview:
-![Left Port](./img/ports-diagram_short-left.png)
+![Left Port](./img/ports-diagram_short-side_left.png)
 
 ### Right side overview:
-![Right Port](./img/ports-diagram_short-right.png)
+![Right Port](./img/ports-diagram_short-side_right.png)
 
 ## Tall meer5:
 

@@ -11,9 +11,9 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 
 The bottom panel can be removed to access the internal components.
 
-**Tools required:** Cross-head (Phillips) screwdriver
-**Time estimate:** 3 minutes
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 3 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the bottom panel:
 
@@ -33,9 +33,9 @@ The bottom panel can be removed to access the internal components.
 
 Your Meerkat has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA III. The following M.2 sizes are supported: 2280 and 2242.
 
-**Tools required:** Cross-head (Phillips) screwdriver
-**Time estimate:** 10optional) minutes
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
 
@@ -53,9 +53,9 @@ Your Meerkat has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA 
 
 Your Meerkat supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 SODIMMs running at a speed of 2666MHz. If you've purchased new RAM, need to replace your RAM, or are re-seating your RAM, follow these steps.
 
-**Tools required:** Cross-head (Phillips) screwdriver
-**Time estimate:** 10 minutes
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
@@ -76,9 +76,9 @@ Your Meerkat supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 SODIMM
 
 If your Meerkat is the tall variety, it has a 2.5" drive bay built in to the bottom panel.
 
-**Tools required:** Cross-head (Phillips) screwdriver
-**Time estimate:** 10 minutes
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to add/remove 2.5" storage drives:
 

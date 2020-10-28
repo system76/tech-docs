@@ -4,16 +4,16 @@ Many components in your Thelio Mega can be upgraded or replaced as necessary. Po
 
 - [Removing the top case](#removing-the-top-case)
 - [Removing the inner partition](#removing-the-inner-partition)
+- [Removing the top crossbar](#removing-the-top-crossbar)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing the case fans](#replacing-the-case-fans)
 - [Replacing a GPU](#replacing-a-gpu)
-- [Replacing the M.2 drive](#replacing-the-m2-drive)
+- [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
-- [Replacing the CPU cooler](#replacing-the-cpu-cooler)
-- [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste)
-- [Replacing the top exhaust fans](#replacing-the-top-exhaust-fans)
+- [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
+- [Replacing the power supply](#replacing-the-power-supply)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
 - [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
 
@@ -179,7 +179,7 @@ Thelio Mega supports up to four dual-slot GPUs, two with PCIe 3.0 x16 and two wi
 
 _The plastic GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
-## Replacing the M.2 drive:
+## Replacing the M.2 drives:
 
 Thelio Mega has four M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 3 x4, or SATA III. The following restrictions apply:
 
@@ -195,7 +195,7 @@ Thelio Mega has four M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 
 **Time estimate:** 15 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to replace the M.2 drive:
+### Steps to replace the M.2 drives:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the GPU brace and GPUs](#replacing-a-gpu).
 2. Remove the M.2 heatsink covering the slots you wish to access.
@@ -227,11 +227,9 @@ The CPU shroud guides airflow through the CPU coolers. It covers the CPUs and RA
 ### Steps to remove the CPU shroud:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the GPU brace](#replacing-a-gpu).
-2. Unplug the connectors for the two top exhaust fans. (The top exhaust fans are secured to the CPU shroud.)
+2. Unplug the connectors for the two CPU shroud-mounted fans.
 
 ![Top exhaust fans](./img/top-fan-connectors.jpg)
-
-_The connectors (highlighted above) attach the top exhaust fans to extension cables, which attach to a five-port hub along with the CPU fans. It is not necessary to remove the extension cables._
 
 3. Unscrew the four back screws holding the CPU shroud in place.
 
@@ -241,117 +239,135 @@ _The connectors (highlighted above) attach the top exhaust fans to extension cab
 
 ## Replacing the RAM:
 
-Thelio Mega r1.0 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) per CPU. The RAM sticks are Registered ECC DDR4 DIMMs running at a speed of 2933MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered ECC DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 15 minutes  
+**Time estimate:** 20 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+2. To remove an existing RAM stick, flip the bottom latch down away from the stick, then pull the stick out of the slot, starting from the bottom edge. (The top of the RAM slot does not move.)
 
 ![RAM slots](./img/ram-slots.jpg)
 
-3. Insert the new RAM (or re-seat the existing RAM) into the slot. The RAM stick will only fit in one direction; the larger group of pins goes on top. Use the following guides for placement of the RAM sticks:
-    - Single-CPU RAM slot placement:
-    ![1-CPU RAM order](./img/ram-order-1cpu.jpg)
-    - Dual-CPU RAM slot placement:
-    ![2-CPU RAM order](./img/ram-order-2cpu.jpg)
+_The CPU cooler has been removed for better visibility in the above photo; removing the CPU cooler is not required to access all eight of the RAM slots._
 
-4. Replace the CPU shroud, inner partition, and top case.
+3. Make sure the tab on the bottom of the slot is open (pulled downwards), then insert the new RAM (or re-seat the existing RAM) into the slot.
+    - The RAM stick will only fit in one direction. On the left side of the CPU, the larger group of pins goes on bottom; on the right side of the CPU, the larger group of pins goes on top.
+    - Use the following guide for placement of the RAM sticks:
+
+![RAM slot order](./img/ram-order.webp)
+
+4. Replace the CPU shroud, GPU brace, inner partition, and top case.
 
 ## Replacing the CPU fans:
 
 Thelio Mega r1.0 contains three CPU fans, two mounted in the CPU shroud and one mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 20 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](http://localhost:3000/models/thelio-mega-r1.0/repairs.html#replacing-a-gpu), [remove the top crossbar](#removing-the-top-crossbar), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. To access the CPU shroud-mounted fans, unscrew the four screws attaching the front of the shroud to the back.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the top crossbar](#removing-the-top-crossbar), and [remove the CPU shroud](#removing-the-cpu-shroud).
+2. To remove the back CPU shroud fan, unscrew the four screws holding the fan brackets into the shroud (highlighted green below.)
 
 ![CPU shroud inner screws](./img/cpu-shroud-screws-inner.webp)
 
-3. To remove the front CPU shroud fan, unscrew the four screws attaching it to the shroud.
+3. Free the cable from the velcro loop (highlighted blue above), then unscrew the four screws holding the brackets onto the fan.
+
+![CPU shroud back fan screws](./img/cpu-shroud-fan-screws-back.jpg)
+
+4. To remove the front CPU shroud fan, unscrew the four screws attaching the front of the shroud to the back (highlighted red above.)
+5. Then, unscrew the four screws attaching the fan to the shroud.
 
 ![CPU shroud front fan screws](./img/cpu-shroud-fan-screws-front.jpg)
 
-4. To remove the back CPU shroud fan, unscrew the four screws holding the fan brackets into the shroud.
-
-![CPU shroud back fan bracket screws]()
-
-5. Then, unscrew the four screws holding the brackets onto the fan.
-
-![CPU shroud back fan screws]()
-
 6. To remove the CPU cooler-mounted fan, pull the corners of the top clip away from the heatsink it's held to.
 
-![CPU cooler fan top clip]()
+![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.jpg)
 
 7. Repeat the process for the bottom clip, then slide the fan down and out of the CPU cooler.
-8. Unplug the fan from the Thelio-IO board. (The CPU cooler fan plugs directly into the `CPUOUT0` port on the bottom Thelio-IO board.)
+8. Unplug the fan from the Thelio-IO board.
+    - The CPU cooler fan plugs directly into the `CPUOUT0` port on the bottom Thelio-IO board.
 
-## Replacing the CPU cooler:
+## Replacing the CPU cooler and CPU:
 
-Thelio Mega r1.0 contains two CPU coolers (one for each CPU.) Each cooler contains two fans. All coolers and fans are preinstalled, regardless of how many CPUs the system shipped with.
+The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste in between the CPU and the cooler/heatsink may help the system run cooler.
 
-**Tools required:** Cross-head (Phillips) screwdriver, torx screwdriver  
-**Time estimate:** 20 minutes  
+**Tools required:** Cross-head (Phillips) screwdriver (long), torx screwdriver, thermal paste  
+**Time estimate:** 30 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
-### Steps to replace the CPU cooler:
+### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the CPU fans](#replacing-the-cpu-fans) for the cooler you are removing.
-2. Locate the hex key/Allen wrench, which is attached to the case via the velcro cable ties behind the motherboard.
-3. While holding the cooler in place so it doesn't fall, loosen the cooler's screws in reverse order, starting with the center screws (labeled #2), then the corner screws (labeled #1).
-    - The corner screws require reaching the hex key through the holes in the heatsink.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#replacing-the-cpu-fans).
+2. While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
 
-_The CPU cooler screws are held in place by springs, and will not detatch once they are loosened._
+3. The cooler will come away from the CPU.
+    - The two screws on the crossbar attaching the CPU cooler to the mounting bracket are held to the crossbar with small rubber rings.
+    - If the rubber rings become detatched, slide them back onto the screws before reinstalling the cooler.
 
-4. Once all four screws are loosened, the CPU cooler (including the CPU) will lift away from the motherboard.
+![CPU cooler crossbar screws](./img/cpu-cooler-crossbar-screws.jpg)
+
+4. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+
+### Steps to replace the CPU:
+
+1. Unscrew the four screws holding the two mounting brackets onto the motherboard.
+
+![CPU cooler mounting bracket screws](./img/cpu-cooler-mounting-bracket-screws.jpg)
+
+2. The black plastic standoff covers will also come loose once the mounting bracket screws are removed. Remember to replace the black plastic standoff covers when reinstalling the mounting brackets.
+
+![CPU cooler mounting bracket standoff covers](./img/cpu-cooler-mounting-bracket-standoff-covers.jpg)
+
+3. Using the torx screwdriver, loosen the three CPU cover screws in reverse order (starting with #3, then #2, and finally #1.)
+    - These screws will not come out of the CPU cover when they are fully loosened.
+
+![CPU cover screws](./img/cpu-cover-screws.jpg)
+
+4. The CPU cover will lower once its screws are loosened. There may be additional remnants of thermal paste underneath the CPU cover.
+5. Pull the blue metal tabs away from the motherboard to flip the CPU holder down on top of the CPU cover.
     - **Caution:** Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.
-5. When replacing the CPU cooler, tighten the screws in the order they are labeled, starting with the corner screws (labeled #1), then the center screws (labeled #2).
-    - See [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste) for more information about correctly orienting the CPU/cooler.
 
-## Replacing the CPU/thermal paste:
+![CPU holder lowering](./img/cpu-holder-lowering.webp)
 
-The CPUs clip into the heatsinks before the heatsinks are installed onto the motherboard.
+6. Pull the orange tab to slide the CPU out of the CPU holder.
 
-**Tools required:** Cross-head (Phillips) screwdriver, torx screwdriver  
-**Time estimate:** 25 minutes  
-**Difficulty:** High <span style="color:red;">●</span>
+![CPU removal](./img/cpu-removal.webp)
 
-### Steps to replace the CPU/thermal paste:
+7. Each AMD Threadripper CPU is shipped inside of an orange plastic clip, so it should not be necessary to remove the CPU from the orange plastic clip. However, if desired (such as to clean off additional thermal paste), the plastic clip can be removed by pulling it back near each of the tabs holding the CPU in place.
+    - When reinstalling the CPU into the clip, be sure to match the original orientation, with the triange on the CPU closest to the tab on the plastic clip.
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the CPU fans](#replacing-the-cpu-fans), and [remove the CPU cooler](#replacing-the-cpu-cooler).
-2. The CPU is held onto the heatsink by two plastic clips. Release one of the clips by pulling down on the large plastic tab, then carefully lift the CPU off of the heatsink.
-    - **Caution:** Do not touch the gold pads on the CPU.
-    - It may take some pressure to break the seal of the thermal paste.
+![CPU clip](./img/cpu-clip.jpg)
 
-![CPU clips](./img/cpu-clips.jpg)
+8. Slide the new CPU into the CPU holder. Make sure the orange CPU clip aligns properly with the black rails on the CPU holder.
+9. Fold the CPU holder up onto the motherboard until it clicks into place, fold the CPU cover back into place, and tighten the CPU cover screws in ascending order (starting with #1, then #2, and finally #3.)
+10. Screw the two mounting brackets for the CPU cooler back onto the motherboard (the smaller bracket goes above the CPU, while the larger bracket goes below the CPU.)
 
-3. Remove the black plastic clip from the heatsink by pulling the tabs on each corner.
-4. Using a paper towel, clean the existing thermal paste off of the heatsink and GPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+### Steps to install the thermal paste/CPU cooler:
 
-![Thermal paste removal](./img/thermal-paste-removal.jpg)
+9. Place a line of thermal paste onto the CPU.
 
-5. Place the black plastic clip back onto the heatsink and apply thermal paste to the heatsink.
-6. Place the CPU back into the black plastic clip. One corner of the CPU and one corner of the clip are marked with triangles; be sure to match these triangles together.
+![Thermal paste application](./img/thermal-paste.jpg)
 
-![CPU installation](./img/cpu-installation.webp)
+10. Slide the CPU cooler crossbar on the back of the heatsink until the grooves are positioned correctly.
 
-7. Place the heatsink/CPU back onto the motherboard, matching the triangles on the plastic clip/CPU (highlighted above) with the diagonal corner on the CPU socket (highlighted below).
+![CPU cooler crossbar](./img/cpu-cooler-crossbar.jpg)
 
-![CPU orientation](./img/motherboard-triangle.jpg)
+11. While holding the crossbar onto the heatsink, hold the heatsink in position and use the long cross-head screwdriver (inserted through the holes in the cooler plate) to screw each end of the crossbar into one of the mounting brackets.
+    - The logo on the cooler should be upright.
+    - The rubber strips on the inside of the cooler should be closest to the back of the machine, while the rubber strips on the outside of the cooler should be closest to the front of the machine.
 
-8. See [Replacing the CPU cooler](#replacing-the-cpu-cooler) for more information about re-attaching the cooler to the motherboard.
+![CPU cooler orientation](./img/cpu-cooler-orientation.jpg)
+
+12. Reinstall the cooler-mounted CPU fan, CPU shroud, GPUs, GPU bracket, inner partition, and top case.
 
 ## Replacing the power supply:
 

@@ -161,21 +161,19 @@ Thelio Mega supports up to four dual-slot GPUs, two with PCIe 3.0 x16 and two wi
     - If removing one of the inner GPUs, it may be necessary to remove one of the outer GPUs first in order to reach the latch.
     - If space is tight, a long object such as a screwdriver can be used to press the latch.
 
-![PCIe latches](./img/pcie-latches.jpg)
+![GPU order & PCIe latches](./img/gpu-slots.jpg)
 
 6. When installing new GPUs, the slots should be utilized in the following order:
-    - Primary GPU: third slot from the top.
-    - Secondary GPU: fifth slot from the top.
-    - Tertiary GPU: seventh slot from the top (bottom slot).
-    - Quaternary GPU: top slot.
-
-![GPU slot order](./img/gpu-slot-order.webp)
-
-7. After inserting the new GPU into its slot, connect the power cables. _The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than four GPUs._
+    - Primary GPU: top slot.
+    - Secondary GPU: third slot from the top.
+    - Tertiary GPU: fourth slot from the top (bottom slot).
+    - Quaternary GPU: second slot from the top.
+7. After inserting the new GPU into its slot, connect the power cables.
+    - The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than four GPUs.
 8. Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, inner partition, and top case.
     - The side GPU brace includes a plastic piece sized to the GPUs that originally shipped with the system. To remove the plastic piece, unscrew it from the brace.
 
-![GPU brace screws](./img/gpu-brace-screws.jpg)
+![GPU brace screws](./img/gpu-brace-plastic-screws.jpg)
 
 _The plastic GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
@@ -293,6 +291,7 @@ Thelio Mega r1.0 contains three CPU fans, two mounted in the CPU shroud and one 
 7. Repeat the process for the bottom clip, then slide the fan down and out of the CPU cooler.
 8. Unplug the fan from the Thelio-IO board.
     - The CPU cooler fan plugs directly into the `CPUOUT0` port on the bottom Thelio-IO board.
+9. When reinstalling the CPU fans, all three fans should be oriented so the side with the non-spinning cover faces the back of the machine, while the spinning side faces the front of the machine.
 
 ## Replacing the CPU cooler and CPU:
 
@@ -371,13 +370,43 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 ## Replacing the power supply:
 
-The power supply is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mega.
+The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mega.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 25 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the power supply:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition) and [remove the GPU brace and GPUs](#replacing-a-gpu).
+2. Unplug all of the modular cabling from the back of the PSU.
+    - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
+
+![PSU cabling](./img/psu-cabling.jpg)
+
+3. Unscrew the PSU bracket from the reverse side of the case.
+
+![PSU bracket side screw](./img/psu-bracket-screw-side.jpg)
+
+4. Unscrew the PSU bracket from the bottom of the case.
+
+![PSU bracket bottom screw](./img/psu-bracket-screw-bottom.jpg)
+
+5. Remove the PSU bracket.
+6. Unscrew the four screws holding the PSU in from the back of the case.
+
+![PSU back screws](./img/psu-screws.jpg)
+
+7. Remove/replace the PSU. Set the replacement PSU on top of the two rubber posts that hold it at the correct height.
+    - The replacement PSU should be installed with the fan facing the bottom of the case.
+
+![PSU posts](./img/psu-posts.jpg)
+
+8. After screwing in the replacement PSU and replacing the PSU bracket, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
+    - Remember that not all of the available connectors will plug into the PSU-- eight connectors (on four cables) are to be plugged into the GPUs.
+9. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on.
+
+![PSU eco mode switch](./img/psu-eco-mode.jpg)
 
 ## Troubleshooting the power button:
 

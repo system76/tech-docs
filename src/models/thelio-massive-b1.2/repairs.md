@@ -284,7 +284,7 @@ The CPUs clip into the heatsinks before the heatsinks are installed onto the mot
 ![CPU clips](./img/cpu-clips.jpg)
 
 3. Remove the black plastic clip from the heatsink by pulling the tabs on each corner.
-4. Using a paper towel, clean the existing thermal paste off of the heatsink and GPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+4. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.jpg)
 

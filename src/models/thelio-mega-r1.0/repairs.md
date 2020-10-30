@@ -14,6 +14,7 @@ Many components in your Thelio Mega can be upgraded or replaced as necessary. Po
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
+- [Replacing the Thelio-IO boards](#replacing-the-thelio-io-boards)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
 - [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
 
@@ -48,7 +49,7 @@ The inner partition provides a brace for the outer case and helps hold the inter
 
 ![Back partition screws](./img/partition-screws-back.jpg)
 
-3. Unplug the two side fan connectors, highlighted blue below.
+3. Unplug the two side fan connectors, highlighted cyan below.
 
 ![Side partition screws](./img/partition-screws-side.jpg)
 
@@ -126,7 +127,7 @@ Thelio Mega r1.0 has two case-mounted fans: one on the bottom, and one on the si
 ### Steps to replace the bottom case fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Pull the rubber tabs holding the fan onto the bottom of the case until they come loose from the plastic pins.
+2. Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.
 
 ![Case fan mounts](./img/case-fan-mounts-bottom.jpg)
 
@@ -136,7 +137,7 @@ Thelio Mega r1.0 has two case-mounted fans: one on the bottom, and one on the si
 
 ## Replacing a GPU:
 
-Thelio Mega supports up to four dual-slot GPUs, two with PCIe 3.0 x16 and two with PCIe 3.0 x8. Mixing NVIDIA and AMD GPUs is not recommended.
+Thelio Mega supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two with PCIe 4.0 x8. Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -212,6 +213,9 @@ _It may take some pressure to remove the heatsink and thermal tape from the M.2 
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
 7. If utilizing a slot for the first time, peel the plastic backing off of the heatsink to expose the double-sided thermal tape for that slot.
+
+![M.2 thermal tape](./img/m2-thermal-tape.jpg)
+
 8. Replace the M.2 heatsinks, GPUs, GPU brace, inner partition, and top case.
 
 ## Removing the CPU shroud:
@@ -408,6 +412,22 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ![PSU eco mode switch](./img/psu-eco-mode.jpg)
 
+## Replacing the Thelio-IO boards:
+
+The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If one of the Thelio-IO boards becomes defective, it can be replaced using the instructions below.
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the top crossbar](#removing-the-top-crossbar), and [remove the front cover from the 2.5" drive cage](#addingremoving-25-storage-drives) for the Thelio-IO board that is being replaced.
+2. Use the cutouts on the opposite side of the chassis to unplug all cabling from the Thelio-IO board that is being replaced.
+
+![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.jpg)
+
+3. Unscrew the two screws on the top of the drive cage (for the top Thelio-IO board) or the bottom of the drive cage (for the bottom Thelio-IO board).
+
+![Thelio-IO drive cage screws](./img/thelio-io-drive-cage-screws.jpg)
+
+4. While pulling the loose side of the drive cage away from the Thelio-IO board, move the board back and out of the drive cage.
+5. Place the new Thelio-IO board into the drive cage and replace the screws and wiring.
+
 ## Troubleshooting the power button:
 
 If the front power button doesn't power the machine on or doesn't light up when the system is powered on, try the following troubleshooting steps:
@@ -425,7 +445,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
 2. Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.
-3. Push the small button labeled B0 on the Thelio-IO board closest to the front corner of the case.
+3. Push the small button labeled B0 on the top Thelio-IO board.
 
 ![Internal power button](./img/b0-button.jpg)
 
@@ -440,16 +460,17 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ![Power button receptacle](./img/power-button-receptacle.jpg)
 
-4. The front power button receptacle should plug into the `PFPD` port on the Thelio-IO board closest to the front corner of the machine, with the red wire on the left and the black wire on the right.
+4. The front power button receptacle should plug into the `PFPD` port on the top Thelio-IO board, with the red wire on the bottom and the black wire on the top.
 
 ![Power button wiring on Thelio-IO board](./img/power-wiring-thelio-io.jpg)
 
-5. The `PMBD` port on the Thelio-IO board should connect to the motherboard:
-    - The red wire on the four-port connector should be on the left (the farthest in) on the Thelio-IO board.
-    - The other side of the cable connects to the bottom right of the motherboard:
-        - The individual black wire plugs into `POWERLED+`.
-        - The individual red wire plugs into `POWERLED-`.
-        - The two-wire connector plugs into `POWERBTN#` and `GND`, with the blue wire on the left (into `POWERBTN#`.)
+5. The `PMBD` port on the Thelio-IO board should connect to an adapter:
+    - The red wire on the four-port connector should be on the bottom on the Thelio-IO board.
+    - The other side of the cable connects to the adapter, with the red wire on the top left and the blue pair immeditaely following.
+
+![Power button wiring adapter](./img/power-wiring-adapter.webp)
+
+6. The adapter should connect to the `F-PANEL` (front panel) input on the motherboard.
 
 ![Power button wiring on motherboard](./img/power-wiring-motherboard.jpg)
 
@@ -469,7 +490,10 @@ The Thelio-IO boards connect to the motherboard's USB headers for firmware updat
 ### Steps to check the USB wiring:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the left (farthest into the case).
-3. The two four-pin cables plug into the motherboard's USB headers just to the left of the [M.2 slot](#replacing-the-m2-drive).
+2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the bottom.
 
-![USB wiring on Thelio-IO board](./img/thelio-io-usb.webp)
+![USB wiring on Thelio-IO board](./img/thelio-io-usb.jpg)
+
+3. The two four-pin cables plug into the motherboard's USB headers.
+
+![USB input on motherboard](./img/motherboard-thelio-io-usb.jpg)

@@ -6,12 +6,14 @@
 
 ### Audio Port Guide:
 
-- Green: Line Out / Front Speaker Out
-- Pink: Mic In
-- Light Blue: Line In / Side Speaker Out
-- Orange: Center/Subwoofer Out
-- Black: Rear Speaker Out
-- White (square): S/PDIF Digital Out
+- Top row, left to right:
+  - Optical S/PDIF Out (square)
+  - Rear Speaker Out
+  - Center/Subwoofer Out
+- Bottom row, left to right:
+  - Mic in
+  - Line Out / Front Speaker Out
+  - Line In / Side Speaker Out
 
 ### Power Switch Guide:
 

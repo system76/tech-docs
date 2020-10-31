@@ -14,6 +14,7 @@ Many components in your Thelio Mega can be upgraded or replaced as necessary. Po
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
+- [Replacing the side fans](#replacing-the-side-fans)
 - [Replacing the Thelio-IO boards](#replacing-the-thelio-io-boards)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
 - [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
@@ -129,11 +130,11 @@ Thelio Mega r1.0 has two case-mounted fans: one on the bottom, and one on the si
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
 2. Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.
 
-![Case fan mounts](./img/case-fan-mounts-bottom.jpg)
+![Case fan rubber mounts](./img/case-fan-mounts-bottom.jpg)
 
-3. When replacing the fan, hold the rubber tabs in place while pushing the plastic tabs in from below the machine (it's necessary to tilt the machine when inserting the plastic pins.)
+3. When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from below the machine (it's necessary to tilt the machine when inserting the plastic pins.)
 
-![Case fan pins](./img/case-fan-pins-bottom.jpg)
+![Case fan plastic pins](./img/case-fan-pins-bottom.jpg)
 
 4. The components should be mounted in the following order:
     - Chassis
@@ -422,6 +423,26 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 9. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on.
 
 ![PSU eco mode switch](./img/psu-eco-mode.jpg)
+
+## Replacing the side fans:
+
+Thelio Mega r1.0 has two intake fans mounted on the inner partition. The fans can be replaced if they become defective/noisy.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to replace the side fans:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
+2. Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.
+
+![Side fan rubber mounts](./img/side-fan-mounts.jpg)
+
+3. Pull the end of the fan cable through the opening and release any velcro strips that are holding it in place.
+4. When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from the opposite side.
+
+![Side fan plastic pins](./img/side-fan-pins.jpg)
 
 ## Replacing the Thelio-IO boards:
 

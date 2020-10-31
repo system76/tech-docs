@@ -58,10 +58,10 @@ The inner partition provides a brace for the outer case and helps hold the inter
 
 ## Removing the top crossbar:
 
-The top crossbar provides a brace for the outer case. It needs to be removed in order to add/remove drives in the top four 2.5" drive slots.
+The top crossbar provides a brace for the outer case. It needs to be removed in order to add/remove drives in the top four 2.5" drive slots, and when accessing certain other components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to remove the top crossbar:
@@ -82,7 +82,7 @@ The top crossbar provides a brace for the outer case. It needs to be removed in 
 Thelio Mega r1.0 supports up to eight 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to add/remove 2.5" storage drives:
@@ -135,12 +135,18 @@ Thelio Mega r1.0 has two case-mounted fans: one on the bottom, and one on the si
 
 ![Case fan pins](./img/case-fan-pins-bottom.jpg)
 
+4. The components should be mounted in the following order:
+    - Chassis
+    - Dust filter
+    - Acrylic spacer
+    - Fan
+
 ## Replacing a GPU:
 
-Thelio Mega supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two with PCIe 4.0 x8. Mixing NVIDIA and AMD GPUs is not recommended.
+Thelio Mega supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two with PCIe 4.0 x8 (x16 cards will run at reduced bandwidth in the x8 slots.) Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace a GPU:
@@ -188,22 +194,22 @@ Thelio Mega has four M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 
 - Bottom right M.2 slot:
     - Supports size 2280.
     - If a SATA drive is installed in this slot, then 2.5" SATA ports 4 and 5 will be unavailable.
-    - If a PCIe SSD is installed in this slot, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable.
+    - If a PCIe NVMe drive is installed in this slot, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 23 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the M.2 drives:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the GPU brace and GPUs](#replacing-a-gpu).
 2. Remove the M.2 heatsink covering the slots you wish to access.
     - The top and middle M.2 slots are behind the top M.2 heatsink (highlighted cyan below).
-    - The bottom left and bottom right M.2 slots are behind the bottom M.2 heatsink (highlighted yellow below.)
+    - The bottom left and bottom right M.2 slots are behind the bottom M.2 heatsink (highlighted yellow below).
 
 ![M.2 heatsink screws](./img/m2-heatsink-screws.jpg)
 
-_It may take some pressure to remove the heatsink and thermal tape from the M.2 drive._
+_It may take some pressure to remove the heatsink and thermal tape from the M.2 drive. Pull slowly to avoid breaking the thermal tape._
 
 3. Unscrew the retainer screw opposite the M.2 slot.
 
@@ -220,7 +226,7 @@ _It may take some pressure to remove the heatsink and thermal tape from the M.2 
 
 ## Removing the CPU shroud:
 
-The CPU shroud guides airflow through the CPU coolers. It covers the CPUs and RAM slots on the motherboard.
+The CPU shroud guides airflow through the CPU coolers. It covers the CPU and RAM slots on the motherboard.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  
@@ -245,7 +251,7 @@ Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregi
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 20 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the RAM:
 
@@ -266,16 +272,16 @@ _The CPU cooler has been removed for better visibility in the above photo; remov
 
 ## Replacing the CPU fans:
 
-Thelio Mega r1.0 contains three CPU fans, two mounted in the CPU shroud and one mounted on the cooler.
+Thelio Mega r1.0 contains three CPU fans. Two are mounted on the CPU shroud, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 20 minutes  
+**Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the CPU fans:
+### Steps to replace the shroud-mounted CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the top crossbar](#removing-the-top-crossbar), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. To remove the back CPU shroud fan, unscrew the four screws holding the fan brackets into the shroud (highlighted green below.)
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+2. To remove the back CPU shroud fan, unscrew the four screws holding the fan brackets into the shroud (highlighted green below).
 
 ![CPU shroud inner screws](./img/cpu-shroud-screws-inner.webp)
 
@@ -283,31 +289,36 @@ Thelio Mega r1.0 contains three CPU fans, two mounted in the CPU shroud and one 
 
 ![CPU shroud back fan screws](./img/cpu-shroud-fan-screws-back.jpg)
 
-4. To remove the front CPU shroud fan, unscrew the four screws attaching the front of the shroud to the back (highlighted red above.)
+4. To remove the front CPU shroud fan, unscrew the four screws attaching the front of the shroud to the back (highlighted red above).
 5. Then, unscrew the four screws attaching the fan to the shroud.
 
 ![CPU shroud front fan screws](./img/cpu-shroud-fan-screws-front.jpg)
 
-6. To remove the CPU cooler-mounted fan, pull the corners of the top clip away from the heatsink it's held to.
+### Steps to replace the cooler-mounted CPU fan:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the top crossbar](#removing-the-top-crossbar).
+2. Pull the corners of the fan's top clip away from the heatsink it's held to.
 
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.jpg)
 
-7. Repeat the process for the bottom clip, then slide the fan down and out of the CPU cooler.
-8. Unplug the fan from the Thelio-IO board.
+3. Repeat the process for the bottom clip, then slide the fan down and out of the CPU cooler.
+4. Unplug the fan from the Thelio-IO board.
     - The CPU cooler fan plugs directly into the `CPUOUT0` port on the bottom Thelio-IO board.
-9. When reinstalling the CPU fans, all three fans should be oriented so the side with the non-spinning cover faces the back of the machine, while the spinning side faces the front of the machine.
+5. When reinstalling the CPU fans, all three fans should be oriented so the side with the non-spinning cover faces the back of the machine, while the spinning side faces the front of the machine.
 
 ## Replacing the CPU cooler and CPU:
 
-The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste in between the CPU and the cooler/heatsink may help the system run cooler.
+The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.
+
+The CPU uses an AMD sTRX4 socket.
 
 **Tools required:** Cross-head (Phillips) screwdriver (long), torx screwdriver, thermal paste  
-**Time estimate:** 30 minutes  
+**Time estimate:** 35 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#replacing-the-cpu-fans).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the top crossbar](#removing-the-top-crossbar), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
@@ -356,28 +367,28 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 ### Steps to install the thermal paste/CPU cooler:
 
-9. Place a line of thermal paste onto the CPU.
+1. Place a line of thermal paste onto the CPU.
 
 ![Thermal paste application](./img/thermal-paste.jpg)
 
-10. Slide the CPU cooler crossbar on the back of the heatsink until the grooves are positioned correctly.
+2. Slide the CPU cooler crossbar on the back of the heatsink until the grooves are positioned correctly.
 
 ![CPU cooler crossbar](./img/cpu-cooler-crossbar.jpg)
 
-11. While holding the crossbar onto the heatsink, hold the heatsink in position and use the long cross-head screwdriver (inserted through the holes in the cooler plate) to screw each end of the crossbar into one of the mounting brackets.
+3. While holding the crossbar onto the heatsink, hold the heatsink in position and use the long cross-head screwdriver (inserted through the holes in the cooler plate) to screw each end of the crossbar into one of the mounting brackets.
     - The logo on the cooler should be upright.
     - The rubber strips on the inside of the cooler should be closest to the back of the machine, while the rubber strips on the outside of the cooler should be closest to the front of the machine.
 
 ![CPU cooler orientation](./img/cpu-cooler-orientation.jpg)
 
-12. Reinstall the cooler-mounted CPU fan, CPU shroud, GPUs, GPU bracket, inner partition, and top case.
+4. Reinstall the cooler-mounted CPU fan, top crossbar, CPU shroud, GPUs, GPU bracket, inner partition, and top case.
 
 ## Replacing the power supply:
 
 The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mega.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 25 minutes  
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 30 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the power supply:
@@ -414,6 +425,10 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ## Replacing the Thelio-IO boards:
 
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 25 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
 The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If one of the Thelio-IO boards becomes defective, it can be replaced using the instructions below.
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the top crossbar](#removing-the-top-crossbar), and [remove the front cover from the 2.5" drive cage](#addingremoving-25-storage-drives) for the Thelio-IO board that is being replaced.
@@ -421,7 +436,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.jpg)
 
-3. Unscrew the two screws on the top of the drive cage (for the top Thelio-IO board) or the bottom of the drive cage (for the bottom Thelio-IO board).
+3. Unscrew the two screws on the top of the upper drive cage (for the top Thelio-IO board) or the bottom of the lower drive cage (for the bottom Thelio-IO board).
 
 ![Thelio-IO drive cage screws](./img/thelio-io-drive-cage-screws.jpg)
 
@@ -451,7 +466,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ### Steps to check the front power button wiring:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. On the back of the power button, the four pins should be connected to the four-wire connector as follows:
 
 ![Power button wiring](./img/power-button-wiring.jpg)
@@ -466,7 +481,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 5. The `PMBD` port on the Thelio-IO board should connect to an adapter:
     - The red wire on the four-port connector should be on the bottom on the Thelio-IO board.
-    - The other side of the cable connects to the adapter, with the red wire on the top left and the blue pair immeditaely following.
+    - The other side of the cable connects to the adapter, with the red wire on the top left, the blue pair immeditaely following the red pair, and a black wire on the right.
 
 ![Power button wiring adapter](./img/power-wiring-adapter.webp)
 
@@ -489,11 +504,11 @@ The Thelio-IO boards connect to the motherboard's USB headers for firmware updat
 
 ### Steps to check the USB wiring:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a four-pin cable with the red wire on the bottom.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a cable (labeled `USB`) with the red wire on the bottom.
 
 ![USB wiring on Thelio-IO board](./img/thelio-io-usb.jpg)
 
-3. The two four-pin cables plug into the motherboard's USB headers.
+3. The two internal USB cables plug into the motherboard's USB headers.
 
 ![USB input on motherboard](./img/motherboard-thelio-io-usb.jpg)

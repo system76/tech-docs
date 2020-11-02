@@ -1,12 +1,6 @@
 # Thelio Major B2
 
-
 ## Tech Specs
-
-
-**Operating System** 	
-
-Pop!\_OS 20.10 or 20.04 LTS (64-bit) or Ubuntu 20.04 LTS (64-bit)
 
 **Processor** 	
 
@@ -80,11 +74,6 @@ thelio-major-b2
 # Thelio Major R2
 
 ## Tech Specs
-
-
-**Operating System** 	
-
-Pop!\_OS 20.10 or 20.04 LTS (64-bit) or Ubuntu 20.04 LTS (64-bit)
 
 **Processor**
 

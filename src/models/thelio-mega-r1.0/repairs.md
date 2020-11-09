@@ -4,13 +4,13 @@ Many components in your Thelio Mega can be upgraded or replaced as necessary. Po
 
 - [Removing the top case](#removing-the-top-case)
 - [Removing the inner partition](#removing-the-inner-partition)
-- [Removing the top crossbar](#removing-the-top-crossbar)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing the case fans](#replacing-the-case-fans)
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
 - [Replacing the RAM](#replacing-the-ram)
+- [Removing the top crossbar](#removing-the-top-crossbar)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
@@ -57,32 +57,11 @@ The inner partition provides a brace for the outer case and helps hold the inter
 4. Unscrew the two inner screws holding the partition in place from the side.
 5. Lift the inner partition away from the case.
 
-## Removing the top crossbar:
-
-The top crossbar provides a brace for the outer case. It needs to be removed in order to add/remove drives in the top four 2.5" drive slots, and when accessing certain other components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 7 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
-
-### Steps to remove the top crossbar:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unplug the two top fan connectors.
-
-![Top fan connectors](./img/top-fan-connectors.jpg)
-
-3. Unscrew the four screws holding the top crossbar in place (two on the front of the machine, and two on the back.)
-
-![Top crossbar screws](./img/top-crossbar-screws.webp)
-
-4. Lift the top crossbar out of the system. (It is not necessary to unplug the fan cable underneath the top crossbar unless you are replacing that cable or the Thelio-IO board it plugs into.)
-
 ## Adding/removing 2.5" storage drives:
 
 Thelio Mega r1.0 supports up to eight 2.5" SATA III drives.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+**Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
@@ -98,7 +77,10 @@ Thelio Mega r1.0 supports up to eight 2.5" SATA III drives.
 ![Storage drive screws](./img/storage-drive-screws.jpg)
 
 4. Insert four screws into each 2.5" storage drive you wish to install.
-5. If you are adding/removing drives to/from the top four slots, [remove the top crossbar](#removing-the-top-crossbar).
+5. Unscrew the top cover if you are accessing the top four 2.5" slots, or the bottom cover if you are accessing the bottom four 2.5" slots.
+
+![SATA slot covers](./img/sata-slot-covers.jpg)
+
 6. Slide each 2.5" drive into one of the slots leading to the Thelio-IO boards.
 
 ![2.5" drive installation](./img/storage-drive-installation.jpg)  
@@ -270,6 +252,27 @@ _The CPU cooler has been removed for better visibility in the above photo; remov
 ![RAM slot order](./img/ram-order.webp)
 
 4. Replace the CPU shroud, GPU brace, inner partition, and top case.
+
+## Removing the top crossbar:
+
+The top crossbar provides a brace for the outer case. It needs to be removed in order to add/remove drives in the top four 2.5" drive slots, and when accessing certain other components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 7 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to remove the top crossbar:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unplug the two top fan connectors.
+
+![Top fan connectors](./img/top-fan-connectors.jpg)
+
+3. Unscrew the four screws holding the top crossbar in place (two on the front of the machine, and two on the back.)
+
+![Top crossbar screws](./img/top-crossbar-screws.webp)
+
+4. Lift the top crossbar out of the system. (It is not necessary to unplug the fan cable underneath the top crossbar unless you are replacing that cable or the Thelio-IO board it plugs into.)
 
 ## Replacing the CPU fans:
 

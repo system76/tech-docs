@@ -323,17 +323,18 @@ The CPU uses an AMD sTRX4 socket.
 ### Steps to remove the CPU cooler/thermal paste:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the top crossbar](#removing-the-top-crossbar), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
-2. While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.
+2. Unscrew the two screw access covers from the holes in the cooler plate.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
 
-3. The cooler will come away from the CPU.
+3. While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.
+4. The cooler will come away from the CPU.
     - The two screws on the crossbar attaching the CPU cooler to the mounting bracket are held to the crossbar with small rubber rings.
     - If the rubber rings become detatched, slide them back onto the screws before reinstalling the cooler.
 
 ![CPU cooler crossbar screws](./img/cpu-cooler-crossbar-screws.jpg)
 
-4. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+5. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ### Steps to replace the CPU:
 

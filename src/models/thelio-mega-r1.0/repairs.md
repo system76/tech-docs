@@ -330,7 +330,7 @@ The CPU uses an AMD sTRX4 socket.
 3. While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.
 4. The cooler will come away from the CPU.
     - The two screws on the crossbar attaching the CPU cooler to the mounting bracket are held to the crossbar with small rubber rings.
-    - If the rubber rings become detatched, slide them back onto the screws before reinstalling the cooler.
+    - If the rubber rings become detached, slide them back onto the screws before reinstalling the cooler.
 
 ![CPU cooler crossbar screws](./img/cpu-cooler-crossbar-screws.jpg)
 
@@ -515,7 +515,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 5. The `PMBD` port on the Thelio-IO board should connect to an adapter:
     - The red wire on the four-port connector should be on the bottom on the Thelio-IO board.
-    - The other side of the cable connects to the adapter, with the red wire on the top left, the blue pair immeditaely following the red pair, and a black wire on the right.
+    - The other side of the cable connects to the adapter, with the red wire on the top left, the blue pair immediately following the red pair, and a black wire on the right.
 
 ![Power button wiring adapter](./img/power-wiring-adapter.webp)
 

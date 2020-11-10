@@ -362,7 +362,7 @@ The CPU uses an AMD sTRX4 socket.
 ![CPU removal](./img/cpu-removal.webp)
 
 7. Each AMD Threadripper CPU is shipped inside of an orange plastic clip, so it should not be necessary to remove the CPU from the orange plastic clip. However, if desired (such as to clean off additional thermal paste), the plastic clip can be removed by pulling it back near each of the tabs holding the CPU in place.
-    - When reinstalling the CPU into the clip, be sure to match the original orientation, with the triange on the CPU closest to the tab on the plastic clip.
+    - When reinstalling the CPU into the clip, be sure to match the original orientation, with the triangle on the CPU closest to the tab on the plastic clip.
 
 ![CPU clip](./img/cpu-clip.jpg)
 

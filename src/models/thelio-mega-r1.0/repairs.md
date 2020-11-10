@@ -255,7 +255,7 @@ _The CPU cooler has been removed for better visibility in the above photo; remov
 
 ## Removing the top crossbar:
 
-The top crossbar provides a brace for the outer case. It needs to be removed in order to add/remove drives in the top four 2.5" drive slots, and when accessing certain other components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)
+The top crossbar provides a brace for the outer case. It needs to be removed when replacing certain components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  

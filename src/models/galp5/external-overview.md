@@ -48,5 +48,3 @@ The Galago Pro has the following LED indicators:
 |![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
 |                                        |Green          |Battery fully charged                            |
 |                                        |Blinking orange|Battery critically low                           |
-|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on<br/>(WiFi/Bluetooth disabled)|
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |

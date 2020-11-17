@@ -47,4 +47,4 @@ The System76 Galago Pro is a laptop with the following specifications:
     - 1x USB 3.2 (Gen 2) Type-C
     - 1x USB Type-C with Thunderbolt 4
 - Dimensions
-    - 32.49cm x 22.5cm x 1.75cm, 1.3kg
+    - 32.49cm x 22.5cm x 1.75cm, 1.41kg

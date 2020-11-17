@@ -26,7 +26,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-2. Pull the bottom panel off, starting from the vents in the back.
+2. Pull the bottom panel off, starting from the hinges and vents in the back.
 
 ## Removing the battery:
 
@@ -109,8 +109,8 @@ Your Galago Pro's WiFi and Bluetooth are both handled by the same module. It is 
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 15 minutes    
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the CMOS battery:
 
@@ -122,7 +122,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 3. Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green above.) 
 4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery and the main battery, and replace the bottom panel and keyboard.
+5. Re-connect the CMOS battery and main battery, and replace the M.2 drive and bottom panel.
 6. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:

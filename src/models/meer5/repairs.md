@@ -5,7 +5,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Removing the bottom panel](#removing-the-bottom-panel)
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
 - [Replacing the RAM](#replacing-the-ram)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drive)
+- [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
 
 ## Removing the bottom panel:
 
@@ -64,7 +64,7 @@ Your Meerkat supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 SODIMM
 
 ![RAM latch](./img/ram-latch.jpg)
 
-3. Once both latches are released, the RAM stick will pop up, pushed the spring tension from the RAM slot. This means the RAM stick can be pulled backwards out of the slot.
+3. Once both latches are released, the RAM stick will pop up, pushed by the spring tension from the RAM slot. This means the RAM stick can be pulled backwards out of the slot.
 
 ![Unlatched RAM](./img/unlatched-ram.jpg)
 

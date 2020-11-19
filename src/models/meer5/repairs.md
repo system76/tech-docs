@@ -6,6 +6,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
 - [Replacing the RAM](#replacing-the-ram)
 - [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
+- [Resetting CMOS](#resetting-cmos)
 
 ## Removing the bottom panel:
 
@@ -92,3 +93,23 @@ If your Meerkat is the tall variety, it has a 2.5" drive bay built into the bott
 ![2.5" drive installation](./img/drive-insertion.jpg)
 
 4. Replace the bottom panel.
+
+## Resetting CMOS:
+
+Sometimes resetting CMOS can help if your Meerkat is not booting. A CMOS reset will restore BIOS settings to their factory defaults, so you may have to reconfigure your BIOS afterwards.
+
+**Tools required:** Cross-head (Phillips) screwdriver and (optionally) tweezers  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:yellow;">●</span>  
+
+### Steps to reset CMOS:
+
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-the-m2-drive).
+2. Disconnect the CMOS battery connector, shown circled in red below. Tweezers may make this easier, but try to pull it by the plug itself rather than by the wires.
+
+![CMOS battery connector](./img/cmos-connector.jpg)
+
+3. Leave the connector unplugged for several minutes. CMOS values don't always clear instantly, and sometimes it takes a couple minutes for them to reset.
+4. Reconnect the CMOS battery.
+5. Replace the M.2 drive and the bottom panel.
+6. When you boot your Meerkat after resetting CMOS, it may take a minute or two longer than usual to boot the first time. It has to re-initialize some of the CMOS values that were reset.

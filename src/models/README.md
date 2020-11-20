@@ -8,6 +8,7 @@ This documentation includes the following System76 models:
 - [Galago Pro (galp5)](galp5/README.md)
 - [Galago Pro (galp4)](galp4/README.md)
 - [Gazelle (gaze15)](gaze15/README.md)
+- [Lemur Pro (lemp10)](lemp10/README.md)
 - [Lemur Pro (lemp9)](lemp9/README.md)
 - [Meerkat (meer5)](meer5/README.md)
 - [Oryx Pro (oryp6)](oryp6/README.md)

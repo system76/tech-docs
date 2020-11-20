@@ -100,7 +100,7 @@ Sometimes resetting CMOS can help if your Meerkat is not booting. A CMOS reset w
 
 **Tools required:** Cross-head (Phillips) screwdriver and (optionally) tweezers  
 **Time estimate:** 15 minutes  
-**Difficulty:** Medium <span style="color:yellow;">●</span>  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to reset CMOS:
 
@@ -113,3 +113,34 @@ Sometimes resetting CMOS can help if your Meerkat is not booting. A CMOS reset w
 4. Reconnect the CMOS battery.
 5. Replace the M.2 drive and the bottom panel.
 6. When you boot your Meerkat after resetting CMOS, it may take a minute or two longer than usual to boot the first time. It has to re-initialize some of the CMOS values that were reset.
+
+## Removing the Motherboard:
+
+Removing the motherboard is necessary for removing the cooling fan, cleaning the CPU heatsink, and replacing the CPU thermal paste. 
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 20 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
+### Steps to remove the motherboard:
+
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [remove the M.2 drive](#replacing-the-m2-drive), and [remove the RAM](#replacing-the-ram).
+2. If your Meerkat is the tall variety, disconnect the ribbon cable that leads to the 2.5" drive bay built into the bottom panel. The small white latch comes up to unlock the cable, then the cable can be gently pulled free from its socket.
+
+![SATA drive bay ribbon cable connector](./img/sata-bay-connector.jpg)
+
+3. Disconnect the front microphone cable.
+
+![Front microphone connector](./img/front-mic-connector.jpg)
+
+4. Disconnect the two wireless antenna cables.
+
+![Wireless antenna connectors](./img/wifi-antenna-connectors.jpg)
+
+5. Remove the two motherboard mounting screws.
+
+![Motherboard mounting screws](./img/motherboard-screws.jpg)
+
+6. Carefully lift the motherboard out of the case. It is easiest to lift from the back side, grabbing the USB type A ports, as shown below. The back wall of the case can be pulled slightly outwards, away from the motherboard, to help the ports come out of their cutouts in the case.
+
+![Removing the motherboard](./img/removing-motherboard.jpg)

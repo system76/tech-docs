@@ -7,6 +7,9 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Replacing the RAM](#replacing-the-ram)
 - [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
 - [Resetting CMOS](#resetting-cmos)
+- [Removing the motherboard](#removing-the-motherboard)
+- [Removing the fan](#removing-the-fan)
+- [Replacing thermal paste](#replacing-thermal-paste)
 
 ## Removing the bottom panel:
 
@@ -141,6 +144,59 @@ Removing the motherboard is necessary for removing the cooling fan, cleaning the
 
 ![Motherboard mounting screws](./img/motherboard-screws.jpg)
 
-6. Carefully lift the motherboard out of the case. It is easiest to lift from the back side, grabbing the USB type A ports, as shown below. The back wall of the case can be pulled slightly outwards, away from the motherboard, to help the ports come out of their cutouts in the case.
+6. Carefully lift the motherboard out of the case. It is easiest to lift from the back side, grabbing the USB type A ports as shown below. The back wall of the case can be pulled slightly outwards, away from the motherboard, to help the ports come out of their cutouts in the case.
 
 ![Removing the motherboard](./img/removing-motherboard.jpg)
+
+## Removing the Fan:
+
+The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink to replace the CPU thermal paste.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 25 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
+### Steps to remove the fan:
+1. Follow the steps above to [remove the motherboard](#removing-the-motherboard).
+
+2. Completely loosen the three mounting screws (highlighted in red) and disconnect the fan cable (highlighted in green). The screws are captive, so they will not come out of the fan assembly when they are completely loosened.
+
+![Fan screws and cable locations](./img/fan-screws-and-cable.jpg)
+
+3. The fan can now be lifted away from the motherboard.
+
+![Fan removed from motherboard](./img/fan-removed.jpg)
+
+## Replacing Thermal Paste:
+
+The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fan expels it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the heatsink may help the system run cooler.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 35 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
+### Steps to replace the thermal paste:
+
+1. Follow the steps above to [remove the fan](#removing-the-fan).
+
+2. Completely loosen the four screws that hold the heatsink onto the motherboard (highlighted in red). The screws are captive, so they will not come out of the heatsink brackets when completely loosened.
+
+![Heatsink screws](./img/heatsink-screws.jpg)
+
+3. Gently lift the heatsink off of the motherboard. 
+
+![Heatsink removed from motherboard](./img/heatsink-removed.jpg)
+
+4. Using a paper towel, clean the old thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+
+![Heatsink and motherboard after cleaning](./img/heatsink-cleaned.jpg)
+
+5. Apply new thermal paste to both silicon dies on the CPU. Be careful not to use too much, as just a little goes a long way.
+
+![Thermal paste applied to CPU](./img/thermal-paste-applied.jpg)
+
+6. Reinstall the heatsink and tighten the four screws in the order indicated by the numbers stamped on the heatsink (highlighted in red).
+
+![Heatsink screw tightening order](./img/heatsink-screw-order.jpg)
+
+7. Reinstall the cooling fan (remember to plug it in!), motherboard, RAM, drive, and bottom panel.

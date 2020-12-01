@@ -149,7 +149,7 @@ In rare cases, or after several years, it may be necessary to apply new thermal 
 
 ## Replacing the CMOS battery:
 
-The CMOS battery supplies power to the Adder WS's CMOS chip. Changes you make to the BIOS and the comptuer's hardware clock are stored on the CMOS. If your Adder WS doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
+The CMOS battery supplies power to the Adder WS's CMOS chip. Changes you make to the BIOS and the computer's hardware clock are stored on the CMOS. If your Adder WS doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    

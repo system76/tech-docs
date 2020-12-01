@@ -146,17 +146,20 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal screws](./img/thermal-screws.jpg)
 
 4. Remove the eight heatsink screws (highlighted cyan above) in order, starting with #1, then #2, and continuing until #8.
+    - On the Intel-only model, only four heatsink screws are present.
 5. Remove the heatsink from the system, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
 6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
 7. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU/GPU chips.
+    - On the Intel-only model, only the CPU chip (on the left) is present.
 
 ![Thermal paste application](./img/thermal-paste-application.jpg)
 
 8. Carefully replace the heatsink.
 9. Replace the eight heatsink screws, starting with #1, then #2, and continuing until #8.
+    - On the Intel-only model, only four heatsink screws are present.
 10. Replace the two fan screws and plug in the white fan connector.
 
 ### Steps to replace the additional fan:

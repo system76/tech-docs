@@ -1,7 +1,9 @@
+# Models
+
 System76 provides laptops, desktops and servers with Linux pre-installed.
 This documentation includes the following System76 models:
 
-# Current Models
+## Current Models
 
 - [Adder WS (addw1)](addw1/README.md)
 - [Bonobo WS (bonw14)](bonw14/README.md)
@@ -16,6 +18,6 @@ This documentation includes the following System76 models:
 - [Thelio Massive (thelio-massive-b1.2)](thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](thelio-mega-r1.0/README.md)
 
-# Previous Models
+## Previous Models
 
 - [Galago Pro (galp4)](galp4/README.md)

@@ -35,6 +35,7 @@ The Galago Pro has the following actions available using the Fn and Function key
 |![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode               |
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                            |
 |![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
+|1                          |Fn+1    |Toggle fan between max/automatic   |
 
 ## LED indicators
 

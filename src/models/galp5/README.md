@@ -34,6 +34,7 @@ The System76 Galago Pro is a laptop with the following specifications:
     - NVIDIA + Intel model:
         - 90W (19V, 4.74A) AC adapter
         - Not USB-C charging compatible
+    - Included AC adapter uses C5 (Cloverleaf) power cord
     - 49Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone

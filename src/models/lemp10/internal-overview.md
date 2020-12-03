@@ -1,26 +1,21 @@
 # Lemur Pro (Internal Overview)
 
-## User-replaceable components:
+## Components and connectors:
 
-The following components can be replaced using the instructions under [Parts & Repairs](./repairs.md).
+Components can be replaced using the instructions under [Parts & Repairs](./repairs.md). Connectors can be reseated for troubleshooting purposes.
 
 ![Internal Components](./img/components-highlighted.jpg)
 
-- CPU fan/heatsink is highlighted in cyan
-- M.2 SSDs are highlighted in yellow
-- RAM is highlighted in pink
+- M.2 SSDs are highlighted in red
+- RAM is highlighted in cyan
 - Wireless card is highlighted in green
-- Battery is highlighted in orange
-
-## Other connectors:
-
-These components are not considered user-serviceable, but may be replaced by our hardware team or a local repair shop. The connectors may be reseated for troubleshooting purposes.
-
-![Internal Connectors](./img/connectors-highlighted.jpg)
-
 - LCD cable connector is highlighted in yellow
-- Touchpad connector is highlighted in red
-- Keyboard connector (main) is highlighted in green
-- Keyboard backlight connector is highlighted in pink
-- Speaker connectors are highlighted in cyan
-- Speakers are highlighted in brown
+- Touchpad connector is highlighted in orange
+- Keyboard connector (main) is highlighted in olive
+- Keyboard backlight connector is highlighted in white
+- CMOS battery connector is highlighted in brown
+- CPU fan/heatsink is highlighted in grey
+- Battery is highlighted in dashed navy
+- Battery connector is highlighted in solid navy
+- Speakers are highlighted in purple
+- Speaker connectors are highlighted in pink

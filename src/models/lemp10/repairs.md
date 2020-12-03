@@ -113,14 +113,14 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Follow the steps above to [remove the primary SSD](#replacing-an-m2nvme-ssd).
 3. Remove any clear tape that is securing the battery, then pull the battery away from the adhesive holding it to the case.
-    - If you are not replacing the CMOS battery, removing the SSD and CMOS battery is optional, but will make it easier to unplug the CMOS battery connector.
+    - If you are only clearing the CMOS and are not replacing the CMOS battery, removing the SSD and CMOS battery is optional, but will make it easier to unplug the CMOS battery connector.
 
 ![CMOS battery](./img/cmos-battery.jpg)
 
-3. Unplug the white connector attaching the CMOS battery to the motherboard.
-4. To clear the CMOS, [disconnect the main battery](#replacing-the-main-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery and main battery, and replace the M.2 drive and bottom panel.
-6. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+4. Unplug the white connector attaching the CMOS battery to the motherboard.
+5. To clear the CMOS, [disconnect the main battery](#replacing-the-main-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+6. Re-connect the CMOS battery and main battery, and replace the M.2 drive and bottom panel.
+7. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the wireless card:
 

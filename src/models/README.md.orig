@@ -9,8 +9,13 @@ This documentation includes the following System76 models:
 - [Bonobo WS (bonw14)](bonw14/README.md)
 - [Darter Pro (darp6)](darp6/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
+<<<<<<< HEAD
+- [Galago Pro (galp4)](galp4/README.md)
+=======
+>>>>>>> master
 - [Gazelle (gaze15)](gaze15/README.md)
 - [Lemur Pro (lemp10)](lemp10/README.md)
+- [Lemur Pro (lemp9)](lemp9/README.md)
 - [Meerkat (meer5)](meer5/README.md)
 - [Oryx Pro (oryp6)](oryp6/README.md)
 - [Serval WS (serw12)](serw12/README.md)
@@ -21,4 +26,3 @@ This documentation includes the following System76 models:
 ## Previous Models
 
 - [Galago Pro (galp4)](galp4/README.md)
-- [Lemur Pro (lemp9)](lemp9/README.md)

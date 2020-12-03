@@ -151,7 +151,7 @@ Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a
 
 ## Replacing the CMOS battery:
 
-The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

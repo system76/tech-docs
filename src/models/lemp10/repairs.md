@@ -165,6 +165,8 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ![Speaker removal](./img/speaker-removal.webp)
 
+5. Slide the new speaker onto the plastic posts and connect it to the motherboard.
+
 ## Replacing the main battery:
 
 The battery provides primary power whenever the system is unplugged.

@@ -18,7 +18,7 @@
 
 ## Speakers
 
-The grilles for the built-in speakers are located on the bottom of the machine, angled outward.
+The machine has two bottom-firing speakers near the front, angled outward.
 
 ![Bottom Ports](./img/ports-bottom.jpg)
 

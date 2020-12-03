@@ -17,7 +17,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>
 **Screws:** 12 total
 
 ### Steps to remove the bottom cover:
@@ -35,7 +35,7 @@ The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cann
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the RAM:
 
@@ -53,7 +53,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the M.2 drive:
 

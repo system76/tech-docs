@@ -1,4 +1,4 @@
-# Galago Pro (External Overview)
+# Lemur Pro (External Overview)
 
 ## Left side overview:
 
@@ -16,9 +16,15 @@
 
 ![Back Ports](./img/ports-back.png)
 
-### Keyboard Shortcuts
+## Speakers
 
-The Galago Pro has the following actions available using the Fn and Function keys:
+The machine has two bottom-firing speakers near the front, angled outward.
+
+![Bottom Ports](./img/ports-bottom.jpg)
+
+## Keyboard Shortcuts
+
+The Lemur Pro has the following actions available using the Fn and Function keys:
 
 |Key                           |Shortcut|Action                             |
 |------------------------------|--------|-----------------------------------|
@@ -39,13 +45,9 @@ The Galago Pro has the following actions available using the Fn and Function key
 
 ## LED indicators
 
-The Galago Pro has the following LED indicators:
+There is an LED light next to the DC-in connector (charger port.) The color and pattern indicate:
 
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
-|                                        |Green          |Powered on                                       |
-|                                        |Blinking green |Sleeping (suspended)                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
+- **Solid green:** Powered on and not suspended.
+- **Flashing green:** Powered on and suspended.
+- **Solid yellow:** Powered off and charging.
+- **Off:** Powered off and not charging.

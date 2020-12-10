@@ -58,7 +58,8 @@ Up to 46 TB, M.2 NVMe and 2.5″ SATA drives
 
 **Power Supply** 	
 
-1000W 80+ Certified (90% or greater power efficiency)
+- 1000W 80+ Certified (90% or greater power efficiency)
+- C13 power cable
 
 **Dimensions** 	
 

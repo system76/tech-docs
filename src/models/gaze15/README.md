@@ -31,6 +31,7 @@ The System76 Gazelle is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - 120W AC adapter
+    - Included AC adapter uses C5 (Cloverleaf) power cord
     - 48.96Wh battery
 - Sound
     - Internal speaker & microphone

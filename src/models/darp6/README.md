@@ -29,6 +29,7 @@ The System76 Darter Pro is a laptop with the following specifications:
         - or Intel Wireless-AC 9560
 - Power
     - 65W (19V, 3.42A) AC adapter
+    - Included AC adapter uses C5 (Cloverleaf) power cord
     - 54.5Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone

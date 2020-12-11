@@ -24,3 +24,7 @@ The System76 Adder WS is a laptop with the following specifications:
 - Memory
     - Up to 64GB dual-channel DDR4 @ 2666 MHz, or
     - Up to 32GB dual-channel DDR4 @ 3000 MHz
+- Power
+    - 230W (19.5V, 9.23A) AC adapter
+    - Removable 62Wh 6-cell battery
+    - Included AC adapter uses C5 (Cloverleaf) power cord

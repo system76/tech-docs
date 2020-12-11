@@ -32,6 +32,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Power
     - 180W (19.5V, 9.23A) AC adapter
     - 73Wh 3-cell battery
+    - Included AC adapter uses C5 (Cloverleaf) power cord
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

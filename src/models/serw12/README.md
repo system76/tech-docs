@@ -33,6 +33,7 @@ The System76 Serval WS is a laptop with the following specifications:
 - Power
     - RTX 2070: 230W (19.5V, 9.23A) AC adapter
     - GTX 1660 Ti: 180W (19.5V, 9.23A) AC adapter
+    - Included AC adapter uses C5 (Cloverleaf) power cord
     - 62Wh 6-cell battery
 - Sound
     - Internal speakers & microphone

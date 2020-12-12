@@ -49,7 +49,7 @@ The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cann
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supports PCIe NVMe Gen 4 and SSD-2 supports SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
@@ -58,7 +58,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 ### Steps to replace the M.2 drive:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the M.2 drives (or slots.) The primary slot is next to the battery (highlighted green here), while the secondary slot is above the battery (highlighted yellow).
+2. Locate the M.2 drives (or slots.) The SSD-1 slot is above the battery (highlighted yellow), while the SSD-2 slot is next to the battery (highlighted green here).
 
 ![M.2 slots](./img/m2-slots.jpg)
 

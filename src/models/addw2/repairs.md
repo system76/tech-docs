@@ -30,7 +30,7 @@ The battery provides primary power whenever the system is unplugged.
 
 ## Removing the keyboard:
 
-The keyboard can be replaced using the instructions below.
+The keyboard (and built-in keyboard backlight) can be replaced using the instructions below.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -64,7 +64,7 @@ The keyboard can be replaced using the instructions below.
 
 ## Removing the bottom cover:
 
-Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
+Removing the cover is required to access most internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
@@ -77,12 +77,11 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ![Under-keyboard screws](./img/under-keyboard-screws.jpg)
 
-1. Remove the remaining 10 bottom panel screws.
-    - The two hinge corner screws (highlighted yellow below) are slightly thicker than the rest.
+3. Remove the remaining 10 bottom panel screws.
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-2. Pull the bottom panel off, starting from the hinges and vents in the back.
+4. Pull the bottom panel off, starting from the hinges and vents in the back.
 
 ## Replacing the RAM:
 
@@ -104,7 +103,7 @@ The Adder WS 2 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports two M.2 SSD of size 2280. SSD-1 supports PCIe NVMe Gen 3 or SATA III, while SSD-2 supports only PCIe NVMe Gen 3.
+This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Gen 3 or SATA III, while SSD-2 supports only PCIe NVMe Gen 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -112,7 +111,7 @@ This model supports two M.2 SSD of size 2280. SSD-1 supports PCIe NVMe Gen 3 or 
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slot](./img/m2-slots.jpg)
@@ -131,7 +130,7 @@ This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 **Time estimate:** 12 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-1. Follow the steps above to bat key [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the single screw holding the 2.5" drive bracket into the case.
 
 ![2.5" drive bracket screw](./img/25-bracket-screw.jpg)
@@ -158,7 +157,7 @@ Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a 
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless module. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.jpg)
@@ -168,7 +167,8 @@ Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a 
 5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
 6. Insert the new wireless card into the M.2 slot at an angle.
 7. Replace the retaining screw.
-8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
+8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place.
+    - _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
 ## Replacing the CMOS battery:
 
@@ -184,16 +184,16 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ![CMOS battery](./img/cmos-battery.jpg)
 
-3. Pick the CMOS battery up from the open side of the battery slot (on the right).
-4. To clear the CMOS, [remove the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery, and replace the keyboard and main battery.
-6. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+2. Pick the CMOS battery up from the open side of the battery slot (on the right).
+3. To clear the CMOS, [remove the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. Replace the CMOS battery, keyboard, and main battery.
+5. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
-The Adder WS 2 has a single heatsink with two attached fans. The entire cooling assembly should be replaced together (fans should not be removed individually.)
+The Adder WS 2 has a single heatsink with two attached fans. The entire cooling assembly should be replaced together (fans cannot be removed individually.)
 
-If a fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+If a fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. [Contact Support](https://support.system76.com/) to start a warranty claim or parts purchase.
 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
@@ -201,9 +201,9 @@ Depending on your climate and the age of the machine, it may be necessary to app
 **Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-### Steps to replace the heatsink/thermal paste:
+### Steps to replace the fans/heatsink/thermal paste:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the two white fan connectors, highlighted red below.
 
 ![Thermal screws and connectors](./img/thermal-system.jpg)

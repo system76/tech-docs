@@ -31,8 +31,8 @@ The System76 Adder WS is a laptop with the following specifications:
     - 62Wh 6-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone
-    - 3.5mm headphone/microphone combo jack
-    - 3.5mm microphone jack with S/PDIF optical output
+    - Combined headphone & microphone 3.5mm jack
+    - Combined microphone & S/PDIF (optical) 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
     - M.2 (PCIe NVMe Gen 3 or SATA III) SSD-1

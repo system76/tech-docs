@@ -26,7 +26,7 @@ The System76 Adder WS is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 230W (19V, 9.23A) AC adapter
+    - 230W (19.5V, 11.8A) AC adapter
         - Included AC adapter is a Chicony A17-230P1A
         - Included AC adapter uses C5 (Cloverleaf) power cord
         - Barrel size: 5.5mm (outer), 2.5mm (inner)

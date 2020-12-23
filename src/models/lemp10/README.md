@@ -29,7 +29,9 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - 19V, 3.42A (65W) AC adapter
+      - Included AC adapter is an AcBel ADA012
       - Included AC adapter uses C7 power cord (non-polarized)
+      - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - USB-C charging compatible
     - 73Wh 4-cell Lithium-Ion battery
     - [TI BQ24780S Battery Charger](https://www.ti.com/product/BQ24780S)

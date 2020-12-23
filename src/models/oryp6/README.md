@@ -31,8 +31,10 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - 180W (19.5V, 9.23A) AC adapter
+        - Included AC adapter is a Chicony A17-180P4A
+        - Included AC adapter uses C5 (Cloverleaf) power cord
+        - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - 73Wh 3-cell battery
-    - Included AC adapter uses C5 (Cloverleaf) power cord
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

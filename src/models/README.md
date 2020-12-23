@@ -5,7 +5,7 @@ This documentation includes the following System76 models:
 
 ## Current Models
 
-- [Adder WS (addw1)](addw1/README.md)
+- [Adder WS (addw2)](addw2/README.md)
 - [Bonobo WS (bonw14)](bonw14/README.md)
 - [Darter Pro (darp6)](darp6/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
@@ -20,5 +20,6 @@ This documentation includes the following System76 models:
 
 ## Previous Models
 
+- [Adder WS (addw1)](addw1/README.md)
 - [Galago Pro (galp4)](galp4/README.md)
 - [Lemur Pro (lemp9)](lemp9/README.md)

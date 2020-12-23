@@ -49,7 +49,7 @@ The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cann
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supports PCIe NVMe Gen 4 and SSD-2 supports SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supports PCIe NVMe Gen 4, and SSD-2 supports SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

@@ -22,7 +22,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - eDP 14.1" 1920x1080 LCD
     - HDMI and DisplayPort 1.2 over USB-C
 - Memory
-    - Channel 0: 8-GB on-board DDR4 [Samsung K4AAG165WA-BCTD](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCTD/)
+    - Channel 0: 8-GB on-board DDR4 ([Samsung K4AAG165WA-BCWE](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCWE/) x 8)
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM @ 3200 MHz
 - Networking
     - M.2 PCIe/CNVi WiFi/Bluetooth

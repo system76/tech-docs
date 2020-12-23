@@ -18,7 +18,7 @@ The System76 Gazelle is a laptop with the following specifications:
         - 1 x HDMI, 1 x Mini DisplayPort 1.4
     - or NVIDIA GeForce GTX 1650 Ti
         - 1 x HDMI, 1 x Mini DisplayPort 1.4
-    - or NVIDIA GeForce GTX 1660
+    - or NVIDIA GeForce GTX 1660 Ti
         - 1 x HDMI, 1 x Mini DisplayPort 1.4, 1 x DisplayPort 1.4 over USB 3.1 Type-C
     - eDP 15.6" or 17.3" 1920x1080@120Hz LCD
 - Memory
@@ -30,8 +30,16 @@ The System76 Gazelle is a laptop with the following specifications:
         - Intel Wireless-AC 9560, or
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 120W AC adapter
-    - Included AC adapter uses C5 (Cloverleaf) power cord
+    - GTX 1650 and 1650 Ti models:
+        - 120W AC adapter
+            - Included AC adapter is a Chicony A17-120P1A
+            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - GTX 1660 Ti model:
+        - 180W AC adapter
+            - Included AC adapter is a Chicony A17-180P4A
+            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Barrel size: 5.5mm (outer), 2.5mm (innter)
     - 48.96Wh battery
 - Sound
     - Internal speaker & microphone

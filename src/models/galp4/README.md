@@ -29,8 +29,10 @@ The System76 Galago Pro is a laptop with the following specifications:
         - or Intel Wireless-AC 9560
 - Power
     - 40W (19V, 2.1A) AC adapter
+        - Included AC adapter is a Chicony A13-040A3A
+        - Included AC adapter uses C5 (Cloverleaf) power cord
+        - Barrel size: 4mm (outer), 1.7mm (inner)
     - 35.3Wh 3-cell Lithium-Ion battery
-    - Included AC adapter uses C5 (Cloverleaf) power cord
 - Sound
     - Internal speakers & microphone
     - 3.5mm headphone jack

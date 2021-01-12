@@ -2,23 +2,40 @@
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.jpg)
+![Left Ports](./img/ports-left.png)
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.jpg)
+![Right Ports](./img/ports-right.png)
 
 ## Front side overview:
 
-![Front Ports](./img/ports-front.png)
+![Front Ports](./img/ports-front.webp)
 
 ## Back side overview:
 
-![Back Ports](./img/ports-back.png)
+![Back Ports](./img/ports-back.webp)
 
-### Keyboard Shortcuts
+## LED indicators:
 
-The Darter Pro has the following actions available using the Fn and Function keys:
+|Icon                                    |Color          |Description                                      |
+|----------------------------------------|---------------|-------------------------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
+|                                        |Green          |Powered on                                       |
+|                                        |Blinking green |Sleeping (suspended)                             |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
+|                                        |Green          |Battery fully charged                            |
+
+## Materials:
+
+|Part                                  |Material|
+|--------------------------------------|--------|
+|LCD back cover (lid)                  |Aluminum|
+|LCD front cover (bezel)               |Plastic |
+|Top case (palm rests/port covers)|Plastic |
+|Bottom panel                          |Aluminum|
+
+## Keyboard shortcuts:
 
 |Key                        |Shortcut|Action                             |
 |---------------------------|--------|-----------------------------------|
@@ -38,18 +55,3 @@ The Darter Pro has the following actions available using the Fn and Function key
 |/                          |Fn+/    |Cycle keyboard color               |
 |-                          |Fn+-    |Decrease keyboard brightness       |
 |+                          |Fn++    |Increase keyboard brightness       |
-
-## LED indicators
-
-The Darter Pro has the following LED indicators:
-
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
-|                                        |Green          |Powered on                                       |
-|                                        |Blinking green |Sleeping (suspended)                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
-|![Airplane LED](./img/led-airplane.png) |Green          |Airplane mode is on<br/>(WiFi/Bluetooth disabled)|
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |

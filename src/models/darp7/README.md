@@ -1,4 +1,4 @@
-# Darter Pro (darp6)
+# Darter Pro (darp7)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

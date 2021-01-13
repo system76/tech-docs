@@ -2,8 +2,8 @@
 
 Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
-- [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
+- [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the battery](#removing-the-battery)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
@@ -109,7 +109,7 @@ This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Gener
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slot](./img/m2-slot.jpg)
@@ -187,7 +187,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ![Thermal paste removal](./img/thermal-paste-removal.jpg)
 
-7. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU chip.
+7. After cleaning the CPU and heatsink, apply a small amount of thermal paste directly onto the CPU chip.
 
 ![Thermal paste application](./img/thermal-paste-application.jpg)
 

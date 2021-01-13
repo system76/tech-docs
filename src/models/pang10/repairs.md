@@ -43,11 +43,9 @@ The keyboard can be replaced using the instructions below.
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
 2. Open the lid slightly and place the machine on its side.
-
-![Keyboard push point](./img/keyboard-push-point.jpg)
-
 3. Push the screwdriver into the keyboard push point (highlighted cyan above) until the top edge of the keyboard pops out enough to get your fingers under it.
 
+![Keyboard push point](./img/keyboard-push-point.jpg)
 ![Keyboard popped out](./img/keyboard-popped-out.jpg)
 
 4. Set the machine back down, pull the top and side edges of the keyboard up to free them from the chassis, and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.

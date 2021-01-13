@@ -15,7 +15,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - Firmware
     - System76 Firmware (non-open)
 - EC
-    - ITE IT8587
+    - ITE IT5570
 - GPU
     - AMD Radeon Vega 7
     - eDP 15.6" 1920x1080 LCD

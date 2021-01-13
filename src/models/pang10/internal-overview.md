@@ -25,4 +25,4 @@
 
 - Keyboard connector is highlighted in cyan
 - Keyboard backlight connector is highlighted in green
-- Power button/LED connector is highlighted in yellow
+- Power button/LED connector is highlighted in orange

@@ -40,8 +40,9 @@ The System76 Pangolin is a laptop with the following specifications:
     - 1x M.2 (PCIe NVMe or SATA)
     - Micro SD card reader
 - USB
-    - 1x USB 3.1 Type-A
+    - 1x USB 3.2 Gen 2 Type-C
+        - No Thunderbolt, DisplayPort, or charging capabilities.
+    - 1x USB 3.1 Gen 1 Type-A
     - 2x USB 2.0 Type-A
-    - 1x USB Type-C (no thunderbolt or DisplayPort capabilities)
 - Dimensions
     - 1.99cm x 36.04cm x 23.93cm, 1.65kg

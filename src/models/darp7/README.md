@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Darter Pro](./img/darp7.png)
+![Darter Pro](./img/darp7.webp)
 
 The System76 Darter Pro is a laptop with the following specifications:
 
@@ -21,7 +21,7 @@ The System76 Darter Pro is a laptop with the following specifications:
     - eDP 15.6" 1920x1080 LCD
     - HDMI, DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 32GB (2x16GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth

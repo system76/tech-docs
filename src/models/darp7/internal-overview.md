@@ -4,22 +4,18 @@
 
 ![Internal Components](./img/components-highlighted.jpg)
 
-- RAM slots are highlighted in dark green
-- M.2 SSD is highlighted in purple
+- RAM slots are highlighted in purple
 - Wireless card is highlighted in yellow
-- CMOS battery connector is highlighted in pink
-- CMOS battery is highlighted in white
 - Fan/heatsink module is highlighted in navy
-- Fan connector is highlighted in light red
+- Fan connector is highlighted in white
 - Webcam/microphone connector is highlighted in orange
-- LCD panel connector is highlighted in light green
+- M.2 SSDs are highlighted in dark green
+- CMOS battery connector is highlighted in pink
 - Main battery connector is highlighted in cyan
-- Main battery is highlighted in brown
-- Speaker connectors are highlighted in maroon
-- Speakers are highlighted in olive
-- Touchpad connector is underneath the battery, highlighted in dashed red
-- Touchpad button connector is highlighted in dashed green
-- Front LED connector is highlighted in dashed yellow
+- LCD panel connector is highlighted in light green
+- Speaker connectors are highlighted in brown
+- Touchpad connector is highlighted in light red
+- Lid switch/sensor connector is highlighted in olive
 
 ## Under-keyboard components and connectors:
 

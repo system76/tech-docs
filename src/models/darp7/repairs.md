@@ -134,7 +134,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 5. Remove the fan and heatsink from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.
 6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
-![Thermal paste removal](./img/thermal-paste-removal.jpg)
+![Thermal paste removal](./img/thermal-paste-removal.webp)
 
 7. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU chip.
 

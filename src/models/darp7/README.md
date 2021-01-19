@@ -29,7 +29,7 @@ The System76 Darter Pro is a laptop with the following specifications:
         - or Intel Wireless-AC 9560
 - Power
     - 65W (19V, 3.42A) AC adapter
-        - Included AC adapter is a Chicony A18-065N3A
+        - Included AC adapter: Chicony A18-065N3A
         - Included AC adapter uses C5 (Cloverleaf) power cord
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - USB-C charging compatible with 65W+ charger

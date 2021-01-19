@@ -26,7 +26,6 @@ The System76 Darter Pro is a laptop with the following specifications:
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
-        - or Intel Wireless-AC 9560
 - Power
     - 65W (19V, 3.42A) AC adapter
         - Included AC adapter: Chicony A18-065N3A

@@ -49,4 +49,4 @@ The System76 Darter Pro is a laptop with the following specifications:
     - 1x USB 3.2 (Gen 2) Type-A
     - 1x USB 2.0 Type-A
 - Dimensions
-    - 1.99cm x 35.7cm x 22.05cm, 1.59kg
+    - 1.99cm x 35.7cm x 22.05cm, 1.74kg

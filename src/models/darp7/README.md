@@ -32,7 +32,7 @@ The System76 Darter Pro is a laptop with the following specifications:
         - Included AC adapter uses C5 (Cloverleaf) power cord
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - USB-C charging compatible with 65W+ charger
-    - 73Wh 4-cell Lithium-Ion battery
+    - 73Wh 4-cell Lithium-ion battery
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
@@ -43,6 +43,8 @@ The System76 Darter Pro is a laptop with the following specifications:
     - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort over USB-C
+        - Supports USB-C charging (USB-PD)
     - 1x USB 3.2 (Gen 2) Type-C
     - 1x USB 3.2 (Gen 2) Type-A
     - 1x USB 2.0 Type-A

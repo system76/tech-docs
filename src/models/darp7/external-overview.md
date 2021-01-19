@@ -28,12 +28,12 @@
 
 ## Materials:
 
-|Part                              |Material|
-|----------------------------------|--------|
-|LCD back cover (lid)              |Aluminum|
-|LCD front cover (bezel)           |Plastic |
-|Top case (palm rests/port covers) |Plastic |
-|Bottom panel                      |Aluminum|
+|Part                              |Material                |
+|----------------------------------|------------------------|
+|LCD back cover (lid)              |Magnesium-aluminum alloy|
+|LCD front cover (bezel)           |Plastic                 |
+|Top case (palm rests/port covers) |Plastic                 |
+|Bottom panel                      |Magnesium-aluminum alloy|
 
 ## Keyboard shortcuts:
 

@@ -108,7 +108,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ![CMOS battery](./img/cmos-battery.jpg)
 
 3. If you are replacing the CMOS battery, [remove SSD-1](#replacing-an-m2nvme-ssd) to expose the CMOS battery, then pull it away from the adhesive holding it to the case.
-4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery and the main battery, and replace the bottom panel and keyboard.
 7. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 

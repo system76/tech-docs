@@ -9,7 +9,7 @@ Many components in your Darter Pro can be upgraded or replaced as necessary. Fol
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the keyboard](#replacing-the-keyboard)
-- [Removing the battery](#removing-the-battery)
+- [Replacing the battery](#replacing-the-battery)
 
 ## Removing the bottom cover:
 
@@ -32,7 +32,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Darter Pro 7 supports up to 32GB (2x16GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Darter Pro 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -40,7 +40,7 @@ The Darter Pro 7 supports up to 32GB (2x16GB) of DDR4 SO-DIMMs running at 3200MH
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
 ![RAM slots](./img/ram-slots.jpg)
@@ -50,7 +50,7 @@ The Darter Pro 7 supports up to 32GB (2x16GB) of DDR4 SO-DIMMs running at 3200MH
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Generation 3.
+This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Gen 3 or SATA III, while SSD-2 supports PCIe NVMe Gen 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -58,8 +58,10 @@ This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Gener
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
+    - SSD-1 is closest to the battery (pictured on the left.)
+    - SSD-2 is closest to the outer edge of the machine (on the right.)
 
 ![M.2 slots](./img/m2-slots.jpg)
 
@@ -78,7 +80,7 @@ Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is 
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless module. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.jpg)
@@ -100,12 +102,12 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green below.)
 
 ![CMOS battery](./img/cmos-battery.jpg)
 
-3. If you are replacing the CMOS battery, pull it away from the adhesive holding it to the case.
+3. If you are replacing the CMOS battery, [remove SSD-1](#replacing-an-m2nvme-ssd) to expose the CMOS battery, then pull it away from the adhesive holding it to the case.
 4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery and the main battery, and replace the bottom panel and keyboard.
 7. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
@@ -124,7 +126,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ### Steps to replace the fan/heatsink/thermal paste:
 
-1. Follow the steps above to [remove the keyboard](#replacing-the-keyboard) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Peel back the black tape holding the fan to the chassis, and remove any clear tape that is securing the wires.
 3. Unplug the black fan connector.
 4. Remove the seven heatsink/fan screws in order, starting with #1, then #2, and so on until #7.
@@ -145,7 +147,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ## Replacing the keyboard:
 
-The keyboard can be replaced using the instructions below. Removing the keyboard is required for removing the bottom panel.
+The keyboard can be replaced using the instructions below.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -153,7 +155,7 @@ The keyboard can be replaced using the instructions below. Removing the keyboard
 
 ### Steps to replace the keyboard:
 
-1. Remove the two keyboard screws (highlighted red below).
+1. Remove the two keyboard screws (highlighted yellow below).
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
@@ -177,7 +179,7 @@ _Note: Unplugging the ribbon cables is not required to remove the bottom cover._
 11. Secure the rest of the keyboard by pressing down on each of its edges.
 12. Turn the machine lid-side down again and replace the two keyboard screws.
 
-## Removing the battery:
+## Replacing the battery:
 
 The battery provides primary power whenever the system is unplugged.
 
@@ -187,7 +189,7 @@ The battery provides primary power whenever the system is unplugged.
 **Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-### Steps to remove the battery:
+### Steps to replace the battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector that connects the battery to the motherboard.

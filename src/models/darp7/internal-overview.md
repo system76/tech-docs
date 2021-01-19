@@ -21,8 +21,6 @@
 
 ![Under-Keyboard Connectors](./img/under-keyboard.jpg)
 
-- Keyboard connector is highlighted in cyan
-- Keyboard backlight connector is highlighted in green
-- Power button/LED connector is highlighted in red
-- Left-side USB connector is highlighted in yellow
-- Bottom panel screws are highlighted in pink
+- Keyboard connector is highlighted in red
+- Keyboard backlight connector is highlighted in yellow
+- Lid switch/sensor to motherboard connector is highlighted in cyan

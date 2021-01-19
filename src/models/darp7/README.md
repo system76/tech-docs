@@ -15,7 +15,7 @@ The System76 Darter Pro is a laptop with the following specifications:
 - Firmware
     - [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT8587 running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
 - GPU
     - Intel Iris Xe Graphics
     - eDP 15.6" 1920x1080 LCD
@@ -33,7 +33,7 @@ The System76 Darter Pro is a laptop with the following specifications:
         - Included AC adapter uses C5 (Cloverleaf) power cord
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - USB-C charging compatible with 65W+ charger
-    - 73Wh -cell Lithium-Ion battery
+    - 73Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

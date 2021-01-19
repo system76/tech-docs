@@ -97,7 +97,7 @@ Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is 
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
+**Time estimate:** 12 minutes    
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the CMOS battery:
@@ -109,7 +109,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 3. If you are replacing the CMOS battery, [remove SSD-1](#replacing-an-m2nvme-ssd) to expose the CMOS battery, then pull it away from the adhesive holding it to the case.
 4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery and the main battery, and replace the bottom panel and keyboard.
+5. Re-connect the CMOS battery and the main battery, and replace the SSD and bottom panel.
 7. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
@@ -143,7 +143,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal paste application](./img/thermal-paste-application.jpg)
 
 8. Carefully replace the heatsink.
-9. Replace the three heatsink screws, starting with #1, then #2, and finally #3.
+9. Replace the seven heatsink/fan screws in order, starting with #1, then #2, and so on until #7.
 
 ## Replacing the keyboard:
 
@@ -167,8 +167,6 @@ The keyboard can be replaced using the instructions below.
 4. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
-
-_Note: Unplugging the ribbon cables is not required to remove the bottom cover._
 
 5. Flip the black latches upwards to free the ribbon cables.
 6. Pull the ribbon cables out of the connectors.

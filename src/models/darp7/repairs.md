@@ -22,7 +22,7 @@ Removing the cover is required to access the internal components. Prior to remov
 ### Steps to remove the bottom cover:
 
 1. Remove the 16 bottom panel screws:
-    - 12 perimiter screws (thin), highlighted green below.
+    - 12 perimeter screws (thin), highlighted green below.
     - 2 keyboard screws (thicker), highlighted yellow.
     - 2 inner hinge screws (thickest), highlighted red.
 

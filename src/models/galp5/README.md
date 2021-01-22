@@ -20,7 +20,7 @@ The System76 Galago Pro is a laptop with the following specifications:
     - Intel Iris Xe Graphics
     - (Optional) NVIDIA GeForce GTX 1650
     - eDP 14.1" 1920x1080 LCD
-    - HDMI and DisplayPort over USB-C
+    - HDMI and DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

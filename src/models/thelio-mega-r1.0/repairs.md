@@ -59,7 +59,12 @@ The inner partition provides a brace for the outer case and helps hold the inter
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio Mega r1.0 supports up to eight 2.5" SATA III drives.
+Thelio Mega r1.0 supports up to eight 2.5" SATA III drives. When using four M.2 drives, the following restrictions apply:
+
+- If the bottom right M.2 slot has a SATA drive installed, then 2.5" SATA ports 4 and 5 will be unavailable (leaving a maximum of six 2.5" SATA drives.)
+- If the bottom right M.2 slot has a PCIe NVMe drive installed, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable (leaving a maximum of four 2.5" SATA drives.)
+
+To use all eight 2.5" SATA III slots, use three or less M.2 drives and leave the bottom right M.2 slot empty. See [Replacing the M.2 drives](#replacing-the-m2-drives) to add, remove, or rearrange M.2 drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 10 minutes  

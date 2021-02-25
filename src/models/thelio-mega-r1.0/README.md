@@ -55,6 +55,7 @@ The System76 Thelio Mega is a desktop with the following specifications:
     - 4x M.2 (PCIe Gen 4)
         - Backwards compatible with M.2 SATA and PCIe Gen 3.
     - 8x 2.5" SATA
+        - When using all four M.2 slots, some SATA ports will not function. See [Parts & Repairs](./repairs.md) for details.
 - USB
     - 7x USB 3.2 Gen 2 Type-A
     - 1x USB 3.2 Gen 2 Type-C

@@ -15,8 +15,8 @@ The System76 Serval WS is a laptop with the following specifications:
         - [AMD Ryzen 9 PRO 3900](https://www.amd.com/en/products/cpu/amd-ryzen-9-pro-3900)
 - Chipset
     - AMD B450
-- Firmware
-    - System76 Firmware (non-open)
+- BIOS
+    - MX25U12872F flash chip running System76 Firmware (non-open)
 - EC
     - ITE IT5570E
 - GPU

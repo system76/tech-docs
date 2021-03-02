@@ -12,10 +12,10 @@ The System76 Darter Pro is a laptop with the following specifications:
     - Supports [Intel 10th Generation (Comet Lake-U) CPUs](https://tech-docs.system76.com/components/intel/cpu/cml-u/README.html)
         - [Core i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html)
         - [Core i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-20-ghz.html)
-- Firmware
-    - [System76 Open Firmware](https://github.com/system76/firmware-open)
+- BIOS
+    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT8587 running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
+    - ITE IT8587E running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
 - GPU
     - Intel UHD Graphics 620
     - eDP 15.6" 1920x1080 LCD

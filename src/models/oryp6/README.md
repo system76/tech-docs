@@ -13,8 +13,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - [Intel i7-10875H](https://ark.intel.com/content/www/us/en/ark/products/202329/intel-core-i7-10875h-processor-16m-cache-up-to-5-10-ghz.html)
 - Chipset
     - [Intel HM470](https://ark.intel.com/content/www/us/en/ark/products/203697/intel-hm470-chipset.html)
-- Firmware
-    - [System76 Open Firmware](https://github.com/system76/firmware-open)
+- BIOS
+    - MX25L12872F flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - GPU

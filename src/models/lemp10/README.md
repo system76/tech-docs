@@ -12,8 +12,8 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - Supports Intel 11th Generation (Tiger Lake-U) CPUs
         - [Core i7-1165G7](https://ark.intel.com/content/www/us/en/ark/products/208921/intel-core-i7-1165g7-processor-12m-cache-up-to-4-70-ghz-with-ipu.html)
         - [Core i5-1135G7](https://ark.intel.com/content/www/us/en/ark/products/208922/intel-core-i5-1135g7-processor-8m-cache-up-to-4-20-ghz-with-ipu.html)
-- Firmware
-    - [System76 Open Firmware](https://github.com/system76/firmware-open)
+- BIOS
+    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - GPU

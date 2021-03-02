@@ -13,6 +13,7 @@
 - RAM is highlighted in light green
 - 2.5" drive bay is highlighted in dark red
 - Battery slot is highlighted in orange
+- BIOS flash chip (U47), not highlighted
 
 ## Under-keyboard components and connectors:
 

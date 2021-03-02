@@ -13,3 +13,4 @@ The following components can be replaced using the instructions under [Parts & R
 - M.2 PCIe NVMe/SATA SSD slot is highlighted in orange
 - M.2 PCIe NVMe SSD slot is highlighted in light blue
 - CMOS battery is highlighted in cyan
+- BIOS flash chip (U46), not highlighted, is left of the RAM slots

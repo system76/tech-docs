@@ -24,3 +24,4 @@ These components are not considered user-serviceable, but may be replaced by our
 - Keyboard backlight connector is highlighted in pink
 - Speaker connectors are highlighted in cyan
 - Speakers are highlighted in brown
+- BIOS flash chip (U29), not highlighted

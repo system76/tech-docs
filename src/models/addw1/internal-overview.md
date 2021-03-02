@@ -11,6 +11,7 @@
 - Wireless/Bluetooth module is highlighted in purple
 - Battery is highlighted in white
 - 2.5" drive bay is highlighted in blue
+- BIOS flash chip (U61), not highlighted
 
 ## Under-the-keyboard overview:
 

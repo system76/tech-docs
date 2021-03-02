@@ -20,6 +20,7 @@
 - Touchpad connector is underneath the battery, highlighted in dashed red
 - Touchpad button connector is highlighted in dashed green
 - Front LED connector is highlighted in dashed yellow
+- BIOS flash chip (U26), not highlighted
 
 ## Under-keyboard components and connectors:
 

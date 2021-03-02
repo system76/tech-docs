@@ -28,3 +28,4 @@
 - Front LED connector is highlighted in navy
 - Touchpad connector is highlighted in purple
 - Keyboard & keyboard backlight board to motherboard connector is highlighted in olive
+- BIOS flash chip (U16), not highlighted

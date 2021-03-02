@@ -15,8 +15,8 @@ The System76 Bonobo WS is a laptop with the following specifications:
         - [Core i9-10900K](https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz.html)
 - Chipset
     - [Intel Z490 Express](https://ark.intel.com/content/www/us/en/ark/products/201834/intel-z490-chipset.html)
-- Firmware
-    - [System76 Open Firmware](https://github.com/system76/firmware-open)
+- BIOS
+    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - GPU

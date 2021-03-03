@@ -17,8 +17,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 13 total - 11 x M2 (black); 2 x M2.5 (black)
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to remove the bottom cover:
 
@@ -173,8 +172,7 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-**Screws:** 2 total - 2 x M2 (black)
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the keyboard:
 

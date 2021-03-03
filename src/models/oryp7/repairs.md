@@ -146,7 +146,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the CPU heatsink screws.
 3. Remove the silver screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #6.
-    - The screws may be numbered differently on the 15" model; the numbers for the 17" model are shown below.
+    - The order for the 17" model is shown below; the screws are numbered differently on the 15" model. Follow the order stamped into the heatsink metal.
 
 ![Thermal screws](./img/thermal-screws.jpg)
 

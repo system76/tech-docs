@@ -16,7 +16,30 @@
 
 ![Back Ports](./img/ports-back.png)
 
-### Keyboard Shortcuts
+## LED indicators:
+
+The Oryx Pro has the following LED indicators:
+
+|Icon                                    |Color          |Description                                      |
+|----------------------------------------|---------------|-------------------------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
+|                                        |Green          |Powered on                                       |
+|                                        |Blinking green |Sleeping (suspended)                             |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
+|                                        |Green          |Battery fully charged                            |
+|                                        |Blinking orange|Battery critically low                           |
+|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |
+
+## Materials:
+
+|Part                              |Material                |
+|----------------------------------|------------------------|
+|LCD back cover (lid)              |Aluminum                |
+|LCD front cover (bezel)           |Plastic                 |
+|Top case (palm rests/port covers) |Aluminum                |
+|Bottom panel                      |Aluminum                |
+
+## Keyboard shortcuts:
 
 The Oryx Pro has the following actions available using the Fn and Function keys:
 
@@ -38,17 +61,3 @@ The Oryx Pro has the following actions available using the Fn and Function keys:
 |/                          |Fn+/    |Cycle keyboard color               |
 |-                          |Fn+-    |Decrease keyboard brightness       |
 |+                          |Fn++    |Increase keyboard brightness       |
-
-## LED indicators
-
-The Oryx Pro has the following LED indicators:
-
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
-|                                        |Green          |Powered on                                       |
-|                                        |Blinking green |Sleeping (suspended)                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |

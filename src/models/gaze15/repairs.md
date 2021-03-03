@@ -82,7 +82,7 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
@@ -100,7 +100,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The top sl
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
 
@@ -119,8 +119,8 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The top sl
 This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 12 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the single screw holding the 2.5" drive bracket into the case.
@@ -146,8 +146,8 @@ If one of the fans becomes noisy and cleaning it out doesn't fix the issue, you 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Time estimate:** 20 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
 

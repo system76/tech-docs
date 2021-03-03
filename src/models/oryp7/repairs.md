@@ -105,7 +105,8 @@ The battery provides primary power whenever the system is unplugged.
 
 ![Battery screws](./img/battery.jpg)
 
-4. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard and remove the battery.
+4. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard.
+5. Remove the battery, starting with the plastic tabs next to the screw holes.
 5. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
 
 ## Replacing the CMOS battery:

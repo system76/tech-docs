@@ -36,7 +36,7 @@ The Oryx Pro 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
@@ -54,7 +54,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
 
@@ -94,8 +94,8 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the battery:
 
@@ -114,7 +114,7 @@ The battery provides primary power whenever the system is unplugged.
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
+**Time estimate:** 15 minutes    
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the CMOS battery:
@@ -138,7 +138,7 @@ If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, yo
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
+**Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
@@ -173,7 +173,7 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the keyboard:
 

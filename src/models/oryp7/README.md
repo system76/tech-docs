@@ -28,7 +28,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - or 17.3" 3840x2160@60Hz LCD
     - HDMI 2.1, Mini DisplayPort 1.4, and DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 2933 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth

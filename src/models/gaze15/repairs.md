@@ -6,6 +6,7 @@ Many components in your Gazelle can be upgraded or replaced as necessary. Indivi
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing a 2.5" storage drive](#replacing-a-25-storage-drive)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the external battery](#replacing-the-external-battery)
@@ -81,7 +82,7 @@ RAM acts as temporary storage for your computer. More RAM generally provides bet
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
@@ -99,7 +100,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The top sl
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
 
@@ -113,6 +114,31 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The top sl
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
 
+## Replacing a 2.5" storage drive:
+
+This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Unscrew the single screw holding the 2.5" drive bracket into the case.
+
+![2.5" drive bracket screw](./img/25-bracket-screw.jpg)
+
+3. Slightly lift the loose end of the 2.5" drive and slide it out of the SATA port.
+
+![2.5" drive removal](./img/25-drive-removal.jpg)
+
+4. Unscrew the two screws holding the 2.5" drive into the drive bracket (one on either side.)
+
+![2.5" drive side screw](./img/25-side-screw.jpg)
+
+5. Insert the new 2.5" drive into the drive bracket and replace the two side screws.
+6. Plug the 2.5" drive into the SATA port and set the drive into the case.
+7. Screw the drive bracket back into the case.
+
 ## Replacing the cooling system:
 
 If one of the fans becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
@@ -120,8 +146,8 @@ If one of the fans becomes noisy and cleaning it out doesn't fix the issue, you 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Time estimate:** 20 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
 

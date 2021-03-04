@@ -12,7 +12,7 @@ This documentation includes the following System76 models:
 - [Gazelle (gaze15)](gaze15/README.md)
 - [Lemur Pro (lemp10)](lemp10/README.md)
 - [Meerkat (meer5)](meer5/README.md)
-- [Oryx Pro (oryp6)](oryp6/README.md)
+- [Oryx Pro (oryp7)](oryp7/README.md)
 - [Serval WS (serw12)](serw12/README.md)
 - [Thelio Major B2 (thelio-major-b2)](thelio-major-b2/service-manual.md)
 - [Thelio Massive (thelio-massive-b1.2)](thelio-massive-b1.2/README.md)
@@ -24,3 +24,4 @@ This documentation includes the following System76 models:
 - [Darter Pro (darp6)](darp6/README.md)
 - [Galago Pro (galp4)](galp4/README.md)
 - [Lemur Pro (lemp9)](lemp9/README.md)
+- [Oryx Pro (oryp6)](oryp6/README.md)

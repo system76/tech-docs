@@ -10,11 +10,11 @@
 - Wireless card is highlighted in yellow
 - Fan connectors are highlighted in red
 - Webcam/microphone connector is highlighted in cyan
+- BIOS flash chip (U33) is highlighted in black
 - LCD panel connector is highlighted in light green
 - Speaker connectors are highlighted in dark green
 - Main battery connector is highlighted in orange
 - Touchpad connector is highlighted in white
-- BIOS flash chip (U33), not highlighted
 
 ## Under-keyboard components and connectors:
 

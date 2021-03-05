@@ -15,7 +15,7 @@
 - Touchpad connector is highlighted in white
 - Front LED connector is highlighted in orange
 - Battery connector is highlighted in yellow
-- BIOS flash chip (U60), not highlighted
+- BIOS flash chip (U60) is highlighted in black
 
 ## Under-keyboard components and connectors:
 

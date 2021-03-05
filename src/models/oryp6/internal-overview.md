@@ -14,7 +14,7 @@
 - CMOS battery connector is highlighted in cyan
 - Speakers are highlighted in light grey
 - Speaker connectors are highlighted in dark green
-- BIOS flash chip (U53), not highlighted, is above the M.2 SSD connectors
+- BIOS flash chip (U53) is highlighted in black
 
 ## Under-keyboard components and connectors:
 

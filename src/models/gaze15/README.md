@@ -14,7 +14,7 @@ The System76 Gazelle is a laptop with the following specifications:
 - BIOS
     - GD25B127D flash chip running System76 Firmware (non-open)
 - EC
-    ITE IT5570E running non-open firmware
+    - ITE IT5570E running non-open firmware
 - GPU
     - NVIDIA GeForce GTX 1650
         - 1 x HDMI, 1 x Mini DisplayPort 1.4

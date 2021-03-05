@@ -20,7 +20,7 @@
 - Speakers are highlighted in olive
 - Touchpad connectors are highlighted in dashed red
 - Front LED connector is highlighted in dashed yellow
-- BIOS flash chip (U25), not highlighted
+- BIOS flash chip (U25) is highlighted in black
 
 ## Under-keyboard components and connectors:
 

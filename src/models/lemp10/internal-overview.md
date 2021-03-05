@@ -19,4 +19,4 @@ Components can be replaced using the instructions under [Parts & Repairs](./repa
 - Battery connector is highlighted in solid navy
 - Speakers are highlighted in purple
 - Speaker connectors are highlighted in pink
-- BIOS flash chip (U33), not highlighted
+- BIOS flash chip (U33) is highlighted in black

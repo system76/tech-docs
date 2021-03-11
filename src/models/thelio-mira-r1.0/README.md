@@ -27,21 +27,21 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)
             - 1x HDMI 2.0b, 1x DVI-D (single link)
         - [NVIDIA GeForce 2080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-super/)
-            - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - 1x HDMI 2.0b, 3x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
         - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-ti/)
-            - HDMI 2.1, 3x DisplayPort 1.4a
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070/)
-            - HDMI 2.1, 3x DisplayPort 1.4a
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA GeForce RTX 3080](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/)
-            - HDMI 2.1, 3x DisplayPort 1.4a
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA Quadro RTX 4000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-4000/)
-            - 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - 3x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
         - [NVIDIA Quadro RTX 5000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-5000/)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
         - [NVIDIA Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
         - [NVIDIA Quadro RTX 8000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
         - [AMD Radeon RX 580](https://www.amd.com/en/products/graphics/radeon-rx-580)
             - 2x DisplayPort 1.4, 2x HDMI 2.0b, 1x DVI-D (single link)
         - [AMD Radeon RX 5700](https://www.amd.com/en/products/graphics/amd-radeon-rx-5700)

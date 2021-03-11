@@ -49,21 +49,21 @@ Thelio Mira r1.0 supports up to four 2.5" SATA III drives.
 
 ![Storage drive screws](./img/drive-screw-removal.jpg)
 
-4. Insert four screws into each 2.5" storage drive you wish to install.
+3. Insert four screws into each 2.5" storage drive you wish to install.
 
 ![Drive with screws installed](./img/drive-with-screws.jpg)
 
-5. Unscrew the two screws securing the drive bay's top cover.
+4. Unscrew the two screws securing the drive bay's top cover.
 
 ![Drive bay cover](./img/drive-bay-cover.jpg)
 
-6. Slide each 2.5" drive into one of the slots leading to the Thelio-IO boards.
+5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
 
 ![2.5" drive installation](./img/drive-installation.jpg)
 
 ## Replacing a GPU:
 
-Depending on which power supply is installed, Thelio Mira supports up to two 3-slot thick GPUs. There are three PCIe 4.0 x16 slots, however the bottom slot only has room for a 1-slot thick card, and is only accessible if the second slot does not have a 3-slot thick card installed. The top two slots can accommodate cards as wide as 3-slots. An even thicker GPU can be installed if only a single GPU is being used. Mixing NVIDIA and AMD GPUs is not recommended.
+Depending on which power supply is installed, Thelio Mira supports up to two 3-slot thick GPUs. There are three PCIe 4.0 x16 slots, however the bottom slot only has room for a 1-slot thick card, and is only accessible if the second slot does not have a 3-slot thick card installed. The top two slots can accommodate cards as wide as 3-slots. An even thicker GPU can be installed in the top slot if only a single GPU is being used. Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -76,7 +76,7 @@ Depending on which power supply is installed, Thelio Mira supports up to two 3-s
 
 ![PCIe bracket screws](./img/pci-retainer-missing-slot.jpg)
 
-3. Unscrew the four screws holding the side GPU brace in place. Remove the brace.
+3. Unscrew the four screws holding the side GPU brace in place and remove the brace.
 
 ![GPU brace removal](./img/gpu-brace-removal.jpg)
 ![GPU brace](./img/gpu-brace.jpg)
@@ -86,7 +86,7 @@ Depending on which power supply is installed, Thelio Mira supports up to two 3-s
 ![GPU power connections](./img/GPU-power-connectors.jpg)
 
 5. Hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
-    - If removing a GPU in the bottom slot, it may be necessary to remove the GPU in the top slot first in order to reach the bottom latch.
+    - If removing a GPU in the bottom slot, it may be necessary to remove the GPU in the top slot first in order to reach the bottom slot's latch.
     - If space is tight, a long object such as a screwdriver can be used to press the latch.
 
 ![PCIe slot latch](./img/pcie-latch.jpg)
@@ -94,8 +94,8 @@ Depending on which power supply is installed, Thelio Mira supports up to two 3-s
 6. After inserting the new GPU into its slot, connect the power cables.
     - If you are using only one GPU, it should go in the top PCIe slot.
     - If your Mira was originally equipped with fewer than 2 GPUs, power cables for two GPUs will still be preinstalled in your system. If they were not being used, they will be bundled up using velcro cable keepers to keep them out of the way.
-7. Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, any PCI slot covers for empty slots, and finally the top case.
-    - The side GPU brace includes plastic pieces sized to the GPUs that originally shipped with the system. The brace is highly adjustable and should be able to accommodate many different GPU shapes and sizes. 
+7. Once all GPUs are installed, replace the GPU brace, back PCIe bracket, any PCI slot covers for empty slots, and finally the top case.
+    - The GPU brace includes plastic pieces which are adjusted to the GPUs that originally shipped with the system. The brace is highly adjustable and should be able to accommodate many different GPU shapes and sizes. 
 
 _The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
@@ -135,7 +135,7 @@ _If there is already a drive in the slot you are accessing, it may take some pre
 
 ## Replacing the RAM:
 
-Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered ECC DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Mega r1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered ECC DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 20 minutes  
@@ -149,7 +149,7 @@ Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregi
 
 _The CPU shroud has been removed for better visibility in the above photo; removing the CPU shroud is not required to access the RAM slots._
 
-2. To remove an existing RAM stick, flip the top latch down away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
+2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
 
 ![RAM latches](./img/ram-latches.jpg)
 
@@ -159,7 +159,7 @@ _The CPU shroud has been removed for better visibility in the above photo; remov
 
 ![RAM slot order](./img/ram-order.png)
 
-4. Replace the CPU shroud (if it was removed) top case.
+4. Replace the top case.
 
 ## Removing the CPU shroud:
 
@@ -180,7 +180,7 @@ The CPU shroud guides airflow through the CPU cooler.
 
 ![CPU shroud screws](./img/cpu-shroud-screws.jpg)
 
-5. Pull the CPU shroud away from the machine.
+4. Pull the CPU shroud away from the machine.
 
 ## Replacing the CPU fans:
 
@@ -270,7 +270,7 @@ _**Note:** The PSU shown in these photos is not a model that Thelio Mira is bein
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPUs](#replacing-a-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
 2. Unplug all of the modular cabling from the back of the PSU.
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 
@@ -295,7 +295,7 @@ _**Note:** The PSU shown in these photos is not a model that Thelio Mira is bein
 ![PSU post](./img/psu-post.jpg)
 
 8. After screwing in the replacement PSU and replacing the PSU bracket, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
-    - Remember that not all of the available connectors will plug into the PSU-- eight connectors (on four cables) are to be plugged into the GPUs.
+    - Remember that not all of the available connectors will plug into the PSU-- four connectors (on two cables) are to be plugged into the GPUs.
 9. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on.
 
 ![PSU eco mode switch](./img/psu-eco-mode-switch.jpg)
@@ -328,14 +328,16 @@ Thelio Mira r1.0 has one intake fan mounted in the bottom of the case.
 
 ## Replacing the Thelio-IO board:
 
+The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If the Thelio-IO board becomes defective, it can be replaced using the instructions below.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If the Thelio-IO boards becomes defective, it can be replaced using the instructions below.
+### Steps to replace the Thelio-IO board:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the front cover and any installed drives from the 2.5" drive bays](#addingremoving-25-storage-drives).
-2. Use the cutouts on the opposite side of the chassis to unplug all cabling from the Thelio-IO board that is being replaced, including the SATA cables.
+2. Use the cutout on the front side of the chassis to unplug all cabling from the Thelio-IO board that is being replaced, including the SATA cables.
 
 ![Thelio-IO plugs](./img/thelio-io-plugs.jpg)
 
@@ -369,9 +371,9 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ### Steps to power the machine on using the internal power button:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.
-3. Push the small button labeled `B0` on the top Thelio-IO board.
+3. Push the small button labeled `B0` on the Thelio-IO board.
 
 ![Internal power button](./img/b0-button.jpg)
 
@@ -415,12 +417,12 @@ The Thelio-IO boards connect to the motherboard's USB headers for firmware updat
 
 ### Steps to check the USB wiring:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a cable (labeled `USB`) with the red wire on the bottom.
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu). If a second GPU is installed, removing it will make it easier to access the connections on the motherboard.
+2. The Thelio-IO board has a `USB0` port. The port connects to a cable (labeled `USB`) with the red wire on the top.
 
 ![USB wiring on Thelio-IO board](./img/thelio-io-usb.jpg)
 _**Note:** The fan and power button cables have been unplugged in this picture to make it easier to see the USB connector on Thelio-IO._
 
-3. The `USB0` port on the Thelio-IO board should connect to the USB header in the middle of the bottom edge of the motherboard, as shown below:
+3. The `USB0` port on the Thelio-IO board should connect to the USB header in the center of the bottom edge of the motherboard, as shown below:
 
 ![Thelio-IO wiring on motherboard](./img/thelio-io-usb-motherboard.jpg)

@@ -2,7 +2,7 @@
 
 ## Back side overview:
 
-![Back Ports](./img/back-ports-labeled.png)
+![Back Ports](./img/ports-back.png)
 
 ### Audio Port Guide:
 

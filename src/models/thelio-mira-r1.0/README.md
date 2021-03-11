@@ -17,7 +17,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x)
         - [Ryzen 9 5950X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x)
 - Motherboard
-    - [ASUS ROG Strix x570-E Gaming](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-x570-e-gaming-model/) running System76 Firmware (non-open)
+    - [ASUS ROG Strix X570-E Gaming](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-x570-e-gaming-model/) running System76 Firmware (non-open)
     - AMD X570 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)

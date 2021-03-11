@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Thelio Mira](./img/mira-front.jpg)
+![Thelio Mira](./img/thelio-mira-r1.0.png)
 
 The System76 Thelio Mira is a desktop with the following specifications:
 

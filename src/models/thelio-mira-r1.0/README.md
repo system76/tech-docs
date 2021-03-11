@@ -24,7 +24,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - GPU options
     - One or two GPUs, depending on configuration and power requirements (3x PCIe 3.0/4.0 x16 slots)
     - Tested with the following GPUs:
-        - [NVIDIA GeForce GT1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)
+        - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)
             - 1x HDMI 2.0b, 1x DVI-D (single link)
         - [NVIDIA GeForce 2080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-super/)
             - HDMI 2.0b, 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)

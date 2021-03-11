@@ -50,7 +50,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - Up to 128GB (4x32GB) quad-channel ECC Unbuffered DDR4 DIMMs @ 3200 MHz
     - Tested with the following RAM modules (may ship with other tested modules):
         - [Kingston HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf)
-        - [Kingston HX432C16FB4/16](https://www.kingston.com/dataSheets/HX432C16FB3K4_64.pdf)
+        - [Kingston HX432C16FB4/64](https://www.kingston.com/dataSheets/HX432C16FB3K4_64.pdf)
         - [Kingston HX432C16FB3K4/128](https://www.kingston.com/dataSheets/HX432C16FB3K4_128.pdf)
         - [Micron MTA9ASF2G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta9asf2g72az-3g2/mta9asf2g72az-3g2b1)
         - [Micron MTA18ASF4G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta18asf4g72az-3g2/mta18asf4g72az-3g2b1)

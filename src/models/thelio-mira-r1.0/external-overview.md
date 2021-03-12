@@ -20,6 +20,7 @@
 - 1: On
 - 0: Off
 
-**Note:** The BIOS Flash button (next to the CMOS reset button) is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of the BIOS Flash button is not recommended.
+### Other Notes:
 
-**Note:** The HDMI and DisplayPort will only work if your CPU supports integrated graphics, like the AMD 3200G and 3400G. If your CPU does not support integrated graphics, use the display outputs on your graphics card instead.
+- The BIOS Flash button is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of the BIOS Flash button is not recommended.
+- The upper HDMI and DisplayPort ports will only work if your CPU supports integrated graphics (for example, the AMD Ryzen 3 3200G or Ryzen 5 3400G.) In most configurations, you should use the display outputs on your graphics card if one is installed.

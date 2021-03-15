@@ -21,7 +21,9 @@
 From top to bottom:
 
 1. PCIe Gen 4 x16 slot (GPU 1)
-2. PCIe Gen 4 x16 slot (GPU 2)
-3. PCIe Gen 4 x16 slot (1u cards only)
+2. PCIe Gen 4 x1 slot
+3. PCIe Gen 4 x16 slot (GPU 2)
+4. PCIe Gen 4 x1 slot
+5. PCIe Gen 4 x16 slot (1u cards only)
 
 See the [repairs page](./repairs.md) for detailed information about installing or replacing components.

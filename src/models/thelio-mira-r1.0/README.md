@@ -22,7 +22,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - GPU options
-    - One or two GPUs, depending on configuration and power requirements (3x PCIe 3.0/4.0 x16 slots)
+    - One or two GPUs, depending on configuration and power requirements (3x PCIe 4.0 x16 slots)
     - Tested with the following GPUs:
         - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)
             - 1x HDMI 2.0b, 1x DVI-D (single link)

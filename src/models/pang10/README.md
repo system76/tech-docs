@@ -14,8 +14,10 @@ The System76 Pangolin is a laptop with the following specifications:
         - [Ryzen 7 4700U](https://www.amd.com/en/products/apu/amd-ryzen-7-4700u)
 - Firmware
     - System76 Firmware (non-open)
+- BIOS
+    - W74M12JWSSIQ flash chip running non-open System76 firmware
 - EC
-    - ITE IT5570
+    - ITE IT5570 running non-open EC firmware
 - GPU
     - AMD Radeon Vega 7
     - eDP 15.6" 1920x1080 LCD

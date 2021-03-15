@@ -18,6 +18,7 @@
 - Speaker connectors are highlighted in maroon
 - Speakers are highlighted in olive
 - Touchpad connector is highlighted in dashed red
+- BIOS flash chip (U33) is highlighted in black
 
 ## Under-keyboard components and connectors:
 

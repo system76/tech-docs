@@ -1,0 +1,81 @@
+# Thelio Mira (thelio-mira-r1.0)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Mira](./img/thelio-mira-r1.0.png)
+
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- CPU options
+    - Supports AMD 1st through 4th gen Ryzen AM4 socket processors
+    - Tested with the following processors:
+        - [Ryzen 5 3600](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
+        - [Ryzen 5 5600X](https://www.amd.com/en/products/cpu/amd-ryzen-5-5600x)
+        - [Ryzen 7 5800X](https://www.amd.com/en/products/cpu/amd-ryzen-7-5800x)
+        - [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x)
+        - [Ryzen 9 5950X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x)
+- Motherboard
+    - [ASUS ROG Strix X570-E Gaming](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-x570-e-gaming-model/) running System76 Firmware (non-open)
+    - AMD X570 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- GPU options
+    - One or two GPUs, depending on configuration and power requirements (3x PCIe 4.0 x16 slots)
+    - Tested with the following GPUs:
+        - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)
+            - 1x HDMI 2.0b, 1x DVI-D (single link)
+        - [NVIDIA GeForce 2080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-super/)
+            - 1x HDMI 2.0b, 3x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-ti/)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070/)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3080](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA Quadro RTX 4000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-4000/)
+            - 3x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 5000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-5000/)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 8000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/)
+            - 4x DisplayPort 1.4, 1x DisplayPort over USB-C (VirtualLink)
+        - [AMD Radeon RX 580](https://www.amd.com/en/products/graphics/radeon-rx-580)
+            - 2x DisplayPort 1.4, 2x HDMI 2.0b, 1x DVI-D (single link)
+        - [AMD Radeon RX 5700](https://www.amd.com/en/products/graphics/amd-radeon-rx-5700)
+            - 3x DisplayPort 1.4, 1x HDMI 2.0b
+- Memory
+    - Up to 128GB (4x32GB) quad-channel ECC Unbuffered DDR4 DIMMs @ 3200 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Kingston HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf)
+        - [Kingston HX432C16FB4/64](https://www.kingston.com/dataSheets/HX432C16FB3K4_64.pdf)
+        - [Kingston HX432C16FB3K4/128](https://www.kingston.com/dataSheets/HX432C16FB3K4_128.pdf)
+        - [Micron MTA9ASF2G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta9asf2g72az-3g2/mta9asf2g72az-3g2b1)
+        - [Micron MTA18ASF4G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta18asf4g72az-3g2/mta18asf4g72az-3g2b1)
+- Networking
+    - 1x 2.5-Gigabit Ethernet port (Realtek RTL8125-CG)
+    - 1x 1-Gigabit Ethernet port (Intel I211-AT)
+    - Wi-Fi 6 (Intel AX200)
+- Power
+    - Three power supply options:
+        - [EVGA 220-B5-0650 (650W)](https://www.evga.com/products/product.aspx?pn=220-B5-0650-V1)
+        - [EVGA 220-G5-0750 (750W)](https://www.evga.com/products/product.aspx?pn=220-G5-0750-X1)
+        - [EVGA 220-G5-1000 (1000W)](https://www.evga.com/products/product.aspx?pn=220-G5-1000-X1)
+    - C13 power cable
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Optical S/PDIF out
+    - Up to 7.1-channel audio output
+    - ROG SupremeFX S1220A chipset
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 2x M.2 (PCIe Gen 4)
+        - Backwards compatible with M.2 SATA and PCIe Gen 3.
+    - 4x 2.5" SATA
+- USB
+    - 7x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 2 Type-C
+- Dimensions
+    - 33.0cm x 25.4cm x 43.8cm

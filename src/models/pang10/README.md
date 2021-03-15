@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Pangolin](./img/pang10.png)
+![Pangolin](./img/pang10.webp)
 
 The System76 Pangolin is a laptop with the following specifications:
 

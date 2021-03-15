@@ -63,7 +63,7 @@ Thelio Mira r1.0 supports up to four 2.5" SATA III drives.
 
 ## Replacing a GPU:
 
-Depending on which power supply is installed, Thelio Mira supports up to two 3-slot thick GPUs. There are three PCIe 4.0 x16 slots, however the bottom slot only has room for a 1-slot thick card, and is only accessible if the second slot does not have a 3-slot thick card installed. The top two slots can accommodate cards as wide as 3-slots. An even thicker GPU can be installed in the top slot if only a single GPU is being used. Mixing NVIDIA and AMD GPUs is not recommended.
+Depending on which power supply is installed, Thelio Mira supports up to two 3-slot thick GPUs. There are three PCIe 4.0 x16 slots; however, the bottom slot only has room for a 1-slot thick card, and is only accessible if the second slot does not have a 3-slot thick card installed. The top two slots can accommodate cards as wide as 3-slots. An even thicker GPU can be installed in the top slot if only a single GPU is being used. Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -114,7 +114,7 @@ Thelio Mira has two M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 3
 
 ![M.2 fan cover screws](./img/m2-fan-cover-screws.jpg)
 
-3. Remove the two screws securing heatsink covering the slot you wish to access and remove the heatsink.
+3. Remove the two screws securing the heatsink covering the slot you wish to access and remove the heatsink.
 
 ![M.2 heatsink screws](./img/m2-heatsink-screws.jpg)
 
@@ -190,7 +190,7 @@ Thelio Mira contains two CPU fans. One is mounted on the CPU shroud, and one is 
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fans:
+### Steps to replace the shroud-mounted CPU fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. To remove the CPU shroud fan, unscrew the four fan screws inside the shroud.
@@ -228,7 +228,6 @@ The CPU uses an AMD AM4 socket.
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
 
 3. The cooler will come away from the CPU.
-
 5. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Cleaning thermal paste](./img/thermal-paste-clean.jpg)
@@ -255,12 +254,11 @@ The CPU uses an AMD AM4 socket.
 
 2. Place the CPU cooler over the CPU, aligning the two screws on the CPU cooler with the studs on the mounting brackets, and tighten the screws.
     - To distribute the thermal paste evenly across the CPU, tighten each screw a little bit at a time.
-
 3. Reinstall the cooler-mounted CPU fan, CPU shroud, GPUs, GPU bracket, and top case.
 
 ## Replacing the power supply:
 
-Your Thelio Mira may have been equipped with one of three different power supplies. All three power supply units (PSUs) are modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mira.
+Your Thelio Mira is equipped with one of three different power supplies. All three power supply units (PSUs) are modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mira.
 
 _**Note:** The PSU shown in these photos is not a model that Thelio Mira is being equipped with at the time of writing these instructions. Be sure to confirm which PSU model your machine has before seeking a replacement._
 
@@ -311,15 +309,15 @@ Thelio Mira r1.0 has one intake fan mounted in the bottom of the case.
 ### Steps to replace the bottom case fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Disconnect the fan's cable from the Thelio IO daughterboard and remove the cable from the cable keeper bundles. The fan connector can be most easily accessed through the cutout in the front of the chassis.
+2. Disconnect the fan's cable from the Thelio-IO daughterboard and remove the cable from the cable keeper bundles. The fan connector can be accessed through the cutout in the front of the chassis.
 
 ![Case fan cable connection](./img/case-fan-connection.jpg)
 
-4. Unscrew the four fan screws from the bottom of the machine, then remove the fan from the case. The chassis can be laid on its back to make it easier to access these screws.
+3. Unscrew the four fan screws from the bottom of the machine, then remove the fan from the case. The chassis can be laid on its back to make it easier to access these screws.
 
 ![Case fan screws](./img/case-fan-screws.jpg)
 
-5. The components should be mounted to the chassis in the following order:
+4. The components should be mounted to the chassis in the following order:
     - Dust filter
     - Acrylic spacer
     - Fan
@@ -399,8 +397,6 @@ If the front power button doesn't power the machine on or doesn't light up when 
 5. The `PMBD` port on the Thelio-IO board should connect to the headers on the bottom right corner of the motherboard, as shown below:
 
 ![Power button motherboard connections](./img/thelio-io-power-button-motherboard.jpg)
-
-6. You may also need to [check the Thelio-IO USB connection](#steps-to-check-the-usb-wiring)
 
 ### Steps to replace the power button:
 

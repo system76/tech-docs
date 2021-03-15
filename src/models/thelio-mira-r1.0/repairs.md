@@ -53,7 +53,7 @@ Thelio Mira r1.0 supports up to four 2.5" SATA III drives.
 
 ![Drive with screws installed](./img/drive-with-screws.jpg)
 
-4. Unscrew the two screws securing the drive bay's top cover.
+4. Unscrew the two screws securing the drive bay's cover.
 
 ![Drive bay cover](./img/drive-bay-cover.jpg)
 
@@ -172,7 +172,8 @@ The CPU shroud guides airflow through the CPU cooler.
 ### Steps to remove the CPU shroud:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
-2. Unplug the connectors for the CPU shroud-mounted fan. Both can be unplugged if it is difficult to tell which plug is for which fan (just remember to plug both back in when reassembling).
+2. Unplug the connector for the CPU shroud-mounted fan.
+    - Both fan connectors can be unplugged if it is difficult to tell which plug is for which fan.
 
 ![CPU fan connectors](./img/cpu-fan-connectors.jpg)
 
@@ -243,7 +244,7 @@ The CPU uses an AMD AM4 socket.
 
 ![CPU socket](./img/cpu-socket.jpg)
 
-3. The top left corner on the CPU socket indicates the way the CPU should be oriented. Using this as a guide, carefully place the new CPU into the socket in the correct orientation.
+3. The top left corner on the CPU socket has a triange indicator to mark the direction the CPU should be oriented. Using this as a guide, carefully place the new CPU into the socket, matching the triangle on the CPU with the triangle on the motherboard.
 4. Lower the CPU locking lever back down into the locked position.
 
 ### Steps to install the thermal paste/CPU cooler:

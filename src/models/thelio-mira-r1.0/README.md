@@ -68,7 +68,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - 3.5mm line out, line in, microphone jacks
     - Optical S/PDIF out
     - Up to 7.1-channel audio output
-    - AMD Starship/Matisse HD Audio Controller
+    - ROG SupremeFX S1220A chipset
     - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
 - Storage
     - 2x M.2 (PCIe Gen 4)

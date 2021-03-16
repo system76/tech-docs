@@ -47,7 +47,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [AMD Radeon RX 5700](https://www.amd.com/en/products/graphics/amd-radeon-rx-5700)
             - 3x DisplayPort 1.4, 1x HDMI 2.0b
 - Memory
-    - Up to 128GB (4x32GB) quad-channel ECC Unbuffered DDR4 DIMMs @ 3200 MHz
+    - Up to 128GB (4x32GB) dual-channel ECC Unbuffered DDR4 DIMMs @ 3200 MHz
     - Tested with the following RAM modules (may ship with other tested modules):
         - [Kingston HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf)
         - [Kingston HX432C16FB4/64](https://www.kingston.com/dataSheets/HX432C16FB3K4_64.pdf)

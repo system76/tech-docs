@@ -17,15 +17,19 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - MX25L12873F flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
-- GPU
-    - NVIDIA GeForce RTX 3080 (Max-Q)
-        - or NVIDIA GeForce RTX 3070 (Max-Q)
-        - or NVIDIA GeForce RTX 3060
-    - eDP display:
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 3080 (Max-Q)
+            - TGP: 80W
+        - NVIDIA GeForce RTX 3070 (Max-Q)
+            - TGP: 80W
+        - NVIDIA GeForce RTX 3060
+            - TGP: 80W
+    - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
-        - or 15.6" 3840x2160@60Hz OLED
-        - or 17.3" 1920x1080@144Hz LCD
-        - or 17.3" 3840x2160@60Hz LCD
+        - 15.6" 3840x2160@60Hz OLED
+        - 17.3" 1920x1080@144Hz LCD
+        - 17.3" 3840x2160@60Hz LCD
     - HDMI 2.1, Mini DisplayPort 1.4, and DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 2933 MHz

@@ -204,7 +204,7 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fan e
 
 ## Mounting with VESA Mount:
 
-Your Meerkat will come with a VESA mount adapter, which will allow it to be mounted on the back of a monitor. Because it mounts to the monitor's VESA mount, this will only work on monitors which aren't already mounted via the VESA mount.
+Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on the back of a monitor. Because it mounts to the monitor's VESA mount, this will only work on monitors which aren't already mounted via the VESA mount.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -212,11 +212,11 @@ Your Meerkat will come with a VESA mount adapter, which will allow it to be moun
 
 ### Steps to mount with the VESA adapter:
 
-![Vesa mount and screws](./img/vesa-mount-and-screws.jpg)
+![VESA mount and screws](./img/vesa-mount-and-screws.jpg)
 
 1. Thread the two shoulder screws into the two screw holes in the bottom of the Meerkat.
 
-![Screws in meerkat](./img/shoulder-screws.jpg)
+![Screws in Meerkat](./img/shoulder-screws.jpg)
 
 2. Mount the VESA adapter plate to the VESA mount on your monitor with the remaining four screws. The "UP" arrow indicates the orientation it should be mounted in. 
 

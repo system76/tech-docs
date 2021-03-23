@@ -10,6 +10,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Removing the motherboard](#removing-the-motherboard)
 - [Removing the fan](#removing-the-fan)
 - [Replacing thermal paste](#replacing-thermal-paste)
+- [Mounting with VESA mount](#mounting-with-vesa-mount)
 
 ## Removing the bottom panel:
 
@@ -200,3 +201,28 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fan e
 ![Heatsink screw tightening order](./img/heatsink-screw-order.jpg)
 
 7. Reinstall the cooling fan (remember to plug it in!), motherboard, RAM, drive, and bottom panel.
+
+## Mounting with VESA Mount:
+
+Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on the back of a monitor. Because it mounts to the monitor's VESA mount, this will only work on monitors which aren't already mounted via the VESA mount.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to mount with the VESA adapter:
+
+![VESA mount and screws](./img/vesa-mount-and-screws.jpg)
+
+1. Thread the two shoulder screws into the two screw holes in the bottom of the Meerkat.
+
+![Screws in Meerkat](./img/shoulder-screws.jpg)
+
+2. Mount the VESA adapter plate to the VESA mount on your monitor with the remaining four screws. The "UP" arrow indicates the orientation it should be mounted in. 
+
+![Adapter installed on monitor](./img/adapter-installed.jpg)
+
+3. Align the two shoulder screw studs to the cutouts in the VESA adapter. Once the studs are lined up, slide the Meerkat downwards and rotate it slightly clockwise to lock it into place.
+
+![Installing the Meerkat](./img/vesa-studs.jpg)
+![Meerkat installed](./img/meer5-vesa-installed.jpg)

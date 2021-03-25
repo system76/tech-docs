@@ -21,7 +21,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Place the Lemur Pro lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 12 screws from the bottom panel.
 
 ![Bottom case screws](./img/bottom-case-screws.jpg)

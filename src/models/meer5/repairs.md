@@ -22,11 +22,13 @@ The bottom panel can be removed to access the internal components.
 
 ### Steps to remove the bottom panel:
 
-1. Turn your Meerkat over on its back and completely loosen the four screws in the corners.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+1. Completely loosen the four screws in the corners.
 
 ![Bottom panel screws](./img/meer5-bottom-screws.png)
 
-2. The screws are held captive in the bottom panel, so they will not come completely out of the machine, but once they are fully loose, you will be able to grab the screws and gently lift the bottom panel out of the machine. 
+3. The screws are held captive in the bottom panel, so they will not come completely out of the machine, but once they are fully loose, you will be able to grab the screws and gently lift the bottom panel out of the machine. 
 
    If your Meerkat is the Tall variation, use caution when lifting the bottom panel off, as there is a thin cable that attaches to the drive bay in the bottom panel. The cable should be long enough that you can set the bottom panel next to the machine without having to disconnect it at the motherboard, as shown below: 
    

@@ -22,7 +22,8 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 ### Steps to replace the keyboard:
 
-1. Place the Oryx Pro lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 2 keyboard screws, indicated by the small keyboard icons.
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
@@ -61,7 +62,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Place the Oryx Pro lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 13 bottom panel screws. Note that two of the screws are longer than the rest (highlighted red below.)
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)

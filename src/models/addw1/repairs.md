@@ -22,7 +22,8 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 ### Steps to replace the keyboard:
 
-1. Place the Adder WS lid-side-down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 2 keyboard screws, indicated by the small keyboard icons.
 
 ![Keyboard screws](./img/keyboard-screws.png)
@@ -64,7 +65,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Place the Adder WS lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the external battery.
 3. [Remove the keyboard.](#replacing-the-keyboard)
 4. Remove the two screws underneath the keyboard labeled ‘M2’.
@@ -178,8 +180,10 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to replace the external battery
 
-1. Remove the two screws that hold the battery and then remove the battery.
-2. Place the new battery in and then add the two screws back.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the two screws that hold the battery and then remove the battery.
+3. Place the new battery in and then add the two screws back.
 
 ## Replacing the wireless card
 

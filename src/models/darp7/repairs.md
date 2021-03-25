@@ -201,7 +201,7 @@ The battery provides primary power whenever the system is unplugged.
 3. Remove the battery.
     - The battery is secured to foam standoffs with double-sided tape.
     - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
-    - If any tabs from the tape are visible around the perimiter of the battery, hold them down while inserting the plastic tool so they don't get pushed back under the battery.
+    - If any tabs from the tape are visible around the perimeter of the battery, hold them down while inserting the plastic tool so they don't get pushed back under the battery.
 
 ![Battery tape](./img/battery-tape.jpg)
 

@@ -23,7 +23,9 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 ### Steps to replace the keyboard:
 
-1. Remove the two keyboard screws, indicated by the small keyboard icons (highlighted yellow below).
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the two keyboard screws, indicated by the small keyboard icons (highlighted yellow below).
 
 **15" version:**
 
@@ -33,23 +35,23 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 
 ![Keyboard screws](./img/keyboard-screws-17inch.jpg)
 
-2. Open the Gazelle and place it on its side.
-3. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+3. Open the Gazelle and place it on its side.
+4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
-4. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
-5. Flip the black latches upwards to free the ribbon cables.
-6. Pull the ribbon cables out of the connectors.
-7. Remove the keyboard and replace it with the new one.
-8. Carefully slide both ribbon cables into their connectors.
-9. Flip the black latches back into place to secure the ribbon cables.
-10. Place the keyboard back into position, starting with the tabs on the bottom edge.
-11. Secure the rest of the keyboard by pressing down on each of its edges.
-12. Turn the machine lid-side down again and replace the two keyboard screws.
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. Place the keyboard back into position, starting with the tabs on the bottom edge.
+12. Secure the rest of the keyboard by pressing down on each of its edges.
+13. Turn the machine lid-side down again and replace the two keyboard screws.
 
 ## Removing the bottom cover:
 
@@ -62,7 +64,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Place the Gazelle lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the external battery.
 3. Remove the bottom panel screws.
 
@@ -199,9 +202,11 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to replace the external battery:
 
-1. Slide the locks that hold the battery to their unlocked positions. (One lock will click into place, while the other is on a spring.)
-2. Hold back the spring-loaded lock while removing the battery.
-3. Replace the battery/insert the new battery, then slide the clicking lock to its locked position.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Slide the locks that hold the battery to their unlocked positions. (One lock will click into place, while the other is on a spring.)
+3. Hold back the spring-loaded lock while removing the battery.
+4. Replace the battery/insert the new battery, then slide the clicking lock to its locked position.
 
 ## Replacing the wireless card:
 

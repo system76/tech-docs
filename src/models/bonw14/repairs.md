@@ -23,11 +23,13 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Remove the 8 bottom panel screws (highlighted red below.)
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the 8 bottom panel screws (highlighted red below.)
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-2. Slide the bottom panel away from the battery slot while lifting it up and off of the case (the panel detaches at a slight angle.)
+3. Slide the bottom panel away from the battery slot while lifting it up and off of the case (the panel detaches at a slight angle.)
 
 ## Removing the battery:
 
@@ -39,13 +41,15 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to remove the battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). _(Removing the bottom cover is optional, but can make removing the battery significantly easier.)_
-2. Slide the locking battery slider (highlighted green below) to the "unlocked" position.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). _(Removing the bottom cover is optional, but can make removing the battery significantly easier.)_
+3. Slide the locking battery slider (highlighted green below) to the "unlocked" position.
 
 ![Battery sliders](./img/battery-sliders.jpg)
 
-3. Hold the spring-loaded battery slider (highlighted yellow above) in the "unlocked" position.
-4. Starting from the top, lift the battery up and out of the slot.
+4. Hold the spring-loaded battery slider (highlighted yellow above) in the "unlocked" position.
+5. Starting from the top, lift the battery up and out of the slot.
 
 ## Replacing the keyboard:
 

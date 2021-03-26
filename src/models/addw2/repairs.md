@@ -22,11 +22,13 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to remove the battery:
 
-1. Remove the two battery screws, highlighted green below.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the two battery screws, highlighted green below.
 
 ![Battery screws](./img/battery-screws.jpg)
 
-2. Lift the battery out of the chassis.
+3. Lift the battery out of the chassis.
 
 ## Removing the keyboard:
 
@@ -38,17 +40,19 @@ The keyboard (and built-in keyboard backlight) can be replaced using the instruc
 
 ### Steps to remove the keyboard:
 
-1. Remove the two keyboard screws.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the two keyboard screws.
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
-2. Open the lid slightly and place the machine on its side.
-3. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 
-4. Set the machine upright and pull the keyboard out of the top case, starting from the top and working toward the bottom.
-5. Once freed, lift the bottom of the keyboard to see the ribbon cables. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the machine upright and pull the keyboard out of the top case, starting from the top and working toward the bottom.
+6. Once freed, lift the bottom of the keyboard to see the ribbon cables. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
     - If you are not replacing the keyboard, the keyboard can be flipped over onto the touchpad without disconnecting the ribbon cables.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)

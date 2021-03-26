@@ -22,7 +22,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ### Steps to remove the bottom cover:
 
-1. Place the Lemur Pro lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 12 screws from the bottom panel.
 
 ![Bottom case screws](./img/bottom-screws.jpg)
@@ -184,5 +185,11 @@ The battery provides primary power whenever the system is unplugged.
 
 ![Main battery](./img/battery.jpg)
 
-3. Remove the battery. The battery is secured with tape, which can be pulled off. The tabs around the battery will also need to be held back for the battery to come out.
+3. Remove the battery.
+    - The battery is secured to foam standoffs with double-sided tape.
+    - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
+    - If any tabs from the tape are visible around the perimeter of the battery, hold them down while inserting the plastic tool so they don't get pushed back under the battery.
+
+![Battery tape](./img/battery-tape.jpg)
+
 4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.

@@ -22,7 +22,8 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to remove the battery:
 
-1. Place the Serval WS lid-side down.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
 2. Unscrew the two battery screws (highlighted yellow below.)
 
 ![Battery screws](./img/battery-screws.jpg)

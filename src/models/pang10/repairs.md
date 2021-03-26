@@ -21,11 +21,13 @@ Removing the cover is required to access the internal components and to remove t
 
 ### Steps to remove the bottom cover:
 
-1. Remove the 12 bottom panel screws.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the 12 bottom panel screws.
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-2. Lift the bottom panel off, starting from the hinges in the back.
+3. Lift the bottom panel off, starting from the hinges in the back.
 
 ## Replacing the keyboard:
 

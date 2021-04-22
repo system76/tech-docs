@@ -10,6 +10,7 @@ Components can be replaced using the instructions under [Parts & Repairs](./repa
 - RAM is highlighted in cyan
 - Wireless card is highlighted in green
 - LCD cable connector is highlighted in yellow
+- Webcam/microphone connector is highlighted in maroon
 - Touchpad connector is highlighted in orange
 - Keyboard connector (main) is highlighted in olive
 - Keyboard backlight connector is highlighted in white

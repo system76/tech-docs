@@ -196,7 +196,7 @@ The CMOS battery supplies power to the Gazelle's CMOS chip. Changes you make to 
 
 The battery provides primary power whenever the system is unplugged.
 
-**Tools required:** None
+**Tools required:** None  
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 

@@ -1,6 +1,6 @@
 # Models
 
-System76 provides laptops, desktops and servers with Linux pre-installed.
+System76 provides laptops, desktops, and servers with Linux pre-installed, as well as open source keyboards running QMK firmware.
 This documentation includes the following System76 models:
 
 ## Current Models
@@ -10,6 +10,7 @@ This documentation includes the following System76 models:
 - [Darter Pro (darp7)](darp7/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
 - [Gazelle (gaze15)](gaze15/README.md)
+- [Launch Customizable Keyboard (launch_1)](launch_1/README.md)
 - [Lemur Pro (lemp10)](lemp10/README.md)
 - [Meerkat (meer5)](meer5/README.md)
 - [Oryx Pro (oryp7)](oryp7/README.md)

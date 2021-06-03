@@ -14,6 +14,7 @@
 - LCD panel connector is highlighted in orange
 - Speaker connectors are highlighted in light green
 - BIOS flash chip (U66) is highlighted in black
+- Webcam/microphone connector is highlighted in maroon
 - Touchpad connector is highlighted in white
 
 ## Under-keyboard components and connectors:

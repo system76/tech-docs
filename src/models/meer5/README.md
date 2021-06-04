@@ -12,6 +12,11 @@ The System76 Meerkat is a desktop with the following specifications:
     - [i3-10110U](https://ark.intel.com/content/www/us/en/ark/products/196451/intel-core-i3-10110u-processor-4m-cache-up-to-4-10-ghz.html)
     - [i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-20-ghz.html)
     - [i7-10710U](https://ark.intel.com/content/www/us/en/ark/products/196448/intel-core-i7-10710u-processor-12m-cache-up-to-4-70-ghz.html)
+- Graphics
+    - GPU: Intel UHD Graphics
+    - Video output:
+        - 1x HDMI 2.0b
+        - 1x DisplayPort 1.2 over USB-C
 - Memory
     - Up to 64GB (2x32GB) Dual Channel  DDR4 SODIMMs @ 2666 MHz
 - Networking

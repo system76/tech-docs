@@ -37,7 +37,6 @@ The System76 Meerkat is a desktop with the following specifications:
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4 or SATA)
     - 1x 2.5" SATA (tall model only)
-    - SD card reader
 - USB
     - 1x USB4 Type-C with Thunderbolt 4
     - 1x USB4 Type-C with Thunderbolt 3

@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Meerkat (short)](./img/meer6.png)
+![Meerkat (short and tall)](./img/meer6.png)
 
 The System76 Meerkat is a desktop with the following specifications:
 
@@ -12,8 +12,8 @@ The System76 Meerkat is a desktop with the following specifications:
     - [i3-1115G4](https://ark.intel.com/content/www/us/en/ark/products/208652/intel-core-i3-1115g4-processor-6m-cache-up-to-4-10-ghz.html)
     - [i5-1135G7](https://ark.intel.com/content/www/us/en/ark/products/208658/intel-core-i5-1135g7-processor-8m-cache-up-to-4-20-ghz.html)
     - [i7-1165G7](https://ark.intel.com/content/www/us/en/ark/products/208662/intel-core-i7-1165g7-processor-12m-cache-up-to-4-70-ghz.html)
-- GPU
-    - Intel UHD Graphics
+- Graphics
+    - GPU: Intel UHD Graphics
     - Video output:
         - 2x HDMI 2.0b
         - 2x DisplayPort 1.4a over USB-C
@@ -35,8 +35,12 @@ The System76 Meerkat is a desktop with the following specifications:
 - Sound
     - 7.1-channel digital audio output over HDMI and USB-C
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 4 or SATA)
-    - 1x 2.5" SATA (tall model only)
+    - 1x M.2 2280 (M key)
+        - PCIe NVMe Gen 4
+    - 1x M.2 2242 (B key)
+        - SATA III
+    - Tall model only: 1x 2.5"
+        - SATA III
 - USB
     - 1x USB4 Type-C with Thunderbolt 4
     - 1x USB4 Type-C with Thunderbolt 3

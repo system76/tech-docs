@@ -3,24 +3,27 @@
 ## Short meer5:
 
 ### Front side overview:
-![Front Ports](./img/ports-diagram_short-front.png)
+![Front ports](./img/ports-short-front.webp)
 
 ### Back side overview:
-![Back Ports](./img/ports-diagram_short-back.png)
+![Back ports](./img/ports-short-back.webp)
 
 ### Left side overview:
-![Left Port](./img/ports-diagram_short-side_left.png)
+![Left ports](./img/ports-short-left.webp)
 
 ### Right side overview:
-![Right Port](./img/ports-diagram_short-side_right.png)
+![Right ports](./img/ports-short-right.webp)
 
 ## Tall meer5:
 
 ### Front side overview:
-![Front Ports](./img/ports-diagram_tall-front.png)
+![Front ports](./img/ports-tall-front.webp)
 
 ### Back side overview:
-![Back Ports](./img/ports-diagram_tall-back.png)
+![Back ports](./img/ports-tall-back.webp)
 
 ### Left side overview:
-![Left Port](./img/ports-diagram_tall-left.png)
+![Left ports](./img/ports-tall-left.webp)
+
+### Right side overview:
+![Right ports](./img/ports-tall-right.webp)

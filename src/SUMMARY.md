@@ -22,7 +22,7 @@
         - [External Overview](models/gaze15/external-overview.md)
         - [Internal Overview](models/gaze15/internal-overview.md)
         - [Parts & Repairs](models/gaze15/repairs.md)
-    - [Launch Customizable Keyboard (launch_1)](models/launch_1/README.md)
+    - [Launch (launch\_1)](models/launch_1/README.md)
         - [External Overview](models/launch_1/external-overview.md)
         - [Usage and Customization](models/launch_1/customization.md)
     - [Lemur Pro (lemp10)](models/lemp10/README.md)

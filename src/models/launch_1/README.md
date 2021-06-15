@@ -3,7 +3,7 @@
 - [External Overview](./external-overview.md)
 - [Usage and Customization](./customization.md)
 
-![Launch Photo](./img/launch-overhead.webp)
+![Launch Photo](./img/launch.png)
 
 The System76 Launch is a configurable keyboard with the following specifications:
 

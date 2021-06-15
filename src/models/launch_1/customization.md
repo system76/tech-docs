@@ -35,8 +35,15 @@ If you map a "Switch to" key, remember to map a "Switch to Layer 1" key on the h
 
 ### Special Keys
 
-**Reuse:** The "Reuse" key allows a key to do default to the layer below it. For example, if "a" is mapped on layer 1, and the same key is mapped to Reuse on layer 2, the key will act as if it is mapped to "a**, even when pressed from layer 2. The Reuse key will fall through multiple layers if it is also mapped to Reuse on layers below it.
+**Reuse:** The "Reuse" key allows a key to do default to the layer below it. For example, if "a" is mapped on layer 1, and the same key is mapped to Reuse on layer 2, the key will act as if it is mapped to "a", even when pressed from layer 2. The Reuse key will fall through multiple layers if it is also mapped to Reuse on layers below it.
 
-**None:** The "None" key effectively maps nothing to that key. Pressing a key mapped to "None** will do nothing. 
+**None:** The "None" key effectively maps nothing to that key. Pressing a key mapped to "None" will do nothing. 
 
 **Reset:** The "Reset" key puts your Launch into firmware updating mode. When Launch is in firmware updating mode, the RGB backlights will scroll in a horizontal pattern, and the letters "U N L O C K E D" will light up in white, one by one. The purpose of this is to provide visual confirmation that your firmware is unlocked and ready to flash firmware. Since this pattern is impossible to spoof, it provides visual confirmation that your bootloader is unlocked. This is a security feature to prevent firmware from being flashed without the user's knowledge.
+
+### Customizing LEDs
+
+To customize the LEDs on your Launch, switch from the "Keymap" tab to the "LEDs" tab using the button above the keymap. Since the LEDs on Launch can be customized on each layer independently, you will also see the layer selector when on the "LEDs" tab. 
+
+The "Layer Color Pattern" selector will allow you to choose between different patterns, including solid colors, per key colors, or disabling the LEDs entirely.
+

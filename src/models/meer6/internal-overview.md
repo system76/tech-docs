@@ -2,10 +2,10 @@
 
 ## Component overview:
 
-![Internal overview](./img/meer5-components.png)
+![Internal overview](./img/components.jpg)
 
-- RAM slots are highlighted in bright green
-- M.2 SSD is highlighted in blue
-- 2.5" drive bay (only present on Tall meer5) is highlighted in orange
-- Front microphone connector is highlighted in pink
-
+- M.2 2280 (NVMe) SSD slot is highlighted in yellow
+- M.2 2242 (SATA) SSD slot is highlighted in cyan
+- Wireless card (underneath the NVMe drive) is highlighted in red
+- RAM slots are highlighted in pink
+- CMOS battery connector is highlighted in white

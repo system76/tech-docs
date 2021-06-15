@@ -3,7 +3,7 @@
 Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 
 - [Removing the bottom panel](#removing-the-bottom-panel)
-- [Replacing the M.2 drive](#replacing-the-m2-drive)
+- [Replacing an M.2 drive](#replacing-an-m2-drive)
 - [Replacing the RAM](#replacing-the-ram)
 - [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
 - [Resetting the CMOS](#resetting-the-cmos)
@@ -35,9 +35,9 @@ The bottom panel can be removed to access the internal components.
 3. Gently lift the bottom panel out of the machine.
     - If your Meerkat is the tall model (with 2.5" drive slot), be careful not to damage the thin cable running from the motherboard to the bottom panel.
 
-## Replacing the M.2 drive:
+## Replacing an M.2 drive:
 
-Your Meerkat has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA III. The following M.2 sizes are supported: 2280 and 2242.
+Your Meerkat has two M.2 slots. The first slot is size 2280 and supports PCIe NVMe Gen 4. The second slot is size 2242 and supports SATA III.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

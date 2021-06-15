@@ -11,7 +11,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Removing the motherboard](#removing-the-motherboard)
 - [Replacing the fan](#replacing-the-fan)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing thermal paste](#replacing-thermal-paste)
+- [Replacing the thermal paste](#replacing-the-thermal-paste)
 - [Removing the cable keeper](#removing-the-cable-keeper)
 - [Mounting with VESA mount](#mounting-with-vesa-mount)
 
@@ -20,7 +20,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 The bottom panel can be removed to access the internal components.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 3 minutes  
+**Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the bottom panel:
@@ -40,7 +40,7 @@ The bottom panel can be removed to access the internal components.
 Your Meerkat has two M.2 slots. The first slot is size 2280 and supports PCIe NVMe Gen 4. The second slot is size 2242 and supports SATA III.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 6 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the M.2 drive:
@@ -60,7 +60,7 @@ Your Meerkat has two M.2 slots. The first slot is size 2280 and supports PCIe NV
 The Meerkat 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
@@ -78,10 +78,10 @@ The Meerkat 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. 
 If your Meerkat is the tall variety, it has a 2.5" SATA III drive bay built into the bottom panel.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-### Steps to add/remove 2.5" storage drives:
+### Steps to add/remove a 2.5" storage drive:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
 2. Locate the SATA connector in the bottom panel and orient your drive to match.
@@ -99,12 +99,12 @@ If your Meerkat is the tall variety, it has a 2.5" SATA III drive bay built into
 A CMOS reset will restore the UEFI firmware settings to their factory defaults, which can sometimes help if the system is not booting.
 
 **Tools required:** Cross-head (Phillips) screwdriver and (optionally) tweezers  
-**Time estimate:** 15 minutes  
+**Time estimate:** 13 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to reset CMOS:
 
-1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-the-m2-drive).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
 2. Disconnect the CMOS battery connector.
     - Try to pull the plug, not the wires.
 
@@ -125,7 +125,7 @@ Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a s
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-the-m2-drive).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
 2. Gently remove the two antennas (highlighted cyan below) by pulling them up and away from the wireless card.
 
 ![Wireless card](./img/wireless-card.jpg)
@@ -139,7 +139,7 @@ Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a s
 
 ## Removing the motherboard:
 
-Removing the motherboard is necessary for removing the cooling fan, cleaning the CPU heatsink, and replacing the CPU thermal paste.
+Removing the motherboard is necessary for replacing the CMOS battery, cooling fan, and thermal paste.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -147,7 +147,7 @@ Removing the motherboard is necessary for removing the cooling fan, cleaning the
 
 ### Steps to remove the motherboard:
 
-1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-the-m2-drive).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
 2. If your Meerkat is the tall variety, disconnect the ribbon cable that leads to the 2.5" drive bay.
     - The white latch pulls away from the motherboard to free the cable; gently pull the cable out of the connector.
 
@@ -164,7 +164,7 @@ Removing the motherboard is necessary for removing the cooling fan, cleaning the
 
 ## Replacing the fan:
 
-The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink to replace the CPU thermal paste.
+The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink when replacing the thermal paste.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -182,7 +182,11 @@ The cooling fan can be removed to clean dust out of the cooling system or to acc
 
 ## Replacing the CMOS battery:
 
-The CMOS battery supplies power to the system's CMOS chip, where UEFI settings and the computer's hardware clock are stored. IF your clock is constantly resetting, your CMOS battery may need to be replaced.
+The CMOS battery supplies power to the system's CMOS chip, where UEFI settings and the computer's hardware clock are stored. If your clock is constantly resetting, your CMOS battery may need to be replaced.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 27 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the CMOS battery:
 
@@ -198,12 +202,12 @@ The CMOS battery supplies power to the system's CMOS chip, where UEFI settings a
 Thermal paste helps facilitate heat transfer between the CPU and the cooling equipment. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the heatsink may help the system run cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 35 minutes  
+**Time estimate:** 30 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the thermal paste:
 
-1. Follow the steps above to [remove the bottom panel](), [remove the M.2 drive](), [unplug the wireless card](), [remove the motherboard](), and [remove the fan](#removing-the-fan).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [remove the M.2 drive](#replacing-an-m2-drive), [unplug the wireless card](#replacing-the-wireless-card), [remove the motherboard](#removing-the-motherboard), and [remove the fan](#replacing-the-fan).
 2. Loosen the four heatsink screws in order, starting with #1, then #2, #3, and #4.
     - The screws are attached and will not completely separate from the heatsink.
 

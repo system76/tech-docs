@@ -1,6 +1,6 @@
 # Meerkat (External Overview)
 
-## Short meer5:
+## Short meer6:
 
 ### Front side overview:
 ![Front ports](./img/ports-short-front.webp)
@@ -14,7 +14,7 @@
 ### Right side overview:
 ![Right ports](./img/ports-short-right.webp)
 
-## Tall meer5:
+## Tall meer6:
 
 ### Front side overview:
 ![Front ports](./img/ports-tall-front.webp)

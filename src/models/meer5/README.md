@@ -18,7 +18,7 @@ The System76 Meerkat is a desktop with the following specifications:
         - 1x HDMI 2.0b
         - 1x DisplayPort 1.2 over USB-C
 - Memory
-    - Up to 64GB (2x32GB) Dual Channel  DDR4 SODIMMs @ 2666 MHz
+    - Up to 64GB (2x32GB) Dual Channel DDR4 SODIMMs @ 2666 MHz
 - Networking
     - Intel® Ethernet Connection I219-V
     - Intel® Wi-Fi 6 AX201 with integrated bluetooth

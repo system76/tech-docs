@@ -24,7 +24,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
 - Graphics
     - GPU: Intel UHD Graphics 620
         - GOP driver is recommended, VBT is provided
-    - eDP display: 14" 1920x1080@60Hz LCD
+    - eDP display: 14.0" 1920x1080@60Hz LCD
         - LCD panel: Innolux N140HCA-EAC (or equivalent)
     - External video outputs:
         - 1x HDMI

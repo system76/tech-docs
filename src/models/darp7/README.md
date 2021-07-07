@@ -16,10 +16,16 @@ The System76 Darter Pro is a laptop with the following specifications:
     - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
-- GPU
-    - Intel Iris Xe Graphics
-    - eDP 15.6" 1920x1080 LCD
-    - HDMI, DisplayPort 1.4 over USB-C
+- Graphics
+    - GPU: Intel Iris Xe Graphics
+    - eDP display: 15.6" 1920x1080@60Hz LCD
+        - LCD panel options:
+            - AUO B156HAN02.5
+            - BOE NV156FHM-N4H
+            - or other equivalent
+    - External video outputs:
+        - 1x HDMI
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

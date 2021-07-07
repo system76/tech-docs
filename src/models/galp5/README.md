@@ -16,11 +16,16 @@ The System76 Galago Pro is a laptop with the following specifications:
     - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
-- GPU
-    - Intel Iris Xe Graphics
-    - (Optional) NVIDIA GeForce GTX 1650
-    - eDP 14.1" 1920x1080 LCD
-    - HDMI and DisplayPort 1.4 over USB-C
+- Graohics
+    - GPU options:
+        - Intel Iris Xe Graphics (Integrated graphics model)
+        - NVIDIA GeForce GTX 1650 (Switchable graphics model)
+        - NVIDIA GeForce GTX 1650 Ti (Switchable graphics model)
+    - eDP display: 14.1" 1920x1080@60Hz LCD
+        - LCD panel: BOE NV140FHM-N62 (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

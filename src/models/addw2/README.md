@@ -15,10 +15,14 @@ The System76 Adder WS is a laptop with the following specifications:
     - MX25L12872F flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open) or non-open firmware
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec) or or non-open EC firmware
-- GPU
-    - NVIDIA GeForce RTX 2070 Super
-    - eDP 15.6" 3840x2160 OLED
-    - HDMI, Mini DisplayPort 1.4, and DisplayPort 1.4 over USB-C
+- Graphics
+    - GPU: NVIDIA GeForce RTX 2070 Super
+    - eDP display: 15.6" 3840x2160@60Hz OLED
+        - LCD panel: Samsung ATNA56WR06 (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 1x Mini DisplayPort 1.4
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

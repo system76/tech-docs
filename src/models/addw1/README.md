@@ -22,9 +22,9 @@ The System76 Adder WS is a laptop with the following specifications:
     - eDP display: 15.6" 3840x2160@60Hz OLED
         - LCD panel: Samsung ATNA56WR06 (or equivalent)
     - External video output:
-        - 1 x HDMI (w/HDCP)
-        - 1 x Mini DisplayPort 1.3
-        - 1 x DisplayPort 1.3 over USB 3.1 Type C
+        - 1x HDMI (w/HDCP)
+        - 1x Mini DisplayPort 1.3
+        - 1x DisplayPort 1.3 over USB 3.1 Type C
 - Memory
     - Up to 64GB dual-channel DDR4 @ 2666 MHz, or
     - Up to 32GB dual-channel DDR4 @ 3000 MHz

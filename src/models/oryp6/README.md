@@ -17,12 +17,20 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - MX25L12872F flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
-- GPU
-    - NVIDIA GeForce RTX 2080 Super (Max-Q)
-    - or NVIDIA GeForce RTX 2070 (Max-Q)
-    - or NVIDIA GeForce RTX 2060
-    - eDP 15.6" or 17.3" 1920x1080@144Hz LCD
-    - HDMI, Mini DisplayPort 1.4, and DisplayPort over USB-C
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 2080 Super (Max-Q)
+        - NVIDIA GeForce RTX 2070 (Max-Q)
+        - NVIDIA GeForce RTX 2060
+    - eDP display options:
+        - 15.6" 1920x1080@144Hz LCD
+            - LCD panel: Panda LM156LF1F (or equivalent)
+        - 17.3" 1920x1080@144Hz LCD
+            - LCD panel: LG LP173WFG-SPB1 (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 1x Mini DisplayPort 1.4
+        - 1x DisplayPort over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

@@ -21,12 +21,14 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - Charger, using AC adapter or USB-C PD
     - Suspend/resume
     - Touchpad
-- GPU
-    - Intel UHD Graphics 620
-    - GOP driver is recommended, VBT is provided
-    - eDP 14-inch 1920x1080 LCD
-    - HDMI video
-    - USB-C DisplayPort video
+- Graphics
+    - GPU: Intel UHD Graphics 620
+        - GOP driver is recommended, VBT is provided
+    - eDP display: 14" 1920x1080@60Hz LCD
+        - LCD panel: Innolux N140HCA-EAC (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 1x DisplayPort over USB-C
 - Memory
     - Channel 0: 8-GB on-board DDR4 [Samsung K4AAG165WA-BCTD](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCTD/)
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM

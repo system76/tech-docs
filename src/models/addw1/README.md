@@ -20,7 +20,7 @@ The System76 Adder WS is a laptop with the following specifications:
 - Graphics
     - GPU: NVIDIA GeForce RTX 2070
     - eDP display: 15.6" 3840x2160@60Hz OLED
-        - LCD panel: Samsung ATNA56WR06 (or equivalent)
+        - OLED panel: Samsung ATNA56WR06 (or equivalent)
     - External video output:
         - 1x HDMI (w/HDCP)
         - 1x Mini DisplayPort 1.3

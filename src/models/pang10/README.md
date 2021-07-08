@@ -18,10 +18,11 @@ The System76 Pangolin is a laptop with the following specifications:
     - W74M12JWSSIQ flash chip running non-open System76 firmware
 - EC
     - ITE IT5570 running non-open EC firmware
-- GPU
-    - AMD Radeon Vega 7
-    - eDP 15.6" 1920x1080 LCD
-    - HDMI 1.4b out
+- Graphics
+    - GPU: AMD Radeon Vega 7
+    - eDP display: 15.6" 1920x1080@60Hz LCD
+        - LCD panel: LG LP156WFC-SPD1 (or equivalent)
+    - External video output: 1x HDMI 1.4b
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

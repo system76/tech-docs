@@ -19,11 +19,19 @@ The System76 Serval WS is a laptop with the following specifications:
     - MX25U12872F flash chip running System76 Firmware (non-open)
 - EC
     - ITE IT5570E
-- GPU
-    - NVIDIA GeForce RTX 2070
-    - or NVIDIA GeForce GTX 1660 Ti
-    - eDP 15.6" 1920x1080@120Hz LCD
-    - HDMI, Mini DisplayPort 1.4, and DisplayPort 1.4 over USB-C
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 2070
+        - NVIDIA GeForce GTX 1660 Ti
+    - eDP display: 15.6" 1920x1080@144Hz LCD
+        - LCD panel options:
+            - Panda LM156LF-2F01
+            - LG P156WFG-SPB2
+            - or other equivalent
+    - External video outputs:
+        - 1x HDMI
+        - 1x Mini DisplayPort 1.4
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

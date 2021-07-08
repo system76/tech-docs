@@ -19,13 +19,20 @@ The System76 Bonobo WS is a laptop with the following specifications:
     - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
-- GPU
-    - NVIDIA GeForce RTX 2080 Super
-        - or NVIDIA GeForce RTX 2070 Super
-        - or NVIDIA GeForce RTX 2060
-    - eDP 17.3" 1920x1080@144Hz LCD
-        - or eDP 17.3" 3840x2160@60Hz LCD
-    - HDMI, 2 x Mini DisplayPort 1.4, and 2 x DisplayPort 1.4 over USB-C
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 2080 Super
+        - NVIDIA GeForce RTX 2070 Super
+        - NVIDIA GeForce RTX 2060
+    - eDP display options:
+        - 17.3" 1920x1080@144Hz LCD
+            - LCD panel: LG LP173WFG-SPB1 (or equivalent)
+        - 17.3" 3840x2160@60Hz LCD
+            - LCD panel: AUO B173ZAN03.0 (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 2 x Mini DisplayPort 1.4
+        - 2 x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 128GB (4x32GB) quad-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

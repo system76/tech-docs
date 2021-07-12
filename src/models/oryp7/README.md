@@ -27,10 +27,15 @@ The System76 Oryx Pro is a laptop with the following specifications:
             - TGP: 80W
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
+            - LCD panel: LG LP156WFG-SPB3 (or equivalent)
         - 15.6" 3840x2160@60Hz OLED
+            - OLED panel: Samsung ATNA56WR06 (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
-        - 17.3" 3840x2160@60Hz LCD
-    - HDMI 2.1, Mini DisplayPort 1.4, and DisplayPort 1.4 over USB-C
+            - LCD panel: LG LP173WFG-SPB1 (or equivalent)
+    - External video output:
+        - 1x HDMI 2.1
+        - 1x Mini DisplayPort 1.4
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 2933 MHz
 - Networking

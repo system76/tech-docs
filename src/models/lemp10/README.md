@@ -16,11 +16,14 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
-- GPU
-    - Intel Iris Xe Graphics
-    - GOP driver is recommended, VBT is provided
-    - eDP 14.1" 1920x1080 LCD
-    - HDMI and DisplayPort 1.4 over USB-C
+- Graphics
+    - GPU: Intel Iris Xe Graphics
+        - GOP driver is recommended, VBT is provided
+    - eDP display: 14.0" 1920x1080@60Hz LCD
+        - LCD panel: Innolux N140HCE-EN2 (or equivalent)
+    - External video outputs:
+        - 1x HDMI
+        - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Channel 0: 8-GB on-board DDR4 ([Samsung K4AAG165WA-BCWE](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCWE/) x 8)
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM @ 3200 MHz

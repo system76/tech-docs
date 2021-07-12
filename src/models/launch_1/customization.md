@@ -17,10 +17,40 @@ Using either the USB-C to USB-C cable or the USB-A to USB-C cable, connect to yo
 
 Launch uses only three sizes of uniform profile keycaps, which allows for a high degree of customization. Any two keycaps of the same size can be swapped on the keyboard, and several extras are included in the box. 
 
-Separate the two wire loops of the included keycap and switch removal tool and place them around the corners of the keycap to be removed. Pull slowly but firmly on the keycap until it slides off the switch's stem.
+To remove a keycap, separate the two wire loops of the included keycap and switch removal tool and place them around two opposite corners of the keycap to be removed. Pull slowly but firmly on the keycap until it slides off the switch's stem.
 
 ![Pulling a keycap](./img/cap-puller.jpg)
 
-This keycap puller works on all keycap sizes. The three 2U caps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly. They will take a little more pulling force than the rest of the keycaps, but they will come off in the same way. 
+The included keycap puller works on all three of Launch's keycap sizes. The three 2U caps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly. They will take a little more pulling force than the rest of the keycaps, but they will come off in the same way. 
 
 ![Pulling larger keycaps](./img/cap-puller-bigger-keys.jpg)
+
+To install a keycap, position it on the switch and press down firmly. The key caps friction fit onto the switch stems, so the only thing to worry about is whether the keycap is pressed down all the way onto the switch. Since the 2U keycaps also have stabilizers, they will require a bit more pressure to install.
+
+![Installing a keycap](./img/keycap-install.jpg)
+
+## Removing and installing switches
+
+Since Launch uses Kailh hot swap sockets, key switches can be removed and installed without soldering. 
+
+**Note:** If you are changing all of the switches in your Launch, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins.
+
+To remove a switch, place the two tongs of the switch removal tool onto the switch's locking tabs on the top and bottom edges of the switch. The hooks should squeeze the white tabs in and hook under the switch's clear plastic top housing. Pinch the tongs together a little to help release the switch's locking clips from the cutout in the top case, and pull the switch upwards out of the socket. The switch's locking tabs can sometimes bind on the edges of the top case cutouts, so if the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again. Switches take more force to remove than keycaps. 
+
+![Removing a switch](./img/switch-removal.jpg)
+
+When installing a switch, it is important to first make sure the switch's pins are straight. The pins have to plug into the socket, and they'll miss their slots if they are bent.
+
+![Straighten switch pins](./img/switch-install-pins-straight.jpg)
+
+The switch should be oriented so that the clear LED shine-through window is towards the top of the socket, where the LED is located on the PCB.
+
+![Switch orientation](./img/switch-install-orientation.jpg)
+
+Place the switch straight into the plate. You should be able to feel whether the pins are plugging into the socket correctly. 
+
+**Note:** Forcing the pins into the hot swap socket could damage the PCB. If you feel excessive resistance, pull the switch out, double-check that the pins are straight, and try installing the switch again.
+
+Once you feel the pins plugging into the hot swap socket, press the switch down with more force to snap it into place in the chassis. 
+
+![Installing a switch](./img/switch-installation.jpg)

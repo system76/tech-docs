@@ -54,3 +54,29 @@ Place the switch straight into the plate. You should be able to feel whether the
 Once you feel the pins plugging into the hot swap socket, press the switch down with more force to snap it into place in the chassis. 
 
 ![Installing a switch](./img/switch-installation.jpg)
+
+## Removing the PCB
+
+If the PCB in your Launch ever becomes damaged, it can be replaced using these instructions. It is also recommended to completely remove the PCB if you are changing all of the switches on your Launch at the same time. This makes switch installation much easier and makes it much less likely to bend switch pins or damage the PCB.
+
+Begin by [removing all of the keycaps](#removing-and-installing-keycaps), and then [remove all of the switches](#removing-and-installing-switches). Next, turn the keyboard over and remove the eight screws that hold on the bottom panel and remove the bottom panel. Lifting the bottom panel out of the chassis may be easier with the magnetic lift bar installed.
+
+![Removing bottom panel screws](./img/bottom-panel-screws.jpg)
+
+Push the PCB up out of the chassis through one of the switch holes, then lift the PCB out of the chassis.
+
+![Removing the PCB](./img/pcb-removal.jpg)
+
+When reassembling your Launch, it is recommended to first install all of the switches into the chassis before installing the PCB. Installing switches this way is much easier since you don't have to worry about aligning the pins at the same time.
+
+![Installing switches into chassis](./img/switch-install-without-pcb.jpg)
+
+Once all of the switches are installed in the chassis, turn the chassis over and check that all of the switch pins are straight. It helps to look down the rows of pins from the sides of the chassis. If any of the pins are bent when installing the PCB, the switch or the PCB may get damaged. The pin circled in red in the image below is an example of a pin that is bent and needs to be straightened.
+
+![Checking switch pins in chassis](./img/switch-pin-check-in-chassis.jpg)
+
+Carefully line up the PCB with the switch pins and place it in the chassis. It may be easiest to insert the top edge first since the USB-C ports need to go into the port cutouts in the chassis. If all of the switch pins feel lined up, press the PCB down little by little until all of the switch pins are fully seated in their sockets. The switch pins can be seen coming up through the sockets when they are fully seated (circled in green below). 
+
+![Switch pins fully seated in sockets](./img/switch-pins-in-sockets.jpg)
+
+Finally, install the bottom cover and its eight screws, flip the keyboard over, and put all keycaps back on.

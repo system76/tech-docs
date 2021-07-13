@@ -9,7 +9,7 @@ The Launch Configurable Keyboard can be customized and personalized in a variety
 
 ## Connecting and Using Launch
 
-![Launch ports](./img/launch-ports.png)
+![Launch ports](./img/launch-middle-port.png)
 
 Using either the USB-C to USB-C cable or the USB-A to USB-C cable, connect to your computer via your Launch's center USB type C port. Due to the directionality of USB, your Launch will only work when connected to your computer via the center port. Launch is now ready to type on, and the USB ports on the back are ready to connect devices to.
 

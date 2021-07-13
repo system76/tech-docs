@@ -13,12 +13,12 @@ The System76 Launch is a configurable keyboard with the following specifications
 - Electronics
   - [System76 Open Source PCB design](https://github.com/system76/launch/tree/master/pcb)
   - Individually addressable RGB LED backlighting
-  - N-Key Rollover
+  - N-key rollover
 - Sockets and Switches
-  - Kailh MX Hotswap Sockets
-  - Kailh Box Jade or Box Royal Switches
+  - Kailh MX Hotswap sockets
+  - Kailh Box Jade or Box Royal switches
 - Key Caps
-  - PBT Plastic
+  - PBT plastic
   - Dye sublimated legend
   - XDA profile
 - Layout

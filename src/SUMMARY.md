@@ -24,7 +24,7 @@
         - [Parts & Repairs](models/gaze15/repairs.md)
     - [Launch (launch\_1)](models/launch_1/README.md)
         - [External Overview](models/launch_1/external-overview.md)
-        - [Usage and Customization](models/launch_1/customization.md)
+        - [Usage & Customization](models/launch_1/customization.md)
     - [Lemur Pro (lemp10)](models/lemp10/README.md)
         - [External Overview](models/lemp10/external-overview.md)
         - [Internal Overview](models/lemp10/internal-overview.md)

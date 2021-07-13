@@ -43,7 +43,7 @@ Since Launch uses Kailh hot swap sockets, key switches can be removed and instal
 **Time estimate:** ~1 minute per switch  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
-Begin by [removing the keycap](#removing-and-installing-keycaps) on the switch you wish to remove. Place the two tongs of the switch removal tool onto the switch's locking tabs on the top and bottom edges of the switch. The hooks should squeeze the white tabs in and hook under the switch's clear plastic top housing. Pinch the tongs together a little to help release the switch's locking clips from the cutout in the top case, and pull the switch upwards out of the socket. The switch's locking tabs can sometimes bind on the edges of the top case cutouts, so if the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again. Switches take more force to remove than keycaps. 
+Begin by [removing the keycap](#removing-and-installing-keycaps) on the switch you wish to remove. Place the two tongs of the switch removal tool onto the switch's locking tabs on the top and bottom edges of the switch. The hooks should squeeze the white tabs inwards and hook under the switch's clear plastic top housing. Pinch the tongs together a little to help release the switch's locking clips from the cutout in the top case, and pull the switch upwards out of the socket. The switch's locking tabs can sometimes bind on the edges of the top case cutouts, so if the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again. Switches take more force to remove than keycaps. 
 
 ![Removing a switch](./img/switch-removal.jpg)
 
@@ -79,7 +79,7 @@ Push the PCB up out of the chassis through one of the switch holes, then lift th
 
 ![Removing the PCB](./img/pcb-removal.jpg)
 
-When reassembling your Launch, it is recommended to first install all of the switches into the chassis before installing the PCB. Installing switches this way is much easier since you don't have to worry about aligning the pins at the same time.
+When reassembling your Launch, it is recommended to install all of the switches into the chassis before installing the PCB. Installing switches this way is much easier since you don't have to worry about aligning the pins at the same time.
 
 ![Installing switches into chassis](./img/switch-install-without-pcb.jpg)
 

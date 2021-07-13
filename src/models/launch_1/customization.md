@@ -1,8 +1,8 @@
 # Launch (Usage & Customization)
 
-The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to remove unplug all USB cables and devices from your Launch before changing keycaps or switches.
+The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
 
-- [Connecting and Using the Launch](#connecting-and-using-launch)
+- [Connecting and Using Launch](#connecting-and-using-launch)
 - [Removing and Installing Keycaps](#removing-and-installing-keycaps)
 - [Removing and Installing Switches](#removing-and-installing-switches)
 - [Removing the PCB](#removing-the-pcb)
@@ -11,11 +11,15 @@ The Launch Configurable Keyboard can be customized and personalized in a variety
 
 ![Launch ports](./img/launch-ports.png)
 
-Using either the USB-C to USB-C cable or the USB-A to USB-C cable, connect to your computer via your Launch's center USB type C port. Due to the directionality of USB, your Launch will only work when connected to your computer via the center port. Launch should now be ready to type on, and the USB ports on the back are ready to connect devices to.
+Using either the USB-C to USB-C cable or the USB-A to USB-C cable, connect to your computer via your Launch's center USB type C port. Due to the directionality of USB, your Launch will only work when connected to your computer via the center port. Launch is now ready to type on, and the USB ports on the back are ready to connect devices to.
 
 ## Removing and Installing Keycaps
 
 Launch uses only three sizes of uniform profile keycaps, which allows for a high degree of customization. Any two keycaps of the same size can be swapped on the keyboard, and several extras are included in the box. 
+
+**Tools required:** Keycap puller  
+**Time estimate:** 20 minutes (to replace all keycaps)  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 To remove a keycap, separate the two wire loops of the included keycap and switch removal tool and place them around two opposite corners of the keycap to be removed. Pull slowly but firmly on the keycap until it slides off the switch's stem.
 
@@ -35,7 +39,11 @@ Since Launch uses Kailh hot swap sockets, key switches can be removed and instal
 
 **Note:** If you are changing all of the switches in your Launch, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins.
 
-To remove a switch, place the two tongs of the switch removal tool onto the switch's locking tabs on the top and bottom edges of the switch. The hooks should squeeze the white tabs in and hook under the switch's clear plastic top housing. Pinch the tongs together a little to help release the switch's locking clips from the cutout in the top case, and pull the switch upwards out of the socket. The switch's locking tabs can sometimes bind on the edges of the top case cutouts, so if the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again. Switches take more force to remove than keycaps. 
+**Tools required:** MX-style switch puller  
+**Time estimate:** ~1 minute per switch  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+Begin by [removing the keycap](#removing-and-installing-keycaps) on the switch you wish to remove. Place the two tongs of the switch removal tool onto the switch's locking tabs on the top and bottom edges of the switch. The hooks should squeeze the white tabs in and hook under the switch's clear plastic top housing. Pinch the tongs together a little to help release the switch's locking clips from the cutout in the top case, and pull the switch upwards out of the socket. The switch's locking tabs can sometimes bind on the edges of the top case cutouts, so if the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again. Switches take more force to remove than keycaps. 
 
 ![Removing a switch](./img/switch-removal.jpg)
 
@@ -56,6 +64,10 @@ Once you feel the pins plugging into the hot swap socket, press the switch down 
 ![Installing a switch](./img/switch-installation.jpg)
 
 ## Removing the PCB
+
+**Tools required:** Keycap puller, MX-style switch puller, and cross-head (Phillips) screwdriver  
+**Time estimate:** 50 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
 
 If the PCB in your Launch ever becomes damaged, it can be replaced using these instructions. It is also recommended to completely remove the PCB if you are changing all of the switches on your Launch at the same time. This makes switch installation much easier and makes it much less likely to bend switch pins or damage the PCB.
 
@@ -79,4 +91,5 @@ Carefully line up the PCB with the switch pins and place it in the chassis. It m
 
 ![Switch pins fully seated in sockets](./img/switch-pins-in-sockets.jpg)
 
-Finally, install the bottom cover and its eight screws, flip the keyboard over, and put all keycaps back on.
+Finally, install the bottom cover and its eight screws, flip the keyboard over, and put all of the keycaps back on.
+

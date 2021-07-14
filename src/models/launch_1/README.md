@@ -1,7 +1,7 @@
-# Launch Configurable Keyboard (launch_1)
+# Launch (launch_1)
 
 - [External Overview](./external-overview.md)
-- [Usage and Customization](./customization.md)
+- [Customization & Repairs](./repairs.md)
 
 ![Launch Photo](./img/launch.png)
 

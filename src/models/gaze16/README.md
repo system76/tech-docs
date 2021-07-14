@@ -14,9 +14,9 @@ The System76 Gazelle is a laptop with the following specifications:
 - Chipset
     - [Intel HM570](https://ark.intel.com/content/www/us/en/ark/products/213683/intel-hm570-chipset.html)
 - BIOS
-    - MX25L12873Fcheck flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570Echeck running [System76 EC](https://github.com/system76/ec)
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 3060
@@ -29,7 +29,7 @@ The System76 Gazelle is a laptop with the following specifications:
         - 15.6" 1920x1080@144Hz LCD
             - LCD panel: AUO B156HAN08.4 (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
-            - LCD panel: check (or equivalent)
+            - LCD panel: LG LP173WFG-SPB3 (or equivalent)
     - External video output:
         - RTX 3050 and 3050 Ti models:
             - 1x HDMI

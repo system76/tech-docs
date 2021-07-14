@@ -34,8 +34,8 @@ Launch uses only three sizes of uniform profile keycaps, which allows for a high
 #### Notes about removing larger keycaps:
 
 - The included keycap puller works on all three of Launch's keycap sizes.
-- The three 2U caps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
-    - These 2U caps take slightly more pulling force than the rest of the keycaps.
+- The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
+    - These 2U keycaps take slightly more pulling force than the rest of the keycaps.
 
 ![Pulling larger keycaps](./img/cap-puller-bigger-keys.jpg)
 

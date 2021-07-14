@@ -8,16 +8,16 @@
 The System76 Launch is a configurable keyboard with the following specifications:
 
 - Chassis
-  - [System76 Open Source milled chassis design](https://github.com/system76/launch/tree/master/chassis)
-  - Detachable lift bar to adjust keyboard angle by 15 degrees
+  - [Open-source milled chassis design](https://github.com/system76/launch/tree/master/chassis)
+  - Magnetically-attachable 15-degree angle lift bar
 - Electronics
-  - [System76 Open Source PCB design](https://github.com/system76/launch/tree/master/pcb)
+  - [Open-source PCB design](https://github.com/system76/launch/tree/master/pcb)
   - Individually addressable RGB LED backlighting
   - N-key rollover
 - Sockets and Switches
-  - Kailh MX Hotswap sockets
+  - Kailh MX hot swap sockets
   - Kailh Box Jade or Box Royal switches
-- Key Caps
+- Keycaps
   - PBT plastic
   - Dye sublimated legend
   - XDA profile
@@ -30,11 +30,9 @@ The System76 Launch is a configurable keyboard with the following specifications
   - 2x USB 3.2 Gen 2 Type-C
   - 2x USB 3.2 Gen 2 Type-A
 - Firmware
-  - [Open Source QMK Firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_1/)
+  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_1/)
 - Included cables:
-  - USB-C to USB-C
-  - USB-A to USB-C
+  - 1x USB Type-C to USB Type-C
+  - 1x USB Type-C to USB Type-A
 - Dimensions
-  - 12.17" x 5.35" x 1.3" (309mm x 136mm x 33mm)
-- Weight
-  - 2.09 lbs (948g)
+  - 30.9cm x 13.6cm x 3.3cm, 948g

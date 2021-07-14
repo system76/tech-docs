@@ -20,20 +20,24 @@ The System76 Gazelle is a laptop with the following specifications:
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 3060
-            - TGP: 80Wcheck
+            - TGP: 60W
         - NVIDIA GeForce RTX 3050 Ti
-            - TGP: 80Wcheck
+            - TGP: 60W
         - NVIDIA GeForce RTX 3050
-            - TGP: 80Wcheck
+            - TGP: 60W
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
             - LCD panel: AUO B156HAN08.4 (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
             - LCD panel: check (or equivalent)
     - External video output:
-        - 1x HDMI 2.1check (w/ HDCP)
-        - 1x Mini DisplayPort 1.4check
-        - (3060 model only) 1x DisplayPort 1.4 over USB-C
+        - RTX 3050 and 3050 Ti models:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.4
+        - RTX 3060 model:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.2
+            - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

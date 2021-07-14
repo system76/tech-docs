@@ -1,20 +1,19 @@
-# Oryx Pro (Internal Overview)
+# Gazelle (Internal Overview)
 
 ## Bottom components and connectors:
 
 ![Internal Components](./img/components-highlighted.jpg)
 
-- Fan/heatsink module is highlighted in blue
-- Fan connectors are highlighted in pink
+- Webcam/microphone connector is highlighted in pink
+- Fan connectors are highlighted in orange
+- LCD panel connector is highlighted in red
+- Wireless card is highlighted in blue
 - RAM is highlighted in dark green
-- Wireless card is highlighted in purple
-- Battery connector is highlighted in red
-- CMOS battery connector is highlighted in cyan
 - M.2 SSDs are highlighted in yellow
-- LCD panel connector is highlighted in orange
-- Speaker connectors are highlighted in light green
+- 2.5" storage drive is highlighted in purple
+- CMOS battery connector is highlighted in cyan
 - BIOS flash chip (U66) is highlighted in black
-- Webcam/microphone connector is highlighted in maroon
+- Speaker connectors are highlighted in light green
 - Touchpad connector is highlighted in white
 
 ## Under-keyboard components and connectors:
@@ -23,5 +22,4 @@
 
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connector is highlighted in cyan
-- Power button/LED connector is highlighted in pink
-- Front LED connector is highlighted in red
+- Power button/LED connector is highlighted in red

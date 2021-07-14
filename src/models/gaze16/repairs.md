@@ -1,6 +1,6 @@
-# Oryx Pro (Parts & Repairs)
+# Gazelle (Parts & Repairs)
 
-Many components in your Oryx Pro can be upgraded or replaced as necessary. This page uses photos of the 17" model, but screw counts, general component locations, and other details are the same on the 15" model unless otherwise noted.
+Many components in your Gazelle can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)

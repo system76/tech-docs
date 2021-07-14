@@ -1,4 +1,4 @@
-# Oryx Pro (External Overview)
+# Gazelle (External Overview)
 
 ## Left side overview:
 
@@ -18,30 +18,41 @@
 
 ## LED indicators:
 
-The Oryx Pro has the following LED indicators:
+The Gazelle has the following LED indicators:
 
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in                 |
-|                                        |Green          |Powered on                                       |
-|                                        |Blinking green |Sleeping (suspended)                             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
-|                                        |Green          |Battery fully charged                            |
-|                                        |Blinking orange|Battery critically low                           |
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |
+|Icon                                    |Color          |Description                      |
+|----------------------------------------|---------------|---------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in |
+|                                        |Green          |Powered on                       |
+|                                        |Blinking green |Sleeping (suspended)             |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                 |
+|                                        |Green          |Battery fully charged            |
+|                                        |Blinking orange|Battery critically low           |
+|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity           |
 
 ## Materials:
 
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Aluminum                |
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Aluminum                |
-|Bottom panel                      |Aluminum                |
+### 15" model:
+
+|Part                              |Material |
+|----------------------------------|---------|
+|LCD back cover (lid)              |Aluminum |
+|LCD front cover (bezel)           |Plastic  |
+|Top case (palm rests/port covers) |Plastic  |
+|Bottom panel                      |Plastic  |
+
+### 17" model:
+
+|Part                              |Material |
+|----------------------------------|---------|
+|LCD back cover (lid)              |Plastic  |
+|LCD front cover (bezel)           |Plastic  |
+|Top case (palm rests/port covers) |Plastic  |
+|Bottom panel                      |Plastic  |
 
 ## Keyboard shortcuts:
 
-The Oryx Pro has the following actions available using the Fn and Function keys:
+The Gazelle has the following actions available using the Fn and Function keys:
 
 |Key                        |Shortcut|Action                                        |
 |---------------------------|--------|----------------------------------------------|

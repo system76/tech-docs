@@ -1,20 +1,68 @@
 # Gazelle (External Overview)
 
-## Left side overview:
+## 15" models:
 
-![Left Ports](./img/ports-left.png)
+### Left side:
 
-## Right side overview:
+![15" Left Ports](./img/ports-15-left.webp)
 
-![Right Ports](./img/ports-right.png)
+### Right side:
 
-## Front side overview:
+#### 3050 & 3050 Ti:
 
-![Front Ports](./img/ports-front.png)
+![15" Right Ports (3050/3050 Ti)](./img/ports-15-right-3050x.webp)
 
-## Back side overview:
+#### 3060:
 
-![Back Ports](./img/ports-back.png)
+![15" Right Ports (3060)](./img/ports-15-right-3060.webp)
+
+### Front side:
+
+![15" Front Ports](./img/ports-15-front.webp)
+
+### Back side:
+
+#### 3050 & 3050 Ti:
+
+![15" Back Ports (3050/3050 Ti)](./img/ports-15-back-3050x.webp)
+
+#### 3060:
+
+![15" Back Ports (3060)](./img/ports-15-back-3060.webp)
+
+## 17" models:
+
+### Left side:
+
+![17" Left Ports](./img/ports-17-left.webp)
+
+### Right side:
+
+#### 3050 & 3050 Ti:
+
+![17" Right Ports (3050/3050 Ti)](./img/ports-17-right-3050x.webp)
+
+#### 3060:
+
+![17" Right Ports (3060)](./img/ports-17-right-3060.webp)
+
+### Front side:
+
+![17" Front Ports](./img/ports-17-front.webp)
+
+### Back side:
+
+#### 3050 & 3050 Ti:
+
+![17" Back Ports (3050/3050 Ti)](./img/ports-17-back-3050x.webp)
+
+#### 3060:
+
+![17" Back Ports (3060)](./img/ports-17-back-3060.webp)
+
+## Lid comparison:
+
+![15"/17" lid comparison](./img/lid-comparison.webp)
 
 ## LED indicators:
 

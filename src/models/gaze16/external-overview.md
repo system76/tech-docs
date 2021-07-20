@@ -60,9 +60,9 @@
 
 ![17" Back Ports (3060)](./img/ports-17-back-3060.webp)
 
-## Lid comparison:
+## Lid/chassis design differences:
 
-![15"/17" lid comparison](./img/lid-comparison.webp)
+![15"/17" design comparison](./img/gaze16-sizes.webp)
 
 ## LED indicators:
 

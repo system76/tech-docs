@@ -52,14 +52,14 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ![Bottom panel screws](./img/bottom-panel-screws.jpg)
 
-3. Pull the bottom panel off of the case, starting with the battery slot.
+3. Pull the bottom panel off of the case, starting behind the battery slot.
 
 ## Replacing the RAM:
 
 The Gazelle 16 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
@@ -70,7 +70,7 @@ The Gazelle 16 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 ![RAM slots](./img/ram-slots.jpg)
 
 3. Remove the RAM from the slot.
-4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
@@ -85,7 +85,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The outer-
 1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
-![M.2 slots](./img/m2-slots.jpg)
+![M.2 slots](./img/m2-slots.webp)
 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
@@ -96,7 +96,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The outer-
 Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to replace the WiFi/Bluetooth module:
@@ -123,8 +123,8 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Unplug the small white connector that connects the CMOS battery to the motherboard.
+1. Follow the steps above to [remove the main battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+2. Unplug the white connector that connects the CMOS battery to the motherboard.
 
 ![CMOS battery](./img/cmos-battery.jpg)
 
@@ -165,7 +165,7 @@ This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 
 If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
 
-Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
+Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling equipment. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU/GPU and the heatsink may help the system run cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  

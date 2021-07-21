@@ -59,7 +59,8 @@ The System76 Gazelle is a laptop with the following specifications:
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
-    - HDMI, Mini DisplayPort, USB-C DisplayPort audio
+    - Dedicated microphone 3.5mm jack
+    - USB-C DisplayPort (3060 only), HDMI, Mini DisplayPort audio
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
     - 1x M.2 (PCIe NVMe Gen 3 or SATA)

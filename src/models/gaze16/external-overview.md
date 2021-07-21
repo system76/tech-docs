@@ -64,20 +64,6 @@
 
 ![15"/17" design comparison](./img/gaze16-sizes.webp)
 
-## LED indicators:
-
-The Gazelle has the following LED indicators:
-
-|Icon                                    |Color          |Description                      |
-|----------------------------------------|---------------|---------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in |
-|                                        |Green          |Powered on                       |
-|                                        |Blinking green |Sleeping (suspended)             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                 |
-|                                        |Green          |Battery fully charged            |
-|                                        |Blinking orange|Battery critically low           |
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity           |
-
 ## Materials:
 
 ### 15" model:
@@ -97,6 +83,20 @@ The Gazelle has the following LED indicators:
 |LCD front cover (bezel)           |Plastic  |
 |Top case (palm rests/port covers) |Plastic  |
 |Bottom panel                      |Plastic  |
+
+## LED indicators:
+
+The Gazelle has the following LED indicators:
+
+|Icon                                    |Color          |Description                      |
+|----------------------------------------|---------------|---------------------------------|
+|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in |
+|                                        |Green          |Powered on                       |
+|                                        |Blinking green |Sleeping (suspended)             |
+|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                 |
+|                                        |Green          |Battery fully charged            |
+|                                        |Blinking orange|Battery critically low           |
+|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity           |
 
 ## Keyboard shortcuts:
 

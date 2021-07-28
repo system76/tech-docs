@@ -125,6 +125,8 @@ This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
+### Steps to replace a 2.5" storage drive:
+
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the single screw holding the 2.5" drive bracket into the case.
 

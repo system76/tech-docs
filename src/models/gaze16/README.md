@@ -1,0 +1,77 @@
+# Gazelle (gaze16)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Gazelle](./img/gaze16.webp)
+
+The System76 Gazelle is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel Tiger Lake CPUs
+        - [Intel i7-11800H](https://ark.intel.com/content/www/us/en/ark/products/213803/intel-core-i7-11800h-processor-24m-cache-up-to-4-60-ghz.html)
+- Chipset
+    - [Intel HM570](https://ark.intel.com/content/www/us/en/ark/products/213683/intel-hm570-chipset.html)
+- BIOS
+    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+- EC
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 3060
+            - TGP: 60W
+        - NVIDIA GeForce RTX 3050 Ti
+            - TGP: 60W
+        - NVIDIA GeForce RTX 3050
+            - TGP: 60W
+    - eDP display options:
+        - 15.6" 1920x1080@144Hz LCD
+            - LCD panel: AUO B156HAN08.4 (or equivalent)
+        - 17.3" 1920x1080@144Hz LCD
+            - LCD panel: LG LP173WFG-SPB3 (or equivalent)
+    - External video output:
+        - RTX 3050 and 3050 Ti models:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.4
+        - RTX 3060 model:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.2
+            - 1x DisplayPort 1.4 over USB-C
+- Memory
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+- Networking
+    - Gigabit Ethernet
+    - M.2 PCIe/CNVi WiFi/Bluetooth
+        - Intel Wi-Fi 6 AX200/AX201
+- Power
+    - RTX 3050 and 3050 Ti models:
+        - 150W AC adapter
+            - Included AC adapter is a Chicony A17-150P2A
+            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - RTX 3060 model:
+        - 180W AC adapter
+            - Included AC adapter is a Chicony A17-180P4A
+            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Barrel size: 5.5mm (outer), 2.5mm (innter)
+    - 48.96Wh 4-cell battery
+- Sound
+    - Internal speakers & microphone
+    - Combined headphone & microphone 3.5mm jack
+    - Dedicated microphone 3.5mm jack
+    - USB-C DisplayPort (3060 only), HDMI, Mini DisplayPort audio
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 4)
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - SD card reader
+- USB
+    - 1x USB 3.2 Gen 2 Type-C
+        - Supports DisplayPort over USB-C on RTX 3060 model only
+        - Does not support USB-C charging (USB-PD) or Thunderbolt
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+    - 1x USB 2.0 Type-A
+- Dimensions
+    - 15": 35.75cm x 23.8cm x 1.98cm, 1.99kg
+    - 17": 39.59cm x 26.495cm x 1.99cm, 2.3kg

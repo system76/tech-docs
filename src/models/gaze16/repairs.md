@@ -42,15 +42,16 @@ Removing the cover is required to access the internal components. Prior to remov
 
 1. Follow the steps above to [remove the battery](#removing-the-battery).
 2. Remove the bottom panel screws.
-    - On the 15" model (pictured below):
+    - On the 15" model:
         - There are 16 screws total.
         - The two back corner screws (highlighted red below) are slightly longer than the rest.
         - The silver hinge screw (highlighted cyan below) is slightly shorter than the rest.
+        ![15" bottom panel screws](./img/bottom-panel-screws-15.jpg)
     - On the 17" model:
         - There are 17 screws total.
-        - All screws are the same length.
-
-![Bottom panel screws](./img/bottom-panel-screws.jpg)
+        - The battery connector screw (highlighted cyan below) is the shortest.
+        - The other two under-battery screws (highlighted green below) may also be shorter than the rest.
+        ![17" bottom panel screws](./img/bottom-panel-screws-17.jpg)
 
 3. Pull the bottom panel off of the case, starting behind the battery slot.
 

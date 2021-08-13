@@ -12,8 +12,6 @@ The System76 Pangolin is a laptop with the following specifications:
     - Supports AMD Ryzen (Lucienne) Mobile CPUs
         - [Ryzen 5 5500U](https://www.amd.com/en/products/apu/amd-ryzen-5-5500u)
         - [Ryzen 7 5700U](https://www.amd.com/en/products/apu/amd-ryzen-7-5700u)
-- Firmware
-    - System76 Firmware (non-open)
 - BIOS
     - W74M12JWSSIQ flash chip running non-open System76 firmware
 - EC

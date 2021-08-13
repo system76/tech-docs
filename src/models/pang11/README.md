@@ -9,7 +9,7 @@
 The System76 Pangolin is a laptop with the following specifications:
 
 - CPU
-    - Supports AMD Ryzen (3rd Gen) Mobile CPUs
+    - Supports AMD Ryzen (Lucienne) Mobile CPUs
         - [Ryzen 5 5500U](https://www.amd.com/en/products/apu/amd-ryzen-5-5500u)
         - [Ryzen 7 5700U](https://www.amd.com/en/products/apu/amd-ryzen-7-5700u)
 - Firmware
@@ -21,7 +21,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - Graphics
     - GPU: AMD Radeon Vega 7
     - eDP display: 15.6" 1920x1080@60Hz LCD
-        - LCD panel: LG LP156WFC-SPD1 (or equivalent)
+        - LCD panel: Innolux N156HCA-EA1 (or equivalent)
     - External video output: 1x HDMI 2.0
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz

@@ -44,25 +44,25 @@ The keyboard can be replaced using the instructions below.
 
 ![Keyboard screws](./img/keyboard-screws.jpg)
 
-2. Open the lid slightly and place the machine on its side.
-3. Push the screwdriver into the keyboard push point (highlighted cyan above) until the top edge of the keyboard pops out enough to get your fingers under it.
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the top edge of the keyboard pops out enough to get your fingers under it.
 
 ![Keyboard push point](./img/keyboard-push-point.jpg)
 ![Keyboard popped out](./img/keyboard-popped-out.jpg)
 
-4. Set the machine back down, pull the top and side edges of the keyboard up to free them from the chassis, and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the machine back down, pull the top and side edges of the keyboard up to free them from the chassis, and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
 ![Keyboard ribbons](./img/keyboard-ribbons.jpg)
 
-5. Flip the black latches upwards to free the ribbon cables.
-6. Pull the ribbon cables out of the connectors.
-7. Remove the keyboard and replace it with the new one.
-8. Carefully slide both ribbon cables into their connectors.
-9. Flip the black latches back into place to secure the ribbon cables.
-10. Place the keyboard back into position, starting with the tabs on the bottom edge.
-11. Secure the rest of the keyboard by pressing down on each of its edges.
-12. Turn the machine lid-side down again and replace the two keyboard screws.
-13. Replace the bottom cover.
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. Place the keyboard back into position, starting with the tabs on the bottom edge.
+12. Secure the rest of the keyboard by pressing down on each of its edges.
+13. Turn the machine lid-side down again and replace the two keyboard screws.
+14. Replace the bottom cover.
 
 ## Removing the battery:
 

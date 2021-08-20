@@ -1,20 +1,20 @@
 # Pangolin (External Overview)
 
-## Left side overview:
+## Left side:
 
 ![Left Ports](./img/ports-left.png)
 
-## Right side overview:
+## Right side:
 
 ![Right Ports](./img/ports-right.png)
 
-## LED indicators
+## Front side:
 
-|Icon                                    |Color          |Description                                      |
-|----------------------------------------|---------------|-------------------------------------------------|
-|![Battery LED](./img/led-battery.png)   |Orange         |Plugged in, battery charging                     |
-|                                        |Green          |Plugged in, battery fully charged                |
-|                                        |Blinking orange|Battery critically low                           |
+![Front Ports](./img/ports-front.webp)
+
+## Back side:
+
+![Back Ports](./img/ports-back.webp)
 
 ## Materials
 
@@ -24,6 +24,14 @@
 | LCD front cover (bezel)              | Plastic  |
 | Top case (palm rests/port covers)    | Plastic  |
 | Bottom panel                         | Aluminum |
+
+## LED indicators
+
+|Icon                                    |Color          |Description                                      |
+|----------------------------------------|---------------|-------------------------------------------------|
+|![Battery LED](./img/led-battery.png)   |Orange         |Plugged in, battery charging                     |
+|                                        |Green          |Plugged in, battery fully charged                |
+|                                        |Blinking orange|Battery critically low                           |
 
 ## Keyboard shortcuts
 

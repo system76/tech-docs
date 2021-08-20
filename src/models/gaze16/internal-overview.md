@@ -13,8 +13,8 @@
 - 2.5" storage drive is highlighted in purple
 - CMOS battery connector is highlighted in cyan
 - BIOS flash chip is highlighted in black
-    - Labeled U66 on 3050/3050 Ti
-    - Labeled U52 on 3060
+    - Labeled U51 on 3050/3050 Ti models
+    - Labeled U52 on 3060 model
 - Speaker connectors are highlighted in light green
 - Touchpad connector is highlighted in white
 

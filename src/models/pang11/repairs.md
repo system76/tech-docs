@@ -153,7 +153,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green below.)
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
 3. If you are replacing the CMOS battery, carefully peel it away from the adhesive holding it to the motherboard.
 4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
@@ -172,23 +172,23 @@ Depending on your climate and the age of the machine, it may be necessary to app
 **Time estimate:** 20 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-### Steps to replace the fan:
+### Steps to replace the fan/heatsink/thermal paste:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove the two fan screws, highlighted green below.
 
-![Thermal screws](./img/thermal-system.jpg)
+![Thermal screws](./img/thermal-system.webp)
 
 3. Unplug the black fan connector, highlighted cyan above. Remove any clear tape that may be holding the wires in place.
 4. Remove the three heatsink screws (highlighted red above) in order, starting with #1, then #2, and finally #3.
 5. Remove the fan and heatsink assembly from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.
-6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to moisten the paper towel if the old paste is dried or difficult to remove.
+6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
-![Thermal paste removal](./img/thermal-paste-removal.jpg)
+![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-7. After cleaning the CPU and heatsink, apply a small amount of thermal paste directly onto the CPU chip.
+7. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU chip.
 
-![Thermal paste application](./img/thermal-paste-application.jpg)
+![Thermal paste application](./img/thermal-paste-application.webp)
 
 8. Carefully replace the heatsink.
 9. Replace the three heatsink screws, starting with #1, then #2, and finally #3.

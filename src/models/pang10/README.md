@@ -9,7 +9,7 @@
 The System76 Pangolin is a laptop with the following specifications:
 
 - CPU
-    - Supports AMD Ryzen (3rd Gen) Mobile CPUs
+    - Supports AMD Ryzen (Renoir) Mobile CPUs
         - [Ryzen 5 4500U](https://www.amd.com/en/products/apu/amd-ryzen-5-4500u)
         - [Ryzen 7 4700U](https://www.amd.com/en/products/apu/amd-ryzen-7-4700u)
 - Firmware

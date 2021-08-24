@@ -134,7 +134,7 @@ Your Pangolin's WiFi and Bluetooth are both handled by the same module. It is a 
 ![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
-4. Remove the retaining screw opposite the M.2 slot, highlighted green above.
+4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
 5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
 6. Insert the new wireless card into the M.2 slot at an angle.
 7. Replace the retaining screw.

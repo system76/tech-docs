@@ -3,13 +3,13 @@
 Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
-- [Replacing the keyboard](#replacing-the-keyboard)
 - [Removing the battery](#removing-the-battery)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the keyboard](#replacing-the-keyboard)
 
 ## Removing the bottom cover:
 
@@ -28,40 +28,6 @@ Removing the cover is required to access the internal components and to remove t
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
 3. Lift the bottom panel off, starting from the hinges in the back.
-
-## Replacing the keyboard:
-
-The keyboard can be replaced using the instructions below.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to replace the keyboard:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove the two keyboard screws.
-
-![Keyboard screws](./img/keyboard-screws.webp)
-
-3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
-
-![Keyboard push point](./img/keyboard-push-point.webp)
-
-5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
-
-![Keyboard ribbons](./img/keyboard-ribbons.webp)
-
-6. Flip the black latches upwards to free the ribbon cables.
-7. Pull the ribbon cables out of the connectors.
-8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
-10. Flip the black latches back into place to secure the ribbon cables.
-11. Place the keyboard back into position, starting with the tabs on the bottom edge.
-12. Secure the rest of the keyboard by pressing down on each of its edges.
-13. Turn the machine lid-side down again and replace the two keyboard screws.
-14. Replace the bottom cover.
 
 ## Removing the battery:
 
@@ -146,7 +112,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the CMOS battery:
 
@@ -193,3 +159,37 @@ Depending on your climate and the age of the machine, it may be necessary to app
 8. Carefully replace the heatsink.
 9. Replace the three heatsink screws, starting with #1, then #2, and finally #3.
 10. Replace the fan screws and plug in the fan connector.
+
+## Replacing the keyboard:
+
+The keyboard can be replaced using the instructions below.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to replace the keyboard:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove the two keyboard screws.
+
+![Keyboard screws](./img/keyboard-screws.webp)
+
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+
+![Keyboard push point](./img/keyboard-push-point.webp)
+
+5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+
+![Keyboard ribbons](./img/keyboard-ribbons.webp)
+
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. Place the keyboard back into position, starting with the tabs on the bottom edge.
+12. Secure the rest of the keyboard by pressing down on each of its edges.
+13. Turn the machine lid-side down again and replace the two keyboard screws.
+14. Replace the bottom cover.

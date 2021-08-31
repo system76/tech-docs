@@ -1,19 +1,17 @@
-# Pangolin (pang10)
+# Pangolin (pang11)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Pangolin](./img/pang10.webp)
+![Pangolin](./img/pang11.webp)
 
 The System76 Pangolin is a laptop with the following specifications:
 
 - CPU
-    - Supports AMD Ryzen (Renoir) Mobile CPUs
-        - [Ryzen 5 4500U](https://www.amd.com/en/products/apu/amd-ryzen-5-4500u)
-        - [Ryzen 7 4700U](https://www.amd.com/en/products/apu/amd-ryzen-7-4700u)
-- Firmware
-    - System76 Firmware (non-open)
+    - Supports AMD Ryzen (Lucienne) Mobile CPUs
+        - [Ryzen 5 5500U](https://www.amd.com/en/products/apu/amd-ryzen-5-5500u)
+        - [Ryzen 7 5700U](https://www.amd.com/en/products/apu/amd-ryzen-7-5700u)
 - BIOS
     - W74M12JWSSIQ flash chip running non-open System76 firmware
 - EC
@@ -21,8 +19,8 @@ The System76 Pangolin is a laptop with the following specifications:
 - Graphics
     - GPU: AMD Radeon Vega 7
     - eDP display: 15.6" 1920x1080@60Hz LCD
-        - LCD panel: LG LP156WFC-SPD1 (or equivalent)
-    - External video output: 1x HDMI 1.4b
+        - LCD panel: Innolux N156HCA-EA1 (or equivalent)
+    - External video output: 1x HDMI 2.0
 - Memory
     - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

@@ -14,7 +14,7 @@ This documentation includes the following System76 models:
 - [Lemur Pro (lemp10)](lemp10/README.md)
 - [Meerkat (meer6)](meer6/README.md)
 - [Oryx Pro (oryp7)](oryp7/README.md)
-- [Pangolin (pang10)](pang10/README.md)
+- [Pangolin (pang11)](pang11/README.md)
 - [Serval WS (serw12)](serw12/README.md)
 - [Thelio Major B2 (thelio-major-b2)](thelio-major-b2/service-manual.md)
 - [Thelio Massive (thelio-massive-b1.2)](thelio-massive-b1.2/README.md)
@@ -30,3 +30,4 @@ This documentation includes the following System76 models:
 - [Lemur Pro (lemp9)](lemp9/README.md)
 - [Meerkat (meer5)](meer5/README.md)
 - [Oryx Pro (oryp6)](oryp6/README.md)
+- [Pangolin (pang10)](pang10/README.md)

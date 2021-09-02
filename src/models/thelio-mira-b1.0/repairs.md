@@ -4,7 +4,7 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Po
 
 - [Removing the top case](#removing-the-top-case)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the case fans](#replacing-the-case-fans)
+- [Replacing the case fan](#replacing-the-case-fan)
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
@@ -58,48 +58,41 @@ Thelio Mira b1.0 supports up to four 2.5" SATA III drives. (Check M.2 restrictio
 
 ![2.5" drive installation](./img/storage-drive-installation.webp)  
 
-## Replacing the case fans:
+## Replacing the case fan:
 
-Thelio Mira b1.0 has two case-mounted fans: one on the bottom, and one on the side next to the motherboard.
+Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the side case fan:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Unscrew the fan's screws on the opposite side from where it's mounted.
-
-![Case fan screws](./img/case-fan-screws-side.jpg)
-
-3. Unplug and remove the fan.
-4. When replacing the fan, the components should be mounted in the following order:
-    - Chassis
-    - Dust filter
-    - Acrylic spacer
-    - Fan
-
 ### Steps to replace the bottom case fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unplug the fan's cable from the Thelio-IO daughterboard.
+    - The bottom case fan plugs into the `INTAKE0` port on the Thelio-IO board.
+    - When viewed from the front of the case, this connector is second from the top.
 
-![Case fan rubber mounts](./img/case-fan-mounts-bottom.jpg)
+![Bottom case fan connector](./img/bottom-fan-connector.webp)
 
-3. When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from below the machine (it's necessary to tilt the machine when inserting the plastic pins.)
+3. Unscrew the four fan screws from the bottom of the machine.
+    - To avoid damaging other components, place the machine on its front side when working with the bottom surface.
 
-![Case fan plastic pins](./img/case-fan-pins-bottom.jpg)
+![Bottom case fan screws](./img/bottom-fan-screws.webp)
 
-4. The components should be mounted in the following order:
+4. Remove the old fan from the case.
+5. When replacing the fan, mount the components in the following order:
     - Chassis
     - Dust filter
     - Acrylic spacer
     - Fan
+6. Thread the new fan's cable through the opening in the bottom-front corner of the case and through the velcro connector near the front edge.
+
+![Bottom case fan cable management](./img/bottom-fan-cable-management.webp)
 
 ## Replacing a GPU:
 
-Thelio Mira supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two with PCIe 4.0 x8 (x16 cards will run at reduced bandwidth in the x8 slots.) Mixing NVIDIA and AMD GPUs is not recommended.
+Thelio Mira supports up to two triple-slot GPUs with PCIe 4.0 x16 (check). Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -107,7 +100,7 @@ Thelio Mira supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two wi
 
 ### Steps to replace a GPU:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Unscrew the two back screws holding the PCIe bracket in place, then slide the PCIe bracket open.
 
 ![PCIe bracket screws](./img/pcie-bracket.webp)
@@ -118,27 +111,25 @@ Thelio Mira supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two wi
 
 4. If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.
 
-![GPU power connections](./img/gpu-power.jpg)
+![GPU power connections](./img/gpu-power.webp)
 
 5. Hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
-    - If removing one of the inner GPUs, it may be necessary to remove one of the outer GPUs first in order to reach the latch.
+    - If removing the bottom GPU, it may be necessary to remove the top GPU first in order to reach the latch.
     - If space is tight, a long object such as a screwdriver can be used to press the latch.
 
-![GPU order & PCIe latches](./img/gpu-slots.jpg)
+![GPU order & PCIe latches](./img/gpu-slots.webp)
 
 6. When installing new GPUs, the slots should be utilized in the following order:
     - Primary GPU: top slot.
-    - Secondary GPU: third slot from the top.
-    - Tertiary GPU: fourth slot from the top (bottom slot).
-    - Quaternary GPU: second slot from the top.
+    - Secondary GPU: second slot from the top.
 7. After inserting the new GPU into its slot, connect the power cables.
-    - The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than four GPUs.
-8. Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, inner partition, and top case.
-    - The side GPU brace includes a plastic piece sized to the GPUs that originally shipped with the system. To remove the plastic piece, unscrew it from the brace.
+    - The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than two GPUs.
+8. Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, and top case.
+    - The side GPU brace includes two plastic pieces, which can be adjusted to fit the outer edges of the GPU(s). To remove the plastic pieces, unscrew them from the brace.
 
-![GPU brace screws](./img/gpu-brace-plastic-screws.jpg)
+![GPU brace screws](./img/gpu-brace-plastic-screws.webp)
 
-_The plastic GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
+_The plastic GPU braces' primary function is to prevent damage during shipping. The system can be run without the braces if they don't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
 ## Replacing the M.2 drives:
 
@@ -401,33 +392,13 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ![PSU eco mode switch](./img/psu-eco-mode.jpg)
 
-## Replacing the side fans:
-
-Thelio Mira b1.0 has two intake fans mounted on the inner partition. The fans can be replaced if they become defective/noisy.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to replace the side fans:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.
-
-![Side fan rubber mounts](./img/side-fan-mounts.jpg)
-
-3. Pull the end of the fan cable through the opening and release any velcro strips that are holding it in place.
-4. When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from the opposite side.
-
-![Side fan plastic pins](./img/side-fan-pins.jpg)
-
-## Replacing the Thelio-IO boards:
+## Replacing the Thelio-IO board:
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If one of the Thelio-IO boards becomes defective, it can be replaced using the instructions below.
+The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If the Thelio-IO board becomes defective, it can be replaced using the instructions below.
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the top crossbar](#removing-the-top-crossbar), and [remove the front cover from the 2.5" drive cage](#addingremoving-25-storage-drives) for the Thelio-IO board that is being replaced.
 2. Use the cutouts on the opposite side of the chassis to unplug all cabling from the Thelio-IO board that is being replaced.

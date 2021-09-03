@@ -4,6 +4,73 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Thelio Mira](./img/thelio-mega-b1.0.webp)
+![Thelio Mira](./img/thelio-mira-b1.0.webp)
 
-Tech specs
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- CPU options
+    - Supports Intel 10th and 11th Generation (Comet Lake and Tiger Lake) CPUs
+        - [Core i3-10100](https://ark.intel.com/content/www/us/en/ark/products/199283/intel-core-i3-10100-processor-6m-cache-up-to-4-30-ghz.html)
+        - [Core i5-11600K](https://ark.intel.com/content/www/us/en/ark/products/212275/intel-core-i511600k-processor-12m-cache-up-to-4-90-ghz.html)
+        - [Core i7-11700K](https://ark.intel.com/content/www/us/en/ark/products/212047/intel-core-i711700k-processor-16m-cache-up-to-5-00-ghz.html)
+        - [Core i9-11900K](https://ark.intel.com/content/www/us/en/ark/products/212325/intel-core-i9-11900k-processor-16m-cache-up-to-5-30-ghz.html)
+- Motherboard
+    - ASUS ROG STRIX Z590-A GAMING WIFI running System76 Firmware (non-open)
+    - Intel Z590 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- GPU options
+    - Up to two GPUs, depending on configuration (2x PCIe 4.0/3.0 x16)
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - HDMI 2.0 (11th Gen) or 1.4 (10th Gen), DisplayPort 1.4
+        - NVIDIA GeForce GTX 1650 (maximum 1)
+        - NVIDIA GeForce RTX 3060 (maximum 1)
+        - NVIDIA GeForce RTX 3060 Ti (maximum 1)
+        - NVIDIA GeForce RTX 3070 (maximum 1)
+        - NVIDIA GeForce RTX 3070 Ti (maximum 1)
+        - NVIDIA GeForce RTX 3080 Ti (maximum 1)
+        - [NVIDIA GeForce RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - NVIDIA Quadro RTX 4000 (maximum 2)
+            - 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 5000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-5000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 8000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+- Expansion
+    - 2x PCIe 4.0/3.0 x16 (GPU slots)
+    - 1x PCIe 4.0/3.0 x16 (additional slot)
+    - 1x PCIe 3.0 x4 (additional slot)
+- Memory
+    - Up to 128GB (4x32GB) quad-channel ECC Unbuffered DDR4 DIMMs @ 3200 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Kingston HyperX HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf) (8GB/stick)
+        - [Kingston HyperX HX432C16FB4/16](https://www.kingston.com/dataSheets/HX432C16FB4_16.pdf) (16GB/stick)
+        - [Kingston HyperX HX432C16FB3K4/128](https://www.kingston.com/datasheets/HX432C16FB3K4_128.pdf) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet (Intel I225-V)
+    - Wi-Fi 6 (Intel AX200)
+- Power
+    - EVGA SuperNOVA 1600W T2 80+ Titanium Certified PSU
+    - C19 power cable
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Digital USB-C audio port
+    - Up to 7.1-channel audio output
+    - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier)
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 3x M.2 (PCIe Gen 4), M key
+        - Backwards compatible with M.2 SATA and PCIe Gen 3.
+    - 6x 2.5" SATA
+        - When using certain M.2 slots in SATA mode, some SATA ports will not function. See [Parts & Repairs](./repairs.md) for details.
+- USB
+    - 1x USB 3.2 Gen 2x2 Type-C
+    - 4x USB 3.2 Gen 2 Type-A
+    - 4x USB 2.0 Type-A
+    - 1x USB 2.0 Type-C (audio only(?))
+- Dimensions
+    - 43.635cm × 25.3cm × 33.1cm

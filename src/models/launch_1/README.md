@@ -21,6 +21,10 @@ The System76 Launch is a configurable keyboard with the following specifications
   - PBT plastic
   - Dye sublimated legend
   - XDA profile
+  - Sizes:
+    - 3x 2U keycaps (both space bars and left shift)
+    - 8x 1.5U keycaps (tab, caps lock, left ctrl, right fn, right shift, enter, backspace, and delete)
+    - 73x 1U keycaps
 - Layout
   - Modified ANSI US QWERTY
 - Custom Configurations

@@ -23,6 +23,7 @@ The System76 Launch is a configurable keyboard with the following specifications
   - XDA profile
   - Sizes:
     - 3x 2U keycaps (both space bars and left shift)
+      - All three 2U caps use plate-mount stabilizers
     - 8x 1.5U keycaps (tab, caps lock, left ctrl, right fn, right shift, enter, backspace, and delete)
     - 73x 1U keycaps
 - Layout

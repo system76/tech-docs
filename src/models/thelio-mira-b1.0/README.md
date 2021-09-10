@@ -63,8 +63,10 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier)
     - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
 - Storage
-    - 3x M.2 (PCIe Gen 4), M key
-        - Backwards compatible with M.2 SATA and PCIe Gen 3.
+    - 1x M.2 (PCIe NVMe Gen 4), M key
+        - Backwards compatible with PCIe NVMe Gen 3 and SATA.
+    - 2x M.2 (PCIe NVMe Gen 3), M key
+        - Backwards compatible with SATA III.
     - 6x 2.5" SATA
         - When using certain M.2 slots in SATA mode, some SATA ports will not function. See [Parts & Repairs](./repairs.md) for details.
 - USB

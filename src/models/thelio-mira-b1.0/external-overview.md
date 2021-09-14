@@ -7,7 +7,6 @@
 ### Audio Port Guide:
 
 - Top row, left to right:
-  - Optical S/PDIF Out (square)
   - Rear Speaker Out
   - Center/Subwoofer Out
 - Bottom row, left to right:
@@ -20,4 +19,7 @@
 - 1: On
 - 0: Off
 
-**Note:** The Q-Flash+ button (next to the CMOS reset button) is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of the Q-Flash+ button is not recommended.
+### Other Notes:
+
+- The `ECO` switch on the power supply should always be set to `ON` for an optimal fan curve.
+- The BIOS Flash button is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of the BIOS Flash button is not recommended.

@@ -51,7 +51,9 @@ Launch uses only three sizes of uniform profile keycaps, which allows for a high
 
 Since Launch uses Kailh hot swap sockets, key switches can be removed and installed without soldering. 
 
-**Note:** If you are changing all of the switches in your Launch, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and makes bending switch pins or damaging the PCB much less likely.
+If you are changing all of the switches in your Launch, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and makes bending switch pins or damaging the PCB much less likely.
+
+If you are installing new switches, ensure that the switches you're installing are compatible with surface-mount (SMD) LEDs.
 
 **Tools required:** MX-style switch puller  
 **Time estimate:** ~1 minute per switch  

@@ -83,7 +83,7 @@ If you are installing new switches, ensure that the switches you're installing a
 ![Switch orientation](./img/switch-install-orientation.jpg)
 
 3. Place the switch straight into the plate.
-    - **Note:** Forcing the pins into the hot swap socket could damage the PCB.
+    - **Caution:** Forcing the pins into the hot swap socket could damage the PCB.
     - You should be able to feel whether the pins are plugging into the socket correctly.
     - If you feel excessive resistance, pull the switch out, double-check that the pins are straight, and try installing the switch again.
 4. Once you feel the pins plug into the hot swap socket, press the switch down with more force to snap it into place within the chassis.

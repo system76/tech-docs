@@ -36,7 +36,9 @@ The top case can be removed to access the internal components.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio Mira b1.0 supports up to four 2.5" SATA III drives. (Check M.2 restrictions)
+Thelio Mira b1.0 supports up to four 2.5" SATA III drives.
+
+If the middle and bottom M.2 slots are used with M.2 SATA drives, SATA ports #2 and #6 will become disabled; however, SATA ports #2 and #6 are <u>not</u> used for 2.5" SATA drives in Thelio Mira. If any 2.5" drives stop working after installing M.2 drives, try changing the ports between the [Thelio-IO board and the motherboard](#thelio-io-wiring-guide).
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 10 minutes  
@@ -115,7 +117,7 @@ Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 
 ## Replacing a GPU:
 
-Thelio Mira supports up to two triple-slot GPUs with PCIe 4.0 x16 (check). Mixing NVIDIA and AMD GPUs is not recommended.
+Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 speeds with 11th Gen processors, or Gen 3 speeds with 10th Gen processors. Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -177,15 +179,15 @@ The CPU shroud guides airflow through the CPU coolers. It covers the CPU and par
 
 ## Replacing the M.2 drives:
 
-Thelio Mira has three M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 3 x4, or SATA III. The following restrictions apply:
+Thelio Mira has three M.2 slots. All slots support M.2 sizes 22110, 2280, 2260, and 2242. The following restrictions apply:
 
-- CHECK Top M.2 slot: Supports sizes 22110, 2280, and 2260.
-- Middle M.2 slot: Supports sizes 22110 and 2280.
-- Bottom left M.2 slot: Supports sizes 22110 and 2280.
-- Bottom right M.2 slot:
-    - Supports size 2280.
-    - If a SATA drive is installed in this slot, then 2.5" SATA ports 4 and 5 will be unavailable.
-    - If a PCIe NVMe drive is installed in this slot, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable.
+- Top M.2 slot:
+  - Only works with 11th Gen CPUs.
+  - Supports PCIe NVMe Gen 4 and PCIe NVMe Gen 3.
+- Middle M.2 slot:
+  - Supports PCIe NVMe Gen 3 and SATA III.
+- Bottom left M.2 slot:
+  - Supports PCIe NVMe Gen 3 and SATA III.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 23 minutes  
@@ -316,21 +318,29 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPUs](#replacing-a-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and bottom GPU](#replacing-a-gpu).
 2. Unplug all of the modular cabling from the back of the PSU.
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 
-![PSU cabling](./img/psu-cabling.webp)
+![PSU cabling](./img/psu-cables.webp)
 
-3. Unscrew the four screws holding the PSU in from the back of the case.
+3. Unscrew and remove the PSU bracket.
+    - One screw is located on the opposite side of the case.
+
+![PSU bracket screws](./img/psu-bracket-screws.webp)
+
+4. Unscrew the four screws holding the PSU in from the back of the case.
 
 ![PSU back screws](./img/psu-screws.webp)
 
-4. Remove/replace the PSU. Set the replacement PSU on top of the rubber post that holds it at the correct height.
+5. Remove/replace the PSU. Set the replacement PSU on top of the rubber post that holds it at the correct height.
     - The replacement PSU should be installed with the fan facing the bottom of the case.
-5. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
+
+![PSU post](./img/psu-post.webp)
+
+6. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
     - Remember that not all of the available connectors will plug into the PSU-- four connectors (on two cables) are to be plugged into the GPUs.
-6. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve.
+7. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve.
 
 ## Replacing the Thelio-IO board:
 
@@ -362,10 +372,10 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
     - **1:** `POWER0` - to power supply (via 4-pin Molex adapter.)
     - **2:** `INTAKE0` - to bottom case fan.
     - **3:** `CPUOUT0` - to CPU fan splitter board on top crossbar.
-    - **4:** `SATA0/1/2/3` - to SATA ports on motherboard. (These connectors provide data transfer for the 2.5" drive slots.)
-    ![SATA connectors on motherboard](./img/motherboard-sata-connectors.webp)
-    - **5:** `CPUIN0` - to `CPU_FAN` header on motherboard.
+    - **4:** `CPUIN0` - to `CPU_FAN` header on motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-connector.webp)
+    - **5:** `SATA0/1/2/3` - to SATA ports on motherboard. (These connectors provide data transfer for the 2.5" drive slots.)
+    ![SATA connectors on motherboard](./img/motherboard-sata-connectors.webp)
     - **6\*:** `PFP0` - to power button receptacle on front panel.
     - **7\*:** `USB0` - to USB header on motherboard. (This connector provides fan control and firmware updates.)
     ![USB header on motherboard](./img/motherboard-usb-connector.webp)

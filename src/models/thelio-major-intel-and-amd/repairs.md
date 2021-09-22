@@ -15,7 +15,7 @@
 - [Replacing the Top Case](#replacing-the-top-case)
 ### Power Button (Remove or Replace)
 - [Removing the Power Button](#removing-the-power-button)
-- [Replacing the Power Button](#replacing-the-power-buttom)
+- [Replacing the Power Button](#replacing-the-power-button)
 
 <!--### IO Board (Remove or Replace)
 - [Removing the IO Board](#removing-the-io-board)

@@ -19,6 +19,7 @@ This documentation includes the following System76 models:
 - [Thelio Major B2 (thelio-major-b2)](thelio-major-b2/service-manual.md)
 - [Thelio Massive (thelio-massive-b1.2)](thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](thelio-mega-r1.0/README.md)
+- [Thelio Mira (thelio-mira-b1.0)](thelio-mira-b1.0/README.md)
 - [Thelio Mira (thelio-mira-r1.0)](thelio-mira-r1.0/README.md)
 
 ## Previous Models

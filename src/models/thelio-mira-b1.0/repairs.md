@@ -4,19 +4,16 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Po
 
 - [Removing the top case](#removing-the-top-case)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the case fan](#replacing-the-case-fan)
-- [Replacing a GPU](#replacing-a-gpu)
-- [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
 - [Replacing the RAM](#replacing-the-ram)
-- [Removing the top crossbar](#removing-the-top-crossbar)
+- [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
+- [Replacing a GPU](#replacing-a-gpu)
+- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
-- [Replacing the side fans](#replacing-the-side-fans)
 - [Replacing the Thelio-IO board](#replacing-the-thelio-io-board)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
-- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
 
 ## Removing the top case:
 
@@ -38,7 +35,7 @@ The top case can be removed to access the internal components.
 
 Thelio Mira b1.0 supports up to four 2.5" SATA III drives.
 
-If the middle and bottom M.2 slots are used with M.2 SATA drives, SATA ports #2 and #6 will become disabled; however, SATA ports #2 and #6 are <u>not</u> used for 2.5" SATA drives in Thelio Mira. If any 2.5" drives stop working after installing M.2 drives, try changing the ports between the [Thelio-IO board and the motherboard](#thelio-io-wiring-guide).
+If the middle and bottom M.2 slots are used with M.2 SATA drives, the motherboard's SATA ports #2 and #6 will become disabled; however, SATA ports #2 and #6 are <u>not</u> used for 2.5" SATA drives in Thelio Mira. If any 2.5" drives are not being detected and M.2 SATA drives are being used, try changing the ports used for the SATA connections between the [Thelio-IO board and the motherboard](#thelio-io-wiring-guide).
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 10 minutes  
@@ -65,7 +62,7 @@ If the middle and bottom M.2 slots are used with M.2 SATA drives, SATA ports #2 
 Thelio Mira b1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered ECC DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 20 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the RAM:
@@ -83,12 +80,12 @@ Thelio Mira b1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are Unregi
 
 4. Replace the top case.
 
-## Replacing the case fan:
+## Replacing the bottom case fan:
 
 Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
+**Time estimate:** 20 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the bottom case fan:
@@ -120,8 +117,8 @@ Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 speeds with 11th Gen processors, or Gen 3 speeds with 10th Gen processors. Mixing NVIDIA and AMD GPUs is not recommended.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>
+**Time estimate:** 20 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace a GPU:
 
@@ -175,7 +172,7 @@ The CPU shroud guides airflow through the CPU coolers. It covers the CPU and par
 
 ![CPU shroud screws](./img/cpu-shroud-screws.webp)
 
-5. Pull the CPU shroud away from the machine.
+4. Pull the CPU shroud away from the machine.
 
 ## Replacing the M.2 drives:
 
@@ -186,11 +183,11 @@ Thelio Mira has three M.2 slots. All slots support M.2 sizes 22110, 2280, 2260, 
   - Supports PCIe NVMe Gen 4 and PCIe NVMe Gen 3.
 - Middle M.2 slot:
   - Supports PCIe NVMe Gen 3 and SATA III.
-- Bottom left M.2 slot:
+- Bottom M.2 slot:
   - Supports PCIe NVMe Gen 3 and SATA III.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 23 minutes  
+**Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the M.2 drives:
@@ -241,8 +238,8 @@ Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU shroud, and on
 
 ![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
 
-4. When reinstalling the fan into the CPU shroud, the spinning side should face the CPU cooler, while the side with a stationary cover should face the back of the case.
-    - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try loosening some of the thumbscrews.
+4. When reinstalling the fan into the CPU shroud, the spinning side should face the CPU cooler and the front of the case, while the side with a stationary cover should face the back of the case.
+    - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
@@ -253,13 +250,13 @@ Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU shroud, and on
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.webp)
 
 3. Repeat the process for the bottom clip, then pull the fan and clips away from the CPU cooler.
-4. When reinstalling the CPU fan, the side with the non-spinning cover should face the CPU cooler, while the spinning side should face the front of the machine.
+4. When reinstalling the CPU cooler fan, the side with a stationary cover should face the CPU cooler and back of the case, while the spinning side should face the front of the case.
 
 ## Replacing the CPU cooler and CPU:
 
 The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.
 
-The CPU uses an Intel LGA1200 socket. The CPU cooler is a Noctua NH-U12S.
+The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 **Tools required:** Cross-head (Phillips) screwdriver (long), torx screwdriver, thermal paste  
 **Time estimate:** 35 minutes  
@@ -267,7 +264,7 @@ The CPU uses an Intel LGA1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the top crossbar](#removing-the-top-crossbar), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler onto the vertical mounting brackets.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.webp)
@@ -281,7 +278,7 @@ The CPU uses an Intel LGA1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 1. Place the computer on its side so the motherboard is facing up.
 2. Push the locking pin outward until it's able to spring away from the motherboard.
-    - Caution: the locking pin may spring up with significant force when freed.cpu
+    - Caution: the locking pin may spring up with significant force when freed.
 
 ![CPU locking pin](./img/cpu-locking-pin.webp)
 
@@ -296,6 +293,7 @@ The CPU uses an Intel LGA1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 5. Gently place the new CPU into the socket.
     - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the bottom left of the motherboard.
+    - The triangle on the CPU should match the triangle on the top of the CPU cover and the dot on the motherboard.
 6. Flip the CPU cover back onto the CPU and push the locking pin down into place.
 
 ### Steps to install the thermal paste/CPU cooler:
@@ -313,8 +311,8 @@ The CPU uses an Intel LGA1200 socket. The CPU cooler is a Noctua NH-U12S.
 The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mira.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 30 minutes  
-**Difficulty:** High <span style="color:red;">●</span>
+**Time estimate:** 20 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the power supply:
 
@@ -357,7 +355,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.webp)
 
-3. Unscrew the two screws on the top of the upper drive cage farthest towards the motherboard side of the machine.
+3. Unscrew the two screws on the top of the upper drive cage closest to the Thelio-IO board.
 
 ![Thelio-IO drive cage screws](./img/thelio-io-screws.webp)
 
@@ -368,13 +366,13 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 ![Thelio-IO wiring guide](./img/thelio-io-wiring.webp)
 
-1. When wiring the Thelio-IO port, refer to the above image and the following guide.
+1. When wiring the Thelio-IO board, refer to the above image and the following guide.
     - **1:** `POWER0` - to power supply (via 4-pin Molex adapter.)
     - **2:** `INTAKE0` - to bottom case fan.
     - **3:** `CPUOUT0` - to CPU fan splitter board on top crossbar.
     - **4:** `CPUIN0` - to `CPU_FAN` header on motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-connector.webp)
-    - **5:** `SATA0/1/2/3` - to SATA ports on motherboard. (These connectors provide data transfer for the 2.5" drive slots.)
+    - **5:** `SATA0/1/2/3` - to SATA ports #1/#3/#4/#5 on motherboard. (These connectors provide data transfer for the 2.5" drive slots.)
     ![SATA connectors on motherboard](./img/motherboard-sata-connectors.webp)
     - **6\*:** `PFP0` - to power button receptacle on front panel.
     - **7\*:** `USB0` - to USB header on motherboard. (This connector provides fan control and firmware updates.)

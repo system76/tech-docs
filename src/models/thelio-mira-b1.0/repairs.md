@@ -53,7 +53,7 @@ If the middle and bottom M.2 slots are used with M.2 SATA drives, the motherboar
 ![Storage drive screws](./img/storage-drive-screws.webp)
 
 4. Insert four screws into each 2.5" storage drive you wish to install.
-5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO boards.
+5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
 
 ![2.5" drive installation](./img/storage-drive-installation.webp)  
 
@@ -151,11 +151,11 @@ Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 s
 
 ![GPU brace screws](./img/gpu-brace-plastic-screws.webp)
 
-_The plastic GPU braces' primary function is to prevent damage during shipping. The system can be run without the braces if they don't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
+_The GPU brace assembly's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
 ## Removing the CPU shroud:
 
-The CPU shroud guides airflow through the CPU coolers. It covers the CPU and partially obstructs the RAM slots and top GPU.
+The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  

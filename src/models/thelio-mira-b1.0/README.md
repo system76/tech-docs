@@ -67,7 +67,6 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [EVGA 650W B5 80+ Bronze](https://www.evga.com/Products/Specs/PSU.aspx?pn=9C00E82F-02D0-4706-A361-78D42787345B)
         - [EVGA SuperNOVA 750W G5 80+ Gold](https://www.evga.com/Products/Specs/PSU.aspx?pn=A7699F25-A614-4D88-A339-1DDF3D24615E)
         - [EVGA SuperNOVA 1000W G5 80+ Gold](https://www.evga.com/products/Specs/PSU.aspx?pn=71d331b7-9306-4218-987f-875fd422fd44)
-        - [EVGA SuperNOVA 1600W T2 80+ Titanium](https://www.evga.com/Products/Specs/PSU.aspx?pn=50804BF2-4D32-4E90-B338-C81CA63AF4E2)
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Up to 7.1-channel audio output

@@ -59,7 +59,7 @@ If the middle and bottom M.2 slots are used with M.2 SATA drives, the motherboar
 
 ## Replacing the RAM:
 
-Thelio Mira b1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Mira b1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR4 DIMMs (non-ECC) running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 15 minutes  

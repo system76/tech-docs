@@ -1,0 +1,88 @@
+# Thelio Mira (thelio-mira-b1.0)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Mira](./img/thelio-mira-b1.0.webp)
+
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- CPU options
+    - Supports Intel 10th and 11th Generation (Comet Lake and Tiger Lake) CPUs
+        - [Core i3-10100](https://ark.intel.com/content/www/us/en/ark/products/199283/intel-core-i3-10100-processor-6m-cache-up-to-4-30-ghz.html)
+        - [Core i5-11600K](https://ark.intel.com/content/www/us/en/ark/products/212275/intel-core-i511600k-processor-12m-cache-up-to-4-90-ghz.html)
+        - [Core i7-11700K](https://ark.intel.com/content/www/us/en/ark/products/212047/intel-core-i711700k-processor-16m-cache-up-to-5-00-ghz.html)
+        - [Core i9-11900K](https://ark.intel.com/content/www/us/en/ark/products/212325/intel-core-i9-11900k-processor-16m-cache-up-to-5-30-ghz.html)
+- Motherboard
+    - ASUS ROG STRIX Z590-A GAMING WIFI running System76 Firmware (non-open)
+    - Intel Z590 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- GPU options
+    - Up to two GPUs, depending on configuration (2x PCIe 4.0/3.0 x16)
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - HDMI 2.0 (11th Gen) or 1.4 (10th Gen), DisplayPort 1.4
+        - [NVIDIA GeForce GTX 1650](https://www.nvidia.com/en-us/geforce/graphics-cards/gtx-1650/) (maximum 1)
+            - HDMI 2.0b, DisplayPort 1.4a, DL-DVI-D
+        - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3070 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3080 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/) (maximum 1)
+            - HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA Quadro RTX 4000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-4000/) (maximum 2)
+            - 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 5000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-5000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+        - [NVIDIA Quadro RTX 8000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/) (maximum 2)
+            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+- Expansion
+    - 2x PCIe 4.0/3.0 x16 (GPU slots)
+    - 1x PCIe 4.0/3.0 x16 (additional slot; single-height cards only)
+    - 1x PCIe 3.0 x4
+- Memory
+    - Up to 128GB (4x32GB) dual-channel DDR4 DIMMs @ 3200 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Kingston HyperX HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf) (8GB/stick)
+        - [Kingston HyperX HX432C16FB4/16](https://www.kingston.com/dataSheets/HX432C16FB4_16.pdf) (16GB/stick)
+        - [Kingston HyperX HX432C16FB3K4/128](https://www.kingston.com/datasheets/HX432C16FB3K4_128.pdf) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet (Intel I225-V)
+    - Wi-Fi 6 (Intel AX200)
+- Power
+    - C13 power cable
+    - 650W minimum PSU
+        - Dual-GPU configurations require 750W or 1000W, depending on GPU power requirements
+    - Tested with the following PSU models (may ship with other tested models):
+        - [EVGA 650W B5 80+ Bronze](https://www.evga.com/Products/Specs/PSU.aspx?pn=9C00E82F-02D0-4706-A361-78D42787345B)
+        - [EVGA SuperNOVA 750W G5 80+ Gold](https://www.evga.com/Products/Specs/PSU.aspx?pn=A7699F25-A614-4D88-A339-1DDF3D24615E)
+        - [EVGA SuperNOVA 1000W G5 80+ Gold](https://www.evga.com/products/Specs/PSU.aspx?pn=71d331b7-9306-4218-987f-875fd422fd44)
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier)
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 4), M key
+        - Backwards compatible with PCIe NVMe Gen 3.
+        - Only active with 11th Gen CPUs.
+    - 2x M.2 (PCIe NVMe Gen 3), M key
+        - Backwards compatible with SATA III.
+    - 4x 2.5" SATA
+- USB
+    - 1x USB 3.2 Gen 2x2 Type-C
+    - 4x USB 3.2 Gen 2 Type-A
+    - 1x USB 2.0 Type-C
+    - 4x USB 2.0 Type-A
+- Dimensions
+    - 43.635cm × 25.3cm × 33.1cm

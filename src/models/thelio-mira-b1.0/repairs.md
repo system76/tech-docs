@@ -147,11 +147,11 @@ Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 s
 7. After inserting the new GPU into its slot, connect the power cables.
     - The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than two GPUs.
 8. Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, and top case.
-    - The side GPU brace includes two plastic pieces, which can be adjusted to fit the outer edges of the GPU(s). To remove the plastic pieces, unscrew them from the brace.
+    - The side GPU brace includes screws to adjust for the hight of the graphics cards (highlighted green below) and the depth of the graphics cards (highlighted blue.)
 
-![GPU brace screws](./img/gpu-brace-plastic-screws.webp)
+![GPU brace screws](./img/gpu-brace-adjustment-screws.webp)
 
-_The GPU brace assembly's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
+_The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
 ## Removing the CPU shroud:
 

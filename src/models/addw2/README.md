@@ -9,7 +9,7 @@
 The System76 Adder WS is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 11th Generation (Tiger Lake-U) CPUs
+    - Supports Intel 10th Generation (Comet Lake) CPUs
         - [Core i7-10875H](https://ark.intel.com/content/www/us/en/ark/products/202329/intel-core-i7-10875h-processor-16m-cache-up-to-5-10-ghz.html)
 - BIOS
     - MX25L12872F flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open) or non-open firmware

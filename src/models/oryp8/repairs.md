@@ -1,6 +1,6 @@
 # Oryx Pro (Parts & Repairs)
 
-Many components in your Oryx Pro can be upgraded or replaced as necessary. This page uses photos of the 17" model, but screw counts, general component locations, and other details are the same on the 15" model unless otherwise noted.
+Many components in your Oryx Pro can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
@@ -23,17 +23,17 @@ Removing the cover is required to access the internal components. Prior to remov
 
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the 13 bottom panel screws.
+2. Remove the 12 bottom panel screws.
     - On the 15" model, the two back corner screws are longer than the rest (highlighted red below.)
     - On the 17" model, all screws are the same length.
 
-![Bottom panel screws](./img/bottom-panel-screws.jpg)
+![Bottom panel screws](./img/bottom-panel-screws.webp)
 
 3. Lift the bottom panel off of the case.
 
 ## Replacing the RAM:
 
-The Oryx Pro 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2933MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Oryx Pro 8 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -44,14 +44,14 @@ The Oryx Pro 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 2933MHz.
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
-![RAM removal](./img/ram-slots.jpg)
+![RAM removal](./img/ram-slots.webp)
 
 3. Remove the RAM from the slot.
 4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-most slot (closest to the battery) supports only PCIe NVMe Generation 3, and the outer-most slot (farthest away from the battery) supports either SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-most slot (closest to the battery) supports only PCIe NVMe Generation 4, and the outer-most slot (farthest away from the battery) supports either PCIe NVMe Generation 3 or SATA III.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -62,7 +62,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
-![M.2 slots](./img/m2-slots.jpg)
+![M.2 slots](./img/m2-slots.webp)
 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
@@ -81,7 +81,7 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless module. Remove any clear tape that is securing the wires.
 
-![Wireless card](./img/wireless-card.jpg)
+![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.

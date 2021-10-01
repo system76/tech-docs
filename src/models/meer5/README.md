@@ -34,6 +34,7 @@ The System76 Meerkat is a desktop with the following specifications:
     - \* Included AC adapter may be a different model with the same specifications.
 - Sound
     - 3.5mm line out/line in combo jack for headsets
+      - *Newer meer5's do not have this port*
     - 7.1 digital out over HDMI and mDP
     - Integrated front microphone
 - Storage

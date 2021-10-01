@@ -4,6 +4,7 @@
 
 ### Front side overview:
 ![Front Ports](./img/ports-diagram_short-front.png)
+*Note: newer meer5's may not have the 2-in-1 audio jack*
 
 ### Back side overview:
 ![Back Ports](./img/ports-diagram_short-back.png)
@@ -18,6 +19,7 @@
 
 ### Front side overview:
 ![Front Ports](./img/ports-diagram_tall-front.png)
+*Note: newer meer5's may not have the 2-in-1 audio jack*
 
 ### Back side overview:
 ![Back Ports](./img/ports-diagram_tall-back.png)

@@ -30,6 +30,6 @@ This documentation includes the following System76 models:
 - [Gazelle (gaze15)](gaze15/README.md)
 - [Lemur Pro (lemp9)](lemp9/README.md)
 - [Meerkat (meer5)](meer5/README.md)
-- [Oryx Pro (oryp6)](oryp6/README.md)
 - [Oryx Pro (oryp7)](oryp7/README.md)
+- [Oryx Pro (oryp6)](oryp6/README.md)
 - [Pangolin (pang10)](pang10/README.md)

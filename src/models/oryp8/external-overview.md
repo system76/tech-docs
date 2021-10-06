@@ -16,9 +16,16 @@
 
 ![Back Ports](./img/ports-back.png)
 
-## LED indicators:
+## Materials:
 
-The Oryx Pro has the following LED indicators:
+|Part                              |Material                |
+|----------------------------------|------------------------|
+|LCD back cover (lid)              |Aluminum                |
+|LCD front cover (bezel)           |Plastic                 |
+|Top case (palm rests/port covers) |Aluminum                |
+|Bottom panel                      |Aluminum                |
+
+## LED indicators:
 
 |Icon                                    |Color          |Description                                      |
 |----------------------------------------|---------------|-------------------------------------------------|
@@ -30,18 +37,7 @@ The Oryx Pro has the following LED indicators:
 |                                        |Blinking orange|Battery critically low                           |
 |![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity                           |
 
-## Materials:
-
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Aluminum                |
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Aluminum                |
-|Bottom panel                      |Aluminum                |
-
 ## Keyboard shortcuts:
-
-The Oryx Pro has the following actions available using the Fn and Function keys:
 
 |Key                        |Shortcut|Action                                        |
 |---------------------------|--------|----------------------------------------------|

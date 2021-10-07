@@ -210,4 +210,4 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 12. Place the keyboard back into position, starting with the tabs on the bottom edge.
 13. Secure the rest of the keyboard by pressing down on each of its edges.
 14. Turn the machine lid-side down again and press the adhesive strip back into its slot.
-    - The visible end of the adhesive strip does not need to completely go back into place; the keyboard is primarily held in place by the perimiter clips and the non-visible section of adhesive.
+    - The visible end of the adhesive strip does not need to completely go back into place; the keyboard is primarily held in place by the perimeter clips and the non-visible section of adhesive.

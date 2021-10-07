@@ -23,6 +23,6 @@
 
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connector is highlighted in cyan
-- Keyboard adhseive strip is highlighted in pink
+- Keyboard adhesive strip is highlighted in pink
 - Power button/LED connector is highlighted in green
 - Front LED connector is highlighted in red

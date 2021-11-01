@@ -66,7 +66,7 @@ The Meerkat 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. 
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
-2. Press the small tabs on both sides of the RAM simultaneously. The RAM shoud spring up to an angle.
+2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
 ![RAM latch](./img/ram-slots.jpg)
 

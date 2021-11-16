@@ -1,4 +1,4 @@
-# Oryx Pro (External Overview)
+# Kudu (External Overview)
 
 ## Left side overview:
 

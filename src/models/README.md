@@ -10,6 +10,7 @@ This documentation includes the following System76 models:
 - [Darter Pro (darp7)](darp7/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
 - [Gazelle (gaze16)](gaze16/README.md)
+- [Kudu (kudu6)](models/kudu6/README.md)
 - [Launch (launch\_1)](launch_1/README.md)
 - [Lemur Pro (lemp10)](lemp10/README.md)
 - [Meerkat (meer6)](meer6/README.md)

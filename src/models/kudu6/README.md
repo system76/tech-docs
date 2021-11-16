@@ -36,17 +36,19 @@ The System76 Kudu is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - 230W (19.5V, 11.8A) AC adapter
-        - Included AC adapter: 
+        - Included AC adapter: Chicony A17-230P1A
         - Included AC adapter uses C5 (Cloverleaf) power cord
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - 48.96Wh 4-cell Lithium-Ion battery (model )
+    - 48.96Wh 4-cell Lithium-Ion battery
+        - Model number: NH50BAT-4
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
     - Dedicated microphone 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - 2x M.2 (PCIe NVMe Gen 3)
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - 1x M.2 (PCIe NVMe Gen 3)
 - USB
     - 1x USB 3.2 Gen 2 Type-C
         - Supports DisplayPort over USB-C

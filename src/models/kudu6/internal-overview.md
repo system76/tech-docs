@@ -1,4 +1,4 @@
-# Oryx Pro (Internal Overview)
+# Kudu (Internal Overview)
 
 ## Bottom components and connectors:
 

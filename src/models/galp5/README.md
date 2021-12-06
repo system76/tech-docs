@@ -21,6 +21,7 @@ The System76 Galago Pro is a laptop with the following specifications:
         - Intel Iris Xe Graphics (Integrated graphics model)
         - NVIDIA GeForce GTX 1650 (Switchable graphics model)
         - NVIDIA GeForce GTX 1650 Ti (Switchable graphics model)
+        - NVIDIA GeForce RTX 3050 (Switchable graphics model)
     - eDP display: 14.1" 1920x1080@60Hz LCD
         - LCD panel: BOE NV140FHM-N62 (or equivalent)
     - External video outputs:
@@ -39,12 +40,18 @@ The System76 Galago Pro is a laptop with the following specifications:
             - Included AC adapter uses C5 (Cloverleaf) power cord
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - USB-C charging compatible with 65W+ charger
-    - NVIDIA + Intel model:
+    - NVIDIA 1650/1650Ti + Intel model:
         - 90W (19V, 4.74A) AC adapter
             - Included AC adapter is a Chicony A16-090P1A
             - Included AC adapter uses C5 (Cloverleaf) power cord
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - USB-C charging compatible with 90W+ charger
+    - NVIDIA 3050 + Intel model:
+        - 120W (19V, 6.15A) AC adapter
+            - Included AC adapter is a LiteOn PA-1121-26
+            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - USB-C charging compatible with 120W+ charger
     - 49Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone

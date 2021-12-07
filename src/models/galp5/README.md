@@ -40,7 +40,7 @@ The System76 Galago Pro is a laptop with the following specifications:
             - Included AC adapter uses C5 (Cloverleaf) power cord
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - USB-C charging compatible with 65W+ charger
-    - NVIDIA 1650/1650Ti + Intel model:
+    - NVIDIA 1650/1650 Ti + Intel model:
         - 90W (19V, 4.74A) AC adapter
             - Included AC adapter is a Chicony A16-090P1A
             - Included AC adapter uses C5 (Cloverleaf) power cord

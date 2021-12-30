@@ -1,5 +1,9 @@
 # Thelio Major B2
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
 ## Tech Specs
 
 **Processor** 	

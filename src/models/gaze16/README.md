@@ -64,6 +64,7 @@ The System76 Gazelle is a laptop with the following specifications:
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
     - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - 2.5" 7mm SATA drive bay
     - SD card reader
 - USB
     - 1x USB 3.2 Gen 2 Type-C

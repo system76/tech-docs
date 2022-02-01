@@ -20,7 +20,7 @@ The System76 Meerkat is a desktop with the following specifications:
 - Memory
     - Up to 64GB (2x32GB) Dual Channel DDR4 SODIMMs @ 2666 MHz
 - Networking
-    - Intel® Ethernet Connection I219-V
+    - Intel® Ethernet Connection [I219-V](https://ark.intel.com/content/www/us/en/ark/products/82186/intel-ethernet-connection-i219v.html)
     - Intel® Wi-Fi 6 AX201 with integrated bluetooth
 - Power
     - i3 and i5 models: 90W (19V, 4.74A) power supply

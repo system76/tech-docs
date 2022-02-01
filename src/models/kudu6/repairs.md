@@ -67,7 +67,7 @@ The Kudu 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If 
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The slot closest to the fans supports either PCIe NVMe Generation 3 or SATA III, and the slot farthest away from the fans supports only PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both slots support PCIe NVMe Generation 3 only.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -83,33 +83,6 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The slot c
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
 5. Replace the retainer screw.
-
-## Replacing a 2.5" storage drive:
-
-This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 15 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace a 2.5" storage drive:
-
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Unscrew the single screw holding the 2.5" drive bracket into the case.
-
-![2.5" drive bracket screw](./img/25-bracket-screw.jpg)
-
-3. Slightly lift the loose end of the 2.5" drive and slide it out of the SATA port.
-
-![2.5" drive removal](./img/25-drive-removal.jpg)
-
-4. Unscrew the two screws holding the 2.5" drive into the drive bracket (one on either side.)
-
-![2.5" drive side screw](./img/25-side-screw.jpg)
-
-5. Insert the new 2.5" drive into the drive bracket and replace the two side screws.
-6. Plug the 2.5" drive into the SATA port and set the drive into the case.
-7. Screw the drive bracket back into the case.
 
 ## Replacing the wireless card:
 

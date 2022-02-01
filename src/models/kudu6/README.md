@@ -47,8 +47,7 @@ The System76 Kudu is a laptop with the following specifications:
     - Dedicated microphone 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
-    - 1x M.2 (PCIe NVMe Gen 3)
+    - 2x M.2 (PCIe NVMe Gen 3)
 - USB
     - 1x USB 3.2 Gen 2 Type-C
         - Supports DisplayPort over USB-C

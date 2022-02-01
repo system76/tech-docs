@@ -2,28 +2,28 @@
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.png)
+![Left Ports](./img/ports-left.webp)
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.png)
+![Right Ports](./img/ports-right.webp)
 
 ## Front side overview:
 
-![Front Ports](./img/ports-front.png)
+![Front Ports](./img/ports-front.webp)
 
 ## Back side overview:
 
-![Back Ports](./img/ports-back.png)
+![Back Ports](./img/ports-back.webp)
 
 ## Materials:
 
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Aluminum                |
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Aluminum                |
-|Bottom panel                      |Aluminum                |
+|Part                              |Material       |
+|----------------------------------|---------------|
+|LCD back cover (lid)              |Aluminum       |
+|LCD front cover (bezel)           |Plastic        |
+|Top case (palm rests/port covers) |Plastic        |
+|Bottom panel                      |Plastic        |
 
 ## LED indicators:
 

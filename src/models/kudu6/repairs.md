@@ -10,6 +10,7 @@ Many components in your Kudu can be upgraded or replaced as necessary. Follow th
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the keyboard](#replacing-the-keyboard)
+- [Replacing the DC-in jack](#replacing-the-dc-in-jack)
 
 ## Removing the battery:
 
@@ -117,16 +118,14 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ### Steps to replace the CMOS battery:
 
 1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. If necessary, remove any components that are covering the CMOS battery:
-    - For the 15" model, [remove the M.2 SSD closest to the main battery](#replacing-an-m2nvme-ssd) and [remove the main battery](#replacing-the-battery).
-    - For the 17" model, [remove both M.2 SSDs](#replacing-an-m2nvme-ssd).
+2. Unplug the small white connector that connects the CMOS battery to the motherboard.
+    - If you are replacing the battery, remove any clear tape, then gently pull from the sides to pry it up from where it's stuck to the case.
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
-4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery, [replace the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
-6. Replace the bottom panel and power up the Kudu. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+3. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. Re-connect the CMOS battery, [replace the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
+5. Replace the bottom panel and power up the Kudu. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
@@ -193,16 +192,16 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 2 keyboard screws, indicated by the small keyboard icons.
 
-![Keyboard screws](./img/keyboard-screws.jpg)
+![Keyboard screws](./img/keyboard-screws.webp)
 
 3. Open the lid slightly and place the machine on its side.
 4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
 
-![Keyboard push point](./img/keyboard-push-point.jpg)
+![Keyboard push point](./img/keyboard-push-point.webp)
 
 5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
-![Keyboard ribbon connectors](./img/keyboard-ribbons.jpg)
+![Keyboard ribbon connectors](./img/keyboard-ribbons.webp)
 
 6. Flip the black latches upwards to free the ribbon cables.
 7. Pull the ribbon cables out of the connectors.
@@ -212,3 +211,21 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 11. Place the keyboard back into position, starting with the tabs on the bottom edge.
 12. Secure the rest of the keyboard by pressing down on each of its edges.
 13. Turn the machine lid-side down again and replace the two keyboard screws.
+
+## Replacing the DC-in jack:
+
+If the DC-in jack (power connector) is no longer making contact with the barrel charger, and replacing the charger doesn't fix the issue, the DC-in jack can be replaced.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the DC-in jack:
+
+1. Remove any clear tape securing the internal DC-in cable.
+2. Unscrew the two screws holding the DC-in connector onto the chassis, highlighted cyan below.
+
+![DC-in power connector](./img/power-connector.webp)
+
+3. Unplug the internal DC-in cable from the motherboard.
+4. Plug in the new cable, replace the screws, and (optionally) replace the tape.

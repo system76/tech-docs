@@ -4,17 +4,17 @@
 
 ![Internal Components](./img/components-highlighted.webp)
 
-- Fan connectors are highlighted in orange
 - Webcam/microphone connector is highlighted in cyan
-- Speaker connectors are highlighted in solid yellow
-- Touchpad connector is highlighted in white
-- Wireless card is highlighted in blue
-- DC-in power connector is highlighted in red
-- RAM is highlighted in dotted green
-- BIOS flash chip (U51) is highlighted in black
-- CMOS battery is highlighted in solid green
-- M.2 SSDs are highlighted in dashed yellow
 - LCD panel connector is highlighted in pink
+- DC-in power connector is highlighted in red
+- BIOS flash chip (U51) is highlighted in black
+- Fan connectors are highlighted in orange
+- RAM is highlighted in dotted green
+- M.2 SSDs are highlighted in dotted yellow
+- Wireless card is highlighted in blue
+- Touchpad connector is highlighted in white
+- Speaker connectors are highlighted in solid yellow
+- CMOS battery is highlighted in solid green
 
 ## Under-keyboard components and connectors:
 

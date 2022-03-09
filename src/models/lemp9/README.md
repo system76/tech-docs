@@ -28,7 +28,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - LCD panel: Innolux N140HCA-EAC (or equivalent)
     - External video outputs:
         - 1x HDMI 1.4a
-        - 1x DisplayPort over USB-C
+        - 1x DisplayPort 1.2 over USB-C
 - Memory
     - Channel 0: 8-GB on-board DDR4 [Samsung K4AAG165WA-BCTD](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCTD/)
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM

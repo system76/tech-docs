@@ -6,6 +6,7 @@ Many components on your Adder WS can be upgraded or replaced as necessary. Follo
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
+- [Replacing a 2.5" storage drive](#replacing-a-25-storage-drive)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the external battery](#replacing-the-external-battery)
@@ -124,6 +125,31 @@ M.2 SSDs offer, at minimum, SATA III speeds and performance in a package about t
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
+
+## Replacing a 2.5" storage drive:
+
+This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 12 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
+2. Unscrew the single screw holding the 2.5" drive bracket into the case.
+
+![2.5" drive bracket screw](./img/25-bracket-screw.jpg)
+
+3. Slightly lift the loose end of the 2.5" drive and slide it out of the SATA port.
+
+![2.5" drive removal](./img/25-drive-removal.jpg)
+
+4. Unscrew the two screws holding the 2.5" drive into the drive bracket (one on either side.)
+
+![2.5" drive side screw](./img/25-side-screw.jpg)
+
+5. Insert the new 2.5" drive into the drive bracket and replace the two side screws.
+6. Plug the 2.5" drive into the SATA port and set the drive into the case.
+7. Screw the drive bracket back into the case.
 
 ## Replacing the cooling system:
 

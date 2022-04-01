@@ -134,7 +134,7 @@ This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 **Time estimate:** 12 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps to [remove the battery](#replacing-the-external-battery), [remove the keyboard](#replacing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the single screw holding the 2.5" drive bracket into the case.
 
 ![2.5" drive bracket screw](./img/25-bracket-screw.jpg)

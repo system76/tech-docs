@@ -25,7 +25,7 @@ monitors for Intel ME releases and updates our firmware images as necessary.
 
 **Neutralization**
 
-The Intel ME poses potential security security risks due to its access to the
+The Intel ME poses potential security risks due to its access to the
 system and an inability for users, even including motherboard and firmware
 vendors, to audit the source code of the Intel ME firmware. Disabling all
 functionality of the Intel ME is not possible. Methods for disabling runtime

@@ -9,7 +9,7 @@
 The System76 Galago Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports [Intel 10th Generation (Comet Lake-U) CPUs](https://tech-docs.system76.com/components/intel/cpu/cml-u/README.html)
+    - Supports Intel 10th Generation (Comet Lake-U) CPUs
         - [Core i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html)
         - [Core i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-20-ghz.html)
 - BIOS

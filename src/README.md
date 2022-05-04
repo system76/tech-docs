@@ -5,5 +5,3 @@ be viewed [on GitHub](https://github.com/system76/tech-docs). It is recommended
 to start with one of the model pages, as they link to all relevent information.
 
 - [Models](models/README.md)
-- [Components](components/README.md)
-

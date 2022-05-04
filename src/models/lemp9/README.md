@@ -9,7 +9,7 @@
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports [Intel Comet Lake-U CPUs](../../components/intel/cpu/cml-u/README.md)
+    - Supports Intel Comet Lake-U CPUs
         - [Intel i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html)
         - [Intel i5-10210U](https://ark.intel.com/content/www/us/en/ark/products/195436/intel-core-i5-10210u-processor-6m-cache-up-to-4-10-ghz.html)
 - BIOS

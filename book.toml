@@ -14,3 +14,8 @@ theme = "theme"
 additional-css = ["theme/variables.css"]
 git-repository-url = "https://github.com/system76/tech-docs"
 git-repository-icon = "fa-github"
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 1

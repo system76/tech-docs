@@ -20,9 +20,9 @@ jobs:
 
       - name: Build
         env:
-          MDBOOK_VERSION: 0.3.5
+          MDBOOK_VERSION: 0.4.18
         run: |
-          cargo install mdbook --no-default-features --features output,search --vers ${MDBOOK_VERSION}
+          cargo install mdbook --no-default-features --features search --vers ${MDBOOK_VERSION}
           mdbook build
 
       - name: Setup Hosting

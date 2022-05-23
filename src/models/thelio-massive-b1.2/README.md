@@ -52,7 +52,7 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - Optional Gigabyte Wireless-AC (a/b/g/n/ac) with Bluetooth
 - Power
     - EVGA SuperNOVA 1600W G2 80+ Gold Certified PSU
-    - C19 power cable
+    - C19 power cord
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Optical S/PDIF out

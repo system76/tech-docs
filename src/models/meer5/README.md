@@ -25,11 +25,11 @@ The System76 Meerkat is a desktop with the following specifications:
 - Power
     - i3 and i5 models: 90W (19V, 4.74A) power supply
         - Included AC adapter*: APD DA-90J19
-        - Included AC adapter uses C5 (Cloverleaf) power cord
+            - AC power cord type: IEC C5
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - i7 model: 120W (19V, 6.32A) power supply
         - Included AC adapter*: FSP FSP120-ABBN3
-        - Included AC adapter uses C5 (Cloverleaf) power cord
+            - AC power cord type: IEC C5
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - \* Included AC adapter may be a different model with the same specifications.
 - Sound

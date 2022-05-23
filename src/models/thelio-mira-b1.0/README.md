@@ -60,7 +60,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - 1x 2.5-Gigabit Ethernet (Intel I225-V)
     - Wi-Fi 6 (Intel AX200)
 - Power
-    - C13 power cable
+    - C13 power cord
     - 650W minimum PSU
         - Dual-GPU configurations require 750W or 1000W, depending on GPU power requirements
     - Tested with the following PSU models (may ship with other tested models):

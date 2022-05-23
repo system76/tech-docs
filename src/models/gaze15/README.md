@@ -40,13 +40,13 @@ The System76 Gazelle is a laptop with the following specifications:
 - Power
     - GTX 1650 and 1650 Ti models:
         - 120W AC adapter
-            - Included AC adapter is a Chicony A17-120P1A
-            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Included AC adapter: Chicony A17-120P1A
+                - AC power cord type: IEC C5
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - GTX 1660 Ti model:
         - 180W AC adapter
-            - Included AC adapter is a Chicony A17-180P4A
-            - Included AC adapter uses C5 (Cloverleaf) power cord
+            - Included AC adapter: Chicony A17-180P4A
+                - AC power cord type: IEC C5
             - Barrel size: 5.5mm (outer), 2.5mm (innter)
     - 48.96Wh battery
 - Sound

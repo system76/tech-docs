@@ -29,8 +29,8 @@ The System76 Pangolin is a laptop with the following specifications:
         - [Intel Wi-Fi 6 AX200NGW](https://ark.intel.com/content/www/us/en/ark/products/189347/intel-wi-fi-6-ax200-gig.html)
 - Power
     - 65W (19V, 3.42A) AC adapter
-        - Included AC adapter is a Chicony A18-065N3A
-        - Included AC adapter uses C5 (Cloverleaf) power cord
+        - Included AC adapter: Chicony A18-065N3A
+            - AC power cord type: IEC C5
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - 49Wh 4-cell Lithium-Ion battery (model number NL40BAT-4)
 - Sound

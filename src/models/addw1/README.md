@@ -29,8 +29,8 @@ The System76 Adder WS is a laptop with the following specifications:
     - Up to 64GB dual-channel DDR4 @ 2666 MHz, or
     - Up to 32GB dual-channel DDR4 @ 3000 MHz
 - Power
-    - 230W (19.5V, 11.8A) AC adapter
-        - Included AC adapter: Chicony A17-230P1A
-            - AC power cord type: IEC C13
+    - 230W (19.5V, 11.8A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: Chicony A17-230P1A
+        - AC power cord type: IEC C13
     - Removable 62Wh 6-cell battery

@@ -35,22 +35,22 @@ The System76 Galago Pro is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - Intel-only model:
-        - 65W (19V, 3.42A) AC adapter
-            - Included AC adapter: Chicony A18-065N3A
-                - AC power cord type: IEC C5
+        - 65W (19V, 3.42A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Chicony A18-065N3A
+            - AC power cord type: IEC C5
         - USB-C charging compatible with 65W+ charger
     - NVIDIA 1650/1650 Ti + Intel model:
-        - 90W (19V, 4.74A) AC adapter
-            - Included AC adapter: Chicony A16-090P1A
-                - AC power cord type: IEC C5
+        - 90W (19V, 4.74A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Chicony A16-090P1A
+            - AC power cord type: IEC C5
         - USB-C charging compatible with 90W+ charger
     - NVIDIA 3050 + Intel model:
-        - 120W (19V, 6.15A) AC adapter
-            - Included AC adapter: LiteOn PA-1121-26
-                - AC power cord type: IEC C5
+        - 120W (19V, 6.15A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: LiteOn PA-1121-26
+            - AC power cord type: IEC C5
         - USB-C charging compatible with 120W+ charger
     - 49Wh 4-cell Lithium-Ion battery
 - Sound

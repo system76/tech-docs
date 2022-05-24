@@ -39,14 +39,16 @@ The System76 Serval WS is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - RTX 2070: 230W (19.5V, 11.8A) AC adapter
+    - RTX 2070:
+        - 230W (19.5V, 11.8A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - Included AC adapter: Chicony A17-230P1A
             - AC power cord type: IEC C13
-        - Barrel size: Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - GTX 1660 Ti: 180W (19.5V, 9.23A) AC adapter
+    - GTX 1660 Ti:
+        - 180W (19.5V, 9.23A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - Included AC adapter: Chicony A17-180P4A
             - AC power cord type: IEC C5
-        - Barrel size: Barrel size: 5.5mm (outer), 2.5mm (inner)
     - 62Wh 6-cell battery
 - Sound
     - Internal speakers & microphone

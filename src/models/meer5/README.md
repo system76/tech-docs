@@ -23,14 +23,16 @@ The System76 Meerkat is a desktop with the following specifications:
     - Intel® Ethernet Connection [I219-V](https://ark.intel.com/content/www/us/en/ark/products/82186/intel-ethernet-connection-i219v.html)
     - Intel® Wi-Fi 6 [AX201](https://ark.intel.com/content/www/us/en/ark/products/130293/intel-wi-fi-6-ax201-gig.html) (with Bluetooth 5.2)
 - Power
-    - i3 and i5 models: 90W (19V, 4.74A) power supply
+    - i3 and i5 models:
+        - 90W (19V, 4.74A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - Included AC adapter*: APD DA-90J19
             - AC power cord type: IEC C5
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - i7 model: 120W (19V, 6.32A) power supply
+    - i7 model:
+        - 120W (19V, 6.32A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - Included AC adapter*: FSP FSP120-ABBN3
             - AC power cord type: IEC C5
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - \* Included AC adapter may be a different model with the same specifications.
 - Sound
     - 3.5mm line out/line in combo jack for headsets

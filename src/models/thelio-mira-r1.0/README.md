@@ -63,7 +63,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [EVGA 220-B5-0650 (650W)](https://www.evga.com/products/product.aspx?pn=220-B5-0650-V1)
         - [EVGA 220-G5-0750 (750W)](https://www.evga.com/products/product.aspx?pn=220-G5-0750-X1)
         - [EVGA 220-G5-1000 (1000W)](https://www.evga.com/products/product.aspx?pn=220-G5-1000-X1)
-    - C13 power cable
+    - C13 power cord
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Optical S/PDIF out

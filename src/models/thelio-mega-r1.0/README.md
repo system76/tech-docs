@@ -44,7 +44,7 @@ The System76 Thelio Mega is a desktop with the following specifications:
     - Wi-Fi 6 (Intel AX200)
 - Power
     - EVGA SuperNOVA 1600W T2 80+ Titanium Certified PSU
-    - C19 power cable
+    - C19 power cord
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Optical S/PDIF out

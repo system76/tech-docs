@@ -1,0 +1,78 @@
+# Gazelle (gaze17)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Gazelle](./img/gaze17.webp)
+
+The System76 Gazelle is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel Tiger Lake CPUs
+        - [Intel i7-127000H](https://ark.intel.com/content/www/us/en/ark/products/132228/intel-core-i712700h-processor-24m-cache-up-to-4-70-ghz.html)
+- Chipset
+    - [Intel ???](https://ark.intel.com/content/www/us/en/ark/products/213683/intel-hm570-chipset.html)
+- BIOS
+    - ??? flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+- EC
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - GPU options:
+        - NVIDIA GeForce RTX 3060
+            - TGP: 60W
+        - NVIDIA GeForce RTX 3050 Ti
+            - TGP: 60W
+        - NVIDIA GeForce RTX 3050
+            - TGP: 60W
+    - eDP display options:
+        - 15.6" 1920x1080@144Hz LCD
+            - LCD panel: AUO B156HAN08.4 (or equivalent)
+        - 17.3" 1920x1080@144Hz LCD
+            - LCD panel: LG LP173WFG-SPB3 (or equivalent)
+    - External video output:
+        - RTX 3050 and 3050 Ti models:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.4
+        - RTX 3060 model:
+            - 1x HDMI
+            - 1x Mini DisplayPort 1.2
+            - 1x DisplayPort 1.4 over USB-C
+- Memory
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+- Networking
+    - Gigabit Ethernet (Realtek RTL8111H)
+    - M.2 PCIe/CNVi WiFi/Bluetooth
+        - Intel Wi-Fi 6 AX200/AX201
+- Power
+    - RTX 3050 and 3050 Ti models:
+        - 150W DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Chicony A17-150P2A
+            - AC power cord type: IEC C5
+    - RTX 3060 model:
+        - 180W DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (innter)
+        - Included AC adapter: Chicony A17-180P4A
+            - AC power cord type: IEC C5
+    - 48.96Wh 4-cell battery (model number NH50BAT-4)
+- Sound
+    - Internal speakers & microphone
+    - Combined headphone & microphone 3.5mm jack
+    - Dedicated microphone 3.5mm jack
+    - USB-C DisplayPort (3060 only), HDMI, Mini DisplayPort audio
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 4)
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - 2.5" 7mm SATA drive bay
+    - SD card reader
+- USB
+    - 1x USB 3.2 Gen 2 Type-C
+        - Supports DisplayPort over USB-C on RTX 3060 model only
+        - Does not support USB-C charging (USB-PD) or Thunderbolt
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+    - 1x USB 2.0 Type-A
+- Dimensions
+    - 15": 35.75cm x 23.8cm x 1.98cm, 1.99kg
+    - 17": 39.59cm x 26.495cm x 1.99cm, 2.3kg

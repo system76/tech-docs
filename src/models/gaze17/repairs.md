@@ -49,7 +49,7 @@ The Gazelle 16 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The outer-most slot (farthest away from the fans) supports PCIe NVMe Generation 4, and the inner-most slot (closest to the fans) supports SATA or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. The inner-most slot supports PCIe NVMe Generation 4, and the outer-most slot supports PCIe NVMe Generation 3 or SATA.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

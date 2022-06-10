@@ -14,7 +14,7 @@ The System76 Gazelle is a laptop with the following specifications:
 - Chipset
     - [Intel HM670](https://ark.intel.com/content/www/us/en/ark/products/187451/intel-hm670-chipset.html)
 - BIOS
-    - Macronix MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open) (U55/U56)
+    - Macronix MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - Graphics
@@ -45,12 +45,11 @@ The System76 Gazelle is a laptop with the following specifications:
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
     - Dedicated microphone 3.5mm jack
-    - USB-C DisplayPort (3060 only), HDMI, Mini DisplayPort audio
+    - USB-C DisplayPort, HDMI, Mini DisplayPort audio
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
     - 1x M.2 (PCIe NVMe Gen 3 or SATA)
-    - 2.5" 7mm SATA drive bay
-    - SD card reader
+    - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4
         - Supports DisplayPort over USB-C

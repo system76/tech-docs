@@ -1,81 +1,22 @@
 # Gazelle (External Overview)
 
-## 15" models:
-
 ### Left side:
 
-![15" Left Ports](./img/ports-15-left.webp)
+![17" Left Ports](./img/ports-left-17.webp)
 
 ### Right side:
 
-#### 3050 & 3050 Ti:
-
-![15" Right Ports (3050/3050 Ti)](./img/ports-15-right-3050x.webp)
-
-#### 3060:
-
-![15" Right Ports (3060)](./img/ports-15-right-3060.webp)
+![17" Right Ports (3060)](./img/ports-right-17-3060.webp)
 
 ### Front side:
 
-![15" Front Ports](./img/ports-15-front.webp)
+![17" Front Ports](./img/ports-front-17.webp)
 
 ### Back side:
 
-#### 3050 & 3050 Ti:
-
-![15" Back Ports (3050/3050 Ti)](./img/ports-15-back-3050x.webp)
-
-#### 3060:
-
-![15" Back Ports (3060)](./img/ports-15-back-3060.webp)
-
-## 17" models:
-
-### Left side:
-
-![17" Left Ports](./img/ports-17-left.webp)
-
-### Right side:
-
-#### 3050 & 3050 Ti:
-
-![17" Right Ports (3050/3050 Ti)](./img/ports-17-right-3050x.webp)
-
-#### 3060:
-
-![17" Right Ports (3060)](./img/ports-17-right-3060.webp)
-
-### Front side:
-
-![17" Front Ports](./img/ports-17-front.webp)
-
-### Back side:
-
-#### 3050 & 3050 Ti:
-
-![17" Back Ports (3050/3050 Ti)](./img/ports-17-back-3050x.webp)
-
-#### 3060:
-
-![17" Back Ports (3060)](./img/ports-17-back-3060.webp)
-
-## Lid/chassis design differences:
-
-![15"/17" design comparison](./img/gaze16-sizes.webp)
+![17" Back Ports (3060)](./img/ports-back-17-3060.webp)
 
 ## Materials:
-
-### 15" model:
-
-|Part                              |Material |
-|----------------------------------|---------|
-|LCD back cover (lid)              |Aluminum |
-|LCD front cover (bezel)           |Plastic  |
-|Top case (palm rests/port covers) |Plastic  |
-|Bottom panel                      |Plastic  |
-
-### 17" model:
 
 |Part                              |Material |
 |----------------------------------|---------|

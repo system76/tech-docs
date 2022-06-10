@@ -98,7 +98,7 @@ The battery provides primary power whenever the system is unplugged.
 
 ### Steps to replace the battery:
 
-1. Follow the steps above to remove the bottom cover.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove the five battery screws, highlighted yellow below.
 
 ![Battery](./img/battery.webp)
@@ -139,7 +139,7 @@ Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling
 
 ### Steps to replace the fans/heatsink/thermal paste:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove any clear tape that is securing the fan wires.
 3. Remove the silver heatsink screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #6.
 

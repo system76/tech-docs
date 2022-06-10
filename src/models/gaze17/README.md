@@ -57,7 +57,6 @@ The System76 Gazelle is a laptop with the following specifications:
     - 1x USB 3.2 Gen 2 Type-C
         - Does not support DisplayPort over USB-C, USB-C charging (USB-PD), or Thunderbolt
     - 1x USB 3.2 Gen 2 Type-A
-    - 1x USB 3.2 Gen 1 Type-A
     - 1x USB 2.0 Type-A
 - Dimensions
     - 17": 39.7cm x 26.213cm x 2.489cm, 2.5kg

@@ -164,11 +164,11 @@ Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling
 
 ## Replacing the keyboard:
 
-Keyboard replacement is simple and requires only a cross-head screwdriver.
+The keyboard can be replaced if its switches or electronics have been damaged.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver, tweezers (optional)
+**Time estimate:** 10 minutes  
+**Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the keyboard:
 
@@ -202,4 +202,4 @@ Keyboard replacement is simple and requires only a cross-head screwdriver.
 11. Flip the black latches back into place to secure the ribbon cables.
 12. Place the keyboard back into position, starting with the tabs on the bottom edge.
 13. Secure the rest of the keyboard by pressing down on each of its edges.
-14. Turn the machine lid-side down again and replace the two keyboard screws.
+14. Turn the machine lid-side down again and [replace the bottom cover](#removing-the-bottom-cover).

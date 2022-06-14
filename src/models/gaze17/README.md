@@ -18,9 +18,11 @@ The System76 Gazelle is a laptop with the following specifications:
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - Graphics
-    - GPU options:
+    - Dedicated GPU options:
         - NVIDIA GeForce RTX 3060
             - TGP: 60W
+    - Integrated GPU:
+        - Intel Iris Xe Graphics 
     - eDP display:
         - 17.3" 1920x1080@144Hz LCD
             - LCD panel: AUO B173HAN04.9 (or equivalent)

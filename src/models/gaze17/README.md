@@ -32,7 +32,7 @@ The System76 Gazelle is a laptop with the following specifications:
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking
     - Gigabit Ethernet
-        - Realtek RTL8111H
+        - Realtek [RTL8111H](https://www.realtek.com/en/products/communications-network-ics/item/rtl8111h-s-cg)
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power

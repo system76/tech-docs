@@ -10,6 +10,8 @@
 - Wireless card is highlighted in blue
 - RAM is highlighted in red
 - M.2 SSDs are highlighted in yellow
+    - Innermost slot supports PCIe NVMe Gen 4
+    - Outermost slot supports PCIe NVMe Gen 3 and SATA III
 - CMOS battery connector is highlighted in purple
 - BIOS flash chip is highlighted in black
     <!-- - Labeled U24 on 3050/3050 Ti models -->

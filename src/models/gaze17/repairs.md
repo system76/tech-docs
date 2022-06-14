@@ -31,7 +31,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Gazelle 16 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Gazelle 17 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
@@ -122,9 +122,9 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-4. To clear the CMOS, [disconnect the main battery](replacing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery.
-6. [Reconnect the main battery](replacing-the-battery), [replace the M.2 SSD](#replacing-an-m2nvme-ssd), and [replace the bottom cover](#removing-the-bottom-cover).
+6. [Reconnect the main battery](#replacing-the-battery), [replace the M.2 SSD](#replacing-an-m2nvme-ssd), and [replace the bottom cover](#removing-the-bottom-cover).
 7. Power up the Gazelle. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:

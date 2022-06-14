@@ -37,7 +37,7 @@ The System76 Gazelle is a laptop with the following specifications:
         - Intel Wi-Fi 6 AX200/AX201
 - Power
     - 180W DC-in port
-        - Barrel size: 5.5mm (outer), 2.5mm (innter)
+        - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: LiteOn PA-1181-76
         - AC power cord type: IEC C5
     - 54Wh 4-cell battery (model number NP50BAT-4-54)

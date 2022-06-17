@@ -27,9 +27,10 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
   - 1 x System status LED
 - Back Overview:
   - 3 x USB 3.0
-  - 1 x VGA, 1 x COM
+  - 1 x VGA
+  - 1 x COM
   - 2 x RJ45
-  - 1 x MLAN
+  - 1 x [MLAN](./elan1-r2_manual.pdf#page=128)
   - 1 x ID button with LED
 - Power Supply
   - 2 x 1100W redundant power supply, 80 PLUS Platinum

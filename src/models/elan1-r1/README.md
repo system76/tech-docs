@@ -14,22 +14,20 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
   - 1x 10/100/1000 management LAN
 - Expansion
   - 1x PCIe 4.0 x16
-- Ports
-  - Front: 2 x USB 3.0
-    - 1 x Power button with LED
-    - 1 x ID button with LED
-    - 1 x NMI button
-    - 1 x Reset button
-  - Rear: 3 x USB 3.0
-    - 1 x VGA, 1 x COM
-    - 2 x RJ45, 1 x MLAN
-- LED headers
-  - Front:
-    - 2 x LAN activity LEDs
-    - 1 x HDD activity LED
-    - 1 x System status LED
-  - Rear:
-    - 1 x ID button with LED
+- Front Overview:
+  - 2 x USB 3.0
+  - 1 x Power button with LED
+  - 1 x ID button with LED
+  - 1 x NMI button
+  - 1 x Reset button
+  - 2 x LAN activity LEDs
+  - 1 x HDD activity LED
+  - 1 x System status LED
+- Back Overview:
+  - 3 x USB 3.0
+  - 1 x VGA, 1 x COM
+  - 2 x RJ45, 1 x MLAN
+  - 1 x ID button with LED
 - Power Supply
   - 2 x 650W redundant PSUs, 80 PLUS Platinum
   - AC Input: 100-240Vac/ 10-5A, 50-60Hz
@@ -38,4 +36,4 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
 - Weight
   - 17.24 kg
 - Model
-  - elan1-r1 - [Gigabyte R152-Z3{1,2,3}](./chassis-manual.pdf)
+  - elan1-r1 - [Gigabyte R152-Z3{1,2,3}](./elan1-r1_manual.pdf)

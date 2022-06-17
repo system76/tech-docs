@@ -9,6 +9,8 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
   - Single processor
 - Memory
   - Up to 4096GB (16x256GB) ECC DDR4 @ 3200 MHz
+- Storage
+  - 4 x 3.5" SATA hot-swappable HDD/SSD bays, 2.5" HDD/SSD supported  
 - Networking
   - 2x 1GbE LAN ports ([1 x Intel® I350-AM2](https://ark.intel.com/content/www/us/en/ark/products/52968/intel-ethernet-controller-i350am2.html))
   - 1x 10/100/1000 management LAN
@@ -36,4 +38,4 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
 - Weight
   - 17.24 kg
 - Model
-  - elan1-r1 - [Gigabyte R152-Z3{1,2,3}](./elan1-r1_manual.pdf)
+  - elan1-r1 - [Gigabyte R152-Z3{0,1,2}](./elan1-r1_manual.pdf)

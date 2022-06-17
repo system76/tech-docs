@@ -9,6 +9,7 @@ This documentation includes the following System76 models:
 - [Bonobo WS (bonw14)](bonw14/README.md)
 - [Darter Pro (darp7)](darp7/README.md)
 - [Eland 1U (elan1-r1)](elan1-r1/README.md)
+- [Eland 1U (elan1-r2)](elan1-r2/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
 - [Gazelle (gaze17)](gaze17/README.md)
 - [Kudu (kudu6)](kudu6/README.md)

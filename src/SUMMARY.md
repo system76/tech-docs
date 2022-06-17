@@ -15,6 +15,7 @@
         - [Internal Overview](models/darp7/internal-overview.md)
         - [Parts & Repairs](models/darp7/repairs.md)
     - [Eland 1U (elan1-r1)](models/elan1-r1/README.md)
+    - [Eland 1U (elan1-r2)](models/elan1-r2/README.md)
     - [Galago Pro (galp5)](models/galp5/README.md)
         - [External Overview](models/galp5/external-overview.md)
         - [Internal Overview](models/galp5/internal-overview.md)

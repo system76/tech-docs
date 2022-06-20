@@ -42,4 +42,4 @@ The System76 Eland Pro 1U is a rack-mount server with the following specificatio
 - Weight
   - 22 kg
 - Model
-  - elap1-r2 - [Gigabyte R182-Z93}](./elan1-r1_manual.pdf)
+  - elap1-r2 - [Gigabyte R182-Z93](./elan1-r1_manual.pdf)

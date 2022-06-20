@@ -31,14 +31,14 @@ The System76 Eland Pro 1U is a rack-mount server with the following specificatio
   - 3 x USB 3.0
   - 1 x VGA
   - 2 x RJ45
-  - 1 x [MLAN](./elan1-r1_manual.pdf#page=136)
+  - 1 x [MLAN](./elap1-r1_manual.pdf#page=143)
   - 1 x ID button with LED
 - Power Supply
   - 2 x 1200W redundant PSUs, 80 PLUS Platinum
   - AC Input: 100-240Vac/ 12-7A, 50-60Hz
 - Dimensions
-  - 43.8cm × 73.0cm × 43.5cm
+  - 43.8cm × 73.0cm × 4.35cm
 - Weight
   - 20.32 kg
 - Model
-  - elap1-r1 - [Gigabyte R182-Z9{0,1,2}](./elan1-r1_manual.pdf)
+  - elap1-r1 - [Gigabyte R182-Z9{0,1,2}](./elap1-r1_manual.pdf)

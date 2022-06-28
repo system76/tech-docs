@@ -7,7 +7,7 @@ This documentation includes the following System76 models:
 
 - [Adder WS (addw2)](addw2/README.md)
 - [Bonobo WS (bonw14)](bonw14/README.md)
-- [Darter Pro (darp7)](darp7/README.md)
+- [Darter Pro (darp8)](darp8/README.md)
 - [Galago Pro (galp5)](galp5/README.md)
 - [Gazelle (gaze17)](gaze17/README.md)
 - [Kudu (kudu6)](kudu6/README.md)
@@ -26,6 +26,7 @@ This documentation includes the following System76 models:
 ## Previous Models
 
 - [Adder WS (addw1)](addw1/README.md)
+- [Darter Pro (darp7)](darp7/README.md)
 - [Darter Pro (darp6)](darp6/README.md)
 - [Galago Pro (galp4)](galp4/README.md)
 - [Gazelle (gaze16)](gaze16/README.md)

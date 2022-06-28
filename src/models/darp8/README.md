@@ -9,13 +9,13 @@
 The System76 Darter Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 11th Generation (Tiger Lake) CPUs
-        - [Core i7-1165G7](https://ark.intel.com/content/www/us/en/ark/products/208921/intel-core-i7-1165g7-processor-12m-cache-up-to-4-70-ghz-with-ipu.html)
-        - [Core i5-1135G7](https://ark.intel.com/content/www/us/en/ark/products/208922/intel-core-i5-1135g7-processor-8m-cache-up-to-4-20-ghz-with-ipu.html)
+    - Supports Intel 12th Generation (Alder Lake) CPUs
+        - [Core i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
+        - [Core i5-1240P](https://ark.intel.com/content/www/us/en/products/sku/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
 - BIOS
-    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - GD25B256E flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570E running [System76 EC](https://github.com/system76/ec) or non-open EC firmware
+    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU: Intel Iris Xe Graphics
     - eDP display: 15.6" 1920x1080@60Hz LCD
@@ -24,8 +24,8 @@ The System76 Darter Pro is a laptop with the following specifications:
             - BOE NV156FHM-N4H
             - or other equivalent
     - External video outputs:
-        - 1x HDMI
-        - 1x DisplayPort 1.4 over USB-C
+        - 1x HDMI 2.1
+        - 1x DisplayPort 1.4b over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

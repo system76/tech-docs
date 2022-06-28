@@ -2,11 +2,11 @@
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.png)
+![Left Ports](./img/ports-left.webp)
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.png)
+![Right Ports](./img/ports-right.webp)
 
 ## Front side overview:
 
@@ -55,3 +55,4 @@
 |/                          |Fn+/    |Cycle keyboard color               |
 |-                          |Fn+-    |Decrease keyboard brightness       |
 |+                          |Fn++    |Increase keyboard brightness       |
+|1                          |Fn+1    |Toggle fan between max/automatic   |

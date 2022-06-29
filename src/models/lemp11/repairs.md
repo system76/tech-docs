@@ -26,13 +26,13 @@ Removing the cover is required to access the internal components. Prior to remov
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 12 screws from the bottom panel.
 
-![Bottom case screws](./img/bottom-screws.jpg)
+![Bottom case screws](./img/bottom-screws.webp)
 
 3. Lift the bottom cover off, starting from the hinges and working towards the front.
 
 ## Replacing the RAM
 
-The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. The additional stick is a standard DDR4 SO-DIMM running at 3200 MHz.
+The Lemur Pro 11 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. The additional stick is a standard DDR4 SO-DIMM running at 3200 MHz.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
@@ -43,14 +43,14 @@ The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cann
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
-![RAM tabs](./img/ram-tabs.jpg)
+![RAM tabs](./img/ram-tabs.webp)
 
 3. Remove the RAM from the slot.
 4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supports PCIe NVMe Gen 4, and SSD-2 supports SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supports SATA III or PCIe NVMe Generation 3, and SSD-2 supports PCIe NVMe Gen 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
@@ -59,9 +59,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. SSD-1 supp
 ### Steps to replace the M.2 drive:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the M.2 drives (or slots.) The SSD-1 slot is above the battery (highlighted yellow here), while the SSD-2 slot is next to the battery (highlighted green).
+2. Locate the M.2 drives (or slots.) The SSD-1 slot is between the battery and the speaker, while the SSD-2 slot is next to the RAM slot.
 
-![M.2 slots](./img/m2-slots.jpg)
+![M.2 slots](./img/m2-slots.webp)
 
 3. Unscrew the retainer screw opposite the M.2 slot.
 4. Remove the existing M.2 drive by pulling it out of the slot.
@@ -82,10 +82,11 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Disconnect the small connector plugging the fan into the motherboard, highlighted yellow below.
+    - This can alternatively be done after the fan/heatsink is removed.
 
-![Heatsink/fan screws](./img/thermal-system.jpg)
+![Heatsink/fan screws](./img/thermal-system.webp)
 
-4. Remove the two fan screws (highlighted red above) and any clear tape holding the fan in place.
+4. Remove the two fan screws (highlighted cyan above) and any clear tape holding the fan in place.
 5. Remove the heatsink screws in reverse order, starting with #3, then #2, and finally #1.
 6. Remove the heatsink/fan from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.
 7. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
@@ -94,7 +95,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 8. After cleaning the CPU and heatsink, apply a small line of thermal paste directly onto the CPU.
 
-![Thermal paste application](./img/thermal-paste-application.jpg)
+![Thermal paste application](./img/thermal-paste-application.webp)
 
 9. Carefully replace the fan and heat sink.
 10. Replace the heatsink screws, starting with #1, then #2, and finally #3.
@@ -116,7 +117,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 3. Remove any clear tape that is securing the battery, then pull the battery away from the adhesive holding it to the case.
     - If you are only clearing the CMOS and are not replacing the CMOS battery, removing the SSD and CMOS battery is optional, but will make it easier to unplug the CMOS battery connector.
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
 4. Unplug the white connector attaching the CMOS battery to the motherboard.
 5. To clear the CMOS, [disconnect the main battery](#replacing-the-main-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
@@ -136,7 +137,7 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card (next to the CPU fan.) Remove any clear tape that is securing the wires.
 
-![Wireless card](./img/wireless-card.jpg)
+![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
@@ -183,13 +184,12 @@ The battery provides primary power whenever the system is unplugged.
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector that connects the battery to the motherboard.
 
-![Main battery](./img/battery.jpg)
+![Main battery](./img/battery.webp)
 
 3. Remove the battery.
     - The battery is secured to foam standoffs with double-sided tape.
     - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
-    - If any tabs from the tape are visible around the perimeter of the battery, hold them down while inserting the plastic tool so they don't get pushed back under the battery.
-
-![Battery tape](./img/battery-tape.jpg)
-
+    - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery.
+        - Hold the tabs down while inserting the plastic tool to separate the tape and foam from the battery.
+        - Alternatively, pull the tabs up with the battery to separate the tape and foam from the chassis.
 4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.

@@ -131,7 +131,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Peel back the black tape holding the fan to the chassis, and remove any clear tape that is securing the wires.
 3. Unplug the black fan connector.
-    - This can also be done after removing the fan/heatsink from the system.
+    - This can alternatively be done after the fan/heatsink is removed.
 4. Remove the seven heatsink/fan screws in order, starting with #1, then #2, and so on until #7.
 
 ![Thermal screws](./img/thermal-system.webp)
@@ -202,7 +202,9 @@ The battery provides primary power whenever the system is unplugged.
 3. Remove the battery.
     - The battery is secured to foam standoffs with double-sided tape.
     - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
-    - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery. Either hold them down while inserting the plastic tool to separate the foam from the battery, or pull them up with the battery to separate the foam from the chassis.
+    - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery.
+        - Hold the tabs down while inserting the plastic tool to separate the tape and foam from the battery.
+        - Alternatively, pull the tabs up with the battery to separate the tape and foam from the chassis.
 
 ![Battery tape](./img/battery-tape.webp)
 

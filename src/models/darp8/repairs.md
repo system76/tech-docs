@@ -48,11 +48,11 @@ The Darter Pro 8 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MH
 ![RAM slots](./img/ram-slots.webp)
 
 3. Remove the RAM from the slot.
-4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down until it clicks into place.
+4. Insert the new RAM (or reseat the existing RAM) by placing it into the keyed slot and pressing down until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Gen 3 or SATA III, while SSD-2 supports PCIe NVMe Gen 4.
+This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Generation 3 or SATA III, while SSD-2 supports PCIe NVMe Generation 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -118,9 +118,9 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 The Darter Pro 8 has a single fan and heatsink to cool the CPU. The fan and heatsink are a single part (they should not be replaced separately from one another.)
 
-If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. Contact support to start a warranty claim or parts purchase.
 
-Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
+Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
 **Time estimate:** 20 minutes  
@@ -150,7 +150,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ## Replacing the keyboard:
 
-The keyboard can be replaced using the instructions below.
+The keyboard can be replaced if its switches or electronics have been damaged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -189,7 +189,7 @@ The battery provides primary power whenever the system is unplugged.
 **CAUTION:** Do not use metal tools to remove the battery. Do not touch the battery contacts with your hands or metal objects. If the battery is damaged during repairs, do not reinsert it into the laptop. Do not continue to use the computer if it contains a damaged battery. It is a potential fire hazard to operate a computer with a damaged battery. Keep children away from, and properly dispose of, the damaged battery. Always dispose of batteries carefully, by placing a piece of tape on the contact points. Take damaged batteries to an electronics recycling center and contact System76 to purchase a replacement. Batteries may explode or leak if exposed to fire, or if improperly handled or discarded. Only use batteries designed for your specific computer. This product contains a rechargeable battery. The battery is recyclable. At the end of its useful life, under various state and local laws, it may be illegal to dispose of this battery into the municipal waste stream. Check with your local solid waste officials for details in your area for recycling options or proper disposal.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 20 minutes  
+**Time estimate:** 30 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the battery:

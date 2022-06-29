@@ -45,11 +45,13 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - HDMI, USB-C DisplayPort audio
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
-    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
     - MicroSD card reader (RTS5227S)
 - USB
     - 1x USB Type-C with Thunderbolt 4
-    - 1x USB 3.1 (3.2 Gen 2) Type-A
-    - 1x USB 3.0 (3.2 Gen 1) Type-A
-- Webcam
-    - 1080p CCD camera
+        - Supports DisplayPort over USB-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 1.65cm x 32.2cm x 21.68cm, 1.15kg

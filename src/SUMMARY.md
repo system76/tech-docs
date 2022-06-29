@@ -1,6 +1,5 @@
 # Summary
 
-[Introduction](README.md)
 - [Current Models](models/README.md)
     - [Adder WS (addw2)](models/addw2/README.md)
         - [External Overview](models/addw2/external-overview.md)

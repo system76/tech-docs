@@ -2,15 +2,15 @@
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.png)
+![Left Ports](./img/ports-left.webp)
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.png)
+![Right Ports](./img/ports-right.webp)
 
 ## Front side overview:
 
-![Front Ports](./img/ports-front.png)
+![Front Ports](./img/ports-front.webp)
 
 ## Back side overview:
 
@@ -20,7 +20,25 @@
 
 The machine has two bottom-firing speakers near the front, angled outward.
 
-![Bottom Ports](./img/ports-bottom.jpg)
+![Bottom Ports](./img/ports-bottom.webp)
+
+## Materials:
+
+|Part                              |Material                |
+|----------------------------------|------------------------|
+|LCD back cover (lid)              |Magnesium-aluminum alloy|
+|LCD front cover (bezel)           |Plastic                 |
+|Top case (palm rests/port covers) |Magnesium-aluminum alloy|
+|Bottom panel                      |Magnesium-aluminum alloy|
+
+## LED indicators
+
+There is an LED light next to the DC-in connector (charger port.) The color and pattern indicate:
+
+- **Solid green:** Powered on and not suspended.
+- **Flashing green:** Powered on and suspended.
+- **Solid yellow:** Powered off and charging.
+- **Off:** Powered off and not charging.
 
 ## Keyboard Shortcuts
 
@@ -42,12 +60,3 @@ The Lemur Pro has the following actions available using the Fn and Function keys
 |![Fn-F12](./img/fn-f12.png)   |Fn+F12  |Suspend                            |
 |![Fn-accent](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
 |1                             |Fn+1    |Toggle fan between max/automatic   |
-
-## LED indicators
-
-There is an LED light next to the DC-in connector (charger port.) The color and pattern indicate:
-
-- **Solid green:** Powered on and not suspended.
-- **Flashing green:** Powered on and suspended.
-- **Solid yellow:** Powered off and charging.
-- **Off:** Powered off and not charging.

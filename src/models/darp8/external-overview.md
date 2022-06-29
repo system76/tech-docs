@@ -16,6 +16,15 @@
 
 ![Back Ports](./img/ports-back.webp)
 
+## Materials:
+
+|Part                              |Material                |
+|----------------------------------|------------------------|
+|LCD back cover (lid)              |Magnesium-aluminum alloy|
+|LCD front cover (bezel)           |Plastic                 |
+|Top case (palm rests/port covers) |Plastic                 |
+|Bottom panel                      |Magnesium-aluminum alloy|
+
 ## LED indicators:
 
 |Icon                                    |Color          |Description                                      |
@@ -25,15 +34,6 @@
 |                                        |Blinking green |Sleeping (suspended)                             |
 |![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                                 |
 |                                        |Green          |Battery fully charged                            |
-
-## Materials:
-
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Magnesium-aluminum alloy|
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Plastic                 |
-|Bottom panel                      |Magnesium-aluminum alloy|
 
 ## Keyboard shortcuts:
 

@@ -1,19 +1,19 @@
-# Lemur Pro (lemp10)
+# Lemur Pro (lemp11)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Lemur Pro](./img/lemp10.png)
+![Lemur Pro](./img/lemp11.webp)
 
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 11th Generation (Tiger Lake-U) CPUs
-        - [Core i7-1165G7](https://ark.intel.com/content/www/us/en/ark/products/208921/intel-core-i7-1165g7-processor-12m-cache-up-to-4-70-ghz-with-ipu.html)
-        - [Core i5-1135G7](https://ark.intel.com/content/www/us/en/ark/products/208922/intel-core-i5-1135g7-processor-8m-cache-up-to-4-20-ghz-with-ipu.html)
+    - Supports Intel 12th Generation (Alder Lake) CPUs
+        - [Core i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
+        - [Core i5-1240P](https://ark.intel.com/content/www/us/en/ark/products/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
 - BIOS
-    - GD25B127D flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
 - Graphics
@@ -22,7 +22,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - eDP display: 14.0" 1920x1080@60Hz LCD
         - LCD panel: Innolux N140HCE-EN2 (or equivalent)
     - External video outputs:
-        - 1x HDMI
+        - 1x HDMI 2.1
         - 1x DisplayPort 1.4 over USB-C
 - Memory
     - Channel 0: 8-GB on-board DDR4
@@ -38,19 +38,18 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - AC power cord type: IEC C7 (non-polarized)
     - USB-C charging compatible with 65W+ charger
     - 73Wh 4-cell Lithium-Ion battery
-    - [TI BQ24780S Battery Charger](https://www.ti.com/product/BQ24780S)
 - Sound
-    - Realtek ALC293D
+    - Realtek ALC256-CGT
     - Internal speakers & microphone
     - 3.5mm headphone/microphone combo jack
     - HDMI, USB-C DisplayPort audio
 - Storage
-    - M.2 (PCIe NVMe Gen 4) SSD-1
-    - M.2 (PCIe NVMe Gen 3 or SATA) SSD-2
+    - 1x M.2 (PCIe NVMe Gen 4)
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
     - MicroSD card reader (RTS5227S)
 - USB
     - 1x USB Type-C with Thunderbolt 4
-    - 1x USB 3.1 (3.1 Gen 2) Type-A
+    - 1x USB 3.1 (3.2 Gen 2) Type-A
     - 1x USB 3.0 (3.2 Gen 1) Type-A
 - Webcam
-    - 1280x720 CCD camera
+    - 1080p CCD camera

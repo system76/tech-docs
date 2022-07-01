@@ -1,6 +1,6 @@
 # Summary
 
-- [Current Models](models/README.md)
+- [Current Models](README.md)
     - [Adder WS (addw2)](models/addw2/README.md)
         - [External Overview](models/addw2/external-overview.md)
         - [Internal Overview](models/addw2/internal-overview.md)
@@ -48,7 +48,7 @@
         - [External Overview](models/serw12/external-overview.md)
         - [Internal Overview](models/serw12/internal-overview.md)
         - [Parts & Repairs](models/serw12/repairs.md)
-    - [Thelio Major (Intel and AMD)](models/thelio-major-intel-and-amd/README.md)
+    - [Thelio Major (thelio-major-b2/r2)](models/thelio-major-intel-and-amd/README.md)
         - [External Overview](models/thelio-major-intel-and-amd/external-overview.md)
         - [Internal Overview](models/thelio-major-intel-and-amd/internal-overview.md)
         - [Parts & Repairs](models/thelio-major-intel-and-amd/repairs.md)
@@ -68,7 +68,7 @@
         - [External Overview](models/thelio-mira-r1.0/external-overview.md)
         - [Internal Overview](models/thelio-mira-r1.0/internal-overview.md)
         - [Parts & Repairs](models/thelio-mira-r1.0/repairs.md)
-- [Previous Models](models/README.md)
+- [Previous Models](README.md)
     - [Adder WS (addw1)](models/addw1/README.md)
         - [External Overview](models/addw1/external-overview.md)
         - [Internal Overview](models/addw1/internal-overview.md)

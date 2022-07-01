@@ -25,8 +25,8 @@ Removing the cover is required to access the internal components. Prior to remov
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 16 bottom panel screws:
     - 12 perimeter screws (thin), highlighted green below.
-    - 2 keyboard screws (thicker), highlighted yellow.
-    - 2 inner hinge screws (thickest), highlighted red.
+    - 2 keyboard screws (thick), highlighted yellow.
+    - 2 inner hinge screws (thick), highlighted red.
 
 ![Bottom panel screws](./img/bottom-screws.webp)
 
@@ -70,7 +70,7 @@ This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
 5. Replace the retainer screw.
-6. If a square brace was present on the old drive, transfer it to the new drive.
+6. If a square thermal pad was present on the old drive, transfer it to the new drive.
 
 ## Replacing the wireless card:
 

@@ -10,8 +10,8 @@ The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
     - Supports Intel 12th Generation (Alder Lake) CPUs
-        - [Core i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
-        - [Core i5-1240P](https://ark.intel.com/content/www/us/en/ark/products/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
+        - [Core i7-1255U](https://ark.intel.com/content/www/us/en/ark/products/226259/intel-core-i71255u-processor-12m-cache-up-to-4-70-ghz.html)
+        - [Core i5-1235U](https://ark.intel.com/content/www/us/en/ark/products/226261/intel-core-i51235u-processor-12m-cache-up-to-4-40-ghz.html)
 - BIOS
     - MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC

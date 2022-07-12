@@ -1,23 +1,22 @@
-# Launch (Customization & Repairs)
+# Launch Lite (Customization & Repairs)
 
-The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
+The Launch Lite Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
 
-- [Connecting and using Launch](#connecting-and-using-launch)
+- [Connecting and using Launch Lite](#connecting-and-using-launch-lite)
 - [Removing and installing keycaps](#removing-and-installing-keycaps)
 - [Removing and installing switches](#removing-and-installing-switches)
 - [Removing the PCB](#removing-the-pcb)
 
 ## Connecting and using Launch:
 
-![Launch ports](./img/launch-middle-port.png)
+![Launch Lite port](./img/launch-lite-port.png)
 
-1. Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch's center USB-C port, shown above.
+1. Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch Lite's USB-C port, shown above.
 2. Connect the other side of the cable to your computer.
-3. Connect any other USB devices to the four downstream USB ports on either side of the Launch.
 
 ## Removing and installing keycaps:
 
-Launch uses only three sizes of uniform profile keycaps, which allows for a high degree of customization. Any two keycaps of the same size can be swapped on the keyboard, and several extras are included in the box. 
+Launch Lite uses only three sizes of uniform profile keycaps, which allows for a high degree of customization. Any two keycaps of the same size can be swapped on the keyboard, and several extras are included in the box. 
 
 **Tools required:** Keycap puller  
 **Time estimate:** 20 minutes (to replace all keycaps)  
@@ -33,7 +32,7 @@ Launch uses only three sizes of uniform profile keycaps, which allows for a high
 
 #### Notes about removing larger keycaps:
 
-- The included keycap puller works on all three of Launch's keycap sizes.
+- The included keycap puller works on all three of Launch Lite's keycap sizes.
 - The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
     - These 2U keycaps take slightly more pulling force than the rest of the keycaps.
 
@@ -49,9 +48,9 @@ Launch uses only three sizes of uniform profile keycaps, which allows for a high
 
 ## Removing and installing switches:
 
-Since Launch uses Kailh hot swap sockets, key switches can be removed and installed without soldering. 
+Since Launch Lite uses Kailh hot swap sockets, key switches can be removed and installed without soldering. 
 
-If you are changing all of the switches in your Launch, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and makes bending switch pins or damaging the PCB much less likely.
+If you are changing all of the switches in your Launch Lite, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and makes bending switch pins or damaging the PCB much less likely.
 
 If you are installing new switches, ensure that the switches you're installing are compatible with surface-mount (SMD) LEDs.
 
@@ -96,7 +95,7 @@ If you are installing new switches, ensure that the switches you're installing a
 **Time estimate:** 50 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-If the PCB in your Launch Lite becomes damaged and needs to be replaced, or if you are changing all of the switches on the PCB, it can be removed and replaced using these instructions.
+If the PCB in your Launch becomes damaged and needs to be replaced, or if you are changing all of the switches on the PCB, it can be removed and replaced using these instructions.
 
 ### Steps to remove the PCB:
 

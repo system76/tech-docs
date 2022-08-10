@@ -202,9 +202,9 @@ _**Below:** Heat-conductive metal application on the CPU chip and the GPU heatsi
 
 ![Thermal paste border](./img/thermal-paste-borders.webp)
 
-11. Carefully replace the heatsink.
-12. Tighten the fan and heatsink screws, starting with #1, then #2, and so on until #12.
-13. Plug the two white fan connectors back into the motherboard.
+12. Carefully replace the heatsink.
+13. Tighten the fan and heatsink screws, starting with #1, then #2, and so on until #12.
+14. Plug the two white fan connectors back into the motherboard.
 
 ## Replacing the keyboard:
 

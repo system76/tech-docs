@@ -174,6 +174,7 @@ Replacement heat-conductive metal fitted to the machine and replacement fans can
 
 8. If you are replacing the heat-conductive metal, remove the plastic covers from the GPU heatsink and the CPU chip.
     - A fingernail or a thin plastic tool can be used to pick a side of the plastic cover up from the CPU chip/GPU heatsink.
+    - **Warning:** The heat-conductive metal is electrically conductive. Be careful not to get specks of heat-conductive metal onto the motherboard. The heat-conductive metal can cause the motherboard to malfunction or fail if it makes contact.
     - After removing the plastic covers, wipe away any remaining heat-conductive metal residue from the heatsink, dedicated GPU die, and main CPU die.
     - Some adhesive residue may remain on the GPU heatsink and CPU chip.
 

@@ -52,6 +52,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
     - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
+    - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4
         - Supports DisplayPort over USB-C

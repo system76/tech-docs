@@ -9,6 +9,7 @@ Many components in your Oryx Pro can be upgraded or replaced as necessary. This 
 - [Replacing the battery](#replacing-the-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the speakers](#replacing-the-speakers)
 - [Replacing the keyboard](#replacing-the-keyboard)
 
 ## Removing the bottom cover:
@@ -207,34 +208,47 @@ _**Below:** Heat-conductive metal application on the CPU chip and the GPU heatsi
 13. Tighten the fan and heatsink screws, starting with #1, then #2, and so on until #12.
 14. Plug the two white fan connectors back into the motherboard.
 
+## Replacing the speakers:
+
+The system has two bottom-firing speakers, which can be removed and replaced individually.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the speakers:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Disconnect the speaker wire from the motherboard.
+    - This can alternatively be done after freeing the speaker.
+
+![Speaker screws and connectors](./img/speakers.webp)
+
+3. Unscrew the speaker screws and lift the speaker out of the machine.
+    - The right speaker has three screws; the left speaker has two screws.
+    - The speaker wire may be partially routed behind other components or tape; be careful when removing it.
+
 ## Replacing the keyboard:
 
 The keyboard can be replaced if its switches or electronics have been damaged.
 
-**Tools required:** Cross-head (Phillips) screwdriver, tweezers (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver, tweezers  
 **Time estimate:** 10 minutes  
-**Difficulty:** High <span style="color:red;">●</span>
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the keyboard:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the keyboard adhesive strip near the right fan.
-    - The end of the adhesive strip may extend out of the adhesive access rectangle.
+2. Locate the keyboard adhesive strip access point near the right fan.
 
-![Keyboard adhesive access point](./img/keyboard-adhesive.webp)
+![Keyboard adhesive access point](./img/keyboard-adhesive-access.webp)
 
 3. Using a pair of tweezers, pull out the end of the adhesive strip.
 
 ![Keyboard adhesive removal](./img/keyboard-adhesive-removal.webp)
 
-- Alternatively, to remove the keyboard without tweezers, [remove the fan](#replacing-the-cooling-system) so the adhesive is exposed, then pull it away from the keyboard.
-    - This method is not recommended unless you are also replacing the thermal paste.
-
-![Keyboard adhesive behind fan](./img/keyboard-adhesive-exposed.webp)
-
 4. Open the lid slightly and place the machine on its side.
 5. Push a screwdriver into the adhesive slot until the keyboard pops out.
-    - If the fan has been removed, the keyboard can also be pushed out from behind the fan blade cutouts.
 
 ![Keyboard push point](./img/keyboard-push-point.webp)
 
@@ -250,4 +264,4 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 12. Place the keyboard back into position, starting with the tabs on the bottom edge.
 13. Secure the rest of the keyboard by pressing down on each of its edges.
 14. Turn the machine lid-side down again and press the adhesive strip back into its slot.
-    - The visible end of the adhesive strip does not need to completely go back into place; the keyboard is primarily held in place by the perimeter clips and the non-visible section of adhesive.
+    - The keyboard is primarily held in place by the perimeter clips and the keyboard screw (one of the bottom panel screws). The adhesive strip can optionally be removed to make future keyboard removal easier.

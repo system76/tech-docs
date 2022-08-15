@@ -14,9 +14,12 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Chipset
     - [Intel HM570check](https://ark.intel.com/content/www/us/en/ark/products/213683/intel-hm570-chipset.html)
 - BIOS
-    - GD25B127Dcheck flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - Macronix MX25L25673GZ4I-08G flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 3080 Ti (Max-Q)
@@ -25,9 +28,9 @@ The System76 Oryx Pro is a laptop with the following specifications:
             - TGP: 80W
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
-            - LCD panel: LG LP156WFG-SPB3 (or equivalent)
+            - LCD panel: LG LP156WFG-SPB1 (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
-            - LCD panel: LG LP173WFG-SPB3 (or equivalent)
+            - LCD panel: LG LP173WFG-SPB1 (or equivalent)
     - External video output:
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
@@ -41,8 +44,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Power
     - 230W (19.5V, checkA) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Lite-On PA-1181-16check
-        - AC power cord type: IEC C5
+    - Included AC adapter: Lite-On PA-1231-26
+        - AC power cord type: IEC C13
     - 80Wh 6-cell battery
 - Sound
     - Internal speakers & microphone
@@ -50,14 +53,14 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - Combined microphone & S/PDIF (optical) 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 4)
-    - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
+    - 2x M.2 (PCIe NVMe Gen 4)
     - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4
         - Supports DisplayPort over USB-C
         - Does not support USB-C charging (USB-PD)
-    - 3x USB 3.2 Gen 1 Type-A
+    - 1x USB 3.2 Gen 2 Type-C
+    - 2x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 15": 35.75cm x 23.8cm x 1.98cm, 1.99kg
-    - 17": 39.59cm x 26.495cm x 1.99cm, 2.3kg
+    - 15": 35.814cm x 24.003cm x 2.489cm, 1.99kg
+    - 17": 39.599cm x 26.213cm x 2.489cm, 2.3kg

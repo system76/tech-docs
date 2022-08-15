@@ -218,7 +218,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ### Steps to replace the speakers:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). For the right speaker, also [remove the outermost SSD](#replacing-an-m2nvme-ssd).
 2. Disconnect the speaker wire from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
@@ -227,6 +227,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 3. Unscrew the speaker screws and lift the speaker out of the machine.
     - The right speaker has three screws; the left speaker has two screws.
     - The speaker wire may be partially routed behind other components or tape; be careful when removing it.
+4. Place the new speaker in the machine, plug in the connector, replace the screws, and reinstall the outermost SSD (if necessary) and bottom panel.
 
 ## Replacing the keyboard:
 

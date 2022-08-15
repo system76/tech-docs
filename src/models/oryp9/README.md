@@ -12,7 +12,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - Supports Intel Alder Lake CPUs
         - [Intel i7-12700H](https://ark.intel.com/content/www/us/en/ark/products/132228/intel-core-i712700h-processor-24m-cache-up-to-4-70-ghz.html)
 - Chipset
-    - [Intel HM570check](https://ark.intel.com/content/www/us/en/ark/products/213683/intel-hm570-chipset.html)
+    - [Intel HM670](https://ark.intel.com/content/www/us/en/ark/products/187451/intel-hm670-chipset.html)
 - BIOS
     - Macronix MX25L25673GZ4I-08G flash chip
         - WSON-8 form factor
@@ -42,7 +42,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 230W (19.5V, checkA) DC-in port
+    - 230W (20.0V, 11.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Lite-On PA-1231-26
         - AC power cord type: IEC C13

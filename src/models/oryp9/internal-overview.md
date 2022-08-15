@@ -18,7 +18,7 @@
 - RAM is highlighted in dark green
 - BIOS flash chip (U60) is highlighted in black
 - LCD panel connector is highlighted in orange
-- Keyboard adhesive strip access hole is highlighted in pink
+- Keyboard adhesive access hole is highlighted in pink
 
 ## Under-keyboard components and connectors:
 
@@ -26,6 +26,5 @@
 
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connector is highlighted in cyan
-- Keyboard adhesive strip is highlighted in pink
+- Keyboard adhesive access hole is highlighted in red
 - Power button/LED connector is highlighted in green
-- Front LED connector is highlighted in red

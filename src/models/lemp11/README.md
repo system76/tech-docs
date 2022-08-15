@@ -13,9 +13,12 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - [Core i7-1255U](https://ark.intel.com/content/www/us/en/ark/products/226259/intel-core-i71255u-processor-12m-cache-up-to-4-70-ghz.html)
         - [Core i5-1235U](https://ark.intel.com/content/www/us/en/ark/products/226261/intel-core-i51235u-processor-12m-cache-up-to-4-40-ghz.html)
 - BIOS
-    - MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - MX25L25673G flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU: Intel Iris Xe Graphics
         - GOP driver is recommended, VBT is provided

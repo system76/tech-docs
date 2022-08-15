@@ -14,9 +14,12 @@ The System76 Gazelle is a laptop with the following specifications:
 - Chipset
     - [Intel HM670](https://ark.intel.com/content/www/us/en/ark/products/187451/intel-hm670-chipset.html)
 - BIOS
-    - Macronix MX25L25673G flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - Macronix MX25L25673G flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - Dedicated GPU options:
         - NVIDIA GeForce RTX 3060

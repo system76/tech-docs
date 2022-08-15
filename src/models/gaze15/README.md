@@ -12,9 +12,12 @@ The System76 Gazelle is a laptop with the following specifications:
     - Supports Intel Comet Lake CPUs
         - [Intel i7-10750H](https://ark.intel.com/content/www/us/en/ark/products/201837/intel-core-i7-10750h-processor-12m-cache-up-to-5-00-ghz.html)
 - BIOS
-    - GD25B127D flash chip running System76 Firmware (non-open)
+    - GD25B127D flash chip
+        - SOIC-8 form factor
+    - Programmed with System76 Firmware (non-open)
 - EC
-    - ITE IT5570E running non-open firmware
+    - ITE IT5570E
+    - Programmed with non-open EC firmware
 - Graphics
     - GPU options:
         - NVIDIA GeForce GTX 1650

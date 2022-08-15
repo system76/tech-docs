@@ -13,9 +13,12 @@ The System76 Darter Pro is a laptop with the following specifications:
         - [Core i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
         - [Core i5-1240P](https://ark.intel.com/content/www/us/en/ark/products/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
 - BIOS
-    - GD25B256E flash chip running [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - GD25B256E flash chip
+        - SOIC-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
-    - ITE IT5570E running [System76 EC](https://github.com/system76/ec)
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU: Intel Iris Xe Graphics
     - eDP display: 15.6" 1920x1080@60Hz LCD

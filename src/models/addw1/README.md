@@ -14,9 +14,12 @@ The System76 Adder WS is a laptop with the following specifications:
         - [Intel i7-9750H](https://ark.intel.com/content/www/us/en/ark/products/191045/intel-core-i7-9750h-processor-12m-cache-up-to-4-50-ghz.html)
         - [Intel i9-9980HK](https://ark.intel.com/content/www/us/en/ark/products/192990/intel-core-i9-9980hk-processor-16m-cache-up-to-5-00-ghz.html)
 - BIOS
-    - MX25L12873F flash chip running System76 Firmware (non-open)
+    - MX25L12873F flash chip
+        - SOIC-8 form factor
+    - Programmed with System76 firmware (non-open)
 - EC
-    - ITE IT8587E running non-open firmware
+    - ITE IT8587E
+    - Programmed with non-open EC firmware
 - Graphics
     - GPU: NVIDIA GeForce RTX 2070
     - eDP display: 15.6" 3840x2160@60Hz OLED

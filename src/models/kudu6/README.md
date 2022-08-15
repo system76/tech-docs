@@ -12,9 +12,12 @@ The System76 Kudu is a laptop with the following specifications:
     - Supports AMD Ryzen (Cezanne) Mobile CPUs
         - [Ryzen 9 5900HX](https://www.amd.com/en/products/apu/amd-ryzen-9-5900hx)
 - BIOS
-    - W74M12JWSSIQ flash chip running non-open System76 firmware
+    - W74M12JWSSIQ flash chip
+        - SOIC-8 form factor
+    - Programmed with System76 firmware (non-open)
 - EC
-    - ITE IT5570E running non-open EC firmware
+    - ITE IT5570E
+    - Programmed with non-open EC firmware
 - Graphics
     - Dedicated GPU:
         - NVIDIA GeForce RTX 3060

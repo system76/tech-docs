@@ -25,8 +25,6 @@ Removing the cover is required to access the internal components. Prior to remov
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 16 bottom panel screws.
-    - On the 15" model, the two back corner screws are longer than the rest (highlighted red below.) CHECK
-    - On the 17" model, all screws are the same length.
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
@@ -52,7 +50,7 @@ The Oryx Pro 9 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Both slots support PCIe NVMe Generation 4 only.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Both slots support PCIe NVMe Generation 4 only. The slots are backwards-compatible with PCIe NVMe Generation 3 drives, but the slots do not support SATA.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -81,14 +79,13 @@ The battery provides primary power whenever the system is unplugged.
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove the three silver battery screws along the top of the battery.
-3. The battery is held in by three of the bottom panel screws and two additional screws, one of which is underneath the M.2 SSD. Remove the two final screws, highlighted red below.
 
 ![Battery screws](./img/battery.webp)
 
-4. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard.
-5. Remove the battery, starting from the top edge with screw holes.
-6. When putting in the new battery, start with the plastic tabs along the bottom edge (opposite from the screw holes.)
-5. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
+3. Unplug the white connector (highlighted yellow above) connecting the battery to the motherboard.
+4. Remove the battery, starting from the top edge with screw holes.
+5. When putting in the new battery, start with the plastic tabs along the bottom edge (opposite from the screw holes.)
+6. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
 
 ## Replacing the wireless card:
 
@@ -102,7 +99,7 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove both SSDs](#replacing-an-m2nvme-ssd).
     - Removing the outermost SSD is optional, but will make it easier to work with the wireless card.
-2. Locate the wireless module. Remove any clear tape that is securing the wires.
+2. Locate the wireless card. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.webp)
 
@@ -124,17 +121,14 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ### Steps to replace the CMOS battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove both SSDs](#replacing-an-m2nvme-ssd), and [remove the wireless card](#replacing-the-wireless-card).
-    - If you are not replacing the CMOS battery, then removing the wireless card is optional.
-2. If necessary, remove any components that are covering the CMOS battery:
-    - For the 15" model, [remove the M.2 SSD closest to the main battery](#replacing-an-m2nvme-ssd) and [remove the main battery](#replacing-the-battery).
-    - For the 17" model, [remove both M.2 SSDs](#replacing-an-m2nvme-ssd). check
+    - If you are not replacing the CMOS battery, then removing the wireless card is optional.\
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
-4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery, [replace the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
-6. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+2. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
+3. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. Reconnect the CMOS battery, [reconnect the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
+5. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
@@ -148,7 +142,7 @@ The Oryx Pro 9 comes with heat-conductive metal on the dedicated GPU die and the
 Replacement heat-conductive metal fitted to the machine and replacement fans can be obtained by [contacting support](https://support.system76.com).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 20 minutes  
+**Time estimate:** 40 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the fans/heatsink/thermal paste:
@@ -186,7 +180,7 @@ Replacement heat-conductive metal fitted to the machine and replacement fans can
 
 ![Loose heat-conductive metal](./img/heat-conductive-metal-loose.webp)
 
-_**Above:** Heat-conductive metal for the CPU (left) and the GPU (right)._    
+_**Above:** Heat-conductive metal for the CPU (left) and the GPU (right), with plastic coverings._    
 _**Below:** Heat-conductive metal application on the CPU chip and the GPU heatsink._
 
 ![CPU heat-conductive metal application](./img/heat-conductive-metal-application-cpu.webp)

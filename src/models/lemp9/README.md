@@ -37,6 +37,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM
 - Networking
     - M.2 PCIe/CNVi WiFi/Bluetooth
+        - Intel Wi-Fi 5 AC 9560
 - Power
     - 19V, 3.42A (65W) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)

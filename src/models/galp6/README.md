@@ -23,7 +23,7 @@ The System76 Galago Pro is a laptop with the following specifications:
     - GPU options:
         - Intel Iris Xe Graphics
     - eDP display: 14.1" 1920x1080@60Hz LCD
-        - LCD panel: BOE NV140FHM-N62 (or equivalent) check
+        - LCD panel: Panda LM140LF2L02 (or equivalent)
     - External video outputs:
         - 1x HDMI 2.1
         - 1x DisplayPort 1.4 over USB-C
@@ -36,7 +36,7 @@ The System76 Galago Pro is a laptop with the following specifications:
 - Power
     - 90W (19V, 4.74A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Chicony A18-065N3A check
+    - Included AC adapter: Chicony A16-090P1A
         - AC power cord type: IEC C5
     - USB-C charging compatible with 65W+ charger
     - 49Wh 4-cell Lithium-Ion battery

@@ -31,9 +31,9 @@ The System76 Darter Pro is a laptop with the following specifications:
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 2666 MHz
 - Networking
     - Gigabit Ethernet
-    - M.2 PCIe/CNVi WiFi/Bluetooth
+    - M.2 PCIe/CNVi WiFi/Bluetooth options:
         - Intel Wi-Fi 6 AX200/AX201
-        - or Intel Wireless-AC 9560
+        - Intel Wireless-AC 9560
 - Power
     - 65W (19V, 3.42A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)

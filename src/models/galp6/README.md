@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Galago Pro](./img/galp6.png)
+![Galago Pro](./img/galp6.webp)
 
 The System76 Galago Pro is a laptop with the following specifications:
 

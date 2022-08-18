@@ -4,8 +4,8 @@
 
 ![Launch Top Overview](./img/launch-lite-overhead.webp)
 
-## Back overview: TODO: update picture
-![Launch Ports](./img/launch-ports.png)
+## Back overview:
+![Launch Ports](./img/launch-lite-port.png)
 
 ## Box contents overview:
 ![Launch Box Contents](./img/launch-lite-box-contents.png)

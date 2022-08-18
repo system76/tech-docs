@@ -173,7 +173,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the fan closest to the CPU](steps-to-replace-the-fans).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the fan closest to the CPU](#steps-to-replace-the-fans).
     - Removing the fan is optional, but is recommended to ensure the fan properly overlaps the heatsink's air guide after reinstallation.
 2. Remove the four heatsink screws (highlighted cyan below) in order, starting with #1, then #2, and continuing until #4.
 

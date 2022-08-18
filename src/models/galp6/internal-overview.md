@@ -2,25 +2,25 @@
 
 ## Bottom components and connectors:
 
-![Internal Components](./img/components-highlighted.jpg)
+![Internal Components](./img/components-highlighted.webp)
 
 - RAM slots are highlighted in purple
 - M.2 SSD is highlighted in maroon
-- CMOS battery connector is highlighted in pink
 - Wireless card is highlighted in yellow
-- Fan connectors are highlighted in red
+- CMOS battery connector is highlighted in pink
 - Webcam/microphone connector is highlighted in cyan
-- BIOS flash chip (U33) is highlighted in black
-- LCD panel connector is highlighted in light green
+- BIOS flash chip (U43) is highlighted in black
+- Fan connectors are highlighted in red
 - Speaker connectors are highlighted in dark green
 - Main battery connector is highlighted in orange
 - Touchpad connector is highlighted in white
+- LCD panel connector is highlighted in light green
 
 ## Under-keyboard components and connectors:
 
-![Under-Keyboard Connectors](./img/under-keyboard.jpg)
+![Under-Keyboard Connectors](./img/under-keyboard.webp)
 
 - Keyboard connector is highlighted in green
-- Keyboard backlight connector is highlighted in yellow
+- Keyboard backlight connector is highlighted in red
 - EC chip is highlighted in cyan
-  - ITE IT5570E-128 2028-CXA A17GKB
+  - ITE IT5570E-128 2205-EXA 1A1RB

@@ -24,11 +24,17 @@ The System76 Gazelle is a laptop with the following specifications:
     - Dedicated GPU options:
         - NVIDIA GeForce RTX 3060
             - TGP: 60W
+        - NVIDIA GeForce RTX 3050 Ti
+            - TGP: 60W
+        - NVIDIA GeForce RTX 3050
+            - TGP: 60W
     - Integrated GPU:
         - Intel Iris Xe Graphics 
     - eDP display:
         - 17.3" 1920x1080@144Hz LCD
             - LCD panel: AUO B173HAN04.9 (or equivalent)
+        - 15.6" 1920x1080@144Hz LCD
+            - LCD panel: Panda LM156LF-2F01 (or equivalent)
     - External video output:
         - 1x HDMI
         - 1x Mini DisplayPort 1.2
@@ -41,10 +47,16 @@ The System76 Gazelle is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 180W DC-in port
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: LiteOn PA-1181-76
-        - AC power cord type: IEC C5
+    - RTX 3060 model:
+        - 180W DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: LiteOn PA-1181-76
+            - AC power cord type: IEC C5
+    - RTX 3050 Ti and 3050 models:
+        - 150W DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Chicony A18-150P1A
+            - AC power cord type: IEC C5
     - 54Wh 4-cell battery (model number NP50BAT-4-54)
 - Sound
     - Internal speakers & microphone

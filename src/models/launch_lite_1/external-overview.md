@@ -1,11 +1,12 @@
-# Launch (External Overview)
+# Launch Lite (External Overview)
 
 ## Top overview:
 
-![Launch Top Overview](./img/launch-lite-overhead.webp)
+![Top Overview](./img/overhead.webp)
 
 ## Back overview:
-![Launch Ports](./img/launch-lite-port.png)
+
+![Back Ports](./img/ports-back.png)
 
 ## Box contents overview:
 ![Launch Box Contents](./img/launch-lite-box-contents.png)

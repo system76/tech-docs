@@ -96,7 +96,7 @@ If you are installing new switches, ensure that the switches you're installing a
 **Time estimate:** 50 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-If the PCB in your Launch Lite becomes damaged and needs to be replaced, or if you are changing all of the switches on the PCB, it can be removed and replaced using these instructions.
+If the PCB in your Launch becomes damaged and needs to be replaced, or if you are changing all of the switches on the PCB, it can be removed and replaced using these instructions.
 
 ### Steps to remove the PCB:
 

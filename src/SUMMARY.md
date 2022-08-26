@@ -28,7 +28,7 @@
     - [Launch (launch\_1)](models/launch_1/README.md)
         - [External Overview](models/launch_1/external-overview.md)
         - [Customization & Repairs](models/launch_1/repairs.md)
-    - [Launch (launch\_lite\_1)](models/launch_lite_1/README.md)
+    - [Launch Lite (launch\_lite\_1)](models/launch_lite_1/README.md)
         - [External Overview](models/launch_lite_1/external-overview.md)
         - [Customization & Repairs](models/launch_lite_1/repairs.md)
     - [Lemur Pro (lemp11)](models/lemp11/README.md)

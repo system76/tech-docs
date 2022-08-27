@@ -7,7 +7,7 @@ The Launch Lite Configurable Keyboard can be customized and personalized in a va
 - [Removing and installing switches](#removing-and-installing-switches)
 - [Removing the PCB](#removing-the-pcb)
 
-## Connecting and using Launch:
+## Connecting and using Launch Lite:
 
 ![Launch Lite port](./img/ports-back.png)
 

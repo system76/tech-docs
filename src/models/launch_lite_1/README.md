@@ -1,17 +1,17 @@
-# Launch (launch_1)
+# Launch Lite (launch_lite_1)
 
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)
 
-![Launch Photo](./img/launch.png)
+![Launch Lite Photo](./img/launch-lite.webp)
 
-The System76 Launch is a configurable keyboard with the following specifications:
+The System76 Launch Lite is a configurable keyboard with the following specifications:
 
 - Chassis
-  - [Open-source milled chassis design](https://github.com/system76/launch/tree/master/chassis)
+  - [Open-source milled chassis design](https://github.com/system76/launch/tree/master/chassis/launch-lite)
   - Magnetically-attachable 15-degree angle lift bar
 - Electronics
-  - [Open-source PCB design](https://github.com/system76/launch/tree/master/pcb)
+  - [Open-source PCB design](https://github.com/system76/launch/tree/master/pcb-lite)
   - Individually addressable RGB LED backlighting
   - N-key rollover
 - Sockets and Switches
@@ -28,18 +28,15 @@ The System76 Launch is a configurable keyboard with the following specifications
   - Sizes:
     - 3x 2U keycaps (both `Space` bars and left `Shift`)
       - All three 2U caps use plate-mount stabilizers
-    - 8x 1.5U keycaps (`Tab`, `Caps`, left `Ctrl`, right `Fn`, right `Shift`, `Enter`, `Bksp`, and `Del`)
-    - 73x 1U keycaps
+    - 7x 1.5U keycaps (`Tab`, `Caps`, left `Ctrl`, right `Fn`, right `Shift`, `Enter`, and `Bksp`)
+    - 60x 1U keycaps
 - Layout
   - Modified ANSI US QWERTY
 - Custom Configurations
   - Customize layout and lighting in firmware with the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator)
   - [Available on Linux, Windows, and macOS](https://system76.com/accessories/launch/download)
-- Integrated Hub
-  - 2x USB 3.2 Gen 2 Type-C
-  - 2x USB 3.2 Gen 2 Type-A
 - Firmware
-  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_1/)
+  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_lite_1/)
 - Included cables:
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A

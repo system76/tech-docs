@@ -13,6 +13,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Gazelle (gaze17)](models/gaze17/README.md)
 - [Kudu (kudu6)](models/kudu6/README.md)
 - [Launch (launch\_1)](models/launch_1/README.md)
+- [Launch Lite (launch\_lite\_1)](models/launch_lite_1/README.md)
 - [Lemur Pro (lemp11)](models/lemp11/README.md)
 - [Meerkat (meer6)](models/meer6/README.md)
 - [Oryx Pro (oryp9)](models/oryp9/README.md)

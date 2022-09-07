@@ -1,20 +1,30 @@
 # Gazelle (External Overview)
 
-### Left side:
+## Left side overview:
 
 ![17" Left Ports](./img/ports-left-17.webp)
 
-### Right side:
+## Right side overview:
+
+### RTX 3060 model:
 
 ![17" Right Ports (3060)](./img/ports-right-17-3060.webp)
 
-### Front side:
+### RTX 3050 & 3050 Ti models:
+
+![17" Right Ports (3050, 3050 Ti)](./img/ports-right-17-3050x.webp)
+
+## Front side overview:
 
 ![17" Front Ports](./img/ports-front-17.webp)
 
-### Back side:
+## Back side overview:
 
-![17" Back Ports (3060)](./img/ports-back-17-3060.webp)
+![17" Back Ports (3060)](./img/ports-back-17.webp)
+
+## Keyboard & touchpad overview:
+
+![Keyboard & Touchpad](./img/keyboard-touchpad.webp)
 
 ## Materials:
 

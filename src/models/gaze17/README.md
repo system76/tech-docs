@@ -68,12 +68,19 @@ The System76 Gazelle is a laptop with the following specifications:
     - 1x M.2 (PCIe NVMe Gen 3 or SATA)
     - MicroSD card reader
 - USB
-    - 1x USB Type-C with Thunderbolt 4
-        - Supports DisplayPort over USB-C
-        - Does not support USB-C charging (USB-PD)
-    - 1x USB 3.2 Gen 2 Type-C
-        - Does not support DisplayPort over USB-C, USB-C charging (USB-PD), or Thunderbolt
-    - 1x USB 3.2 Gen 2 Type-A
-    - 1x USB 2.0 Type-A
+    - RTX 3060 model:
+        - 1x USB Type-C with Thunderbolt 4
+            - Supports DisplayPort over USB-C
+            - Does not support USB-C charging (USB-PD)
+        - 1x USB 3.2 Gen 2 Type-C
+            - Does not support DisplayPort over USB-C, USB-C charging (USB-PD), or Thunderbolt
+        - 1x USB 3.2 Gen 2 Type-A
+        - 1x USB 2.0 Type-A
+    - RTX 3050 Ti and 3050 models:
+        - 2x USB 3.2 Gen 2 Type-C
+            - Does not support DisplayPort over USB-C, USB-C charging (USB-PD), or Thunderbolt
+        - 1x USB 3.2 Gen 2 Type-A
+        - 1x USB 2.0 Type-A
 - Dimensions
+    - 15": 35.95cm x 23.8cm x 2.39cm, 2.05kg
     - 17": 39.7cm x 26.213cm x 2.489cm, 2.5kg

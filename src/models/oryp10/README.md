@@ -4,7 +4,7 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Oryx Pro](./img/oryp9.webp)
+![Oryx Pro](./img/oryp10.webp)
 
 The System76 Oryx Pro is a laptop with the following specifications:
 
@@ -27,6 +27,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - NVIDIA GeForce RTX 3070 Ti (Max-Q)
             - TGP: 80W
     - eDP display options:
+        - 15.6" 3840x2160@60Hz OLED
+            - OLED panel: Samsung ATNA56WR14-0 (or equivalent)
         - 15.6" 1920x1080@144Hz LCD
             - LCD panel: BOE NV156FHM-NY5 (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
@@ -36,7 +38,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 4800 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth
@@ -45,7 +47,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - 230W (20.0V, 11.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Lite-On PA-1231-26
-        - AC power cord type: IEC C13
+        - AC power cord type: IEC C5
     - 80Wh 6-cell battery
 - Sound
     - Internal speakers & microphone
@@ -62,5 +64,5 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - 1x USB 3.2 Gen 2 Type-C
     - 2x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 15": 35.814cm x 24.003cm x 2.489cm, 1.99kg
-    - 17": 39.599cm x 26.213cm x 2.489cm, 2.3kg
+    - 15": 35.814cm x 24.003cm x 2.489cm, 2.4kg
+    - 17": 39.599cm x 26.213cm x 2.489cm, 2.8kg

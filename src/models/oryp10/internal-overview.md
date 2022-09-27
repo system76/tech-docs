@@ -26,5 +26,6 @@
 
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connector is highlighted in cyan
-- Keyboard adhesive access hole is highlighted in red
+- Keyboard adhesive strip (used) is highlighted in red
+    - Access hole is located on the left side
 - Power button/LED connector is highlighted in green

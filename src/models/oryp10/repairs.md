@@ -25,6 +25,7 @@ Removing the cover is required to access the internal components. Prior to remov
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 16 bottom panel screws.
+    - All screws are the same length on any given unit. However, the 17" model uses longer screws than the 15" model.
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
@@ -238,6 +239,7 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 4. Open the lid slightly and place the machine on its side.
 5. Push a screwdriver into the adhesive slot until the keyboard pops out.
     - If available, a flathead spudger tool can also be used to provide more contact with the keyboard.
+    - A layer of plastic may stick to the adhesive and come off of the keyboard. Try to keep as much of the plastic shielding on the keyboard as possible.
 
 ![Keyboard push point](./img/keyboard-push-point.webp)
 

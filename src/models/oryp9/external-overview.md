@@ -22,7 +22,7 @@
 |----------------------------------|------------------------|
 |LCD back cover (lid)              |Aluminum                |
 |LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Aluminum                |
+|Top case (palm rests/port covers) |Plastic                 |
 |Bottom panel                      |Aluminum                |
 
 ## LED indicators:

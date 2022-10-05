@@ -28,7 +28,7 @@ The System76 Galago Pro is a laptop with the following specifications:
         - 1x Mini DisplayPort 1.2
         - 1x DisplayPort over USB-C
 - Memory
-    - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 2666 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 2666 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth options:

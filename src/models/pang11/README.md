@@ -25,7 +25,7 @@ The System76 Pangolin is a laptop with the following specifications:
         - LCD panel: Innolux N156HCA-EA1 (or equivalent)
     - External video output: 1x HDMI 2.0
 - Memory
-    - Up to 64 (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth

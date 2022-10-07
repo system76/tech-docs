@@ -1,6 +1,6 @@
-# Thelio Mira (Parts & Repairs)
+# Thelio (Parts & Repairs)
 
-Many components in your Thelio Mira can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
+Many components in your Thelio can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 
 - [Removing the top case](#removing-the-top-case)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
@@ -20,12 +20,12 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Po
 The top case can be removed to access the internal components.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 2 minutes  
+**Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the top case:
 
-1. Remove the eight outer screws holding the top case onto the machine.
+1. Remove the four outer screws holding the top case onto the machine.
 
 ![Top case screws](./img/top-case-screws.webp)
 
@@ -36,26 +36,23 @@ The top case can be removed to access the internal components.
 Thelio b4 supports up to four 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 10 minutes  
+**Time estimate:** 5 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to add/remove 2.5" storage drives:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the two screws securing the drive bay's cover, highlighted x below.
+2. Unscrew the two screws securing the drive bay's cover, highlighted green below.
 
-![SATA slot cover](./img/sata-slot-cover.webp)
+![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
 
 3. If you are adding a new drive, pop out a black plastic ring on the top crossbar and slide out four screws (per drive).
-
-![Storage drive screws](./img/storage-drive-screws.webp)
-
 4. Insert four screws into each 2.5" storage drive you wish to install.
 5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
 
-![2.5" drive installation](./img/storage-drive-installation.webp)  
+![2.5" drive installation](./img/25-drive-installation.webp)  
 
-![Installed 2.5" drive](./img/storage-drive-installation.webp)  
+![Installed 2.5" drive](./img/25-drive-installed.webp)  
 
 _Thelio b4 with one 2.5" screw ring removed and one 2.5" drive installed._
 
@@ -95,10 +92,10 @@ Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 
 ## Replacing a GPU:
 
-Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 speeds with 11th Gen processors, or Gen 3 speeds with 10th Gen processors. Mixing NVIDIA and AMD GPUs is not recommended.
+Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 20 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace a GPU:
@@ -116,32 +113,33 @@ Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 s
 
 ![GPU power connections](./img/gpu-power.webp)
 
-5. Hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
+5. Push and hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
 
-![GPU order & PCIe latches](./img/gpu-slots.webp)
+![PCIe slot & latch](./img/gpu-slot.webp)
 
 7. After inserting the new GPU into its slot, connect the power cable.
 8. Once the GPU is installed, replace the side GPU brace, back PCIe bracket, and top case.
-    - The side GPU brace includes screws to adjust for the height of the graphics cards (highlighted green below) and the depth of the graphics cards (highlighted blue.)
+    - The side GPU brace includes screws to adjust for the height and depth of the graphics cards.
 
 ![GPU brace screws](./img/gpu-brace-adjustment-screws.webp)
 
-_The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
+_The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPU._
 
 ## Removing the CPU shroud:
 
 The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to remove the CPU shroud:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
-2. Unplug the connectors for the CPU fans.
+    - The GPU can also be removed to provide more room for working with the components.
+2. Unplug the connector for the front CPU fan.
 
-![Top exhaust fans](./img/top-fan-connectors.webp)
+![Front CPU fan connector](./img/front-cpu-fan-connector.webp)
 
 3. Unscrew the four back screws holding the CPU shroud in place.
 
@@ -151,9 +149,9 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ## Replacing the RAM:
 
-Thelio b4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 DIMMs (non-ECC) running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio b4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
@@ -164,56 +162,71 @@ Thelio b4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 DIMMs (no
 
 ![RAM slots](./img/ram-slots.webp)
 
-3. Make sure the tab on the top of the slot is open (pulled upwards), then insert the new RAM (or re-seat the existing RAM) into the slot.
+3. Make sure the tab on the top of the slot is open (pulled upwards), then insert the new RAM (or re-seat the existing RAM) into the slot, starting with the bottom edge.
     - The RAM stick will only fit in one direction. The larger group of pins goes on top.
-    - Use the following guide for placement of the RAM sticks:
-
-![RAM slot order](./img/ram-order.webp)
-
+    - If you are only using one RAM stick, place it in the right-side slot (farthest from the CPU.)
 4. Replace the top case.
 
 ## Replacing the M.2 drives:
 
 Thelio b4 has three M.2 slots (M key), supporting M.2 size 2280.
 
-- Slot on front of switch (front of motherboard) (M2_2):
+- Back of motherboard (slot 3):
     - Supports PCIe NVMe Gen 4.
-- Slot on back of switch (front of motherboard) (M2_1):
+- Front of motherboard, front of switch (slot 1):
+    - Supports PCIe NVMe Gen 4.
+- Front of motherboard, back of switch (slot 2):
     - Supports PCIe NVMe Gen 3 and SATA III.
-- Slot on back of motherboard (M2_3):
-    - Supports PCIe NVMe Gen 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 25 minutes  
+**Time estimate:** 30 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the M.2 drives:
+### Steps to replace the M.2 drive (slot 3):
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. If you are accessing SSD slot #, [remove the GPU brace and GPUs](#replacing-a-gpu) and [remove the CPU shroud].
-3. Remove the M.2 heatsink covering the slot you wish to access.
+2. Unscrew the retainer screw opposite the M.2 slot.
+
+![M.2 slot 3](./img/m2-slot-3.webp)
+
+3. Remove the existing M.2 drive by pulling it out of the slot.
+4. Insert the new M.2 drive into the slot and hold it in place.
+5. Replace the retainer screw.
+
+### Steps to replace the M.2 drives (slots 1 and 2):
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+    - Removing the GPU is optional but recommended to provide more working space and avoid damage.
+2. Unscrew and remove the M.2 heatsink.
     - The heatsink screws are held captive, and will not fully come out of the heatsink.
     - It may take some pressure to remove the heatsink and thermal tape from the M.2 drive. After unscrewing the heatsink, pull slowly to avoid breaking the thermal tape.
 
 ![M.2 heatsink screws](./img/m2-heatsink-screws.webp)
 
-4. Free the retaining mechanism opposite the M.2 slot.
-    - The top M.2 slot uses a regular Phillips screw.
-    - The middle and bottom M.2 slots use a plastic locking mechanism.
-        - To free a drive, twist the plastic ring counter-clockwise until the tab points away from the M.2 slot.
-        - To secure a drive, twist the plastic ring clockwise until the tab points upwards.
+3. If installed, the SSD in slot 1 is held in place by the heatsink, and will be freed when the heatsink is removed.
 
-![M.2 slots](./img/m2-slots.webp)
+![M.2 slot 1](./img/m2-slot-1.webp)
 
-5. Remove the existing M.2 drive by pulling it out of the slot.
-7. Insert the new M.2 drive into the slot and hold it in place.
-8. Replace the retainer screw or secure the plastic retaining tab.
+4. If you are accessing M.2 slot 2, remove the SSD from slot 1, then unscrew the two M.2 switch screws and pull the M.2 switch straight away from the motherboard.
+    - The M.2 switch plugs into the motherboard on the right side.
+    - The M.2 slot 1 socket can be used to grasp the switch while pulling.
 
-10. Replace the M.2 heatsinks, CPU shroud, GPUs, GPU brace, and top case.
+![M.2 switch screws](./img/m2-switch-screws.webp)
+
+5. Flip the M.2 switch over to reveal M.2 slot 2 on the back of the switch.
+6. Unscrew the retainer screw opposite the M.2 slot.
+
+![M.2 slot 2](./img/m2-slot-2.webp)
+
+7. Remove the existing M.2 drive by pulling it out of the slot.
+8. Insert the new M.2 drive into the slot and hold it in place.
+9. Replace the retainer screw.
+10. Replace the M.2 switch, SSD in M.2 slot 1 (if installed), M.2 heatsink, CPU shroud, GPU, GPU brace, and top case.
+    - If you are installing an SSD in M.2 slot 1 for the first time, remove any protective plastic that may be covering the thermal tape.
 
 ## Replacing the CPU fans:
 
-Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio b4.0 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -222,43 +235,44 @@ Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU shroud, and on
 ### Steps to replace the shroud-mounted CPU fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. Unscrew the four screws (two on each side) holding the fan brackets onto the shroud.
-    - Removing the brackets from the shroud is not required to remove the fan, but it makes installing the fan much easier.
-
-![CPU shroud fan bracket screws](./img/cpu-shroud-fan-bracket-screws.webp)
-
-3. Unscrew the four screws attaching the two brackets to the fan.
+2. Unscrew the four screws holding the fan onto the shroud.
 
 ![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
 
-4. When reinstalling the fan into the CPU shroud, the spinning side should face the CPU cooler and the front of the case, while the side with a stationary cover should face the back of the case.
-    - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
+3. When reinstalling the fan into the CPU shroud, the spinning side should face outward (towards the front of the case), and the cable should point towards the bottom-right corner of the open side of the shroud.
+    - Overtightening the fan's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
     - Alternatively, the opposite side of the bracket (clipped onto the heatsink) can be released first.
 
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.webp)
 
 3. Repeat the process for the bottom clip, then pull the fan and clips away from the CPU cooler.
-4. When reinstalling the CPU cooler fan, the side with a stationary cover should face the CPU cooler and back of the case, while the spinning side should face the front of the case.
+4. Unplug the fan connector and free the cable through the six velcro straps.
+
+![CPU fan cabling](./img/cpu-fan-cabling.webp)
+
+5. When reinstalling the CPU cooler fan, the side with a stationary cover should face the back of the case, while the spinning side should face the CPU cooler.
 
 ## Replacing the CPU cooler and CPU:
 
 The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.
 
-The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
+The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 
-**Tools required:** Cross-head (Phillips) screwdriver (long), torx screwdriver, thermal paste  
-**Time estimate:** 35 minutes  
+**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
+**Time estimate:** 45 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
-2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler onto the vertical mounting brackets.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler crossbar onto the vertical mounting brackets.
+    - The screws are held captive, and will not fully come out of the crossbar.
+    - Only the two outer screws need to be removed; the center screw holding the horizontal crossbar onto the heatsink does not need to be removed.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.webp)
 
@@ -276,6 +290,7 @@ The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
 ![CPU locking pin](./img/cpu-locking-pin.webp)
 
 3. Flip the CPU holder away from the CPU.
+    - The CPU holder opens in the opposite direction from the locking pin.
 
 ![CPU holder raised](./img/cpu-holder-raised.webp)
 
@@ -286,18 +301,19 @@ The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 5. Gently place the new CPU into the socket.
     - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the bottom left of the motherboard.
-    - The triangle on the CPU should match the triangle on the top of the CPU cover and the dot on the motherboard.
+    - The triangle on the CPU should match the triangle on the top of the CPU cover.
 6. Flip the CPU cover back onto the CPU and push the locking pin down into place.
 
 ### Steps to install the thermal paste/CPU cooler:
 
-1. Place a line of thermal paste onto the CPU.
+1. Draw an `X` shape of thermal paste onto the CPU.
 
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
 2. Place the CPU cooler onto the CPU; while holding it in place, screw each end of the cooler crossbar onto one of the mounting brackets.
+    - The cooler should be oriented so the hole in the vertical center of the heatsink is facing the right side (front of the case).
     - Insert each screw partially first, then fully tighten both.
-3. Reinstall the cooler-mounted CPU fan, CPU shroud, GPU bracket, and top case.
+3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU shroud, GPU bracket, and top case.
 
 ## Replacing the power supply:
 
@@ -309,29 +325,21 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and bottom GPU](#replacing-a-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPU](#replacing-a-gpu).
 2. Unplug all of the modular cabling from the back of the PSU.
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 
 ![PSU cabling](./img/psu-cables.webp)
 
-3. Unscrew and remove the PSU bracket.
-    - One screw is located on the opposite side of the case.
-
-![PSU bracket screws](./img/psu-bracket-screws.webp)
-
-4. Unscrew the four screws holding the PSU in from the back of the case.
+3. Unscrew the four screws holding the PSU in from the back of the case.
 
 ![PSU back screws](./img/psu-screws.webp)
 
-5. Remove/replace the PSU. Set the replacement PSU on top of the rubber post that holds it at the correct height.
-    - The replacement PSU should be installed with the fan facing the bottom of the case.
+4. Remove/replace the PSU. The replacement PSU should be installed with the fan facing the bottom of the case.
 
-![PSU post](./img/psu-post.webp)
-
-6. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
-    - Remember that not all of the available connectors will plug into the PSU-- four connectors (on two cables) are to be plugged into the GPUs.
-7. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve.
+5. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
+    - Remember that not all of the available connectors will plug into the PSU-- the 8-pin (6 + 1) connector is to be plugged into the GPU.
+<!-- 6. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve. -->
 
 ## Replacing the Thelio-IO board:
 

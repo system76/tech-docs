@@ -335,8 +335,9 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ![PSU back screws](./img/psu-screws.webp)
 
-4. Remove/replace the PSU. The replacement PSU should be installed with the fan facing the bottom of the case.
-
+4. Remove/replace the PSU.
+    - The replacement PSU should be installed with the fan facing the bottom of the case.
+    - The PSU will need to be held up to the back of the case while it is screwed in.
 5. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
     - Remember that not all of the available connectors will plug into the PSU-- the 8-pin (6 + 1) connector is to be plugged into the GPU.
 <!-- 6. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve. -->

@@ -27,7 +27,7 @@ The System76 Thelio Massive is a desktop with the following specifications:
     - Intel C621 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
-- GPU options
+- GPU options - length: 538mm (internal max is 544.90 mm)
     - Up to four GPUs (PCIe 3.0 x16)
     - Tested with the following GPUs:
         - [AMD Radeon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)

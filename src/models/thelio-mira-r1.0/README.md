@@ -21,7 +21,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - AMD X570 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
-- GPU options
+- GPU options - length: 312mm (internal max is 318.80 mm)
     - One or two GPUs, depending on configuration and power requirements (3x PCIe 4.0 x16 slots)
     - Tested with the following GPUs:
         - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/)

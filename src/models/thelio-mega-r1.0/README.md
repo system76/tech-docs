@@ -18,7 +18,7 @@ The System76 Thelio Mega is a desktop with the following specifications:
     - AMD TRX40 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
-- GPU options
+- GPU options - length: 419mm (internal max is 425.80 mm)
     - Up to four GPUs, depending on configuration (2x PCIe 4.0 x16 and 2x PCIe 4.0 x8)
     - Tested with the following GPUs:
         - [NVIDIA Quadro RTX 4000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-4000/) (maximum 4)

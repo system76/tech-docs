@@ -6,80 +6,81 @@
 
 ![Thelio](./img/thelio-b4.webp)
 
-The System76 Thelio Mira is a desktop with the following specifications:
+The System76 Thelio is a desktop with the following specifications:
 
-- CPU options
-    - Supports Intel 12th Generation ( Lake) CPUs
-        - [Core i3-10100](https://ark.intel.com/content/www/us/en/ark/products/199283/intel-core-i3-10100-processor-6m-cache-up-to-4-30-ghz.html)
+- Processor options
+    - Supports Intel 12th Generation (Alder Lake) and 13th Generation (Raptor Lake) CPUs
+        - [Pentium Gold G7400](https://ark.intel.com/content/www/us/en/ark/products/219435/intel-pentium-gold-g7400-processor-6m-cache-3-70-ghz.html)
+        - [Core i3-12100](https://ark.intel.com/content/www/us/en/ark/products/134584/intel-core-i312100-processor-12m-cache-up-to-4-30-ghz.html)
+        - [Core i5-12400](https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html)
+        - [Core i5-12600K](https://ark.intel.com/content/www/us/en/ark/products/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz.html)
+        - [Core i7-12700K](https://ark.intel.com/content/www/us/en/ark/products/134594/intel-core-i712700k-processor-25m-cache-up-to-5-00-ghz.html)
 - Motherboard
-    - MSI MEG Z690I UNIFY running System76 Firmware (non-open)
-    - Intel Z590 chipset
+    - [MSI MEG Z690I UNIFY](https://www.msi.com/Motherboard/MEG-Z690I-UNIFY/Specification) running System76 Firmware (non-open)
+    - Intel Z690 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
-- GPU options
-    - Up to two GPUs, depending on configuration (2x PCIe 4.0/3.0 x16)
+- Graphics options
+    - One GPU (PCIe 4.0 x16) of up to two-slot height
     - Tested with the following GPUs:
         - Integrated Graphics
-            - HDMI 2.0 (11th Gen) or 1.4 (10th Gen), DisplayPort 1.4
-        - [NVIDIA GeForce GTX 1650](https://www.nvidia.com/en-us/geforce/graphics-cards/gtx-1650/) (maximum 1)
-            - HDMI 2.0b, DisplayPort 1.4a, DL-DVI-D
-        - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/) (maximum 1)
+            - HDMI 2.1, DisplayPort 1.4a
+        - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/)
+            - HDMI 2.0b, DisplayPort 1.4, DVI-D (single-link)
+        - [AMD Radeon RX 6500 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt#product-specs)
+            - HDMI 2.1, DisplayPort 1.4a
+        - [AMD Radeon RX 6600](https://www.amd.com/en/products/graphics/amd-radeon-rx-6600#product-specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
             - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/) (maximum 1)
+            - Not available with i7 CPU due to thermal constraints
+            - Requires 650W PSU
+        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
             - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/) (maximum 1)
+            - Not available with i7 CPU due to thermal constraints
+        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
             - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA GeForce RTX 3070 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/) (maximum 1)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA GeForce RTX 3080 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/) (maximum 1)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA GeForce RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/) (maximum 1)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-        - [NVIDIA Quadro RTX 4000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-4000/) (maximum 2)
-            - 3x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
-        - [NVIDIA Quadro RTX 5000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-5000/) (maximum 2)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
-        - [NVIDIA Quadro RTX 6000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/) (maximum 2)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
-        - [NVIDIA Quadro RTX 8000](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/) (maximum 2)
-            - 4x DisplayPort 1.4, DisplayPort over USB-C (VirtualLink)
+            - Not available with i7 CPU due to thermal constraints
+        - [NVIDIA RTX A2000](https://www.nvidia.com/en-us/design-visualization/rtx-a2000/#specifications)
+            - Requires 650W PSU
+        - [NVIDIA RTX A4000](https://www.nvidia.com/en-us/design-visualization/rtx-a4000/#specifications)
+            - Not available with i7 CPU due to thermal constraints
+            - Requires 650W PSU
 - Expansion
-    - 2x PCIe 4.0/3.0 x16 (GPU slots)
-    - 1x PCIe 4.0/3.0 x16 (additional slot; single-height cards only)
-    - 1x PCIe 3.0 x4
+    - 1x PCIe 4.0 x16 (GPU slot)
 - Memory
-    - Up to 128GB (4x32GB) dual-channel DDR4 DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR5 DIMMs @ 5600 MHz
     - Tested with the following RAM modules (may ship with other tested modules):
-        - [Kingston HyperX HX432C16FB3/8](https://www.kingston.com/dataSheets/HX432C16FB3_8.pdf) (8GB/stick)
-        - [Kingston HyperX HX432C16FB4/16](https://www.kingston.com/dataSheets/HX432C16FB4_16.pdf) (16GB/stick)
-        - [Kingston HyperX HX432C16FB3K4/128](https://www.kingston.com/datasheets/HX432C16FB3K4_128.pdf) (32GB/stick)
+        - [Crucial CT8G48C40U5](https://www.crucial.com/memory/ddr5/ct8g48c40u5#spec) (8GB/stick)
+        - [Kingston Fury KF556C40BB-8](https://www.kingston.com/datasheets/KF556C40BB-8.pdf) (8GB/stick)
+        - [Crucial CT16G48C40U5](https://www.crucial.com/memory/ddr5/ct16g48c40u5#spec) (16GB/stick)
+        - [Kingston Fury KF556C40BB-16](https://www.kingston.com/datasheets/KF556C40BB-16.pdf) (16GB/stick)
+        - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+        - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
 - Networking
     - 1x 2.5-Gigabit Ethernet (Intel I225-V)
-    - Wi-Fi 6 (Intel AX200)
+    - Wi-Fi 6E + Bluetooth 5.2 (Intel AX200)
 - Power
     - C13 power cord
-    - 650W minimum PSU
-        - Dual-GPU configurations require 750W or 1000W, depending on GPU power requirements
+    - 450W minimum PSU
+        - Some GPU configurations require 650W PSU
     - Tested with the following PSU models (may ship with other tested models):
-        - [EVGA 650W B5 80+ Bronze](https://www.evga.com/Products/Specs/PSU.aspx?pn=9C00E82F-02D0-4706-A361-78D42787345B)
-        - [EVGA SuperNOVA 750W G5 80+ Gold](https://www.evga.com/Products/Specs/PSU.aspx?pn=A7699F25-A614-4D88-A339-1DDF3D24615E)
-        - [EVGA SuperNOVA 1000W G5 80+ Gold](https://www.evga.com/products/Specs/PSU.aspx?pn=71d331b7-9306-4218-987f-875fd422fd44)
+        - [EVGA SuperNOVA 450W GM 80+ Gold](https://www.evga.com/products/product.aspx?pn=123-GM-0450-Y1)
+        - [FSP Dagger Pro 650W 80+ Gold](https://www.fspgroupusa.com/ecommerce/daggerpro650w.html)
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Up to 7.1-channel audio output
     - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier)
     - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 4), M key
-        - Backwards compatible with PCIe NVMe Gen 3.
+    - 2x M.2 (PCIe NVMe Gen 4) SSD
         - Only active with 11th Gen CPUs.
-    - 2x M.2 (PCIe NVMe Gen 3), M key
-        - Backwards compatible with SATA III.
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
     - 4x 2.5" SATA
 - USB
-    - 1x USB 3.2 Gen 2x2 Type-C
-    - 4x USB 3.2 Gen 2 Type-A
-    - 1x USB 2.0 Type-C
-    - 4x USB 2.0 Type-A
+    - 2x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort via USB-C passthrough when a GPU is connected to the associated Mini DisplayPort input.
+    - 2x USB 3.2 Gen 2 Type-A
+    - 4x USB 3.2 Gen 1 Type-A
 - Dimensions
     - 43.635cm × 25.3cm × 33.1cm

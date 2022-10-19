@@ -60,7 +60,7 @@ _Thelio b4 with one 2.5" screw ring removed and one 2.5" drive installed._
 
 ## Replacing the bottom case fan:
 
-Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
+Thelio b4.0 has one case-mounted intake fan on the bottom of the chassis.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -71,7 +71,7 @@ Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Unplug the fan's cable from the Thelio-IO daughterboard.
     - The bottom case fan plugs into the `INTAKE0` port on the Thelio-IO board.
-    - When viewed from the front of the case, this connector is second from the top.
+    - When viewed from the front of the case, this connector is second from the right.
 
 ![Bottom case fan connector](./img/bottom-fan-connector.webp)
 
@@ -86,7 +86,7 @@ Thelio Mira b1.0 has one case-mounted intake fan on the bottom of the chassis.
     - Dust filter
     - Acrylic spacer
     - Fan
-6. Thread the new fan's cable through the opening in the bottom-front corner of the case and through the velcro connector near the front edge.
+6. The new fan's cable should be oriented towards the front-right corner of the case. Thread the new fan's cable through the opening in the back of the case and through the two velcro connectors leading to the Thelio-IO board.
 
 ![Bottom case fan cable management](./img/bottom-fan-cable-management.webp)
 
@@ -357,31 +357,36 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.webp)
 
-3. Unscrew the two screws on the top of the upper drive cage closest to the Thelio-IO board.
+3. Unscrew the two screws on the right side of the drive cage (next to the front of the machine.)
 
 ![Thelio-IO drive cage screws](./img/thelio-io-screws.webp)
 
-4. While pulling the loose side of the drive cage away from the Thelio-IO board, move the board back and out of the drive cage.
+4. While pulling the loose side of the drive cage away from the Thelio-IO board, move the board down and out of the drive cage.
 5. Place the new Thelio-IO board into the drive cage and replace the screws and wiring.
 
 ## Thelio-IO wiring guide:
 
 ![Thelio-IO wiring guide](./img/thelio-io-wiring.webp)
 
-1. When wiring the Thelio-IO board, refer to the above image and the following guide.
-    - **1:** `POWER0` - to power supply (via 4-pin Molex adapter.)
-    - **2:** `INTAKE0` - to bottom case fan.
-    - **3:** `CPUOUT0` - to CPU fan splitter board on top crossbar.
-    - **4:** `CPUIN0` - to `CPU_FAN` header on motherboard.
-    ![CPU fan header on motherboard](./img/motherboard-cpu-fan-connector.webp)
-    - **5:** `SATA0/1/2/3` - to SATA ports #1/#3/#4/#5 on motherboard. (These connectors provide data transfer for the 2.5" drive slots.)
-    ![SATA connectors on motherboard](./img/motherboard-sata-connectors.webp)
-    - **6\*:** `PFP0` - to power button receptacle on front panel.
-    - **7\*:** `USB0` - to USB header on motherboard. (This connector provides fan control and firmware updates.)
-    ![USB header on motherboard](./img/motherboard-usb-connector.webp)
-    - **8\*:** `PMB0` - to `PWR_LED-` and `PWR_SW` headers on motherboard.
-    ![Power LED & power switch headers on motherboard](./img/motherboard-power-sw-led-connectors.webp)
-    - **\*** For all connectors with multi-colored wires plugging into the Thelio-IO board, the red wire goes on top.
+1. When wiring the Thelio-IO board, refer to the above image and the following guide. The ports are numbered in the suggested connection order based on position and size.
+    - **1:** `POWER0` - to the power supply `PERIPHERAL` port (via 4-pin Molex adapter.)
+    - **2:** `INTAKE0` - to the [bottom case fan](#replacing-the-bottom-case-fan).
+    - **3:** `CPUOUT0` - to a Y-cable connecting to both [CPU fans](#replacing-the-cpu-fans).
+    - **4:** `CPUIN0` - to the `CPU_FAN1` header at the top of the motherboard.
+    ![CPU fan header on motherboard](./img/motherboard-cpu-fan-header.webp)
+    - **5:** `DATA0/1/2/3` - to SATA ports #1/#2/#3/#4 on the motherboard, highlighted yellow below.
+        - The ports are located next to the RAM slots.
+        - These connectors provide data transfer for the 2.5" drive slots.
+    ![SATA connectors on motherboard](./img/motherboard-sata-usb-headers.webp)
+    - **6\*:** `PFP0` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
+    - **7\*:** `USB0` - to the `JUSB1` header on motherboard, highlighted red above.
+        - The `JUSB1` port is located above the four SATA ports.
+        - This connector provides fan control and firmware updates.
+    - **8\*:** `PMB0` - to the `Power Switch` and `Power LED` pins (the four bottom-left pins of the `JFP_1` header) on the motherboard.
+        - On the motherboard, the red wire goes on the bottom and the black wire goes on the top.
+        - The `JFP_1` header is just above the GPU (if installed).
+    ![Power LED & power switch headers on motherboard](./img/motherboard-power-sw-led-headers.webp)
+    - **\*** For all connectors with multi-colored wires plugging into the Thelio-IO board, the red wire goes on the right side (viewing from the front of the computer.)
 
 ## Troubleshooting the power button:
 
@@ -414,7 +419,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ![Power button wiring](./img/power-button-wiring.jpg)
 
-3. On the front power button receptacle, the four-pin connector should have the red wire on the left and the black wire on the right.
+3. On the front power button receptacle, the four-pin connector should have the red wire on the left and the black wire on the right (when viewed from the back of the computer.)
 
 ![Power button receptacle](./img/power-button-receptacle.webp)
 

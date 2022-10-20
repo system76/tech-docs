@@ -24,27 +24,29 @@ The System76 Thelio is a desktop with the following specifications:
     - One GPU (PCIe 4.0 x16) of up to two-slot height
     - Tested with the following GPUs:
         - Integrated Graphics
-            - HDMI 2.1, DisplayPort 1.4a
+            - 1x HDMI 2.1, 1x DisplayPort 1.4a
         - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/)
-            - HDMI 2.0b, DisplayPort 1.4, DVI-D (single-link)
+            - 1x HDMI 2.0b, 1x DisplayPort 1.4, 1x DVI-D (single-link)
+        - [NVIDIA GeForce GTX 1650](https://www.nvidia.com/en-us/geforce/graphics-cards/compare/?section=compare-16)
+            - 1x HDMI 2.0b, 1x DisplayPort 1.4a, 1x DVI-D (dual-link)
         - [AMD Radeon RX 6500 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt#product-specs)
-            - HDMI 2.1, DisplayPort 1.4a
+            - 1x HDMI 2.1, 1x DisplayPort 1.4a
         - [AMD Radeon RX 6600](https://www.amd.com/en/products/graphics/amd-radeon-rx-6600#product-specs)
             - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-            - Not available with i7 CPU due to thermal constraints
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
             - Requires 650W PSU
         - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-            - Not available with i7 CPU due to thermal constraints
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+            - Requires 650W PSU
         - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
-            - HDMI 2.1, 3x DisplayPort 1.4a
-            - Not available with i7 CPU due to thermal constraints
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+            - Requires 650W PSU
         - [NVIDIA RTX A2000](https://www.nvidia.com/en-us/design-visualization/rtx-a2000/#specifications)
+            - 4x Mini DisplayPort 1.4
             - Requires 650W PSU
         - [NVIDIA RTX A4000](https://www.nvidia.com/en-us/design-visualization/rtx-a4000/#specifications)
-            - Not available with i7 CPU due to thermal constraints
+            - 4x DisplayPort 1.4
             - Requires 650W PSU
 - Expansion
     - 1x PCIe 4.0 x16 (GPU slot)
@@ -79,8 +81,9 @@ The System76 Thelio is a desktop with the following specifications:
     - 4x 2.5" SATA
 - USB
     - 2x USB Type-C with Thunderbolt 4
-        - Supports DisplayPort via USB-C passthrough when a GPU is connected to the associated Mini DisplayPort input.
+        - Does not provide a DisplayPort over USB-C signal.
+        - Supports DisplayPort over USB-C passthrough when a GPU is connected to the associated Mini DisplayPort input.
     - 2x USB 3.2 Gen 2 Type-A
     - 4x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 43.635cm × 25.3cm × 33.1cm
+    - 32.7cm × 20.7cm × 29.1cm

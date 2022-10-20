@@ -317,7 +317,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 
 ## Replacing the power supply:
 
-The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mira.
+The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -354,6 +354,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the 2.5" drive cage cover and any 2.5" drives that are installed](#addingremoving-25-storage-drives).
 2. Use the cutouts on the front right corner of the chassis to unplug all cabling from the Thelio-IO board.
+    - The rightmost connector requires pulling the white tab while unplugging.
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.webp)
 
@@ -381,6 +382,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
     - **6\*:** `PFP0` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
     - **7\*:** `USB0` - to the `JUSB1` header on motherboard, highlighted red above.
         - The `JUSB1` port is located above the four SATA ports.
+        - On the Thelio-IO board, the row of four pins plugs in, while the row of five pins hangs off the back and does not plug in.
         - This connector provides fan control and firmware updates.
     - **8\*:** `PMB0` - to the `Power Switch` and `Power LED` pins (the four bottom-left pins of the `JFP_1` header) on the motherboard.
         - On the motherboard, the red wire goes on the bottom and the black wire goes on the top.

@@ -60,8 +60,8 @@ The System76 Thelio is a desktop with the following specifications:
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
         - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
 - Networking
-    - 1x 2.5-Gigabit Ethernet (Intel I225-V)
-    - Wi-Fi 6E + Bluetooth 5.2 (Intel AX200)
+    - 1x 2.5-Gigabit Ethernet ([Intel I225-V](https://ark.intel.com/content/www/us/en/ark/products/184676/intel-ethernet-controller-i225v.html))
+    - Wi-Fi 6E + Bluetooth 5.2 (Intel AX210)
 - Power
     - C13 power cord
     - 450W minimum PSU

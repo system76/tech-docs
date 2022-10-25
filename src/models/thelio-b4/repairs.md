@@ -1,19 +1,41 @@
 # Thelio (Parts & Repairs)
 
-Many components in your Thelio can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
+Many components in your Thelio can be upgraded or replaced as necessary. This page uses photos of the initial revision for this generation (B4-0). Minor case details may vary on newer units, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
+Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
+
+- [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the RAM](#replacing-the-ram)
 - [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Replacing a GPU](#replacing-a-gpu)
+- [Replacing the GPU](#replacing-the-gpu)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Replacing the RAM](#replacing-the-ram)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
 - [Replacing the Thelio-IO board](#replacing-the-thelio-io-board)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
+
+## Replacing the front accent strip:
+
+Thelio includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
+
+**Tools required:** None  
+**Time estimate:** 30 seconds  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to replace the front accent strip:
+
+1. Place the Thelio on the edge of the desk so the front side is hanging off of the desk.
+    - The Thelio can alternatively be lifted or tilted so the front of the computer is hovering above the desk.
+2. Slide the accent strip down to unlock it.
+    - The accent can be gripped at the bottom edge.
+3. Pull the accent strip off of the case, starting with the bottom edge.
+4. Place the new accent strip onto the front of the case and slide it up to lock it into place.
+
+![Front accent strip removal](./img/accent-strip-removal.webp)
 
 ## Removing the top case:
 
@@ -33,7 +55,7 @@ The top case can be removed to access the internal components.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio b4 supports up to four 2.5" SATA III drives.
+Thelio B4 supports up to four 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 5 minutes  
@@ -54,13 +76,13 @@ Thelio b4 supports up to four 2.5" SATA III drives.
 
 ![Installed 2.5" drive](./img/25-drive-installed.webp)  
 
-_Thelio b4 with one 2.5" screw ring removed and one 2.5" drive installed._
+_Thelio B4 with one 2.5" screw ring removed and one 2.5" drive installed._
 
 6. Replace the black plastic screw rings and the 2.5" drive bay cover.
 
 ## Replacing the bottom case fan:
 
-Thelio b4.0 has one case-mounted intake fan on the bottom of the chassis.
+Thelio B4 has one case-mounted intake fan on the bottom of the chassis.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -90,7 +112,7 @@ Thelio b4.0 has one case-mounted intake fan on the bottom of the chassis.
 
 ![Bottom case fan cable management](./img/bottom-fan-cable-management.webp)
 
-## Replacing a GPU:
+## Replacing the GPU:
 
 Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot.
 
@@ -98,7 +120,7 @@ Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot
 **Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace a GPU:
+### Steps to replace the GPU:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Unscrew the two back screws holding the PCIe bracket in place, and remove the PCIe bracket.
@@ -135,7 +157,7 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ### Steps to remove the CPU shroud:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
     - The GPU can also be removed to provide more room for working with the components.
 2. Unplug the connector for the front CPU fan.
 
@@ -149,7 +171,7 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ## Replacing the RAM:
 
-Thelio b4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio B4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -169,7 +191,7 @@ Thelio b4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (no
 
 ## Replacing the M.2 drives:
 
-Thelio b4 has three M.2 slots (M key), supporting M.2 size 2280.
+Thelio B4 has three M.2 slots (M key), supporting M.2 size 2280.
 
 - Back of motherboard (slot 3):
     - Supports PCIe NVMe Gen 4.
@@ -195,7 +217,7 @@ Thelio b4 has three M.2 slots (M key), supporting M.2 size 2280.
 
 ### Steps to replace the M.2 drives (slots 1 and 2):
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
     - Removing the GPU is optional but recommended to provide more working space and avoid damage.
 2. Unscrew and remove the M.2 heatsink.
     - The heatsink screws are held captive, and will not fully come out of the heatsink.
@@ -226,7 +248,7 @@ Thelio b4 has three M.2 slots (M key), supporting M.2 size 2280.
 
 ## Replacing the CPU fans:
 
-Thelio b4.0 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio B4 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -234,7 +256,7 @@ Thelio b4.0 contains two CPU fans. One is mounted on the CPU shroud, and one is 
 
 ### Steps to replace the shroud-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Unscrew the four screws holding the fan onto the shroud.
 
 ![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
@@ -244,7 +266,7 @@ Thelio b4.0 contains two CPU fans. One is mounted on the CPU shroud, and one is 
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
     - Alternatively, the opposite side of the bracket (clipped onto the heatsink) can be released first.
 
@@ -269,7 +291,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler crossbar onto the vertical mounting brackets.
     - The screws are held captive, and will not fully come out of the crossbar.
     - Only the two outer screws need to be removed; the center screw holding the horizontal crossbar onto the heatsink does not need to be removed.
@@ -325,7 +347,7 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPU](#replacing-a-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPU](#replacing-the-gpu).
 2. Unplug all of the modular cabling from the back of the PSU.
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 

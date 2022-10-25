@@ -22,6 +22,9 @@ The System76 Thelio is a desktop with the following specifications:
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - Graphics options
     - One GPU (PCIe 4.0 x16) of up to two-slot height
+    - GPU size:
+        - Internal clearance: 278.175mm
+        - Recommended maximum length: 268.175mm
     - Tested with the following GPUs:
         - Integrated Graphics
             - 1x HDMI 2.1, 1x DisplayPort 1.4a

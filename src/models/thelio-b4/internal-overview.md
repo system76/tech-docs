@@ -1,24 +1,39 @@
-# Thelio Mira (Internal Overview)
+# Thelio (Internal Overview)
 
-## Side overview:
+## Left side overview:
 
-![Internal overview (side)](./img/internal-overview.webp)
+![Internal overview (left side)](./img/components-left.webp)
 
-- CPU cooler & CPU cooler fan are highlighted in solid green
-- CPU fan connectors are highlighted in solid pink
-- RAM slots are highlighted in dashed red
-- 2.5" SATA drive slot cover is highlighted in dashed pink
-- M.2 slots are highlighted in dashed cyan (located underneath the heatsinks)
-- PCIe x16 slots are highlighted in yellow
-    - Top slot (dashed yellow) is behind the GPU
-- PCIe x4 slot is highlighted in purple
-- Power supply is highlighted in navy
-- Bottom case fan is highlighted in solid red
-- Thelio-IO to motherboard connections are highlighted in dashed green
-- CMOS battery is highlighted in white
+- CPU cooler & CPU are highlighted in red (located behind the CPU shroud)
+- RAM slots are highlighted in green
+- 2.5" SATA drive cage is highlighted in pink
+- M.2 slots 1 and 2 are highlighted in white (located underneath the heatsink)
+- GPU (in PCIe 4.0 x16 slot) is highlighted in yellow
+- Power supply is highlighted in cyan
+- Bottom case fan is highlighted in orange
 
-### PCIe slot guide:
+## Right side overview:
 
-1. PCIe Gen 4 x16 slot (GPU 1)
+![Internal overview (right side)](./img/components-right.webp)
+
+- M.2 slot 3 is highlighted in cyan
+- CPU fan Y-cable connectors are highlighted in yellow
+
+## Front side overview:
+
+![Internal overview (front side)](./img/components-front.webp)
+
+- Thelio-IO connector access cutout is highlighted in green
+
+## Top overview:
+
+![Internal overview (top)](./img/components-top.webp)
+
+- 2.5" drive screws are highlighted in green
+- 2.5" drive cage cover is highlighted in cyan
+- Motherboard CPU fan header is highlighted in yellow
+    - Connects to Thelio-IO board
+- CPU power connector is highlighted in red
+    - Connects to power supply
 
 See the [repairs page](./repairs.md) for detailed information about installing or replacing components.

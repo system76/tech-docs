@@ -20,6 +20,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Oryx Pro (oryp9)](models/oryp9/README.md)
 - [Pangolin (pang11)](models/pang11/README.md)
 - [Serval WS (serw12)](models/serw12/README.md)
+- [Thelio (thelio-b4)](models/thelio-b4/README.md)
 - [Thelio Major (thelio-major-b2/r2)](models/thelio-major-intel-and-amd/README.md)
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/README.md)

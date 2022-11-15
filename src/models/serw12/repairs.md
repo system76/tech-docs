@@ -105,7 +105,7 @@ The Serval WS 12 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MH
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Slot 1 supports PCIe NVMe Generation 2, while Slot 2 supports either SATA III or PCIe NVMe Generation 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Slot 1 supports PCIe NVMe Generation 3, while Slot 2 supports either SATA III or PCIe NVMe Generation 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

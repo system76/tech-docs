@@ -96,7 +96,7 @@ If you are installing new switches, ensure that the switches you're installing a
 **Time estimate:** 50 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches on the PCBs, it can be removed and replaced using these instructions.
+If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches on the PCBs, it can be removed and replaced using these instructions. The two PCBs are joined by a 100mm long, 20 pin, 0.5mm pitch FPC cable.
 
 ### Steps to remove the PCBs:
 

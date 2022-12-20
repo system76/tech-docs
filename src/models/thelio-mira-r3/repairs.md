@@ -230,7 +230,7 @@ Thelio B4 has three M.2 slots (M key), supporting M.2 size 2280.
 
 ## Replacing the CPU fans:
 
-Thelio B4 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -239,16 +239,22 @@ Thelio B4 contains two CPU fans. One is mounted on the CPU shroud, and one is mo
 ### Steps to replace the shroud-mounted CPU fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. Unscrew the four screws holding the fan onto the shroud.
+2. Free the fan cable from the velcro loop, highlighted cyan below.
+
+![CPU shroud fan bracket screws](./img/cpu-shroud-fan-bracket-screws.webp)
+
+3. Unscrew the four screws (two on each side) holding the fan bracket onto the shroud.
+    - Removing the bracket from the shroud is not required to remove the fan, but it makes installing the fan much easier.
+4. Unscrew the four screws attaching the bracket to the fan.
 
 ![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
 
-3. When reinstalling the fan into the CPU shroud, the spinning side should face outward (towards the front of the case), and the cable should point towards the bottom-right corner of the open side of the shroud.
-    - Overtightening the fan's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
+5. When reinstalling the fan into the CPU shroud, the spinning side should face inward (towards the front of the case), and the cable should point towards the closed corner of the top side of the shroud (the top-right corner, when viewed from the back.)
+    - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
     - Alternatively, the opposite side of the bracket (clipped onto the heatsink) can be released first.
 
@@ -260,6 +266,7 @@ Thelio B4 contains two CPU fans. One is mounted on the CPU shroud, and one is mo
 ![CPU fan cabling](./img/cpu-fan-cabling.webp)
 
 5. When reinstalling the CPU cooler fan, the side with a stationary cover should face the back of the case, while the spinning side should face the CPU cooler.
+    - The cable should point towards the top inner corner (top-left when viewed from the back of the case.)
 
 ## Replacing the CPU cooler and CPU:
 
@@ -288,7 +295,11 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 ### Steps to replace the CPU:
 
 1. Place the computer on its side so the motherboard is facing up.
-2. Push the locking pin outward until it's able to spring away from the motherboard.
+2. Unscrew and remove the cooler mounting bracket on the right side of the CPU.
+
+![CPU cooler mounting bracket](./img/cpu-cooler-mounting-bracket.webp)
+
+3. Push the locking pin outward until it's able to spring away from the motherboard.
     - Caution: the locking pin may spring up with significant force when freed.
 
 ![CPU locking pin](./img/cpu-locking-pin.webp)
@@ -329,7 +340,7 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPU](#replacing-the-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and bottom GPU](#replacing-the-gpu).
 2. Unplug all of the modular cabling from the back of the PSU.
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 
@@ -340,8 +351,11 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 ![PSU back screws](./img/psu-screws.webp)
 
 4. Remove/replace the PSU.
+    - Set the replacement PSU on top of the rubber post that holds it at the correct height. 
     - The replacement PSU should be installed with the fan facing the bottom of the case.
-    - The PSU will need to be held up to the back of the case while it is screwed in.
+
+![PSU post](./img/psu-post.webp)
+
 5. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
     - Remember that not all of the available connectors will plug into the PSU-- the 8-pin (6 + 1) connector is to be plugged into the GPU.
 6. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve.
@@ -362,11 +376,11 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.webp)
 
-3. Unscrew the two screws on the right side of the drive cage (next to the front of the machine.)
+3. Unscrew the two screws on the top side of the drive cage.
 
 ![Thelio-IO drive cage screws](./img/thelio-io-screws.webp)
 
-4. While pulling the loose side of the drive cage away from the Thelio-IO board, move the board down and out of the drive cage.
+4. While pulling the loose side of the drive cage away from the Thelio-IO board, move the board back and out of the drive cage.
 5. Place the new Thelio-IO board into the drive cage and replace the screws and wiring.
 
 ## Thelio-IO wiring guide:
@@ -374,23 +388,24 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 ![Thelio-IO wiring guide](./img/thelio-io-wiring.webp)
 
 1. When wiring the Thelio-IO board, refer to the above image and the following guide. The ports are numbered in the suggested connection order based on position and size.
-    - **1:** `POWER0` - to the power supply `PERIPHERAL` port (via 4-pin Molex adapter.)
+    - **1:** `POWER0` - to the power supply `PERIF` port (via 4-pin Molex adapter.)
     - **2:** `INTAKE0` - to the [bottom case fan](#replacing-the-bottom-case-fan).
-    - **3:** `CPUOUT0` - to a Y-cable connecting to both [CPU fans](#replacing-the-cpu-fans).
-    - **4:** `CPUIN0` - to the `CPU_FAN1` header at the top of the motherboard.
+    - **3:** `CPUOUT0` - to the splitter board (on the top crossbar) connecting to both [CPU fans](#replacing-the-cpu-fans).
+    - **4:** `CPUIN0` - to the `CPU_FAN` header at the top of the motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-header.webp)
     - **5:** `DATA0/1/2/3` - to SATA ports #1/#2/#3/#4 on the motherboard, highlighted yellow below.
-        - The ports are located next to the RAM slots.
+        - The ports are located next to the top GPU slot.
         - These connectors provide data transfer for the 2.5" drive slots.
-    ![SATA connectors on motherboard](./img/motherboard-sata-usb-headers.webp)
+    ![SATA connectors on motherboard](./img/motherboard-sata-headers.webp)
     - **6\*:** `PFP0` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
-    - **7\*:** `USB0` - to the `JUSB1` header on motherboard, highlighted red above.
-        - The `JUSB1` port is located above the four SATA ports.
+    - **7\*:** `USB0` - to the `JUSB1` header on motherboard, highlighted red below.
+    ![USB connector on the motherboard](./img/motherboard-usb-header.webp)
+        - The `F_USB1` port is located above the four SATA ports.
         - On the Thelio-IO board, the row of four pins plugs in, while the row of five pins hangs off the back and does not plug in.
         - This connector provides fan control and firmware updates.
-    - **8\*:** `PMB0` - to the `Power Switch` and `Power LED` pins (the four bottom-left pins of the `JFP_1` header) on the motherboard.
-        - On the motherboard, the red wire goes on the bottom and the black wire goes on the top.
-        - The `JFP_1` header is just above the GPU (if installed).
+    - **8\*:** `PMB0` - to the `+PLED-` and `+PW-` pins (the four top-left pins of the `F_PANEL` header) on the motherboard.
+        - On the motherboard, the red wire goes on the middle-left and the black wire goes on the middle-right.
+        - The `F_PANEL` header is at the bottom right of the motherboard.
     ![Power LED & power switch headers on motherboard](./img/motherboard-power-sw-led-headers.webp)
     - **\*** For all connectors with multi-colored wires plugging into the Thelio-IO board, the red wire goes on the right side (viewing from the front of the computer.)
 

@@ -261,10 +261,6 @@ Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one 
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.webp)
 
 3. Repeat the process for the bottom clip, then pull the fan and clips away from the CPU cooler.
-4. Unplug the fan connector and free the cable through the six velcro straps.
-
-![CPU fan cabling](./img/cpu-fan-cabling.webp)
-
 5. When reinstalling the CPU cooler fan, the side with a stationary cover should face the back of the case, while the spinning side should face the CPU cooler.
     - The cable should point towards the top inner corner (top-left when viewed from the back of the case.)
 

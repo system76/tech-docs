@@ -314,6 +314,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
     - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the bottom left of the motherboard.
     - The triangle on the CPU should match the triangle on the top of the CPU cover.
 6. Flip the CPU cover back onto the CPU and push the locking pin down into place.
+7. Reinstall the right-side cooler mounting bracket.
 
 ### Steps to install the thermal paste/CPU cooler:
 
@@ -341,6 +342,11 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
     - Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.
 
 ![PSU cabling](./img/psu-cables.webp)
+
+Unscrew and remove the PSU bracket.
+    - One screw is located on the opposite side of the case.
+
+![PSU bracket screws](./img/psu-bracket-screws.webp)
 
 3. Unscrew the four screws holding the PSU in from the back of the case.
 
@@ -389,7 +395,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
     - **3:** `CPUOUT0` - to the splitter board (on the top crossbar) connecting to both [CPU fans](#replacing-the-cpu-fans).
     - **4:** `CPUIN0` - to the `CPU_FAN` header at the top of the motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-header.webp)
-    - **5:** `DATA0/1/2/3` - to SATA ports #1/#2/#3/#4 on the motherboard, highlighted yellow below.
+    - **5:** `DATA0/1/2/3` - to SATA ports #1/#2/#3/#4 on the motherboard, highlighted green below.
         - The ports are located next to the top GPU slot.
         - These connectors provide data transfer for the 2.5" drive slots.
     ![SATA connectors on motherboard](./img/motherboard-sata-headers.webp)

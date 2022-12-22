@@ -196,7 +196,7 @@ Thelio B4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (no
 
 ## Replacing the M.2 drives:
 
-Thelio B4 has three M.2 slots (M key), supporting M.2 size 2280.
+Thelio B4 has four M.2 slots (M key), which all support M.2 size 2280.
 
 - Slot 1 supports PCIe NVMe Gen 5.
 - Slots 2, 3, and 4 support PCIe NVMe Gen 4.

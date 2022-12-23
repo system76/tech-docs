@@ -1,4 +1,4 @@
-# Thelio (Internal Overview)
+# Thelio Mira (Internal Overview)
 
 ## Left side overview:
 

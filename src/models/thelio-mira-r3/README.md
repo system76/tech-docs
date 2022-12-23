@@ -20,10 +20,14 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - Graphics options
-    - Two GPUs of up to two-slot height
-        - Primary GPU slot: PCIe 4.0 x16
-        - Secondary GPU slot: PCIe 4.0 x4
-            - Fits physical x16 cards, runs at x4 bandwidth
+    - Up to two dedicated GPUs
+        - Primary GPU slot:
+            - PCIe 4.0 x16
+            - Up to 4-slot height
+        - Secondary GPU slot:
+            - PCIe 4.0 x4
+                - Fits physical x16 cards, runs at x4 bandwidth
+            - Up to 2-slot height
     - GPU size:
         - Internal clearance: 318.80mm
         - Recommended maximum length: 308.80mm

@@ -68,7 +68,7 @@ Thelio Mira R3 supports up to four 2.5" SATA III drives.
 
 ![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
 
-3. If you are adding a new drive, pop out a black plastic ring on the top crossbar and slide out four screws (per drive).
+3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
 
 ![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
 
@@ -81,7 +81,7 @@ Thelio Mira R3 supports up to four 2.5" SATA III drives.
 
 _Thelio Mira R3 with one 2.5" drive installed._
 
-6. Replace the black plastic screw rings and the 2.5" drive bay cover.
+6. Replace the black plastic screw ring and the 2.5" drive bay cover.
 
 ## Replacing the bottom case fan:
 
@@ -257,7 +257,7 @@ Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one 
 
 ![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
 
-5. When reinstalling the fan into the CPU shroud, the spinning side should face inward (towards the front of the case), and the cable should point towards the closed corner of the top side of the shroud (the top-right corner, when viewed from the back.)
+5. When reinstalling the fan into the CPU shroud, the spinning side should face inward (towards the front of the chassis), and the cable should point towards the closed corner of the top side of the shroud (the top-right corner, when viewed from the back.)
     - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
@@ -269,7 +269,7 @@ Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one 
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.webp)
 
 3. Repeat the process for the bottom clip, then pull the fan and clips away from the CPU cooler.
-5. When reinstalling the CPU cooler fan, the side with a stationary cover should face the back of the case, while the spinning side should face the CPU cooler.
+5. When reinstalling the CPU cooler fan, the side with a stationary cover should face the cooler, while the spinning side should face the front of the chassis.
     - The cable should point towards the top inner corner (top-left when viewed from the back of the case.)
 
 ## Replacing the CPU cooler and CPU:

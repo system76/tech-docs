@@ -55,10 +55,10 @@ The top case can be removed to access the internal components.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio B4 supports up to four 2.5" SATA III drives.
+Thelio Mira R3 supports up to four 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 5 minutes  
+**Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to add/remove 2.5" storage drives:
@@ -85,7 +85,7 @@ _Thelio Mira R3 with one 2.5" drive installed._
 
 ## Replacing the bottom case fan:
 
-Thelio B4 has one case-mounted intake fan on the bottom of the chassis.
+Thelio Mira R3 has one case-mounted intake fan on the bottom of the chassis.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -116,10 +116,18 @@ Thelio B4 has one case-mounted intake fan on the bottom of the chassis.
 
 ## Replacing the GPU:
 
-Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot.
+Thelio Mira supports two multi-slot dedicated GPUs:
+
+- The top GPU slot is a PCIe 4.0 x16 slot.
+    - There are four units of clearance in the back of the chassis.
+- The bottom GPU slot is a PCIe 4.0 x4 slot.
+    - There are two units of clearance in the back of the chassis.
+    - This slot is forwards-compatible with x16 cards.
+
+Factory configurations only include one GPU.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 10 minutes  
+**Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
 ### Steps to replace the GPU:
@@ -141,8 +149,8 @@ Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot
 
 ![PCIe slot & latch](./img/gpu-slots.webp)
 
-7. After inserting the new GPU into its slot, connect the power cable.
-8. Once the GPU is installed, replace the side GPU brace, back PCIe bracket, and top case.
+6. After inserting the new GPU into its slot, connect the power cable.
+7. Once the GPU is installed, replace the side GPU brace, back PCIe bracket, and top case.
     - The side GPU brace includes screws to adjust for the height and depth of the graphics cards.
 
 ![GPU brace screws](./img/gpu-brace-adjustment-screws.webp)
@@ -160,7 +168,7 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 ### Steps to remove the CPU shroud:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
-    - The GPU can also be removed to provide more room for working with the components.
+    - The GPU can also optionally be removed to provide more room for working with the components.
 2. Unplug the connectors for the CPU fans from the splitter board on the top crossbar.
     - The splitter board provides the same signal to both ports, so it doesn't matter which fan is plugged into which port.
 
@@ -174,7 +182,7 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ## Replacing the RAM:
 
-Thelio B4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Mira R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 4800MHz (the maximum 4x32GB configuration is limited to 3600MHz). If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -196,7 +204,7 @@ Thelio B4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (no
 
 ## Replacing the M.2 drives:
 
-Thelio B4 has four M.2 slots (M key), which all support M.2 size 2280.
+Thelio Mira R3 has four M.2 storage slots. All four slots are M key and size 2280.
 
 - Slot 1 supports PCIe NVMe Gen 5.
 - Slots 2, 3, and 4 support PCIe NVMe Gen 4.
@@ -205,7 +213,7 @@ Thelio B4 has four M.2 slots (M key), which all support M.2 size 2280.
 **Time estimate:** 30 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the M.2 drive (slot 3):
+### Steps to replace the M.2 drive:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Unscrew and remove the M.2 heatsink.
@@ -221,7 +229,7 @@ Thelio B4 has four M.2 slots (M key), which all support M.2 size 2280.
 
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
-6. Flip the retaining clip back into place and push the curcular side until it snaps closed.
+6. Flip the retaining clip back into place and push the circular side until it snaps closed.
 7. Replace the M.2 heatsink, CPU shroud, GPU, GPU brace, and top case.
     - If you are populating an SSD slot for the first time, remove any protective plastic that may be covering the thermal tape.
     - When installing the Slot 1 heatsink, fit the tab on the opposite end from the screw into the motherboard standoff before lining up the screw.
@@ -230,7 +238,7 @@ Thelio B4 has four M.2 slots (M key), which all support M.2 size 2280.
 
 ## Replacing the CPU fans:
 
-Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the CPU cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -268,7 +276,7 @@ Thelio Mira R3 contains two CPU fans. One is mounted on the CPU shroud, and one 
 
 The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.
 
-The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
+The CPU uses an AMD AM5 socket. The CPU cooler is a [Noctua NH-U12S](https://noctua.at/en/nh-u12s/specification).
 
 **Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
 **Time estimate:** 45 minutes  
@@ -300,21 +308,20 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 
 ![CPU locking pin](./img/cpu-locking-pin.webp)
 
-3. Flip the CPU holder away from the CPU.
+4. Flip the CPU holder away from the CPU.
     - The CPU holder opens in the opposite direction from the locking pin.
 
 ![CPU holder raised](./img/cpu-holder-raised.webp)
 
-4. Carefully lift the CPU out of the CPU socket.
+5. Carefully lift the CPU out of the CPU socket.
     - Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.
 
 ![CPU (removed)](./img/cpu-removed.webp)
 
-5. Gently place the new CPU into the socket.
-    - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the bottom left of the motherboard.
-    - The triangle on the CPU should match the triangle on the top of the CPU cover.
-6. Flip the CPU cover back onto the CPU and push the locking pin down into place.
-7. Reinstall the right-side cooler mounting bracket.
+6. Gently place the new CPU into the socket.
+    - The triangle on the CPU should be oriented to match the triangle on the CPU cover, pointing towards the top left of the motherboard.
+7. Flip the CPU cover back onto the CPU and push the locking pin down into place.
+8. Reinstall the right-side cooler mounting bracket.
 
 ### Steps to install the thermal paste/CPU cooler:
 
@@ -323,9 +330,9 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
 2. Place the CPU cooler onto the CPU; while holding it in place, screw each end of the cooler crossbar onto one of the mounting brackets.
-    - The cooler should be oriented so the hole in the vertical center of the heatsink is facing the right side (front of the case).
+    - The cooler should be oriented so the text is readable from the right side (front of the case).
     - Insert each screw partially first, then fully tighten both.
-3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU shroud, GPU bracket, and top case.
+3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU shroud, GPU, GPU bracket, and top case.
 
 ## Replacing the power supply:
 
@@ -343,24 +350,24 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ![PSU cabling](./img/psu-cables.webp)
 
-Unscrew and remove the PSU bracket.
+3. Unscrew and remove the PSU bracket.
     - One screw is located on the opposite side of the case.
 
 ![PSU bracket screws](./img/psu-bracket-screws.webp)
 
-3. Unscrew the four screws holding the PSU in from the back of the case.
+4. Unscrew the four screws holding the PSU in from the back of the case.
 
 ![PSU back screws](./img/psu-screws.webp)
 
-4. Remove/replace the PSU.
+5. Remove/replace the PSU.
     - Set the replacement PSU on top of the rubber post that holds it at the correct height. 
     - The replacement PSU should be installed with the fan facing the bottom of the case.
 
 ![PSU post](./img/psu-post.webp)
 
-5. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
-    - Remember that not all of the available connectors will plug into the PSU-- the 8-pin (6 + 1) connector is to be plugged into the GPU.
-6. If the replacement PSU has an "ECO Mode" switch, make sure it is switched on for an optimal fan curve.
+6. After screwing in the replacement PSU, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
+    - Remember that not all of the available connectors will plug into the PSU-- two 8-pin (6 + 1) connectors are to be plugged into the GPUs.
+7. If the replacement PSU has an `ECO` switch, make sure it is switched on for an optimal fan curve.
 
 ## Replacing the Thelio-IO board:
 
@@ -374,7 +381,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the 2.5" drive cage cover and any 2.5" drives that are installed](#addingremoving-25-storage-drives).
 2. Use the cutouts on the front right corner of the chassis to unplug all cabling from the Thelio-IO board.
-    - The rightmost connector requires pulling the white tab while unplugging.
+    - The topmost connector requires pulling the white tab while unplugging.
 
 ![Thelio-IO cabling cutouts](./img/thelio-io-cabling-cutouts.webp)
 
@@ -395,21 +402,20 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
     - **3:** `CPUOUT0` - to the splitter board (on the top crossbar) connecting to both [CPU fans](#replacing-the-cpu-fans).
     - **4:** `CPUIN0` - to the `CPU_FAN` header at the top of the motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-header.webp)
-    - **5:** `DATA0/1/2/3` - to SATA ports #1/#2/#3/#4 on the motherboard, highlighted green below.
+    - **5:** `DATA0/1/2/3` - to SATA ports #0/#1/#2/#3 on the motherboard, highlighted green below.
         - The ports are located next to the top GPU slot.
         - These connectors provide data transfer for the 2.5" drive slots.
     ![SATA connectors on motherboard](./img/motherboard-sata-headers.webp)
     - **6\*:** `PFP0` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
     - **7\*:** `USB0` - to the `JUSB1` header on motherboard, highlighted red below.
     ![USB connector on the motherboard](./img/motherboard-usb-header.webp)
-        - The `F_USB1` port is located above the four SATA ports.
         - On the Thelio-IO board, the row of four pins plugs in, while the row of five pins hangs off the back and does not plug in.
         - This connector provides fan control and firmware updates.
     - **8\*:** `PMB0` - to the `+PLED-` and `+PW-` pins (the four top-left pins of the `F_PANEL` header) on the motherboard.
-        - On the motherboard, the red wire goes on the middle-left and the black wire goes on the middle-right.
+        - On the motherboard, the red wire goes on the inner-left and the black wire goes on the inner-right. The corresponding black wires go on the outer-left and outer-right.
         - The `F_PANEL` header is at the bottom right of the motherboard.
     ![Power LED & power switch headers on motherboard](./img/motherboard-power-sw-led-headers.webp)
-    - **\*** For all connectors with multi-colored wires plugging into the Thelio-IO board, the red wire goes on the right side (viewing from the front of the computer.)
+    - **\*** For all connectors with multi-colored wires plugging into the Thelio-IO board, the red wire goes on the top side (viewing from the front of the computer.)
 
 ## Troubleshooting the power button:
 

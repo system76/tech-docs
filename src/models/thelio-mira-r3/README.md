@@ -68,8 +68,8 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
         - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
 - Networking
-    - 1x 2.5-Gigabit Ethernet ([Intel I225-V](https://ark.intel.com/content/www/us/en/ark/products/184676/intel-ethernet-controller-i225v.html))
-    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wifi-6e-ax211-gig.html))
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/en/products/communications-network-ics/item/rtl8125bg-s-cg))
+    - Wi-Fi 6E + Bluetooth 5.2 ([AMD/MediaTek RZ616](https://www.amd.com/en/press-releases/2021-11-18-amd-and-mediatek-develop-amd-rz600-series-wi-fi-6e-modules-to-enhance))
 - Power
     - C13 power cord
     - 650W minimum PSU
@@ -81,12 +81,12 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - Sound
     - 3.5mm line out, line in, microphone jacks
     - Up to 7.1-channel audio output
-    - Realtek ALC897 audio chipset (with _ amplifier?)
-    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+    - Realtek ALC897 audio chipset
+    - HDMI, DisplayPort audio (depending on GPU)
 - Storage
     - 1x M.2 (PCIe NVMe Gen 5) SSD
     - 3x M.2 (PCIe NVMe Gen 4) SSDs
-    - 4x 2.5" SATA
+    - 4x 2.5" SATA III
 - USB
     - 1x USB 3.2 Gen 2x2 Type-C
         - Does not support Thunderbolt or DisplayPort over USB-C.

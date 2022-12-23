@@ -1,0 +1,101 @@
+# Thelio Mira (thelio-mira-r3)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio](./img/thelio-mira-r3.webp)
+
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Ryzen 7000 series (Zen 4) CPUs
+        - [Ryzen 5 7600X](https://www.amd.com/en/products/cpu/amd-ryzen-5-7600x#product-specs)
+        - [Ryzen 7 7700X](https://www.amd.com/en/products/cpu/amd-ryzen-7-7700x#product-specs)
+        - [Ryzen 9 7900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-7900x#product-specs)
+        - [Ryzen 9 7950X](https://www.amd.com/en/products/cpu/amd-ryzen-9-7950x#product-specs)
+- Motherboard
+    - [Gigabyte X670 Aorus Elite AX](https://www.gigabyte.com/Motherboard/X670-AORUS-ELITE-AX-rev-11/sp) running System76 Firmware (non-open)
+    - AMD X670 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- Graphics options
+    - Up to two dedicated GPUs
+        - Primary GPU slot:
+            - PCIe 4.0 x16
+            - Up to 4-slot height
+        - Secondary GPU slot:
+            - PCIe 4.0 x4
+                - Fits physical x16 cards, runs at x4 bandwidth
+            - Up to 2-slot height
+    - GPU size:
+        - Internal clearance: 318.80mm
+        - Recommended maximum length: 308.80mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+        - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/)
+            - 1x HDMI 2.0b, 1x DisplayPort 1.4, 1x DVI-D (single-link)
+        - [AMD Radeon RX 6500 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt#product-specs)
+            - 1x HDMI 2.1, 1x DisplayPort 1.4a
+        - [AMD Radeon RX 6600](https://www.amd.com/en/products/graphics/amd-radeon-rx-6600#product-specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3070 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA RTX A2000](https://www.nvidia.com/en-us/design-visualization/rtx-a2000/#specifications)
+            - 4x Mini DisplayPort 1.4
+        - [NVIDIA RTX A4000](https://www.nvidia.com/en-us/design-visualization/rtx-a4000/#specifications)
+            - 4x DisplayPort 1.4
+        - [NVIDIA RTX A6000](https://www.nvidia.com/en-us/design-visualization/rtx-a6000/#specifications)
+            - 4x DisplayPort 1.4a
+            - Requires 750W+ PSU
+- Expansion
+    - 1x PCIe 4.0 x16 (primary GPU slot)
+    - 1x PCIe 4.0 x4 (secondary GPU slot)
+        - Fits physical x16 cards, runs at x4 bandwidth
+    - 1x PCIe 4.0 x2
+        - Fits physical x16 cards, runs at x2 bandwidth
+- Memory
+    - Up to 128GB (4x32GB) dual-channel DDR5 DIMMs @ 3600 MHz
+        - 64GB (2x32GB) and less runs at 4800 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT8G48C40U5](https://www.crucial.com/memory/ddr5/ct8g48c40u5#spec) (8GB/stick)
+        - [Kingston Fury KF556C40BB-8](https://www.kingston.com/datasheets/KF556C40BB-8.pdf) (8GB/stick)
+        - [Crucial CT16G48C40U5](https://www.crucial.com/memory/ddr5/ct16g48c40u5#spec) (16GB/stick)
+        - [Kingston Fury KF556C40BB-16](https://www.kingston.com/datasheets/KF556C40BB-16.pdf) (16GB/stick)
+        - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+        - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/en/products/communications-network-ics/item/rtl8125bg-s-cg))
+    - Wi-Fi 6E + Bluetooth 5.2 ([AMD/MediaTek RZ616](https://www.amd.com/en/press-releases/2021-11-18-amd-and-mediatek-develop-amd-rz600-series-wi-fi-6e-modules-to-enhance))
+- Power
+    - C13 power cord
+    - 650W minimum PSU
+        - Some GPU configurations require 750W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [EVGA SuperNOVA 650W G6 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G6-0650-X1)
+        - [EVGA SuperNOVA 750W G5 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G5-0750-X1)
+        - [EVGA SuperNOVA 1000W G5 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G5-1000-X1)
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC897 audio chipset
+    - HDMI, DisplayPort audio (depending on GPU)
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 5) SSD
+    - 3x M.2 (PCIe NVMe Gen 4) SSDs
+    - 4x 2.5" SATA III
+- USB
+    - 1x USB 3.2 Gen 2x2 Type-C
+        - Does not support Thunderbolt or DisplayPort over USB-C.
+    - 2x USB 3.2 Gen 2 Type-A
+    - 6x USB 3.2 Gen 1 Type-A
+    - 4x USB 2.0 Type-A
+- Dimensions
+    - 43.635cm × 25.3cm × 33.1cm

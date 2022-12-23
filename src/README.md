@@ -25,7 +25,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/README.md)
 - [Thelio Mira (thelio-mira-b1.0)](models/thelio-mira-b1.0/README.md)
-- [Thelio Mira (thelio-mira-r1.0)](models/thelio-mira-r1.0/README.md)
+- [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r1.0/README.md)
 
 ## Previous Models
 
@@ -43,4 +43,4 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Oryx Pro (oryp7)](models/oryp7/README.md)
 - [Oryx Pro (oryp6)](models/oryp6/README.md)
 - [Pangolin (pang10)](models/pang10/README.md)
-
+- [Thelio Mira (thelio-mira-r1.0)](models/thelio-mira-r1.0/README.md)

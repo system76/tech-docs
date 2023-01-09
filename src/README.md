@@ -25,7 +25,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/README.md)
 - [Thelio Mira (thelio-mira-b1.0)](models/thelio-mira-b1.0/README.md)
-- [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r1.0/README.md)
+- [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r3/README.md)
 
 ## Previous Models
 

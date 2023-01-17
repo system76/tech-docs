@@ -9,9 +9,10 @@ The Launch Heavy Configurable Keyboard can be customized and personalized in a v
 
 ## Connecting and using Launch Heavy:
 
-![Launch ports](./img/launch-middle-port.png)
+1. Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch Heavy's center USB-C port.
 
-1. Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch Heavy's center USB-C port, shown above.
+![Launch ports](./img/ports-back.webp)
+
 2. Connect the other side of the cable to your computer.
 3. Connect any other USB devices to the four downstream USB ports on either side of the Launch Heavy.
 
@@ -25,33 +26,47 @@ Launch Heavy uses only three sizes of uniform profile keycaps, which allows for 
 
 ### Steps to remove a keycap:
 
-1. Separate the two wire loops of the keycap puller and place them around two opposite corners of the keycap to be removed.
-2. Pull slowly but firmly on the keycap until it slides off the switch's stem.
+1. Separate the two wire loops of the keycap puller and place them around two opposite corners of the keycap.
+    - The keycap puller can be partially inserted over the sides of the key first, then twisted to go over the corners.
 
-![Pulling a keycap](./img/cap-puller.jpg)
+![Inserting the keycap puller](./img/keycap-removal-1.webp)
 
+![Removing a keycap](./img/keycap-removal-2.webp)
 
-#### Notes about removing larger keycaps:
+2. Pull slowly but firmly (directly away from the keyboard) until the keycap slides off of the switch's stem.
 
-- The included keycap puller works on all three of Launch Heavy's keycap sizes.
+![Removed keycap](./img/keycap-removed.webp)
+
+#### Removing larger keycaps:
+
+- The included keycap puller works on all three of Launch Lite's keycap sizes.
 - The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
     - These 2U keycaps take slightly more pulling force than the rest of the keycaps.
 
-![Pulling larger keycaps](./img/cap-puller-bigger-keys.jpg)
+![Removing larger keycaps](./img/keycap-removal-15u-2u.webp)
+
+#### Removing vertical keycaps:
+
+- When removing vertical 2U keycaps (numpad `Enter` and numpad `+`), the switch will come out of the socket with the keycap.
+
+![Removing vertical keycap](./img/keycap-removal-vertical.webp)
+
+- If you are not replacing the socket, remove it from the keycap and [install it back into the keyboard](#steps-to-install-a-switch) before putting on the new keycap.
 
 ### Steps to install a keycap:
 
-1. Position the keycap on the switch.
-2. Press the keycap down firmly until it's fully on the switch. The cap will friction-fit onto the switch stem.
+1. Position the keycap on top of the switch.
+2. Press the keycap down firmly until it's fully on the switch.
+    - The keycap will be held onto the switch by friction.
     - The 2U keycaps with stabilizers require slightly more pressure to install.
 
-![Installing a keycap](./img/keycap-install.jpg)
+![Installing a keycap](./img/keycap-installation.webp)
 
 ## Removing and installing switches:
 
-Since Launch Heavy uses Kailh hot swap sockets, key switches can be removed and installed without soldering.
+Launch Heavy uses Kailh hot swap sockets, so key switches can be removed and installed without soldering. 
 
-If you are changing all of the switches in your Launch Heavy, it is recommended to completely [remove both PCBs](#removing-the-pcb), install the switches into the top case without the PCBs installed, then install the PCBs into the case and onto the switch pins. This makes switch installation easier and makes bending switch pins or damaging the PCBs much less likely.
+If you are changing all of the switches in your Launch Heavy, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and reduces the likelihood of bending switch pins or damaging the PCB.
 
 If you are installing new switches, ensure that the switches you're installing are compatible with surface-mount (SMD) LEDs.
 
@@ -63,32 +78,34 @@ If you are installing new switches, ensure that the switches you're installing a
 
 1. [Remove the keycap](#removing-and-installing-keycaps) on the switch you wish to remove.
 2. Place the two tongs of the switch removal tool into the switch's locking tabs on the top and bottom edges of the switch.
-    - The hooks should squeeze the white tabs inwards and hook under the switch's clear plastic top housing.
-3. Slightly pinch the tongs together to help release the switch's locking clips from the cutout in the top case.
+
+![Switch removal](./img/switch-removal.webp)
+
+3. Pinch the tongs together to release the switch's locking clips from the chassis.
 4. Pull the switch upwards out of the socket.
-    - The switch's locking tabs can sometimes bind on the edges of the top case. If the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again.
+    - The switch's locking tabs can sometimes catch on the edges of the chassis cutouts. If the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again.
     - Switches take more force to remove than keycaps.
 
-![Removing a switch](./img/switch-removal.jpg)
+![A removed switch](./img/switch-removed.webp)
 
 ### Steps to install a switch:
 
 1. Make sure the switch's pins are straight.
-    - The pins must plug into the socket, and they'll miss their slots if they are bent.
+    - If either of the pins is bent, gently bend it back into place.
+    - **Caution:** Attempting to install a switch with bent pins may damage the PCB and/or switch.
 
-![Straighten switch pins](./img/switch-install-pins-straight.jpg)
+![Bent vs. straight switch pins](./img/switch-pins.webp)
 
-2. Orient the switch so the clear LED shine-through window aligns with the LED on the PCB, near the top of the socket.
+2. Orient the switch so the clear LED window aligns with the LED on the PCB, near the top of the socket.
 
-![Switch orientation](./img/switch-install-orientation.jpg)
+![Switch orientation](./img/switch-orientation.webp)
 
 3. Place the switch straight into the plate.
-    - **Caution:** Forcing the pins into the hot swap socket could damage the PCB.
-    - You should be able to feel whether the pins are plugging into the socket correctly.
+    - **Caution:** Forcing the pins into the hot swap socket if the pins are not properly aligned could damage the PCB and/or switch.
     - If you feel excessive resistance, pull the switch out, double-check that the pins are straight, and try installing the switch again.
 4. Once you feel the pins plug into the hot swap socket, press the switch down with more force to snap it into place within the chassis.
 
-![Installing a switch](./img/switch-installation.jpg)
+![Switch installation](./img/switch-installation.webp)
 
 ## Removing the PCBs:
 
@@ -96,11 +113,12 @@ If you are installing new switches, ensure that the switches you're installing a
 **Time estimate:** 50 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches on the PCBs, it can be removed and replaced using these instructions. The two PCBs are joined by a 100mm long, 20 pin, 0.5mm pitch FPC cable.
+If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches on the PCBs, they can be removed and replaced using these instructions. The two PCBs are joined by a 100mm long, 20 pin, 0.5mm pitch FPC cable.
 
 ### Steps to remove the PCBs:
 
 1. [Remove all of the keycaps](#removing-and-installing-keycaps) and [all of the switches](#removing-and-installing-switches).
+    - The 2U stabilizers do not need to be removed.
 2. Turn the keyboard over and remove the eight bottom panel screws.
 3. Remove the bottom panel.
     - Lifting the bottom panel out of the chassis may be easier with one of the magnetic lift bars installed.

@@ -3,8 +3,7 @@
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)
 
-**UPDATE PIC**
-![Launch Photo](./img/launch.png)
+![Launch Heavy](./img/launch-heavy.webp)
 
 The System76 Launch Heavy is a configurable keyboard with the following specifications:
 

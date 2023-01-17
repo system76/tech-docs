@@ -2,10 +2,12 @@
 
 ## Top overview:
 
-![Launch Top Overview](./img/launch-overhead.webp)
+![Launch Heavy Top Overview](./img/top.webp)
 
 ## Back overview:
-![Launch Ports](./img/launch-ports.png)
+
+![Launch Heavy Ports](./img/ports-back.webp)
 
 ## Box contents overview:
-![Launch Box Contents](./img/launch-box-contents.png)
+
+![Launch Heavy Box Contents](./img/box-contents.webp)

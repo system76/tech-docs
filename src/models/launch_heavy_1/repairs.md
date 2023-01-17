@@ -119,40 +119,56 @@ If either of the PCBs in your Launch Heavy become damaged and need to be replace
 
 1. [Remove all of the keycaps](#removing-and-installing-keycaps) and [all of the switches](#removing-and-installing-switches).
     - The 2U stabilizers do not need to be removed.
+
+![Launch Heavy with all keycaps removed](./img/all-keycaps-removed.webp)
+![Launch Heavy with all switches removed](./img/all-switches-removed.webp)
+
 2. Turn the keyboard over and remove the eight bottom panel screws.
+    - The screws are set into adapters that may or may not come out with the screws.
+
+![Bottom panel screws](./img/bottom-panel-screws.webp)
+
 3. Remove the bottom panel.
-    - Lifting the bottom panel out of the chassis may be easier with one of the magnetic lift bars installed.
+    - If the magnetic lift bars are installed, they can be used as handles.
 
-![Removing bottom panel screws](./img/bottom-panel-screws.jpg)
+![Bottom panel removed](./img/internal-bottom.webp)
 
-4. Disconnect and remove the flat ribbon cable between the main board and the tenkey daughter board.
+4. Disconnect and remove the flat ribbon cable between the main PCB (`launch 2.0`) and the numpad PCB (`launch_heavy 1.1`).
+    - Slide the black latches away from the white connectors to free the cable.
 
-TODO: picture of FCP removal
+![Ribbon cable](./img/ribbon-cable.webp)
 
 5. Push each PCB up out of the chassis through one of the switch holes, then lift each PCB out of the chassis, one at a time.
+    - For the main board, to avoid the USB-C port catching on the chassis, push through one of the bottom row switch holes and lift the bottom edge of the PCB first.
 
-![Removing the PCB](./img/pcb-removal.jpg)
+![Loose PCBs](./img/pcbs-removed.webp)
 
 ### Steps to install the PCBs:
 
 1. Install all of the switches into the chassis.
-    - Installing switches with the PCBs removed is much easier since you don't have to worry about aligning the pins individually.
+    - The switches can also be installed after installing the PCBs, but installing the switches first is recommended because it reduces the risk of individual bent pins damaging the PCBs or switches during installation.
+    - Make sure the switches are in the correct orientation with the LED window at the top.
+    - The switches are not specific to their key/hole.
 
-![Installing switches into chassis](./img/switch-install-without-pcb.jpg)
+![Switches installed in chassis](./img/chassis-with-switches.webp)
 
 2. Turn the chassis over and check that all of the switch pins are straight.
     - Look down the rows of pins from the sides of the chassis to identify any bent pins.
-    - If any of the pins are bent when installing the PCBs, the switches or the PCBs may be damaged.
-    - In the image below, the pin highlighted red is an example of a pin that is bent and needs to be straightened.
+    - If any of the pins are bent when installing the PCBs, the switch or corresponding PCB may be damaged.
+    - In the image below, the pin marked with a red arrow is an example of a pin that is bent and needs to be straightened.
 
-![Checking switch pins in chassis](./img/switch-pin-check-in-chassis.jpg)
+![Switch pins in chassis (with a bent pin)](./img/chassis-switch-pin-check.webp)
 
-3. Carefully line up each PCB with the switch pins and place it in the chassis.
-    - It may be easiest to insert the top edge of the main PCB first since the USB-C ports need to align with the port cutouts in the chassis.
-    - The tenkey daughter board will probably be easier to install since it does not have ports, and it has far fewer switches.
-    - If all of the switch pins feel lined up, press the PCB down little by little until all of the switch pins are fully seated in their sockets.
-    - The switch pins can be seen coming up through the sockets when they are fully seated (circled in green below).
+3. Carefully line up the main PCB with the switch pins and place it in the chassis, starting with the USB-C port on the top edge.
+    - Evenly press the PCB down until all of the switch pins are fully seated in their sockets.
+    - It may help to pick up the keyboard and pinch to press both the PCB and the switches at the same time.
+    - If you feel excessive resistance, stop, remove the PCB, and ensure that all of the switch pins are lined up.
+    - The switch pins can be seen from the back of the sockets when they are fully seated, highlighted below.
+    
+![Switch pins visible through sockets](./img/pcb-switch-pins.webp)
 
-![Switch pins fully seated in sockets](./img/switch-pins-in-sockets.jpg)
-
-4. Install the bottom cover and its eight screws, flip the keyboard over, and put all of the keycaps back on.
+4. Repeat the previous step for the numpad PCB.
+5. Insert the ribbon cable into the white connector on both PCBs, then slide the black latches shut.
+6. Install the bottom cover and its four screws, flip the keyboard over, and put all of the keycaps back on.
+    - If any of the oval magnets came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
+        - The magnets are held in by glue, but are also held in place magnetically if the magnetic lift bar is installed.

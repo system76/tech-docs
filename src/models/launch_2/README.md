@@ -36,8 +36,8 @@ The System76 Launch is a configurable keyboard with the following specifications
   - Customize layout and lighting in firmware with the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator)
   - [Available on Linux, Windows, and macOS](https://system76.com/accessories/launch/download)
 - Integrated Hub
-  - 2x USB 3.1 Gen 1 Type-C
-  - 2x USB 3.1 Gen 1 Type-A
+  - 2x USB 3.2 Gen 1 Type-C
+  - 2x USB 3.2 Gen 1 Type-A
 - Firmware
   - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_1/)
 - Included cables:

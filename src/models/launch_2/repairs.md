@@ -114,14 +114,13 @@ If the PCB in your Launch becomes damaged and needs to be replaced, or if you ar
 ![Launch with all keycaps removed](./img/all-keycaps-removed.webp)
 ![Launch with all switches removed](./img/all-switches-removed.webp)
 
-2. Turn the keyboard over and remove the eight bottom panel screws.
+2. Turn the keyboard over and remove the five bottom panel screws.
     - The screws are set into adapters that may or may not come out with the screws.
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
 3. Remove the bottom panel.
     - If the magnetic lift bar is installed, it can be used as a handle.
-    - A small plastic spacer (highlighted cyan below) may come loose; if it does, place it back in the middle PCB hole.
 
 ![Bottom panel removed](./img/internal-bottom.webp)
 

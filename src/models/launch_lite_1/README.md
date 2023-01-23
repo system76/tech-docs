@@ -41,4 +41,4 @@ The System76 Launch Lite is a configurable keyboard with the following specifica
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A
 - Dimensions
-  - 30.9cm x 13.6cm x 3.3cm, 948g
+  - 30.65cm x 10.75cm x 3.25cm, 816.46g

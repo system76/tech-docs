@@ -38,7 +38,7 @@ Launch uses only three sizes of uniform profile keycaps, which allows for a high
 
 #### Removing larger keycaps:
 
-- The included keycap puller works on all three of Launch Lite's keycap sizes.
+- The included keycap puller works on all three of Launch's keycap sizes.
 - The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
     - These 2U keycaps take slightly more pulling force than the rest of the keycaps.
 
@@ -154,5 +154,5 @@ If the PCB in your Launch becomes damaged and needs to be replaced, or if you ar
 ![Switch pins visible through sockets](./img/pcb-switch-pins.webp)
 
 4. Install the bottom cover and its four screws, flip the keyboard over, and put all of the keycaps back on.
-    - If any of the oval magnets came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
-        - The magnets are held in by glue, but are also held in place magnetically if the magnetic lift bar is installed.
+    - If any of the oval steel inserts came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
+        - The steel inserts are held in with glue, but are also held in place magnetically if the magnetic lift bar is installed. They can be re-glued with CA glue. 

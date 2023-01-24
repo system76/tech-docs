@@ -2,10 +2,10 @@
 
 The Launch Heavy Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch Heavy before changing keycaps or switches.
 
-- [Connecting and using Launch](#connecting-and-using-launch)
+- [Connecting and using Launch Heavy](#connecting-and-using-launch-heavy)
 - [Removing and installing keycaps](#removing-and-installing-keycaps)
 - [Removing and installing switches](#removing-and-installing-switches)
-- [Removing the PCB](#removing-the-pcb)
+- [Removing the PCBs](#removing-the-pcbs)
 
 ## Connecting and using Launch Heavy:
 
@@ -39,19 +39,19 @@ Launch Heavy uses only three sizes of uniform profile keycaps, which allows for 
 
 #### Removing larger keycaps:
 
-- The included keycap puller works on all three of Launch Lite's keycap sizes.
-- The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
+- The included keycap puller works on all three of Launch Heavy's keycap sizes.
+- The six 2U keycaps (both `Space` bars, left `Shift`, numpad `0`, numpad `+`, and numpad `Enter`) have stabilizers, so be sure to pull both sides evenly.
     - These 2U keycaps take slightly more pulling force than the rest of the keycaps.
 
 ![Removing larger keycaps](./img/keycap-removal-15u-2u.webp)
 
 #### Removing vertical keycaps:
 
-- When removing vertical 2U keycaps (numpad `Enter` and numpad `+`), the switch will come out of the socket with the keycap.
+- For the launch_heavy_1.1 revision numpad PCB, when removing vertical 2U keycaps (numpad `Enter` and numpad `+`), the switch will come out of the socket with the keycap.
 
 ![Removing vertical keycap](./img/keycap-removal-vertical.webp)
 
-- If you are not replacing the socket, remove it from the keycap and [install it back into the keyboard](#steps-to-install-a-switch) before putting on the new keycap.
+- If you are not replacing the switch, remove it from the keycap and [install it back into the keyboard](#steps-to-install-a-switch) before putting on the new keycap.
 
 ### Steps to install a keycap:
 
@@ -66,7 +66,7 @@ Launch Heavy uses only three sizes of uniform profile keycaps, which allows for 
 
 Launch Heavy uses Kailh hot swap sockets, so key switches can be removed and installed without soldering. 
 
-If you are changing all of the switches in your Launch Heavy, it is recommended to completely [remove the PCB](#removing-the-pcb), install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and reduces the likelihood of bending switch pins or damaging the PCB.
+If you are changing all of the switches in your Launch Heavy, it is recommended to completely [remove the PCBs](#removing-the-pcbs), install the switches into the top case without the PCB, then install the PCBs into the case and onto the switch pins. This makes switch installation easier and reduces the likelihood of bending switch pins or damaging the PCBs.
 
 If you are installing new switches, ensure that the switches you're installing are compatible with surface-mount (SMD) LEDs.
 
@@ -113,7 +113,7 @@ If you are installing new switches, ensure that the switches you're installing a
 **Time estimate:** 50 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches on the PCBs, they can be removed and replaced using these instructions. The two PCBs are joined by a 100mm long, 20 pin, 0.5mm pitch FPC cable.
+If either of the PCBs in your Launch Heavy become damaged and need to be replaced, or if you are changing all of the switches in the keyboard, they can be removed and replaced using these instructions. The two PCBs are joined by a 100mm long, 20 pin, 0.5mm pitch FPC cable.
 
 ### Steps to remove the PCBs:
 
@@ -170,5 +170,5 @@ If either of the PCBs in your Launch Heavy become damaged and need to be replace
 4. Repeat the previous step for the numpad PCB.
 5. Insert the ribbon cable into the white connector on both PCBs, then slide the black latches shut.
 6. Install the bottom cover and its four screws, flip the keyboard over, and put all of the keycaps back on.
-    - If any of the oval magnets came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
-        - The magnets are held in by glue, but are also held in place magnetically if the magnetic lift bar is installed.
+    - If any of the oval steel inserts came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
+        - The steel inserts are held in with glue, but are also held in place magnetically if the magnetic lift bar is installed. They can be re-glued with CA glue.

@@ -39,7 +39,7 @@ The System76 Launch is a configurable keyboard with the following specifications
   - 2x USB 3.2 Gen 1 Type-C
   - 2x USB 3.2 Gen 1 Type-A
 - Firmware
-  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_1/)
+  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_2/)
 - Included cables:
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A

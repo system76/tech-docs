@@ -47,7 +47,7 @@ Launch Heavy uses only three sizes of uniform profile keycaps, which allows for 
 
 #### Removing vertical keycaps:
 
-- For the launch_heavy_1.1 revision numpad PCB, when removing vertical 2U keycaps (numpad `Enter` and numpad `+`), the switch will come out of the socket with the keycap.
+- For the `launch_heavy_1.1` revision numpad PCB, when removing vertical 2U keycaps (numpad `Enter` and numpad `+`), the switch will come out of the socket with the keycap.
 
 ![Removing vertical keycap](./img/keycap-removal-vertical.webp)
 

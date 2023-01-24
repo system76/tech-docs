@@ -44,4 +44,4 @@ The System76 Launch is a configurable keyboard with the following specifications
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A
 - Dimensions
-  - 30.65cm x 13.53cm x 3.025cm, 948g
+  - 30.83cm x 13.51cm x 3.061cm, 948g

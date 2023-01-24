@@ -44,4 +44,4 @@ The System76 Launch Heavy is a configurable keyboard with the following specific
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A
 - Dimensions
-  - 39.37cm x 13.51cm x 2.79cm, 1315.42g
+  - 39.40cm x 13.51cm x 3.31cm, 1315.42g

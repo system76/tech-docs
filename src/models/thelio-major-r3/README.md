@@ -1,12 +1,12 @@
-# Thelio Mira (thelio-mira-r3)
+# Thelio Major (thelio-major-r3)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Thelio Mira](./img/thelio-mira-r3.webp)
+![Thelio Major](./img/thelio-major-r3.webp)
 
-The System76 Thelio Mira is a desktop with the following specifications:
+The System76 Thelio Major is a desktop with the following specifications:
 
 - Processor options
     - Supports AMD Ryzen 7000 series (Zen 4) CPUs
@@ -15,31 +15,30 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [Ryzen 9 7900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-7900x#product-specs)
         - [Ryzen 9 7950X](https://www.amd.com/en/products/cpu/amd-ryzen-9-7950x#product-specs)
 - Motherboard
-    - [Gigabyte X670 Aorus Elite AX](https://www.gigabyte.com/Motherboard/X670-AORUS-ELITE-AX-rev-11/sp) running System76 Firmware (non-open)
+    - [Gigabyte X670E Aorus Extreme](https://www.gigabyte.com/Motherboard/X670E-AORUS-XTREME-rev-10/sp) running System76 Firmware (non-open)
     - AMD X670 chipset
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
 - Graphics options
     - Up to two dedicated GPUs
         - Primary GPU slot:
-            - PCIe 4.0 x16
+            - PCIe 5.0 x16
             - Up to 4-slot height
         - Secondary GPU slot:
             - PCIe 4.0 x4
                 - Fits physical x16 cards, runs at x4 bandwidth
             - Up to 2-slot height
     - GPU size:
-        - Internal clearance: 318.80mm
-        - Recommended maximum length: 308.80mm
+        - Internal clearance: 396.50mm
+        - Recommended maximum length: 386.50mm
     - Tested with the following GPUs:
-        - Integrated Graphics
-            - 1x HDMI 2.1
         - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/)
             - 1x HDMI 2.0b, 1x DisplayPort 1.4, 1x DVI-D (single-link)
         - [AMD Radeon RX 6500 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt#product-specs)
             - 1x HDMI 2.1, 1x DisplayPort 1.4a
         - [AMD Radeon RX 6600](https://www.amd.com/en/products/graphics/amd-radeon-rx-6600#product-specs)
             - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - AMD Radeon RX 6700 XT
         - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
             - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
@@ -48,6 +47,9 @@ The System76 Thelio Mira is a desktop with the following specifications:
             - 1x HDMI 2.1, 3x DisplayPort 1.4a
         - [NVIDIA GeForce RTX 3070 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
             - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - NVIDIA GeForce RTX 4070 Ti
+        - NVIDIA GeForce RTX 4080
+        - NVIDIA GeForce RTX 4090
         - [NVIDIA RTX A2000](https://www.nvidia.com/en-us/design-visualization/rtx-a2000/#specifications)
             - 4x Mini DisplayPort 1.4
         - [NVIDIA RTX A4000](https://www.nvidia.com/en-us/design-visualization/rtx-a4000/#specifications)
@@ -56,42 +58,42 @@ The System76 Thelio Mira is a desktop with the following specifications:
             - 4x DisplayPort 1.4a
             - Requires 750W+ PSU
 - Expansion
-    - 1x PCIe 4.0 x16 (primary GPU slot)
+    - 1x PCIe 5.0 x16 (primary GPU slot)
     - 1x PCIe 4.0 x4 (secondary GPU slot)
         - Fits physical x16 cards, runs at x4 bandwidth
-    - 1x PCIe 4.0 x2
+    - 1x PCIe 3.0 x2
         - Fits physical x16 cards, runs at x2 bandwidth
 - Memory
-    - Up to 128GB (4x32GB) dual-channel DDR5 DIMMs @ 3600 MHz
-        - 64GB (2x32GB) and less runs at 4800 MHz
+    - Up to 128GB (4x32GB) dual-channel DDR5 DIMMs @ 4800 MHz
     - Tested with the following RAM modules (may ship with other tested modules):
         - [Crucial CT8G48C40U5](https://www.crucial.com/memory/ddr5/ct8g48c40u5#spec) (8GB/stick)
-        - [Kingston Fury KF556C40BB-8](https://www.kingston.com/datasheets/KF556C40BB-8.pdf) (8GB/stick)
         - [Crucial CT16G48C40U5](https://www.crucial.com/memory/ddr5/ct16g48c40u5#spec) (16GB/stick)
-        - [Kingston Fury KF556C40BB-16](https://www.kingston.com/datasheets/KF556C40BB-16.pdf) (16GB/stick)
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+        - [Kingston Fury KF552C40BB-32](https://www.kingston.com/datasheets/KF552C40BB-32.pdf) (32GB/stick)
         - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
 - Networking
-    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/en/products/communications-network-ics/item/rtl8125bg-s-cg))
-    - Wi-Fi 6E + Bluetooth 5.2 ([AMD/MediaTek RZ616](https://www.amd.com/en/press-releases/2021-11-18-amd-and-mediatek-develop-amd-rz600-series-wi-fi-6e-modules-to-enhance))
+    - 1x 10-Gigabit Ethernet ([RMarvel lAQtion AQC113C](https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-fastLinq-edge-aqc113-aqc113c-aqc113cs-aqc114cs-aqc115c-aqc116c-product-brief.pdf))
+    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX210](https://ark.intel.com/content/www/us/en/ark/products/204836/intel-wifi-6e-ax210-gig.html))
 - Power
     - C13 power cord
-    - 650W minimum PSU
-        - Some GPU configurations require 750W PSU
+    - 750W minimum PSU
+        - Some GPU configurations require 1000W PSU
     - Tested with the following PSU models (may ship with other tested models):
-        - [EVGA SuperNOVA 650W G6 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G6-0650-X1)
-        - [EVGA SuperNOVA 750W G5 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G5-0750-X1)
-        - [EVGA SuperNOVA 1000W G5 (80+ Gold)](https://www.evga.com/products/product.aspx?pn=220-G5-1000-X1)
+        - [EVGA SuperNOVA 750W G5 (80+ Gold)](https://www.evga.com/products/Specs/PSU.aspx?pn=a7699f25-a614-4d88-a339-1ddf3d24615e)
+        - [EVGA SuperNOVA 1000W G2 (80+ Gold)](https://www.evga.com/products/specs/psu.aspx?pn=66c8cae4-9a09-4476-8e75-f7b660159eb9)
+        - [EVGA SuperNOVA 1000W G3 (80+ Gold)](https://www.evga.com/products/specs/psu.aspx?pn=a3df2771-ccb6-4ed2-ae43-93b224838c41)
+        - [EVGA SuperNOVA 1000W G5 (80+ Gold)](https://www.evga.com/products/Specs/PSU.aspx?pn=71d331b7-9306-4218-987f-875fd422fd44)
+        - [EVGA SuperNOVA 1300W G+ (80+ Gold)](https://www.evga.com/products/Specs/PSU.aspx?pn=fb01f696-f519-4131-b914-71da16b443e7)
 - Sound
     - 3.5mm line out, line in, microphone jacks
-    - Up to 7.1-channel audio output
-    - Realtek ALC897 audio chipset
+    - Up to 5.1-channel audio output
+    - Realtek ALC1220-VB audio chipset
     - HDMI, DisplayPort audio (depending on GPU)
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 5) SSD
-    - 3x M.2 (PCIe NVMe Gen 4) SSDs
+    - 4x M.2 (PCIe NVMe Gen 5) SSDs
+        - Affects GPU?
     - 4x 2.5" SATA III
-- USB
+- USB STARTHERE
     - 1x USB 3.2 Gen 2x2 Type-C
         - Does not support Thunderbolt or DisplayPort over USB-C.
     - 2x USB 3.2 Gen 2 Type-A

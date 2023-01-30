@@ -12,7 +12,7 @@
 ### Other Notes:
 
 - The `ECO` (ECO Mode) switch on the power supply should always be set to `ON` for an optimal fan curve.
-- The `BIOS` (BIOS Flash) button is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of the BIOS Flash button is not recommended.
+- The `Q-Flash Plus` (BIOS Flash) button is not needed when performing UEFI firmware updates via the System76 Firmware Manager. Use of this button is not recommended.
 
 ## Front/side overview:
 

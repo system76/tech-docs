@@ -93,11 +93,12 @@ The System76 Thelio Major is a desktop with the following specifications:
     - 4x M.2 (PCIe NVMe Gen 5) SSDs
         - Affects GPU?
     - 4x 2.5" SATA III
-- USB STARTHERE
+- USB
     - 1x USB 3.2 Gen 2x2 Type-C
         - Does not support Thunderbolt or DisplayPort over USB-C.
-    - 2x USB 3.2 Gen 2 Type-A
-    - 6x USB 3.2 Gen 1 Type-A
+    - 1x USB 3.2 Gen 2 Type-C
+        - Does not support Thunderbolt or DisplayPort over USB-C.
+    - 6x USB 3.2 Gen 2 Type-A
     - 4x USB 2.0 Type-A
 - Dimensions
-    - 43.635cm × 25.3cm × 33.1cm
+    - 46.2cm × 26.2cm × 40.8cm

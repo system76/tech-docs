@@ -28,6 +28,7 @@
         - [External Overview](models/gaze17/external-overview.md)
         - [Internal Overview](models/gaze17/internal-overview.md)
         - [Parts & Repairs](models/gaze17/repairs.md)
+    - [Jackal Pro 1U](models/jacp1-b1/README.md)
     - [Kudu (kudu6)](models/kudu6/README.md)
         - [External Overview](models/kudu6/external-overview.md)
         - [Internal Overview](models/kudu6/internal-overview.md)

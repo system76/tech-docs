@@ -1,0 +1,92 @@
+# Thelio (thelio-b4)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio](./img/thelio-b4.webp)
+
+The System76 Thelio is a desktop with the following specifications:
+
+- Processor options
+    - Supports Intel 12th Generation (Alder Lake) and 13th Generation (Raptor Lake) CPUs
+        - [Pentium Gold G7400](https://ark.intel.com/content/www/us/en/ark/products/219435/intel-pentium-gold-g7400-processor-6m-cache-3-70-ghz.html)
+        - [Core i3-12100](https://ark.intel.com/content/www/us/en/ark/products/134584/intel-core-i312100-processor-12m-cache-up-to-4-30-ghz.html)
+        - [Core i5-12400](https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html)
+        - [Core i5-12600K](https://ark.intel.com/content/www/us/en/ark/products/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz.html)
+        - [Core i7-12700K](https://ark.intel.com/content/www/us/en/ark/products/134594/intel-core-i712700k-processor-25m-cache-up-to-5-00-ghz.html)
+- Motherboard
+    - [MSI MEG Z690I UNIFY](https://www.msi.com/Motherboard/MEG-Z690I-UNIFY/Specification) running System76 Firmware (non-open)
+    - Intel Z690 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- Graphics options
+    - One GPU (PCIe 4.0 x16) of up to two-slot height
+    - GPU size:
+        - Internal clearance: 278.175mm
+        - Recommended maximum length: 268.175mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1, 1x DisplayPort 1.4a
+        - [NVIDIA GeForce GT 1030](https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/)
+            - 1x HDMI 2.0b, 1x DisplayPort 1.4, 1x DVI-D (single-link)
+        - [NVIDIA GeForce GTX 1650](https://www.nvidia.com/en-us/geforce/graphics-cards/compare/?section=compare-16)
+            - 1x HDMI 2.0b, 1x DisplayPort 1.4a, 1x DVI-D (dual-link)
+        - [AMD Radeon RX 6500 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt#product-specs)
+            - 1x HDMI 2.1, 1x DisplayPort 1.4a
+        - [AMD Radeon RX 6600](https://www.amd.com/en/products/graphics/amd-radeon-rx-6600#product-specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+            - Requires 650W PSU
+        - [NVIDIA GeForce RTX 3060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+            - Requires 650W PSU
+        - [NVIDIA GeForce RTX 3070](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+            - Requires 650W PSU
+        - [NVIDIA RTX A2000](https://www.nvidia.com/en-us/design-visualization/rtx-a2000/#specifications)
+            - 4x Mini DisplayPort 1.4
+            - Requires 650W PSU
+        - [NVIDIA RTX A4000](https://www.nvidia.com/en-us/design-visualization/rtx-a4000/#specifications)
+            - 4x DisplayPort 1.4
+            - Requires 650W PSU
+- Expansion
+    - 1x PCIe 4.0 x16 (GPU slot)
+- Memory
+    - Up to 64GB (2x32GB) dual-channel DDR5 DIMMs @ 5600 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT8G48C40U5](https://www.crucial.com/memory/ddr5/ct8g48c40u5#spec) (8GB/stick)
+        - [Kingston Fury KF556C40BB-8](https://www.kingston.com/datasheets/KF556C40BB-8.pdf) (8GB/stick)
+        - [Crucial CT16G48C40U5](https://www.crucial.com/memory/ddr5/ct16g48c40u5#spec) (16GB/stick)
+        - [Kingston Fury KF556C40BB-16](https://www.kingston.com/datasheets/KF556C40BB-16.pdf) (16GB/stick)
+        - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+        - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Intel I225-V](https://ark.intel.com/content/www/us/en/ark/products/184676/intel-ethernet-controller-i225v.html))
+    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wifi-6e-ax211-gig.html))
+- Power
+    - C13 power cord
+    - 450W minimum PSU
+        - Some GPU configurations require 650W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [EVGA SuperNOVA 450W GM 80+ Gold](https://www.evga.com/products/product.aspx?pn=123-GM-0450-Y1)
+        - [FSP Dagger Pro 650W 80+ Gold](https://www.fspgroupusa.com/ecommerce/daggerpro650w.html)
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier)
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 4) SSD
+        - Only active with 11th Gen CPUs.
+    - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
+    - 4x 2.5" SATA
+- USB
+    - 2x USB Type-C with Thunderbolt 4
+        - Does not provide a DisplayPort over USB-C signal.
+        - Supports DisplayPort over USB-C passthrough when a GPU is connected to the associated Mini DisplayPort input.
+    - 2x USB 3.2 Gen 2 Type-A
+    - 4x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 32.7cm × 20.7cm × 29.1cm

@@ -30,7 +30,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 3. Lift the bottom cover off, starting from the hinges and working towards the front.
 
-## Replacing the RAM
+## Replacing the RAM:
 
 The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. The additional stick is a standard DDR4 SO-DIMM running at 3200 MHz.
 

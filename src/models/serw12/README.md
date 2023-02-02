@@ -16,9 +16,12 @@ The System76 Serval WS is a laptop with the following specifications:
 - Chipset
     - AMD B450
 - BIOS
-    - MX25U12872F flash chip running System76 Firmware (non-open)
+    - MX25U12872F flash chip
+        - SOIC-8 form factor
+    - Programmed with System76 firmware (non-open)
 - EC
     - ITE IT5570E
+    - Programmed with non-open EC firmware
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 2070

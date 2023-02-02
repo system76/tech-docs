@@ -71,7 +71,7 @@ If you are installing new switches, ensure that the switches you're installing a
 
 ![Removing a switch](./img/switch-removal.jpg)
 
-### Steps to install a swtich:
+### Steps to install a switch:
 
 1. Make sure the switch's pins are straight.
     - The pins must plug into the socket, and they'll miss their slots if they are bent.

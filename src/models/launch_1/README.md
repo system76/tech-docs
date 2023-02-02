@@ -16,7 +16,11 @@ The System76 Launch is a configurable keyboard with the following specifications
   - N-key rollover
 - Sockets and Switches
   - Kailh MX hot swap sockets
-  - Kailh Box Jade or Box Royal switches
+  - Default switch options:
+    - NovelKeys x Kailh Box Jade
+    - NovelKeys x Kailh Box Royal
+    - Kailh Box Silent Brown
+    - Kailh Box Silent Pink
 - Keycaps
   - PBT plastic
   - Dye sublimated legend

@@ -1,6 +1,6 @@
-# Thelio Mira (Parts & Repairs)
+# Thelio Major (Parts & Repairs)
 
-Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the initial revision for this generation (R3-0). Minor case details may vary on newer units, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
+Many components in your Thelio Major can be upgraded or replaced as necessary. This page uses photos of the initial revision for this generation (R3-0). Minor case details may vary on newer units, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
 Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 
@@ -20,7 +20,7 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 
 ## Replacing the front accent strip:
 
-Thelio Mira includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
+Thelio Major includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
 
 **Tools required:** None  
 **Time estimate:** 30 seconds  
@@ -28,8 +28,8 @@ Thelio Mira includes a customizable accent panel on the front of the case, which
 
 ### Steps to replace the front accent strip:
 
-1. Place the Thelio on the edge of the desk so the front side is hanging off of the desk.
-    - The Thelio can alternatively be lifted or tilted so the front of the computer is hovering above the desk.
+1. Place the system on the edge of the desk so the front side is hanging off of the desk.
+    - The system can alternatively be lifted or tilted so the front of the computer is hovering above the desk.
 2. Slide the accent strip down to unlock it.
     - The accent can be gripped at the bottom edge.
 3. Pull the accent strip off of the case, starting with the bottom edge.
@@ -55,9 +55,9 @@ The top case can be removed to access the internal components.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio Mira R3 supports up to four 2.5" SATA III drives.
+Thelio Major R3 supports up to four 2.5" SATA III drives.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver (optional), flathead screwdriver (optional)  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
@@ -69,6 +69,7 @@ Thelio Mira R3 supports up to four 2.5" SATA III drives.
 ![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
 
 3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
+    - For revisions where the black plastic ring is located over the CPU shroud, the ring can be popped out from below using a flathead screwdriver, or by hand after [removing the CPU shroud]().
 
 ![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
 
@@ -79,13 +80,18 @@ Thelio Mira R3 supports up to four 2.5" SATA III drives.
 
 ![Installed 2.5" drive](./img/25-drive-installed.webp)  
 
-_Thelio Mira R3 with one 2.5" drive installed._
+_Thelio Major R3 with one 2.5" drive installed._
 
 6. Replace the black plastic screw ring and the 2.5" drive bay cover.
 
-## Replacing the bottom case fan:
+## Replacing the case fans:
 
-Thelio Mira R3 has one case-mounted intake fan on the bottom of the chassis.
+Thelio Major R3 has two case-mounted intake fans:
+
+- A 140mm fan on the bottom of the chassis.
+- A 92mm fan on the right side of the chassis.
+
+The fans connect to the Thelio-IO board using a [Y splitter cable]().
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -94,11 +100,11 @@ Thelio Mira R3 has one case-mounted intake fan on the bottom of the chassis.
 ### Steps to replace the bottom case fan:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unplug the fan's cable from the Thelio-IO daughterboard.
-    - The bottom case fan plugs into the `INTAKE0` port on the Thelio-IO board.
-    - When viewed from the front of the case, this connector is second from the top.
+    - The [GPU brace]() can optionally be removed for easier access to the fans and cables.
+2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
+    - The bottom case fan's cable is round with a mesh net covering.
 
-![Bottom case fan connector](./img/bottom-fan-connector.webp)
+![Chassis fan connectors](./img/chassis-fan-connectors.webp)
 
 3. Unscrew the four fan screws from the bottom of the machine.
     - To avoid damaging other components, place the machine on its front side when working with the bottom surface.
@@ -112,17 +118,40 @@ Thelio Mira R3 has one case-mounted intake fan on the bottom of the chassis.
     - Acrylic spacer
     - Fan
 6. The new fan's cable should be oriented towards the front-right corner of the case.
-    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes or velcro strips.
+    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
+    
+### Steps to replace the side case fan:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+    - The [GPU brace]() can optionally be removed for easier access to the fans and cables.
+2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
+    - The side case fan's cable is flat with four wires.
+
+![Chassis fan connectors](./img/chassis-fan-connectors.webp)
+
+3. Unscrew the four fan screws from the opposite side of the machine.
+
+![Side case fan screws](./img/side-fan-screws.webp)
+
+4. Remove the old fan from the case.
+5. When installing the fan, mount the components in the following order:
+    - Chassis
+    - Dust filter
+    - Acrylic spacer
+    - Fan
+6. The new fan's cable should be oriented towards the front-right corner of the case.
+    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
 
 ## Replacing the GPU:
 
-Thelio Mira supports two multi-slot dedicated GPUs:
+Thelio Major supports two multi-slot dedicated GPUs:
 
-- The top GPU slot is a PCIe 4.0 x16 slot.
+- The top GPU slot is a PCIe 5.0 x16 slot.
     - There are four units of clearance in the back of the chassis.
+    - This slot shares bandwidth with M.2 slots 2 and 3 (the bottom two M.2 slots); if either of these M.2 slots are populated, then the top GPU slot will operate at x8 bandwidth.
 - The bottom GPU slot is a PCIe 4.0 x4 slot.
     - There are two units of clearance in the back of the chassis.
-    - This slot is forwards-compatible with x16 cards.
+    - This slot physically fits up to x16 cards, but runs at x4 bandwidth.
 
 Factory configurations only include one GPU.
 
@@ -133,25 +162,28 @@ Factory configurations only include one GPU.
 ### Steps to replace the GPU:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the two back screws holding the PCIe bracket in place, and remove the PCIe bracket.
-
-![PCIe bracket screws](./img/pcie-bracket.webp)
-
-3. Unscrew the four screws holding the side GPU brace in place. Remove the brace.
+2. Unscrew the four screws holding the side GPU brace in place (two on the front of the case, two on the back.) Remove the brace.
 
 ![GPU brace screws](./img/gpu-brace-screws.webp)
 
-4. If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.
+3. Unscrew the two back thumbscrews holding the PCIe bracket in place, and remove the PCIe bracket.
+    - The empty PCIe slot covers will come loose, and can also be removed.
+
+![PCIe bracket screws](./img/pcie-bracket.webp)
+
+4. If you're removing a GPU, unplug the GPU power cable (or cables) from the right side of the card. Hold down the latch on the connector while unplugging the cable.
 
 ![GPU power connections](./img/gpu-power.webp)
 
 5. Push and hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
+    - If space is tight, a long, flat object such as a PCIe slot cover can be used to push the latch back.
 
 ![PCIe slot & latch](./img/gpu-slots.webp)
 
 6. After inserting the new GPU into its slot, connect the power cable.
 7. Once the GPU is installed, replace the side GPU brace, back PCIe bracket, and top case.
-    - The side GPU brace includes screws to adjust for the height and depth of the graphics cards.
+    - The side GPU brace includes screws to adjust for the height and length of the graphics cards.
+    - The chassis includes multiple sets of screw holes for the side GPU brace to accomodate minor adjustments in graphics card depth; the brace will ship with either short or long GPU fingers (short fingers pictured below), depending on the GPU that was ordered with the machine.
 
 ![GPU brace screws](./img/gpu-brace-adjustment-screws.webp)
 
@@ -159,7 +191,7 @@ _The GPU brace's primary function is to prevent damage during shipping. The syst
 
 ## Removing the CPU shroud:
 
-The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
+The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots, top GPU, and spare 2.5" drive screws.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
@@ -169,20 +201,23 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
     - The GPU can also optionally be removed to provide more room for working with the components.
-2. Unplug the connectors for the CPU fans from the splitter board on the top crossbar.
+2. Unplug the connectors for the CPU fans from the splitter board on the chassis, next to the top right corner of the motherboard.
     - The splitter board provides the same signal to both ports, so it doesn't matter which fan is plugged into which port.
+    - By default, the back fan (long cable) is plugged into the top port (`J2`), while the front fan (short cable) is plugged into the bottom port (`J3`).
 
 ![CPU fan connectors](./img/cpu-fan-connectors.webp)
 
-3. Unscrew the four back screws holding the CPU shroud in place.
+3. Unscrew the four back thumbscrews and two crossbar screws holding the CPU shroud in place.
 
-![CPU shroud screws](./img/cpu-shroud-screws.webp)
+![CPU shroud screws (internal)](./img/cpu-shroud-screws-internal.webp)
+
+![CPU shroud screws (external)](./img/cpu-shroud-screws-external.webp)
 
 4. Pull the CPU shroud away from the machine.
 
 ## Replacing the RAM:
 
-Thelio Mira R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 4800MHz (the maximum 4x32GB configuration is limited to 3600MHz). If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+Thelio Major R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DIMMs (non-ECC) running at a speed of up to 4800MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -191,7 +226,7 @@ Thelio Mira R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DIM
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU shroud](#removing-the-cpu-shroud).
-    - Removing the CPU shroud is optional, but is recommended to provide easier access to the leftmost RAM slot.
+    - Removing the CPU shroud is optional, but is recommended to provide easier access to the RAM slots.
 2. To remove an existing RAM stick, flip the top and bottom latches away from the stick, then pull the stick out of the slot.
 
 ![RAM slots](./img/ram-slots.webp)
@@ -204,10 +239,9 @@ Thelio Mira R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DIM
 
 ## Replacing the M.2 drives:
 
-Thelio Mira R3 has four M.2 storage slots. All four slots are M key and size 2280.
+Thelio Major R3 has four M.2 storage slots. All four slots support PCIe NVMe Gen 5 at x4 bandwidth, sizes 2280 or 25110, and the M key pin arrangement.
 
-- Slot 1 supports PCIe NVMe Gen 5.
-- Slots 2, 3, and 4 support PCIe NVMe Gen 4.
+M.2 slots 2 and 3 (the bottom two slots) share bandwidth with the PCIe 5.0 x16 slot (the primary GPU slot). If an SSD is installed in M.2 slots 2 or 3, then the PCIe 5.0 x16 slot (the primary GPU slot) will operate at x8 bandwidth. For this reason, M.2 slots 1 and 4 (the top two slots) should be used first.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 30 minutes  
@@ -223,16 +257,15 @@ Thelio Mira R3 has four M.2 storage slots. All four slots are M key and size 228
 
 ![M.2 heatsink screws](./img/m2-heatsink-screws.webp)
 
-3. For the M.2 drive(s) being removed, push the rectangular side of the retaining clip to flip it open.
+3. For the M.2 drive(s) being removed, push the tab upwards to rotate the circular locking ring; the drive will pop away from the motherboard.
 
 ![M.2 slots](./img/m2-slots.webp)
 
 4. Remove the existing M.2 drive by pulling it out of the slot.
-5. Insert the new M.2 drive into the slot and hold it in place.
-6. Flip the retaining clip back into place and push the circular side until it snaps closed.
+5. Insert the new M.2 drive into the slot; while holding the circular locking ring open, push the drive towards the motherboard.
+6. While holding the drive in place, let go of the circular locking ring. The ring will rotate back to the closed position.
 7. Replace the M.2 heatsink, CPU shroud, GPU, GPU brace, and top case.
     - If you are populating an SSD slot for the first time, remove any protective plastic that may be covering the thermal tape.
-    - When installing the Slot 1 heatsink, fit the tab on the opposite end from the screw into the motherboard standoff before lining up the screw.
 
 ![M.2 thermal tape](./img/m2-thermal-tape.webp)
 

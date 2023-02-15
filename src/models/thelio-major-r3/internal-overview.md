@@ -1,17 +1,17 @@
-# Thelio Mira (Internal Overview)
+# Thelio Major (Internal Overview)
 
 ## Left side overview:
 
 ![Internal overview (left side)](./img/components-left.webp)
 
 - CPU cooler & CPU are highlighted in red (located behind the CPU shroud)
-- RAM slots are highlighted in green
-- 2.5" SATA drive cage is highlighted in pink
+- RAM slots are highlighted in green (located behind the CPU shroud)
+- 2.5" SATA drive cage (with cover removed) is highlighted in pink
 - M.2 slots are highlighted in white (located underneath the GPU & heatsinks)
-- GPU (in PCIe 4.0 x16 slot) is highlighted in yellow
-- PCIe 4.0 x4 and x2 slots are highlighted in dark blue
+- GPU (in PCIe 5.0 x16 slot) is highlighted in yellow
+- PCIe 4.0 x8 and 3.0 x2 slots are highlighted in navy
 - Power supply is highlighted in cyan
-- Bottom case fan is highlighted in orange
+- Case fans are highlighted in orange
 
 ## Right side overview:
 
@@ -24,15 +24,15 @@
 
 ![Internal overview (front side)](./img/components-front.webp)
 
-- Thelio-IO connector access cutout is highlighted in green
+- Thelio-IO access cutout is highlighted in green
 
 ## Top overview:
 
 ![Internal overview (top)](./img/components-top.webp)
 
-- 2.5" drive screws are highlighted in green
-- CPU power connector is highlighted in red
-    - Connects to power supply
+- 2.5" drive screws (with retainer ring removed) are highlighted in green
+- CPU power connectors are highlighted in red
+    - Connect to power supply
 - Motherboard CPU fan header is highlighted in yellow
     - Connects to Thelio-IO board
 - Power button receptacle is highlighted in cyan

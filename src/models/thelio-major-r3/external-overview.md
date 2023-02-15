@@ -1,4 +1,4 @@
-# Thelio Mira (External Overview)
+# Thelio Major (External Overview)
 
 ## Back overview:
 

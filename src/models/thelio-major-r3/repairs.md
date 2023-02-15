@@ -6,10 +6,10 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 
 - [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the case fans](#replacing-the-case-fans)
 - [Replacing the GPU](#replacing-the-gpu)
+- [Replacing the case fans](#replacing-the-case-fans)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
@@ -52,95 +52,6 @@ The top case can be removed to access the internal components.
 ![Top case screws](./img/top-case-screws.webp)
 
 2. Slide the top case up and off of the machine.
-
-## Adding/removing 2.5" storage drives:
-
-Thelio Major R3 supports up to four 2.5" SATA III drives.
-
-**Tools required:** Cross-head (Phillips) screwdriver (optional), flathead screwdriver (optional)  
-**Time estimate:** 7 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to add/remove 2.5" storage drives:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the two screws securing the drive bay's cover, highlighted green below.
-
-![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
-
-3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
-    - For revisions where the black plastic ring is located over the CPU shroud, the ring can be popped out from below using a flathead screwdriver, or by hand after [removing the CPU shroud]().
-
-![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
-
-4. Insert four screws into each 2.5" storage drive you wish to install.
-5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
-
-![2.5" drive installation](./img/25-drive-installation.webp)  
-
-![Installed 2.5" drive](./img/25-drive-installed.webp)  
-
-_Thelio Major R3 with one 2.5" drive installed._
-
-6. Replace the black plastic screw ring and the 2.5" drive bay cover.
-
-## Replacing the case fans:
-
-Thelio Major R3 has two case-mounted intake fans:
-
-- A 140mm fan on the bottom of the chassis.
-- A 92mm fan on the right side of the chassis.
-
-The fans connect to the Thelio-IO board using a [Y splitter cable]().
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 20 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>
-
-### Steps to replace the bottom case fan:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-    - The [GPU brace]() can optionally be removed for easier access to the fans and cables.
-2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
-    - The bottom case fan's cable is round with a mesh net covering.
-
-![Chassis fan connectors](./img/chassis-fan-connectors.webp)
-
-3. Unscrew the four fan screws from the bottom of the machine.
-    - To avoid damaging other components, place the machine on its front side when working with the bottom surface.
-
-![Bottom case fan screws](./img/bottom-fan-screws.webp)
-
-4. Remove the old fan from the case.
-5. When installing the fan, mount the components in the following order:
-    - Chassis
-    - Dust filter
-    - Acrylic spacer
-    - Fan
-6. The new fan's cable should be oriented towards the front-right corner of the case.
-    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
-    
-### Steps to replace the side case fan:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-    - The [GPU brace]() can optionally be removed for easier access to the fans and cables.
-2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
-    - The side case fan's cable is flat with four wires.
-
-![Chassis fan connectors](./img/chassis-fan-connectors.webp)
-
-3. Unscrew the four fan screws from the opposite side of the machine.
-
-![Side case fan screws](./img/side-fan-screws.webp)
-
-4. Remove the old fan from the case.
-5. When installing the fan, mount the components in the following order:
-    - Chassis
-    - Dust filter
-    - Acrylic spacer
-    - Fan
-6. The new fan's cable should be oriented towards the front-right corner of the case.
-    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
 
 ## Replacing the GPU:
 
@@ -189,6 +100,64 @@ Factory configurations only include one GPU.
 
 _The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPU._
 
+## Replacing the case fans:
+
+Thelio Major R3 has two case-mounted intake fans:
+
+- A 140mm fan on the bottom of the chassis.
+- A 92mm fan on the right side of the chassis.
+
+The fans connect to the Thelio-IO board using a Y splitter cable mounted on the inner corner of the case.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 20 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
+
+### Steps to replace the bottom case fan:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+    - The [GPU brace](#replacing-the-gpu) can optionally be removed for easier access to the fans and cables.
+2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
+    - The bottom case fan's cable is round with a mesh net covering.
+
+![Chassis fan connectors](./img/chassis-fan-connectors.webp)
+
+3. Unscrew the four fan screws from the bottom of the machine.
+    - To avoid damaging other components, place the machine on its front side when working with the bottom surface.
+
+![Bottom case fan screws](./img/bottom-fan-screws.webp)
+
+4. Remove the old fan from the case.
+5. When installing the fan, mount the components in the following order:
+    - Chassis
+    - Dust filter
+    - Acrylic spacer
+    - Fan
+6. The new fan's cable should be oriented towards the front-right corner of the case.
+    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
+    
+### Steps to replace the side case fan:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+    - The [GPU brace](#replacing-the-gpu) can optionally be removed for easier access to the fans and cables.
+2. Release the velcro strap and unplug the fan's cable from the Y splitter cable.
+    - The side case fan's cable is flat with four wires.
+
+![Chassis fan connectors](./img/chassis-fan-connectors.webp)
+
+3. Unscrew the four fan screws from the opposite side of the machine.
+
+![Side case fan screws](./img/side-fan-screws.webp)
+
+4. Remove the old fan from the case.
+5. When installing the fan, mount the components in the following order:
+    - Chassis
+    - Dust filter
+    - Acrylic spacer
+    - Fan
+6. The new fan's cable should be oriented towards the front-right corner of the case.
+    - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
+
 ## Removing the CPU shroud:
 
 The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots, top GPU, and spare 2.5" drive screws.
@@ -214,6 +183,37 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 ![CPU shroud screws (external)](./img/cpu-shroud-screws-external.webp)
 
 4. Pull the CPU shroud away from the machine.
+
+## Adding/removing 2.5" storage drives:
+
+Thelio Major R3 supports up to four 2.5" SATA III drives.
+
+**Tools required:** Cross-head (Phillips) screwdriver (optional), flathead screwdriver (optional)  
+**Time estimate:** 7 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to add/remove 2.5" storage drives:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unscrew the two screws securing the drive bay's cover, highlighted green below.
+
+![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
+
+3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
+    - For revisions where the black plastic ring is located over the CPU shroud, the ring can be popped out from below using a flathead screwdriver, or by hand after [removing the CPU shroud](#removing-the-cpu-shroud).
+
+![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
+
+4. Insert four screws into each 2.5" storage drive you wish to install.
+5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
+
+![2.5" drive installation](./img/25-drive-installation.webp)  
+
+![Installed 2.5" drive](./img/25-drive-installed.webp)  
+
+_Thelio Major R3 with one 2.5" drive installed._
+
+6. Replace the black plastic screw ring and the 2.5" drive bay cover.
 
 ## Replacing the RAM:
 
@@ -249,7 +249,7 @@ M.2 slots 2 and 3 (the bottom two slots) share bandwidth with the PCIe 5.0 x16 s
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and the [GPU brace and GPU](#replacing-the-gpu).
 2. Unscrew and remove the M.2 heatsink.
     - Slot 1 is located underneath the single-height heatsink; slots 2, 3, and 4 are located underneath the triple-height heatsink.
     - The heatsink screws are held captive, and will not fully come out of the heatsink.
@@ -309,7 +309,7 @@ The CPU uses an AMD AM5 socket. The CPU cooler is a [Noctua NH-U12S](https://noc
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler crossbar onto the vertical mounting brackets.
     - The screws are held captive, and will not fully come out of the crossbar.
     - Only the two outer screws need to be removed; the center screw holding the horizontal crossbar onto the heatsink does not need to be removed.

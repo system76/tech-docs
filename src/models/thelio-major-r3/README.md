@@ -23,7 +23,7 @@ The System76 Thelio Major is a desktop with the following specifications:
     - Up to two dedicated GPUs
         - Primary GPU slot:
             - PCIe 5.0 x16
-                - Runs at x8 bandwidth if either of the bottom two M.2 slots are populated.
+                - Runs at x8 bandwidth if either of the bottom two M.2 slots are populated
             - Up to 4-slot height
         - Secondary GPU slot:
             - PCIe 4.0 x4
@@ -95,7 +95,7 @@ The System76 Thelio Major is a desktop with the following specifications:
     - HDMI, DisplayPort audio (depending on GPU)
 - Storage
     - 4x M.2 (PCIe NVMe Gen 5) SSDs
-        - M.2 slots 2 and 3 (the bottom two slots) share bandwidth with the primary GPU slot.
+        - M.2 slots 2 and 3 (the bottom two slots) share bandwidth with the primary GPU slot
     - 4x 2.5" SATA III
 - USB
     - 1x USB 3.2 Gen 2x2 Type-C

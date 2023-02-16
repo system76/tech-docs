@@ -1,6 +1,6 @@
 # Jackal Pro 1U (jacp1-b1)
 
-![Jackal Pro 1U](./img/jacp1-b1-frontports.avif)
+![Jackal Pro 1U](./img/jacp1-b1-frontports.webp)
 
 - CPU options
   - Supports 3rd Gen Intel® Xeon® Scalable processors

@@ -30,6 +30,8 @@
         - [Parts & Repairs](models/gaze17/repairs.md)
     - [Jackal Pro 1U (jacp1-b1)](models/jacp1-b1/README.md)
     - [Jackal Pro 1U (jacp1-b2)](models/jacp1-b2/README.md)
+    - [Jackal Pro 2U (jacp2-b1)](models/jacp2-b1/README.md)
+    - [Jackal Pro 2U (jacp2-b2)](models/jacp2-b2/README.md)
     - [Kudu (kudu6)](models/kudu6/README.md)
         - [External Overview](models/kudu6/external-overview.md)
         - [Internal Overview](models/kudu6/internal-overview.md)

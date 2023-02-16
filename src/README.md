@@ -20,6 +20,8 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Gazelle (gaze17)](models/gaze17/README.md)
 - [Jackal Pro 1U (jacp1-b1)](models/jacp1-b1/README.md)
 - [Jackal Pro 1U (jacp1-b2)](models/jacp1-b2/README.md)
+- [Jackal Pro 2U (jacp2-b1)](models/jacp2-b1/README.md)
+- [Jackal Pro 2U (jacp2-b2)](models/jacp2-b2/README.md)
 - [Kudu (kudu6)](models/kudu6/README.md)
 - [Launch (launch\_2)](models/launch_2/README.md)
 - [Launch Heavy (launch\_heavy\_1)](models/launch_heavy_1/README.md)

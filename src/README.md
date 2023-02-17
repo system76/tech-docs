@@ -18,6 +18,8 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Eland Pro 2U (elap2-r3)](models/elap2-r3/README.md)
 - [Galago Pro (galp6)](models/galp6/README.md)
 - [Gazelle (gaze17)](models/gaze17/README.md)
+- [Ibex Pro 2U (ibep2-b1)](models/ibep2-b1/README.md)
+- [Ibex Pro 2U (ibep2-r1)](models/ibep2-r1/README.md)
 - [Jackal Pro 1U (jacp1-b1)](models/jacp1-b1/README.md)
 - [Jackal Pro 1U (jacp1-b2)](models/jacp1-b2/README.md)
 - [Jackal Pro 2U (jacp2-b1)](models/jacp2-b1/README.md)

@@ -28,6 +28,8 @@
         - [External Overview](models/gaze17/external-overview.md)
         - [Internal Overview](models/gaze17/internal-overview.md)
         - [Parts & Repairs](models/gaze17/repairs.md)
+    - [Ibex Pro 2U (ibep2-b1)](models/ibep2-b1/README.md)
+    - [Ibex Pro 2U (ibep2-r1)](models/ibep2-r1/README.md)
     - [Jackal Pro 1U (jacp1-b1)](models/jacp1-b1/README.md)
     - [Jackal Pro 1U (jacp1-b2)](models/jacp1-b2/README.md)
     - [Jackal Pro 2U (jacp2-b1)](models/jacp2-b1/README.md)

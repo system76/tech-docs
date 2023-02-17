@@ -2,6 +2,8 @@
 
 ![Jackal Pro 1U](./img/jacp1-b2-frontports.webp)
 
+The System76 Jackal Pro 1U is a rack-mount server with the following specifications:
+
 - CPU options
   - Supports 3rd Gen Intel® Xeon® Scalable processors
   - Dual processors

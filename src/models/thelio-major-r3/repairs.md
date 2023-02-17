@@ -86,8 +86,8 @@ Factory configurations only include one GPU.
 
 ![GPU power connections](./img/gpu-power.webp)
 
-5. Push and hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
-    - If space is tight, a long, flat object such as a PCIe slot cover can be used to push the latch back.
+5. While holding the GPU, push the PCIe latch release button (highlighted red below) and remove it from the slot.
+    - If the latch release button doesn't work, you can manually press the PCIe latch (highlighted green) for the corresponding slot using a long, flat object to free the card.
 
 ![PCIe slot & latch](./img/gpu-slots.webp)
 

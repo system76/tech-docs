@@ -10,6 +10,7 @@
 - CMOS battery connector is highlighted in yellow
 - Main battery connector is highlighted in purple
 - Fan connectors are highlighted in orange
+- BIOS flash chip (U4) is highlighted in black
 - Speaker connector is highlighted in cyan
 - Touchpad connector is highlighted in white
 - Keyboard connector is highlighted in light green

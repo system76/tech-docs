@@ -11,9 +11,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - CPU
     - Supports AMD Ryzen (Rembrandt) Mobile CPUs
         - [Ryzen 7 6800U](https://www.amd.com/en/products/apu/amd-ryzen-7-6800u)
-- BIOSupdate
-    - W74M12JWSSIQ flash chip
-        - SOIC-8 form factor
+- BIOS
     - Programmed with System76 firmware (non-open)
 - EC
     - ITE IT5571

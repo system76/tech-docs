@@ -33,7 +33,7 @@ This model supports two M.2 SSDs. Both slots support PCIe NVMe Generation 4 conn
 
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot and hold it in place.
-    - If a slot is being used for the first time, the spare thermal pad (which is included in the Pangolin's box) can be applied to the motherboard before placing the drive down on top of it.
+    - If a slot is being used for the first time, the spare thermal pad (which is included in the Pangolin's box) can be applied to the silver backplate before placing the drive down on top of it.
 6. Replace the retainer screw.
 
 ## Removing the bottom cover:

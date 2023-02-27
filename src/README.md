@@ -46,5 +46,5 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Oryx Pro (oryp6)](models/oryp6/README.md)
 - [Pangolin (pang11)](models/pang11/README.md)
 - [Pangolin (pang10)](models/pang10/README.md)
-- [Thelio Major (thelio-major-b2/r2)](models/thelio-major-intel-and-amd/README.md)
+- [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/README.md)
 - [Thelio Mira (thelio-mira-r1.0)](models/thelio-mira-r1.0/README.md)

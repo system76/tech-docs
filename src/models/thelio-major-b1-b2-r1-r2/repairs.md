@@ -103,9 +103,6 @@ Before servicing your Thelio, be sure to power off and unplug all cords from the
 
 You can find video instructions on this process [here.](https://youtu.be/Ku91wRHFGY8)
 
-Link for the video for Top Case Service:
-(https://youtu.be/Ku91wRHFGY8)
-
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver
 
 **Time estimate:** 2 minutes
@@ -604,9 +601,6 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 **Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
 
 ![Close view of the GPU leaving the PCIe slot](./img/gpu-removal.jpg)
-
-caption
-
 ![PCIe release switch](./img/pcie-release-latch.png)
 
 **Fig. 47:** Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).
@@ -633,11 +627,10 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 
   If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on [Removing the GPU](#removing-the-gpu)
 
-  **Fig. 28:** Replacing the thumbscrews and GPU Bracket.-->
   **NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.**
 
 
-  ![Showing variations of pin connections on GPU cards - 8/12/16 pin ](./img/gpu-power-connector-types.png)
+  ![Showing variations of pin connections on GPU cards - 8/12/16 pin ](./img/gpu-power-connector-types.webp)
 
   **Fig: 48** Showing variations of pin connections on GPU cards - 16-pin (left), 12-pin (middle), 8-pin (right).
 
@@ -663,9 +656,6 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 7. Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.
 8. Once the GPU is connected and the power cables secured (fig #), replace the Top Case, reconnect external power cable.
 9. Turn the power supply switch at the rear of the machine to the “on” position.
-
-[IMAGE OF GPU CABLING]
-**Fig. 51**
 
 [Return to Contents](#table-of-contents)
 
@@ -841,7 +831,7 @@ Thermal paste can lose its effectiveness over time and may need to be re-applied
 
 This guide will explain how to remove the CPU Cooler, clean the CPU of thermal paste, and reapply a new coat.
 
-**WARNING: DO NOT use your Thelio without thermal paste.** Running the machine without Thermal Paste could result in overheating, system shutdowns and possibly damage to the internal components.
+**WARNING: DO NOT use your Thelio without thermal paste.** Running the machine without thermal paste could result in overheating, system shutdowns and possibly damage to the internal components.
 
 ## Remove the CPU Thermal Paste
 

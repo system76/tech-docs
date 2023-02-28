@@ -2,19 +2,19 @@
 
 ## Thelio Major B1
 
-![Internal Overview](./img/thelio-major-b1_internal-diagram_config.png)
+![Internal Overview](./img/b1/components-highlighted.png)
 
 ## Thelio Major B2
 
-![Internal Overview](./img/thelio-major-b2_diagram_config2.png)
+![Internal Overview](./img/b2/components-highlighted.png)
 
 ## Thelio Major R1
 
-![Internal Overview](./img/thelio-major-r1_internal-diagram_config.png)
+![Internal Overview](./img/r1/components-highlighted.png)
 
 ## Thelio Major R2
 
-![Internal Overview](./img/thelio-major-r2_internal-diagram_config-v3.png)
+![Internal Overview](./img/r2/components-highlighted.png)
 
 ## Power Switch Connections Overview
 

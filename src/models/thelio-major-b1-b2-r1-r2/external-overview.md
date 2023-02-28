@@ -12,9 +12,9 @@ Thelio Major B2 (Intel):
 - Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
 - 1 Standard 3-prong AC wall adapter port connected to the power supply (with power switch).
 
-![External Thelio Ports Overview](img/thelio-major-b2_back-ports.png)
+![External Thelio Major B2 Ports Overview](./img/b2/ports-back.png)
 
-**Fig. 1:** External Thelio Ports Overview.
+**Fig. 1:** External Thelio Major ports overview.
 
 Thelio Major R2 (AMD):
 - 4 USB 2.0 Type-A
@@ -24,13 +24,13 @@ Thelio Major R2 (AMD):
 - Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
 - Audio In/Out ports (3.5mm, plus TOSLink S/PDIF)
 
-![External Thelio Ports Overview](img/thelio-major-r2_back-ports.png)
+![External Thelio Major R2 Ports Overview](./img/r2/ports-back.png)
 
 # Connecting Displays
 
-![Thelio external display ports overview](img/thelio-major-b2_video_ports-diagrams.png)
+![Thelio external display ports overview](./img/b2/ports-gpu.png)
 
-**Fig. 2:** Thelio external display ports overview.
+**Fig. 2:** Thelio Major external display ports overview.
 
 Ports will differ from the above image, depending on which graphics cards you have installed.
 

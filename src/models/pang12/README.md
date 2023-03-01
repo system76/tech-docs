@@ -22,7 +22,7 @@ The System76 Pangolin is a laptop with the following specifications:
     - GPU: AMD Radeon 680M
     - eDP display: 15.6" 1920x1080@144Hz LCD
         - LCD panel: Innolux N156HRA-EA1 (or equivalent)
-    - External video output: 1x HDMI 2.0, DisplayPort over USB-C
+    - External video output: 1x HDMI 2.0, DisplayPort 1.4 over USB-C
 - Memory
     - 32GB LPDDR5 (on-board) @ 6400 MHz
         - 16x [Micron MT62F2G32D8DR-031](https://www.micron.com/products/dram/lpdram/part-catalog/mt62f2g32d8dr-031-wt) (2GB each)

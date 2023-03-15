@@ -18,7 +18,7 @@
 
 ## Materials:
 
-|Part                              |Material                |Part Numbers       |
+|Part                              |Material                |Part Number        |
 |----------------------------------|------------------------|-------------------|
 |LCD back cover (lid)              |Magnesium-aluminum alloy|                   |
 |LCD front cover (bezel)           |Plastic                 |                   |

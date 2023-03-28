@@ -16,6 +16,10 @@
 
 ![Back Ports](./img/ports-back.png)
 
+## Keyboard & touchpad overview:
+
+![Keyboard & Touchpad](./img/keyboard-backlight_off.png)
+
 ## Speakers
 
 The grilles for the built-in speakers are located on the bottom of the machine, angled outward.

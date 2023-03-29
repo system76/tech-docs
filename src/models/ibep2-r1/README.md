@@ -42,8 +42,8 @@ The System76 Ibex Pro 2U is a rack-mount server with the following specification
   - 2 x 1200W redundant PSUs, 80 PLUS Platinum
   - AC Input: 100-240Vac/ 14-12A, 50-60Hz
 - Dimensions
-  - 16.3” x 31.4” x 3.4” (448 x 800 x 87.5 mm)
+  - 44.8 x 80.0 x 8.75cm
 - Weight
-  - 79.3 lbs (36 kg)
+  - 36 kg
 - Model
   - ibep2-r1 - [Gigabyte G292-Z40 G292-Z42](./ibep2-r1_manual.pdf)

@@ -44,8 +44,8 @@ The System76 Jackal Pro 2U is a rack-mount server with the following specificati
 - Power supply
   - 1300 Watt High Efficiency w/optional Dual Redundancy
 - Dimensions
-  - 28” x 17.2” x 3.5”   (712 x 439 x 89 mm)
+  - 71.2cm x 43.9cm x 8.9cm
 - Weight
-  - 38 lbs (17.24 kg)
+  - 17.24 kg
 - Model
   - jacp2-b1 - [Intel M50CYP2UR](./jacp2-b1_manual.pdf)

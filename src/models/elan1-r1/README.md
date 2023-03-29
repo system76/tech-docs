@@ -36,7 +36,7 @@ The System76 Eland 1U is a rack-mount server with the following specifications:
   - 2 x 650W redundant PSUs, 80 PLUS Platinum
   - AC Input: 100-240Vac/ 10-5A, 50-60Hz
 - Dimensions
-  - 43.8cm × 66.0cm × 43.5cm
+  - 43.8cm × 66.0cm × 4.35cm
 - Weight
   - 17.24 kg
 - Model

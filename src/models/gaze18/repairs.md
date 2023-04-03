@@ -196,5 +196,42 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 13. Secure the rest of the keyboard by pressing down on each of its edges.
 14. Turn the machine lid-side down again and [replace the bottom cover](#removing-the-bottom-cover).
 
-# Speakers
-the ribbon cable is adhered
+## Replacing the speakers:
+
+The system has two bottom-firing speakers, which can be removed and replaced individually.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium <span style="color:orange;">●</span>
+
+### Steps to replace the left speaker:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the main battery](#replacing-the-battery).
+2. Flip the black latches up to release both sides of the I/O daughterboard ribbon cable from the motherboard and the I/O daughterboard.
+
+![I/O daughterboard ribbon cable](./img/speaker-left-ribbon.webp)
+
+3. Peel the ribbon cable away from the chassis.
+    - The ribbon cable is adhered to the chassis. Pull slowly to avoid damage.
+4. Disconnect the speaker connector from the motherboard.
+    - This can alternatively be done after freeing the speaker.
+
+![Left speaker wire and posts](./img/speaker-left.webp)
+
+5. Pull the speaker up and off of the plastic posts, and free the speaker wire from any tape and channels in the chassis.
+6. Slide the new speaker onto the plastic posts and connect it to the motherboard, securing the wire using the channels in the chassis.
+7. Reconnect the ribbon cable to the motherboard and I/O daughterboard, then flip the black latches to secure both connections.
+8. Replace the main battery and bottom cover.
+
+### Steps to replace the right speaker:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+    - The [outermost SSD](#replacing-an-m2nvme-ssd) can optionally be removed to make it easier to work with the speaker plug.
+2. Disconnect the speaker connector from the motherboard.
+    - This can alternatively be done after freeing the speaker.
+
+![Right speaker wire and posts](./img/speaker-right.webp)
+
+3. Pull the speaker up and off of the plastic posts.
+4. Slide the new speaker onto the plastic posts and connect it to the motherboard.
+5. Replace the SSD (if necessary) and bottom cover.

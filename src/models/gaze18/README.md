@@ -6,7 +6,7 @@
 
 ![Gazelle](./img/gaze18.webp)
 
-The System76 Gazelle is a laptop with the following specifications: (update once spec page is available)
+The System76 Gazelle is a laptop with the following specifications:
 
 - CPU
     - Supports Intel Raptor Lake CPUs
@@ -28,11 +28,20 @@ The System76 Gazelle is a laptop with the following specifications: (update once
         - Intel Iris Xe Graphics 
     - eDP display:
         - 17.3" 1920x1080@144Hz LCD
-            - LCD panel: ??? (or equivalent)
+            - LCD panel options:
+                - BOE NV173FHM-N4C
+                - BOE NE173FHM-NX1
+                - BOE NV173FHM-NY2
+                - BOE NE173QHM-NY3
+                - ...or other equivalent
         - 15.6" 1920x1080@144Hz LCD
-            - LCD panel: ??? (or equivalent)
+            - LCD panel options:
+                - BOE NV156FHM-N4K
+                - BOE NV156FHM-NX4
+                - BOE NE156QHM-NY5
+                - Innolux N156HCE-EN1
     - External video output:
-        - 1x HDMI 2.0
+        - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz

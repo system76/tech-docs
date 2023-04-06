@@ -10,6 +10,7 @@ Many components in your Gazelle can be upgraded or replaced as necessary. Follow
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the keyboard](#replacing-the-keyboard)
+- [Replacing the speakers](#replacing-the-speakers)
 
 ## Removing the bottom cover:
 
@@ -129,7 +130,9 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+The Gazelle 18 includes two fans as part of a single heatsink/fan assembly.
+
+If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
 
 Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling equipment. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU/GPU and the heatsink may help the system run cooler.
 
@@ -157,16 +160,15 @@ Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
 8. Carefully replace the heatsink.
-9. Replace the silver heatsink screws, starting with #1, then #2, and so on until #6.
-10. Replace the silver fan screws.
-11. Plug the two white fan connectors back into the motherboard.
+9. Replace the silver heatsink and fan screws, starting with #1, then #2, and so on until #12.
+10. Plug the two white fan connectors back into the motherboard.
 
 ## Replacing the keyboard:
 
 The keyboard can be replaced if its switches or electronics have been damaged.
 
 **Tools required:** Cross-head (Phillips) screwdriver, tweezers (optional)  
-**Time estimate:** 10 minutes
+**Time estimate:** 10 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to replace the keyboard:
@@ -181,6 +183,7 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 4. Open the lid slightly and place the machine on its side.
 5. Push a screwdriver into the keyboard push point (next to the RAM slot) until the keyboard pops out.
 
+![Keyboard push point location](./img/keyboard-push-point-location.webp)
 ![Keyboard push point](./img/keyboard-push-point.webp)
 
 6. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
@@ -221,7 +224,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 5. Pull the speaker up and off of the plastic posts, and free the speaker wire from any tape and channels in the chassis.
 6. Slide the new speaker onto the plastic posts and connect it to the motherboard, securing the wire using the channels in the chassis.
 7. Reconnect the ribbon cable to the motherboard and I/O daughterboard, then flip the black latches to secure both connections.
-8. Replace the main battery and bottom cover.
+8. Replace the [main battery](#replacing-the-battery) and [bottom cover](#removing-the-bottom-cover).
 
 ### Steps to replace the right speaker:
 
@@ -234,4 +237,4 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 3. Pull the speaker up and off of the plastic posts.
 4. Slide the new speaker onto the plastic posts and connect it to the motherboard.
-5. Replace the SSD (if necessary) and bottom cover.
+5. Replace the [SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).

@@ -4,16 +4,17 @@
 
 ![Internal Components](./img/components-highlighted.webp)
 
-- LCD panel connector is highlighted in green
+- LCD panel connector is highlighted in light green
 - Keyboard adhesive access point is highlighted in pink
 - Fan connectors are highlighted in red
+- Webcam/microphone connector is highlighted in yellow
 - Speaker connectors are highlighted in cyan
 - Main battery connector is highlighted in orange
 - Wireless card is highlighted in blue
 - RAM is highlighted in maroon
 - BIOS flash chip (U24) is highlighted in black
 - Touchpad connector is highlighted in white
-- M.2 SSDs are highlighted in yellow
+- M.2 SSDs are highlighted in dark green
     - Innermost slot supports PCIe NVMe Gen 4
     - Outermost slot supports PCIe NVMe Gen 3
 - CMOS battery connector is highlighted in purple

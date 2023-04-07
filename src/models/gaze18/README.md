@@ -63,7 +63,7 @@ The System76 Gazelle is a laptop with the following specifications:
     - HDMI, Mini DisplayPort audio
 - Storage
     - 1x M.2 (PCIe NVMe Gen 4)
-    - 1x M.2 (PCIe NVMe Gen 3 or SATA)
+    - 1x M.2 (PCIe NVMe Gen 3)
     - MicroSD card reader
 - USB
     - 2x USB 3.2 Gen 2 Type-C

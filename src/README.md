@@ -11,6 +11,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Darter Pro (darp8)](models/darp8/README.md)
 - [Eland 1U (elan1-r1)](models/elan1-r1/README.md)
 - [Eland 1U (elan1-r2)](models/elan1-r2/README.md)
+- [Eland 1U (elan1-r3)](models/elan1-r3/README.md)
 - [Eland Pro 1U (elap1-r1)](models/elap1-r1/README.md)
 - [Eland Pro 1U (elap1-r2)](models/elap1-r2/README.md)
 - [Eland Pro 2U (elap2-r1)](models/elap2-r1/README.md)

@@ -173,17 +173,14 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the main battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the CMOS battery, which is in between the M.2 SSD slots and the RAM slots, just next to the battery slot.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove both SSDs](#replacing-an-m2nvme-ssd), and [remove the wireless card](#replacing-the-wireless-card).
+    - If you are not replacing the CMOS battery, then removing the innermost SSD and the wireless card is optional.
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
 3. From the side of the battery that is not covered, pull the battery up to free it from the slot, then remove it.
 4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Place the new (or existing) CMOS battery in the black plastic slot, starting with the side that will cover the battery, then push the opposite side back into place.
-
-![CMOS battery installation](./img/cmos-installation.jpg)
-
 6. Replace the bottom panel and main battery.
 7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
@@ -226,7 +223,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 2. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
-![Left speaker wire and posts](./img/speaker-left.webp)
+![Left speaker wire and screws](./img/speaker-left.webp)
 
 3. Unscrew the two speaker screws, free the speaker wire from the channels in the chassis, and remove the speaker.
 4. Screw in the new speaker and connect it to the motherboard, securing the wire using the channels in the chassis.
@@ -235,11 +232,11 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 ### Steps to replace the right speaker:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
-2. Peel back any clear tape attached to the speaker.
+2. Peel back any clear tape hanging onto the speaker from the wireless card.
 3. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
-![Right speaker wire and posts](./img/speaker-right.webp)
+![Right speaker wire and screws](./img/speaker-right.webp)
 
 4. Unscrew the three speaker screws and remove the speaker.
 5. Screw in the new speaker and connect it to the motherboard.

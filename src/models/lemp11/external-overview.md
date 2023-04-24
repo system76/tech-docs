@@ -18,7 +18,7 @@
 
 ## Keyboard & touchpad overview:
 
-![Keyboard & Touchpad](./img/keyboard-backlight_off.png)
+![Keyboard & Touchpad](./img/keyboard-touchpad.webp)
 
 ## Speakers
 

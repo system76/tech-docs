@@ -16,6 +16,10 @@
 
 ![Back Ports](./img/ports-back.png)
 
+## Keyboard & touchpad overview:
+
+![Keyboard & Touchpad](./img/keyboard-touchpad.webp)
+
 ## Speakers
 
 The machine has two bottom-firing speakers near the front, angled outward.

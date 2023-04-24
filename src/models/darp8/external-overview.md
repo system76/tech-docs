@@ -18,12 +18,12 @@
 
 ## Materials:
 
-|Part                              |Material                |Part Number        |
-|----------------------------------|------------------------|-------------------|
-|LCD back cover (lid)              |Magnesium-aluminum alloy|                   |
-|LCD front cover (bezel)           |Plastic                 |                   |
-|Top case (palm rests/port covers) |Plastic                 |6-78-NS50PU02-010  | 
-|Bottom panel                      |Magnesium-aluminum alloy|6-39-NS503-014     |
+|Part                              |Material                 |Part Number        |
+|----------------------------------|-------------------------|-------------------|
+|LCD back cover (lid)              |Magnesium-aluminum alloy |6-39-NS501-022 <br/>or 6-39-NS511-020 |
+|LCD front cover (bezel)           |Plastic                  |6-39-NS501-012     |
+|Top case (palm rests/port covers) |Plastic                  |6-78-NS50PU02-010  |
+|Bottom panel                      |Magnesium-aluminum alloy |6-39-NS503-014     |
 
 ## LED indicators:
 

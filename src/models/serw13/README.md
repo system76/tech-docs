@@ -60,4 +60,5 @@ The System76 Serval WS is a laptop with the following specifications:
         - Supports DisplayPort over USB-C.
     - 2x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 2.49cm x 35.8cm x 24.0cm, 2.4kg
+    - 15": 2.49cm x 35.8cm x 24.0cm, 2.4kg
+    - 17": 2.49cm x 39.6cm x 26.2cm, 2.8kg

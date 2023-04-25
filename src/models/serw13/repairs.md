@@ -1,6 +1,6 @@
 # Serval WS (Parts & Repairs)
 
-Many components in your Serval WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Serval WS can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 
 - [Removing the battery](#removing-the-battery)
 - [Removing the bottom cover](#removing-the-bottom-cover)

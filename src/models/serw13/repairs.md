@@ -197,7 +197,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [outermost SSD](#replacing-an-m2nvme-ssd).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [unplug the main battery](#replacing-the-battery), and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
 2. Remove the [innermost SSD](#replacing-an-m2nvme-ssd) and [remove the wireless card](#replacing-the-wireless-card), then pull the battery away from the adhesive holding it to the case.
     - If you are not replacing the CMOS battery, then this step is optional.
 
@@ -205,8 +205,8 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 3. Unplug the white connector that connects the CMOS battery to the motherboard.
 4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery.
-6. Replace the bottom panel and main battery.
+5. Re-connect the CMOS battery and the main battery.
+6. Replace the SSDs and wireless card (if necessary) and the bottom panel.
 7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the speakers:

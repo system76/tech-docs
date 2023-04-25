@@ -23,38 +23,41 @@ The System76 Adder WS is a laptop with the following specifications:
         - NVIDIA GeForce RTX 4070
         - NVIDIA GeForce RTX 4060
         - NVIDIA GeForce RTX 4050
-    - eDP display: 15.6" 3840x2160@60Hz OLED
-        - OLED panel: Samsung ATNA56WR06 (or equivalent)
+    - eDP display:
+        - 15.6" 1920x1080@144Hz LCD
+            - LCD panel:  (or equivalent)
+        - 17.3" 1920x1080@144Hz LCD
+            - LCD panel: (or equivalent)
     - External video outputs:
         - 1x HDMI
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 4800 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth
-        - Intel Wi-Fi 6 AX200/AX201
+        - Intel Wi-Fi 6E AX210/AX211
+            - Bluetooth 5.3
 - Power
-    - 230W (19.5V, 11.8A) DC-in port
+    - 280W (_V, _A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Chicony A17-230P1A
-        - AC power cord type: IEC C13
-    - 62Wh 6-cell Lithium-Ion battery
+    - Included AC adapter: Chicony _
+        - AC power cord type: IEC _
+    - 73Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
-    - Combined microphone & S/PDIF (optical) 3.5mm jack
+    - Dedicated microphone 3.5mm jack
     - HDMI, Mini DisplayPort, USB-C DisplayPort audio
 - Storage
-    - M.2 (PCIe NVMe Gen 3 or SATA III) SSD-1
-    - M.2 (PCIe NVMe Gen 3) SSD-2
-    - 2.5" (7.0mm) SATA III
-    - SD card reader
+    - 2x M.2 (PCIe NVMe Gen 4) SSDs
+    - MicroSD card reader
 - USB
-    - 1x USB Type-C with Thunderbolt 3
-    - 1x USB 3.2 Gen 2 Type-C
-      - DisplayPort 1.4 over USB-C
-    - 3x USB 3.0 (3.2 Gen 1) Type-A
+    - 1x USB Type-C with Thunderbolt 4
+    - 1x USB 3.2 Gen 2 (Type C)
+    - 1x USB 3.2 Gen 1 (Type A)
+    - 1x USB 2.0
 - Dimensions
-    - 35.890cm x 25.806cm x 2.997cm, 2.5kg
+    - 15": 2.71cm x 35.95cm x 23.8cm, 2.05kg
+    - 17": 2.82cm x 39.69cm x 26.2cm, 2.85kg

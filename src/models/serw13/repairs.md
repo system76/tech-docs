@@ -2,14 +2,14 @@
 
 Many components in your Serval WS can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 
-- [Removing the battery](#removing-the-battery)
 - [Removing the bottom cover](#removing-the-bottom-cover)
+- [Replacing the battery](#replacing-the-battery)
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the speakers](#replacing-the-speakers)
 
 ## Removing the bottom cover:
@@ -100,7 +100,7 @@ The Serval WS 13 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 5600MH
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
 ![RAM removal](./img/ram-slots.webp)
@@ -118,14 +118,13 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280 and support
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
 ![M.2 slots](./img/m2-slots.webp)
 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
-    - The slot closest to the fan supports either PCIe NVMe Generation 3 or SATA III. The slot closest to the battery supports PCIe NVMe Generation 2 only. (PCIe NVMe Generation 3 drives will work at slower speeds in the Generation 2 slot.)
 5. Replace the retainer screw.
 
 ## Replacing the cooling system:
@@ -160,29 +159,8 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
 7. Carefully replace the heatsink.
-8. Replace the heatsink and fan screws, starting with #1, then #2, and so on until #8.
-9. Plug the white fan connector (for the attached fan) back into the motherboard.
-
-## Replacing the CMOS battery:
-
-The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
-
-**Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 10 minutes    
-**Difficulty:** Easy <span style="color:green;">●</span>
-
-### Steps to replace the CMOS battery:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove both SSDs](#replacing-an-m2nvme-ssd), and [remove the wireless card](#replacing-the-wireless-card).
-    - If you are not replacing the CMOS battery, then removing the innermost SSD and the wireless card is optional.
-
-![CMOS battery](./img/cmos-battery.webp)
-
-3. From the side of the battery that is not covered, pull the battery up to free it from the slot, then remove it.
-4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Place the new (or existing) CMOS battery in the black plastic slot, starting with the side that will cover the battery, then push the opposite side back into place.
-6. Replace the bottom panel and main battery.
-7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+8. Replace the fan and heatsink screws, starting with #1, then #2, and so on until #13.
+9. Plug the white fan connectors back into the motherboard.
 
 ## Replacing the wireless card:
 
@@ -194,7 +172,7 @@ Your Serval WS's WiFi and Bluetooth are both handled by the same module. It is a
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. If there is an M.2 SSD in the slot closest to the battery, follow the steps above to [remove the M.2 SSD](#replacing-an-m2nvme-ssd).
     - The other SSD can optionally be removed to make working with the wireless card easier.
 3. Locate the wireless module. Remove any clear tape that is securing the wires.
@@ -208,6 +186,28 @@ Your Serval WS's WiFi and Bluetooth are both handled by the same module. It is a
 8. Replace the retaining screw.
 9. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
 10. Replace the M.2 SSD, bottom cover, and battery.
+
+## Replacing the CMOS battery:
+
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the CMOS battery:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [outermost SSD](#replacing-an-m2nvme-ssd).
+2. Remove the [innermost SSD](#replacing-an-m2nvme-ssd) and [remove the wireless card](#replacing-the-wireless-card), then pull the battery away from the adhesive holding it to the case.
+    - If you are not replacing the CMOS battery, then this step is optional.
+
+![CMOS battery](./img/cmos-battery.webp)
+
+3. Unplug the white connector that connects the CMOS battery to the motherboard.
+4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+5. Re-connect the CMOS battery.
+6. Replace the bottom panel and main battery.
+7. Power up the Serval WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the speakers:
 
@@ -240,4 +240,4 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 4. Unscrew the three speaker screws and remove the speaker.
 5. Screw in the new speaker and connect it to the motherboard.
-6. Replace the [SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).
+6. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).

@@ -11,8 +11,7 @@
 - BIOS flash chip (U46) is highlighted in black
 - Fan connectors are highlighted in orange
 - M.2 SSDs are highlighted in dark green
-    - Innermost slot supports PCIe NVMe Gen 4
-    - Outermost slot supports PCIe NVMe Gen 3
+    - Both slots support PCIe NVMe Gen 4
 - Speaker connectors are highlighted in yellow
     - Right speaker connector (on the left) is under the outermost SSD
 - CMOS battery connector (under the outermost SSD) is highlighted in purple

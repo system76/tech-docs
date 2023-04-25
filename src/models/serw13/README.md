@@ -10,8 +10,6 @@ The System76 Serval WS is a laptop with the following specifications:
 
 - CPU
     - Supports Intel 13th Generation (Raptor Lake) CPUs
-        - [Core i5-13500HX](https://ark.intel.com/content/www/us/en/ark/products/232156/intel-core-i513500hx-processor-24m-cache-up-to-4-70-ghz.html)
-        - [Core i7-13700HX](https://ark.intel.com/content/www/us/en/ark/products/232166/intel-core-i713700hx-processor-30m-cache-up-to-5-00-ghz.html)
         - [Core i9-13900HX](https://ark.intel.com/content/www/us/en/ark/products/232171/intel-core-i913900hx-processor-36m-cache-up-to-5-40-ghz.html)
 - Chipset
     - Intel HM770
@@ -24,7 +22,6 @@ The System76 Serval WS is a laptop with the following specifications:
     - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU options:
-        - NVIDIA GeForce RTX 4050
         - NVIDIA GeForce RTX 4060
         - NVIDIA GeForce RTX 4070
     - eDP display: 15.6" 1920x1080@144Hz LCD

@@ -61,8 +61,8 @@ The Serval WS has the following actions available using the Fn and Function keys
 |![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode               |
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                            |
 |![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
-|1                          |Fn+1    |Toggle fan between max/automatic   |
 |![Fn-*](./img/fn-star.png) |Fn+*    |Toggle keyboard backlight          |
-|/ (numpad)                 |Fn+/    |Cycle keyboard color               |
-|- (numpad)                 |Fn+-    |Decrease keyboard brightness       |
-|+ (numpad)                 |Fn++    |Increase keyboard brightness       |
+|![Fn-/](./img/fn-slash.png)|Fn+/    |Cycle keyboard color               |
+|![Fn--](./img/fn-minus.png)|Fn+-    |Decrease keyboard brightness       |
+|![Fn-+](./img/fn-plus.png) |Fn++    |Increase keyboard brightness       |
+|1                          |Fn+1    |Toggle fan between max/automatic   |

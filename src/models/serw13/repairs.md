@@ -71,7 +71,7 @@ The keyboard can be replaced using the instructions below.
 ![Keyboard adhesive & push point](./img/keyboard-adhesive.webp)
 
 3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.webp)
 

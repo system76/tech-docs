@@ -24,8 +24,11 @@ The System76 Serval WS is a laptop with the following specifications:
     - GPU options:
         - NVIDIA GeForce RTX 4060
         - NVIDIA GeForce RTX 4070
-    - eDP display: 15.6" 1920x1080@144Hz LCD
-        - LCD panel: BOE NV156FHM-NY8 (or equivalent)
+    - eDP display:
+        - 15.6" 1920x1080@165Hz LCD
+            - LCD panel: BOE NV156FHM-NY8 (or equivalent)
+        - 17.6" 3840x2160@144Hz
+            - LCD panel: AUO B173ZAN03.0 (or equivalent)
     - External video outputs:
         - 1x HDMI
         - 1x Mini DisplayPort 1.4

@@ -1,95 +1,38 @@
 # Adder WS (Parts & Repairs)
 
-Many components in your Adder WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
+Many components in your Adder WS can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 
-- [Removing the battery](#removing-the-battery)
-- [Removing the keyboard](#removing-the-keyboard)
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Replacing a 2.5" storage drive](#replacing-a-25-storage-drive)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Replacing the battery](#replacing-the-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-
-## Removing the battery:
-
-The battery provides primary power whenever the system is unplugged.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 1 minute  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to remove the battery:
-
-1. Place the machine lid-side down.
-    - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the two battery screws, highlighted green below.
-
-![Battery screws](./img/battery-screws.jpg)
-
-3. Lift the battery out of the chassis.
-
-## Removing the keyboard:
-
-The keyboard (and built-in keyboard backlight) can be replaced using the instructions below.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to remove the keyboard:
-
-1. Place the machine lid-side down.
-    - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the two keyboard screws.
-
-![Keyboard screws](./img/keyboard-screws.jpg)
-
-3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
-
-![Keyboard push point](./img/keyboard-push-point.jpg)
-
-5. Set the machine upright and pull the keyboard out of the top case, starting from the top and working toward the bottom.
-6. Once freed, lift the bottom of the keyboard to see the ribbon cables. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
-    - If you are not replacing the keyboard, the keyboard can be flipped over onto the touchpad without disconnecting the ribbon cables.
-
-![Keyboard ribbons](./img/keyboard-ribbons.jpg)
-
-6. Flip the black latches away from the white connectors to free the ribbon cables.
-7. Pull the ribbon cables out of the connectors.
-8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
-10. Flip the black latches back into place to secure the ribbon cables.
-11. Place the keyboard back into position, starting with the tabs on the bottom edge.
-12. Secure the rest of the keyboard by pressing down on each of its edges.
-13. Turn the machine lid-side down again and replace the two keyboard screws.
+- [Replacing the speakers](#replacing-the-speakers)
+- [Replacing the keyboard](#replacing-the-keyboard)
 
 ## Removing the bottom cover:
 
-Removing the cover is required to access most internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
+Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 7 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Time estimate:** 5 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to remove the bottom cover:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery) and [remove the keyboard](#removing-the-keyboard).
-2. Remove the two under-keyboard screws holding the bottom panel in place from the top.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the 13 bottom panel screws.
 
-![Under-keyboard screws](./img/under-keyboard-screws.jpg)
+![Bottom panel screws](./img/bottom-panel-screws.webp)
 
-3. Remove the remaining 10 bottom panel screws.
-
-![Bottom panel screws](./img/bottom-panel-screws.jpg)
-
-4. Pull the bottom panel off, starting from the hinges and vents in the back.
+3. Pull the bottom panel off, starting from the hinges in the back.
 
 ## Replacing the RAM:
 
-The Adder WS 2 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Adder WS 3 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 4800MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -97,17 +40,17 @@ The Adder WS 2 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz.
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
-![RAM slots](./img/ram-slots.jpg)
+![RAM removal](./img/ram-slots.webp)
 
 3. Remove the RAM from the slot.
-4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down until it clicks into place.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Gen 3 or SATA III, while SSD-2 supports only PCIe NVMe Gen 3.
+This model supports up to two M.2 SSDs. Both M.2 slots are size 2280 and support PCIe NVMe Generation 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -115,64 +58,56 @@ This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe 
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unscrew the retainer screw opposite the M.2 slot.
 
-![M.2 slot](./img/m2-slots.jpg)
-
-_SSD-1 is on the left (closest to the battery slot), while SSD-2 is on the right (closest to the 2.5" drive slot.)_
+![M.2 slots](./img/m2-slots.webp)
 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
 5. Replace the retainer screw.
 
-## Replacing a 2.5" storage drive:
+## Replacing the battery:
 
-This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
+The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 12 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
-2. Unscrew the single screw holding the 2.5" drive bracket into the case.
+### Steps to replace the battery:
 
-![2.5" drive bracket screw](./img/25-bracket-screw.jpg)
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove the four battery screws near the corners of the battery.
+    - Also remove any clear tape hanging onto the battery from the fan wires.
 
-3. Slightly lift the loose end of the 2.5" drive and slide it out of the SATA port.
+![Battery screws](./img/battery.webp)
 
-![2.5" drive removal](./img/25-drive-removal.jpg)
-
-4. Unscrew the two screws holding the 2.5" drive into the drive bracket (one on either side.)
-
-![2.5" drive side screw](./img/25-side-screw.jpg)
-
-5. Insert the new 2.5" drive into the drive bracket and replace the two side screws.
-6. Plug the 2.5" drive into the SATA port and set the drive into the case.
-7. Screw the drive bracket back into the case.
+3. Unplug the white connector connecting the battery to the motherboard.
+4. Remove and replace the battery.
+5. When plugging in the new battery, the red wire on the connector goes on the bottom, and the black wire goes on the top.
 
 ## Replacing the wireless card:
 
 Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 12 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the wireless module. Remove any clear tape that is securing the wires.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the wireless card. Remove any clear tape that is securing the wires.
 
-![Wireless card](./img/wireless-card.jpg)
+![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
-5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
-6. Insert the new wireless card into the M.2 slot at an angle.
+5. The card will pop up at an angle. Slide the card out of the M.2 slot.
+6. Insert the new wireless card into the M.2 slot.
 7. Replace the retaining screw.
-8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place.
-    - _Use caution when attaching the connectors; the pins can bend, break, or snap._
+8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
 ## Replacing the CMOS battery:
 
@@ -184,45 +119,116 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the keyboard](#removing-the-keyboard).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+    - If you are not replacing the CMOS battery, then removing the outermost SSD is optional.
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
-2. Pick the CMOS battery up from the open side of the battery slot (on the right).
-3. To clear the CMOS, [remove the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-4. Replace the CMOS battery, keyboard, and main battery.
-5. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+2. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
+3. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. Reconnect the CMOS battery, [reconnect the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
+5. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
-The Adder WS 2 has a single heatsink with two attached fans. The entire cooling assembly should be replaced together (fans cannot be removed individually.)
+If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan.
 
-If a fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. [Contact Support](https://support.system76.com/) to start a warranty claim or parts purchase.
+The Oryx Pro 10 comes with heat-conductive metal on the dedicated GPU, and uses regular thermal paste for the CPU. These materials help facilitate effective heat transfer between the CPU/GPU and the cooling equipment.
 
-Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
+- Thermal paste should generally be replaced after removing the heatsink; thermal paste also dries over time, so depending on your climate and the age of the machine, applying new thermal paste may increase thermal performance.
+- The heat-conductive metal does not dry out, and replacing it is optional; replacement may be useful if the previous metal has flowed out of the proper area for cooling.
 
-**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
-**Time estimate:** 20 minutes  
+Replacement heat-conductive metal fitted to the machine and replacement fans can be obtained by [contacting support](https://support.system76.com).
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 40 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
-### Steps to replace the fans/heatsink/thermal paste:
+### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the battery](#removing-the-battery), [remove the keyboard](#removing-the-keyboard), and [remove the bottom cover](#removing-the-bottom-cover).
-2. Unplug the two white fan connectors, highlighted red below.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove any clear tape that is securing the fan wires.
+    - Some tape may be underneath the heatsink; it can alternatively be removed after removing the heatsink.
+2. Remove the thirteen heatsink and fan screws in order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #13.
+    - The black screws (#1-#12) are held captive, and will not completely detatch from the heatsink/fans. The silver screw (#13) is not held captive, and will come loose when untightened.
+    - Do not remove the smaller black screws holding the fan covers onto the fans.
 
-![Thermal screws and connectors](./img/thermal-system.jpg)
+![Thermal screws](./img/thermal-screws.webp)
 
-3. Remove the six heatsink screws and four fan screws in order, starting with #1, then #2, and so on until #10.
-    - The heatsink screws are spring-loaded, and will not detatch from the heatsink when unscrewed.
-4. Remove the heatsink from the system, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+4. Unplug the two white fan connectors from the motherboard (highlighted cyan above).
+5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+6. Using a paper towel, remove the existing thermal paste from the CPU, GPU, VRAM chips, and heatsink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU/GPU chips.
+7. Apply a small line of thermal paste directly onto the CPU chip, GPU chip, and VRAM chips.
 
-![Thermal paste application](./img/thermal-paste-application.jpg)
+![Thermal paste application](./img/thermal-paste-application.webp)
 
-7. Carefully replace the heatsink.
-8. Replace the six heatsink screws and four fan screws in order, starting with #1, then #2, and so on until #10.
-9. Plug in the two white fan connectors.
+8. Carefully replace the heatsink.
+9. Replace the fan and heatsink screws, starting with #1, then #2, and so on until #13.
+10. Plug the two white fan connectors back into the motherboard.
+
+## Replacing the speakers:
+
+The system has two bottom-firing speakers, which can be removed and replaced individually.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the speakers:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). For the right speaker, also [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+2. Disconnect the speaker wire from the motherboard.
+    - This can alternatively be done after freeing the speaker.
+
+![Speaker screws and connectors](./img/speakers.webp)
+
+3. Unscrew the speaker screws and lift the speaker out of the machine.
+    - The right speaker has three screws; the left speaker has two screws.
+    - The speaker wire may be partially routed behind other components or tape; be careful when removing it.
+4. Place the new speaker in the machine, plug in the connector, replace the screws, and reinstall the outermost SSD (if necessary) and bottom panel.
+
+## Replacing the keyboard:
+
+The keyboard can be replaced if its switches or electronics have been damaged.
+
+**Warning:** The Oryx Pro 10's keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is likely that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
+
+**Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
+**Time estimate:** 20 minutes  
+**Difficulty:** Hard <span style="color:red;">●</span>
+
+### Steps to replace the keyboard:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Locate the keyboard adhesive strip access point near the right fan.
+    - You can optionally remove the fan/heatsink assembly to make access easier, but this is not recommended unless you are also removing the thermal paste.
+
+![Keyboard adhesive access point](./img/keyboard-adhesive-access.webp)
+
+3. Using a pair of tweezers, pull out the end of the adhesive strip.
+
+![Keyboard adhesive removal](./img/keyboard-adhesive-removal.webp)
+
+4. Open the lid slightly and place the machine on its side.
+5. Push a screwdriver into the adhesive slot until the keyboard pops out.
+    - If available, a flathead spudger tool can also be used to provide more contact with the keyboard.
+    - A layer of plastic may stick to the adhesive and come off of the keyboard. Try to keep as much of the plastic shielding on the keyboard as possible.
+
+![Keyboard push point](./img/keyboard-push-point.webp)
+
+6. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+
+![Keyboard ribbon connectors](./img/keyboard-ribbons.webp)
+
+7. Flip the black latches upwards to free the ribbon cables.
+8. Pull the ribbon cables out of the connectors.
+9. Remove the keyboard and replace it with the new one.
+10. Carefully slide both ribbon cables into their connectors.
+11. Flip the black latches back into place to secure the ribbon cables.
+12. Place the keyboard back into position, starting with the tabs on the bottom edge.
+    - The keyboard is primarily held in place by the perimeter clips and the keyboard screw (one of the bottom panel screws). The adhesive strip can optionally be removed or omitted to make future keyboard removal easier.
+13. Secure the rest of the keyboard by pressing down on each of its edges.
+14. Turn the machine lid-side down again and press the adhesive strip back into its slot.

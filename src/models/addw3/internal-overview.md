@@ -2,27 +2,27 @@
 
 ## Bottom components and connectors:
 
-![Internal Components](./img/components-highlighted.jpg)
+![Internal Components and Connectors](./img/components-highlighted.webp)
 
+- LCD panel connector (under the heatsink) is highlighted in light green
+- Keyboard adhesive access point is highlighted in pink
 - RAM slots are highlighted in navy
-- M.2 SSDs are highlighted in maroon
-- 2.5" storage drive is highlighted in dark green
+- Fan connectors are highlighted in red
+- Speaker connectors are highlighted in yellow
+- Webcam/microphone connector is highlighted in cyan
 - Wireless card is highlighted in purple
-- Fan connectors are highlighted in light red
-- LCD panel connector is highlighted in light green
-- Webcam/microphone connector is highlighted in pink
-- Speaker connector is highlighted in cyan
+- M.2 SSDs are highlighted in maroon
+    - Both slots support PCIe NVMe Gen 4
+- CMOS battery connector is highlighted in blue
 - Touchpad connector is highlighted in white
-- Front LED connector is highlighted in orange
-- Battery connector is highlighted in yellow
-- BIOS flash chip (U60) is highlighted in black
+- Main battery connector is highlighted in orange
+- BIOS flash chip (U65) is highlighted in black
 
 ## Under-keyboard components and connectors:
 
-![Under-Keyboard Connectors](./img/under-keyboard.jpg)
+![Under-Keyboard Connectors](./img/under-keyboard.webp)
 
-- Bottom panel screws are highlighted in red
+- Keyboard adhesive strip access point is highlighted in cyan
 - Keyboard connector is highlighted in green
 - Keyboard backlight connector is highlighted in yellow
-- CMOS battery is highlighted in cyan
-- Power button/LED connector is highlighted in pink
+- Power button/LED connector is highlighted in red

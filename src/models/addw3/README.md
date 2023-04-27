@@ -25,9 +25,9 @@ The System76 Adder WS is a laptop with the following specifications:
         - NVIDIA GeForce RTX 4050
     - eDP display:
         - 15.6" 1920x1080@144Hz LCD
-            - LCD panel:  (or equivalent)
+            - LCD panel: BOE NV156FHM-N4K (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
-            - LCD panel: (or equivalent)
+            - LCD panel:  (or equivalent)
     - External video outputs:
         - 1x HDMI
         - 1x Mini DisplayPort 1.4

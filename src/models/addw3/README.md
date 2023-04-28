@@ -29,7 +29,7 @@ The System76 Adder WS is a laptop with the following specifications:
         - 17.3" 1920x1080@144Hz LCD
             - LCD panel:  (or equivalent)
     - External video outputs:
-        - 1x HDMI
+        - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
 - Memory

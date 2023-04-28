@@ -27,7 +27,11 @@ The System76 Adder WS is a laptop with the following specifications:
         - 15.6" 1920x1080@144Hz LCD
             - LCD panel: BOE NV156FHM-N4K (or equivalent)
         - 17.3" 1920x1080@144Hz LCD
-            - LCD panel:  (or equivalent)
+            - LCD panel options:
+                - BOE NV173FHM-N4C
+                - BOE NE173FHM-NX1
+                - BOE NV173FHM-NY2
+                - ...or other equivalent
     - External video outputs:
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
@@ -40,10 +44,10 @@ The System76 Adder WS is a laptop with the following specifications:
         - Intel Wi-Fi 6E AX210/AX211
             - Bluetooth 5.3
 - Power
-    - 280W (_V, _A) DC-in port
+    - 280W (20V, 14A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Chicony _
-        - AC power cord type: IEC _
+    - Included AC adapter: Chicony A18-280P1A
+        - AC power cord type: IEC C13
     - 73Wh 4-cell Lithium-Ion battery
 - Sound
     - Internal speakers & microphone

@@ -9,8 +9,8 @@ Many components in your Adder WS can be upgraded or replaced as necessary. This 
 - [Replacing the battery](#replacing-the-battery)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the speakers](#replacing-the-speakers)
 - [Replacing the keyboard](#replacing-the-keyboard)
+- [Replacing the speakers](#replacing-the-speakers)
 
 ## Removing the bottom cover:
 
@@ -104,7 +104,7 @@ Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a 
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
-5. The card will pop up at an angle. Slide the card out of the M.2 slot.
+5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
 6. Insert the new wireless card into the M.2 slot.
 7. Replace the retaining screw.
 8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
@@ -126,14 +126,14 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 2. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
 3. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-4. Reconnect the CMOS battery, [reconnect the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
-5. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+4. Reconnect the CMOS battery, reconnect the main battery, and replace the M.2 SSD.
+5. Replace the bottom panel and power up the Adder WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
 The Adder WS 3 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
 
-If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact support to start a warranty claim or parts purchase.
+If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs to be replaced.
 
@@ -152,7 +152,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ![Thermal screws](./img/thermal-screws.webp)
 
-4. Unplug the two white fan connectors from the motherboard (highlighted cyan above).
+4. Unplug the two white fan connectors from the motherboard (highlighted yellow above).
 5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
 6. Using a paper towel, remove the existing thermal paste from the CPU, GPU, VRAM chips, and heatsink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
@@ -165,6 +165,49 @@ Depending on your climate and the age of the machine, it may be necessary to app
 8. Carefully replace the heatsink.
 9. Replace the fan and heatsink screws, starting with #1, then #2, and so on until #13.
 10. Plug the two white fan connectors back into the motherboard.
+
+## Replacing the keyboard:
+
+The keyboard can be replaced if its switches or electronics have been damaged.
+
+**Warning:** The keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is possible that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
+
+**Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
+**Time estimate:** 20 minutes  
+**Difficulty:** Hard <span style="color:red;">●</span>
+
+### Steps to replace the keyboard:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Pull the keyboard adhesive out of the machine to detatch it from the keyboard.
+    - The adhesive strip access point is highlighted green below.
+    - If the end of the keyboard adhesive strip is tucked behind the fan, it can be pulled out using tweezers or a small screwdriver, or the [thermal system can be removed](#replacing-the-cooling-system) to expose it.
+        - Replacing the thermal paste is recommended if the thermal system is removed.
+    - Pull the adhesive strip slowly to avoid breaking it. Grasp farther down the strip as it comes out of the machine (don't pull the end far away from the machine.)
+    - If the adhesive strip breaks, remove as much of it as possible. The keyboard can be reinstalled without the adhesive strip.
+
+![Keyboard adhesive access point](./img/keyboard-adhesive.webp)
+
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted red below) until the keyboard pops out.
+
+![Keyboard push point location](./img/keyboard-push-point-location.webp)
+![Keyboard push point](./img/keyboard-push-point.webp)
+
+5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+
+![Keyboard ribbon connectors](./img/keyboard-ribbons.webp)
+
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. (Optional) Replace the keyboard adhesive strip on the chassis.
+12. Place the keyboard back into position, starting with the tabs on the bottom edge.
+13. Secure the rest of the keyboard by pressing down on each of its edges.
+14. Turn the machine lid-side down again.
+15. Replace the bottom panel.
 
 ## Replacing the speakers:
 
@@ -192,60 +235,17 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 5. Pull the speaker up and off of the plastic posts, and free the speaker wire from any tape and channels in the chassis.
 6. Slide the new speaker onto the plastic posts and connect it to the motherboard, securing the wire using the channels in the chassis.
 7. Reconnect the ribbon cable to the motherboard and I/O daughterboard, then flip the black latches to secure both connections.
-8. Replace the [main battery](#replacing-the-battery) and [bottom cover](#removing-the-bottom-cover).
+8. Replace the main battery and bottom cover.
 
 ### Steps to replace the right speaker:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-    - The [remove the outermost SSD](#replacing-an-m2nvme-ssd) can optionally be removed for easier access to the speaker connector.
+    - The [outermost SSD](#replacing-an-m2nvme-ssd) can optionally be removed for easier access to the speaker connector.
 2. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
 ![Right speaker wire and screws](./img/speaker-right.webp)
 
 3. Pull the speaker off of the plastic posts.
-4. To install the new speaker, push the rubber mounting rings onto the plastic posts, then plug in the speaker.
-5. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).
-
-## Replacing the keyboard:
-
-The keyboard can be replaced if its switches or electronics have been damaged.
-
-**Warning:** The keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is likely that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
-
-**Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
-**Time estimate:** 20 minutes  
-**Difficulty:** Hard <span style="color:red;">●</span>
-
-### Steps to replace the keyboard:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Pull the keyboard adhesive out of the machine to detatch it from the keyboard.
-    - The adhesive strip access point is highlighted green below.
-    - If the end of the keyboard adhesive strip is tucked behind the fan, it can be pulled out using tweezers or a small screwdriver, or the [thermal system can be removed]() to expose it.
-        - Replacing the thermal paste is recommended if the thermal system is removed.
-    - Pull the adhesive strip slowly to avoid breaking it. Grasp farther down the strip as it comes out of the machine (don't pull the end far away from the machine.)
-    - If the adhesive strip breaks, remove as much of it as possible. The keyboard can be reinstalled without the adhesive strip.
-
-![Keyboard adhesive access point](./img/keyboard-adhesive.webp)
-
-3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted red below) until the keyboard pops out.
-
-![Keyboard push point location](./img/keyboard-push-point-location.webp)
-![Keyboard push point](./img/keyboard-push-point.webp)
-
-5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
-
-![Keyboard ribbon connectors](./img/keyboard-ribbons.webp)
-
-6. Flip the black latches upwards to free the ribbon cables.
-7. Pull the ribbon cables out of the connectors.
-8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
-10. Flip the black latches back into place to secure the ribbon cables.
-11. (Optional) Replace the keyboard adhesive strip on the chassis.
-12. Place the keyboard back into position, starting with the tabs on the bottom edge.
-13. Secure the rest of the keyboard by pressing down on each of its edges.
-14. Turn the machine lid-side down again.
-15. Replace the bottom panel.
+4. Slide the new speaker onto the plastic posts and connect it to the motherboard.
+5. Replace the outermost SSD (if necessary) and bottom cover.

@@ -24,10 +24,10 @@
 
 |Part                              |Material |Part Number |
 |----------------------------------|---------|------------|
-|LCD back cover (lid)              |Aluminum |• 15": 6-39-NP501-024<br/>• 17": 6-39-PD701-023<br/>or 6-39-PD711-021|
+|LCD back cover (lid)              |Plastic  |• 15": 6-39-NP501-024<br/>• 17": 6-39-PD701-023<br/>or 6-39-PD711-021|
 |LCD front cover (bezel)           |Plastic  |• 15": 6-39-NP501-033<br/>• 17": 6-39-PD701-012|
 |Top case (palm rests/port covers) |Plastic  |• 15": 6-78-NP50SNE2-010<br/>• 17": 6-78-PD70SNEG2-010|
-|Bottom panel                      |Aluminum |• 15": 6-39-NP5S3-012<br/>• 17": 6-39-PD7S3-012|
+|Bottom panel                      |Plastic  |• 15": 6-39-NP5S3-012<br/>• 17": 6-39-PD7S3-012|
 
 ## LED indicators
 

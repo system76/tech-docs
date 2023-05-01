@@ -45,7 +45,7 @@ The System76 Adder WS is a laptop with the following specifications:
             - Bluetooth 5.3
 - Power
     - 280W (20V, 14A) DC-in port
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - DC-in port accepts rectangular (not barrel) connector
     - Included AC adapter: Chicony A18-280P1A
         - AC power cord type: IEC C13
     - 73Wh 4-cell Lithium-Ion battery

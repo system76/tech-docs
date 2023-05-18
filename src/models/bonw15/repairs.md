@@ -3,15 +3,14 @@
 Many components in your Bonobo WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
-- [Removing the battery](#removing-the-battery)
+- [Replacing the battery](#replacing-the-battery)
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the CPU](#replacing-the-cpu)
-- [Replacing the GPU](#replacing-the-gpu)
+- [Replacing the speakers](#replacing-the-speakers)
 
 ## Removing the bottom cover:
 
@@ -19,95 +18,102 @@ Removing the cover is required to access the internal components. Prior to remov
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to remove the bottom cover:
 
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the 8 bottom panel screws (highlighted red below.)
+2. Remove the 16 bottom panel screws.
 
-![Bottom panel screws](./img/bottom-panel-screws.jpg)
+![Bottom panel screws](./img/bottom-panel-screws.webp)
 
-3. Slide the bottom panel away from the battery slot while lifting it up and off of the case (the panel detaches at a slight angle.)
+3. Pull the back strip off the back of the machine.
 
-## Removing the battery:
+![Bottom panel back strip](./img/bottom-panel-back-strip.webp)
+
+3. Pull the bottom panel off, starting from the back.
+
+## Replacing the battery:
 
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
+**Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-### Steps to remove the battery:
+### Steps to replace the battery:
 
-1. Place the machine lid-side down.
-    - Use a soft surface (such as a towel) to avoid scratches.
-2. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). _(Removing the bottom cover is optional, but can make removing the battery significantly easier.)_
-3. Slide the locking battery slider (highlighted green below) to the "unlocked" position.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove the four screws along the top of the battery.
 
-![Battery sliders](./img/battery-sliders.jpg)
+![Battery screws](./img/battery.webp)
 
-4. Hold the spring-loaded battery slider (highlighted yellow above) in the "unlocked" position.
-5. Starting from the top, lift the battery up and out of the slot.
+3. Unplug the white connector connecting the battery to the motherboard.
+4. Remove the battery, starting from the top edge with screw holes.
+5. When putting in the new battery, start with the plastic tabs along the bottom edge (opposite from the screw holes.)
+6. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
 
 ## Replacing the keyboard:
 
 The keyboard can be replaced using the instructions below.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+**Tools required:** Cross-head (Phillips) screwdriver; tweezers (optional)  
 **Time estimate:** 10 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to replace the keyboard:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
-2. Remove the two keyboard screws (circled yellow below.)
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Pull the keyboard adhesive out of the machine to detatch it from the keyboard.
+    - The adhesive strip access point is highlighted green below.
+    - If the end of the keyboard adhesive strip is tucked behind the fan, it can be pulled out using tweezers or a small screwdriver, or the [thermal system can be removed](#replacing-the-cooling-system) to expose it.
+        - Replacing the thermal paste is recommended if the thermal system is removed.
+    - If the adhesive strip breaks, remove as much of it as possible. The keyboard can be reinstalled without the adhesive strip.
 
-![Keyboard screws](./img/keyboard-screws.jpg)
+![Keyboard adhesive & push point](./img/keyboard-adhesive.webp)
 
 3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
+4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
 
-![Keyboard push point](./img/keyboard-push-point.jpg)
+![Keyboard push point](./img/keyboard-push-point.webp)
 
-5. Set the Bonobo WS back down and raise the keyboard away from the chassis. The largest ribbon cable (highlighted red below) is for the keyboard, while the two smaller ribbon cables (highlighted green) are for the keyboard backlight.
+5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
-![Keyboard ribbons](./img/keyboard-ribbons.jpg)
+![Keyboard ribbons](./img/keyboard-ribbons.webp)
 
 6. Flip the black latches upwards to free the ribbon cables.
 7. Pull the ribbon cables out of the connectors.
 8. Remove the keyboard and replace it with the new one.
-9. Carefully slide all three ribbon cables into their connectors.
+9. Carefully slide both ribbon cables into their connectors.
 10. Flip the black latches back into place to secure the ribbon cables.
-11. Place the keyboard back into position, starting with the tabs on the bottom edge.
-12. Secure the rest of the keyboard by pressing down on each of its edges.
-13. Turn the machine lid-side down again.
-14. Replace the 2 keyboard screws, the battery, and the bottom panel.
-15. Boot the machine and confirm the keyboard and keyboard backlight are operational.
+11. (Optional) Replace the keyboard adhesive strip on the chassis.
+12. Place the keyboard back into position, starting with the tabs on the bottom edge.
+13. Secure the rest of the keyboard by pressing down on each of its edges.
+14. Turn the machine lid-side down again.
+15. Replace the bottom panel.
 
 ## Replacing the RAM:
 
-The Bonobo WS 14 supports up to 128GB (4x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Bonobo WS 15 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 4800MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
-2. Two RAM slots are located on the bottom of the machine, while two are underneath the keyboard. If necessary, follow the steps above to [remove the keyboard](#replacing-the-keyboard).
-3. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
 
-![RAM removal](./img/ram-slots.jpg)
+![RAM removal](./img/ram-slots.webp)
 
-4. Remove the RAM from the slot.
-5. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
+3. Remove the RAM from the slot.
+4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down on the RAM until it clicks into place.
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to four M.2 SSDs. All M.2 slots are size 2280.
+This model supports up to three M.2 SSDs. All M.2 slots are size 2280 and support PCIe NVMe Generation 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -115,20 +121,14 @@ This model supports up to four M.2 SSDs. All M.2 slots are size 2280.
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
-2. If working with any of the PCIe NVMe-capable slots, unscrew the three screws (highlighted red below) and remove the black metal cover from above those three slots.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Unscrew the retainer screw opposite the M.2 slot.
 
-![M.2 cover](./img/m2-cover.jpg)
+![M.2 slots](./img/m2-slots.webp)
 
-3. Unscrew the retainer screw opposite the M.2 slot.
-
-![M.2 slots](./img/m2-slots.jpg)
-
-_In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe only, and the two orange slots work with SATA or PCIe NVMe._
-
-4. Remove the existing M.2 drive by pulling it out of the slot.
-5. Insert the new M.2 drive into the slot and hold it in place.
-6. Replace the retainer screw.
+3. Remove the existing M.2 drive by pulling it out of the slot.
+4. Insert the new M.2 drive into the slot and hold it in place.
+5. Replace the retainer screw.
 
 ## Replacing the wireless card:
 
@@ -140,22 +140,22 @@ Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the keyboard](#replacing-the-keyboard).
-2. Locate the wireless module. Remove any clear tape that is securing the wires.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove both SSDs](#replacing-an-m2nvme-ssd).
+    - Removing the outermost SSD is optional, but will make it easier to work with the wireless card.
+2. Locate the wireless card. Remove any clear tape that is securing the wires.
 
-![Wireless card](./img/wireless-card.jpg)
+![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
-4. Remove the retaining screw opposite the M.2 slot, highlighted green above.
-5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
-6. Insert the new wireless card into the M.2 slot at an angle.
+4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
+5. Keeping the wireless card parallel with the motherboard, slide the card out of the M.2 slot.
+6. Insert the new wireless card into the M.2 slot.
 7. Replace the retaining screw.
 8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
-9. Replace the keyboard, battery, and bottom cover.
 
 ## Replacing the CMOS battery:
 
-The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
+The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the comptuer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    
@@ -163,112 +163,83 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the main battery](#removing-the-battery).
-2. Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green below.)
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Unplug the white connector that connects the CMOS battery to the motherboard.
+    - If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
-3. If you are replacing the CMOS battery, pull it away from the adhesive holding it to the case.
-4. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-5. Re-connect the CMOS battery, replace the main battery, and replace the bottom panel.
-7. Power up the Bonobo WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
+3. To clear the CMOS, open the lid of the machine and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. Re-connect the CMOS battery and the main battery.
+5. Replace the SSDs and wireless card (if necessary) and the bottom panel.
+6. Power up the Bonobo WS. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
 
-The Bonobo WS 12 has a single heatsink assembly with two fans for the CPU and GPU.
+The Bonobo WS 13 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
 
-If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. Contact Support to start a warranty claim or parts purchase.
+If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
 
-Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs replacing.
+Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs to be replaced.
 
-**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
-**Time estimate:** 20 minutes  
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
 ### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the battery](#removing-the-battery).
-2. Remove the three LED bar screws (highlighted green below).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and any [SSDs present in slots 2 and 3](#replacing-an-m2nvme-ssd).
+2. Remove the thirteen heatsink and fan screws in order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #13.
+    - Screws #1-#12 are held captive, and will not completely detatch from the heatsink/fans. Screw #13 is not held captive, and will come loose when untightened.
+    - Do not remove the smaller screws holding the fan covers onto the fans.
 
-![LED bar screws and connector](./img/led-bar-screws.jpg)
+![Thermal screws](./img/thermal-screws.webp)
 
-3. Raise the black latch on the ribbon cable connector (highlighted red above) to free the ribbon cable, then remove the ribbon cable; gently peel the cable away from any adhesive present.
-4. Remove the LED light bar.
-5. [Remove the black metal M.2 cover](#replacing-an-m2nvme-ssd). _Removing the M.2 cover is optional, but makes it easier to free the fan wires later._
-6. Remove the eight fan screws (highlighted yellow below.)
+3. Remove any clear tape covering the fan wires.
+    - The tape covering the [wireless card antennas](#replacing-the-wireless-card) may also need to be removed.
+4. Unplug the black fan connectors from the motherboard.
+5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+6. Using a paper towel, remove the existing thermal paste from the CPU, GPU, VRAM chips, and heatsink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
-![Thermal screws](./img/thermal-screws.jpg)
+![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-7. Remove the seven spring-loaded heatsink screws (highlighted cyan above) in reverse order, starting with #7, then #6, and continuing until you have removed #1. _Keep the four GPU heatsink screws separated from the three CPU heatsink screws; they are different sizes._
-8. Unplug the white fan connectors from the black sockets on the motherboard (highlighted pink above.) Remove any clear tape holding the fan wires in place.
-9. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-10. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+7. Apply a small line of thermal paste directly onto the CPU chip, GPU chip, and VRAM chips.
 
-![Thermal paste removal](./img/thermal-paste-1.jpg)
+![Thermal paste application](./img/thermal-paste-application.webp)
 
-![Heatsink assembly](./img/heatsink.jpg)
+8. Carefully replace the heatsink.
+9. Replace the fan and heatsink screws, starting with #1, then #2, and so on until #13.
+10. Plug the white fan connectors back into the motherboard.
 
-11. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU chips.
+## Replacing the speakers:
 
-![Thermal paste application](./img/thermal-paste-2.jpg)
-
-12. Carefully replace the heatsink.
-13. Replace the spring-loaded heatsink screws, starting with #1, then #2, and so on until #7. _The three screws over the CPU are slightly thicker, while the four screws over the GPU are slightly thinner._
-14. Replace the eight fan screws.
-15. Plug the white fan connectors back into the motherboard.
-
-## Replacing the CPU:
-
-The Bonobo WS uses an LGA 1200 socket for the CPU. If you are upgrading or replacing your CPU, follow the steps below.
+The system has two bottom-firing speakers, which can be removed and replaced individually.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 25 minutes    
-**Difficulty:** High <span style="color:red;">●</span>
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the CPU:
+### Steps to replace the left speaker:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the heatsink](#replacing-the-cooling-system).
-2. Lift up the lever holding the CPU cover in place, highlighted red below.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Disconnect the speaker connector from the motherboard.
+    - This can alternatively be done after freeing the speaker.
 
-![CPU lever (lowered)](./img/cpu-lever-1.jpg)
+![Left speaker wire and screws](./img/speaker-left.webp)
 
-![CPU lever (raised)](./img/cpu-lever-2.jpg)
+3. Unscrew the two speaker screws, free the speaker wire from the channels in the chassis, and remove the speaker.
+4. Screw in the new speaker and connect it to the motherboard, securing the wire using the channels in the chassis.
+5. Replace the [bottom cover](#removing-the-bottom-cover).
 
-3. Flip over the CPU cover.
+### Steps to replace the right speaker:
 
-![CPU cover](./img/cpu-cover.jpg)
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+2. Peel back any clear tape hanging onto the speaker from the wireless card.
+3. Disconnect the speaker connector from the motherboard.
+    - This can alternatively be done after freeing the speaker.
 
-4. Carefully lift the old CPU out of the socket. **Caution:** Be careful not to bend any of the gold pins in the CPU socket, and do not touch the gold plates on the bottom of the CPU.
-5. Carefully place the new CPU into the socket. One of the corners of the socket and CPU are marked with a triangle; be sure to match the triangles to the same corner so the CPU is placed in the correct orientation (highlighted yellow below.)
+![Right speaker wire and screws](./img/speaker-right.webp)
 
-![Triangle on socket](./img/cpu-triangle.jpg)
-
-6. Once the CPU is placed in the correct orientation, replace the CPU cover and lower the lever back down; lowering the lever may take some force.
-
-![CPU lever (lowering)](./img/cpu-lever-3.jpg)
-
-7. Replace the thermal paste, heatsink/fan(s), battery, and bottom panel.
-
-## Replacing the GPU:
-
-The Bonobo WS uses an MXM III slot for the GPU. If you are upgrading or replacing your GPU, follow the steps below.
-
-**Tools required:** Cross-head (Phillips) screwdriver    
-**Time estimate:** 25 minutes    
-**Difficulty:** High <span style="color:red;">●</span>
-
-### Steps to replace the GPU:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove the battery](#removing-the-battery), and [remove the heatsink](#replacing-the-cooling-system).
-2. Unplug the power cable, highlighted cyan below.
-
-
-![GPU screws and connector](./img/gpu-screws.jpg)
-
-3. Unscrew the two screws, highlighted red above.
-4. Raise the GPU to an angle and remove it from the slot.
-
-![GPU raised at an angle](./img/gpu-raised.jpg)
-
-5. Place the new GPU (or reseat the existing GPU) into the slot at an angle, then hold it down and replace the screws and connector.
-6. Replace the thermal paste, heatsink/fan(s), battery, and bottom panel.
+4. Unscrew the three speaker screws and remove the speaker.
+5. Screw in the new speaker and connect it to the motherboard.
+6. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).

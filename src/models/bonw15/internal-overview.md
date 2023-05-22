@@ -2,30 +2,26 @@
 
 ## Bottom components and connectors:
 
-![Internal Components](./img/components-highlighted.jpg)
+![Internal Components](./img/components-highlighted.webp)
 
-- LED bar is highlighted in purple
-- Fan/heatsink module is highlighted in white
-- Keyboard screwholes are highlighted in red
-- Fan connectors are highlighted in pink
-- M.2 SSDs are highlighted in cyan
-- RAM (slots 1 and 3) are highlighted in green
-- CMOS battery is highlighted in yellow
-- Battery slot is highlighted in orange
-- Speakers are highlighted in olive
+- LCD panel connector is highlighted in light green
+- Webcam/microphone connector is highlighted in cyan
+- Keyboard adhesive access point is highlighted in pink
+- Wireless card (under the innermost SSD) is highlighted in navy
+- M.2 SSDs are highlighted in dark green
+    - Both slots support PCIe NVMe Gen 4
+- Fan connectors are highlighted in orange
+- CMOS battery connector is highlighted in purple
+- Speaker connectors are highlighted in yellow
+    - Right speaker connector (on the left) is under SSD slot 3
+- BIOS flash chip (U58) is highlighted in black
+- Main battery connector is highlighted in red
+- Touchpad connector is highlighted in white
+- RAM is highlighted in maroon
 
 ## Under-keyboard components and connectors:
 
-![Under-Keyboard Connectors](./img/under-keyboard.jpg)
+![Under-Keyboard Connectors](./img/under-keyboard.webp)
 
-- Keyboard connector is highlighted in red
-- Keyboard backlight connectors are highlighted in light green
-- RAM (slots 2 and 4) are highlighted in cyan
-- Wireless card is highlighted in orange
-- 3.5mm audio jack connector is highlighted in maroon
-- SD card slot connector is highlighted in yellow
-- Power button/LED connector is highlighted in pink
-- Front LED connector is highlighted in navy
-- Touchpad connector is highlighted in purple
-- Keyboard & keyboard backlight board to motherboard connector is highlighted in olive
-- BIOS flash chip (U16), not highlighted
+- Keyboard connector is highlighted in yellow
+- Keyboard backlight connectors are highlighted in green

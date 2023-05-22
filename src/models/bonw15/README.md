@@ -14,7 +14,7 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - Chipset
     - [Intel HM770 Express](https://www.intel.com/content/www/us/en/products/sku/232478/intel-hm770-chipset/specifications.html) <!-- Not yet listed on ARK -->
 - BIOS
-    -  flash chip
+    - GigaDevice GD25B256EYIGR flash chip
         - WSON-8 form factor
     - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC

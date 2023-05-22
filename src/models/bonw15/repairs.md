@@ -28,11 +28,11 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
-3. Pull the back strip off the back of the machine.
+3. Slide the back strip off the back of the machine.
 
 ![Bottom panel back strip](./img/bottom-panel-back-strip.webp)
 
-3. Pull the bottom panel off, starting from the back.
+4. Pull the bottom panel off, starting from the back.
 
 ## Replacing the battery:
 
@@ -221,25 +221,28 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ### Steps to replace the left speaker:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Disconnect the speaker connector from the motherboard.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove any SSDs present in slots 2 and 3](#replacing-an-m2nvme-ssd).
+2. Remove the two screws holding the audio daugherboard onto the chassis, then flip the audio daughterboard over towards the motherboard.
+
+![Audio daughterboard](./img/audio-daughterboard.webp)
+
+3. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
 ![Left speaker wire and screws](./img/speaker-left.webp)
 
-3. Unscrew the two speaker screws, free the speaker wire from the channels in the chassis, and remove the speaker.
-4. Screw in the new speaker and connect it to the motherboard, securing the wire using the channels in the chassis.
-5. Replace the [bottom cover](#removing-the-bottom-cover).
+4. Unscrew the two speaker screws, free the speaker wire from the channels in the chassis, and remove the speaker.
+5. Screw in the new speaker and connect it to the motherboard, securing the wire using the channels in the chassis.
+6. Replace the [bottom cover](#removing-the-bottom-cover).
 
 ### Steps to replace the right speaker:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
-2. Peel back any clear tape hanging onto the speaker from the wireless card.
-3. Disconnect the speaker connector from the motherboard.
+2. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
 ![Right speaker wire and screws](./img/speaker-right.webp)
 
-4. Unscrew the three speaker screws and remove the speaker.
-5. Screw in the new speaker and connect it to the motherboard.
-6. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).
+3. Unscrew the three speaker screws and remove the speaker.
+4. Screw in the new speaker and connect it to the motherboard.
+5. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).

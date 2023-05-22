@@ -23,7 +23,9 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 4090
+            - TGP: 150W (175W boost)
         - NVIDIA GeForce RTX 4080
+            - TGP: 150W (175W boost)
     - eDP display options:
         - 17.3" 3840x2160@144Hz LCD
             - LCD panel: BOE NE173QUM-NY1 (or equivalent)

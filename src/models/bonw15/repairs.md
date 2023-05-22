@@ -4,17 +4,17 @@ Many components in your Bonobo WS can be upgraded or replaced as necessary. Foll
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the battery](#replacing-the-battery)
-- [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
 - [Replacing the speakers](#replacing-the-speakers)
+- [Replacing the keyboard](#replacing-the-keyboard)
 
 ## Removing the bottom cover:
 
-Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.
+Removing the cover is required to access the internal components. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (such as USB drives or Kensington locks) are unplugged or removed from the system.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -53,45 +53,6 @@ The battery provides primary power whenever the system is unplugged.
 4. Remove the battery, starting from the top edge with screw holes.
 5. When putting in the new battery, start with the plastic tabs along the bottom edge (opposite from the screw holes.)
 6. When plugging in the new battery, the red wire on the connector goes on the left, and the black wire goes on the right.
-
-## Replacing the keyboard:
-
-The keyboard can be replaced using the instructions below.
-
-**Tools required:** Cross-head (Phillips) screwdriver; tweezers (optional)  
-**Time estimate:** 10 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the keyboard:
-
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Pull the keyboard adhesive out of the machine to detatch it from the keyboard.
-    - The adhesive strip access point is highlighted green below.
-    - If the end of the keyboard adhesive strip is tucked behind the fan, it can be pulled out using tweezers or a small screwdriver, or the [thermal system can be removed](#replacing-the-cooling-system) to expose it.
-        - Replacing the thermal paste is recommended if the thermal system is removed.
-    - If the adhesive strip breaks, remove as much of it as possible. The keyboard can be reinstalled without the adhesive strip.
-
-![Keyboard adhesive & push point](./img/keyboard-adhesive.webp)
-
-3. Open the lid slightly and place the machine on its side.
-4. Push the screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
-
-![Keyboard push point](./img/keyboard-push-point.webp)
-
-5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
-
-![Keyboard ribbons](./img/keyboard-ribbons.webp)
-
-6. Flip the black latches upwards to free the ribbon cables.
-7. Pull the ribbon cables out of the connectors.
-8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
-10. Flip the black latches back into place to secure the ribbon cables.
-11. (Optional) Replace the keyboard adhesive strip on the chassis.
-12. Place the keyboard back into position, starting with the tabs on the bottom edge.
-13. Secure the rest of the keyboard by pressing down on each of its edges.
-14. Turn the machine lid-side down again.
-15. Replace the bottom panel.
 
 ## Replacing the RAM:
 
@@ -140,17 +101,16 @@ Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove both SSDs](#replacing-an-m2nvme-ssd).
-    - Removing the outermost SSD is optional, but will make it easier to work with the wireless card.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.webp)
 
 3. Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.
 4. Remove the retaining screw opposite the M.2 slot, highlighted yellow above.
-5. Keeping the wireless card parallel with the motherboard, slide the card out of the M.2 slot.
-6. Insert the new wireless card into the M.2 slot.
-7. Replace the retaining screw.
+5. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
+6. Insert the new wireless card into the M.2 slot at an angle.
+7. Hold the card down and replace the retaining screw.
 8. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
 ## Replacing the CMOS battery:
@@ -188,7 +148,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ### Steps to replace the heatsink/thermal paste:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and any [SSDs present in slots 2 and 3](#replacing-an-m2nvme-ssd).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove any SSDs present in slots 2 and 3](#replacing-an-m2nvme-ssd).
 2. Remove the thirteen heatsink and fan screws in order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #13.
     - Screws #1-#12 are held captive, and will not completely detatch from the heatsink/fans. Screw #13 is not held captive, and will come loose when untightened.
     - Do not remove the smaller screws holding the fan covers onto the fans.
@@ -209,7 +169,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 8. Carefully replace the heatsink.
 9. Replace the fan and heatsink screws, starting with #1, then #2, and so on until #13.
-10. Plug the white fan connectors back into the motherboard.
+10. Plug the black fan connectors back into the motherboard and (optionally) replace the clear tape.
 
 ## Replacing the speakers:
 
@@ -233,7 +193,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 4. Unscrew the two speaker screws, free the speaker wire from the channels in the chassis, and remove the speaker.
 5. Screw in the new speaker and connect it to the motherboard, securing the wire using the channels in the chassis.
-6. Replace the [bottom cover](#removing-the-bottom-cover).
+6. Replace the audio daughterboard and bottom cover.
 
 ### Steps to replace the right speaker:
 
@@ -243,6 +203,47 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ![Right speaker wire and screws](./img/speaker-right.webp)
 
-3. Unscrew the three speaker screws and remove the speaker.
+3. Unscrew the two speaker screws and remove the speaker.
 4. Screw in the new speaker and connect it to the motherboard.
-5. Replace the [outermost SSD](#replacing-an-m2nvme-ssd) (if necessary) and [bottom cover](#removing-the-bottom-cover).
+5. Replace the bottom cover.
+
+## Replacing the keyboard:
+
+The keyboard includes per-key RGB LED backlighting, and can be replaced using the instructions below.
+
+**Warning:** Removing the keyboard may cause permanent aesthetic damage to the underside of the keyboard, particularly if the adhesive strip is not fully removed first. Removal is not recommended unless the keyboard is malfunctioning.
+
+**Tools required:** Cross-head (Phillips) screwdriver; tweezers (optional)  
+**Time estimate:** 10 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
+### Steps to replace the keyboard:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Pull the keyboard adhesive out of the machine to detatch it from the keyboard.
+    - The adhesive strip access point is highlighted green below.
+    - If the end of the keyboard adhesive strip is tucked behind the fan, it can be pulled out using tweezers or a small screwdriver, or the [thermal system can be removed](#replacing-the-cooling-system) to expose it.
+        - Replacing the thermal paste is recommended if the thermal system is removed.
+    - If the adhesive strip breaks, remove as much of it as possible. The keyboard can be reinstalled without the adhesive strip.
+
+![Keyboard adhesive & push point](./img/keyboard-adhesive.webp)
+
+3. Open the lid slightly and place the machine on its side.
+4. Push a screwdriver into the keyboard push point (highlighted red above) until the keyboard pops out.
+
+![Keyboard push point](./img/keyboard-push-point.webp)
+
+5. Set the machine back down and raise the keyboard away from the chassis. The largest ribbon cable is for the keyboard, while the smaller ribbon cables are for the keyboard backlight.
+
+![Keyboard ribbons](./img/keyboard-ribbons.webp)
+
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. (Optional) Replace the keyboard adhesive strip on the chassis.
+12. Place the keyboard back into position, starting with the tabs on the bottom edge.
+13. Secure the rest of the keyboard by pressing down on each of its edges.
+14. Turn the machine lid-side down again.
+15. Replace the bottom cover.

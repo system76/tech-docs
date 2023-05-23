@@ -7,13 +7,13 @@
 - LCD panel connector is highlighted in light green
 - Webcam/microphone connector is highlighted in cyan
 - Keyboard adhesive access point is highlighted in pink
-- Wireless card (under the innermost SSD) is highlighted in navy
+- Wireless card is highlighted in navy
 - M.2 SSDs are highlighted in dark green
-    - Both slots support PCIe NVMe Gen 4
+    - All slots support PCIe NVMe Gen 4
 - Fan connectors are highlighted in orange
 - CMOS battery connector is highlighted in purple
 - Speaker connectors are highlighted in yellow
-    - Right speaker connector (on the left) is under SSD slot 3
+    - Left speaker connector (on the right) is under SSD slot 3
 - BIOS flash chip (U58) is highlighted in black
 - Main battery connector is highlighted in red
 - Touchpad connector is highlighted in white
@@ -25,3 +25,5 @@
 
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connectors are highlighted in green
+- Power button/LED connector is highlighted in red
+- Keyboard adhesive access point is highlighted in cyan

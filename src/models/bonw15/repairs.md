@@ -197,7 +197,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ### Steps to replace the right speaker:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Disconnect the speaker connector from the motherboard.
     - This can alternatively be done after freeing the speaker.
 

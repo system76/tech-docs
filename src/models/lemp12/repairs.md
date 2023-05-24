@@ -32,7 +32,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Lemur Pro 11 comes with 8GB of 3200 MHz RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. The additional stick is a standard DDR4 SO-DIMM running at 3200 MHz.
+The Lemur Pro 12 comes with 8GB of 4800 MHz RAM soldered onto the motherboard, which cannot be replaced. There is an additional RAM slot, which can support up to a 32GB stick for 40GB of RAM total. The additional stick is a standard DDR5 SO-DIMM running at 4800 MHz.
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

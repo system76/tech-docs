@@ -9,11 +9,11 @@
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 12th Generation (Alder Lake) CPUs
+    - Supports Intel 13th Generation (Raptor Lake) CPUs
         - [Core i7-1355U](https://ark.intel.com/content/www/us/en/ark/products/232160/intel-core-i71355u-processor-12m-cache-up-to-5-00-ghz.html)
         - [Core i5-1335U](https://ark.intel.com/content/www/us/en/ark/products/232153/intel-core-i51335u-processor-12m-cache-up-to-4-60-ghz.html)
 - BIOS
-    - MX25L25673G flash chip
+    - Macronix MX25L25673G flash chip
         - WSON-8 form factor
     - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
@@ -28,9 +28,9 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - 1x HDMI 2.1
         - 1x DisplayPort 1.4 over USB-C
 - Memory
-    - Channel 0: 8-GB on-board DDR4
-        - 4x [Samsung K4AAG165WA-BCWE](https://www.samsung.com/semiconductor/dram/ddr4/K4AAG165WA-BCWE/) (2GB each)
-    - Channel 1: 8-GB/16-GB/32-GB DDR4 SO-DIMM @ 3200 MHz
+    - Channel 0: 8-GB on-board DDR5
+        - 4x [Samsung K4RAH165VB-BCQK](https://semiconductor.samsung.com/dram/ddr/ddr5/k4rah165vb-bcqk/) (2GB each)
+    - Channel 1: 8-GB/16-GB/32-GB DDR5 SO-DIMM @ 4800 MHz
 - Networking
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6E AX210/AX211
@@ -43,7 +43,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - USB-C charging compatible with 65W+ charger
     - 73Wh 4-cell Lithium-Ion battery
 - Sound
-    - Realtek ALC256-CGT
+    - Realtek ALC256-CGT audio chipset
     - Internal speakers & microphone
     - 3.5mm headphone/microphone combo jack
     - HDMI, USB-C DisplayPort audio

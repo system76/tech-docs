@@ -21,11 +21,13 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - ITE IT5570E
     - Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
-    - GPU options:
+    - Dedicated GPU options:
         - NVIDIA GeForce RTX 3080 (Max-Q)
             - TGP: 80W
         - NVIDIA GeForce RTX 3070 (Max-Q)
             - TGP: 80W
+    - Integrated GPU:
+        - Intel UHD Graphics
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
             - LCD panel: LG LP156WFG-SPB3 (or equivalent)

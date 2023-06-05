@@ -35,6 +35,7 @@ The System76 Pangolin is a laptop with the following specifications:
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Shenzhen Jihongda JHD-AD065B-190342BA-A
         - AC power cord type: IEC C5
+    - USB-C charging compatible with 65W+ charger
     - 70Wh 3-cell Lithium-Ion battery (model number 628467-3S1P)
 - Sound
     - Internal speakers & microphone
@@ -46,6 +47,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - USB
     - 1x USB 3.2 Gen 2 Type-C
         - Does not support Thunderbolt.
+        - Supports USB-C charging (USB-PD)
     - 3x USB 3.2 Gen 1 Type-A
 - Dimensions
     - 1.80cm x 37.06cm x 24.79cm, 1.79kg

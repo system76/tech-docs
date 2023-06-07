@@ -94,7 +94,7 @@ Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a s
 The battery provides primary power whenever the system is unplugged.
 
 **Tools required:** Cross-head (Phillips) screwdriver
-**Time estimate:** 1 minute
+**Time estimate:** 6 minutes
 **Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the battery:

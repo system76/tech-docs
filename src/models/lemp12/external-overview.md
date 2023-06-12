@@ -28,12 +28,12 @@ The machine has two bottom-firing speakers near the front, angled outward.
 
 ## Materials:
 
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Magnesium-aluminum alloy|
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Magnesium-aluminum alloy|
-|Bottom panel                      |Magnesium-aluminum alloy|
+|Part                              |Material                 |Part Number        |
+|----------------------------------|-------------------------|-------------------|
+|LCD back cover (lid)              |Magnesium-aluminum alloy |6-39-L1401-025     |
+|LCD front cover (bezel)           |Plastic                  |6-40-L1401-042     |
+|Top case (palm rests/port covers) |Magnesium-aluminum alloy |6-L140AU-KB-WBL-US |
+|Bottom panel                      |Magnesium-aluminum alloy |6-39-L14P3-011     |
 
 ## LED indicators
 

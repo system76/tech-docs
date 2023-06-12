@@ -22,12 +22,13 @@
 
 ## Materials:
 
-|Part                              |Material |
-|----------------------------------|---------|
-|LCD back cover (lid)              |Aluminum |
-|LCD front cover (bezel)           |Plastic  |
-|Top case (palm rests/port covers) |Aluminum |
-|Bottom panel                      |Aluminum |
+|Part                              |Material |Part Number        |
+|----------------------------------|---------|-------------------|
+|LCD back cover (lid)              |Aluminum |6-39-X3701-022     |
+|LCD front cover (bezel)           |Plastic  |6-40-X3701-010     |
+|Top case (palm rests/port covers) |Aluminum |6-78-X370SNWG2-010 |
+|Bottom panel                      |Aluminum |6-39-X3703-011     |
+|Back strip                        |Plastic  |6-42-X3703-101     |
 
 ## LED indicators
 

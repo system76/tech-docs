@@ -9,7 +9,7 @@
 The System76 Galago Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 12th Generation (Alder Lake-U) CPUs
+    - Supports Intel 13th Generation (Raptor Lake-H) CPUs
         - [Core i7-13700H](https://ark.intel.com/content/www/us/en/ark/products/232128/intel-core-i713700h-processor-24m-cache-up-to-5-00-ghz.html)
         - [Core i5-13500H](https://ark.intel.com/content/www/us/en/ark/products/232147/intel-core-i513500h-processor-18m-cache-up-to-4-70-ghz.html)
 - BIOS
@@ -22,7 +22,7 @@ The System76 Galago Pro is a laptop with the following specifications:
 - Graphics
     - GPU options:
         - Intel Iris Xe Graphics
-    - eDP display: 14.1" 1920x1080@60Hz LCD
+    - eDP display: 14.1" 1920x1080@144Hz LCD
         - LCD panel: Sharp LQ140M1JW49 (or equivalent)
     - External video outputs:
         - 1x HDMI 2.1

@@ -55,7 +55,7 @@ The System76 Serval WS is a laptop with the following specifications:
     - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4
-        - Supports USB-PD (charging) when the system is powered off or suspended.
+        - Supports USB-PD (charging) up to 100W when the system is powered off or suspended.
         - Supports DisplayPort over USB-C.
     - 1x USB 3.2 Gen 2 Type-C
         - Partially supports DisplayPort over USB-C.

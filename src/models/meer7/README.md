@@ -4,24 +4,26 @@
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
-![Meerkat (short and tall)](./img/meer6.png)
+![Meerkat (short and tall)](./img/meer7.png)
 
 The System76 Meerkat is a desktop with the following specifications:
 
 - CPU options
-    - [i3-1115G4](https://ark.intel.com/content/www/us/en/ark/products/208652/intel-core-i3-1115g4-processor-6m-cache-up-to-4-10-ghz.html)
-    - [i5-1135G7](https://ark.intel.com/content/www/us/en/ark/products/208658/intel-core-i5-1135g7-processor-8m-cache-up-to-4-20-ghz.html)
-    - [i7-1165G7](https://ark.intel.com/content/www/us/en/ark/products/208662/intel-core-i7-1165g7-processor-12m-cache-up-to-4-70-ghz.html)
+    - [i3-1220P](https://ark.intel.com/content/www/us/en/ark/products/226257/intel-core-i31220p-processor-12m-cache-up-to-4-40-ghz.html)
+    - [i5-1240P](https://ark.intel.com/content/www/us/en/ark/products/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
+    - [i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
 - Graphics
-    - GPU: Intel UHD Graphics
+    - GPU: 
+        - i3 model: Intel UHD Graphics
+        - i5 and i7 model: Intel Iris Xe Graphics
     - Video output:
-        - 2x HDMI 2.0b
+        - 2x HDMI 2.1
         - 2x DisplayPort 1.4a over USB-C
 - Memory
     - Up to 64GB (2x32GB) Dual Channel DDR4 SODIMMs @ 3200 MHz
 - Networking
-    - Intel® Ethernet Controller [i225-LM](https://ark.intel.com/content/www/us/en/ark/products/184675/intel-ethernet-controller-i225-lm.html)
-    - Intel® Wi-Fi 6 [AX201](https://ark.intel.com/content/www/us/en/ark/products/130293/intel-wi-fi-6-ax201-gig.html) (with Bluetooth 5.2)
+    - Intel® Ethernet Controller [i225-V](https://www.intel.com/content/www/us/en/products/sku/184676/intel-ethernet-controller-i225v/specifications.html)
+    - Intel® Wi-Fi 6 [AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wifi-6e-ax211-gig.html) (with Bluetooth 5.3)
 - Power
     - i3 model:
         - 90W (19V, 4.74A) DC-in port
@@ -44,10 +46,9 @@ The System76 Meerkat is a desktop with the following specifications:
     - Tall model only: 1x 2.5"
         - SATA III
 - USB
-    - 1x USB4 Type-C with Thunderbolt 4
-    - 1x USB4 Type-C with Thunderbolt 3
+    - 2x USB4 Type-C with Thunderbolt 4
     - 3x USB 3.2 Gen 2 Type-A
     - 1x USB 2.0 Type-A
 - Dimensions
-    - Short: 117 x 112 x 38mm
-    - Tall:  117 x 112 x 51mm
+    - Short: 117 x 112 x 37mm
+    - Tall:  117 x 112 x 54mm

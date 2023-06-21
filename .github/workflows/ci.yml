@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         env:
-          MDBOOK_VERSION: 0.4.21
+          MDBOOK_VERSION: 0.4.30
         run: |
           cargo install mdbook --no-default-features --features search --vers ${MDBOOK_VERSION}
           mdbook build

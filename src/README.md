@@ -17,6 +17,9 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Launch Lite (launch\_lite\_1)](models/launch_lite_1/README.md)
 - [Lemur Pro (lemp12)](models/lemp12/README.md)
 - [Meerkat (meer6)](models/meer6/README.md)
+- [nebula19 (nebula19-1)](models/nebula19-1/README.md)
+- [nebula36 (nebula36-1)](models/nebula36-1/README.md)
+- [nebula49 (nebula49-1)](models/nebula49-1/README.md)
 - [Oryx Pro (oryp10)](models/oryp10/README.md)
 - [Oryx Pro (oryp9)](models/oryp9/README.md)
 - [Pangolin (pang12)](models/pang12/README.md)
@@ -54,3 +57,4 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Serval WS (serw12)](models/serw12/README.md)
 - [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/README.md)
 - [Thelio Mira (thelio-mira-r1.0)](models/thelio-mira-r1.0/README.md)
+zz

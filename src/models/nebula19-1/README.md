@@ -20,8 +20,7 @@ The System76 nebula19 is a desktop chassis (for DIY builds) with the following s
         - CPU cooler (optional add-on): Noctua `NH-U9S`
             - Fan included with add-on: Noctua `NF-A9 PWM`
     - 1x 140mm bottom intake fan: Be Quiet! `SIW4-14025-LF-PWM`
-    - 2x 120mm side intake fans
-        - Optional add-on: Be Quiet! `SIW4-12025-MF-PWM`
+    - 1x 120mm side intake fan (optional add-on): Be Quiet! `SIW4-12025-MF-PWM`
 - Daughterboards
     - [Nebula Io](https://github.com/system76/thelio-io-hardware/tree/thelio_io_2.3/pcb-nebula-io) power button controller board
     - MYS7523 Rev. 2.0 front I/O board

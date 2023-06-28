@@ -14,8 +14,8 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 - [Installing the GPU](#installing-the-gpu)
 - [Installing the SATA backplane](#installing-the-sata-backplane)
 - [Installing 2.5" drives](#installing-25-drives)
-- [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Installing side intake fans](#installing-side-intake-fans)
+- [Installing the bottom case fan](#installing-the-bottom-case-fan)
+- [Installing side intake fan](#installing-side-intake-fan)
 - [Installing the power supply](#installing-the-power-supply)
 - [Wiring the front I/O and power button](#wiring-the-front-io-and-power-button)
 
@@ -112,13 +112,13 @@ In addition, nebula19 ships with the following non-installed accessories:
 
 ## Installing/removing the GPU brace:
 
-The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (one, a `BQ SIW4-12025-MF-PWM`, is optional when purchasing the chassis; a second is not included.)
+The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount an extra intake fan, such as the optional `BQ SIW4-12025-MF-PWM`.
 
 If no optional accessories were ordered with the nebula19, then the GPU brace will ship preinstalled. If optional accessories were included in the order, then they will ship inside of the chassis, and the GPU brace will ship in a separate box. It can be installed after assembling the rest of the computer.
 
 ![GPU brace](./img/gpu-brace.webp)
 
-The fan splitter on the GPU brace can be used for any side intake fans installed on the GPU brace as well as the bottom chassis intake fan.
+The fan splitter on the GPU brace can be used for the side intake fan installed on the GPU brace as well as the bottom chassis intake fan.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
@@ -268,8 +268,9 @@ nebula19 is designed to work with an optional SATA backplane to allow for easy h
 
 ![2.5" SATA backplane screws](./img/sata-backplane-screws.webp)
 
-6. Screw the drive cage back onto the chassis.
-7. Connect the white `POWER0` header on the back of the SATA backplane to the power supply, and the black `DATA0` and `DATA1` ports to two of the motherboard's SATA ports.
+6. Connect the white `POWER0` header on the back of the SATA backplane to the power supply, and the black `DATA0` and `DATA1` ports to two of the motherboard's SATA ports.
+    - The `POWER0` header uses a four-pin Berg connector, also known as a floppy drive power connector.
+7. [Install any 2.5" SATA drives](#installing-25-drives) and replace the drive cage cover, GPU brace (if necessary), and top case.
 
 ## Installing 2.5" drives:
 
@@ -299,9 +300,9 @@ The case includes a 140mm Be Quiet! Silent Wings 4 `BQ SIW4-14025-LF-PWM` fan (n
 ### Steps to replace the bottom case fan:
 
 1. [Remove the top case](#removing-the-top-case) and [remove the GPU brace](#installingremoving-the-gpu-brace).
-2. Remove the fan, acryllic spacer, dust filter, and fan screws from the 140mm fan box.
+2. Remove the fan, dust filter, and fan screws from the 140mm fan box.
 
-![Botton fan unboxing](./img/bottom-fan-unboxing.webp)
+![Bottom fan unboxing](./img/bottom-fan-unboxing.webp)
 
 3. Set the machine down on its side.
 4. Line the components up over the fan screw holes.
@@ -312,14 +313,14 @@ The case includes a 140mm Be Quiet! Silent Wings 4 `BQ SIW4-14025-LF-PWM` fan (n
 
 ![Bottom fan screws](./img/bottom-fan-screws.webp)
 
-## Installing side intake fans:
+## Installing side intake fan:
 
-nebula19 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm Be Quiet! Silent Wings 4 fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
+nebula19 supports one 120mm side intake fan mounted to the GPU brace. A 120mm Be Quiet! Silent Wings 4 fan (`BQ SIW4-12025-MF-PWM`) is available as an optional add-on at the time of purchase.
 
-### Steps to install the side intake fans:
+### Steps to install the side intake fan:
 
 1. [Remove the top case](#removing-the-top-case) and [remove the GPU brace](#installingremoving-the-gpu-brace).
-2. Unpack the fan, dust filter, and rubber mounting pins from the fan box.
+2. Unpack the fan, dust filter, and fan screws from the fan box.
 
 ![Be Quiet! Silent Wings 4 120mm Box](./img/side-fan-unboxing.webp)
 
@@ -327,9 +328,8 @@ nebula19 supports up to two 120mm side intake fans mounted to the GPU brace. One
     - The shiny side of the dust filter should face the GPU brace.
     - The spinning side of the fan should face outward, while the stationary label should face inward.
     - The fan wire should be oriented towards the fan splitter board on the GPU brace.
-4. From the back (inside of the machine), screw the fan screws through the GPU brace and into the fan.
-    - The GPU brace can optionally be  to make working with the rubber mounting pins easier.
-5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The cearby velcro strap can be used to hold the fan's cable.
+4. From the back, screw the fan screws through the GPU brace and into the fan.
+5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The nearby velcro strap can be used to hold the fan's cable.
 
 ![Mounted side fan](./img/side-fan-mounted.webp)
 
@@ -397,5 +397,5 @@ Both daughterboards can be removed and replaced if necessary. The external power
 
 ### Steps to replace the power button:
 
-1. [Remove the top case](removing-the-top-case).
+1. [Remove the top case](#removing-the-top-case).
 2. Follow the instructions in the [Replace the Thelio Power Button](https://support.system76.com/articles/thelio-power-button/) support article.

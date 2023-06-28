@@ -1,4 +1,4 @@
-# nebula36 (Parts & Assembly)
+# nebula49 (Parts & Assembly)
 
 The nebula36 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
 
@@ -71,7 +71,7 @@ The fan splitter on the GPU brace is intended for fans mounted on the GPU brace,
 
 ## Removing the CPU shroud:
 
-The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler, which is available as an optional add-on at the time of purchase.
+The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler that's included with nebula36.
 
 ![CPU shroud](./img/cpu-shroud.webp)
 
@@ -102,7 +102,7 @@ nebula36 includes the following components preinstalled:
 - 1x back CPU shroud fan
     - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
 - 1x Be Quiet! 
-- 7x short velcro straps
+- 6x short velcro straps
     - 1x on the front of the chassis
     - 3x on the side of the chassis
     - 1x on the bottom of the chassis
@@ -124,7 +124,7 @@ In addition, nebula36 ships with the following non-installed accessories:
 
 ### Steps to unpack the included accessories:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#removing-the-gpu-brace), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#removing-the-gpu-brace), and [remove the CPU shroud](removing-the-cpu-shroud).
 2. Cut the zip ties holding the accessory boxes in place.
     - The image below highlights where the zip ties are joined; they can be cut anywhere, but must be cut between a joint and the chassis in order to be removed.
 
@@ -310,7 +310,11 @@ The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be r
 
 ![Bottom fan screws](./img/bottom-fan-screws.webp)
 
-4. When reinstalling the fan, place the dust filter between the fan and the chassis with the shiny side facing the chassis.
+4. When reinstalling the fan, the components should be in the following order:
+    - Chassis
+    - Dust filter
+    - Acrylic spacer
+    - Fan
 
 ## Installing side intake fans:
 
@@ -332,7 +336,7 @@ nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One
 
 ![Mounted side fan](./img/side-fan-mounted.webp)
 
-5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The nearby velcro strap can be used to hold the fan's cable.
+5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The cearby velcro strap can be used to hold the fan's cable.
 
 ## Installing the power supply:
 

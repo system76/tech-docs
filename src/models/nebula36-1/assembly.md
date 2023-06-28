@@ -2,7 +2,7 @@
 
 The nebula36 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
 
-The preinstalled velcro strips are left partially unwrapped to aid in removal. When building the system, you can optionally wrap the velcro up the rest of the way
+The preinstalled velcro strips are left partially unwrapped to aid in removal. When building the system, you can optionally wrap the velcro up the rest of the way.
 
 - [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
@@ -23,7 +23,7 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 
 nebula36 includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
 
-**Tools required:** None  
+- **Tools required:** None  
 
 ### Steps to replace the front accent strip:
 
@@ -40,7 +40,7 @@ nebula36 includes a customizable accent panel on the front of the case, which ca
 
 The top case can be removed to access the internal components.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+- **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 
 ### Steps to remove the top case:
 
@@ -52,43 +52,45 @@ The top case can be removed to access the internal components.
 
 ## Removing the GPU brace:
 
-The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount extra intake fans (not included).
+The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (one, a `BQ SIW4-12025-MF-PWM`, is optional when purchasing the chassis; a second is not included.)
 
 ![GPU brace](./img/gpu-brace.webp)
 
-The fan splitter on the GPU brace is intended for fans mounted on the GPU brace, and should not be used for any of the fans included with nebula36.
+The fan splitter on the GPU brace is intended for fans mounted on the GPU brace, and should not be used for the CPU shroud fans or the bottom intake fan.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to remove the GPU brace:
 
-1. Unscrew the four screws holding the GPU brace in place (two on the front of the case, two on the back.)
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unscrew the four screws holding the GPU brace in place (two on the front of the case, two on the back.)
 
 ![GPU brace screws](./img/gpu-brace-screws.webp)
 
-2. Pull the GPU brace out of the chassis.
+3. Pull the GPU brace out of the chassis.
 
 ## Removing the CPU shroud:
 
-The CPU shroud supports one or more of the CPU fans, and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the CPU cooler that's included with nebula36.
+The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler that's included with nebula36.
 
 ![CPU shroud](./img/cpu-shroud.webp)
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to remove the CPU shroud:
 
-1. Unscrew the two side screws holding the CPU shroud onto the top crossbar.
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unscrew the two side screws holding the CPU shroud onto the top crossbar.
 
 ![CPU shroud top crossbar screws](./img/cpu-shroud-screws-crossbar.webp)
 
-2. Unscrew the four back screws holding the CPU shroud onto the chassis.
+3. Unscrew the four back screws holding the CPU shroud onto the chassis.
     - Hold onto the shroud while removing the final screw so it doesn't fall.
 
 ![CPU shroud back screws](./img/cpu-shroud-screws-back.webp)
 
-3. Pull the CPU shroud out of the chassis.
-4. When replacing the CPU shroud, ensure all fan cables are plugged into one of the fan splitter boards in the top right of the chassis.
+4. Pull the CPU shroud out of the chassis.
+5. When replacing the CPU shroud, ensure all fan cables are plugged into one of the fan splitter boards in the top right of the chassis.
 
 ## Unpacking the included accessories:
 
@@ -97,7 +99,8 @@ nebula36 includes the following components preinstalled:
 - 1x `nebula_io` power button controller board
 - 1x `MYS7523` top I/O board
 - 3x four-pin fan splitter boards
-- 1x Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
+- 1x back CPU shroud fan
+    - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
 - 1x Be Quiet! 
 - 6x short velcro straps
     - 1x on the front of the chassis
@@ -114,8 +117,10 @@ In addition, nebula36 ships with the following non-installed accessories:
     - 9x motherboard standoffs
     - 9x M3 (motherboard) screws
     - 4x fan screws
-- 1x Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`) (optional)
-- 1x Noctua NH-U12S CPU cooler (optional)
+- 1x CPU cooler w/ fan (optional)
+    - Noctua `NH-U12S` w/ `NF-F12 PWM` fan
+- 1x GPU brace-mounted side fan (optional)
+    - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 
 ### Steps to unpack the included accessories:
 
@@ -137,15 +142,18 @@ nebula36 supports the following standard motherboard sizes:
 - MicroATX
 - Mini-ITX
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+Nine standoffs and motherboard screws are included.
+
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install the motherboard:
 
-1. Locate the standoffs and M3 screws from the brown screw and velcro box.
+1. If they are installed, [remove the top case](#removing-the-top-case), [remove the CPU shroud](#removing-the-cpu-shroud) and [remove the GPU brace](#removing-the-gpu-brace).
+2. Locate the standoffs and M3 screws from the brown screw and velcro box.
 
 ![Standoffs and M3 screws](./img/standoffs-screws.webp)
 
-2. Insert the standoffs into the appropriate holes for your motherboard size. The standoff screw holes are marked with shapes on the chassis, which correspond to the most common motherboard sizes:
+3. Insert the standoffs into the appropriate holes for your motherboard size. The standoff screw holes are marked with shapes on the chassis, which correspond to the most common motherboard sizes:
     - Mini-ITX and Mini-DTX: hexagon (4 standoffs)
     - MicroATX: square (9 standoffs)
     - ATX: triangle (9 standoffs)
@@ -155,17 +163,17 @@ nebula36 supports the following standard motherboard sizes:
 
 ![Standoff holes](./img/standoff-holes.webp)
 
-3. Install the motherboard's I/O shield onto the back of the chassis by pressing it into place from the inside.
-4. Place the motherboard into the chassis, aligning the motherboard's screw holes with the installed standoffs.
-5. Screw the motherboard into the standoffs using the M3 screws.
+4. Install the motherboard's I/O shield onto the back of the chassis by pressing it into place from the inside.
+5. Place the motherboard into the chassis, aligning the motherboard's screw holes with the installed standoffs.
+6. Screw the motherboard into the standoffs using the M3 screws.
 
 ## Installing the CPU shroud fans:
 
-nebula36 ships with one 120mm fan installed in the back of the CPU shroud. If you install a CPU cooler with its own fan, such as the optional Noctua NH-U12S cooler sold with nebula36, then the CPU cooler's fan can be mounted in the front of the CPU shroud.
+nebula36 ships with one 120mm fan (`BQ SIW4-12025-MF-PWM`) installed in the back of the CPU shroud. If you install a CPU cooler with its own fan, such as the optional Noctua `NH-U12S` cooler sold with nebula36 (which includes a Noctua `NF-F12 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU shroud.
 
-These instructions use the Noctua NH-U12S as an example.
+These instructions use the Noctua `NH-U12S` as an example.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install the CPU cooler fan (front):
 
@@ -174,11 +182,11 @@ These instructions use the Noctua NH-U12S as an example.
 
 ![Fan screws](./img/accessory-fan-screws.webp)
 
-3. Remove the NH-U12S from the box.
+3. Remove the `NH-U12S` from the box.
 
 ![Noctua NH-U12S unboxing](./img/cpu-cooler-unboxing.webp)
 
-4. Remove the included NF-F12 fan from the cooler heatsink by pulling the metal tabs (highlighted green above) off of the heatsink and fan.
+4. Remove the included `NF-F12` fan from the cooler heatsink by pulling the metal tabs (highlighted green above) off of the heatsink and fan.
 5. Install the cooler onto the motherboard/processor.
 6. Remove the front fan bracket from the CPU shroud by unscrewing the four screws (highlighted green below) and pulling it out of the CPU shroud.
 
@@ -216,7 +224,7 @@ nebula36 supports GPUs up to 318.80mm long. For optimal cooling and ease of inst
 
 These instructions also apply to other PCI Express cards, such as add-in sound cards or networking cards.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install the GPU:
 
@@ -229,7 +237,7 @@ These instructions also apply to other PCI Express cards, such as add-in sound c
 3. Remove a PCIe slot cover for each slot the new GPU will take up.
     - Additional slot covers may fall off after removing the PCIe brakcet; hold them up when replacing the bracket.
 4. Install the GPU into the motherboard.
-5. Replace the PCIe slot cover, which will hold the end of the GPU in place.
+5. Replace the PCIe bracket, which will hold the end of the GPU in place.
 
 ## Installing the SATA backplane:
 
@@ -237,7 +245,7 @@ nebula36 is designed to work with an optional SATA backplane to allow for easy h
 
 ![2.5" SATA backplane](./img/sata-backplane.webp)
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install the SATA backplane:
 
@@ -266,7 +274,7 @@ nebula36 is designed to work with an optional SATA backplane to allow for easy h
 
 The drive cage can hold two 2.5" drives. Drives of 7.5mm, 9mm, or 15mm are supported. Airflow will decrease below recommended levels with drives larger than 15mm.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install 2.5" drives:
 
@@ -286,13 +294,14 @@ The drive cage can hold two 2.5" drives. Drives of 7.5mm, 9mm, or 15mm are suppo
 
 ## Replacing the bottom case fan:
 
-The 140mm bottom case fan is preinstalled, but can be replaced if it becomes defective. The fan can also be removed to clean its dust filter.
+The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be replaced if it becomes defective. The fan can also be removed to clean its dust filter.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to replace the bottom case fan:
 
 1. [Remove the top case](#removing-the-top-case).
+    - The [side GPU brace](#removing-the-gpu-brace) can optionally be removed to make working with the fan easier.
 2. If the system is already assembled, unplug the fan from the fan splitter board or motherboard.
 3. Set the machine down on its side and unscrew the four fan screws.
 
@@ -306,7 +315,7 @@ The 140mm bottom case fan is preinstalled, but can be replaced if it becomes def
 
 ## Installing side intake fans:
 
-nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm Be Quiet! Silent Wings 4 fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
+nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
 
 ### Steps to install the side intake fans:
 
@@ -330,7 +339,7 @@ nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One
 
 The system supports standard ATX power supplies. nebula36 includes a [dust filter](#steps-to-replace-the-power-supply-dust-filter) installed over the power supply's fan vent.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to install the power supply:
 
@@ -362,7 +371,7 @@ The Nebula Io board can be used to power the system on when the top case is remo
 
 Both daughterboards can be removed and replaced if necessary. The external power button attached to the top case can also be replaced.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+- **Tools required:** Cross-head (Phillips) screwdriver  
 
 ### Steps to wire the front I/O and power button:
 

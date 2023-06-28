@@ -1,13 +1,13 @@
-# Launch (External Overview)
+# nebula19 (External Overview)
 
-## Top overview:
+## Front/back overview:
 
-![Launch Top Overview](./img/top.webp)
+![Front & Back Views](./img/external-front-back.webp)
 
-## Back overview:
+## Left/right side overview:
 
-![Launch Ports](./img/ports-back.webp)
+![Left & Right Side Views](./img/external-sides.webp)
 
-## Box contents overview:
+## Top/bottom overview:
 
-![Launch Box Contents](./img/box-contents.webp)
+![Top & Bottom Views](./img/external-top-bottom.webp)

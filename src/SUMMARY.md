@@ -49,6 +49,8 @@
         - [External Overview](models/nebula36-1/external-overview.md)
         - [Parts & Assembly](models/nebula36-1/assembly.md)
     - [nebula49 (nebula49-1)](models/nebula49-1/README.md)
+        - [External Overview](models/nebula49-1/external-overview.md)
+        - [Parts & Assembly](models/nebula49-1/assembly.md)
     - [Oryx Pro (oryp10)](models/oryp10/README.md)
         - [External Overview](models/oryp10/external-overview.md)
         - [Internal Overview](models/oryp10/internal-overview.md)

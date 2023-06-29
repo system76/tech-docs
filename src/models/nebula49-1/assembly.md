@@ -1,6 +1,6 @@
 # nebula49 (Parts & Assembly)
 
-The nebula36 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
+The nebula49 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
 
 The preinstalled velcro strips are left partially unwrapped to aid in removal. When building the system, you can optionally wrap the velcro up the rest of the way.
 
@@ -21,14 +21,14 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 
 ## Replacing the front accent strip:
 
-nebula36 includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
+nebula49 includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
 
 - **Tools required:** None  
 
 ### Steps to replace the front accent strip:
 
-1. Place the nebula36 on the edge of the desk so the front side is hanging off of the desk.
-    - The nebula36 can alternatively be lifted or tilted so the front of the computer is hovering above the desk.
+1. Place the nebula49 on the edge of the desk so the front side is hanging off of the desk.
+    - The nebula49 can alternatively be lifted or tilted so the front of the computer is hovering above the desk.
 2. Slide the accent strip down to unlock it.
     - The accent can be gripped at the bottom edge.
 3. Pull the accent strip off of the case, starting with the bottom edge.
@@ -71,7 +71,7 @@ The fan splitter on the GPU brace is intended for fans mounted on the GPU brace,
 
 ## Removing the CPU shroud:
 
-The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler that's included with nebula36.
+The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler that's included with nebula49.
 
 ![CPU shroud](./img/cpu-shroud.webp)
 
@@ -94,32 +94,31 @@ The CPU shroud supports one or more of the CPU fans and guides airflow from the 
 
 ## Unpacking the included accessories:
 
-nebula36 includes the following components preinstalled:
+nebula49 includes the following components preinstalled:
 
 - 1x `nebula_io` power button controller board
 - 1x `MYS7523` top I/O board
-- 3x four-pin fan splitter boards
-- 1x back CPU shroud fan
-    - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
-- 1x Be Quiet! 
-- 6x short velcro straps
-    - 1x on the front of the chassis
-    - 3x on the side of the chassis
+- 3x Four-pin fan splitter boards
+- 1x Back CPU shroud fan
+    - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
+- 1x Bottom case fan
+    - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-HF-PWM`)
+- 4x Short velcro straps
+    - 2x on the side of the chassis
     - 1x on the bottom of the chassis
-    - 1x on the CPU shroud
     - 1x on the GPU brace
 
-In addition, nebula36 ships with the following non-installed accessories:
+In addition, nebula49 ships with the following non-installed accessories:
 
 - 1x Screw and velcro box
-    - 15x short velcro straps
-    - 1x long velcro strap
-    - 9x motherboard standoffs
+    - 20x Short velcro straps
+    - 1x Long velcro strap
+    - 9x Motherboard standoffs
     - 9x M3 (motherboard) screws
-    - 4x fan screws
+    - 4x Fan screws
 - 1x CPU cooler w/ fan (optional)
     - Noctua `NH-U12S` w/ `NF-F12 PWM` fan
-- 1x GPU brace-mounted side fan (optional)
+- 2x or 1x GPU brace-mounted side fan (optional)
     - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 
 ### Steps to unpack the included accessories:
@@ -134,12 +133,12 @@ In addition, nebula36 ships with the following non-installed accessories:
 
 ## Installing the motherboard:
 
-nebula36 supports the following standard motherboard sizes:
+nebula49 supports the following standard motherboard sizes:
 
+- Extended ATX
 - ATX
 - Mini-DTX
 - DTX
-- MicroATX
 - Mini-ITX
 
 Nine standoffs and motherboard screws are included.
@@ -153,13 +152,10 @@ Nine standoffs and motherboard screws are included.
 
 ![Standoffs and M3 screws](./img/standoffs-screws.webp)
 
-3. Insert the standoffs into the appropriate holes for your motherboard size. The standoff screw holes are marked with shapes on the chassis, which correspond to the most common motherboard sizes:
-    - Mini-ITX and Mini-DTX: hexagon (4 standoffs)
-    - MicroATX: square (9 standoffs)
-    - ATX: triangle (9 standoffs)
-
-    The photo below also includes symbols for one additional motherboard size:
-    - DTX: star (6 standoffs)
+3. Insert the standoffs into the appropriate holes for your motherboard size. In the photo below, the standoff holes are labeled by color:
+    - Mini-ITX and Mini-DTX: green
+    - DTX: green and cyan
+    - ATX and EATX: green, cyan, and red (all holes)
 
 ![Standoff holes](./img/standoff-holes.webp)
 
@@ -169,7 +165,7 @@ Nine standoffs and motherboard screws are included.
 
 ## Installing the CPU shroud fans:
 
-nebula36 ships with one 120mm fan (`BQ SIW4-12025-MF-PWM`) installed in the back of the CPU shroud. If you install a CPU cooler with its own fan, such as the optional Noctua `NH-U12S` cooler sold with nebula36 (which includes a Noctua `NF-F12 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU shroud.
+nebula49 ships with one 120mm fan (`BQ SIW4-12025-MF-PWM`) installed in the back of the CPU shroud. If you install a CPU cooler with its own fan, such as the optional Noctua `NH-U12S` cooler sold with nebula49 (which includes a Noctua `NF-F12 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU shroud.
 
 These instructions use the Noctua `NH-U12S` as an example.
 
@@ -192,8 +188,8 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 ![CPU shroud front fan bracket](./img/cpu-shroud-fan-bracket-front.webp)
 
-7. Place the spinning side of the fan down and the stationary cover up, then orient the fan so the wire points towards the bottom right.
-8. Place the fan bracket over the fan so the thinnest side is on the left.
+7. Place the spinning side of the fan down and the stationary cover up, then orient the fan so the wire points towards the bottom left.
+8. Place the fan bracket over the fan so the thinnest side is on the right.
 9. Screw in the four fan screws.
     - It may take some force to thread the fan screws into the fan's plastic frame.
 
@@ -220,7 +216,7 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 ## Installing the GPU:
 
-nebula36 supports GPUs up to 318.80mm long. For optimal cooling and ease of installation, GPUs longer than 308.80mm are not recommended.
+nebula49 supports GPUs up to 318.80mm long. For optimal cooling and ease of installation, GPUs longer than 308.80mm are not recommended.
 
 These instructions also apply to other PCI Express cards, such as add-in sound cards or networking cards.
 
@@ -241,7 +237,7 @@ These instructions also apply to other PCI Express cards, such as add-in sound c
 
 ## Installing the SATA backplane:
 
-nebula36 is designed to work with an optional SATA backplane to allow for easy hot-swapping of 2.5" storage drives. The SATA backplane can be seen below.
+Each 2.5" drive cage in nebula49 is designed to work with an optional SATA backplane to allow for easy hot-swapping of 2.5" storage drives. The SATA backplane can be seen below.
 
 ![2.5" SATA backplane](./img/sata-backplane.webp)
 
@@ -250,9 +246,9 @@ nebula36 is designed to work with an optional SATA backplane to allow for easy h
 ### Steps to install the SATA backplane:
 
 1. [Remove the top case](#removing-the-top-case).
-2. Unscrew and remove the 2.5" drive cage's cover.
+2. Unscrew and remove the cover of each 2.5" drive cage you're installing a SATA backplane into.
 
-![2.5" SATA drive cage cover](./img/25-drive-cover.webp)
+![2.5" SATA drive cage cover](./img/25-drive-covers.webp)
 
 3. Unscrew and remove the 2.5" drive cage.
 
@@ -275,7 +271,7 @@ nebula36 is designed to work with an optional SATA backplane to allow for easy h
 
 ## Installing 2.5" drives:
 
-The drive cage can hold two 2.5" drives. Drives of 7.5mm, 9mm, or 15mm are supported. Airflow will decrease below recommended levels with drives larger than 15mm.
+nebula49 has two drive cages, which can each hold two 2.5" drives (for a total of four drives.) Drives of 7.5mm, 9mm, or 15mm are supported. Airflow will decrease below recommended levels with drives larger than 15mm.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
@@ -284,7 +280,7 @@ The drive cage can hold two 2.5" drives. Drives of 7.5mm, 9mm, or 15mm are suppo
 1. [Remove the top case](#removing-the-top-case).
 2. Unscrew and remove the 2.5" drive cage's cover.
 
-![2.5" SATA drive cage cover](./img/25-drive-cover.webp)
+![2.5" SATA drive cage cover](./img/25-drive-covers.webp)
 
 3. Remove the plastic ring from the top crossbar and slide out four screws for each drive being installed.
 
@@ -318,7 +314,7 @@ The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be r
 
 ## Installing side intake fans:
 
-nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
+nebula49 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
 
 ### Steps to install the side intake fans:
 
@@ -326,9 +322,9 @@ nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One
 2. Unpack the fan and rubber mounting pins from the fan box.
     - The plastic rings included with the rubber mounting pins are not needed.
 
-![Be Quiet! Silent Wings 4 120mm Box](./img/side-fan-box.webp)
+![Be Quiet! Silent Wings 4 120mm Box](./img/side-fan-unboxing.webp)
 
-3. Place the fan in the center of the GPU brace.
+3. Place the fan in the desired position along the GPU brace.
     - The spinning side of the fan should face outward, while the stationary label should face inward.
     - The preinstalled pinholes on the fan will line up with the long holes in the GPU brace.
 4. From the back (inside of the machine), insert the rubber mounting pins through the pinholes at each corner of the fan.
@@ -337,10 +333,11 @@ nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One
 ![Mounted side fan](./img/side-fan-mounted.webp)
 
 5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The cearby velcro strap can be used to hold the fan's cable.
+6. Repeat the steps for a second fan, if desired.
 
 ## Installing the power supply:
 
-The system supports standard ATX power supplies. nebula36 includes a [dust filter](#steps-to-replace-the-power-supply-dust-filter) installed over the power supply's fan vent.
+The system supports standard ATX power supplies. nebula49 includes a [dust filter](#steps-to-replace-the-power-supply-dust-filter) installed over the power supply's fan vent.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
@@ -350,7 +347,7 @@ The system supports standard ATX power supplies. nebula36 includes a [dust filte
     - The [side GPU brace](#removing-the-gpu-brace) can optionally be removed to make working with the power supply easier.
 2. Place the power supply into the chassis with the fan facing down.
 3. While holding the power supply against the back of the chassis, screw in the four power supply screws.
-    - Power supply screws are typically included with the power supply, and are not included with nebula36.
+    - Power supply screws are typically included with the power supply, and are not included with nebula49.
 
 ![Power supply screw holes](./img/psu-screws.webp)
 
@@ -365,7 +362,7 @@ The system supports standard ATX power supplies. nebula36 includes a [dust filte
 
 ## Wiring the front I/O and power button:
 
-nebula36 comes standard with two front daughterboards:
+nebula49 comes standard with two front daughterboards:
 
 - The `nebula-io_2.2` power button controller.
 - The `MYS7523 Rev. 2.0` front I/O board.

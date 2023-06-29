@@ -100,8 +100,9 @@ nebula36 includes the following components preinstalled:
 - 1x `MYS7523` top I/O board
 - 3x four-pin fan splitter boards
 - 1x back CPU shroud fan
+    - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
+- 1x bottom case fan
     - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
-- 1x Be Quiet! 
 - 7x short velcro straps
     - 1x on the front of the chassis
     - 3x on the side of the chassis

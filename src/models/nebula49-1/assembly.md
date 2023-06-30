@@ -52,7 +52,7 @@ The top case can be removed to access the internal components.
 
 ## Removing the GPU brace:
 
-The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (one, a `BQ SIW4-12025-MF-PWM`, is optional when purchasing the chassis; a second is not included.)
+The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (two `BQ SIW4-12025-MF-PWM` fans are optional when purchasing the chassis.)
 
 ![GPU brace](./img/gpu-brace.webp)
 
@@ -118,12 +118,12 @@ In addition, nebula49 ships with the following non-installed accessories:
     - 4x Fan screws
 - 1x CPU cooler w/ fan (optional)
     - Noctua `NH-U12S` w/ `NF-F12 PWM` fan
-- 2x or 1x GPU brace-mounted side fan (optional)
+- 2x GPU brace-mounted side fans (optional)
     - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 
 ### Steps to unpack the included accessories:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#removing-the-gpu-brace), and [remove the CPU shroud](removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#removing-the-gpu-brace), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Cut the zip ties holding the accessory boxes in place.
     - The image below highlights where the zip ties are joined; they can be cut anywhere, but must be cut between a joint and the chassis in order to be removed.
 
@@ -216,7 +216,7 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 ## Installing the GPU:
 
-nebula49 supports GPUs up to 318.80mm long. For optimal cooling and ease of installation, GPUs longer than 308.80mm are not recommended.
+nebula49 supports GPUs up to 396.50mm long. For optimal cooling and ease of installation, GPUs longer than 386.50mm are not recommended.
 
 These instructions also apply to other PCI Express cards, such as add-in sound cards or networking cards.
 
@@ -245,14 +245,16 @@ Each 2.5" drive cage in nebula49 is designed to work with an optional SATA backp
 
 ### Steps to install the SATA backplane:
 
-1. [Remove the top case](#removing-the-top-case).
-2. Unscrew and remove the cover of each 2.5" drive cage you're installing a SATA backplane into.
+*Repeat the steps for each drive cage you're installing a SATA backplane into.*
 
-![2.5" SATA drive cage cover](./img/25-drive-covers.webp)
+1. [Remove the top case](#removing-the-top-case).
+2. Unscrew and remove the 2.5" drive cage's cover.
+
+![2.5" SATA drive cage covers](./img/25-drive-covers.webp)
 
 3. Unscrew and remove the 2.5" drive cage.
 
-![2.5" SATA drive cage](./img/25-drive-cage-screws.webp)
+![2.5" SATA drive cages](./img/25-drive-cage-screws.webp)
 
 4. If the SATA backplane's screw holes are covered by a translucent film, remove the film.
 5. Place the SATA backplane into the drive cage.
@@ -306,15 +308,11 @@ The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be r
 
 ![Bottom fan screws](./img/bottom-fan-screws.webp)
 
-4. When reinstalling the fan, the components should be in the following order:
-    - Chassis
-    - Dust filter
-    - Acrylic spacer
-    - Fan
+4. When reinstalling the fan, place the dust filter between the fan and the chassis with the shiny side facing the chassis.
 
 ## Installing side intake fans:
 
-nebula49 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
+nebula49 supports up to two 120mm side intake fans mounted to the GPU brace. Two 120mm fans (`BQ SIW4-12025-MF-PWM`) are sold as an optional add-on at the time of purchase.
 
 ### Steps to install the side intake fans:
 
@@ -332,7 +330,7 @@ nebula49 supports up to two 120mm side intake fans mounted to the GPU brace. One
 
 ![Mounted side fan](./img/side-fan-mounted.webp)
 
-5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The cearby velcro strap can be used to hold the fan's cable.
+5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The nearby velcro strap can be used to hold the fan's cable.
 6. Repeat the steps for a second fan, if desired.
 
 ## Installing the power supply:

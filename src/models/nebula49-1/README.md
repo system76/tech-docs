@@ -1,6 +1,9 @@
-# Nebula 49 (nebula49-1)
+# nebula49 (nebula49-1)
 
-![Nebula 49](./img/nebula49-1.webp)
+- [External Overview](./external-overview.md)
+- [Parts & Assembly](./assembly.md)
+
+![nebula49](./img/nebula49-1.webp)
 
 The System76 Nebula 49 is a desktop chassis (for DIY builds) with the following specifications:
 

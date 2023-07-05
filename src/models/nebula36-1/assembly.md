@@ -6,7 +6,7 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 
 - [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
-- [Removing the GPU brace](#removing-the-gpu-brace)
+- [Removing the side fan bracket](#removing-the-side-fan-bracket)
 - [Removing the CPU shroud](#removing-the-cpu-shroud)
 - [Unpacking the included accessories](#unpacking-the-included-accessories)
 - [Installing the motherboard](#installing-the-motherboard)
@@ -50,24 +50,24 @@ The top case can be removed to access the internal components.
 
 2. Slide the top case up and off of the machine.
 
-## Removing the GPU brace:
+## Removing the side fan bracket:
 
-The GPU brace provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (one, a `BQ SIW4-12025-MF-PWM`, is optional when purchasing the chassis; a second is not included.)
+The side fan bracket provides a mounting point to help keep installed GPUs (or other PCI Express cards) in place while transporting the system. It can also be used to mount up to two extra intake fans (one, a `BQ SIW4-12025-MF-PWM`, is optional when purchasing the chassis; a second is not included.)
 
-![GPU brace](./img/gpu-brace.webp)
+![Side fan bracket](./img/gpu-brace.webp)
 
-The fan splitter on the GPU brace is intended for fans mounted on the GPU brace, and should not be used for the CPU shroud fans or the bottom intake fan.
+The fan splitter on the side fan bracket is intended for fans mounted on the side fan bracket, and should not be used for the CPU shroud fans or the bottom intake fan.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
-### Steps to remove the GPU brace:
+### Steps to remove the side fan bracket:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the four screws holding the GPU brace in place (two on the front of the case, two on the back.)
+2. Unscrew the four screws holding the side fan bracket in place (two on the front of the case, two on the back.)
 
-![GPU brace screws](./img/gpu-brace-screws.webp)
+![Side fan bracket screws](./img/gpu-brace-screws.webp)
 
-3. Pull the GPU brace out of the chassis.
+3. Pull the side fan bracket out of the chassis.
 
 ## Removing the CPU shroud:
 
@@ -108,7 +108,7 @@ nebula36 includes the following components preinstalled:
     - 3x on the side of the chassis
     - 1x on the bottom of the chassis
     - 1x on the CPU shroud
-    - 1x on the GPU brace
+    - 1x on the side fan bracket
 
 In addition, nebula36 ships with the following non-installed accessories:
 
@@ -120,12 +120,12 @@ In addition, nebula36 ships with the following non-installed accessories:
     - 4x fan screws
 - 1x CPU cooler w/ fan (optional)
     - Noctua `NH-U12S` w/ `NF-F12 PWM` fan
-- 1x GPU brace-mounted side fan (optional)
+- 1x Side bracket fan (optional)
     - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 
 ### Steps to unpack the included accessories:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#removing-the-gpu-brace), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side fan bracket](#removing-the-side-fan-bracket), and [remove the CPU shroud](#removing-the-cpu-shroud).
 2. Cut the zip ties holding the accessory boxes in place.
     - The image below highlights where the zip ties are joined; they can be cut anywhere, but must be cut between a joint and the chassis in order to be removed.
 
@@ -149,7 +149,7 @@ Nine standoffs and motherboard screws are included.
 
 ### Steps to install the motherboard:
 
-1. If they are installed, [remove the top case](#removing-the-top-case), [remove the CPU shroud](#removing-the-cpu-shroud) and [remove the GPU brace](#removing-the-gpu-brace).
+1. If they are installed, [remove the top case](#removing-the-top-case), [remove the CPU shroud](#removing-the-cpu-shroud) and [remove the side fan bracket](#removing-the-side-fan-bracket).
 2. Locate the standoffs and M3 screws from the brown screw and velcro box.
 
 ![Standoffs and M3 screws](./img/standoffs-screws.webp)
@@ -230,7 +230,7 @@ These instructions also apply to other PCI Express cards, such as add-in sound c
 ### Steps to install the GPU:
 
 1. If not already installed, [install the motherboard](#installing-the-motherboard).
-    - If the motherboard is already installed and the system is assembled, then [remove the top case](#removing-the-top-case) and [remove the GPU brace](#removing-the-gpu-brace).
+    - If the motherboard is already installed and the system is assembled, then [remove the top case](#removing-the-top-case) and [remove the side fan bracket](#removing-the-side-fan-bracket).
 2. Unscrew the two screws holding the PCIe bracket onto the chassis, then remove the bracket.
 
 ![PCIe Bracket](./img/pcie-bracket.webp)
@@ -272,7 +272,7 @@ nebula36 is designed to work with an optional SATA backplane to allow for easy h
 
 ![2.5" SATA backplane headers](./img/sata-backplane-headers.webp)
 
-9. [Install any 2.5" SATA drives](#installing-25-drives) and replace the drive cage cover, GPU brace (if necessary), and top case.
+9. [Install any 2.5" SATA drives](#installing-25-drives) and replace the drive cage cover, side fan bracket (if necessary), and top case.
 
 ## Installing 2.5" drives:
 
@@ -305,7 +305,7 @@ The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be r
 ### Steps to replace the bottom case fan:
 
 1. [Remove the top case](#removing-the-top-case).
-    - The [side GPU brace](#removing-the-gpu-brace) can optionally be removed to make working with the fan easier.
+    - The [side fan bracket](#removing-the-side-fan-bracket) can optionally be removed to make working with the fan easier.
 2. If the system is already assembled, unplug the fan from the fan splitter board or motherboard.
 3. Set the machine down on its side and unscrew the four fan screws.
 
@@ -315,7 +315,7 @@ The 140mm bottom case fan (`BQ SIW4-14025-LF-PWM`) is preinstalled, but can be r
 
 ## Installing side intake fans:
 
-nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
+nebula36 supports up to two 120mm side intake fans mounted to the side fan bracket. One 120mm fan (`BQ SIW4-12025-MF-PWM`) is sold as an optional add-on at the time of purchase.
 
 ### Steps to install the side intake fans:
 
@@ -325,15 +325,15 @@ nebula36 supports up to two 120mm side intake fans mounted to the GPU brace. One
 
 ![Be Quiet! Silent Wings 4 120mm Box](./img/side-fan-box.webp)
 
-3. Place the fan in the center of the GPU brace.
+3. Place the fan in the center of the side fan bracket.
     - The spinning side of the fan should face outward, while the stationary label should face inward.
-    - The preinstalled pinholes on the fan will line up with the long holes in the GPU brace.
+    - The preinstalled pinholes on the fan will line up with the long holes in the side fan bracket.
 4. From the back (inside of the machine), insert the rubber mounting pins through the pinholes at each corner of the fan.
-    - The GPU brace can optionally be [removed](#removing-the-gpu-brace) to make working with the rubber mounting pins easier.
+    - The side fan bracket can optionally be [removed](#removing-the-side-fan-bracket) to make working with the rubber mounting pins easier.
 
 ![Mounted side fan](./img/side-fan-mounted.webp)
 
-5. Plug the side fan into one of the headers on the GPU brace's fan splitter board. The nearby velcro strap can be used to hold the fan's cable.
+5. Plug the side fan into one of the headers on the side fan bracket's fan splitter board. The nearby velcro strap can be used to hold the fan's cable.
 
 ## Installing the power supply:
 
@@ -344,7 +344,7 @@ The system supports standard ATX power supplies. nebula36 includes a [dust filte
 ### Steps to install the power supply:
 
 1. [Remove the top case](#removing-the-top-case).
-    - The [side GPU brace](#removing-the-gpu-brace) can optionally be removed to make working with the power supply easier.
+    - The [side fan bracket](#removing-the-side-fan-bracket) can optionally be removed to make working with the power supply easier.
 2. Place the power supply into the chassis with the fan facing down.
 3. While holding the power supply against the back of the chassis, screw in the four power supply screws.
     - Power supply screws are typically included with the power supply, and are not included with nebula36.

@@ -8,7 +8,8 @@
 The System76 nebula19 is a desktop chassis (for DIY builds) with the following specifications:
 
 - Dimensions
-    - 32.7cm × 20.7cm × 29.1cm
+    - Size: 32.7cm × 20.7cm × 29.1cm
+    - Volume: 19 litres
 - Motherboard sizes
     - Mini-ITX
 - GPU compatibility

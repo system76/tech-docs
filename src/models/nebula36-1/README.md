@@ -8,7 +8,8 @@
 The System76 nebula36 is a desktop chassis (for DIY builds) with the following specifications:
 
 - Dimensions
-    - 35.814cm x 24.003cm x 2.489cm
+    - Size: 43.6cm × 25.3cm × 31.9cm
+    - Volume: 36 liters
 - Motherboard sizes
     - ATX
     - Mini-DTX

@@ -16,6 +16,10 @@
 
 ![Back Ports](./img/ports-back.webp)
 
+## Keyboard & touchpad overview:
+
+![Keyboard & Touchpad](./img/keyboard-touchpad.webp)
+
 ## Materials:
 
 |Part                              |Material                 |Part Number        |

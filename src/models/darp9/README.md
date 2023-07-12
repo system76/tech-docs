@@ -10,8 +10,8 @@ The System76 Darter Pro is a laptop with the following specifications:
 
 - CPU
     - Supports Intel 12th Generation (Alder Lake) CPUs
-        - [Core i7-1260P](https://ark.intel.com/content/www/us/en/ark/products/226254/intel-core-i71260p-processor-18m-cache-up-to-4-70-ghz.html)
-        - [Core i5-1240P](https://ark.intel.com/content/www/us/en/ark/products/132221/intel-core-i51240p-processor-12m-cache-up-to-4-40-ghz.html)
+        - [Core i7-1360P](https://ark.intel.com/content/www/us/en/ark/products/232155/intel-core-i71360p-processor-18m-cache-up-to-5-00-ghz.html)
+        - [Core i5-1340P](https://ark.intel.com/content/www/us/en/ark/products/232126/intel-core-i51340p-processor-12m-cache-up-to-4-60-ghz.html)
 - BIOS
     - GD25B256E flash chip
         - SOIC-8 form factor
@@ -23,18 +23,21 @@ The System76 Darter Pro is a laptop with the following specifications:
     - GPU: Intel Iris Xe Graphics
     - eDP display: 15.6" 1920x1080@60Hz LCD
         - LCD panel options:
-            - AUO B156HAN02.5
-            - BOE NV156FHM-N4H
+            - Innolux N156HCA-E5B
+            - BOE NV156FHM-N4M
+            - BOE NV156FHM-N4V
+            - BOE NV156FHM-N63
             - or other equivalent
     - External video outputs:
         - 1x HDMI 2.1
-        - 1x DisplayPort 1.4b over USB-C
+        - 1x DisplayPort 1.4a over USB-C
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
+    - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth
-        - Intel Wi-Fi 6 AX200/AX201
+        - Intel Wi-Fi 6E AX210/AX211
+            - Bluetooth 5.3
 - Power
     - 90W (19V, 4.74A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
@@ -47,8 +50,7 @@ The System76 Darter Pro is a laptop with the following specifications:
     - Combined headphone & microphone 3.5mm jack
     - HDMI, USB-C DisplayPort audio
 - Storage
-    - 1x M.2 (PCIe NVMe Gen 4)
-    - 1x M.2 (PCIe NVMe Gen 3 or SATA III)
+    - 2x M.2 (PCIe NVMe Gen 4)
     - MicroSD card reader
 - USB
     - 1x USB Type-C with Thunderbolt 4

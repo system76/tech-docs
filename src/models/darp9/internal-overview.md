@@ -17,7 +17,7 @@
 - Speaker connectors are highlighted in brown
 - Touchpad connector is highlighted in white
 - Lid switch/sensor connector is highlighted in olive
-- BIOS flash chip (U19) is highlighted in black
+- BIOS flash chip (U22) is highlighted in black
 
 ## Under-keyboard components and connectors:
 

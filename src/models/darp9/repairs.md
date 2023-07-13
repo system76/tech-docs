@@ -8,6 +8,7 @@ Many components in your Darter Pro can be upgraded or replaced as necessary. Fol
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
+- [Replacing the speakers](#replacing-the-speakers)
 - [Replacing the keyboard](#replacing-the-keyboard)
 - [Replacing the battery](#replacing-the-battery)
 
@@ -148,6 +149,27 @@ Depending on your climate and the age of the machine, it may be necessary to app
 8. Carefully replace the heatsink.
 9. Replace the seven heatsink/fan screws in order, starting with #1, then #2, and so on until #7.
 
+## Replacing the speakers:
+
+The system has two bottom-firing speakers, which can be replaced individually.
+
+**Tools required:** Cross-head (Phillips) screwdriver    
+**Time estimate:** 10 minutes    
+**Difficulty:** Medium <span style="color:orange;">●</span>
+
+### Steps to replace the speakers:
+
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Disconnect the speakers from the motherboard.
+    - This can alternatively be done after freeing the speakers.
+
+![Speaker wires and posts](./img/speakers.webp)
+
+3. Pull the speakers up and off of the plastic posts.
+    - When lifting the left speaker, free the wire from the channel in the chassis.
+5. Slide the new speakers onto the plastic posts and connect them to the motherboard.
+    - The left speaker's wire can be run through the channel in the chassis before or after plugging it in.
+
 ## Replacing the keyboard:
 
 The keyboard can be replaced if its switches or electronics have been damaged.
@@ -205,7 +227,4 @@ The battery provides primary power whenever the system is unplugged.
     - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery.
         - Hold the tabs down while inserting the plastic tool to separate the tape and foam from the battery.
         - Alternatively, pull the tabs up with the battery to separate the tape and foam from the chassis.
-
-![Battery tape](./img/battery-tape.webp)
-
 4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.

@@ -337,7 +337,7 @@ nebula19 supports one 120mm side intake fan mounted to the side fan bracket. A 1
 
 ## Installing the power supply:
 
-The system supports standard ATX power supplies. nebula19 includes a [dust filter](#steps-to-replace-the-power-supply-dust-filter) installed over the power supply's fan vent.
+The system supports standard SFX power supplies. nebula19 includes a [dust filter](#steps-to-replace-the-power-supply-dust-filter) installed over the power supply's fan vent.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 

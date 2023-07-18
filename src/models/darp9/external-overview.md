@@ -44,7 +44,7 @@
 |Key                        |Shortcut|Action                             |
 |---------------------------|--------|-----------------------------------|
 |![Fn-F1](./img/fn-f1.png)  |Fn+F1   |Toggle trackpad                    |
-|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Toggle built-in LCD                |
+|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Mic mute                           |
 |![Fn-F3](./img/fn-f3.png)  |Fn+F3   |Mute                               |
 |![Fn-F5](./img/fn-f5.png)  |Fn+F5   |Volume down                        |
 |![Fn-F6](./img/fn-f6.png)  |Fn+F6   |Volume up                          |
@@ -56,7 +56,7 @@
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                            |
 |![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
 |![Fn-*](./img/fn-star.png) |Fn+*    |Toggle keyboard backlight          |
-|/                          |Fn+/    |Cycle keyboard color               |
-|-                          |Fn+-    |Decrease keyboard brightness       |
-|+                          |Fn++    |Increase keyboard brightness       |
+|![Fn-/](./img/fn-slash.png)|Fn+/    |Cycle keyboard brightness levels   |
+|![Fn--](./img/fn-minus.png)|Fn+-    |Decrease keyboard brightness       |
+|![Fn-+](./img/fn-plus.png) |Fn++    |Increase keyboard brightness       |
 |1                          |Fn+1    |Toggle fan between max/automatic   |

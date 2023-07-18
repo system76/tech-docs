@@ -9,8 +9,7 @@
 - Fan connector is highlighted in red
 - Webcam/microphone connector is highlighted in orange
 - M.2 SSDs are highlighted in dark green
-    - Innermost slot supports PCIe NVMe Gen 3 and SATA III
-    - Outermost slot supports PCIe NVMe Gen 4
+    - Both slots support PCIe NVMe Gen 4
 - CMOS battery connector is highlighted in pink
 - Main battery connector is highlighted in cyan
 - LCD panel connector is highlighted in light green

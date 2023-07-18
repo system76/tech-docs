@@ -35,7 +35,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Darter Pro 9 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Darter Pro 9 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -53,7 +53,7 @@ The Darter Pro 9 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MH
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe NVMe Generation 3 or SATA III, while SSD-2 supports PCIe NVMe Generation 4.
+This model supports two M.2 SSDs. Both slots are size 2280 and support PCIe NVMe Generation 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

@@ -162,6 +162,7 @@ The system has two bottom-firing speakers, which can be replaced individually.
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Disconnect the speakers from the motherboard.
     - This can alternatively be done after freeing the speakers.
+    - The right speaker connector has a white receptacle, while the left speaker connector has a black receptacle.
 
 ![Speaker wires and posts](./img/speakers.webp)
 

@@ -9,12 +9,12 @@
 The System76 Darter Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 12th Generation (Alder Lake) CPUs
+    - Supports Intel 13th Generation (Raptor Lake) CPUs
         - [Core i7-1360P](https://ark.intel.com/content/www/us/en/ark/products/232155/intel-core-i71360p-processor-18m-cache-up-to-5-00-ghz.html)
         - [Core i5-1340P](https://ark.intel.com/content/www/us/en/ark/products/232126/intel-core-i51340p-processor-12m-cache-up-to-4-60-ghz.html)
 - BIOS
-    - GD25B256E flash chip
-        - SOIC-8 form factor
+    - GD25B256D flash chip
+        - WSON-8 form factor
     - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E

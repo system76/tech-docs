@@ -10,9 +10,9 @@ The System76 Serval WS is a laptop with the following specifications:
 
 - CPU
     - Supports AMD Ryzen (3rd Gen) CPUs
-        - [AMD Ryzen 5 3600](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
-        - [AMD Ryzen 7 3700X](https://www.amd.com/en/products/cpu/amd-ryzen-7-3700x)
-        - [AMD Ryzen 9 PRO 3900](https://www.amd.com/en/products/cpu/amd-ryzen-9-pro-3900)
+        - [AMD Ryzen 5 3600](https://www.amd.com/en/product/8456)
+        - [AMD Ryzen 7 3700X](https://www.amd.com/en/product/8446)
+        - [AMD Ryzen 9 PRO 3900](https://www.amd.com/en/product/8861)
 - Chipset
     - AMD B450
 - BIOS

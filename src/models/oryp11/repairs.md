@@ -1,6 +1,6 @@
 # Oryx Pro (Parts & Repairs)
 
-Many components in your Oryx Pro can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
+Many components in your Oryx Pro can be upgraded or replaced as necessary.
 
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
@@ -25,7 +25,6 @@ Removing the cover is required to access the internal components. Prior to remov
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
 2. Remove the 16 bottom panel screws.
-    - All screws are the same length on any given unit. However, the 17" model uses longer screws than the 15" model.
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)
 
@@ -33,7 +32,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Oryx Pro 10 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 4800MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Oryx Pro 11 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 4800MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -70,7 +69,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Both slots
 
 ## Replacing the battery:
 
-The battery provides primary power whenever the system is unplugged.
+The battery provides primary power whenever the system is unplugged. The model number is `NV40BAT-4-73`, also known as `6-87-NV4RS-71M00`.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -79,7 +78,7 @@ The battery provides primary power whenever the system is unplugged.
 ### Steps to replace the battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove the two silver battery screws along the bottom of the battery.
+2. Remove the five silver battery screws along the perimeter of the battery.
 
 ![Battery screws](./img/battery.webp)
 
@@ -135,7 +134,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan.
 
-The Oryx Pro 10 comes with heat-conductive metal on the dedicated GPU, and uses regular thermal paste for the CPU. These materials help facilitate effective heat transfer between the CPU/GPU and the cooling equipment.
+The Oryx Pro 11 comes with heat-conductive metal on the dedicated GPU, and uses regular thermal paste for the CPU. These materials help facilitate effective heat transfer between the CPU/GPU and the cooling equipment.
 
 - Thermal paste should generally be replaced after removing the heatsink; thermal paste also dries over time, so depending on your climate and the age of the machine, applying new thermal paste may increase thermal performance.
 - The heat-conductive metal does not dry out, and replacing it is optional; replacement may be useful if the previous metal has flowed out of the proper area for cooling.
@@ -153,7 +152,6 @@ Replacement heat-conductive metal fitted to the machine and replacement fans can
 2. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 3. Unscrew the fan and heatsink screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #12.
     - The screws are held captive and will not come out of the fans/heatsink. The fan screws will click when they are fully loosened.
-    - The order for the 17" model is shown below; the screws are numbered differently on the 15" model. Follow the order stamped into the heatsink metal.
     - Do not remove the smaller screws holding the fan covers onto the fans.
 
 ![Thermal screws](./img/thermal-screws.webp)
@@ -218,7 +216,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 The keyboard can be replaced if its switches or electronics have been damaged.
 
-**Warning:** The Oryx Pro 10's keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is likely that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
+**Warning:** The Oryx Pro 11's keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is likely that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
 
 **Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
 **Time estimate:** 20 minutes  

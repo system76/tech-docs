@@ -66,6 +66,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Both slots
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
 5. Replace the retainer screw.
+6. If you are using a slot for the first time, you can optionally remove the plastic backing from the thermal strip and apply it to the inner side of the bottom panel.
+
+![M.2 slot thermal strip application](./img/m2-thermal-strip.webp)
 
 ## Replacing the battery:
 
@@ -132,14 +135,11 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan.
+The Oryx Pro 11 uses two fans and a heatsink manufactured as a single assembly. The part number for the complete assembly is YINGFAN `6-31-PE60N-102`. The part number for the left fan is WINMA `EFC-92091S2-0BH`; the part number for the right fan is WINMA `EFC-90091S2-0BH`.
 
-The Oryx Pro 11 comes with heat-conductive metal on the dedicated GPU, and uses regular thermal paste for the CPU. These materials help facilitate effective heat transfer between the CPU/GPU and the cooling equipment.
+If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
 
-- Thermal paste should generally be replaced after removing the heatsink; thermal paste also dries over time, so depending on your climate and the age of the machine, applying new thermal paste may increase thermal performance.
-- The heat-conductive metal does not dry out, and replacing it is optional; replacement may be useful if the previous metal has flowed out of the proper area for cooling.
-
-Replacement heat-conductive metal fitted to the machine and replacement fans can be obtained by [contacting support](https://support.system76.com).
+Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling equipment. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU/GPU and the heatsink may help the system run cooler. It's recommended to replace the thermal paste whenever the heatsink is removed.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 40 minutes  
@@ -147,49 +147,27 @@ Replacement heat-conductive metal fitted to the machine and replacement fans can
 
 ### Steps to replace the fans/heatsink/thermal paste:
 
-1. Power off the machine. Wait 20 minutes for the machine to cool down to room temperature.
-    - **Warning:** Removing the heatsink before the machine has cooled to room temperature may result in heat-conductive metal flowing onto the motherboard and causing irrepairable damage.
-2. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-3. Unscrew the fan and heatsink screws in the order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #12.
-    - The screws are held captive and will not come out of the fans/heatsink. The fan screws will click when they are fully loosened.
-    - Do not remove the smaller screws holding the fan covers onto the fans.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+2. Remove any clear tape that is securing the fan wires.
+3. Remove the heatsink and fan screws in the order of the stamped and stickered numbers, starting with #1, then #2, and continuing until you have removed #12.
+    - *Note: Do not remove the smaller screws holding the fan covers onto the fans.*
 
 ![Thermal screws](./img/thermal-screws.webp)
 
-4. If there is any clear tape securing the heatsink/fans or the fan wires, remove it.
-5. Unplug the two white fan connectors from the motherboard (highlighted red above).
-6. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-7. Using a paper towel, remove the existing thermal paste from the CPU, the CPU heatsink, the border of the GPU die, and the GPU heatsink.
-    - A small amount of rubbing alcohol can be used if the old paste is dried or difficult to remove.
-    - The heat-conductive metal may have some holes where pieces stuck to the die or heatsink.
-    - If you are not replacing the heat-conductive metal, do not pick or wipe the heat-conductive metal off of the GPU heatsink.
+4. Unplug the two fan connectors from the motherboard (highlighted red above).
+5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
+6. Using a paper towel, remove the existing thermal paste from the CPU chips, GPU chip, and surrounding components, as well as the corresponding points on the heat sink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+    - Some thermal paste may already be on the motherboard around the VRAM chips, or may get onto the motherboard while cleaning the paste off of the chips. Thermal paste is typically not conductive; it's safer to leave excess paste on the board than to risk damaging the board with rough removal.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-8. If you are replacing the heat-conductive metal, remove the plastic cover from the GPU heatsink.
-    - A fingernail or a thin plastic tool can be used to pick a side of the plastic cover up from the GPU heatsink.
-    - **Warning:** The heat-conductive metal is electrically conductive. Be careful not to get specks of heat-conductive metal onto the motherboard. The heat-conductive metal can cause the motherboard to malfunction or fail if it makes contact.
-    - After removing the plastic covers, wipe away any remaining heat-conductive metal residue from the heatsink and GPU.
-    - Some adhesive residue may remain on the GPU heatsink.
-
-![Heat-conductive metal removal](./img/heat-conductive-metal-removal.webp)
-
-9. Apply the new heat-conductive metal to the GPU heatsink, matching the orientation of the plastic covering with the diagonal corner of its respective surface.
-    - **Warning:** Replacement heat-conductive metal obtained from System76 will include the plastic covering. If you are applying third-party heat-conductive or liquid metal, clean and reuse the plastic covering from the stock heat-conductive metal to prevent the aftermarket metal from flowing onto the motherboard when heated.
-
-![Heat-conductive metal application](./img/heat-conductive-metal-application.webp)
-
-10. Apply a small line of thermal paste directly onto each CPU die.
-11. Apply a line of thermal paste around the border of the GPU die.
-    - The purpose of this border is to further prevent melted heat-conductive metal from flowing onto the motherboard during operation.
-    - Keep the nozzle of the thermal paste tube pressed against the surface of the chip; dispense the thermal paste slowly while moving the nozzle.
-    - Be careful not to apply too much thermal paste around the GPU. Only a thin layer is needed.
+7. Apply a small line of thermal paste directly onto both CPU chips, the GPU chip, the three Samsung VRAM chips, and the twelve `R15` chips.
 
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
-12. Carefully replace the heatsink.
-13. Tighten the fan and heatsink screws, starting with #1, then #2, and so on until #12.
-14. Plug the two white fan connectors back into the motherboard.
+8. Carefully replace the heatsink.
+9. Replace the silver heatsink and fan screws, starting with #1, then #2, and so on until #12.
+10. Plug the two white fan connectors back into the motherboard.
 
 ## Replacing the speakers:
 
@@ -209,7 +187,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 3. Unscrew the speaker screws and lift the speaker out of the machine.
     - The right speaker has three screws; the left speaker has two screws.
-    - The speaker wire may be partially routed behind other components or tape; be careful when removing it.
+    - The speaker wire may be partially routed through channels in the chassis; be careful when removing it.
 4. Place the new speaker in the machine, plug in the connector, replace the screws, and reinstall the outermost SSD (if necessary) and bottom panel.
 
 ## Replacing the keyboard:
@@ -224,33 +202,26 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 
 ### Steps to replace the keyboard:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the keyboard adhesive strip access point near the right fan.
-    - You can optionally remove the fan/heatsink assembly to make access easier, but this is not recommended unless you are also removing the thermal paste.
+1. Place the machine lid-side down.
+    - Use a soft surface (such as a towel) to avoid scratches.
+2. Remove the two keyboard screws (highlighted yellow below).
 
-![Keyboard adhesive access point](./img/keyboard-adhesive-access.webp)
+![Keyboard screws](./img/keyboard-screws.webp)
 
-3. Using a pair of tweezers, pull out the end of the adhesive strip.
-
-![Keyboard adhesive removal](./img/keyboard-adhesive-removal.webp)
-
-4. Open the lid slightly and place the machine on its side.
-5. Push a screwdriver into the adhesive slot until the keyboard pops out.
-    - If available, a flathead spudger tool can also be used to provide more contact with the keyboard.
-    - A layer of plastic may stick to the adhesive and come off of the keyboard. Try to keep as much of the plastic shielding on the keyboard as possible.
+3. Open the lid slightly and place the machine on its side.
+4. Push the screwdriver into the keyboard push point (highlighted cyan above) until the keyboard pops out.
 
 ![Keyboard push point](./img/keyboard-push-point.webp)
 
-6. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
+5. Set the machine back down and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.
 
-![Keyboard ribbon connectors](./img/keyboard-ribbons.webp)
+![Keyboard ribbons](./img/keyboard-ribbons.webp)
 
-7. Flip the black latches upwards to free the ribbon cables.
-8. Pull the ribbon cables out of the connectors.
-9. Remove the keyboard and replace it with the new one.
-10. Carefully slide both ribbon cables into their connectors.
-11. Flip the black latches back into place to secure the ribbon cables.
-12. Place the keyboard back into position, starting with the tabs on the bottom edge.
-    - The keyboard is primarily held in place by the perimeter clips and the keyboard screw (one of the bottom panel screws). The adhesive strip can optionally be removed or omitted to make future keyboard removal easier.
-13. Secure the rest of the keyboard by pressing down on each of its edges.
-14. Turn the machine lid-side down again and press the adhesive strip back into its slot.
+6. Flip the black latches upwards to free the ribbon cables.
+7. Pull the ribbon cables out of the connectors.
+8. Remove the keyboard and replace it with the new one.
+9. Carefully slide both ribbon cables into their connectors.
+10. Flip the black latches back into place to secure the ribbon cables.
+11. Place the keyboard back into position, starting with the tabs on the bottom edge.
+12. Secure the rest of the keyboard by pressing down on each of its edges.
+13. Turn the machine lid-side down again and replace the two keyboard screws.

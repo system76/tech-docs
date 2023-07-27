@@ -32,8 +32,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - Intel Iris Xe Graphics
     - eDP display options:
         - 16" 1920x1600@165Hz LCD
-            - LCD panel: BOE NV173FHM-NY1 (or equivalent) - Check specs starting here
-    - External video output:
+            - LCD panel: BOE NV160WUM-NX2 (or equivalent)
+    - External video output: - Check specs starting here
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
@@ -44,9 +44,9 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 230W (20.0V, 11.5A) DC-in port
+    - 180W (20.0V, 9A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Lite-On PA-1231-26
+    - Included AC adapter: Lite-On PA-1181-76
         - AC power cord type: IEC C5
     - 80Wh 6-cell battery
 - Sound

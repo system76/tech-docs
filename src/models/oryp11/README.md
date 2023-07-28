@@ -33,7 +33,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - eDP display options:
         - 16" 1920x1600@165Hz LCD
             - LCD panel: BOE NV160WUM-NX2 (or equivalent)
-    - External video output: - Check specs starting here
+    - External video output:
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
@@ -44,11 +44,17 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Intel Wi-Fi 6 AX200/AX201
 - Power
-    - 180W (20.0V, 9A) DC-in port
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Lite-On PA-1181-76
-        - AC power cord type: IEC C5
-    - 80Wh 6-cell battery
+    - RTX 4050 model:
+        - 180W (20.0V, 9A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Lite-On PA-1181-76
+            - AC power cord type: IEC C5
+    - RTX 4060 and 4070 models:
+        - 230W (20.0V, 11.5A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Lite-On PA-1231-26
+            - AC power cord type: IEC C5
+    - 73Wh 4-cell battery
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack
@@ -64,5 +70,4 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - 1x USB 3.2 Gen 2 Type-C
     - 2x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 15": 35.814cm x 24.003cm x 2.489cm, 2.4kg
-    - 17": 39.599cm x 26.213cm x 2.489cm, 2.8kg
+    - 35.95cm x 27.3cm x 1.99cm, 2.7kg

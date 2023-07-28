@@ -25,8 +25,7 @@
 
 ![Under-Keyboard Connectors](./img/under-keyboard.webp)
 
+- Left I/O ribbon is highlighted in red
 - Keyboard connector is highlighted in yellow
 - Keyboard backlight connector is highlighted in cyan
-- Keyboard adhesive strip (used) is highlighted in red
-    - Access hole is located on the left side
 - Power button/LED connector is highlighted in green

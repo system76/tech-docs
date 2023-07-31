@@ -4,21 +4,21 @@
 
 ![Internal Components](./img/components-highlighted.webp)
 
-- Fan connectors are highlighted in cyan
 - Webcam/microphone connector is highlighted in yellow
     - Webcam/microphone connector is underneath the heatsink
-- M.2 SSDs are highlighted in maroon
-    - Both slots support PCIe NVMe Gen 4
-- Wireless card is highlighted in purple
-- CMOS battery connector is highlighted in pink
-    - CMOS battery is underneath the outermost SSD
-- Speaker connectors are highlighted in light green
-- Touchpad connector is highlighted in white
-- Battery connector is highlighted in red
-- RAM is highlighted in dark green
-- BIOS flash chip (U60) is highlighted in black
 - LCD panel connector is highlighted in orange
     - LCD panel connector is underneath the heatsink
+- Fan connectors are highlighted in cyan
+- RAM is highlighted in dark green
+- BIOS flash chip (U60) is highlighted in black
+- Touchpad connector is highlighted in white
+- Wireless card is highlighted in purple
+- Speaker connectors are highlighted in light green
+- Battery connector is highlighted in red
+- M.2 SSDs are highlighted in maroon
+    - Both slots support PCIe NVMe Gen 4
+- CMOS battery connector is highlighted in pink
+    - CMOS battery is underneath SSD slot 2 (closest to the main battery)
 
 ## Under-keyboard components and connectors:
 

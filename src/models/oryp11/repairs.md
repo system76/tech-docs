@@ -100,8 +100,7 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 
 ### Steps to replace the WiFi/Bluetooth module:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove both SSDs](#replacing-an-m2nvme-ssd).
-    - Removing the outermost SSD is optional, but will make it easier to work with the wireless card.
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card. Remove any clear tape that is securing the wires.
 
 ![Wireless card](./img/wireless-card.webp)
@@ -123,13 +122,13 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and, if installed, [remove the SSD from slot 2](#replacing-an-m2nvme-ssd) (closest to the [main battery](#replacing-the-battery)).
 
 ![CMOS battery](./img/cmos-battery.webp)
 
 2. Unplug the small white connector that connects the CMOS battery to the motherboard. If you are replacing the battery, gently pull from the sides to pry it up from where it's stuck to the case.
 3. To clear the CMOS, [disconnect the main battery](#replacing-the-battery) (if it's still installed), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
-4. Reconnect the CMOS battery, [reconnect the main battery](#replacing-the-battery), and [replace the M.2 SSD](#replacing-an-m2nvme-ssd).
+4. Reconnect the CMOS battery, [reconnect the main battery](#replacing-the-battery), and [replace the M.2 SSD in slot 2](#replacing-an-m2nvme-ssd) (if necessary).
 5. Replace the bottom panel and power up the Oryx Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
@@ -187,7 +186,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 3. Unscrew the speaker screws and lift the speaker out of the machine.
     - The right speaker has three screws; the left speaker has two screws.
     - The speaker wire may be partially routed through channels in the chassis; be careful when removing it.
-4. Place the new speaker in the machine, plug in the connector, replace the screws, and reinstall the outermost SSD (if necessary) and bottom panel.
+4. Place the new speaker in the machine, plug in the connector, replace the screws, and reinstall the bottom panel.
 
 ## Replacing the keyboard:
 

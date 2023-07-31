@@ -193,9 +193,9 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 The keyboard can be replaced if its switches or electronics have been damaged.
 
-**Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
-**Time estimate:** 20 minutes  
-**Difficulty:** Hard <span style="color:red;">●</span>
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 5 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
 
 ### Steps to replace the keyboard:
 

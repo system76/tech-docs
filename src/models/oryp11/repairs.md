@@ -123,8 +123,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover), [remove both SSDs](#replacing-an-m2nvme-ssd), and [remove the wireless card](#replacing-the-wireless-card).
-    - If you are not replacing the CMOS battery, then removing the wireless card is optional.\
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover) and [remove the outermost SSD](#replacing-an-m2nvme-ssd).
 
 ![CMOS battery](./img/cmos-battery.webp)
 
@@ -179,7 +178,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 
 ### Steps to replace the speakers:
 
-1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover). For the right speaker, also [remove the outermost SSD](#replacing-an-m2nvme-ssd).
+1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Disconnect the speaker wire from the motherboard.
     - This can alternatively be done after freeing the speaker.
 
@@ -193,8 +192,6 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
 ## Replacing the keyboard:
 
 The keyboard can be replaced if its switches or electronics have been damaged.
-
-**Warning:** The Oryx Pro 11's keyboard is held in by a strip of adhesive in addition to one of the bottom panel screws and the perimeter clips. The adhesive may be difficult to remove from the keyboard and/or case, and while the keyboard should still be functional if removed carefully, it is likely that permanent aesthetic damage will occur to the bottom side of the keyboard during removal. Removal is not recommended unless the keyboard is malfunctioning.
 
 **Tools required:** Cross-head (Phillips) screwdriver, tweezers, spudger tool (optional)  
 **Time estimate:** 20 minutes  

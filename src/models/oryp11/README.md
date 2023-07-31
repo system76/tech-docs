@@ -31,7 +31,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - Integrated GPU:
         - Intel Iris Xe Graphics
     - eDP display options:
-        - 16" 1920x1600@165Hz LCD
+        - 16" 1920x1200@165Hz LCD
             - LCD panel: BOE NV160WUM-NX2 (or equivalent)
     - External video output:
         - 1x HDMI 2.1
@@ -42,7 +42,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth
-        - Intel Wi-Fi 6 AX200/AX201
+        - Intel Wi-Fi 6 AX210/AX211
 - Power
     - RTX 4050 model:
         - 180W (20.0V, 9A) DC-in port

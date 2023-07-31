@@ -10,9 +10,8 @@
 - M.2 SSDs are highlighted in maroon
     - Both slots support PCIe NVMe Gen 4
 - Wireless card is highlighted in purple
-    - Wireless card is underneath the innermost SSD
 - CMOS battery connector is highlighted in pink
-    - CMOS battery connector is underneath the outermost SSD
+    - CMOS battery is underneath the outermost SSD
 - Speaker connectors are highlighted in light green
 - Touchpad connector is highlighted in white
 - Battery connector is highlighted in red

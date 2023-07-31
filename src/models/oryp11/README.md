@@ -1,0 +1,73 @@
+# Oryx Pro (oryp11)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Oryx Pro](./img/oryp11.webp)
+
+The System76 Oryx Pro is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel 13th Generation (Raptor Lake) CPUs
+        - [Intel Core i9-13900H](https://ark.intel.com/content/www/us/en/ark/products/232135/intel-core-i913900h-processor-24m-cache-up-to-5-40-ghz.html)
+- Chipset
+    - [Intel HM770](https://ark.intel.com/content/www/us/en/ark/products/232478/intel-hm770-chipset.html)
+- BIOS
+    - GigaDevice GD25B256EYIGR flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+- EC
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - Dedicated GPU options:
+        - NVIDIA GeForce RTX 4070
+            - TGP: 115W (140W boost)
+        - NVIDIA GeForce RTX 4060
+            - TGP: 115W (140W boost)
+        - NVIDIA GeForce RTX 4050
+            - TGP: 115W (140W boost)
+    - Integrated GPU:
+        - Intel Iris Xe Graphics
+    - eDP display options:
+        - 16" 1920x1200@165Hz LCD
+            - LCD panel: BOE NV160WUM-NX2 (or equivalent)
+    - External video output:
+        - 1x HDMI 2.1
+        - 1x Mini DisplayPort 1.4
+        - 1x DisplayPort 1.4 over USB-C
+- Memory
+    - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 4800 MHz
+- Networking
+    - Gigabit Ethernet
+    - M.2 PCIe/CNVi WiFi/Bluetooth
+        - Intel Wi-Fi 6 AX210/AX211
+- Power
+    - RTX 4050 model:
+        - 180W (20.0V, 9A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Lite-On PA-1181-76
+            - AC power cord type: IEC C5
+    - RTX 4060 and 4070 models:
+        - 230W (20.0V, 11.5A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: Lite-On PA-1231-26
+            - AC power cord type: IEC C5
+    - 73Wh 4-cell battery
+- Sound
+    - Internal speakers & microphone
+    - Combined headphone & microphone 3.5mm jack
+    - Combined microphone & S/PDIF (optical) 3.5mm jack
+    - HDMI, Mini DisplayPort, USB-C DisplayPort audio
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 4)
+    - MicroSD card reader
+- USB
+    - 1x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort over USB-C
+        - Does not support USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-C
+    - 2x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 35.95cm x 27.3cm x 1.99cm, 2.7kg

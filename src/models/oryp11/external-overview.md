@@ -22,12 +22,12 @@
 
 ## Materials:
 
-|Part                              |Material                |
-|----------------------------------|------------------------|
-|LCD back cover (lid)              |Aluminum                |
-|LCD front cover (bezel)           |Plastic                 |
-|Top case (palm rests/port covers) |Plastic                 |
-|Bottom panel                      |Aluminum                |
+|Part                              |Material                |Part Number        |
+|----------------------------------|------------------------|-------------------|
+|LCD back cover (lid)              |Aluminum                |6-39-PE601-022     |
+|LCD front cover (bezel)           |Plastic                 |6-39-PE601-012     |
+|Top case (palm rests/port covers) |Plastic                 |6-78-PE60RNEG2-010 |
+|Bottom panel                      |Aluminum                |6-39-PE603-012     |
 
 ## LED indicators:
 
@@ -46,7 +46,7 @@
 |Key                        |Shortcut|Action                                         |
 |---------------------------|--------|-----------------------------------------------|
 |![Fn-F1](./img/fn-f1.png)  |Fn+F1   |Toggle trackpad                                |
-|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Toggle built-in LCD<br/>(non-OLED models only) |
+|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Toggle microphone mute                         |
 |![Fn-F3](./img/fn-f3.png)  |Fn+F3   |Mute                                           |
 |![Fn-F5](./img/fn-f5.png)  |Fn+F5   |Volume down                                    |
 |![Fn-F6](./img/fn-f6.png)  |Fn+F6   |Volume up                                      |
@@ -58,7 +58,7 @@
 |![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                                        |
 |![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                                     |
 |![Fn-*](./img/fn-star.png) |Fn+*    |Toggle keyboard backlight                      |
-|/                          |Fn+/    |Cycle keyboard color                           |
-|-                          |Fn+-    |Decrease keyboard brightness                   |
-|+                          |Fn++    |Increase keyboard brightness                   |
+|![Fn-/](./img/fn-slash.png)|Fn+/    |Cycle keyboard color                           |
+|![Fn--](./img/fn-minus.png)|Fn+-    |Decrease keyboard brightness                   |
+|![Fn-+](./img/fn-plus.png) |Fn++    |Increase keyboard brightness                   |
 |1                          |Fn+1    |Toggle fan between max/automatic               |

@@ -23,11 +23,11 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Graphics
     - Dedicated GPU options:
         - NVIDIA GeForce RTX 4070
-            - TGP: __W
+            - TGP: 115W (140W boost)
         - NVIDIA GeForce RTX 4060
-            - TGP: __W
+            - TGP: 115W (140W boost)
         - NVIDIA GeForce RTX 4050
-            - TGP: __W
+            - TGP: 115W (140W boost)
     - Integrated GPU:
         - Intel Iris Xe Graphics
     - eDP display options:

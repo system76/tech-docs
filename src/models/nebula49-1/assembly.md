@@ -135,7 +135,6 @@ In addition, nebula49 ships with the following non-installed accessories:
 
 nebula49 supports the following standard motherboard sizes:
 
-- Extended ATX
 - ATX
 - Mini-DTX
 - DTX
@@ -155,7 +154,7 @@ Nine standoffs and motherboard screws are included.
 3. Insert the standoffs into the appropriate holes for your motherboard size. In the photo below, the standoff holes are labeled by color:
     - Mini-ITX and Mini-DTX: green
     - DTX: green and cyan
-    - ATX and EATX: green, cyan, and red (all holes)
+    - ATX: green, cyan, and red (all holes)
 
 ![Standoff holes](./img/standoff-holes.webp)
 

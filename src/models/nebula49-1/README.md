@@ -11,7 +11,7 @@ The System76 Nebula 49 is a desktop chassis (for DIY builds) with the following 
     - Size: 46.2cm × 26.2cm × 40.8cm
     - Volume: 49 litres
 - Motherboard sizes
-    - Extended ATX
+    - Extended ATX (up to 10.7")
     - ATX
     - Mini-DTX
     - DTX

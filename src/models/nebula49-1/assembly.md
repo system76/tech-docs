@@ -135,7 +135,7 @@ In addition, nebula49 ships with the following non-installed accessories:
 
 nebula49 supports the following standard motherboard sizes:
 
-- Extended ATX
+- Extended ATX (up to 10.7")
 - ATX
 - Mini-DTX
 - DTX

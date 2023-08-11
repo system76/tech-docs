@@ -38,7 +38,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - External video output:
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4
-        - 1x DisplayPort 1.4 over USB-C
+        - 2x DisplayPort 1.4 over USB-C
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 4800 MHz
 - Networking
@@ -64,6 +64,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - Supports DisplayPort over USB-C
         - Does not support USB-C charging (USB-PD)
     - 1x USB 3.2 Gen 2 Type-C
+        - Supports DisplayPort over USB-C
+        - Does not support USB-C charging (USB-PD)
     - 2x USB 3.2 Gen 1 Type-A
 - Dimensions
     - 15": 35.814cm x 24.003cm x 2.489cm, 2.4kg

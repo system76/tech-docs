@@ -131,7 +131,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ### Steps to replace the fan/heatsink/thermal paste:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove any black tape that may be covering the fan screws and wires.
+2. If a black adhesive sheet is present between the fans, peel it off. Also remove any black tape that may be covering the fan screws and wires.
 3. Remove the six fan screws, highlighted green below.
 
 ![Thermal screws](./img/thermal-system.webp)

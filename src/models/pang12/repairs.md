@@ -48,7 +48,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the 12 bottom panel screws.
+2. Remove the 11 bottom panel screws.
     - The [M.2 access door screw](#replacing-an-m2nvme-ssd) does not need to be removed.
 
 ![Bottom panel screws](./img/bottom-panel-screws.webp)

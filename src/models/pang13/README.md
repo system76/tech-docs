@@ -33,11 +33,11 @@ The System76 Pangolin is a laptop with the following specifications:
     - M.2 PCIe/CNVi WiFi/Bluetooth
         - Mediatek MT7921K
 - Power
-    - 65W (19V, 3.42A) DC-in port
+    - 90W (19V, 4.74A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: Shenzhen Jihongda JHD-AD065B-190342BA-A
+    - Included AC adapter: ShenZhen SOY-1900474
         - AC power cord type: IEC C5
-    - USB-C charging compatible with 65W+ charger
+    - USB-C charging compatible with 90W+ charger
     - 70Wh 3-cell Lithium-Ion battery (model number 628467-3S1P)
 - Sound
     - Internal speakers & microphone

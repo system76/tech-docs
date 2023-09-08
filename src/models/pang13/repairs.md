@@ -110,7 +110,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. If you are replacing the CMOS battery, carefully peel it away from the adhesive holding it to the motherboard.
+3. If you are replacing the CMOS battery, carefully peel it away from the adhesive holding it to the chassis.
 4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery and the main battery, and replace the bottom panel.
 6. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.

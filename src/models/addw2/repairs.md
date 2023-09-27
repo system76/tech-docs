@@ -153,7 +153,7 @@ This model supports one 2.5" (7mm height) SATA III SSD or hard drive.
 
 ## Replacing the wireless card:
 
-Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Adder WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 12 minutes  

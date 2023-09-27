@@ -125,7 +125,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the wireless card:
 
-Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

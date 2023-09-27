@@ -117,7 +117,7 @@ A CMOS reset will restore the UEFI firmware settings to their factory defaults, 
 
 ## Replacing the wireless card:
 
-Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver, 5.0 mm hex socket  
 **Time estimate:** 15 minutes  

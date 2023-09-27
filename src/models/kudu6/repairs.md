@@ -87,7 +87,7 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280, and both s
 
 ## Replacing the wireless card:
 
-Your Kudu's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Kudu's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

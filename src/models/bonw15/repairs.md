@@ -93,7 +93,7 @@ This model supports up to three M.2 SSDs. All M.2 slots are size 2280 and suppor
 
 ## Replacing the wireless card:
 
-Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

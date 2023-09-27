@@ -75,7 +75,7 @@ This model supports two M.2 SSDs. Both slots are size 2280 and support PCIe NVMe
 
 ## Replacing the wireless card:
 
-Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Darter Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 12 minutes  

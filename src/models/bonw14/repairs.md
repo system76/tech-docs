@@ -132,7 +132,7 @@ _In the above photo, the red slot is SATA only, the yellow slot is PCIe NVMe onl
 
 ## Replacing the wireless card:
 
-Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Bonobo WS's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

@@ -86,7 +86,7 @@ This model supports one M.2 SSD of size 2280, PCIe NVMe Generation 4 (or Generat
 
 ## Replacing the wireless card:
 
-Your Galago Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your Galago Pro's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 12 minutes  

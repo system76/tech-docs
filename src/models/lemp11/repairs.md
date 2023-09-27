@@ -71,7 +71,7 @@ This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe 
 
 ## Replacing the wireless card:
 
-Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (A Key).
+Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 10 minutes    

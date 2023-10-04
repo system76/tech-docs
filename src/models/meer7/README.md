@@ -24,7 +24,7 @@ The System76 Meerkat is a desktop with the following specifications:
 - Networking
     - 1x 2.5-Gigabit Ethernet (Intel [i225-LM](https://ark.intel.com/content/www/us/en/ark/products/184675/intel-ethernet-controller-i225-lm.html))
         - Optional I/O add-on (tall model only): additional 1x 2.5-Gigabit Ethernet
-    - Wi-Fi 6 & Bluetooth 5.2 (Intel [AX201](https://ark.intel.com/content/www/us/en/ark/products/130293/intel-wi-fi-6-ax201-gig.html))
+    - Wi-Fi 6E & Bluetooth 5.3 (Intel [AX211](https://www.intel.com/content/www/us/en/products/sku/204837/intel-wifi-6e-ax211-gig/specifications.html))
 - Power
     - i3 model:
         - 90W (19V, 4.74A) DC-in port

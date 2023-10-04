@@ -63,7 +63,7 @@ If you have the tall model Meerkat with the optional I/O expansion module, it wi
 
 ## Replacing the RAM:
 
-The Meerkat 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Meerkat 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -164,25 +164,27 @@ If you ordered your Meerkat with this module, the steps below can be used to rem
 
 ### Steps to remove the optional I/O add-on:
 
-1. Disconnect the module's ribbon cable by flipping the black latches up and pulling the ribbon out of the connectors on either side.
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
+2. Disconnect the module's ribbon cable by flipping the black latches up and pulling the ribbon out of the connectors on either side.
 
 ![I/O expansion module (internal view)](./img/expansion-module-internal.webp)
 
-2. Unscrew the M.2 screw holding the expansion module's adapter into the M.2 2242 slot and remove the adapter.
-3. Unscrew the two screws holding the expansion module in from the back of the system.
+3. Unscrew the M.2 screw holding the expansion module's adapter into the M.2 2242 slot and remove the adapter.
+4. Unscrew the two screws holding the expansion module in from the back of the system.
 
 ![I/O expansion module (external view)](./img/expansion-module-external.webp)
 
-4. Lift the expansion module out of the system.
+5. Lift the expansion module out of the system.
     - When reinstalling the expansion module, the side labeled `BTM` should face outwards (so it will point down towards the bottom of the machine once the system is upright).
 
 ### Steps to remove the expansion slot placeholder:
 
-1. Unscrew the two screws holding the expansion slot placeholder in from the back of the system.
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
+2. Unscrew the two screws holding the expansion slot placeholder in from the back of the system.
 
 ![Expansion slot placeholder](./img/expansion-placeholder.webp)
 
-2. Lift the expansion slot placeholder out of the system.
+3. Lift the expansion slot placeholder out of the system.
     - When reinstalling the slot placeholder, the side labeled `BTM` should face outwards (so it will point down towards the bottom of the machine once the system is upright).
 
 ## Removing the motherboard:
@@ -225,7 +227,7 @@ The screws used for the fan are the same type as those used for the [M.2 SSDs](#
 
 ### Steps to replace the fan:
 
-1. Follow the steps above to [remove the motherboard](#removing-the-motherboard).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [remove the M.2 drive](#replacing-an-m2-drive), [unplug the wireless card](#replacing-the-wireless-card), and [remove the motherboard](#removing-the-motherboard).
 2. Unplug the fan connector, highlighted cyan below.
 
 ![Cooling fan](./img/cooling-fan.webp)

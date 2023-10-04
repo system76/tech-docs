@@ -29,15 +29,18 @@ The bottom panel can be removed to access the internal components.
     - Use a soft surface (such as a towel) to avoid scratches.
 1. Completely loosen the four screws in the corners.
     - The screws are attached and will not completely separate from the bottom panel.
+    - Multiple sets of screws may be present on the tall model; the outermost screws (surrounded by rubber feet) are for the bottom panel.
 
-![Bottom panel screws](./img/bottom-screws.jpg)
+![Bottom panel screws](./img/bottom-screws.webp)
 
 3. Gently lift the bottom panel out of the machine.
-    - If your Meerkat is the tall model (with 2.5" drive slot), be careful not to damage the thin cable running from the motherboard to the bottom panel.
+    - If your Meerkat is the tall model (with a 2.5" drive slot), be careful not to damage the thin cable running from the motherboard to the bottom panel.
 
 ## Replacing an M.2 drive:
 
 Your Meerkat has two M.2 slots. The first slot is size 2280 and supports PCIe NVMe Gen 4. The second slot is size 2242 and supports SATA III.
+
+If you have the tall model Meerkat with the optional I/O expansion module, it will occupy the 2242 slot.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 6 minutes  
@@ -47,8 +50,10 @@ Your Meerkat has two M.2 slots. The first slot is size 2280 and supports PCIe NV
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
 2. Unscrew the retainer screw opposite the M.2 slot.
+    - In the photo below, the short model is shown on the left, while the tall model (with the optional I/O expansion module installed) is shown on the right.
+    - The 2280 slot screw is highlighted cyan, while the 2242 slot screw is highlighted red.
 
-![M.2 slot screw](./img/m2-screw.jpg)
+![M.2 slot screw](./img/m2-slots.webp)
 
 3. Remove the existing M.2 drive by pulling it out of the slot.
 4. Insert the new M.2 drive into the slot and hold it in place.
@@ -66,9 +71,9 @@ The Meerkat 6 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. 
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
-2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
+2. Pull the small tabs on both sides of the RAM away from the RAM stick simultaneously. The RAM should spring up to an angle.
 
-![RAM latch](./img/ram-slots.jpg)
+![RAM latch](./img/ram-slots.webp)
 
 3. Remove the RAM from the slot.
 4. Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down until it clicks into place.
@@ -83,16 +88,25 @@ If your Meerkat is the tall variety, it has a 2.5" SATA III drive bay built into
 
 ### Steps to add/remove a 2.5" storage drive:
 
-1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
-2. Locate the SATA connector in the bottom panel and orient your drive to match.
+1. If a 2.5" drive was not already installed, pull the four rubber plugs out of the bottom of the Meerkat.
+    - This can be done before or after opening the machine.
 
-![2.5" drive port](./img/sata-port.jpg)
+![Bottom panel plugs](./img/bottom-plugs.webp)
 
-3. Slide the drive into the slot on the bottom panel until it plugs all the way into its connector.
+2. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
+3. Locate the SATA connector in the bottom panel and orient your drive to match.
 
-![2.5" drive installation](./img/sata-drive-insertion.webp)
+![2.5" drive port](./img/sata-port.webp)
 
-4. Replace the bottom panel.
+4. Slide the drive into the slot on the bottom panel until it plugs all the way into its connector.
+
+![2.5" drive installation](./img/25-drive-insertion.webp)
+
+5. Insert four 2.5" drive screws through the bottom panel to secure the 2.5" drive.
+
+![2.5" drive screws](./img/25-drive-screws.webp)
+
+5. Replace the bottom panel.
 
 ## Resetting the CMOS:
 
@@ -105,10 +119,10 @@ A CMOS reset will restore the UEFI firmware settings to their factory defaults, 
 ### Steps to reset CMOS:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
-2. Disconnect the CMOS battery connector.
+2. Disconnect the CMOS battery connector (labeled `RTCBAT` on the motherboard).
     - Try to pull the plug, not the wires.
 
-![CMOS battery connector](./img/cmos-connector.jpg)
+![CMOS battery connector](./img/cmos-connector.webp)
 
 3. Hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 4. Reconnect the CMOS battery.
@@ -128,7 +142,7 @@ Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a s
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
 2. Gently remove the two antennas (highlighted cyan below) by pulling them up and away from the wireless card.
 
-![Wireless card](./img/wireless-card.jpg)
+![Wireless card](./img/wireless-card.webp)
 
 3. Use the 5mm hex socket to remove the M.2 screw standoff, which also holds the wireless card in place.
 4. The wireless card will pop up at an angle. Remove the card from the M.2 slot.
@@ -136,6 +150,39 @@ Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a s
 6. Replace the retaining standoff.
 7. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place.
     - _Use caution when attaching the connectors; the pins can bend, break, or snap._
+
+## Removing the I/O expansion module:
+
+The I/O expansion module (also called the I/O add-on) is an optional component that adds one additional 2.5-Gigabit Ethernet port and two additional USB 2.0 Type-A ports to the system.
+
+If you ordered your Meerkat with this module, the steps below can be used to remove it. If you're upgrading your Meerkat with the module, reverse the steps to install it.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
+
+### Steps to remove the I/O expansion module:
+
+1. Disconnect the module's ribbon cable by flipping the black latches up and pulling the ribbon out of the connectors on either side.
+
+![I/O expansion module (internal view)](./img/expansion-module-internal.webp)
+
+2. Unscrew the M.2 screw holding the expansion module's adapter into the M.2 2242 slot and remove the adapter.
+3. Unscrew the two screws holding the expansion module in from the back of the system.
+
+![I/O expansion module (external view)](./img/expansion-module-external.webp)
+
+4. Lift the expansion module out of the system.
+    - When reinstalling the expansion module, the side labeled `BTM` should face outwards (so it will point down towards the bottom of the machine once the system is upright).
+
+### Steps to remove the expansion slot placeholder:
+
+1. Unscrew the two screws holding the expansion slot placeholder in from the back of the system.
+
+![Expansion slot placeholder](./img/expansion-placeholder.webp)
+
+2. Lift the expansion slot placeholder out of the system.
+    - When reinstalling the slot placeholder, the side labeled `BTM` should face outwards (so it will point down towards the bottom of the machine once the system is upright).
 
 ## Removing the motherboard:
 
@@ -148,23 +195,28 @@ Removing the motherboard is necessary for replacing the CMOS battery, cooling fa
 ### Steps to remove the motherboard:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
-2. If your Meerkat is the tall variety, disconnect the ribbon cable that leads to the 2.5" drive bay.
-    - The white latch pulls away from the motherboard to free the cable; gently pull the cable out of the connector.
+2. If your Meerkat is the tall variety:
+    - Remove the [I/O expansion module or placeholder](#removing-the-io-expansion-module).
+    - Disconnect the ribbon cable that leads to the 2.5" drive bay.
+        - The white latch pulls away from the motherboard to free the cable; gently pull the cable out of the connector.
 
-![SATA drive bay ribbon cable connector](./img/sata-ribbon-connector.jpg)
+![SATA drive bay ribbon cable connector](./img/sata-ribbon-connector.webp)
 
 3. Disconnect the two [wireless antenna cables](#replacing-the-wireless-card).
 4. Remove the two motherboard mounting screws along the back edge of the machine.
 
-![Motherboard mounting screws](./img/motherboard-screws.jpg)
+![Motherboard mounting screws](./img/motherboard-screws.webp)
 
 5. Carefully lift the motherboard out of the case.
     - It is easiest to lift the front side first, pivoting the board against the back side of the case.
     - [Removing the RAM](#replacing-the-ram) is not required, but can make removing the motherboard easier.
+    - Slightly squeezing the front sides of the chassis can help provide more clearance while pivoting the motherboard.
 
 ## Replacing the fan:
 
 The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink when replacing the thermal paste.
+
+The screws used for the fan are the same type as those used for the [M.2 SSDs](#replacing-an-m2-drive).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -175,9 +227,9 @@ The cooling fan can be removed to clean dust out of the cooling system or to acc
 1. Follow the steps above to [remove the motherboard](#removing-the-motherboard).
 2. Unplug the fan connector, highlighted cyan below.
 
-![Cooling fan](./img/cooling-fan.jpg)
+![Cooling fan](./img/cooling-fan.webp)
 
-3. Remove the two fan screws (highlighted red above) and remove the fan.
+3. Remove the two fan screws (highlighted yellow above) and remove the fan.
     - The plastic strip at the bottom of the fan is adhered to the heatsink; gently pull the fan off of the heatsink.
 
 ## Replacing the CMOS battery:
@@ -193,7 +245,7 @@ The CMOS battery supplies power to the system's CMOS chip, where UEFI settings a
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [remove the motherboard](#removing-the-motherboard), [remove the fan](#replacing-the-fan), and [unplug the CMOS battery](#resetting-the-cmos).
 2. The CMOS battery is adhered to the motherboard with double-sided tape. Gently pull the CMOS battery off of the motherboard.
 
-![CMOS battery](./img/cmos-battery.jpg)
+![CMOS battery](./img/cmos-battery.webp)
 
 3. Stick the new CMOS battery onto the motherboard using the included double-sided tape (if present), then plug the new CMOS battery in and replace the fan, motherboard, and bottom panel.
 
@@ -211,16 +263,16 @@ Thermal paste helps facilitate heat transfer between the CPU and the cooling equ
 2. Loosen the four heatsink screws in order, starting with #1, then #2, #3, and #4.
     - The screws are attached and will not completely separate from the heatsink.
 
-![Heatsink screws](./img/heatsink-screws.jpg)
+![Heatsink screws](./img/heatsink-screws.webp)
 
 3. Gently lift the heatsink off of the motherboard. 
 4. Using a paper towel, clean the old thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Heatsink and motherboard after cleaning](./img/thermal-paste-removal.webp)
 
-5. Apply a small dot of thermal paste directly onto the CPU chip.
+5. Apply a small line of thermal paste directly onto the CPU chip.
 
-![Thermal paste applied to CPU](./img/thermal-paste-application.jpg)
+![Thermal paste applied to CPU](./img/thermal-paste-application.webp)
 
 6. Replace the heatsink and tighten the four screws in the order, starting with #1, then #2, #3, and #4.
 7. Reinstall the fan, motherboard, wireless card, M.2 drive, and bottom panel.
@@ -229,15 +281,15 @@ Thermal paste helps facilitate heat transfer between the CPU and the cooling equ
 
 Your Meerkat comes with a cable organizer to help hold cables in place. The cable organizer can be removed for a lower profile.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+**Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to remove the cable keeper:
 
-1. Unscrew the Phillips screw holding the cable keeper in place.
+1. Unscrew the Phillips thumbscrew holding the cable keeper in place.
 
-![Cable keeper](./img/cable-keeper.jpg)
+![Cable keeper](./img/cable-keeper.webp)
 
 ## Removing the top cover:
 
@@ -251,15 +303,17 @@ The Meerkat's top cover can be removed or replaced.
 
 1. Pull up on the grooves in the back of the cover.
 
-![Top cover grooves](./img/top-cover-grooves.jpg)
+![Top cover grooves](./img/top-cover-grooves.webp)
 
 2. Once the back is free, pull the rest of the top cover off of the machine.
 
-![Top cover removed](./img/top-cover-removed.jpg)
+![Top cover removed](./img/top-cover-removed.webp)
 
 ## Mounting with VESA Mount:
 
-Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on the back of a display. Because it mounts to the display's VESA mount, this will only work on displays which aren't already mounted via the VESA mount.
+Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on the back of a display. This allows operation as an all-in-one, taking up no additional desk space.
+
+Because the Meerkat mounts to the display's VESA mount, this will only work on displays which aren't already mounted via the VESA mount.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -269,12 +323,13 @@ Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on t
 
 1. Insert the two shoulder screws into the bottom of the Meerkat.
 
-![VESA mount on Meerkat](./img/vesa-screws-meerkat.jpg)
+![VESA mount screws in Meerkat](./img/vesa-screws-meerkat.webp)
 
 2. Use the remaining four screws to attach the VESA mounting plate, using the arrow to guide the orientation.
 
-![VESA mounting plate on display](./img/vesa-screws-display.jpg)
+![VESA mounting plate on display](./img/vesa-screws-display.webp)
 
 3. Insert the two shoulder screws in the Meerkat into the two holes in the mounting plate (highlighted cyan above), then set the Meerkat down so it hangs on the mounting plate.
+    - The Meerkat can be mounted in either direction.
 
-![Meerkat on display](./img/vesa-mounted-meerkat.jpg)
+![Meerkat on display](./img/vesa-mounted-meerkat.webp)

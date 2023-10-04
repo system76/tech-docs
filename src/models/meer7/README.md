@@ -23,7 +23,7 @@ The System76 Meerkat is a desktop with the following specifications:
     - Up to 64GB (2x32GB) Dual Channel DDR4 SODIMMs @ 3200 MHz
 - Networking
     - 1x 2.5-Gigabit Ethernet (Intel [i225-LM](https://ark.intel.com/content/www/us/en/ark/products/184675/intel-ethernet-controller-i225-lm.html))
-        - Optional add-on (tall model only): additional 1x 2.5-Gigabit Ethernet
+        - Optional I/O add-on (tall model only): additional 1x 2.5-Gigabit Ethernet
     - Wi-Fi 6 & Bluetooth 5.2 (Intel [AX201](https://ark.intel.com/content/www/us/en/ark/products/130293/intel-wi-fi-6-ax201-gig.html))
 - Power
     - i3 model:
@@ -43,13 +43,16 @@ The System76 Meerkat is a desktop with the following specifications:
 - Storage
     - 1x M.2 2280 (M key)
         - PCIe NVMe Gen 4
+    - 1x M.2 2242 (B key)
+        - SATA III
+        - In the tall model, the optional I/O add-on occupies this slot.
     - Tall model only: 1x 2.5"
         - SATA III
 - USB
     - 2x USB4 Type-C with Thunderbolt 4
     - 3x USB 3.2 Gen 2 Type-A
     - 1x USB 2.0 Type-A
-        - Optional add-on (tall model only): additional 2x USB 2.0 Type-A
+        - Optional I/O add-on (tall model only): additional 2x USB 2.0 Type-A
 - Dimensions
     - Short: 117 x 112 x 37mm
     - Tall:  117 x 112 x 54mm

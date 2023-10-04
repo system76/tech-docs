@@ -8,6 +8,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
 - [Resetting the CMOS](#resetting-the-cmos)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
+- [Removing the optional I/O add-on](#removing-the-optional-io-add-on)
 - [Removing the motherboard](#removing-the-motherboard)
 - [Replacing the fan](#replacing-the-fan)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
@@ -151,9 +152,9 @@ Your Meerkat's WiFi and Bluetooth are both handled by the same module. It is a s
 7. Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place.
     - _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
-## Removing the I/O expansion module:
+## Removing the optional I/O add-on:
 
-The I/O expansion module (also called the I/O add-on) is an optional component that adds one additional 2.5-Gigabit Ethernet port and two additional USB 2.0 Type-A ports to the system.
+The optional I/O add-on is an expansion module that adds one additional 2.5-Gigabit Ethernet port and two additional USB 2.0 Type-A ports to the system.
 
 If you ordered your Meerkat with this module, the steps below can be used to remove it. If you're upgrading your Meerkat with the module, reverse the steps to install it.
 
@@ -161,7 +162,7 @@ If you ordered your Meerkat with this module, the steps below can be used to rem
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  
 
-### Steps to remove the I/O expansion module:
+### Steps to remove the optional I/O add-on:
 
 1. Disconnect the module's ribbon cable by flipping the black latches up and pulling the ribbon out of the connectors on either side.
 
@@ -196,7 +197,7 @@ Removing the motherboard is necessary for replacing the CMOS battery, cooling fa
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel) and [remove the M.2 drive](#replacing-an-m2-drive).
 2. If your Meerkat is the tall variety:
-    - Remove the [I/O expansion module or placeholder](#removing-the-io-expansion-module).
+    - Remove the [optional I/O add-on or expansion slot placeholder](#removing-the-optional-io-add-on).
     - Disconnect the ribbon cable that leads to the 2.5" drive bay.
         - The white latch pulls away from the motherboard to free the cable; gently pull the cable out of the connector.
 

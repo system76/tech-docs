@@ -24,9 +24,9 @@
 - [Removing the Case Fan](#removing-the-case-fan)
 - [Replacing the Case Fan](#replacing-the-case-fan)-->
 
-### CPU Cooler Shroud (Remove or Replace)
-- [Removing the CPU Cooler Shroud](#removing-the-cpu-cooler-shroud)
-- [Replacing the CPU Cooler Shroud](#replacing-the-cpu-cooler-shroud)
+### CPU Cooler duct (Remove or Replace)
+- [Removing the CPU Cooler duct](#removing-the-cpu-cooler-duct)
+- [Replacing the CPU Cooler duct](#replacing-the-cpu-cooler-duct)
 ### RAM (Remove or Replace)
 - [Removing the RAM](#removing-ram-sticks)
 - [Replacing the RAM](#replacing-ram-sticks)
@@ -309,9 +309,9 @@ The power button assembly is held on by a single nut inside the case.
 -->
 
 
-# CPU Cooler Shroud (Remove or replace)
+# CPU Cooler duct (Remove or replace)
 
-## Removing the CPU Cooler Shroud
+## Removing the CPU Cooler duct
 
 **Tools required:** Cross-head (Phillips) screwdriver
 
@@ -321,52 +321,52 @@ The power button assembly is held on by a single nut inside the case.
 
 **Screws:** 16 total
   - 8 Thumbscrews (Phillips/Cross-head) Top Case.
-  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
+  - 4 Thumbscrews (Phillips/Cross-head) duct.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) duct Bracket.
 
   <!--This section especially needs checked for accuracy.-->
 1. Follow the steps in [Removing the Top Case](#removing-the-top-case)
-2. Next unfasten the Shroud. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
-3. Unscrew the four (4) support bracket screws holding up the cooler shroud. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the shroud.
+2. Next unfasten the duct. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).
+3. Unscrew the four (4) support bracket screws holding up the cooler duct. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the duct.
 4. Set the bracket and screws safely aside.
-5. Slide the Cooler Shroud horizontally off of the CPU Cooling fan, and set aside.
-6. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the shroud.
+5. Slide the Cooler duct horizontally off of the CPU Cooling fan, and set aside.
+6. You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the duct.
 
 
-  ![Removing CPU Cooler Shroud thumbscrews](./img/b2/cpu-shroud-thumbscrews-back.jpg)
+  ![Removing CPU Cooler duct thumbscrews](./img/b2/cpu-duct-thumbscrews-back.jpg)
 
-**Fig. 29:** the 4 CPU Cooler Shroud thumbscrews.
+**Fig. 29:** the 4 CPU Cooler duct thumbscrews.
 
-  ![Bracket screws, top (close)](./img/b2/cpu-shroud-screws-side-top.jpg)
+  ![Bracket screws, top (close)](./img/b2/cpu-duct-screws-side-top.jpg)
 
 **Fig. 30:** Top two Phillips screws of the Cooler bracket.
 
-  ![Bracket screws, bottom (close)](./img/b2/cpu-shroud-screws-side-bottom.jpg)
+  ![Bracket screws, bottom (close)](./img/b2/cpu-duct-screws-side-bottom.jpg)
 
 **Fig. 31:** Bottom two Phillips screws of the Cooler bracket.
 
-  ![Side View of Cooler Shroud](./img/b2/cpu-shroud-removal.jpg)
+  ![Side View of Cooler duct](./img/b2/cpu-duct-removal.jpg)
 
-**Fig. 32:** Showing the direction to remove the Cooler Shroud.
+**Fig. 32:** Showing the direction to remove the Cooler duct.
 
-  ![Internals with Shroud Removed](./img/b2/cpu-shroud-removed.jpg)
+  ![Internals with duct Removed](./img/b2/cpu-duct-removed.jpg)
 
-**Fig. 33:** Exposed Cooler Shroud.
+**Fig. 33:** Exposed Cooler duct.
 
-  ![Internal view of the CPU Cooler Shroud](./img/b2/cpu-shroud-internal.jpg)
+  ![Internal view of the CPU Cooler duct](./img/b2/cpu-duct-internal.jpg)
 
-**Fig. 34:** Removed Cooler Shroud for reference.
+**Fig. 34:** Removed Cooler duct for reference.
 
-  ![Cooler and fan set aside](./img/b2/cpu-shroud-removed-connected.jpg)
+  ![Cooler and fan set aside](./img/b2/cpu-duct-removed-connected.jpg)
 
 
-**Fig. 35:** Removed CPU Cooler Shroud and attached fan beside Thelio Chassis.
+**Fig. 35:** Removed CPU Cooler duct and attached fan beside Thelio Chassis.
 
 
 [Return to Contents](#table-of-contents)
 
 
-## Replacing the CPU Cooler Shroud
+## Replacing the CPU Cooler duct
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver
 
@@ -376,19 +376,19 @@ The power button assembly is held on by a single nut inside the case.
 
 **Screws:** 16 total
   - 8 Thumbscrews (Phillips/Cross-head) Top Case.
-  - 4 Thumbscrews (Phillips/Cross-head) Shroud.
-  - 4 Non-Thumbscrews (Phillips/Cross-head) Shroud Bracket.
+  - 4 Thumbscrews (Phillips/Cross-head) duct.
+  - 4 Non-Thumbscrews (Phillips/Cross-head) duct Bracket.
 
-1. Slide the Cooler Shroud horizontally over the CPU
+1. Slide the Cooler duct horizontally over the CPU
 cooling fan, encasing it.
-2. Align the holes of the Shroud with the holes framing
+2. Align the holes of the duct with the holes framing
 the air-vent on the back of the chassis.
 3. Replace the four thumbscrews on the back of the case,
-fastening the shroud to the outer frame.
+fastening the duct to the outer frame.
 4. Replace the four (4) support bracket screws holding up
-the cooler shroud. There are two (2) Cross-head (Phillips)
+the cooler duct. There are two (2) Cross-head (Phillips)
 screws at the bottom of the chassis, and two (2) on the
-side of the shroud.
+side of the duct.
 5. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 
   <!--Hyperlink to Replacing Top Case section needed.-->
@@ -397,21 +397,21 @@ side of the shroud.
 
 Fig. 36: The exposed cooler.
 
-  ![Shroud replaced](./img/b2/cpu-shroud-replacement.jpg)
+  ![duct replaced](./img/b2/cpu-duct-replacement.jpg)
 
-Fig. 37: Direction for replacing the Shroud.
+Fig. 37: Direction for replacing the duct.
 
-  ![Bracket screws, top (close)](./img/b2/cpu-shroud-screws-side-top.jpg)
+  ![Bracket screws, top (close)](./img/b2/cpu-duct-screws-side-top.jpg)
 
 Fig. 38: Top two Phillips screws of the Cooler bracket replaced.
 
-  ![Bracket screws, bottom (close)](./img/b2/cpu-shroud-screws-side-bottom.jpg)
+  ![Bracket screws, bottom (close)](./img/b2/cpu-duct-screws-side-bottom.jpg)
 
 Fig. 39: Bottom two Phillips screws of the Cooler bracket.
 
-  ![Replace the CPU Cooler Shroud and thumbscrews](./img/b2/cpu-shroud-thumbscrews-back.jpg)
+  ![Replace the CPU Cooler duct and thumbscrews](./img/b2/cpu-duct-thumbscrews-back.jpg)
 
-**Fig. 40:** Replacing the CPU Cooler Shroud thumbscrews.
+**Fig. 40:** Replacing the CPU Cooler duct thumbscrews.
 
 
 
@@ -502,7 +502,7 @@ Link for the video for RAM Service:
   - 12 Thumbscrews (Phillips/Crosshead).
 
   1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
-  2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
+  2. It may be helpful, but is not necessary, to [Remove the CPU Cooler duct.](#removing-the-duct)
   <!--it may be necessary on this model.-->
   3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
   4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
@@ -539,7 +539,7 @@ Link for the video for RAM Service:
   1. Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.
   2. Insert the RAM stick in the slot. The order of the slots matters, (see tables above).
   3. Press evenly on the memory stick until both tabs lock into place. You’ll hear two clicks once it’s seated, and the clips will snap closed against the RAM.
-  4. Once the RAM is in place, [replace the CPU Cooler Shroud](#replacing-the-cpu-cooler-shroud) (if applicable).
+  4. Once the RAM is in place, [replace the CPU Cooler duct](#replacing-the-cpu-cooler-duct) (if applicable).
   5. [Replace the Top Case.](#replacing-the-top-case)
   6. Reconnect external devices: keyboard, mouse, monitor(s).
   7. Reconnect external power cable and turn power-supply switch to the on position.
@@ -588,13 +588,13 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 **Before you remove the lid, be sure to power off and unplug all cords from the computer.**
 
 1. First follow the steps in [Removing the Top Case.](#removing-the-top-case)
-2. It may also be helpful to [Remove the CPU Cooler Shroud.](#removing-the-shroud)
+2. It may also be helpful to [Remove the CPU Cooler duct.](#removing-the-duct)
 3. To remove your graphics card, twist off the 3 thumbscrews from the PCI bracket.
 4. Remove the GPU brace. Unscrew the bottom two screws, and then the top two screws, to remove the brace. Both the PCI bracket and the GPU brace keep your graphics card secure and in place (Fig 23).
 5. Remove the GPU from the PCIe slot by pressing on the release clip on the right. This is where your chosen (non-metal) poking tool may come in handy, to reach the clip on the board without trying to squeeze your hand between components.
 6. Disconnect the power cables from the GPU (if applicable), and tie back any cables you are not planning on using with the provided velcro straps.
 7. Now you are ready to install an alternative or [replacement GPU.](#replacing-the-gpu)
-8. If you are not planning on installing another GPU follow the steps to [Replace the CPU Cooler Shroud,](#replacing-the-shroud) [Replace the Top Case,](#replacing-top-case) and reconnect all cables and peripherals.
+8. If you are not planning on installing another GPU follow the steps to [Replace the CPU Cooler duct,](#replacing-the-duct) [Replace the Top Case,](#replacing-top-case) and reconnect all cables and peripherals.
 
 <!--[Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
@@ -691,7 +691,7 @@ The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the P
 
 The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (**Fig. 53**).
 
-Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Shroud and/or GPU to gain easier access. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
+Depending on the M.2 drive slot you intend to use, remove the CPU Cooler duct and/or GPU to gain easier access. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
 
 Link for the video for GPU removal:
 (https://youtu.be/3bUcp0S1HrE)
@@ -762,7 +762,7 @@ To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Ex
 
 ## Removing an M.2 Drive
 
-Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier access. A Crosshead (Phillips) screwdriver is required.
+Removing an M.2 may require removal of the GPU or CPU Cooler duct for easier access. A Crosshead (Phillips) screwdriver is required.
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
@@ -775,13 +775,13 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier a
   - 1 M.2 securing screw (per Drive).
 
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
-2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
+2. [Remove the CPU Cooler duct](#removing-the-duct) (if applicable).
 3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Gently, but firmly remove the M.2 drive horizontally from the slot.
 6. Replace the screw, fastening the M.2 in place.
 7. [Replace the GPU](#replacing-the-gpu) (if applicable).
-8. [Replace the CPU Cooler Shroud](#replacing-the-shroud) (if applicable).
+8. [Replace the CPU Cooler duct](#replacing-the-duct) (if applicable).
 9. [Replace the Top Case.](#replacing-the-top-case)
 10. Reconnect all cables and peripherals.
 
@@ -790,7 +790,7 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Shroud for easier a
 
 ## Replacing an M.2 Drive
 
-Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for easier access. A Crosshead (Phillips) screwdriver is required.
+Replacing an M.2 drive may require removal of the GPU or CPU Cooler duct for easier access. A Crosshead (Phillips) screwdriver is required.
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).
 
@@ -803,14 +803,14 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Shroud for e
   - 1 M.2 securing screw (per Drive).
 
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
-2. [Remove the CPU Cooler Shroud](#removing-the-shroud) (if applicable).
+2. [Remove the CPU Cooler duct](#removing-the-duct) (if applicable).
 3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Line up the notch on the M.2 drive.
 6. Insert the new drive into its port on the motherboard.
 7. Replace the screw, fastening the M.2 in place.
 8. [Replace the GPU](#replacing-the-gpu) (if applicable).
-9. [Replace the CPU](replacing-the-cooler) Cooler Shroud (if applicable).
+9. [Replace the CPU](replacing-the-cooler) Cooler duct (if applicable).
 10. [Replace the Top Case.](#replacing-the-top-case)
 11. Reconnect all cables and peripherals.
 
@@ -835,7 +835,7 @@ This guide will explain how to remove the CPU Cooler, clean the CPU of thermal p
 
 ## Remove the CPU Thermal Paste
 
-Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may also require removing the GPU for easier access.
+Removing CPU thermal paste requires removal of the CPU Cooler duct. It may also require removing the GPU for easier access.
 
 **Tools required:** Crosshead (Phillips) screwdriver, Rubbing Alcohol, Paper Towels, Thermal Paste.
 
@@ -845,13 +845,13 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 **Screws:** 16 total
   - 8 Thumbscrews (Phillips/Crosshead) on the Top Case.
-  - 4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler Shroud.
+  - 4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler duct.
   - 4 Bracket Screws securing the CPU heat sink.
 
 <!-- all of these screw numbers will need verified-->
 
 1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
-2. Follow the steps in [Removing the CPU Cooler Shroud.](#removing-the-shroud)
+2. Follow the steps in [Removing the CPU Cooler duct.](#removing-the-duct)
 3. Follow the steps in [Removing the GPU](#removing-the-gpu) (if applicable).
 4. Gently but firmly separate the Cooling Fans from the Heat Sink. The fans are held on by clips which can be pried from the sides of the heat sink.
 5. Next, disconnect the power cables from the Cooling Fans.
@@ -863,7 +863,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 11. Replace the Heat Sink over the CPU core.
 12. Re-fasten the Heat Sink screws, again using the opposite corner method described above.
 13. Follow the steps to [Replace the GPU](#replacing-the-gpu) (if applicable).
-14. Follow the steps to [Replace the CPU Cooler Shroud.](#replacing-the-shroud)
+14. Follow the steps to [Replace the CPU Cooler duct.](#replacing-the-duct)
 15. Follow the steps to [Replace the Top Case.](#replacing-the-top-case)
 
 
@@ -892,7 +892,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Shroud. It may als
 
 ## Replace the CPU Thermal paste
 
-Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also require removing the GPU for easier access.
+Replacing CPU thermal requires removal of the CPU Cooler duct. It may also require removing the GPU for easier access.
 
 **Tools required:** Crosshead (Phillips) screwdriver, Thermal Paste.
 
@@ -902,7 +902,7 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 
 **Screws:** 12 total
   - 8 Thumbscrews (Phillips/Crosshead) on the Top Case.
-  - 4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler Shroud.
+  - 4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler duct.
   - 4 Bracket Screws securing the CPU heat sink.
 
 
@@ -913,7 +913,7 @@ Replacing CPU thermal requires removal of the CPU Cooler Shroud. It may also req
 5. Once the Heat Sink is fastened down, clip the CPU Cooling Fans back onto the Heat Sink.
 6. Reconnect the power cables to the CPU Cooling Fans.
 7. Follow the steps in [Replacing the GPU](#replacing-the-gpu) (if applicable).
-8. Next, follow the steps in [Replacing the CPU Cooler Shroud.](#replacing-the-shroud)
+8. Next, follow the steps in [Replacing the CPU Cooler duct.](#replacing-the-duct)
 9. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 10. Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.
 11. Power on the Thelio to ensure successful boot.

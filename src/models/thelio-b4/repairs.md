@@ -9,7 +9,7 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
 - [Replacing the GPU](#replacing-the-gpu)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
@@ -147,15 +147,15 @@ Thelio supports one dual-slot dedicated GPU. The GPU slot is a PCIe 5.0 x16 slot
 
 _The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPU._
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
+The CPU duct guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
     - The GPU can also be removed to provide more room for working with the components.
@@ -163,11 +163,11 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ![Front CPU fan connector](./img/front-cpu-fan-connector.webp)
 
-3. Unscrew the four back screws holding the CPU shroud in place.
+3. Unscrew the four back screws holding the CPU duct in place.
 
-![CPU shroud screws](./img/cpu-shroud-screws.webp)
+![CPU duct screws](./img/cpu-duct-screws.webp)
 
-4. Pull the CPU shroud away from the machine.
+4. Pull the CPU duct away from the machine.
 
 ## Replacing the RAM:
 
@@ -179,7 +179,7 @@ Thelio B4 supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR5 DIMMs (no
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
 2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
 
 ![RAM slots](./img/ram-slots.webp)
@@ -217,7 +217,7 @@ Thelio B4 has three M.2 slots (M key), supporting M.2 size 2280.
 
 ### Steps to replace the M.2 drives (slots 1 and 2):
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
     - Removing the GPU is optional but recommended to provide more working space and avoid damage.
 2. Unscrew and remove the M.2 heatsink.
     - The heatsink screws are held captive, and will not fully come out of the heatsink.
@@ -243,30 +243,30 @@ Thelio B4 has three M.2 slots (M key), supporting M.2 size 2280.
 7. Remove the existing M.2 drive by pulling it out of the slot.
 8. Insert the new M.2 drive into the slot and hold it in place.
 9. Replace the retainer screw.
-10. Replace the M.2 switch, SSD in M.2 slot 1 (if installed), M.2 heatsink, CPU shroud, GPU, GPU brace, and top case.
+10. Replace the M.2 switch, SSD in M.2 slot 1 (if installed), M.2 heatsink, CPU duct, GPU, GPU brace, and top case.
     - If you are installing an SSD in M.2 slot 1 for the first time, remove any protective plastic that may be covering the thermal tape.
 
 ## Replacing the CPU fans:
 
-Thelio B4 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio B4 contains two CPU fans. One is mounted on the CPU duct, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fan:
+### Steps to replace the duct-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. Unscrew the four screws holding the fan onto the shroud.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
+2. Unscrew the four screws holding the fan onto the duct.
 
-![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
+![CPU duct fan screws](./img/cpu-duct-fan-screws.webp)
 
-3. When reinstalling the fan into the CPU shroud, the spinning side should face outward (towards the front of the case), and the cable should point towards the bottom-right corner of the open side of the shroud.
+3. When reinstalling the fan into the CPU duct, the spinning side should face outward (towards the front of the case), and the cable should point towards the bottom-right corner of the open side of the duct.
     - Overtightening the fan's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
     - Alternatively, the opposite side of the bracket (clipped onto the heatsink) can be released first.
 
@@ -291,7 +291,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), [remove the CPU duct](#removing-the-cpu-duct), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler crossbar onto the vertical mounting brackets.
     - The screws are held captive, and will not fully come out of the crossbar.
     - Only the two outer screws need to be removed; the center screw holding the horizontal crossbar onto the heatsink does not need to be removed.
@@ -335,7 +335,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is a Noctua NH-U9S.
 2. Place the CPU cooler onto the CPU; while holding it in place, screw each end of the cooler crossbar onto one of the mounting brackets.
     - The cooler should be oriented so the hole in the vertical center of the heatsink is facing the right side (front of the case).
     - Insert each screw partially first, then fully tighten both.
-3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU shroud, GPU bracket, and top case.
+3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU duct, GPU bracket, and top case.
 
 ## Replacing the power supply:
 

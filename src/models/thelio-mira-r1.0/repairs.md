@@ -6,7 +6,7 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Po
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
@@ -147,7 +147,7 @@ Thelio Mega r1.0 supports up to 128GB (4x32GB) of RAM. The RAM sticks are Unregi
 
 ![RAM slots](./img/ram-slots.jpg)
 
-_The CPU shroud has been removed for better visibility in the above photo; removing the CPU shroud is not required to access the RAM slots._
+_The CPU duct has been removed for better visibility in the above photo; removing the CPU duct is not required to access the RAM slots._
 
 2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
 
@@ -161,54 +161,54 @@ _The CPU shroud has been removed for better visibility in the above photo; remov
 
 4. Replace the top case.
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU cooler.
+The CPU duct guides airflow through the CPU cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
-2. Unplug the connector for the CPU shroud-mounted fan.
+2. Unplug the connector for the CPU duct-mounted fan.
     - Both fan connectors can be unplugged if it is difficult to tell which plug is for which fan.
 
 ![CPU fan connectors](./img/cpu-fan-connectors.jpg)
 
-3. Unscrew the four back screws holding the CPU shroud in place.
+3. Unscrew the four back screws holding the CPU duct in place.
 
-![CPU shroud screws](./img/cpu-shroud-screws.jpg)
+![CPU duct screws](./img/cpu-duct-screws.jpg)
 
-4. Pull the CPU shroud away from the machine.
+4. Pull the CPU duct away from the machine.
 
 ## Replacing the CPU fans:
 
-Thelio Mira contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio Mira contains two CPU fans. One is mounted on the CPU duct, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fan:
+### Steps to replace the duct-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. To remove the CPU shroud fan, unscrew the four fan screws inside the shroud.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
+2. To remove the CPU duct fan, unscrew the four fan screws inside the duct.
 
-![CPU shroud fan screws](./img/cpu-shroud-fan-screws.jpg)
+![CPU duct fan screws](./img/cpu-duct-fan-screws.jpg)
 
 3. Free the cable from the cable keeper, then remove the fan.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Pull the center loop of the fan clip to remove it from the CPU cooler.
 
 ![CPU cooler fan clip](./img/cpu-cooler-fan-clips.jpg)
 
 3. Repeat the process for the bottom clip, then remove the fan from the CPU cooler.
-4. Unplug the fan from the CPU fan power board (if it wasn't already unplugged when the CPU shroud was removed).
+4. Unplug the fan from the CPU fan power board (if it wasn't already unplugged when the CPU duct was removed).
 5. When reinstalling the CPU fans, both fans should be oriented so the side with the non-spinning cover faces the back of the machine, while the spinning side faces the front of the machine.
 
 ## Replacing the CPU cooler and CPU:
@@ -223,7 +223,7 @@ The CPU uses an AMD AM4 socket.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU duct](#removing-the-cpu-duct), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two CPU cooler mounting screws. The cooler brackets are under spring tension, so it's best to loosen each side a little at a time.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
@@ -255,7 +255,7 @@ The CPU uses an AMD AM4 socket.
 
 2. Place the CPU cooler over the CPU, aligning the two screws on the CPU cooler with the studs on the mounting brackets, and tighten the screws.
     - To distribute the thermal paste evenly across the CPU, tighten each screw a little bit at a time.
-3. Reinstall the cooler-mounted CPU fan, CPU shroud, GPUs, GPU bracket, and top case.
+3. Reinstall the cooler-mounted CPU fan, CPU duct, GPUs, GPU bracket, and top case.
 
 ## Replacing the power supply:
 

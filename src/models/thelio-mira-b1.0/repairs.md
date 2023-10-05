@@ -7,7 +7,7 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Po
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
 - [Replacing a GPU](#replacing-a-gpu)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
@@ -153,26 +153,26 @@ Thelio Mira supports up to two dual-slot GPUs. All PCIe x16 slots run at Gen 4 s
 
 _The GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs._
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
+The CPU duct guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-a-gpu).
 2. Unplug the connectors for the CPU fans.
 
 ![Top exhaust fans](./img/top-fan-connectors.webp)
 
-3. Unscrew the four back screws holding the CPU shroud in place.
+3. Unscrew the four back screws holding the CPU duct in place.
 
-![CPU shroud screws](./img/cpu-shroud-screws.webp)
+![CPU duct screws](./img/cpu-duct-screws.webp)
 
-4. Pull the CPU shroud away from the machine.
+4. Pull the CPU duct away from the machine.
 
 ## Replacing the M.2 drives:
 
@@ -193,7 +193,7 @@ Thelio Mira has three M.2 slots. All slots support M.2 sizes 22110, 2280, 2260, 
 ### Steps to replace the M.2 drives:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace and GPUs](#replacing-a-gpu).
-2. If you are accessing the top M.2 slot, [remove the CPU shroud](#removing-the-cpu-shroud).
+2. If you are accessing the top M.2 slot, [remove the CPU duct](#removing-the-cpu-duct).
 3. Remove the M.2 heatsink covering the slot you wish to access.
     - The heatsink screws are held captive, and will not fully come out of the heatsink.
     - It may take some pressure to remove the heatsink and thermal tape from the M.2 drive. After unscrewing the heatsink, pull slowly to avoid breaking the thermal tape.
@@ -216,34 +216,34 @@ Thelio Mira has three M.2 slots. All slots support M.2 sizes 22110, 2280, 2260, 
 
 ![M.2 thermal tape](./img/m2-thermal-tape.webp)
 
-10. Replace the M.2 heatsinks, CPU shroud, GPUs, GPU brace, and top case.
+10. Replace the M.2 heatsinks, CPU duct, GPUs, GPU brace, and top case.
 
 ## Replacing the CPU fans:
 
-Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio Mira b1.0 contains two CPU fans. One is mounted on the CPU duct, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fan:
+### Steps to replace the duct-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. Unscrew the four screws (two on each side) holding the fan brackets onto the shroud.
-    - Removing the brackets from the shroud is not required to remove the fan, but it makes installing the fan much easier.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
+2. Unscrew the four screws (two on each side) holding the fan brackets onto the duct.
+    - Removing the brackets from the duct is not required to remove the fan, but it makes installing the fan much easier.
 
-![CPU shroud fan bracket screws](./img/cpu-shroud-fan-bracket-screws.webp)
+![CPU duct fan bracket screws](./img/cpu-duct-fan-bracket-screws.webp)
 
 3. Unscrew the four screws attaching the two brackets to the fan.
 
-![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
+![CPU duct fan screws](./img/cpu-duct-fan-screws.webp)
 
-4. When reinstalling the fan into the CPU shroud, the spinning side should face the CPU cooler and the front of the case, while the side with a stationary cover should face the back of the case.
+4. When reinstalling the fan into the CPU duct, the spinning side should face the CPU cooler and the front of the case, while the side with a stationary cover should face the back of the case.
     - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
     - Alternatively, the opposite side of the bracket (clipped onto the heatsink) can be released first.
 
@@ -264,7 +264,7 @@ The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU duct](#removing-the-cpu-duct), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler onto the vertical mounting brackets.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.webp)
@@ -304,7 +304,7 @@ The CPU uses an Intel LGA 1200 socket. The CPU cooler is a Noctua NH-U12S.
 
 2. Place the CPU cooler onto the CPU; while holding it in place, screw each end of the cooler crossbar onto one of the mounting brackets.
     - Insert each screw partially first, then fully tighten both.
-3. Reinstall the cooler-mounted CPU fan, CPU shroud, GPU bracket, and top case.
+3. Reinstall the cooler-mounted CPU fan, CPU duct, GPU bracket, and top case.
 
 ## Replacing the power supply:
 

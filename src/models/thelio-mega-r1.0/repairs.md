@@ -8,7 +8,7 @@ Many components in your Thelio Mega can be upgraded or replaced as necessary. Po
 - [Replacing the case fans](#replacing-the-case-fans)
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Replacing the RAM](#replacing-the-ram)
 - [Removing the top crossbar](#removing-the-top-crossbar)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
@@ -212,26 +212,26 @@ _It may take some pressure to remove the heatsink and thermal tape from the M.2 
 
 8. Replace the M.2 heatsinks, GPUs, GPU brace, inner partition, and top case.
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU coolers. It covers the CPU and RAM slots on the motherboard.
+The CPU duct guides airflow through the CPU coolers. It covers the CPU and RAM slots on the motherboard.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the GPU brace](#replacing-a-gpu).
-2. Unplug the connectors for the two CPU shroud-mounted fans.
+2. Unplug the connectors for the two CPU duct-mounted fans.
 
 ![Top exhaust fans](./img/top-fan-connectors.jpg)
 
-3. Unscrew the four back screws holding the CPU shroud in place.
+3. Unscrew the four back screws holding the CPU duct in place.
 
-![CPU shroud screws](./img/cpu-shroud-screws.jpg)
+![CPU duct screws](./img/cpu-duct-screws.jpg)
 
-5. Pull the CPU shroud away from the machine.
+5. Pull the CPU duct away from the machine.
 
 ## Replacing the RAM:
 
@@ -243,7 +243,7 @@ Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregi
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. To remove an existing RAM stick, flip the bottom latch down away from the stick, then pull the stick out of the slot, starting from the bottom edge. (The top of the RAM slot does not move.)
 
 ![RAM slots](./img/ram-slots.jpg)
@@ -256,7 +256,7 @@ _The CPU cooler has been removed for better visibility in the above photo; remov
 
 ![RAM slot order](./img/ram-order.webp)
 
-4. Replace the CPU shroud, GPU brace, inner partition, and top case.
+4. Replace the CPU duct, GPU brace, inner partition, and top case.
 
 ## Removing the top crossbar:
 
@@ -281,31 +281,31 @@ The top crossbar provides a brace for the outer case. It needs to be removed whe
 
 ## Replacing the CPU fans:
 
-Thelio Mega r1.0 contains three CPU fans. Two are mounted on the CPU shroud, and one is mounted on the cooler.
+Thelio Mega r1.0 contains three CPU fans. Two are mounted on the CPU duct, and one is mounted on the cooler.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fans:
+### Steps to replace the duct-mounted CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. To remove the back CPU shroud fan, unscrew the four screws holding the fan brackets into the shroud (highlighted green below).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
+2. To remove the back CPU duct fan, unscrew the four screws holding the fan brackets into the duct (highlighted green below).
 
-![CPU shroud inner screws](./img/cpu-shroud-screws-inner.webp)
+![CPU duct inner screws](./img/cpu-duct-screws-inner.webp)
 
 3. Free the cable from the velcro loop (highlighted blue above), then unscrew the four screws holding the brackets onto the fan.
 
-![CPU shroud back fan screws](./img/cpu-shroud-fan-screws-back.jpg)
+![CPU duct back fan screws](./img/cpu-duct-fan-screws-back.jpg)
 
-4. To remove the front CPU shroud fan, unscrew the four screws attaching the front of the shroud to the back (highlighted red above).
-5. Then, unscrew the four screws attaching the fan to the shroud.
+4. To remove the front CPU duct fan, unscrew the four screws attaching the front of the duct to the back (highlighted red above).
+5. Then, unscrew the four screws attaching the fan to the duct.
 
-![CPU shroud front fan screws](./img/cpu-shroud-fan-screws-front.jpg)
+![CPU duct front fan screws](./img/cpu-duct-fan-screws-front.jpg)
 
 ### Steps to replace the cooler-mounted CPU fan:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the top crossbar](#removing-the-top-crossbar).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU duct](#removing-the-cpu-duct), and [remove the top crossbar](#removing-the-top-crossbar).
 2. Pull the corners of the fan's top clip away from the heatsink it's held to.
 
 ![CPU cooler fan top clip](./img/cpu-cooler-fan-clip.jpg)
@@ -327,7 +327,7 @@ The CPU uses an AMD sTRX4 socket.
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the top crossbar](#removing-the-top-crossbar), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace and GPUs](#replacing-a-gpu), [remove the CPU duct](#removing-the-cpu-duct), [remove the top crossbar](#removing-the-top-crossbar), and [remove the cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan).
 2. Unscrew the two screw access covers from the holes in the cooler plate.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.jpg)
@@ -391,7 +391,7 @@ The CPU uses an AMD sTRX4 socket.
 
 ![CPU cooler orientation](./img/cpu-cooler-orientation.jpg)
 
-4. Reinstall the cooler-mounted CPU fan, top crossbar, CPU shroud, GPUs, GPU bracket, inner partition, and top case.
+4. Reinstall the cooler-mounted CPU fan, top crossbar, CPU duct, GPUs, GPU bracket, inner partition, and top case.
 
 ## Replacing the power supply:
 
@@ -505,7 +505,7 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 ### Steps to check the front power button wiring:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. On the back of the power button, the four pins should be connected to the four-wire connector as follows:
 
 ![Power button wiring](./img/power-button-wiring.jpg)
@@ -543,7 +543,7 @@ The Thelio-IO boards connect to the motherboard's USB headers for firmware updat
 
 ### Steps to check the USB wiring:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the GPU brace](#replacing-a-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Two of the Thelio-IO boards have `USB0` ports. The port on each board connects to a cable (labeled `USB`) with the red wire on the bottom.
 
 ![USB wiring on Thelio-IO board](./img/thelio-io-usb.jpg)

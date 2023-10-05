@@ -8,7 +8,7 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 - [Removing the top case](#removing-the-top-case)
 - [Replacing the GPU](#replacing-the-gpu)
 - [Replacing the case fans](#replacing-the-case-fans)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
@@ -158,15 +158,15 @@ The fans connect to the Thelio-IO board using a Y splitter cable mounted on the 
 6. The new fan's cable should be oriented towards the front-right corner of the case.
     - The cable runs along the inner corner of the case, and does not pass through any of the cable management holes.
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots, top GPU, and spare 2.5" drive screws.
+The CPU duct guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots, top GPU, and spare 2.5" drive screws.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
     - The GPU can also optionally be removed to provide more room for working with the components.
@@ -176,13 +176,13 @@ The CPU shroud guides airflow through the CPU cooler. It covers the CPU and part
 
 ![CPU fan connectors](./img/cpu-fan-connectors.webp)
 
-3. Unscrew the four back thumbscrews and two crossbar screws holding the CPU shroud in place.
+3. Unscrew the four back thumbscrews and two crossbar screws holding the CPU duct in place.
 
-![CPU shroud screws (internal)](./img/cpu-shroud-screws-internal.webp)
+![CPU duct screws (internal)](./img/cpu-duct-screws-internal.webp)
 
-![CPU shroud screws (external)](./img/cpu-shroud-screws-external.webp)
+![CPU duct screws (external)](./img/cpu-duct-screws-external.webp)
 
-4. Pull the CPU shroud away from the machine.
+4. Pull the CPU duct away from the machine.
 
 ## Adding/removing 2.5" storage drives:
 
@@ -200,7 +200,7 @@ Thelio Major R3 supports up to four 2.5" SATA III drives.
 ![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
 
 3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
-    - For revisions where the black plastic ring is located over the CPU shroud, the ring can be popped out from below using a flathead screwdriver, or by hand after [removing the CPU shroud](#removing-the-cpu-shroud).
+    - For revisions where the black plastic ring is located over the CPU duct, the ring can be popped out from below using a flathead screwdriver, or by hand after [removing the CPU duct](#removing-the-cpu-duct).
 
 ![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
 
@@ -225,8 +225,8 @@ Thelio Major R3 supports up to 128GB (4x32GB) of RAM. The RAM sticks are DDR5 DI
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU shroud](#removing-the-cpu-shroud).
-    - Removing the CPU shroud is optional, but is recommended to provide easier access to the RAM slots.
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
+    - Removing the CPU duct is optional, but is recommended to provide easier access to the RAM slots.
 2. To remove an existing RAM stick, flip the top and bottom latches away from the stick, then pull the stick out of the slot.
 
 ![RAM slots](./img/ram-slots.webp)
@@ -264,37 +264,37 @@ M.2 slots 2 and 3 (the bottom two slots) share bandwidth with the PCIe 5.0 x16 s
 4. Remove the existing M.2 drive by pulling it out of the slot.
 5. Insert the new M.2 drive into the slot; while holding the circular locking ring open, push the drive towards the motherboard.
 6. While holding the drive in place, let go of the circular locking ring. The ring will rotate back to the closed position.
-7. Replace the M.2 heatsink, CPU shroud, GPU, GPU brace, and top case.
+7. Replace the M.2 heatsink, CPU duct, GPU, GPU brace, and top case.
     - If you are populating an SSD slot for the first time, remove any protective plastic that may be covering the thermal tape.
 
 ![M.2 thermal tape](./img/m2-thermal-tape.webp)
 
 ## Replacing the CPU fans:
 
-Thelio Major R3 contains two CPU fans mounted within the CPU shroud. The front fan is a Noctua NF-F12, and the back fan is a Be Quiet! Silent Wings 3.
+Thelio Major R3 contains two CPU fans mounted within the CPU duct. The front fan is a Noctua NF-F12, and the back fan is a Be Quiet! Silent Wings 3.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the shroud-mounted CPU fans:
+### Steps to replace the duct-mounted CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
-2. For the fan being replaced, unscrew the four screws holding the fan bracket onto the CPU shroud.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace](#replacing-the-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
+2. For the fan being replaced, unscrew the four screws holding the fan bracket onto the CPU duct.
     - The front fan's screws are highlighted yellow; the back fan's screws are highlighted red.
 
-![CPU shroud fan bracket screws](./img/cpu-shroud-fan-bracket-screws.webp)
+![CPU duct fan bracket screws](./img/cpu-duct-fan-bracket-screws.webp)
 
 4. Unscrew the four screws attaching the bracket to the fan.
 
-![CPU shroud fan screws](./img/cpu-shroud-fan-screws.webp)
+![CPU duct fan screws](./img/cpu-duct-fan-screws.webp)
 
 5. When reinstalling the fans:
     - The front fan's spinning side should face the bracket's screws; the back fan's stationary cover should face the bracket's screws.
-    - The back bracket should face the back of the shroud, and the front bracket should face the front of the shroud.
-    - There are two sets of possible screwholes for each bracket; for each bracket, the frontmost set of screwholes (closest to the bent side of the shroud) should be used.
+    - The back bracket should face the back of the duct, and the front bracket should face the front of the duct.
+    - There are two sets of possible screwholes for each bracket; for each bracket, the frontmost set of screwholes (closest to the bent side of the duct) should be used.
     - Once installed, both fans should have their spinning sides facing the front of the machine and their stationary covers facing the back of the machine.
-    - Both cables should be oriented towards the top edge of the motherboard (the top corner of the open side of the shroud.)
+    - Both cables should be oriented towards the top edge of the motherboard (the top corner of the open side of the duct.)
     - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ## Replacing the CPU cooler and CPU:
@@ -309,7 +309,7 @@ The CPU uses an AMD AM5 socket. The CPU cooler is a [Noctua NH-U12S](https://noc
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the GPU brace and GPU](#replacing-the-gpu), and [remove the CPU duct](#removing-the-cpu-duct).
 2. While holding the CPU cooler in place so it doesn't fall, unscrew the two screws holding the CPU cooler crossbar onto the vertical mounting brackets.
     - The screws are held captive, and will not fully come out of the crossbar.
     - Only the two outer screws need to be removed; the center screw holding the horizontal crossbar onto the heatsink does not need to be removed.
@@ -357,7 +357,7 @@ The CPU uses an AMD AM5 socket. The CPU cooler is a [Noctua NH-U12S](https://noc
 2. Place the CPU cooler onto the CPU; while holding it in place, screw each end of the cooler crossbar onto one of the mounting brackets.
     - The cooler should be oriented so the text is readable from the right side (front of the case).
     - Insert each screw partially first, then fully tighten both.
-3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU shroud, GPU, GPU bracket, and top case.
+3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU duct, GPU, GPU bracket, and top case.
 
 ## Replacing the power supply:
 
@@ -424,7 +424,7 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
 1. When wiring the Thelio-IO board, refer to the above image and the following guide. The ports are numbered in the suggested connection order based on position and size.
     - **1:** `POWER0` - to the power supply `PERIF` port (via 4-pin Molex adapter.)
     - **2:** `INTAKE0` - to the [case fans](#replacing-the-case-fans) (via a Y splitter cable).
-    - **3:** `CPUOUT0` - to the splitter board (near the top edge) connecting to both [shroud-mounted CPU fans](#replacing-the-cpu-fans).
+    - **3:** `CPUOUT0` - to the splitter board (near the top edge) connecting to both [duct-mounted CPU fans](#replacing-the-cpu-fans).
     - **4:** `CPUIN0` - to the `CPU_FAN` header at the top of the motherboard.
     ![CPU fan header on motherboard](./img/motherboard-cpu-fan-header.webp)
     - **5:** `DATA0/1/2/3` - to SATA ports #0/#1/#2/#3 on the motherboard, highlighted green below.

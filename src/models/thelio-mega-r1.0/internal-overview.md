@@ -11,7 +11,7 @@
 - 2.5" SATA drive slots are highlighted in pink
 - Power supply is highlighted in purple
 - Thelio-IO to motherboard connections are highlighted in yellow
-- CPU shroud fan connectors are highlighted in orange
+- CPU duct fan connectors are highlighted in orange
 - Inner partition (GPU) fan connectors are highlighted in solid cyan
 
 ### PCIe slot guide:

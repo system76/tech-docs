@@ -4,8 +4,8 @@
 
 ![Internal overview (left side)](./img/components-left.webp)
 
-- CPU cooler & CPU are highlighted in red (located behind the CPU shroud)
-- RAM slots are highlighted in green (located behind the CPU shroud)
+- CPU cooler & CPU are highlighted in red (located behind the CPU duct)
+- RAM slots are highlighted in green (located behind the CPU duct)
 - 2.5" SATA drive cage (with cover removed) is highlighted in pink
 - M.2 slots are highlighted in white (located underneath the GPU & heatsinks)
 - GPU (in PCIe 5.0 x16 slot) is highlighted in yellow

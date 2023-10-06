@@ -4,7 +4,7 @@
 
 ![Internal overview (left side)](./img/components-left.webp)
 
-- CPU cooler & CPU are highlighted in red (located behind the CPU shroud)
+- CPU cooler & CPU are highlighted in red (located behind the CPU duct)
 - RAM slots are highlighted in green
 - 2.5" SATA drive cage is highlighted in pink
 - M.2 slots 1 and 2 are highlighted in white (located underneath the heatsink)

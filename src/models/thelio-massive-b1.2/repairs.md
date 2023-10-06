@@ -8,7 +8,7 @@ Many components in your Thelio Massive can be upgraded or replaced as necessary.
 - [Replacing the case fans](#replacing-the-case-fans)
 - [Replacing a GPU](#replacing-a-gpu)
 - [Replacing the M.2 drive](#replacing-the-m2-drive)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
 - [Replacing the CPU cooler](#replacing-the-cpu-cooler)
@@ -163,34 +163,34 @@ Thelio Massive has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SAT
 5. Replace the retainer screw.
 6. Replace the GPUs, inner partition, and top case.
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud guides airflow through the CPU coolers. It covers the CPUs and RAM slots on the motherboard.
+The CPU duct guides airflow through the CPU coolers. It covers the CPUs and RAM slots on the motherboard.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition).
-2. Unplug the connectors for the two top exhaust fans. (The top exhaust fans are secured to the CPU shroud.)
+2. Unplug the connectors for the two top exhaust fans. (The top exhaust fans are secured to the CPU duct.)
 
 ![Top exhaust fans](./img/top-fan-connectors.jpg)
 
 _The connectors (highlighted above) attach the top exhaust fans to extension cables, which attach to a five-port hub along with the CPU fans. It is not necessary to remove the extension cables._
 
-3. Unscrew the three back screws holding the CPU shroud in place.
+3. Unscrew the three back screws holding the CPU duct in place.
 
-![Back CPU shroud screws](./img/cpu-shroud-screws-back.jpg)
+![Back CPU duct screws](./img/cpu-duct-screws-back.jpg)
 
-4. Unscrew the three side screws holding the CPU shroud in place (on the opposite side from the motherboard.)
+4. Unscrew the three side screws holding the CPU duct in place (on the opposite side from the motherboard.)
 
-![Side CPU shroud screws](./img/cpu-shroud-screws-side.jpg)
+![Side CPU duct screws](./img/cpu-duct-screws-side.jpg)
 
-5. Pull the CPU shroud away from the machine.
+5. Pull the CPU duct away from the machine.
 
-_Note for older revisions: thelio-massive-b1.0 included two additional screws connecting the top crossbar to the CPU shroud. The top crossbar is not attached to the CPU shroud on this revision._
+_Note for older revisions: thelio-massive-b1.0 included two additional screws connecting the top crossbar to the CPU duct. The top crossbar is not attached to the CPU duct on this revision._
 
 ![Top crossbar screws](./img/top-crossbar-screws.webp)
 
@@ -204,7 +204,7 @@ Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) 
 
 ### Steps to replace the RAM:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU duct](#removing-the-cpu-duct).
 2. To remove an existing RAM stick, flip the top latch up away from the stick, then pull the stick out of the slot, starting from the top edge. (The bottom of the RAM slot does not move.)
 
 ![RAM slots](./img/ram-slots.jpg)
@@ -215,7 +215,7 @@ Thelio Massive b1.2 supports up to 1536GB (12x128GB) of RAM, or 768GB (6x128GB) 
     - Dual-CPU RAM slot placement:
     ![2-CPU RAM order](./img/ram-order-2cpu.jpg)
 
-4. Replace the CPU shroud, inner partition, and top case.
+4. Replace the CPU duct, inner partition, and top case.
 
 ## Replacing the CPU fans:
 
@@ -227,7 +227,7 @@ Thelio Massive b1.2 contains four CPU fans (two per CPU.) All coolers and fans a
 
 ### Steps to replace the CPU fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Each fan is secured by two clips (one on each side). Pull the clip down (away from the fan), then sideways (away from the heatsink) to release the fan.
 
 ![CPU fan clips](./img/cpu-fan-clips.jpg)
@@ -252,7 +252,7 @@ Thelio Massive b1.2 contains two CPU coolers (one for each CPU.) Each cooler con
 
 ### Steps to replace the CPU cooler:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), and [remove the CPU fans](#replacing-the-cpu-fans) for the cooler you are removing.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU duct](#removing-the-cpu-duct), and [remove the CPU fans](#replacing-the-cpu-fans) for the cooler you are removing.
 2. Locate the hex key/Allen wrench, which is attached to the case via the velcro cable ties behind the motherboard.
 3. While holding the cooler in place so it doesn't fall, loosen the cooler's screws in reverse order, starting with the center screws (labeled #2), then the corner screws (labeled #1).
     - The corner screws require reaching the hex key through the holes in the heatsink.
@@ -276,7 +276,7 @@ The CPUs clip into the heatsinks before the heatsinks are installed onto the mot
 
 ### Steps to replace the CPU/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU shroud](#removing-the-cpu-shroud), [remove the CPU fans](#replacing-the-cpu-fans), and [remove the CPU cooler](#replacing-the-cpu-cooler).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the inner partition](#removing-the-inner-partition), [remove the CPU duct](#removing-the-cpu-duct), [remove the CPU fans](#replacing-the-cpu-fans), and [remove the CPU cooler](#replacing-the-cpu-cooler).
 2. The CPU is held onto the heatsink by two plastic clips. Release one of the clips by pulling down on the large plastic tab, then carefully lift the CPU off of the heatsink.
     - **Caution:** Do not touch the gold pads on the CPU.
     - It may take some pressure to break the seal of the thermal paste.
@@ -309,13 +309,13 @@ The top exhaust fans assist the CPU fans in expelling hot air from the case.
 
 ### Steps to replace the top exhaust fans:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition). (The CPU shroud can optionally be [removed](#removing-the-cpu-shroud).)
-2. Unscrew the three screws attaching the fan to the CPU shroud.
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the inner partition](#removing-the-inner-partition). (The CPU duct can optionally be [removed](#removing-the-cpu-duct).)
+2. Unscrew the three screws attaching the fan to the CPU duct.
 
 ![Top exhaust fan screws](./img/top-fan-screws.jpg)
 
 3. Unplug the fan from the extension cable and remove it from the case.
-4. Screw the new fan into the CPU shroud, plug it in, and replace the inner partition and top case.
+4. Screw the new fan into the CPU duct, plug it in, and replace the inner partition and top case.
 
 ## Troubleshooting the power button:
 

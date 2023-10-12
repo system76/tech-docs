@@ -7,10 +7,10 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 - [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
 - [Removing the side fan bracket](#removing-the-side-fan-bracket)
-- [Removing the CPU shroud](#removing-the-cpu-shroud)
+- [Removing the CPU duct](#removing-the-cpu-duct)
 - [Unpacking the included accessories](#unpacking-the-included-accessories)
 - [Installing the motherboard](#installing-the-motherboard)
-- [Installing the CPU shroud fans](#installing-the-cpu-shroud-fans)
+- [Installing the CPU duct fans](#installing-the-cpu-duct-fans)
 - [Installing the GPU](#installing-the-gpu)
 - [Installing the SATA backplane](#installing-the-sata-backplane)
 - [Installing 2.5" drives](#installing-25-drives)
@@ -56,7 +56,7 @@ The side fan bracket provides a mounting point to help keep installed GPUs (or o
 
 ![Side fan bracket](./img/gpu-brace.webp)
 
-The fan splitter on the side fan bracket is intended for fans mounted on the side fan bracket, and should not be used for the CPU shroud fans or the bottom intake fan.
+The fan splitter on the side fan bracket is intended for fans mounted on the side fan bracket, and should not be used for the CPU duct fans or the bottom intake fan.
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
@@ -69,28 +69,28 @@ The fan splitter on the side fan bracket is intended for fans mounted on the sid
 
 3. Pull the side fan bracket out of the chassis.
 
-## Removing the CPU shroud:
+## Removing the CPU duct:
 
-The CPU shroud supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU shroud is custom-designed to work with the Noctua `NH-U12S` CPU cooler, which is available as an optional add-on at the time of purchase.
+The CPU duct supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU duct is custom-designed to work with the Noctua `NH-U12S` CPU cooler, which is available as an optional add-on at the time of purchase.
 
-![CPU shroud](./img/cpu-shroud.webp)
+![CPU duct](./img/cpu-duct.webp)
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
-### Steps to remove the CPU shroud:
+### Steps to remove the CPU duct:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the two side screws holding the CPU shroud onto the top crossbar.
+2. Unscrew the two side screws holding the CPU duct onto the top crossbar.
 
-![CPU shroud top crossbar screws](./img/cpu-shroud-screws-crossbar.webp)
+![CPU duct top crossbar screws](./img/cpu-duct-screws-crossbar.webp)
 
-3. Unscrew the four back screws holding the CPU shroud onto the chassis.
-    - Hold onto the shroud while removing the final screw so it doesn't fall.
+3. Unscrew the four back screws holding the CPU duct onto the chassis.
+    - Hold onto the duct while removing the final screw so it doesn't fall.
 
-![CPU shroud back screws](./img/cpu-shroud-screws-back.webp)
+![CPU duct back screws](./img/cpu-duct-screws-back.webp)
 
-4. Pull the CPU shroud out of the chassis.
-5. When replacing the CPU shroud, ensure all fan cables are plugged into one of the fan splitter boards in the top right of the chassis.
+4. Pull the CPU duct out of the chassis.
+5. When replacing the CPU duct, ensure all fan cables are plugged into one of the fan splitter boards in the top right of the chassis.
 
 ## Unpacking the included accessories:
 
@@ -99,7 +99,7 @@ nebula36 includes the following components preinstalled:
 - 1x `nebula_io` power button controller board
 - 1x `MYS7523` top I/O board
 - 3x four-pin fan splitter boards
-- 1x back CPU shroud fan
+- 1x back CPU duct fan
     - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 - 1x bottom case fan
     - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
@@ -107,7 +107,7 @@ nebula36 includes the following components preinstalled:
     - 1x on the front of the chassis
     - 3x on the side of the chassis
     - 1x on the bottom of the chassis
-    - 1x on the CPU shroud
+    - 1x on the CPU duct
     - 1x on the side fan bracket
 
 In addition, nebula36 ships with the following non-installed accessories:
@@ -125,7 +125,7 @@ In addition, nebula36 ships with the following non-installed accessories:
 
 ### Steps to unpack the included accessories:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side fan bracket](#removing-the-side-fan-bracket), and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side fan bracket](#removing-the-side-fan-bracket), and [remove the CPU duct](#removing-the-cpu-duct).
 2. Cut the zip ties holding the accessory boxes in place.
     - The image below highlights where the zip ties are joined; they can be cut anywhere, but must be cut between a joint and the chassis in order to be removed.
 
@@ -149,7 +149,7 @@ Nine standoffs and motherboard screws are included.
 
 ### Steps to install the motherboard:
 
-1. If they are installed, [remove the top case](#removing-the-top-case), [remove the CPU shroud](#removing-the-cpu-shroud) and [remove the side fan bracket](#removing-the-side-fan-bracket).
+1. If they are installed, [remove the top case](#removing-the-top-case), [remove the CPU duct](#removing-the-cpu-duct) and [remove the side fan bracket](#removing-the-side-fan-bracket).
 2. Locate the standoffs and M3 screws from the brown screw and velcro box.
 
 ![Standoffs and M3 screws](./img/standoffs-screws.webp)
@@ -168,9 +168,9 @@ Nine standoffs and motherboard screws are included.
 5. Place the motherboard into the chassis, aligning the motherboard's screw holes with the installed standoffs.
 6. Screw the motherboard into the standoffs using the M3 screws.
 
-## Installing the CPU shroud fans:
+## Installing the CPU duct fans:
 
-nebula36 ships with one 120mm fan (`BQ SIW4-12025-MF-PWM`) installed in the back of the CPU shroud. If you install a CPU cooler with its own fan, such as the optional Noctua `NH-U12S` cooler sold with nebula36 (which includes a Noctua `NF-F12 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU shroud.
+nebula36 ships with one 120mm fan (`BQ SIW4-12025-MF-PWM`) installed in the back of the CPU duct. If you install a CPU cooler with its own fan, such as the optional Noctua `NH-U12S` cooler sold with nebula36 (which includes a Noctua `NF-F12 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU duct.
 
 These instructions use the Noctua `NH-U12S` as an example.
 
@@ -178,7 +178,7 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 ### Steps to install the CPU cooler fan (front):
 
-1. Remove the [top case](#removing-the-top-case) and the [CPU shroud](#removing-the-cpu-shroud).
+1. Remove the [top case](#removing-the-top-case) and the [CPU duct](#removing-the-cpu-duct).
 2. Remove the fan screws from the brown screw and velcro box.
 
 ![Fan screws](./img/accessory-fan-screws.webp)
@@ -189,34 +189,34 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 4. Remove the included `NF-F12` fan from the cooler heatsink by pulling the metal tabs (highlighted green above) off of the heatsink and fan.
 5. Install the cooler onto the motherboard/processor.
-6. Remove the front fan bracket from the CPU shroud by unscrewing the four screws (highlighted green below) and pulling it out of the CPU shroud.
+6. Remove the front fan bracket from the CPU duct by unscrewing the four screws (highlighted green below) and pulling it out of the CPU duct.
 
-![CPU shroud front fan bracket](./img/cpu-shroud-fan-bracket-front.webp)
+![CPU duct front fan bracket](./img/cpu-duct-fan-bracket-front.webp)
 
 7. Place the spinning side of the fan down and the stationary cover up, then orient the fan so the wire points towards the bottom right.
 8. Place the fan bracket over the fan so the thinnest side is on the left.
 9. Screw in the four fan screws.
     - It may take some force to thread the fan screws into the fan's plastic frame.
 
-![CPU shroud fan installation](./img/cpu-shroud-fan-installation.webp)
+![CPU duct fan installation](./img/cpu-duct-fan-installation.webp)
 
-10. Place the CPU shroud fan and bracket into the CPU shroud, with the thinnest side of the bracket pointed into the shroud.
+10. Place the CPU duct fan and bracket into the CPU duct, with the thinnest side of the bracket pointed into the duct.
     - The spinning side of the fan should face the front of the chassis, while the stationary cover should face the back of the chassis.
-11. Replace the screws holding the fan bracket onto the CPU shroud.
-    - By default, the bracket is screwed as far back in the chassis (as farthest away from the L-shaped bend in the shroud) as possible.
+11. Replace the screws holding the fan bracket onto the CPU duct.
+    - By default, the bracket is screwed as far back in the chassis (as farthest away from the L-shaped bend in the duct) as possible.
 
-### Steps to replace the preinstalled CPU shroud fan (back):
+### Steps to replace the preinstalled CPU duct fan (back):
 
-1. Remove the [top case](#removing-the-top-case) and the [CPU shroud](#removing-the-cpu-shroud).
-2. Remove the back fan bracket from the CPU shroud by unscrewing the four screws (highlighted yellow below) and pulling it out of the CPU shroud.
+1. Remove the [top case](#removing-the-top-case) and the [CPU duct](#removing-the-cpu-duct).
+2. Remove the back fan bracket from the CPU duct by unscrewing the four screws (highlighted yellow below) and pulling it out of the CPU duct.
 
-![CPU shroud back fan bracket](./img/cpu-shroud-fan-bracket-back.webp)
+![CPU duct back fan bracket](./img/cpu-duct-fan-bracket-back.webp)
 
 3. Unscrew the four fan screws holding the fan onto the bracket.
 
-![CPU shroud rear exhaust fan](./img/cpu-shroud-rear-fan-screws.webp)
+![CPU duct rear exhaust fan](./img/cpu-duct-rear-fan-screws.webp)
 
-4. When reinstalling the fan, the stationary cover should face the back of the chassis, and the wire should face the upper interior corner of the CPU shroud. The thinnest side of the bracket should face directly into the shroud.
+4. When reinstalling the fan, the stationary cover should face the back of the chassis, and the wire should face the upper interior corner of the CPU duct. The thinnest side of the bracket should face directly into the duct.
     - The wire can be run along the top of the fan until it meets the velcro strap.
 
 ## Installing the GPU:
@@ -383,7 +383,7 @@ Both daughterboards can be removed and replaced if necessary. The external power
 
 ![Front daughterboard screws](./img/front-daughterboard-screws.webp)
 
-3. Refer to the below diagram for wiring the front I/O and power button (the CPU shroud and top crossbar have been removed for easier visibility):
+3. Refer to the below diagram for wiring the front I/O and power button (the CPU duct and top crossbar have been removed for easier visibility):
     - The USB Type-C port cable (highlighted green) connects to the motherboard's USB 3.1 header.
     - The audio cable (highlighted yellow) connects to the motherboard's analog audio header.
     - The USB Type-A port cable (highlighted cyan) connects to the motherboard's USB 3.0 header.

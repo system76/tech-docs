@@ -9,7 +9,7 @@
 The System76 Thelio Spark is a desktop with the following specifications:
 
 - Chassis
-    - System76 [Thelio chassis](https://github.com/system76/thelio/tree/ba8d6375083abb3145980f8522aa97ca6e9f08fb/Thelio%20Mira%5CSpark%20(nebula36)) based on nebula36-2
+    - System76 [Thelio Spark chassis](https://github.com/system76/thelio/tree/ba8d6375083abb3145980f8522aa97ca6e9f08fb/Thelio%20Mira%5CSpark%20(nebula36)) based on nebula36-2
 - Processor options
     - Supports Intel 12th Generation (Alder Lake) CPUs
         - [Core i5-12400](https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html)
@@ -56,7 +56,8 @@ The System76 Thelio Spark is a desktop with the following specifications:
     - Tested with the following PSU models (may ship with other tested models):
         - [Thermaltake Toughpower GX2 600W (80+ Gold)](https://thermaltakeusa.com/products/toughpower-gx2-600w-ps-tpd-0600nnfagu-2#tab-label-specification)
 - Sound
-    - 3.5mm line out, line in, microphone jacks
+    - Back: 3.5mm line out, line in, microphone jacks
+    - Top: 3.5mm line out, microphone jacks
     - Up to 7.1-channel audio output
     - Realtek ALC897 audio chipset CHECK
     - HDMI, DisplayPort audio
@@ -69,7 +70,9 @@ The System76 Thelio Spark is a desktop with the following specifications:
         - Intel Optane
     - 2x 2.5" (15mm) SATA III
 - USB
-    - 4x USB 3.2 Gen 1 Type-A
+    - 1x USB 3.2 Gen 1 Type-C (top port)
+    - 5x USB 3.2 Gen 1 Type-A
+        - 4x back ports, 1x top port
     - 2x USB 2.0 Type-A
 - Dimensions
     - 43.635cm × 25.3cm × 33.1cm

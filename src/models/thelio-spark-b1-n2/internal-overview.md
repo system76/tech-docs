@@ -2,33 +2,39 @@
 
 ## Left side overview:
 
-![Internal overview (left side)](./img/components-left.webp)
+### Chassis components:
 
-- CPU cooler & CPU are highlighted in red (located behind the CPU duct)
+![Internal overview (left side - chassis)](./img/internal-left-chassis.webp)
+
+### Electronic components:
+
+![Internal overview (left side - electronics)](./img/internal-left-electronics.webp)
+
+- CPU heatsink is highlighted in yellow
 - RAM slots are highlighted in green
-- 2.5" SATA drive cage is highlighted in pink
-- M.2 slots are highlighted in white (located underneath the GPU & heatsinks)
-- GPU (in PCIe 4.0 x16 slot) is highlighted in yellow
-- PCIe 4.0 x4 and x2 slots are highlighted in dark blue
-- Power supply is highlighted in cyan
+- 2.5" SATA slots are highlighted in pink
+- M.2 slots are highlighted in cyan
+- GPU (in PCIe 4.0 x16 slot) is highlighted in red
+- Wireless card (in PCIe 3.0 x16 slot) is highlighted in white
+- Power supply is highlighted in maroon
 - Bottom case fan is highlighted in orange
 
 ## Right side overview:
 
-![Internal overview (right side)](./img/components-right.webp)
+![Internal overview (right side)](./img/internal-right.webp)
 
 - Thelio-IO access cutout is highlighted in green
 - Power supply access cutout is highlighted in red
 
 ## Front side overview:
 
-![Internal overview (front side)](./img/components-front.webp)
+![Internal overview (front side)](./img/internal-front.webp)
 
 - Thelio-IO connector access cutout is highlighted in green
 
 ## Top overview:
 
-![Internal overview (top)](./img/components-top.webp)
+![Internal overview (top)](./img/internal-top.webp)
 
 - 2.5" drive screws are highlighted in green
 - CPU power connector is highlighted in red

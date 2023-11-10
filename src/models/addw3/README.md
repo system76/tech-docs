@@ -37,7 +37,7 @@ The System76 Adder WS is a laptop with the following specifications:
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR5 SO-DIMMs @ 4800 MHz
+    - Up to 96GB (2x48GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth

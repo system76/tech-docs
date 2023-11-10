@@ -92,7 +92,7 @@ The keyboard can be replaced using the instructions below.
 
 ## Replacing the RAM:
 
-The Serval WS 13 supports up to 64GB (2x32GB) of DDR5 SO-DIMMs running at 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Serval WS 13 supports up to 96GB (2x48GB) of DDR5 SO-DIMMs running at 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

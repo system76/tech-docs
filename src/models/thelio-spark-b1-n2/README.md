@@ -59,7 +59,7 @@ The System76 Thelio Spark is a desktop with the following specifications:
     - Back: 3.5mm line out, line in, microphone jacks
     - Top: 3.5mm line out, microphone jacks
     - Up to 7.1-channel audio output
-    - Realtek ALC897 audio chipset CHECK
+    - Realtek ALC897 audio chipset
     - HDMI, DisplayPort audio
 - Storage
     - 1x M.2 2280/2260/2242 SSD

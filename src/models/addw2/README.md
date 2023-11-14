@@ -38,6 +38,7 @@ The System76 Adder WS is a laptop with the following specifications:
     - Included AC adapter: Chicony A17-230P1A
         - AC power cord type: IEC C13
     - 62Wh 6-cell Lithium-Ion battery
+        - Model number: PB50BAT-6
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

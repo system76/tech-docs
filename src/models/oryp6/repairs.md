@@ -147,6 +147,8 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Oryx Pro 6's battery is `PC50BAT-3`, and the original part number is `6-87-PC50S-72A02`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  

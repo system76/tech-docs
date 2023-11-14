@@ -16,6 +16,8 @@ Many components in your Serval WS can be upgraded or replaced as necessary. Foll
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Serval 12's battery is `PB50BAT-6`, and the original part number is `6-87-PB50S-61D02`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  

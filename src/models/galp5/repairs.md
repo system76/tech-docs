@@ -34,6 +34,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Galago Pro 5's battery is `NV40BAT-4-49`, and the original part number is `6-87-NV40S-41B01`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  

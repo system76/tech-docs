@@ -35,7 +35,8 @@ The System76 Pangolin is a laptop with the following specifications:
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Chicony A18-065N3A
         - AC power cord type: IEC C5
-    - 49Wh 4-cell Lithium-Ion battery (model number NL40BAT-4)
+    - 49Wh 4-cell Lithium-Ion battery
+        - Model number: NL40BAT-4
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

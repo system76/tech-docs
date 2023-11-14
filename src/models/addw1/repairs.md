@@ -200,6 +200,8 @@ The CMOS battery supplies power to the Adder WS's CMOS chip. Changes you make to
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Adder WS 1's battery is `PB50BAT-6`. You can [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 5 minutes    
 **Difficulty:** Easy <span style="color:green;">●</span>

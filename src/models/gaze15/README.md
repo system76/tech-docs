@@ -51,7 +51,8 @@ The System76 Gazelle is a laptop with the following specifications:
             - Barrel size: 5.5mm (outer), 2.5mm (innter)
         - Included AC adapter: Chicony A17-180P4A
             - AC power cord type: IEC C5
-    - 48.96Wh battery
+    - 48.96Wh 4-cell Lithium-Ion battery
+        - Model number: NH50BAT-4
 - Sound
     - Internal speaker & microphone
     - Combined headphone/microphone 3.5-mm jack

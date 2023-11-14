@@ -72,7 +72,9 @@ This model supports up to two M.2 SSDs. Both M.2 slots are size 2280. Both slots
 
 ## Replacing the battery:
 
-The battery provides primary power whenever the system is unplugged. The model number is `NV40BAT-4-73`, also known as `6-87-NV4RS-71M00`.
+The battery provides primary power whenever the system is unplugged.
+
+The model number for the Oryx Pro 11's battery is `NV40BAT-4-73`, and the original part number is `6-87-NV4RS-71M00`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

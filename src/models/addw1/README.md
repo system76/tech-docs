@@ -36,4 +36,5 @@ The System76 Adder WS is a laptop with the following specifications:
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Chicony A17-230P1A
         - AC power cord type: IEC C13
-    - Removable 62Wh 6-cell battery
+    - 62Wh 6-cell Lithium-Ion battery
+        - Model number PB50BAT-6

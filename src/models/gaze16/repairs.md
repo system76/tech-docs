@@ -16,6 +16,8 @@ Many components in your Gazelle can be upgraded or replaced as necessary. This p
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Gazelle 16's battery is `NH50BAT-4`, and the original part number is `6-87-NH50S-42D01`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** None  
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>

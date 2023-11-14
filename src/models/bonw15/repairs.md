@@ -38,6 +38,8 @@ Removing the cover is required to access the internal components. Prior to remov
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Bonobo WS 15's battery is `X270BAT-8-99`, and the original part number is `6-87-X270S-92B01`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  

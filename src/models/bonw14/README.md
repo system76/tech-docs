@@ -48,6 +48,7 @@ The System76 Bonobo WS is a laptop with the following specifications:
     - Included AC adapters: 2x Chicony A18-280P1A
         - AC power cord type: IEC C13 (one per AC adapter)
     - 97Wh 8-cell Lithium-Ion battery
+        - Model number: X170BAT-8
 - Sound
     - Internal speakers (stereo + subwoofer) & microphone
     - Combined headphone & microphone 3.5mm jack

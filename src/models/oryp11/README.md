@@ -55,6 +55,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - Included AC adapter: Lite-On PA-1231-26
             - AC power cord type: IEC C5
     - 73Wh 4-cell battery
+        - Model number: NV40BAT-4-73
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

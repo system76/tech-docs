@@ -45,7 +45,8 @@ The System76 Oryx Pro is a laptop with the following specifications:
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: Chicony A17-180P4A
         - AC power cord type: IEC C5
-    - 73Wh 3-cell battery
+    - 73Wh 3-cell Lithium-Ion battery
+        - Model number: PC50BAT-3
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

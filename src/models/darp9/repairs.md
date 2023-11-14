@@ -213,7 +213,7 @@ The battery provides primary power whenever the system is unplugged.
 
 This product's battery is potentially recyclable. At the end of its useful life, under various state and local laws, it may be illegal to dispose of this battery into the municipal waste stream. Batteries may explode or leak if exposed to fire, or if improperly handled or discarded. Check with your local solid waste officials for details in your area for recycling options or proper disposal. Always dispose of batteries carefully, by placing a piece of tape on the contact points.
 
-Only use batteries designed for your specific computer. It's recommended to [contact System76](https://support.system76.com/) to purchase a replacement battery. Third-party batteries may present additional functional or safety risks. The model number for the Darter Pro 9's battery is `L140BAT-4`, also known as `6-87-L140S-72B02`.
+The model number for the Darter Pro 9's battery is `L140BAT-4`, and the original part number is `6-87-L140S-72B02`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 30 minutes  

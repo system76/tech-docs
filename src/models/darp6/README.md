@@ -40,6 +40,7 @@ The System76 Darter Pro is a laptop with the following specifications:
     - Included AC adapter: Chicony A12-065N2A
         - AC power cord type: IEC C5
     - 54.5Wh 4-cell Lithium-Ion battery
+        - Model number: N150BAT-4
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

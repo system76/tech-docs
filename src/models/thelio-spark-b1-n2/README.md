@@ -49,7 +49,9 @@ The System76 Thelio Spark is a desktop with the following specifications:
         - [Crucial CT16G4DFRA32A](https://www.crucial.com/memory/ddr4/ct16g4dfra32a#spec) (16GB/stick)
 - Networking
     - 1x 1-Gigabit Ethernet ([Intel I219-V](https://www.intel.com/content/www/us/en/products/sku/82186/intel-ethernet-connection-i219v/specifications.html))
-    - 1x M.2 2230 (E-key) slot supporting user expansion with PCIe or Intel CNVi wireless cards
+    - 1x PCI Express x1 wireless card ([Intel AX210](https://www.intel.com/content/www/us/en/products/sku/204836/intel-wifi-6e-ax210-gig/specifications.html))
+        - WiFi 6E
+        - Bluetooth 5.2
 - Power
     - C13 power cord
     - 600W PSU
@@ -70,9 +72,11 @@ The System76 Thelio Spark is a desktop with the following specifications:
         - Intel Optane
     - 2x 2.5" (15mm) SATA III
 - USB
-    - 1x USB 3.2 Gen 1 Type-C (top port)
+    - 1x USB 3.2 Gen 1 Type-C
+        - Top port
     - 5x USB 3.2 Gen 1 Type-A
         - 4x back ports, 1x top port
     - 2x USB 2.0 Type-A
+        - Back ports
 - Dimensions
     - 43.635cm × 25.3cm × 33.1cm

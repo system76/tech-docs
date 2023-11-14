@@ -14,8 +14,10 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Removing the side brace](#removing-the-side-brace)
 - [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Replacing the GPU](#replacing-the-gpu)
 - [Removing the CPU duct](#removing-the-cpu-duct)
+- [Replacing the GPU](#replacing-the-gpu)
+- [Replacing the CMOS battery](#replacing-the-cmos-battery)
+- [Replacing the wireless card](#replacing-the-wireless-card)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing the M.2 drives](#replacing-the-m2-drives)
 - [Replacing the CPU fans](#replacing-the-cpu-fans)
@@ -158,7 +160,7 @@ Thelio Spark B1-N2 has one case-mounted intake fan on the bottom of the chassis.
 
 ## Removing the CPU duct:
 
-The CPU duct guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top GPU.
+The CPU duct guides airflow through the CPU cooler. It covers the CPU and partially obstructs the RAM slots and top PCIe slot.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
@@ -166,7 +168,7 @@ The CPU duct guides airflow through the CPU cooler. It covers the CPU and partia
 
 ### Steps to remove the CPU duct:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the GPU brace](#replacing-the-gpu).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#removing-the-side-brace).
     - The GPU can also optionally be removed to provide more room for working with the components.
 2. Unplug the braided connector for the duct-mounted CPU fan from the top splitter board in the front corner of the machine.
     - The splitter board provides the same signal to both ports, so it doesn't matter which fan is plugged into which port.
@@ -372,7 +374,7 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is an [Arctic Freezer 7 X 
 ### Steps to remove the CPU cooler/thermal paste:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#removing-the-side-brace), [remove the CPU duct](#removing-the-cpu-duct), and [remove the GPU](#replacing-the-gpu).
-    - Unplug the [cooler-mounted CPU fan](#steps-to-replace-the-cooler-mounted-cpu-fan) unless it's already been removed.
+    - Unplug the [heatsink-mounted CPU fan](#steps-to-replace-the-heatsink-mounted-cpu-fan) unless it's already been removed.
 2. While holding the CPU cooler in place so it doesn't fall, loosen the screws on the top and bottom of the CPU cooler holding it onto the mounting bracket.
     - If you unscrew the screws too far, the 90-degree clips will detatch from the vertical mounting bar. Reattach them facing inwards when reinstalling the cooler.
 
@@ -484,7 +486,7 @@ Named after Jupiter's moon Io, the Thelio Io daughterboard handles the front pow
 ### Steps to replace the Thelio Io board:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-    - The [CPU shroud](#removing-the-cpu-shroud) and [side brace](#removing-the-side-brace) can optionally be removed to provide easier access to the cabling.
+    - The [CPU duct](#removing-the-cpu-duct) and [side brace](#removing-the-side-brace) can optionally be removed to provide easier access to the cabling.
 2. Use the cutouts on the front right corner of the chassis to unplug all cabling from the Thelio Io board.
     - The topmost connector requires pulling the white tab while unplugging.
 
@@ -533,7 +535,7 @@ The SATA backplane provides two 2.5" SATA data and power connectors for the [2.5
 ### Steps to replace the SATA backplane:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), then [remove the 2.5" drive cage cover and all 2.5" SATA drives](#addingremoving-25-storage-drives).
-    - The [CPU shroud](#removing-the-cpu-shroud) can optionally be removed to provide easier access to the cabling.
+    - The [CPU duct](#removing-the-cpu-duct) can optionally be removed to provide easier access to the cabling.
 2. Use the cutouts on the front right corner of the chassis to unplug the 4-pin molex power connector (highlighted cyan below) and the two SATA data cables (highlighted green below) from the SATA backplane.
 
 ![SATA backplane cabling cutout](./img/sata-backplane-cabling-cutout.webp)
@@ -565,7 +567,7 @@ If the top ports are damanged or become defective, they can be replaced using th
 
 ### Steps to replace the top I/O:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU shroud](#removing-the-cpu-shroud).
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
     - You can optionally [remove the side brace](#removing-the-side-brace) for easier access to the wiring.
 2. Unplug the `HD_AUDIO1` header at the bottom-left corner of the motherboard, below the wireless card.
 

@@ -67,7 +67,7 @@ The top case can be removed to access the internal components.
 
 Thelio Spark B1-N2 supports up to two 2.5" SATA III drives.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
@@ -393,13 +393,13 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is an [Arctic Freezer 7 X 
 
 ![CPU cooler mounting bracket](./img/cpu-cooler-mounting-bracket.webp)
 
-4. Push the locking pin outward until it's able to spring away from the motherboard.
-    - Caution: the locking pin may spring up with significant force when freed.
+4. Push the locking lever outward until it's able to spring away from the motherboard.
+    - Caution: the locking lever may spring up with significant force when freed.
 
-![CPU locking pin](./img/cpu-locking-pin.webp)
+![CPU locking lever](./img/cpu-locking-lever.webp)
 
 5. Flip the CPU holder away from the CPU.
-    - The CPU holder opens in the opposite direction from the locking pin.
+    - The CPU holder opens in the opposite direction from the locking lever.
 
 ![CPU holder raised](./img/cpu-holder-raised.webp)
 
@@ -410,10 +410,10 @@ The CPU uses an Intel LGA 1700 socket. The CPU cooler is an [Arctic Freezer 7 X 
 
 7. Gently place the new CPU into the socket.
     - The triangle on the CPU should be oriented to match the triangle on the CPU cover, pointing towards the bottom left of the motherboard.
-8. Flip the CPU cover back onto the CPU and push the locking pin down into place.
+8. Flip the CPU cover back onto the CPU and push the locking lever down into place.
 9. Reinstall the cooler mounting bracket by lining it up with the holes in the motherboard and pushing the plastic retention pins back into place.
     - Ensure that the transparent sleeves in the corners of the mounting bracket are pulled outwards to the `1700` position.
-    - The orientation of the cooler mounting bracket doesn't matter.
+    - The orientation of the cooler mounting bracket doesn't matter. By default, the `1700` number is on the top and bottom of the bracket, while the `1200` number is on the left and right.
 
 ![CPU cooler mounting bracket corner sleeves](./img/cpu-cooler-mounting-bracket-corner-sleeves.webp)
 
@@ -453,11 +453,11 @@ The PSU is not modular, so all of its cabling will need to be unplugged and remo
 
 ![PSU cabling to the motherboard & CPU](./img/psu-cables-motherboard.webp)
 
-- The 4-pin molex connector labeled `POWER1` on the Thelio Io board.
+- The 4-pin Berg connector labeled `POWER1` on the Thelio Io board.
 
 ![PSU cabling to the Thelio Io board](./img/psu-cables-thelio-io.webp)
 
-- The 4-pin molex connector labeled `POWER0` on the SATA backplane.
+- The 4-pin Berg connector labeled `POWER0` on the SATA backplane.
 
 ![PSU cabling to the SATA backplane](./img/psu-cables-sata.webp)
 
@@ -536,7 +536,7 @@ The SATA backplane provides two 2.5" SATA data and power connectors for the [2.5
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), then [remove the 2.5" drive cage cover and all 2.5" SATA drives](#addingremoving-25-storage-drives).
     - The [CPU duct](#removing-the-cpu-duct) can optionally be removed to provide easier access to the cabling.
-2. Use the cutouts on the front right corner of the chassis to unplug the 4-pin molex power connector (highlighted cyan below) and the two SATA data cables (highlighted green below) from the SATA backplane.
+2. Use the cutouts on the front right corner of the chassis to unplug the 4-pin Berg power connector (highlighted cyan below) and the two SATA data cables (highlighted green below) from the SATA backplane.
 
 ![SATA backplane cabling cutout](./img/sata-backplane-cabling-cutout.webp)
 
@@ -550,7 +550,7 @@ The SATA backplane provides two 2.5" SATA data and power connectors for the [2.5
 ![SATA backplane screws](./img/sata-backplane-screws.webp)
 
 5. Place the new SATA backplane into the drive cage and secure it with the four SATA backplane screws, then reinstall the drive cage (if necessary).
-6. Plug the 4-pin molex power connector and SATA data cables into the SATA backplane.
+6. Plug the 4-pin Berg power connector and SATA data cables into the SATA backplane.
     - The order of the SATA data cables shouldn't matter as long as your operating system and software is configured to address disks by UUID (e.g. `/dev/disk/by-id/...`) instead of by letter (e.g. `/dev/sd_`).
     - By default, the `DATA1` port connects to the innermost SATA connector on the motherboard, and the `DATA0` port connects to the outermost SATA connector on the motherboard.
 7. Reinstall the CPU shroud (if necessary), any 2.5" drives that were removed, the 2.5" drive cage cover, and the top case.

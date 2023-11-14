@@ -1,0 +1,82 @@
+# Thelio Spark (thelio-spark-b1-n2)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Spark](./img/thelio-spark-b1-n2.webp)
+
+The System76 Thelio Spark is a desktop with the following specifications:
+
+- Chassis
+    - System76 [Thelio Spark chassis](https://github.com/system76/thelio/tree/ba8d6375083abb3145980f8522aa97ca6e9f08fb/Thelio%20Mira%5CSpark%20(nebula36)) based on nebula36-2
+- Processor options
+    - Supports Intel 12th Generation (Alder Lake) CPUs
+        - [Core i5-12400](https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html)
+        - [Core i5-12600K](https://ark.intel.com/content/www/us/en/ark/products/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz.html)
+- Motherboard
+    - [ASRock B660M PRO RS](https://www.asrock.com/mb/Intel/B660m%20Pro%20RS/index.asp#Specification) running System76 Firmware (non-open)
+    - Intel B660 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- Graphics options
+    - Up to two dedicated GPUs
+        - Primary GPU slot:
+            - PCIe 4.0 x16
+            - Up to 3-slot height
+                - Up to 2-slot height if PCIe x1 slot is in use
+        - Secondary GPU slot:
+            - PCIe 3.0 x16
+            - Up to 4-slot height
+    - GPU size:
+        - Internal clearance: 318.80mm
+        - Recommended maximum length: 308.80mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1, 1x DisplayPort 1.4
+        - [AMD Radeon RX 7600](https://www.amd.com/en/products/graphics/amd-radeon-rx-7600#product-specs)
+            - 1x HDMI 2.1, 3x DisplayPort 2.1
+        - [NVIDIA GeForce RTX 4060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+- Expansion
+    - 1x PCIe 4.0 x16 (primary GPU slot)
+    - 1x PCIe 3.0 x16 (secondary GPU slot)
+    - 1x PCIe 3.0 x1
+- Memory
+    - Up to 64GB (4x16GB) dual-channel DDR4 DIMMs @ 3200 MHz
+        - User-expandable up to 128GB (4x32GB) @ 3200 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT16G4DFRA32A](https://www.crucial.com/memory/ddr4/ct16g4dfra32a#spec) (16GB/stick)
+- Networking
+    - 1x 1-Gigabit Ethernet ([Intel I219-V](https://www.intel.com/content/www/us/en/products/sku/82186/intel-ethernet-connection-i219v/specifications.html))
+    - 1x PCI Express x1 wireless card ([Intel AX210](https://www.intel.com/content/www/us/en/products/sku/204836/intel-wifi-6e-ax210-gig/specifications.html))
+        - WiFi 6E
+        - Bluetooth 5.2
+- Power
+    - C13 power cord
+    - 600W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [Thermaltake Toughpower GX2 600W (80+ Gold)](https://thermaltakeusa.com/products/toughpower-gx2-600w-ps-tpd-0600nnfagu-2#tab-label-specification)
+- Sound
+    - Back: 3.5mm line out, line in, microphone jacks
+    - Top: 3.5mm line out, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC897 audio chipset
+    - HDMI, DisplayPort audio
+- Storage
+    - 1x M.2 2280/2260/2242 SSD
+        - PCIe NVMe Gen 4
+    - 1x M.2 2280 SSD
+        - PCIe NVMe Gen 3
+        - SATA III
+        - Intel Optane
+    - 2x 2.5" (15mm) SATA III
+- USB
+    - 1x USB 3.2 Gen 1 Type-C
+        - Top port
+    - 5x USB 3.2 Gen 1 Type-A
+        - 4x back ports, 1x top port
+    - 2x USB 2.0 Type-A
+        - Back ports
+- Dimensions
+    - 43.635cm × 25.3cm × 33.1cm

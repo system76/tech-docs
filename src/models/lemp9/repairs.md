@@ -117,7 +117,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 5. Re-connect the CMOS battery as well as the main internal battery.
 6. Power up the Lemur Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
-## Replacing the wireless card
+## Replacing the wireless card:
 
 Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
@@ -125,7 +125,7 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 **Time estimate:** 10 minutes    
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the WiFi/Bluetooth module
+### Steps to replace the WiFi/Bluetooth module:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card (next to the CPU fan.) Remove any tape if present.
@@ -139,7 +139,7 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 7. Replace the retaining screw.
 8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
-## Replacing the main battery
+## Replacing the main battery:
 
 The battery provides primary power whenever the system is unplugged.
 
@@ -151,7 +151,7 @@ The model number for the Lemur Pro 9's battery is `L140BAT-4`, and the original 
 **Time estimate:** 15 minutes    
 **Difficulty:** High <span style="color:red;">●</span>
 
-### Steps to replace the main battery
+### Steps to replace the main battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector that connects the battery to the motherboard.

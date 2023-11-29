@@ -93,6 +93,8 @@ Your Gazelle's WiFi and Bluetooth are both handled by the same module. It is a s
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Gazelle 18's battery is `NP50BAT-4-54`, and the original part number is `6-87-NP5KS-51B00`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver
 **Time estimate:** 8 minutes
 **Difficulty:** Easy <span style="color:green;">●</span>

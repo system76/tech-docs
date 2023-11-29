@@ -198,6 +198,8 @@ The CMOS battery supplies power to the Gazelle's CMOS chip. Changes you make to 
 
 The battery provides primary power whenever the system is unplugged.
 
+The model number for the Gazelle 15's battery is `NH50BAT-4`; the original part number may be `6-87-NH50S-41C01` or `6-87-NH50S-42D01`, depending on the production date of the machine. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** None  
 **Time estimate:** 1 minute  
 **Difficulty:** Easy <span style="color:green;">●</span>  

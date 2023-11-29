@@ -371,11 +371,11 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ## Replacing the Thelio-IO board:
 
+The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If the Thelio-IO board becomes defective, it can be replaced using the instructions below.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
-
-The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If the Thelio-IO board becomes defective, it can be replaced using the instructions below.
 
 ## Steps to replace the Thelio-IO board:
 

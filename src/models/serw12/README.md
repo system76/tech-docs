@@ -52,7 +52,8 @@ The System76 Serval WS is a laptop with the following specifications:
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
         - Included AC adapter: Chicony A17-180P4A
             - AC power cord type: IEC C5
-    - 62Wh 6-cell battery
+    - 62Wh 6-cell Lithium-Ion battery
+        - Model number: PB50BAT-6
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

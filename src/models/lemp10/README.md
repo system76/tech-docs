@@ -41,6 +41,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - AC power cord type: IEC C7 (non-polarized)
     - USB-C charging compatible with 65W+ charger
     - 73Wh 4-cell Lithium-Ion battery
+        - Model number: L140BAT-4
     - [TI BQ24780S Battery Charger](https://www.ti.com/product/BQ24780S)
 - Sound
     - Realtek ALC293D

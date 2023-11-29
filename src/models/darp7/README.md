@@ -42,6 +42,7 @@ The System76 Darter Pro is a laptop with the following specifications:
         - AC power cord type: IEC C5
     - USB-C charging compatible with 65W+ charger
     - 73Wh 4-cell Lithium-ion battery
+        - Model number: L140BAT-4
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

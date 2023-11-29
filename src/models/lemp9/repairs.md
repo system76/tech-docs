@@ -117,7 +117,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 5. Re-connect the CMOS battery as well as the main internal battery.
 6. Power up the Lemur Pro. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
-## Replacing the wireless card
+## Replacing the wireless card:
 
 Your system's WiFi and Bluetooth are both handled by the same module. It connects with a standard M.2 2230 slot with PCIe and USB interfaces (E-key).
 
@@ -125,7 +125,7 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 **Time estimate:** 10 minutes    
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the WiFi/Bluetooth module
+### Steps to replace the WiFi/Bluetooth module:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Locate the wireless card (next to the CPU fan.) Remove any tape if present.
@@ -139,9 +139,11 @@ Your system's WiFi and Bluetooth are both handled by the same module. It connect
 7. Replace the retaining screw.
 8. Attach the two antennas by aligning the circular fitting and pressing onto the wireless card. The connector will snap into place. _Use caution when attaching the connectors; the pins can bend, break, or snap._
 
-## Replacing the main battery
+## Replacing the main battery:
 
 The battery provides primary power whenever the system is unplugged.
+
+The model number for the Lemur Pro 9's battery is `L140BAT-4`, and the original part number is `6-87-L140S-72B01`. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
 
 **CAUTION:** Do not use metal tools to remove the battery. Do not touch the battery contacts with your hands or metal objects. If the battery is damaged during repairs, do not reinsert it into the laptop. Do not continue to use the computer if it contains a damaged battery. It is a potential fire hazard to operate a computer with a damaged battery. Keep children away from, and properly dispose of, the damaged battery. Always dispose of batteries carefully, by placing a piece of tape on the contact points. Take damaged batteries to an electronics recycling center and contact System76 to purchase a replacement. Batteries may explode or leak if exposed to fire, or if improperly handled or discarded. Only use batteries designed for your specific computer. The product that you have purchased contains a rechargeable battery. The battery is recyclable. At the end of its useful life, under various state and local laws, it may be illegal to dispose of this battery into the municipal waste stream. Check with your local solid waste officials for details in your area for recycling options or proper disposal.
 
@@ -149,7 +151,7 @@ The battery provides primary power whenever the system is unplugged.
 **Time estimate:** 15 minutes    
 **Difficulty:** High <span style="color:red;">●</span>
 
-### Steps to replace the main battery
+### Steps to replace the main battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Unplug the white connector that connects the battery to the motherboard.

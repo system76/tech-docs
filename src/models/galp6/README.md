@@ -40,6 +40,7 @@ The System76 Galago Pro is a laptop with the following specifications:
         - AC power cord type: IEC C5
     - USB-C charging compatible with 90W+ charger
     - 53Wh 4-cell Lithium-Ion battery
+        - Model number: NV40BAT-4-53
 - Sound
     - Internal speakers & microphone
     - 3.5mm headphone/microphone combo jack

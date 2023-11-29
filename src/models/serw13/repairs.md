@@ -35,6 +35,13 @@ Removing the cover is required to access the internal components. Prior to remov
 
 The battery provides primary power whenever the system is unplugged.
 
+The model and part numbers for the Serval WS 13's battery are dependent on the screen size:
+
+- For the 15" model, the battery model is `PD50BAT-6-80` and the original part number is `6-87-PD50S-82B01`.
+- For the 17" model, the battery model is `PC70BAT-6-80` and the original part number is `6-87-PD70S-82B01`.
+
+Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  

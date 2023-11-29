@@ -55,7 +55,8 @@ The System76 Gazelle is a laptop with the following specifications:
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: LiteOn PA-1151-76
         - AC power cord type: IEC C5
-    - 54Wh 4-cell battery (model number NP50BAT-4-54)
+    - 54Wh 4-cell Lithium-Ion battery
+        - Model number: NP50BAT-4-54
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

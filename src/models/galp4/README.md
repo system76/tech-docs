@@ -40,6 +40,7 @@ The System76 Galago Pro is a laptop with the following specifications:
     - Included AC adapter: Chicony A13-040A3A
         - AC power cord type: IEC C5
     - 35.3Wh 3-cell Lithium-Ion battery
+        - Model number: N130BAT-3
 - Sound
     - Internal speakers & microphone
     - 3.5mm headphone jack

@@ -36,7 +36,7 @@ The System76 Pangolin is a laptop with the following specifications:
     - 90W (19V, 4.74A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
     - Included AC adapter: ShenZhen SOY-1900474
-        - AC power cord type: IEC C5
+        - AC power cord type: IEC C13
     - USB-C charging compatible with 90W+ charger
     - 70Wh 3-cell Lithium-Ion battery
         - Model number: 628467-3S1P

@@ -30,7 +30,7 @@ The System76 Pangolin is a laptop with the following specifications:
         - 16x [Micron MT62F2G32D8DR-031](https://www.micron.com/products/dram/lpdram/part-catalog/mt62f2g32d8dr-031-wt) (2GB each)
 - Networking
     - Gigabit Ethernet
-    - M.2 PCIe/CNVi WiFi/Bluetooth
+    - M.2 PCIe WiFi/Bluetooth
         - Mediatek MT7921K
 - Power
     - 65W (19V, 3.42A) DC-in port

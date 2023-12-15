@@ -51,8 +51,8 @@ If you have the tall model Meerkat with the optional I/O expansion module, it wi
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
 2. Unscrew the retainer screw opposite the M.2 slot.
-    - In the photo below, the short model is shown on the left, while the tall model (with the optional I/O expansion module installed) is shown on the right.
-    - The 2280 slot screw is highlighted cyan, while the 2242 slot screw is highlighted red.
+    - The 2280 slot screw is highlighted cyan below, while the 2242 slot screw is highlighted red.
+    - In the tall model, if the optional I/O expansion module is installed, its connector will occupy the 2242 slot (highlighted red).
 
 ![M.2 slot screw](./img/m2-slots.webp)
 
@@ -63,7 +63,7 @@ If you have the tall model Meerkat with the optional I/O expansion module, it wi
 
 ## Replacing the RAM:
 
-The Meerkat 7 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Meerkat 8 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 5 minutes  
@@ -263,12 +263,12 @@ Thermal paste helps facilitate heat transfer between the CPU and the cooling equ
 ### Steps to replace the thermal paste:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [remove the M.2 drive](#replacing-an-m2-drive), [unplug the wireless card](#replacing-the-wireless-card), [remove the motherboard](#removing-the-motherboard), and [remove the fan](#replacing-the-fan).
-2. Loosen the four heatsink screws in order, starting with #1, then #2, #3, and #4.
+2. Loosen the four heatsink screws in the order of the stamped numbers, starting with #1, then #2, #3, and #4.
     - The screws are attached and will not completely separate from the heatsink.
 
 ![Heatsink screws](./img/heatsink-screws.webp)
 
-3. Gently lift the heatsink off of the motherboard. 
+3. Gently lift the heatsink off of the motherboard.
 4. Using a paper towel, clean the old thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Heatsink and motherboard after cleaning](./img/thermal-paste-removal.webp)

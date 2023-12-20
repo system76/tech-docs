@@ -219,7 +219,7 @@ Removing the motherboard is necessary for replacing the CMOS battery, cooling fa
 
 The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink when replacing the thermal paste.
 
-The screws used for the fan are the same type as those used for the [M.2 SSDs](#replacing-an-m2-drive).
+The fan is an AVC `BAZC0810R5HY006`. The screws used for the fan are the same type as those used for the [M.2 SSDs](#replacing-an-m2-drive).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -305,6 +305,7 @@ The Meerkat's top cover can be removed or replaced.
 ### Steps to remove the top cover:
 
 1. Pull up on the grooves in the back of the cover.
+    - A flat tool can optionally be used to help pry the cover away from the rest of the chassis.
 
 ![Top cover grooves](./img/top-cover-grooves.webp)
 

@@ -12,7 +12,7 @@ The preinstalled velcro strips are left partially unwrapped to aid in removal. W
 - [Installing the motherboard](#installing-the-motherboard)
 - [Installing the CPU duct fans](#installing-the-cpu-duct-fans)
 - [Installing the GPU](#installing-the-gpu)
-- [Installing the SATA backplane](#installing-the-sata-backplane)
+- [Installing the SATA board](#installing-the-sata-board)
 - [Installing 2.5" drives](#installing-25-drives)
 - [Installing the bottom case fan](#installing-the-bottom-case-fan)
 - [Installing side intake fan](#installing-side-intake-fan)
@@ -242,33 +242,33 @@ These instructions also apply to other PCI Express cards, such as add-in sound c
 4. Install the GPU into the motherboard.
 5. Replace the PCIe bracket, which will hold the end of the GPU in place.
 
-## Installing the SATA backplane:
+## Installing the SATA board:
 
-nebula19 is designed to work with an optional SATA backplane to allow for easy hot-swapping of 2.5" storage drives. The SATA backplane can be seen below.
+nebula19 is designed to work with an optional SATA board to allow for easy hot-swapping of 2.5" storage drives. The SATA board can be seen below.
 
-![2.5" SATA backplane](./img/sata-backplane.webp)
+![2.5" SATA board](./img/sata-board.webp)
 
 - **Tools required:** Cross-head (Phillips) screwdriver  
 
-### Steps to install the SATA backplane:
+### Steps to install the SATA board:
 
 1. [Remove the top case](#removing-the-top-case).
-    - The [side fan bracket](#installingremoving-the-side-fan-bracket) can also be removed for easier access to the SATA backplane screws and wiring.
+    - The [side fan bracket](#installingremoving-the-side-fan-bracket) can also be removed for easier access to the SATA board screws and wiring.
 2. Unscrew and remove the 2.5" drive cage's cover.
 
 ![2.5" SATA drive cage cover](./img/25-drive-cover.webp)
 
-3. If the SATA backplane's screw holes are covered by a translucent film, remove the film.
-4. Place the SATA backplane into the 2.5" drive cage, with the `SATA0` label facing the front of the chassis.
+3. If the SATA board's screw holes are covered by a translucent film, remove the film.
+4. Place the SATA board into the 2.5" drive cage, with the `SATA0` label facing the front of the chassis.
 
-![SATA Backplane, Unscrewed](./img/sata-backplane-unscrewed.webp)
+![SATA board, Unscrewed](./img/sata-board-unscrewed.webp)
 
-5. Screw the backplane into the drive cage from the bottom using the four included M3 screws.
+5. Screw the board into the drive cage from the bottom using the four included M3 screws.
     - Remember to turn the screwdriver counterclockwise instead of clockwise if you're looking at the screws from the top. Alternatively, the system can be placed on its side for easier access to the screw holes.
 
-![2.5" SATA backplane screws](./img/sata-backplane-screws.webp)
+![2.5" SATA board screws](./img/sata-board-screws.webp)
 
-6. Connect the white `POWER0` header on the back of the SATA backplane to the power supply, and the black `DATA0` and `DATA1` ports to two of the motherboard's SATA ports.
+6. Connect the white `POWER0` header on the back of the SATA board to the power supply, and the black `DATA0` and `DATA1` ports to two of the motherboard's SATA ports.
     - The `POWER0` header uses a four-pin Berg connector, also known as a floppy drive power connector.
 7. [Install any 2.5" SATA drives](#installing-25-drives) and replace the drive cage cover, side fan bracket (if necessary), and top case.
 
@@ -288,7 +288,7 @@ The drive cage can hold two 2.5" drives. Drives of 7.5mm, 9mm, or 15mm are suppo
 3. Remove the plastic ring from the top crossbar and slide out four screws for each drive being installed.
 4. Insert two screws into each side of the 2.5" drive, then slide the drive into the drive cage, aligning the rubber mounts on the screws around the metal of the drive cage.
     - The larger portion of the SATA connector (the power section) should be at the top, while the smaller portion (the data section) should be at the bottom.
-5. If the [optional SATA backplane](#installing-the-sata-backplane) is not present, connect the SATA data and power cables from the bottom of the drive cage.
+5. If the [optional SATA board](#installing-the-sata-board) is not present, connect the SATA data and power cables from the bottom of the drive cage.
     - A cutout in the chassis allows easy access to the bottom of the drive cage.
 
 ## Installing the bottom case fan:

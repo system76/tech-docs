@@ -9,10 +9,11 @@
 The System76 Bonobo WS is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel 13th Generation (Raptor Lake) CPUs
+    - Supports Intel 13th & 14th Generation (Raptor Lake) CPUs
+        - [Core i9-14900HX](https://ark.intel.com/content/www/us/en/ark/products/235995/intel-core-i9-processor-14900hx-36m-cache-up-to-5-80-ghz.html)
         - [Core i9-13900HX](https://ark.intel.com/content/www/us/en/ark/products/232171/intel-core-i913900hx-processor-36m-cache-up-to-5-40-ghz.html)
 - Chipset
-    - [Intel HM770 Express](https://www.intel.com/content/www/us/en/products/sku/232478/intel-hm770-chipset/specifications.html) <!-- Not yet listed on ARK -->
+    - [Intel HM770](https://www.intel.com/content/www/us/en/products/sku/232478/intel-hm770-chipset/specifications.html)
 - BIOS
     - GigaDevice GD25B256EYIGR flash chip
         - WSON-8 form factor
@@ -29,6 +30,8 @@ The System76 Bonobo WS is a laptop with the following specifications:
     - eDP display options:
         - 17.3" 3840x2160@144Hz LCD
             - LCD panel: BOE NE173QUM-NY1 (or equivalent)
+        - 17.3" 2560x1440@240Hz LCD
+            - LCD panel: BOE NE173QHM-NZ1 (or equivalent)
     - External video outputs:
         - 1x HDMI 2.1
         - 1x Mini DisplayPort 1.4

@@ -11,7 +11,10 @@ The System76 Launch Heavy is a configurable keyboard with the following specific
   - [Open-source milled chassis design](https://github.com/system76/launch/tree/master/chassis/launch-heavy)
   - Dual magnetically-attachable 15-degree angle lift bars
 - Electronics
-  - [Open-source PCB design](https://github.com/system76/launch/tree/master/pcb-heavy)
+  - [Open-source main PCB design](https://github.com/system76/launch/tree/master/pcb)
+      - Revision 3.2
+  - [Open-source numpad PCB design](https://github.com/system76/launch/tree/master/pcb-heavy)
+      - Revision 1.2
   - Individually addressable RGB LED backlighting
   - N-key rollover
 - Sockets and Switches
@@ -39,7 +42,7 @@ The System76 Launch Heavy is a configurable keyboard with the following specific
   - 2x USB 3.2 Gen 2 Type-C
   - 2x USB 3.2 Gen 2 Type-A
 - Firmware
-  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_heavy_1/)
+  - [Open-source QMK-based firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/launch_heavy_3/)
 - Included cables:
   - 1x USB Type-C to USB Type-C
   - 1x USB Type-C to USB Type-A

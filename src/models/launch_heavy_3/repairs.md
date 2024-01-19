@@ -166,6 +166,7 @@ If either of the PCBs in your Launch Heavy become damaged and need to be replace
 
 4. Repeat the previous step for the numpad PCB.
 5. Insert the ribbon cable into the white connector on both PCBs, then slide the black latches shut.
+    - The ribbon should bend downwards from the connectors, so as not to obstruct the screw hole in the numpad PCB.
 6. Install the bottom cover and its four screws, flip the keyboard over, and put all of the keycaps back on.
     - If any of the oval steel inserts came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
         - The steel inserts are held in with glue, but are also held in place magnetically if the magnetic lift bar is installed. They can be re-glued with CA glue.

@@ -5,7 +5,7 @@
 
 ![nebula49](./img/nebula49-1.webp)
 
-The System76 Nebula 49 is a desktop chassis (for DIY builds) with the following specifications:
+The System76 nebula49 is a desktop chassis (for DIY builds) with the following specifications:
 
 - Dimensions
     - Size: 46.2cm × 26.2cm × 40.8cm

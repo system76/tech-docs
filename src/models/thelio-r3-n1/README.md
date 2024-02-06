@@ -1,0 +1,71 @@
+# Thelio (thelio-r3-n1)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio](./img/thelio-r3-n1.webp)
+
+The System76 Thelio is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Ryzen 7000 series (Zen 4) CPUs
+        - [Ryzen 5 7600](https://www.amd.com/en/product/12756)
+        - [Ryzen 7 7700X](https://www.amd.com/en/product/12161)
+        - [Ryzen 9 7900X](https://www.amd.com/en/product/12156)
+        - [Ryzen 9 7900X3D](https://www.amd.com/en/product/12736)
+        - [Ryzen 9 7950X](https://www.amd.com/en/product/12151)
+- Motherboard
+    - [MSI MPG B650I Edge WiFi](https://www.msi.com/Motherboard/MPG-B650I-EDGE-WIFI/Specification) running System76 Firmware (non-open)
+    - AMD B650 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+        - Revision 2
+- Graphics options
+    - One GPU (PCIe 4.0 x16) of up to two-slot height
+    - GPU size:
+        - Internal clearance: 278.175mm
+        - Recommended maximum length: 268.175mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+        - [AMD Radeon RX 7600](https://www.amd.com/en/products/graphics/amd-radeon-rx-7600#product-specs)
+            - 1x HDMI 2.1, 3x DisplayPort 2.1
+        - [NVIDIA GeForce RTX 4060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/#specs)
+            - 1x HDMI 2.1a, 3x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 4070](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-4070ti/#specs)
+            - 1x HDMI 2.1, 3x DisplayPort 1.4a
+- Expansion
+    - 1x PCIe 4.0 x16 (GPU slot)
+- Memory
+    - Up to 64GB (2x32GB) dual-channel DDR5 DIMMs @ 4800 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125BG](https://www.realtek.com/en/products/connected-media-ics/item/rtl8125bg-s-cg))
+    - Wi-Fi 6E + Bluetooth 5.2 ([AMD ...]())
+- Power
+    - C13 power cord
+    - 650W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [FSP Dagger Pro 650W 80+ Gold](https://www.fspgroupusa.com/ecommerce/daggerpro650w.html)
+- Sound
+    - Back: 3.5mm line out, line in, microphone jacks
+    - Front: 3.5mm line out, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier) - check amp
+    - HDMI, DisplayPort audio (depending on GPU)
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 4) SSD
+    - 2x 2.5" SATA
+- USB
+    - 1x USB 3.2 Gen 2x2 Type-C
+        - Back port
+    - 1x USB 3.2 Gen 2 Type-C
+        - Top port
+    - 3x USB 3.2 Gen 2 Type-A
+        - Back ports
+    - 3x USB 3.2 Gen 1 Type-A
+        - 2x back ports, 1x top port
+- Dimensions
+    - 32.7cm × 20.7cm × 29.1cm

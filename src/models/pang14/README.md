@@ -31,7 +31,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe WiFi/Bluetooth
-        - Mediatek MT7921K
+        - [Mediatek MT7921K](https://fcc.id/RAS-MT7921K)
 - Power
     - 90W (19V, 4.74A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)

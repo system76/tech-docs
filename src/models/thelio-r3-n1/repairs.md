@@ -199,9 +199,10 @@ The CPU duct guides airflow through the CPU cooler. It covers the CPU and partia
 
 ![CPU fan connectors](./img/cpu-fan-connectors.webp)
 
-3. Unscrew the four back screws holding the CPU duct in place.
+3. Unscrew the four back thumbscrews and two top crossbar screws holding the CPU duct in place.
 
 ![CPU duct screws (back)](./img/cpu-duct-screws-back.webp)
+
 ![CPU duct screws (top)](./img/cpu-duct-screws-top.webp)
 
 4. Pull the CPU duct away from the machine.
@@ -241,6 +242,7 @@ Thelio R3-N1 has two M.2 slots (M key). Both slots are size 2280 and support PCI
     - Removing the CPU duct and GPU is optional but recommended to provide more working space and avoid damage.
 2. Unscrew and remove the M.2 heatsink.
     - It may take some pressure to remove the heatsink and thermal tape from the M.2 drive. After unscrewing the heatsink, pull slowly to avoid breaking the thermal tape.
+    - The heatsink fan is connected to the motherboard. This connector does not need to be unplugged to access the M.2 slot.
 
 ![M.2 heatsink screws](./img/m2-heatsink-screws.webp)
 
@@ -323,6 +325,7 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 1. Place the computer on its side so the motherboard is facing up.
 2. Unscrew and remove the cooler mounting bracket on the right side of the CPU.
+    - The grey plastic spacers over each mounting bracket screw hole do not need to be removed. If they fall off, put them back before reinstalling the mounting bracket.
 
 ![CPU cooler mounting bracket](./img/cpu-cooler-mounting-bracket.webp)
 
@@ -342,9 +345,10 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 ![CPU (removed)](./img/cpu-removed.webp)
 
 6. Gently place the new CPU into the socket.
-    - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the bottom left of the motherboard.
+    - When reinstalling the CPU, be sure to match the original orientation, with the triangle on the CPU pointing to the top left of the motherboard.
     - The triangle on the CPU should match the triangle on the top of the CPU cover.
 7. Flip the CPU cover back onto the CPU and push the locking pin down into place.
+8. Reinstall the right-side cooler mounting bracket.
 
 ### Steps to install the thermal paste/CPU cooler:
 
@@ -389,7 +393,7 @@ The power supply unit (PSU) is modular and can be replaced with another unit of 
 
 ### Steps to clean the power supply dust filter:
 
-1. Follow the steps above to [remove the power supply](#removing-the-power-supply).
+1. Follow the steps above to [remove the power supply](#steps-to-replace-the-power-supply).
 2. Unscrew the four screws holding the dust filter onto the chassis.
 
 ![Power supply dust filter](./img/psu-dust-filter.webp)
@@ -530,7 +534,7 @@ Thelio Spark B1-N2 includes a top I/O module providing audio and USB ports. If t
 
 If the front power button doesn't power the machine on or doesn't light up when the system is powered on, try the following troubleshooting steps:
 
-1. Ensure the system powers on normally using the internal power button.
+1. Check if internal Thelio Io power button and LED work.
 2. Reseat the front power button to ensure it's making proper contact.
 3. Check the wiring for the front power button.
 4. Replace the front power button, if necessary.
@@ -543,12 +547,13 @@ If the front power button doesn't power the machine on or doesn't light up when 
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.
-3. Push the small button labeled `B0` on the Thelio-IO board.
+3. Push the small button labeled `POWER` on the Thelio-IO board.
+    - The white LED below the button lights up to indicate when the system is powered on (and pulses when the system is suspended).
 
-![Internal power button](./img/b0-button.webp)
+![Internal power button](./img/thelio-io-power-button.webp)
 
-4. If the Thelio-IO `B0` button powers the machine on, then the issue is either the front power button or its connection to the Thelio-IO board. [Check the front power button wiring](#steps-to-check-the-front-power-button-wiring).
-5. If the Thelio-IO `B0` button does not work, then the issue is either the Thelio-IO board or its connection to the motherboard. [Check the wiring between the Thelio-IO board and the motherboard](#thelio-io-wiring-guide).
+4. If the Thelio-IO `POWER` button powers the machine on and the LED lights up, then the issue is either the front power button or its connection to the Thelio-IO board. [Check the front power button wiring](#steps-to-check-the-front-power-button-wiring).
+5. If the Thelio-IO `POWER` button and/or LED does not work, then the issue is either the Thelio-IO board or its connection to the motherboard. [Check the wiring between the Thelio-IO board and the motherboard](#thelio-io-wiring-guide).
 
 ### Steps to check the front power button wiring:
 

@@ -604,11 +604,12 @@ If the front power button doesn't power the machine on or doesn't light up when 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.
 3. Push the small button labeled `POWER` on the Thelio Io board.
+    - The white LED to the left of the button lights up to indicate when the system is powered on (and pulses when the system is suspended).
 
 ![Internal power button](./img/thelio-io-power-button.webp)
 
-4. If the Thelio Io `POWER` button powers the machine on, then the issue is either the front power button or its connection to the Thelio Io board. [Check the front power button wiring](#steps-to-check-the-front-power-button-wiring).
-5. If the Thelio Io `POWER` button does not work, then the issue is either the Thelio Io board or its connection to the motherboard. [Check the wiring between the Thelio Io board and the motherboard](#thelio-io-wiring-guide).
+4. If the Thelio Io `POWER` button powers the machine on and the LED lights up, then the issue is either the front power button or its connection to the Thelio Io board. [Check the front power button wiring](#steps-to-check-the-front-power-button-wiring).
+5. If the Thelio Io `POWER` button and/or LED does not work, then the issue is either the Thelio Io board or its connection to the motherboard. [Check the wiring between the Thelio Io board and the motherboard](#thelio-io-wiring-guide).
 
 ### Steps to check the front power button wiring:
 

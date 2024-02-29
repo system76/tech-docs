@@ -19,7 +19,7 @@ The System76 Thelio is a desktop with the following specifications:
     - [MSI MPG B650I Edge WiFi](https://www.msi.com/Motherboard/MPG-B650I-EDGE-WIFI/Specification) running System76 Firmware (non-open)
     - AMD B650 chipset
 - Daughterboard
-    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/thelio_io_2)
         - Revision 2
 - Graphics options
     - One GPU (PCIe 4.0 x16) of up to two-slot height
@@ -43,7 +43,7 @@ The System76 Thelio is a desktop with the following specifications:
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
 - Networking
     - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125BG](https://www.realtek.com/en/products/connected-media-ics/item/rtl8125bg-s-cg))
-    - Wi-Fi 6E + Bluetooth 5.2 ([AMD ...]())
+    - Wi-Fi 6E + Bluetooth 5.2 ([Mediatek MT7921K](https://fcc.id/RAS-MT7921K))
 - Power
     - C13 power cord
     - 650W PSU
@@ -53,7 +53,7 @@ The System76 Thelio is a desktop with the following specifications:
     - Back: 3.5mm line out, line in, microphone jacks
     - Front: 3.5mm line out, microphone jacks
     - Up to 7.1-channel audio output
-    - Realtek ALC4080 audio chipset (with Savitech SV3H712 amplifier) - check amp
+    - Realtek ALC4080 audio chipset
     - HDMI, DisplayPort audio (depending on GPU)
 - Storage
     - 2x M.2 (PCIe NVMe Gen 4) SSD

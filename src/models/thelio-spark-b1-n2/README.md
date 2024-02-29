@@ -18,7 +18,7 @@ The System76 Thelio Spark is a desktop with the following specifications:
     - [ASRock B660M PRO RS](https://www.asrock.com/mb/Intel/B660m%20Pro%20RS/index.asp#Specification) running System76 Firmware (non-open)
     - Intel B660 chipset
 - Daughterboard
-    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/thelio_io_2)
 - Graphics options
     - Up to two dedicated GPUs
         - Primary GPU slot:

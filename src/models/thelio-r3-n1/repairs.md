@@ -64,7 +64,7 @@ The top case can be removed to access the internal components.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio R3-N1 supports up to four 2.5" SATA III drives.
+Thelio R3-N1 supports up to two 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver (optional)  
 **Time estimate:** 5 minutes  

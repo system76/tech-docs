@@ -1,0 +1,70 @@
+# Lemur Pro (lemp13)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Lemur Pro](./img/lemp13.webp)
+
+The System76 Lemur Pro is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel Core Ultra 1st generation (Meteor Lake) CPUs
+        - [Core Ultra 7 155U](https://www.intel.com/content/www/us/en/products/sku/237327/intel-core-ultra-7-processor-155u-12m-cache-up-to-4-80-ghz/specifications.html)
+        - [Core Ultra 5 125U](https://www.intel.com/content/www/us/en/products/sku/237330/intel-core-ultra-5-processor-125u-12m-cache-up-to-4-30-ghz/specifications.html)
+- BIOS
+    - XMC XM25QU256C flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+- EC
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - GPU: Intel Iris Xe Graphics
+        - GOP driver is recommended, VBT is provided
+    - eDP display: 14.0" 1920x1200@60Hz LCD
+        - LCD panel options:
+            - Tianma TM140VDHP21
+                - Brightness: 400 nits (cd/m²)
+                - sRGB color coverage: 100%
+            - BOE NE140WUM-N6F
+                - Brightness: 400 nits (cd/m²)
+                - sRGB color coverage: 100%
+            - ...or other equivalent
+    - External video outputs:
+        - 1x HDMI 2.1
+        - 1x DisplayPort 1.4 over USB-C
+- Memory
+    - Channel 0: 8-GB on-board DDR5
+        - 4x [Samsung K4RAH165VB-BCQK](https://semiconductor.samsung.com/dram/ddr/ddr5/k4rah165vb-bcqk/) (2GB each)
+    - Channel 1: 8-GB/16-GB/32-GB/48-GB DDR5 SO-DIMM @ 4800 MHz
+- Networking
+    - M.2 PCIe/CNVi WiFi/Bluetooth
+        - Intel Wi-Fi 6E AX210/AX211
+            - Bluetooth 5.3
+- Power
+    - 20V, 3.25A (65W) DC-in
+        - Power input via either USB-C port
+    - Included AC adapter: Chicony A20-065N3A
+        - AC power cord type: IEC C5
+    - 73Wh 4-cell Lithium-Ion battery
+        - Model number: L240BAT-4-73
+- Sound
+    - Intel Meteor Lake-P HD Audio Controller
+        - Realtek ALC245 audio codec
+    - Internal speakers & microphone
+    - 3.5mm headphone/microphone combo jack
+    - HDMI, USB-C DisplayPort audio
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 4)
+    - MicroSD card reader (OZ711LV2)
+- USB
+    - 1x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort over USB-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 1.7cm x 31.2cm x 22.3cm, 0.998kg

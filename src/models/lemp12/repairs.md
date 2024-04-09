@@ -65,9 +65,9 @@ This model supports two M.2 SSDs. Both slots are size 2280. SSD-1 supports PCIe 
 
 ![M.2 slots](./img/m2-slots.webp)
 
-4. Remove the existing M.2 drive by pulling it out of the slot.
-5. Insert the new M.2 drive into the slot and hold it down.
-6. Replace the retainer screw.
+3. Remove the existing M.2 drive by pulling it out of the slot.
+4. Insert the new M.2 drive into the slot and hold it down.
+5. Replace the retainer screw.
 
 ## Replacing the wireless card:
 

@@ -6,7 +6,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Current Models
 
-- [Adder WS (addw3)](models/addw3/README.md)
+- [Adder WS (addw4)](models/addw4/README.md)
 - [Bonobo WS (bonw15)](models/bonw15/README.md)
 - [Darter Pro (darp9)](models/darp9/README.md)
 - [Galago Pro (galp7)](models/galp7/README.md)
@@ -33,6 +33,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Previous Models
 
+- [Adder WS (addw3)](models/addw3/README.md)
 - [Adder WS (addw2)](models/addw2/README.md)
 - [Adder WS (addw1)](models/addw1/README.md)
 - [Bonobo WS (bonw14)](models/bonw14/README.md)

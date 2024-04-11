@@ -13,7 +13,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - [Core Ultra 7 155U](https://www.intel.com/content/www/us/en/products/sku/237327/intel-core-ultra-7-processor-155u-12m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 125U](https://www.intel.com/content/www/us/en/products/sku/237330/intel-core-ultra-5-processor-125u-12m-cache-up-to-4-30-ghz/specifications.html)
 - BIOS
-    - XMC XM25QU256C flash chip
+    - [XMC XM25QU256C](https://www.xmcwh.com/en/site/product_con/224) flash chip
         - WSON-8 form factor
     - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC

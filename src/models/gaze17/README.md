@@ -10,7 +10,7 @@ The System76 Gazelle is a laptop with the following specifications:
 
 - CPU
     - Supports Intel Alder Lake CPUs
-        - [Intel i7-127000H](https://ark.intel.com/content/www/us/en/ark/products/132228/intel-core-i712700h-processor-24m-cache-up-to-4-70-ghz.html)
+        - [Intel i7-12700H](https://ark.intel.com/content/www/us/en/ark/products/132228/intel-core-i712700h-processor-24m-cache-up-to-4-70-ghz.html)
 - Chipset
     - [Intel HM670](https://ark.intel.com/content/www/us/en/ark/products/187451/intel-hm670-chipset.html)
 - BIOS

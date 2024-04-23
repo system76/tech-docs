@@ -148,7 +148,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove any clear tape that is securing the fan wires.
     - Some tape may be underneath the heatsink; it can alternatively be removed after removing the heatsink.
-2. Remove the thirteen heatsink and fan screws in order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #13.
+3. Remove the thirteen heatsink and fan screws in order of the stamped numbers, starting with #1, then #2, and continuing until you have removed #13.
     - The black screws (#1-#12) are held captive, and will not completely detatch from the heatsink/fans. The silver screw (#13) is not held captive, and will come loose when untightened.
     - Do not remove the smaller black screws holding the fan covers onto the fans.
 

@@ -194,13 +194,13 @@ These instructions use the Noctua `NH-U12S` as an example.
 ![CPU duct front fan bracket](./img/cpu-duct-fan-bracket-front.webp)
 
 7. Place the spinning side of the fan down and the stationary cover up, then orient the fan so the wire points towards the bottom right.
-8. Place the fan bracket over the fan so the thinnest side is on the left.
+8. Place the fan bracket over the fan so the thinnest side (without the 90-degree flange) is on the left.
 9. Screw in the four fan screws.
     - It may take some force to thread the fan screws into the fan's plastic frame.
 
 ![CPU duct fan installation](./img/cpu-duct-fan-installation.webp)
 
-10. Place the CPU duct fan and bracket into the CPU duct, with the thinnest side of the bracket pointed into the duct.
+10. Place the CPU duct fan and bracket into the CPU duct, with the thinnest side of the bracket (without the 90-degree flange) pointed into the duct.
     - The spinning side of the fan should face the front of the chassis, while the stationary cover should face the back of the chassis.
 11. Replace the screws holding the fan bracket onto the CPU duct.
     - By default, the bracket is screwed as far back in the chassis (as farthest away from the L-shaped bend in the duct) as possible.
@@ -216,7 +216,7 @@ These instructions use the Noctua `NH-U12S` as an example.
 
 ![CPU duct rear exhaust fan](./img/cpu-duct-rear-fan-screws.webp)
 
-4. When reinstalling the fan, the stationary cover should face the back of the chassis, and the wire should face the upper interior corner of the CPU duct. The thinnest side of the bracket should face directly into the duct.
+4. When reinstalling the fan, the stationary cover should face the back of the chassis, and the wire should face the upper interior corner of the CPU duct. The thinnest side of the bracket (without the 90-degree flange) should face directly into the duct.
     - The wire can be run along the top of the fan until it meets the velcro strap.
 
 ## Installing the GPU:

@@ -138,7 +138,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-The Bonobo WS 13 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
+The Bonobo WS 15 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
 
 If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
 

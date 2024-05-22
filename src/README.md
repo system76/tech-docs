@@ -8,7 +8,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 - [Adder WS (addw4)](models/addw4/README.md)
 - [Bonobo WS (bonw15)](models/bonw15/README.md)
-- [Darter Pro (darp9)](models/darp9/README.md)
+- [Darter Pro (darp10)](models/darp10/README.md)
 - [Galago Pro (galp7)](models/galp7/README.md)
 - [Gazelle (gaze18)](models/gaze18/README.md)
 - [Kudu (kudu6)](models/kudu6/README.md)
@@ -37,6 +37,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Adder WS (addw2)](models/addw2/README.md)
 - [Adder WS (addw1)](models/addw1/README.md)
 - [Bonobo WS (bonw14)](models/bonw14/README.md)
+- [Darter Pro (darp9)](models/darp9/README.md)
 - [Darter Pro (darp8)](models/darp8/README.md)
 - [Darter Pro (darp7)](models/darp7/README.md)
 - [Darter Pro (darp6)](models/darp6/README.md)

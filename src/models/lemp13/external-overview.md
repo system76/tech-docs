@@ -18,7 +18,13 @@
 
 ## Keyboard & touchpad:
 
-![Keyboard & Touchpad](./img/keyboard-touchpad.webp)
+### Before May 2024 (lemp13):
+
+![Keyboard & Touchpad](./img/keyboard-touchpad-original.webp)
+
+### After May 2024 (lemp13-b):
+
+![Keyboard & Touchpad](./img/keyboard-b.png)
 
 ## Lid:
 

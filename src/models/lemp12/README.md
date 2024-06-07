@@ -13,8 +13,11 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - [Core i7-1355U](https://ark.intel.com/content/www/us/en/ark/products/232160/intel-core-i71355u-processor-12m-cache-up-to-5-00-ghz.html)
         - [Core i5-1335U](https://ark.intel.com/content/www/us/en/ark/products/232153/intel-core-i51335u-processor-12m-cache-up-to-4-60-ghz.html)
 - BIOS
-    - Macronix MX25L25673G flash chip
-        - WSON-8 form factor
+    - Flash chip options:
+        - GigaDevice GD25B256EYIG
+        - Macronix MX25L25673G
+        - ...or other equivalent
+    - WSON-8 form factor
     - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E

@@ -27,8 +27,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Thelio Major (thelio-major-r3)](models/thelio-major-r3/README.md)
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/README.md)
-- [Thelio Mira (thelio-mira-b1.0)](models/thelio-mira-b1.0/README.md)
-- [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r3/README.md)
+- [Thelio Mira (thelio-mira-b4-n3)](models/thelio-mira-b4-n3/README.md)
 - [Thelio Spark (thelio-spark-b1-n2)](models/thelio-spark-b1-n2/README.md)
 
 ## Previous Models
@@ -70,4 +69,6 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Serval WS (serw12)](models/serw12/README.md)
 - [Thelio (thelio-b4)](models/thelio-b4/README.md)
 - [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/README.md)
+- [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r3/README.md)
+- [Thelio Mira (thelio-mira-b1.0)](models/thelio-mira-b1.0/README.md)
 - [Thelio Mira (thelio-mira-r1.0)](models/thelio-mira-r1.0/README.md)

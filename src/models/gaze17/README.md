@@ -38,11 +38,11 @@ The System76 Gazelle is a laptop with the following specifications:
     - External video output:
         - RTX 3060 model:
             - 1x HDMI
-            - 1x Mini DisplayPort 1.2
+            - 1x Mini DisplayPort 1.4
             - 1x DisplayPort 1.4 over USB-C
         - RTX 3050 Ti and 3050 models:
             - 1x HDMI
-            - 1x Mini DisplayPort 1.2
+            - 1x Mini DisplayPort 1.4
 - Memory
     - Up to 64GB (2x32GB) dual-channel DDR4 SO-DIMMs @ 3200 MHz
 - Networking

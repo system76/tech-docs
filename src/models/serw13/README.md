@@ -40,8 +40,11 @@ The System76 Serval WS is a laptop with the following specifications:
     - Up to 96GB (2x48GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
 - Networking
     - 2.5-Gigabit Ethernet
-    - M.2 PCIe/CNVi WiFi/Bluetooth
-        - Intel Wi-Fi 6E AX211
+    - M.2 PCIe/CNVi WiFi/Bluetooth options:
+        - Intel Wi-Fi 6E AX210/AX211
+            - Bluetooth 5.3
+        - Intel Wi-Fi 7 BE200
+            - Bluetooth 5.4
 - Power
     - 280W (20V, 14A) DC-in port
         - DC-in port accepts rectangular (not barrel) connector

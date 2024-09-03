@@ -120,8 +120,6 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 The Pangolin 12 has a fan and heatsink assembly to cool the CPU. The fans and heatsink are held together with adhesive; it is possible to replace the fans individually, but removing the entire assembly is recommended to perform service.
 
-During normal operation, only the left fan will spin. The right fan is reserved in the embedded controller firmware for cooling a dedicated GPU, which the Pangolin 12 does not have.
-
 If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com/) to start a warranty claim or parts purchase.
 
 Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU and the cooling equipment.

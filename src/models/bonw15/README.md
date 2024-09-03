@@ -41,10 +41,10 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - Networking
     - 2.5-Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth options:
-        - Intel Wi-Fi 6E AX210/AX211
-            - Bluetooth 5.3
         - Intel Wi-Fi 7 BE200
             - Bluetooth 5.4
+        - Intel Wi-Fi 6E AX210/AX211
+            - Bluetooth 5.3
 - Power
     - 330W (19.5V, 16.92A) DC-in ports
         - DC-in port accepts rectangular (not barrel) connector

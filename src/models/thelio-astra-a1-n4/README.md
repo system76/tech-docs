@@ -1,0 +1,109 @@
+# Thelio Mira (thelio-mira-b4-n3)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Mira](./img/thelio-mira-b4-n3.webp)
+
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- Processor options
+    - Supports Intel 14th generation (Raptor Lake) CPUs
+        - [Core i9-14900KS](https://ark.intel.com/content/www/us/en/ark/products/237504/intel-core-i9-processor-14900ks-36m-cache-up-to-6-20-ghz.html)
+        - [Core i9-14900K](https://ark.intel.com/content/www/us/en/ark/products/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz.html)
+        - [Core i7-14700K](https://ark.intel.com/content/www/us/en/ark/products/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz.html)
+        - [Core i5-14400](https://ark.intel.com/content/www/us/en/ark/products/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz.html)
+- Motherboard
+    - [Gigabyte Z790 Aorus Elite AX](https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp) running System76 Firmware (non-open)
+    - Intel Z790 Express Chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+        - Version 2.3
+- Graphics options
+    - Configured with up to one dedicated GPU
+        - Factory configurations limited to one GPU
+        - Primary GPU slot:
+            - PCIe 5.0 x16
+            - Up to 4-slot height
+        - Secondary GPU slot:
+            - PCIe 4.0 x4
+                - Fits physical x16 cards, runs at x4 bandwidth
+            - Up to 2-slot height (if third slot is empty)
+    - GPU size:
+        - Internal clearance: 358.00mm
+        - Recommended maximum length: 348.00mm
+    - Tested with the following GPUs:
+        - [NVIDIA GeForce RTX 4090](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1a
+        - [NVIDIA GeForce RTX 4080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1 
+        - [NVIDIA GeForce RTX 4070 Ti Super](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1
+        - [NVIDIA GeForce RTX 4060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1
+        - [AMD Radeon RX 7900 GRE](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900-gre.html)
+            - 2x DisplayPort 2.1
+            - 2x HDMI 2.1a
+            - 1x USB Type-C (DisplayPort 2.1 signal)
+        - [AMD Radeon RX 7600](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600.html)
+            - 2x DisplayPort 2.1
+            - 2x HDMI 2.1a
+        - Integrated Graphics (dependent on CPU selection)
+            - Core i7-14700K, Core i9-14900K, Core i9-14900KS:
+                - Intel UHD Graphics 770
+                    - 1x HDMI 2.1
+            - Core i5-14400:
+                - Intel UHD Graphics 730
+                    - 1x HDMI 2.1
+- Expansion
+    - 1x PCIe 5.0 x16 (primary GPU slot)
+    - 1x PCIe 4.0 x4 (secondary GPU slot)
+        - Fits physical x16 cards, runs at x4 bandwidth
+    - 1x PCIe 3.0 x4
+        - Fits physical x16 cards, runs at x4 bandwidth
+- Memory
+    - Up to 128GB (4x32GB) dual-channel DDR5 DIMMs @ 4000 MHz
+        - 64GB (2x32GB) and less runs @ 4800 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/Product/Index?id=3962))
+    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
+- Power
+    - C13 power cord
+    - 850W PSU
+    - 80+ Gold Efficiency
+    - Tested with the following PSU models (may ship with other tested models):
+        - [Be Quiet! Pure Power 12 M](https://www.bequiet.com/en/powersupply/4162)
+        - [XPG Core Reactor II](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii)
+- Sound
+    - Back:
+        - 3.5mm mic in
+        - 3.5mm line out
+        - S/PDIF out
+    - Top:
+        - 3.5mm mic in
+        - 3.5mm line out
+    - Up to 7.1-channel audio output
+    - Realtek ALC897 audio chipset
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 4x M.2 (PCIe NVMe Gen 4) SSDs
+    - 2x 2.5" SATA III
+- USB
+    - Back ports:
+        - 1x USB 3.2 Gen 2x2 (Type-C)
+            - Does not support Thunderbolt or DisplayPort over USB-C.
+        - 2x USB 3.2 Gen 2 (Type-A)
+        - 3x USB 3.2 Gen 1 (Type-A)
+        - 4x USB 2.0 Type-A (Type-A)
+    - Top ports:
+        - 1x USB 3.2 Gen 1 (Type-C)
+        - 1x USB 3.2 Gen 1 (Type-A)
+- Dimensions
+    - 43.8cm × 24.7cm × 37.2cm

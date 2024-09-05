@@ -3,6 +3,7 @@
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
+- [Software Setup](./software.md)
 
 ![Thelio Astra](./img/thelio-astra-a1-n4.webp)
 

@@ -29,4 +29,5 @@ jobs:
           personal_token: ${{ secrets.RELEASE_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./book
+          force_orphan: true
           cname: 'tech-docs.system76.com'

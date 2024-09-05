@@ -1,6 +1,6 @@
-# Thelio Astra (Software Setup)
+# Thelio Astra (Ubuntu 24.04 LTS Setup)
 
-Thelio Astra is unique in using an Ampere processor supporting aarch64 versions of Linux. The Ubuntu 24.04 operating system is currently supported on this hardware after performing custom software setup tasks.
+Thelio Astra is unique in using an Ampere processor supporting aarch64 versions of Linux. The Ubuntu 24.04 LTS operating system is currently supported on this hardware after performing custom software setup tasks.
 
 ## Operating System download
 
@@ -39,10 +39,9 @@ Thelio Astra is unique in using an Ampere processor supporting aarch64 versions 
 - Plug the second to last ethernet port (next to the BMC's ethernet port) in to a DHCP capable network with internet access.
 - Power on the system. Press the `F11` key when the firmware splash screen appears to open the boot menu.
 - In the boot menu, select the option that starts with `UEFI OS (Linux File-Stor Gadget`
-- Hold the escape key to cancel the GRUB menu timeout.
 - Navigate to the `Try or Install Ubuntu Server` option and press `e` to edit it.
 - Move the cursor to the line starting with `linux`, add `console=tty0 nomodeset` between `/casper/vmlinuz` and `---` ensuring that there are spaces before and after these added arguments. Press `F10` to boot. The first added argument `console=tty0` tries to get Linux console output to show up on a connected display. The second added argument `nomodeset` works around potential nouveau crashes when NVIDIA cards are used.
-- It will take some time to boot to the installer. If no output is seen, check the `Serial over LAN (SOL) console` page in the BMC interface.
+- It will take some time to boot to the installer. If no output is seen, check the `Serial over LAN (SOL) console` page in the BMC web interface.
 - Select the desired language.
 - On the `Keyboard configuration` page, select the desired keyboard layout and variant. Select `Done` to continue.
 - On the `Choose the type of installation` page, select `Ubuntu Server`. Select `Done` to continue.

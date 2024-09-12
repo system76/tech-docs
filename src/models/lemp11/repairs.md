@@ -193,6 +193,10 @@ The model number for the Lemur Pro 11's battery is `L140BAT-4`, and the original
     - The battery is secured to foam standoffs with double-sided tape.
     - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
     - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery.
+        - Pull the tabs outward to remove as much of the tape as possible.
         - Hold the tabs down while inserting the plastic tool to separate the tape and foam from the battery.
         - Alternatively, pull the tabs up with the battery to separate the tape and foam from the chassis.
+        - You can optionally [remove the right speaker](#replacing-the-speakers) for easier access to the tabs along the left side.
+    - Leave the foam backing in place for the replacement battery to rest on.
 4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
+    - You may need to peal back the tape that holds the battery connection cable to tuck the cable under the battery when attaching back to the white connection on the main logic board.

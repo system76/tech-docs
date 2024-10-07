@@ -33,7 +33,7 @@ The System76 Serval WS is a laptop with the following specifications:
         - 15.6" 1920x1080@165Hz LCD
             - LCD panel: BOE NV156FHM-NY8 (or equivalent)
     - External video outputs:
-        - 1x HDMI
+        - 1x HDMI 2.1a
         - 1x Mini DisplayPort 1.4
         - 1x DisplayPort 1.4 over USB-C
 - Memory

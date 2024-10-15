@@ -1,4 +1,4 @@
-# Bonobo WS (bonw15)
+# Bonobo WS (bonw15 & bonw15-b)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
@@ -17,10 +17,14 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - BIOS
     - GigaDevice GD25B256EYIGR flash chip
         - WSON-8 form factor
-    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - UEFI firmware dependent on model:
+        - bonw15-b: Programmed with System76 firmware (non-open)
+        - bonw15: Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
 - EC
     - ITE IT5570E
-    - Programmed with [System76 EC](https://github.com/system76/ec)
+    - EC firmware dependent on model:
+        - bonw15-b: Programmed with non-open EC firmware
+        - bonw15: Programmed with [System76 EC](https://github.com/system76/ec)
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 4090
@@ -60,7 +64,10 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - Storage
     - 3x M.2 PCIe NVMe Gen 4
 - USB
-    - 2x USB Type-C with Thunderbolt 4
+    - 2x USB Type-C with Thunderbolt
+        - Thunderbolt version dependent on model:
+            - bonw15-b: Thunderbolt 5
+            - bonw15: Thunderbolt 4
     - 2x USB 3.2 Gen 2 Type-A
 - Dimensions
     - 2.49cm x 39.6cm x 27.8cm, 3.29kg

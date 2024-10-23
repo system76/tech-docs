@@ -65,12 +65,12 @@ The System76 Thelio Major is a desktop with the following specifications:
 - Memory
     - Up to 512GB (4x128GB) dual-channel DDR5 DIMMs @ 5600 MHz
     - Tested with the following RAM modules (may ship with other tested modules):
-        - [Hynix HMCT04AGERA202N]() (128GB/stick)
-        - [Hynix HMCG94AGBRA181N]() (64GB/stick)
-        - [Hynix HMCG84AGBRA190N]() (32GB/stick)
-        - [Kinsington KF556R28RBE2K4]() (32GB/stick)
+        - Hynix HMCT04AGERA202N (128GB/stick)
+        - Hynix HMCG94AGBRA181N (64GB/stick)
+        - Hynix HMCG84AGBRA190N (32GB/stick)
+        - [Kingston KF556R28RBE2K4](https://www.kingston.com/datasheets/KF556R28RBE2K4-128.pdf) (32GB/stick)
 - Networking
-    - 1x 10-Gigabit Ethernet ([Marvell AQtion AQC113C]())
+    - 1x 10-Gigabit Ethernet ([Marvell AQtion AQC113C](https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-fastLinq-edge-product-brief.pdf))
     - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/Product/Index?id=3962))
     - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
 - Power

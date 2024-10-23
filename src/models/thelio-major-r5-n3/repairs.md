@@ -66,7 +66,7 @@ The top case can be removed to access the internal components.
 
 Thelio Major R5-N3 supports up to four 2.5" SATA III drives.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver   
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
@@ -128,7 +128,7 @@ One or two GPU brace fingers may be installed by default, depending on the GPU m
 
 ### Steps to adjust the GPU brace finger:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#steps-to-remove-the-side-brace), and [remove the side fan](#steps-to-remove-the-side-fan) (if installed over one of the brace fingers).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#steps-to-remove-the-side-brace), and [remove the side fan](#steps-to-replace-the-optional-side-fan) (if installed over one of the brace fingers).
 2. To adjust a GPU brace finger's horizontal position, unscrew its four corner screws (highlighted green below), move the GPU brace finger's mounting bar, and reattach it in the desired position.
     - Any vertical alignment screws overlapping the side brace (such as the ones highlighted cyan below) will also need to be removed.
     - All screws highlighted below have flat heads to avoid interfering with the side fan.
@@ -395,7 +395,7 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
     - AMD Threadripper CPUs come with carrier trays, so removing the CPU from the tray is generally not necessary.
 7. Flip the CPU bracket back down onto the socket, gently pressing the blue tabs to seat the CPU carrier tray onto the motherboard.
 8. Flip the CPU bracket cover back down.
-9. Screw the three Torx screws back into place.
+9. Screw the three Torx screws back into place in order of the printed numbers (starting with #1).
     - The AMD Threadripper-branded tool applies 1.5 Nm of torque. When the screw is tight enough, it will give way.
     - If you're using a different screwdriver, use a torque tool to apply approximately the same amount of torque (1.5 Nm, or ~13.275 in-lb).
     - If you're using a screwdriver without a torque tool, try to tighten all three screws evenly. After re-assembling the computer, [run a RAM test](https://support.system76.com/articles/hardware-failure#memory) to ensure the CPU is secured with the correct amount of force.
@@ -430,8 +430,8 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 
 ![RAM slots](./img/ram-slots.webp)
 
-3. Make sure the tabs on the top and bottom of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
-    - The RAM stick will only fit in one direction. The larger group of pins goes on top.
+3. Make sure the tabs on the left and right of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
+    - The RAM stick will only fit in one direction. The larger group of pins goes on the left.
     - Use the following guide for placement of the RAM sticks:
     ![RAM slot order](./img/ram-order.webp)
 4. Replace the top case.

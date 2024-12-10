@@ -1,4 +1,4 @@
-# Thelio Mira (External Overview)
+# Thelio Astra (External Overview)
 
 ## Back overview:
 

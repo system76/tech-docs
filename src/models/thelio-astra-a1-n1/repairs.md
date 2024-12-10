@@ -1,10 +1,10 @@
-# Thelio Mira (Parts & Repairs)
+# Thelio Astra (Parts & Repairs)
 
-Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the the B4-N3 revision, which indicates:
+Many components in your Thelio Astra can be upgraded or replaced as necessary. This page uses photos of the the A1-N1 revision, which indicates:
 
-- **B4:** The fourth Intel motherboard used in Thelio Mira.
-- **N3:** Based on the third revision of the nebula40 chassis.
-    - The nebula40 chassis succeeds the former nebula36 chassis.
+- **A1:** The first Ampere-compatible motherboard used in Thelio Astra.
+- **N1:** The first chassis revision of the Thelio Astra.
+    - The Thelio Astra chassis is based on the nebula40 chassis, but lacks top I/O and 2.5" drive mounts.
 
 Minor case details may vary based on the production date of the unit, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
@@ -12,7 +12,6 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 
 - [Replacing the front accent strip](#replacing-the-front-accent-strip)
 - [Removing the top case](#removing-the-top-case)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
 - [Removing the side brace](#removing-the-side-brace)
 - [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
 - [Removing the CPU duct](#removing-the-cpu-duct)
@@ -24,13 +23,11 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the power supply](#replacing-the-power-supply)
 - [Replacing the Thelio Io board](#replacing-the-thelio-io-board)
-- [Replacing the SATA backplane](#replacing-the-sata-backplane)
-- [Replacing the top I/O](#replacing-the-top-io)
 - [Troubleshooting the power button](#troubleshooting-the-power-button)
 
 ## Replacing the front accent strip:
 
-Thelio Mira includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
+Thelio Astra includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
 
 **Tools required:** None  
 **Time estimate:** 30 seconds  
@@ -63,34 +60,6 @@ The top case can be removed to access the internal components.
 ![Top case screws](./img/top-case-screws.webp)
 
 2. Slide the top case up and off of the machine.
-
-## Adding/removing 2.5" storage drives:
-
-Thelio Mira B4-N3 supports up to two 2.5" SATA III drives.
-
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
-**Time estimate:** 7 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
-
-### Steps to add/remove 2.5" storage drives:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the two screws securing the drive bay's cover, highlighted green below.
-
-![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
-
-3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
-
-![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
-
-4. Insert four screws into each 2.5" storage drive you wish to install.
-5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.
-
-![2.5" drive installation](./img/25-drive-installation.webp)  
-
-![Installed 2.5" drive](./img/25-drive-installed.webp)
-
-6. Replace the black plastic screw ring and the 2.5" drive bay cover.
 
 ## Removing the side brace:
 
@@ -126,9 +95,22 @@ The GPU brace finger is only required during shipping. The system can be run wit
 
 ![GPU brace finger screws, side](./img/gpu-brace-finger-screws-side.webp)
 
+### Steps to replace the side GPU fan:
+
+1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#steps-to-remove-the-side-brace).
+2. Unplug the GPU fan from the splitter board on the side brace and free its cable from the velcro strap.
+
+![GPU fan cabling](./img/gpu-fan-cabling.webp)
+
+3. Remove the four screws holding the side GPU fan in place.
+
+![GPU fan screws](./img/gpu-fan-screws.webp)
+
+4. Screw the new fan into the side brace, plug it into the splitter, and secure its cable with the velcro strap.
+
 ## Replacing the bottom case fan:
 
-Thelio Mira B4-N3 has one case-mounted intake fan on the bottom of the chassis.
+Thelio Astra A1-N1 has one case-mounted intake fan on the bottom of the chassis.
 
 **Part numbers:**
 - The bottom case fan is a 140mm Be Quiet! Silent Wings 4 (model number `BQ SIW4-14025-MF-PWM`).
@@ -174,26 +156,23 @@ The CPU duct guides airflow through the CPU cooler. It covers the CPU and partia
 
 ### Steps to remove the CPU duct:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#removing-the-side-brace).
-2. Unplug the two fan connectors (highlighted red below) from the Y cable connected to the top splitter board in the front corner of the machine.
-    - You can optionally also unplug the Y cable from the splitter board (highlighted green below) and remove it.
-    - The splitter board provides the same signal to both ports, so it doesn't matter which port the Y cable is plugged into.
+1. Follow the steps above to [remove the top case](#removing-the-top-case).
+2. Unplug the braided fan connector (highlighted red below) from the top splitter board in the front corner of the machine.
+    - The splitter board provides the same signal to both ports, so it doesn't matter which port each cable is plugged into. In the below photo, the braided cable is plugged into the top port (`J2`).
 
 ![CPU fan connectors](./img/cpu-fan-connectors.webp)
 
-3. Unfasten and loosen (or remove) the velcro loop securing the fan wires to the CPU duct (highlighted cyan above).
-    - This can also be done as the last step if the loop is difficult to remove while the duct is still installed.
-4. Unscrew the four back thumbscrews and two top crossbar screws holding the CPU duct in place.
+3. Unscrew the four back thumbscrews and two top crossbar screws holding the CPU duct in place.
 
 ![CPU duct thumbscrews (back)](./img/cpu-duct-screws-back.webp)
 
 ![CPU duct screws (top crossbar)](./img/cpu-duct-screws-top.webp)
 
-5. Pull the CPU duct away from the machine.
+4. Pull the CPU duct away from the machine.
 
 ## Replacing the RAM:
 
-Thelio Mira B4-N3 supports up to 128GB (4x32GB) of RAM.
+Thelio Astra A1-N1 supports up to 512GB (8x64GB) of RAM.
 
 The RAM sticks are DDR5 DIMMs (non-ECC). With up to 64GB of RAM, the RAM runs at a speed of 4800 MHz; with greater than 64GB of RAM, the RAM runs at a speed of 4000 MHz.
 
@@ -206,20 +185,23 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
-    - If there's no dedicated GPU installed, then removing the CPU duct is optional, but removal is still recommended to provide easier access to the RAM slots.
-2. To remove an existing RAM stick, flip the top and bottom latches away from the stick, then pull the stick out of the slot.
+    - [Removing the CPU cooler](#replacing-the-cpu-cooler-and-cpu) is not physically required, but can optionally be done for easier access to the inner RAM slots. Replacing the thermal paste is strongly recommended if the CPU cooler is removed. In the below photo, the CPU cooler has been removed for greater visibility.
+2. If installing/removing RAM in any of the top RAM slots, unplug the 8-pin CPU power cable (labeled `ATX12V1` to the right of the port), highlighted red below.
 
 ![RAM slots](./img/ram-slots.webp)
 
-3. Make sure the tabs on the top and bottom of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
-    - The RAM stick will only fit in one direction. The larger group of pins goes on top.
+3. To remove an existing RAM stick, flip the left and right latches away from the stick, then pull the stick out of the slot.
+4. Make sure the tabs on the top and bottom of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
+    - The RAM stick will only fit in one direction. The larger group of pins goes on the left.
     - Use the following guide for placement of the RAM sticks:
     ![RAM slot order](./img/ram-order.webp)
-4. Replace the top case.
+4. Replace the CPU cooler (if necessary), CPU duct, and top case.
 
 ## Replacing the GPU:
 
-Thelio Mira ships with an optional dedicated GPU in the PCIe 5.0 x16 slot (top slot). GPUs greater than three slots tall may obstruct the lower PCIe slots.
+Thelio Astra ships with one dedicated GPU in the PCIe 4.0 x16 slot third from the top. GPUs greater than one slot tall will obstruct the lowest PCIe slot.
+
+Depending on your motherboard and firmware version, the boot splash screen may not show up if the GPU is installed in either of the top two slots. It's recommended to reserve the top two slots for non-GPU PCIe accessories.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -228,8 +210,8 @@ Thelio Mira ships with an optional dedicated GPU in the PCIe 5.0 x16 slot (top s
 ### Steps to replace the GPU:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#removing-the-side-brace).
-    - You can optionally [remove the CPU duct](#removing-the-cpu-duct) for easier access to the PCIe slot and power cable latches.
 2. If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.
+    - Thelio Astra includes both classic 6+2-pin and 16-pin (12VHPWR) GPU power cables. If you're changing GPUs and switching from one type of cable to the other, you may need to free the new cable from the velcro straps at the bottom of the chassis, then secure the old cable out of the way using the velcro straps.
 
 ![GPU power connections](./img/gpu-power.webp)
 
@@ -237,8 +219,8 @@ Thelio Mira ships with an optional dedicated GPU in the PCIe 5.0 x16 slot (top s
 
 ![PCIe bracket screws](./img/pcie-bracket.webp)
 
-4. Push back the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
-    - If the latch is difficult to reach between the GPU and the CPU heatsink, a long object (such as a screwdriver) can be used to push the latch.
+4. Pull the card out of the slot.
+    - There is no latch on the PCIe slots of the Thelio Astra motherboards.
 
 ![PCIe slots & latches](./img/pcie-slots.webp)
 
@@ -251,36 +233,38 @@ Thelio Mira ships with an optional dedicated GPU in the PCIe 5.0 x16 slot (top s
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
 **Part numbers:**
-- The CMOS battery is a standard KTS CR2032 battery.
+- The CMOS battery is a standard CR2032 battery. The stock battery is Toshiba brand.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>
 
-### Steps to replace the CMOS battery:
+### Steps to replace the CMOS battery (ALTRAD8UD2-1L2Q motherboard variant):
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#removing-the-side-brace).
-    - Depending on the height of the GPU, it may help to also [remove the GPU](#replacing-the-gpu) for easier access.
-2. Pull the clip away from the CMOS battery.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the CPU duct](#removing-the-cpu-duct), and [remove the side brace](#removing-the-side-brace).
+    - Depending on the size of your GPU, you may also need to [remove the GPU](#replacing-the-gpu) to access the Clear CMOS Pad.
+2. Unplug the CMOS battery connector (highlighted cyan below) from the header next to the silver heatsink at the top left of the motherboard.
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. Pull the CMOS battery out of its slot.
-4. If you are resetting the CMOS, hold down the power button for 10 seconds to discharge any residual energy in the system.
-5. Replace the CMOS battery starting with the left side of the slot (opposite from the clip).
-    - The positive side of the battery (with text) should face outward.
+3. If you are replacing the CMOS battery, pull it away from the SFP port casing.
+4. If you are resetting the CMOS, bridge the contacts of the Clear CMOS Pad near the bottom-right corner of the motherboard (near the M.2 SSD).
+
+![Clear CMOS pad](./img/cmos-clear-pad.webp)
+
+5. Plug in the new CMOS battery and adhere it to the top of the SFP port casing.
 6. Replace the GPU, side brace, and top case.
 
 ## Replacing the M.2 drives:
 
-Thelio Mira B4-N3 has four M.2 storage slots. All four slots are M-key and size 2280.
+Thelio Astra A1-N1 has one or two M.2 storage slots on the motherboard, depending on the motherboard variant:
 
-- All four slots support PCIe NVMe Gen 4.
-- The bottom slot (`M2M_SB`) also supports SATA III.
+- The ALTRAD8UD-1L2T motherboard variant includes two M.2 slots.
+- The ALTRAD8UD2-1L2Q motherboard variant (shown in the photos on this page) includes one M.2 slot.
 
-If the bottom slot (`M2M_SB`) is populated with a PCIe NVMe drive, then the bottom two SATA ports (2 and 3) will become unavailable. The bottom two SATA ports are not used by default in Thelio Mira B4-N3.
+All motherboard slots are M-key and support sizes 2280 and 2230.
 
-Factory configurations only offer up to two M.2 SSDs (so at least two slots will be vacant by default).
+Factory configurations offer up to four additional SSDs using a PCIe adapter card, not pictured in this manual.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 30 minutes  
@@ -288,31 +272,24 @@ Factory configurations only offer up to two M.2 SSDs (so at least two slots will
 
 ### Steps to replace the M.2 drive:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the CPU duct](#removing-the-cpu-duct), and [remove the GPU](#replacing-the-gpu).
-    - Removing the GPU is optional to access the top slot, but still recommended for ease of access.
-2. Unscrew and remove the M.2 heatsink for the slot(s) you wish to access.
-    - The heatsink screws are captive, and will not come away from the heatsink when fully loosened.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#removing-the-side-brace), and [remove the GPU](#replacing-the-gpu).
+    - Removing the GPU is optional to access the top slot (the only slot in the ALTRAD8UD2-1L2Q motherboard vairant), but still recommended for ease of access.
+2. Unscrew and remove the plastic-headed screw holding the M.2 drive in place.
+    - The M.2 drive will pop up at an angle and can be removed.
 
-![M.2 heatsink screws](./img/m2-heatsink-screws.webp)
+![M.2 slot](./img/m2-slot.webp)
 
-3. To remove a drive from a slot, push the corresponding circular lever upwards to release it, then pull it out of the slot.
-
-![M.2 slots](./img/m2-slots.webp)
-
-4. To insert a drive into a slot, insert the connector, then push the opposite side down onto the circular tab until it clicks into place.
-5. Replace the M.2 heatsink(s).
-    - If you're using a slot for the first time, peel the protective plastic off of the corresponding thermal tape on the heatsink.
-
-![M.2 thermal tape](./img/m2-thermal-tape.webp)
-
-6. Replace the GPU, CPU duct, side brace, and top case as applicable.
+3. To install a drive, insert it into the slot at an angle, then hold it against the motherboard while screwing in the plastic-headed screw.
+4. Replace the GPU, side brace, and top case as applicable.
 
 ## Replacing the CPU fans:
 
-Thelio Mira B4-N3 contains two 120mm CPU fans. The back fan is mounted on the CPU duct, and the middle fan is mounted within the CPU heatsink.
+Thelio Astra A1-N1 contains three 120mm CPU fans. One fan is mounted on the back of the CPU duct, while two others are mounted on the front and back of the CPU cooler's heatsink.
 
 **Part numbers:**
-- The CPU fans are Thermalright [TL-C12B V2](https://www.thermalright.com/product/tl-c12-b/) fans.
+- The duct-mounted CPU fan is a Be Quiet! Silent Wings 4 ([BQ SIW4-12025-MF-PWM](https://www.bequiet.com/en/casefans/3700)).
+- The heatsink-mounted CPU fans are Arctic Freezer 4U fans. 
+    - The heatsink-mounted fans are produced for the Arctic Freezer 4U Ampere CPU cooler, and it may not be possible to source them separately.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -323,7 +300,6 @@ Thelio Mira B4-N3 contains two 120mm CPU fans. The back fan is mounted on the CP
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
 3. Unscrew the four screws (two on each side) holding the fan bracket onto the duct.
     - Removing the bracket from the duct is not required, but it makes removal and installation of the fan much easier.
-    - The velcro loop (highlighted cyan below) should already be unfastened from [removing the CPU duct](#removing-the-cpu-duct).
 
 ![CPU duct fan bracket screws](./img/cpu-duct-fan-bracket-screws.webp)
 
@@ -332,73 +308,76 @@ Thelio Mira B4-N3 contains two 120mm CPU fans. The back fan is mounted on the CP
 ![CPU duct fan screws](./img/cpu-duct-fan-screws.webp)
 
 5. When reinstalling the fan into the CPU duct:
-    - The spinning side should face inward (towards the front of the chassis).
-    - The cable should point towards the velcro strap (towards the top left, when viewed from the back).
+    - The spinning side should face inward (towards the front of the chassis), while the stationary label should face outward (towards the back of the chassis).
+    - The cable should point towards the fan connector (towards the top left, when viewed from the back).
+        - The fan bracket contains a cable channel in the correct corner.
     - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
-### Steps to replace the heatsink-mounted CPU fan:
+### Steps to replace the heatsink-mounted CPU fans:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
-    - For easier access to the fan tabs, it's also recommended to [remove the side brace](#removing-the-side-brace) and [remove the dedicated GPU](#replacing-the-gpu) (if installed).
-    - The fan should be unplugged as part of [removing the CPU duct](#removing-the-cpu-duct).
-2. To release the fan, pull the metal clips on the top and bottom of the heatsink away from the fan, then away from the heatsink.
+    - You can optionally [remove the side brace](#removing-the-side-brace) for easier access.
+2. Disconnect the rear cooler fan from the front cooler fan's Y-cable, and unplug the front cooler fan's Y-cable from the splitter board (if it wasn't already unplugged while [removing the CPU duct](#removing-the-cpu-duct)).
+    - The heatsink fan cable connection points are highlighted red below.
 
-![CPU heatsink fan clips and connector](./img/cpu-heatsink-fan-clips.webp)
+![CPU heatsink fans & connectors](./img/cpu-heatsink-fans-installed.webp)
 
-3. Slide the fan out from between the two heatsink blocks.
-4. When reinstalling the CPU heatsink fan, the side with a stationary cover should face the back of the chassis.
-    - The cable should point towards the top outer corner (top-right when viewed from the back of the case.)
+3. Pull the fans (highlighted green above) directly out of the case, sliding them off the heatsink.
+
+![CPU heatsink fans (removed)](./img/cpu-heatsink-fans-removed.webp)
+
+4. When reinstalling the CPU heatsink fans, the fan with a normal cable goes on the back of the heatsink, while the fan with a Y-cable goes on the front.
 
 ## Replacing the CPU cooler and CPU:
 
 The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.
 
 **Part numbers:**
-- The CPU cooler is a [Thermalright Phantom Spirit 120](https://www.thermalright.com/product/phantom-spirit-120/).
-- The CPU uses an Intel LGA 1700 socket.
+- The CPU cooler is an [Arctic Freezer 4U-M](https://www.arctic.de/us/Freezer-4U-M/ACFRE00133A).
+- The CPU uses an AMD sTR5 socket.
 
-**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
+**Tools required:** Cross-head (Phillips) screwdriver, AMD Threadripper torque tool or compatible 1.5 Nm (13.275 in-lb) torque 3.95mm six-point star (Torx 20) screwdriver, thermal paste  
 **Time estimate:** 45 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
 ### Steps to remove the CPU cooler/thermal paste:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#removing-the-side-brace), [remove the CPU duct](#removing-the-cpu-duct), [remove the GPU](#replacing-the-gpu), and [remove the heatsink-mounted CPU fan](#steps-to-replace-the-heatsink-mounted-cpu-fan).
-2. While holding the CPU cooler in place so it doesn't fall, loosen the screws on the top and bottom of the CPU cooler's vertical mounting bar.
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#removing-the-side-brace), [remove the CPU duct](#removing-the-cpu-duct), [remove the GPU](#replacing-the-gpu), and [remove the heatsink-mounted CPU fans](#steps-to-replace-the-heatsink-mounted-cpu-fans).
+2. While holding the CPU cooler in place so it doesn't fall, loosen the screws to the left and right of the CPU cooler.
+    - The two screws on the left side use the outer holes.
+    - The two screws on the right side use the inner holes.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.webp)
 
 3. Lower the cooler away from the CPU.
-4. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+4. Using a paper towel, clean the existing thermal paste off of the heatsink and CPU.
+    - Due to the design of the heatsink, some thermal paste may remain between the heatsink pipes. Only the flat section of the pipes that makes contact with the CPU needs to be cleaned.
+    - You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
 ### Steps to replace the CPU:
 
 1. Place the computer on its side so the motherboard is facing up.
-2. Unscrew and remove the two horizontal CPU cooler mounting brackets.
+2. Using a Torx T20 screwdriver, unscrew the Torx screws in reverse order of the stamped numbers (unscrewing #1 last).
+    - Your motherboard may have four or five Torx screws on the CPU socket, depending on the revision.
+    - The screws are held captive and will not come apart from the CPU holder.
 
-![CPU cooler mounting bracket](./img/cpu-cooler-mounting-bracket-screws.webp)
+![CPU socket screws](./img/cpu-socket-screws.webp)
 
-3. Push the locking lever outward until it's able to spring away from the motherboard.
-    - Caution: the locking lever may spring up with significant force when freed.
-
-![CPU locking lever](./img/cpu-locking-lever.webp)
-
-4. Flip the CPU holder away from the CPU.
-    - The CPU holder opens in the opposite direction from the locking lever.
+3. The spring-loaded CPU holder will raise off of the motherboard.
 
 ![CPU holder raised](./img/cpu-holder-raised.webp)
 
-5. Carefully lift the CPU out of the CPU socket.
+4. Carefully lift the CPU's black plastic frame out of the CPU socket.
     - Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.
 
 ![CPU (removed)](./img/cpu-removed.webp)
 
-6. Gently place the new CPU into the socket.
-    - The triangle on the CPU should be oriented to match the triangle on the CPU cover, pointing towards the bottom left of the motherboard.
-7. Flip the CPU cover back onto the CPU and push the locking lever down into place.
-8. Reinstall the horizontal CPU cooler mounting brackets.
+5. Gently place the new CPU into the socket.
+    - The diagonal-cut corner of the CPU (marked with a triangle on the bottom) should be oriented to match the triangle on the CPU socket, pointing towards the bottom right of the motherboard.
+6. Flip the CPU cover back onto the CPU.
+7. Screw in the CPU cover's Torx screws in the order of the stamped numbers (starting with #1).
 
 ### Steps to install the thermal paste/CPU cooler:
 
@@ -406,18 +385,17 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 ![Thermal paste application](./img/thermal-paste-application.webp)
 
-2. Place the CPU cooler onto the CPU; while holding it in place, screw its vertical mounting bar into the horizontal mounting brackets.
-    - The cooler should be oriented so the Thermalright logos are on the bottom.
-    - Insert each screw partially, then finish tightening both.
-3. Set the computer upright, then reinstall the cooler-mounted CPU fan, CPU duct, GPU, side brace, and top case.
+2. Place the CPU cooler onto the CPU; while holding it in place, screw in its four mounting screws.
+    - The cooler should be oriented so the Arctic logo faces the right side.
+    - Insert each screw partially, then finish tightening them all.
+3. Set the computer upright, then reinstall the cooler-mounted CPU fans, CPU duct, GPU, side brace, and top case.
 
 ## Replacing the power supply:
 
 The power supply unit (PSU) can be replaced with another unit of the same model.
 
 **Part numbers:**
-- The default PSU in units shipped after July 2024 is the [XPG Core Reactor II](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii).
-- The default PSU in older units is the [Be Quiet! Pure Power 12 M](https://www.bequiet.com/en/powersupply/4162).
+- The default PSU is the [XPG Core Reactor II](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 45 minutes  
@@ -453,7 +431,7 @@ The power supply unit (PSU) can be replaced with another unit of the same model.
 Named after Jupiter's moon Io, the Thelio Io daughterboard handles the front power button and fan control. If the Thelio Io board becomes defective, it can be replaced using the instructions below.
 
 **Part numbers:**
-- Thelio Mira B4-N3 uses [Thelio Io version 2](https://github.com/system76/thelio-io/tree/92c2a60b6d6acc0f9d51d819cba07ad28e2b03f3) ([PCB revision thelio_io_2.3](https://github.com/system76/thelio-io-hardware/tree/91814370002f762ac01cd1dd99dcbb43336352ab/pcb-thelio-io)).
+- Thelio Astra A1-N1 uses [Thelio Io version 2](https://github.com/system76/thelio-io/tree/92c2a60b6d6acc0f9d51d819cba07ad28e2b03f3) ([PCB revision thelio_io_2.3](https://github.com/system76/thelio-io-hardware/tree/91814370002f762ac01cd1dd99dcbb43336352ab/pcb-thelio-io)).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 30 minutes  
@@ -480,92 +458,25 @@ Named after Jupiter's moon Io, the Thelio Io daughterboard handles the front pow
 
 1. When wiring the Thelio Io board, refer to the port labels and the following guide.
     - `FANOUT1`/`CPU FAN` - to the top fan splitter (connecting to the [CPU fans](#replacing-the-cpu-fans)).
-    - `FANOUT4`/`AUX FAN` - to the bottom fan splitter (below the [CPU fan splitter](#replacing-the-cpu-fans)).
+    - `FANOUT4`/`AUX FAN` - disconnected.
     - `FANOUT2`/`INTAKE FAN` - to the [bottom case fan](#replacing-the-bottom-case-fan).
     - `FANOUT3`/`GPU FAN` - to the [side brace](#removing-the-side-brace) fan splitter.
         - May be disconnected by default if no side fan is ordered as factory configuration.
-    - `FANIN1`/`MOTHERBOARD FAN INPUT` - to the `CPU_FAN` header at the top right of the motherboard, highlighted cyan below.
+    - `FANIN1`/`MOTHERBOARD FAN INPUT` - to the `FAN1` header on the right side of the motherboard, highlighted cyan below.
     
-    ![Motherboard CPU output header](./img/motherboard-fan-header.webp)
-    - `POWER1`/`POWER INPUT` - to the [power supply](#replacing-the-power-supply).
+    ![Motherboard CPU fan output header](./img/motherboard-fan-header.webp)
+    - `POWER1`/`POWER INPUT` - to the [power supply](#replacing-the-power-supply) via 4-pin Molex connector.
         - The white plastic clip needs to be held away from the connector to unplug this cable from the Thelio Io board.
     - `PFP1`/`FRONT PANEL` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
         - On the Thelio Io board, the wire color order (from top to bottom) is red, black, blue, black.
         - On the power button receptacle, the wire color order (from left to right) is red, black, blue, black.
-    - `PMB1`/`MOTHERBOARD` - to the first four pins of the `F_PANEL` header at the bottom right of the motherboard, highlighted green below.
+    - `PMB1`/`MOTHERBOARD` - to the first four pins of the `PANEL1` header at the bottom right of the motherboard, highlighted green below.
         - On the Thelio Io board, the wire color order (from top to bottom) is red, black, blue, black.
         - On the motherboard, the wire color order (from left to right) is red, black, blue, black.
-    - `USB` - to the `USB_3_4` header on the bottom edge of the motherboard, highlighted yellow below.
+    - `USB` - to the `USB3_3_1` header on the bottom edge of the motherboard (via an included USB 2.0 to 3.0 adapter cable), highlighted yellow below.
         - A small clip needs to be held down to unplug this cable from the Thelio Io board.
-        - This port can alternatively be connected to the `USB_5_6` header if the `USB_3_4` header is connected to the wireless card.
         
     ![Motherboard power button & USB headers](./img/motherboard-power-usb.webp)
-
-## Replacing the SATA backplane:
-
-The SATA backplane provides two 2.5" SATA data and power connectors for the [2.5" drive cage](#addingremoving-25-storage-drives).
-
-**Part numbers:**
-- The part number and version for the SATA backplane is [thelio-io-sata_2.2](https://github.com/system76/thelio-io-hardware/tree/91814370002f762ac01cd1dd99dcbb43336352ab/pcb-thelio-io-sata).
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 30 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the SATA backplane:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case), then [remove the 2.5" drive cage cover and all 2.5" SATA drives](#addingremoving-25-storage-drives).
-    - The [CPU duct](#removing-the-cpu-duct) can optionally be removed to provide easier access to the cabling.
-2. Use the cutouts on the front right corner of the chassis to unplug the 4-pin Berg power connector (highlighted cyan below) and the two SATA data cables (highlighted green below) from the SATA backplane.
-
-![2.5" drive cage cabling & screws](./img/sata-backplane-cabling.webp)
-
-3. Unscrew the four screws holding the drive cage onto the chassis (highlighted red above), then remove the drive cage from the chassis.
-4. Unscrew the four SATA backplane screws from the drive cage, then push the SATA backplane out through the front of the drive cage.
-
-![SATA backplane screws](./img/sata-backplane-screws.webp)
-
-5. Place the new SATA backplane into the drive cage and secure it with the four SATA backplane screws, then reinstall the drive cage (if necessary).
-6. Plug the 4-pin Berg power connector and SATA data cables into the SATA backplane.
-    - The order of the SATA data cables shouldn't matter as long as your operating system and software is configured to address disks by UUID (e.g. `/dev/disk/by-id/...`) instead of by letter (e.g. `/dev/sd_`).
-    - By default, the `DATA1` port connects to SATA port 4 on the motherboard, and the `DATA0` port connects to SATA port 5.
-    - Ensure the cables are not plugged into SATA ports 2 and 3 (the bottom two ports), as these ports are unavailbable when the bottom M.2 slot contains a PCIe NVMe SSD.
-
-![Motherboard SATA ports](./img/motherboard-sata-ports.webp)
-
-7. Reinstall the CPU shroud (if necessary), any 2.5" drives that were removed, the 2.5" drive cage cover, and the top case.
-
-## Replacing the top I/O:
-
-Thelio Mira B4-N3 includes a top I/O module providing audio and USB ports. If the top ports are damanged or become defective, they can be replaced using the steps below.
-
-**Part numbers:**
-- The top I/O module's part number is `MYS7523 Rev. 4.0`.
-
-**Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 30 minutes  
-**Difficulty:** Medium <span style="color:orange;">●</span>  
-
-### Steps to replace the top I/O:
-
-1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the CPU duct](#removing-the-cpu-duct).
-    - You can optionally [remove the side brace](#removing-the-side-brace) for easier access to the wiring.
-2. Unplug the `F_AUDIO` header at the bottom-left corner of the motherboard, below the wireless card.
-
-![Top I/O audio header](./img/top-io-headers-audio.webp)
-
-3. Unplug the `F_U32` header (highlighted cyan below) and `F_U32C` header (highlighted green below) along the right edge of the motherboard, between the RAM and the 2.5" drive cage.
-
-![Top I/O USB headers](./img/top-io-headers-usb.webp)
-
-4. Unscrew the two front screws holding the top I/O board onto the chassis.
-
-![Top I/O screws](./img/top-io-screws.webp)
-
-5. Remove the top I/O board from the system.
-6. Insert the new top I/O board into the system and screw it into place.
-7. Reconnect the audio and USB headers.
-8. Replace the side brace (if necessary), CPU shroud, and top case.
 
 ## Troubleshooting the power button:
 

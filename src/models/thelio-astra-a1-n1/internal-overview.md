@@ -7,7 +7,6 @@
 ![Internal overview (left side - chassis)](./img/internal-left-chassis.webp)
 
 - CPU duct is highlighted in red
-- 2.5" drive cage is highlighted in pink
 - Side brace is highlighted in green
 - PSU bracket is highlighted in cyan
 
@@ -15,15 +14,14 @@
 
 ![Internal overview (left side - electronics)](./img/internal-left-electronics.webp)
 
-- CPU heatsink is highlighted in yellow
+- CPU heatsink is highlighted in cyan
 - RAM slots are highlighted in green
-- 2.5" SATA slots are highlighted in pink
-- M.2 slots are highlighted in cyan
-    - M.2 slots are undearneath the M.2 heatsinks
-- GPU slot (PCIe 5.0 x16) is highlighted in red
-- PCIe 4.0 x4 (top) & PCIe 3.0 x4 (bottom) slots are highlighted in white
-- Power supply is highlighted in maroon
-- Bottom case fan is highlighted in orange
+- CMOS battery is highlighted in pink
+- Thelio Io daughterboard is highlighted in 
+- M.2 slot is highlighted in red
+- GPU is highlighted in yellow
+- Power supply is highlighted in orange
+- Bottom case fan is highlighted in white
 
 ## Right side overview:
 

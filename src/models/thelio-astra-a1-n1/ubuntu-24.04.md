@@ -17,7 +17,7 @@ Thelio Astra is unique in using an Ampere processor supporting aarch64 versions 
 
 ## Operating System install
 
-Install Ubuntu desktop, run the following commands.
+Install Ubuntu desktop, then run the following commands.
 ```
 sudo apt-get update && sudo apt-get dist-upgrade
 sudo add-apt-repository ppa:system76-dev/stable

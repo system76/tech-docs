@@ -29,7 +29,6 @@
 
 - Back of Thelio Io board is highlighted in cyan
     - Internal power button is on the Thelio Io board
-- SATA port access cutout is highlighted in green
 - Power supply access cutout is highlighted in red
 
 ## Front side overview:
@@ -43,16 +42,14 @@
 
 ![Internal overview (top)](./img/internal-top.webp)
 
-- CPU power connectors are highlighted in red
+- CPU & motherboard power connectors are highlighted in green
+    - Motherboard power connector is on top, CPU power connector is below
     - Connect to power supply
-- Motherboard CPU fan header is highlighted in yellow
-    - Connects to Thelio Io board
-- Motherboard power connector is highlighted in orange
+- Motherboard power adapter is highlighted in red
+    - Black side connects to power supply
+    - White side connects to motherboard
 - CPU fan splitter is highlighted in pink
-    - Connects to CPU fans (via Y cable) and Thelio Io board
-- Top I/O board is highlighted in white
-    - Connects to motherboard
-- 2.5" drive screws are highlighted in green
+    - Connects to CPU fans and Thelio Io board
 - Power button receptacle is highlighted in cyan
     - Connects to Thelio Io board
 

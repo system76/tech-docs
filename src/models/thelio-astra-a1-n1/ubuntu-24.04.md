@@ -17,6 +17,8 @@ Thelio Astra is unique in using an Ampere processor supporting aarch64 versions 
 - Install all required hardware before Operating System installation, including GPUs and WiFi cards.
 - The system firmware version must be `3.02` in order to support early boot output on NVIDIA GPUs.
 - There is a jumper labeled `BMC disable` that can bypass the requirement that the BMC boots before the power button is functional.
+    - Because the BMC may be necessary to complete the initial setup, use of this jumper is not recommended until initial setup is complete.
+    - Bridging the second and third pins disables the BMC. The default behavior (enabling the BMC) is the same as if the first and second pins are bridged.
 
 ## Firmware preparation
 
@@ -48,7 +50,7 @@ Thelio Astra is unique in using an Ampere processor supporting aarch64 versions 
 - On the `Network configuration` page, you should have a successfully connected ethernet port. Select `Done` to continue.
 - On the `Proxy configuration` page, enter any required proxy (this should almost always be left blank). Select `Done` to continue.
 - On the `Ubuntu archive mirror configuration` page, the default mirror for packages will be tested. When it completes, select `Done` to continue.
-- On the `Guided storage configuration` page, select `Use an entire disk`, and choose the desired disk. Select `Done` to continue.
+- On the `Guided storage configuration` page, select `Use an entire disk`, and choose the desired disk. Leave the `Set up this disk as an LVM group` option enabled. Select `Done` to continue.
 - On the `Storage configuration` page, you can review the disk configuration. Select `Done` to continue. A warning will be shown, select `Continue`.
 - On the `Profile configuration` page, enter the following information:
   - `Your name:` `System76`
@@ -65,42 +67,44 @@ Thelio Astra is unique in using an Ampere processor supporting aarch64 versions 
 ## Desktop environment install
 
 - The system will boot to a terminal login prompt. Log in with `system76` as the username and `system76` as the password.
+    - You may need to log in with the BMC serial console if the physical display does not show a prompt.
 - Upgrade the system with the following commands:
 ```
-sudo apt-get update
-sudo apt-get dist-upgrade
+sudo apt update
+sudo apt full-upgrade
 ```
 - Install the NVIDIA driver with the following command:
 ```
-sudo apt-get install nvidia-driver-550
+sudo apt install nvidia-driver-550
 ```
 - Install the default Ubuntu desktop environment with the following command. This will download a lot of packages and take a while to install:
 ```
-sudo apt-get install ubuntu-desktop
+sudo apt install ubuntu-desktop
 ```
 - At this point, NetworkManager will be installed alongside systemd-networkd. This will cause boot delays as they both wait for network completion. The following steps will disable systemd-networkd in favor of NetworkManager, which has better integration with the Ubuntu desktop. These instructions were adapted from https://cloudspinx.com/disable-systemd-networkd-on-ubuntu-linux/.
-- Disable and mask systemd-networkd services with the following commands:
+    - Disable and mask systemd-networkd services with the following commands:
 ```
 sudo systemctl disable systemd-networkd.service systemd-networkd.socket
 sudo systemctl mask systemd-networkd.service systemd-networkd.socket
 ```
-- Edit the netplan configuration with `sudo nano /etc/netplan/50-cloud-init.yaml` and replace all the contents with the following:
+    - Edit the netplan configuration with `sudo nano /etc/netplan/50-cloud-init.yaml` and replace all the contents with the following:
 ```
 network:
   version: 2
   renderer: NetworkManager
 ```
-- Regenerate netplan configuration by running the following command:
+    - Regenerate netplan configuration by running the following command:
 ```
 sudo netplan generate
 ```
 - Reboot by running `sudo reboot`.
 - You should see a login screen, where you can log in to the `System76` user with the password `system76`.
+    - If you don't see a login screen, try a different display connection type (e.g. DisplayPort instead of HDMI) and/or a different display.
 - After logging in, initial setup will appear. Click on `Next` to continue.
 - On the `Ubuntu Pro` page, select `Skip for now`. Click on `Next` to continue.
 - On the `Help improve Ubuntu` page, select `No, don't share system data`. Click on `Next` to continue.
 - On the `Ready to go` page, click on `Finish`.
-- Additional ethernet connections will repeatedly fail to connect. Open `nm-connnection-editor` to remove them.
+- Additional ethernet connections will repeatedly fail to connect. Run `nm-connnection-editor` to open the connection manager and remove them.
 
 
 ## System76 driver install
@@ -112,11 +116,11 @@ sudo add-apt-repository ppa:system76-dev/stable
 ```
 - Install the System76 driver with the following command:
 ```
-sudo apt-get install system76-driver
+sudo apt install system76-driver
 ```
 - Upgrade the system with the following commands. This may downgrade some packages as they pull the version from the System76 PPA:
 ```
-sudo apt-get update
-sudo apt-get dist-upgrade
+sudo apt update
+sudo apt full-upgrade
 ```
 - Reboot the system with `sudo reboot`.

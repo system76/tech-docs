@@ -4,7 +4,7 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
 
 ## Operating system download:
 
-- Download the [Ubuntu Server for ARM 24.04.1 LTS ISO](https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.1-live-server-arm64.iso).
+1. Download the [Ubuntu Server for ARM 24.04.1 LTS ISO](https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.1-live-server-arm64.iso).
 2. Verify that the SHA256SUM matches the following:
     ```
     5ceecb7ef5f976e8ab3fffee7871518c8e9927ec221a3bb548ee1193989e1773

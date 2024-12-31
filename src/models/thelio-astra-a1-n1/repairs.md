@@ -166,7 +166,7 @@ The CPU duct guides airflow through the CPU cooler. It covers the CPU and partia
 
 ![CPU fan connectors](./img/cpu-fan-connectors.webp)
 
-3. Unscrew the four back thumbscrews and two top crossbar screws holding the CPU duct in place.
+3. Unscrew the four back screws and two top crossbar screws holding the CPU duct in place.
 
 ![CPU duct thumbscrews (back)](./img/cpu-duct-screws-back.webp)
 
@@ -249,12 +249,12 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. If you are replacing the CMOS battery, pull it away from the SFP port casing.
+3. If you are replacing the CMOS battery, pull it away from the Ethernet port casing.
 4. To reset the CMOS, bridge the contacts of the Clear CMOS Pad near the bottom-right corner of the motherboard (near the M.2 SSD).
 
 ![Clear CMOS pad](./img/cmos-clear-pad.webp)
 
-5. Plug in the new CMOS battery (or re-connect the existing CMOS battery) and adhere it to the top of the SFP port casing.
+5. Plug in the new CMOS battery (or re-connect the existing CMOS battery) and adhere it to the top of the Ethernet port casing.
 6. Replace the GPU, side brace, and top case.
 
 ## Replacing the M.2 drives:

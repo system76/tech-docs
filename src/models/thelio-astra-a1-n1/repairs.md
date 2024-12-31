@@ -4,7 +4,7 @@ Many components in your Thelio Astra can be upgraded or replaced as necessary. T
 
 - **A1:** The first Ampere-compatible motherboard used in Thelio Astra.
 - **N1:** The first chassis revision of the Thelio Astra.
-    - The Thelio Astra chassis is based on the nebula40 chassis, but lacks top I/O and 2.5" drive mounts.
+    - The Thelio Astra chassis is based on the nebula40 chassis (revision 3), but lacks top I/O and 2.5" drive mounts.
 
 Minor case details may vary based on the production date of the unit, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
@@ -41,7 +41,6 @@ Thelio Astra includes a customizable accent panel on the front of the case, whic
     - The accent can be gripped at the bottom edge.
 3. Pull the accent strip off of the case, starting with the bottom edge.
 4. Place the new accent strip onto the front of the case and slide it up to lock it into place.
-    - Due to manufacturing tolerances, the accent strip may not sit flush with the top case when fully installed.
 
 ![Front accent strip removal](./img/accent-strip-removal.webp)
 
@@ -63,9 +62,13 @@ The top case can be removed to access the internal components.
 
 ## Removing the side brace:
 
-The side brace provides a mounting point for the GPU brace finger, which helps keep GPUs or other PCI Express cards in place during shipping. It also provides mounting points for up to two 120mm fans; one 120mm fan is offered as an optional add-on during factory configuration.
+The side brace provides a mounting point for the GPU brace fingers, which help keep GPUs or other PCI Express cards in place during shipping. It also provides mounting points for up to two 120mm fans; one 120mm fan is offered as an optional add-on during factory configuration.
 
-The GPU brace finger is only required during shipping. The system can be run without this part if it does not fit an upgraded GPU.
+The GPU brace fingers are only required during shipping. The system can be run without this part if it does not fit an upgraded GPU.
+
+**Part numbers:**
+- The optional side fan is a 120mm Be Quiet! Silent Wings 4.
+    - Model number: `BQ SIW4-12025-MF-PWM`
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -74,8 +77,8 @@ The GPU brace finger is only required during shipping. The system can be run wit
 ### Steps to remove the side brace:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-2. Unscrew the four screws holding the side bracket in place (two on the front of the case, two on the back.)
-    - Take note of which screw holes the side brace is screwed into, which varies by GPU. In the below photos, the second-to-innermost set of screw holes is used.
+2. Unscrew the four screws holding the side bracket in place (two on the front of the case, two on the back).
+    - Take note of which screw holes the side brace is screwed into, which varies by GPU. In the below photos, the innermost set of screw holes is used.
 
 ![Side brace screws](./img/side-brace-screws.webp)
 
@@ -83,15 +86,15 @@ The GPU brace finger is only required during shipping. The system can be run wit
 
 ![Side fan connector](./img/side-fan-connector.webp)
 
-### Steps to adjust the GPU brace finger:
+### Steps to adjust the GPU brace fingers:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#steps-to-remove-the-side-brace).
-2. To adjust the GPU brace finger's horizontal position, unscrew the four corner screws (highlighted green below), move the GPU brace finger's mounting bar, and reattach it in the desired position.
-    - Any vertical alignment screws overlapping the side brace (such as the one highlighted cyan below) will also need to be removed.
+2. To adjust the GPU brace fingers' horizontal position, unscrew the four corner screws (highlighted green below), move the GPU brace fingers' mounting bar, and reattach it in the desired position.
+    - If any vertical alignment screws overlap the side brace, they will also need to be removed.
 
 ![GPU brace finger screws, back](./img/gpu-brace-finger-screws-back.webp)
 
-3. To adjust the GPU brace finger's vertical position, unscrew the three vertical adjustment screws, move the GPU brace finger, and reattach it in the desired position.
+3. To adjust a GPU brace finger's vertical position, unscrew the three vertical adjustment screws (per finger), move the GPU brace finger, and reattach it in the desired position.
 
 ![GPU brace finger screws, side](./img/gpu-brace-finger-screws-side.webp)
 
@@ -106,14 +109,15 @@ The GPU brace finger is only required during shipping. The system can be run wit
 
 ![GPU fan screws](./img/gpu-fan-screws.webp)
 
-4. Screw the new fan into the side brace, plug it into the splitter, and secure its cable with the velcro strap.
+4. Screw the new fan into the side brace, plug it into the splitter board, and secure its cable with the velcro strap.
 
 ## Replacing the bottom case fan:
 
 Thelio Astra A1-N1 has one case-mounted intake fan on the bottom of the chassis.
 
 **Part numbers:**
-- The bottom case fan is a 140mm Be Quiet! Silent Wings 4 (model number `BQ SIW4-14025-MF-PWM`).
+- The bottom case fan is a 140mm Be Quiet! Silent Wings 4.
+    - Model number: `BQ SIW4-14025-MF-PWM`
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
@@ -172,9 +176,7 @@ The CPU duct guides airflow through the CPU cooler. It covers the CPU and partia
 
 ## Replacing the RAM:
 
-Thelio Astra A1-N1 supports up to 512GB (8x64GB) of RAM.
-
-The RAM sticks are DDR5 DIMMs (non-ECC). With up to 64GB of RAM, the RAM runs at a speed of 4800 MHz; with greater than 64GB of RAM, the RAM runs at a speed of 4000 MHz.
+Thelio Astra A1-N1 supports up to 512GB (8x64GB) of RAM. The RAM sticks are ECC DDR4 RDIMMs/LRDIMMs running at a speed of 3200 MHz.
 
 If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
@@ -191,7 +193,7 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 ![RAM slots](./img/ram-slots.webp)
 
 3. To remove an existing RAM stick, flip the left and right latches away from the stick, then pull the stick out of the slot.
-4. Make sure the tabs on the top and bottom of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
+4. Make sure the tabs on the left and right of the slot are open (pulled away from the slot), then insert the new RAM (or re-seat the existing RAM) into the slot.
     - The RAM stick will only fit in one direction. The larger group of pins goes on the left.
     - Use the following guide for placement of the RAM sticks:
     ![RAM slot order](./img/ram-order.webp)
@@ -201,7 +203,7 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 
 Thelio Astra ships with one dedicated GPU in the PCIe 4.0 x16 slot third from the top. GPUs greater than one slot tall will obstruct the lowest PCIe slot.
 
-Depending on your motherboard and firmware version, the boot splash screen may not show up if the GPU is installed in either of the top two slots. It's recommended to reserve the top two slots for non-GPU PCIe accessories.
+Depending on your motherboard and firmware version, the boot splash screen may not show up if the GPU is installed in either of the top two PCIe slots. For this reason, and for optimal thermal efficiency, it's recommended to reserve the top two slots for non-GPU PCIe accessories.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -211,7 +213,7 @@ Depending on your motherboard and firmware version, the boot splash screen may n
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case) and [remove the side brace](#removing-the-side-brace).
 2. If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.
-    - Thelio Astra includes both classic 6+2-pin and 16-pin (12VHPWR) GPU power cables. If you're changing GPUs and switching from one type of cable to the other, you may need to free the new cable from the velcro straps at the bottom of the chassis, then secure the old cable out of the way using the velcro straps.
+    - Thelio Astra includes both classic 6+2-pin and 12VHPWR 16-pin GPU power cables. If you're changing GPUs and switching from one type of cable to the other, you may need to free the new cable from the velcro straps at the bottom of the chassis, then secure the old cable out of the way using the velcro straps.
 
 ![GPU power connections](./img/gpu-power.webp)
 
@@ -220,13 +222,13 @@ Depending on your motherboard and firmware version, the boot splash screen may n
 ![PCIe bracket screws](./img/pcie-bracket.webp)
 
 4. Pull the card out of the slot.
-    - There is no latch on the PCIe slots of the Thelio Astra motherboards.
+    - There are no latches on the PCIe slots of the Thelio Astra motherboards.
 
 ![PCIe slots & latches](./img/pcie-slots.webp)
 
 5. After inserting the new GPU into its slot, connect the power cable.
 6. Once the GPU is installed, replace the back PCIe bracket, side brace, and top case.
-    - The GPU brace finger may need to be [adjusted](#steps-to-adjust-the-gpu-brace-finger) before the side brace can be reinstalled.
+    - The GPU brace finger may need to be [adjusted](#steps-to-adjust-the-gpu-brace-fingers) before the side brace can be reinstalled.
 
 ## Replacing the CMOS battery:
 
@@ -248,11 +250,11 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ![CMOS battery](./img/cmos-battery.webp)
 
 3. If you are replacing the CMOS battery, pull it away from the SFP port casing.
-4. If you are resetting the CMOS, bridge the contacts of the Clear CMOS Pad near the bottom-right corner of the motherboard (near the M.2 SSD).
+4. To reset the CMOS, bridge the contacts of the Clear CMOS Pad near the bottom-right corner of the motherboard (near the M.2 SSD).
 
 ![Clear CMOS pad](./img/cmos-clear-pad.webp)
 
-5. Plug in the new CMOS battery and adhere it to the top of the SFP port casing.
+5. Plug in the new CMOS battery (or re-connect the existing CMOS battery) and adhere it to the top of the SFP port casing.
 6. Replace the GPU, side brace, and top case.
 
 ## Replacing the M.2 drives:
@@ -284,12 +286,12 @@ Factory configurations offer up to four additional SSDs using a PCIe adapter car
 
 ## Replacing the CPU fans:
 
-Thelio Astra A1-N1 contains three 120mm CPU fans. One fan is mounted on the back of the CPU duct, while two others are mounted on the front and back of the CPU cooler's heatsink.
+Thelio Astra A1-N1 contains three 120mm CPU fans. One fan is mounted in the back of the CPU duct, while two others are mounted on the front and back of the CPU cooler's heatsink.
 
 **Part numbers:**
 - The duct-mounted CPU fan is a Be Quiet! Silent Wings 4 ([BQ SIW4-12025-MF-PWM](https://www.bequiet.com/en/casefans/3700)).
 - The heatsink-mounted CPU fans are Arctic Freezer 4U fans. 
-    - The heatsink-mounted fans are produced for the Arctic Freezer 4U Ampere CPU cooler, and it may not be possible to source them separately.
+    - The heatsink-mounted fans are produced for the Arctic Freezer 4U-M Ampere CPU cooler, and it may not be possible to source them separately.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 25 minutes  
@@ -310,7 +312,7 @@ Thelio Astra A1-N1 contains three 120mm CPU fans. One fan is mounted on the back
 5. When reinstalling the fan into the CPU duct:
     - The spinning side should face inward (towards the front of the chassis), while the stationary label should face outward (towards the back of the chassis).
     - The cable should point towards the fan connector (towards the top left, when viewed from the back).
-        - The fan bracket contains a cable channel in the correct corner.
+        - The fan bracket contains a cable channel in the corresponding corner.
     - Overtightening the fan bracket's screws may cause fan noise; if the fan is creating excessive noise, try slightly loosening some of the screws.
 
 ### Steps to replace the heatsink-mounted CPU fans:
@@ -334,9 +336,9 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 **Part numbers:**
 - The CPU cooler is an [Arctic Freezer 4U-M](https://www.arctic.de/us/Freezer-4U-M/ACFRE00133A).
-- The CPU uses an AMD sTR5 socket.
+- The CPU uses an LGA 4926 socket.
 
-**Tools required:** Cross-head (Phillips) screwdriver, AMD Threadripper torque tool or compatible 1.5 Nm (13.275 in-lb) torque 3.95mm six-point star (Torx 20) screwdriver, thermal paste  
+**Tools required:** Cross-head (Phillips) screwdriver, six-point star (Torx T20) screwdriver, thermal paste  
 **Time estimate:** 45 minutes  
 **Difficulty:** High <span style="color:red;">●</span>
 
@@ -344,8 +346,6 @@ The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans 
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side brace](#removing-the-side-brace), [remove the CPU duct](#removing-the-cpu-duct), [remove the GPU](#replacing-the-gpu), and [remove the heatsink-mounted CPU fans](#steps-to-replace-the-heatsink-mounted-cpu-fans).
 2. While holding the CPU cooler in place so it doesn't fall, loosen the screws to the left and right of the CPU cooler.
-    - The two screws on the left side use the outer holes.
-    - The two screws on the right side use the inner holes.
 
 ![CPU cooler screws](./img/cpu-cooler-screws.webp)
 
@@ -408,7 +408,7 @@ The power supply unit (PSU) can be replaced with another unit of the same model.
 
 ![Power supply bracket screw (left)](./img/psu-bracket-screw-left.webp)
 
-3. Unscrew and remove the cable management bracket on the right side of the chassis, then unscrew the power supply's right side from the chassis.
+3. Unscrew and remove the chassis spacer bracket on the right side of the chassis, then unscrew the power supply bracket's right side from the chassis.
 
 ![Cable management bracket](./img/psu-cable-management-bracket.webp)
 ![Power supply bracket screw (right)](./img/psu-bracket-screw-right.webp)
@@ -424,7 +424,7 @@ The power supply unit (PSU) can be replaced with another unit of the same model.
 6. Remove/replace the power supply.
     - The replacement PSU should be installed with the fan facing the bottom of the case.
     - Place the PSU on the rubber post and hold it against the screwholes in the back of the case while attaching it.
-7. Connect the power cables to the new power supply and GPU (if installed), then reinstall the PSU brace, side brace, and top case.
+7. Connect the power cables to the new power supply and GPU, then reinstall the PSU brace, side brace, and top case.
 
 ## Replacing the Thelio Io board:
 
@@ -506,13 +506,11 @@ If the front power button doesn't power the machine on or doesn't light up when 
 ### Steps to check the front power button wiring:
 
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
-    - In the below photo, the [2.5" drive cage](#replacing-the-sata-backplane) has also been removed for greater visibility.
 2. On the back of the power button, the four pins should be connected to the four-wire connector as follows:
 
 ![Power button wiring](./img/power-button-wiring.jpg)
 
 3. On the front power button receptacle, the four-pin connector should have the red wire on the left and the black wire on the right (when viewed from the back of the computer.)
-    - If necessary, you can [remove the 2.5" drive cage](#replacing-the-sata-backplane) for easier access to the power button receptacle's connector.
 
 ![Power button receptacle](./img/power-button-receptacle.webp)
 

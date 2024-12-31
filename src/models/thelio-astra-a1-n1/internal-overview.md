@@ -17,7 +17,7 @@
 - CPU heatsink is highlighted in cyan
 - RAM slots are highlighted in green
 - CMOS battery is highlighted in pink
-- Thelio Io daughterboard is highlighted in 
+- Thelio Io daughterboard is highlighted in olive
 - M.2 slot is highlighted in red
 - GPU is highlighted in yellow
 - Power supply is highlighted in orange

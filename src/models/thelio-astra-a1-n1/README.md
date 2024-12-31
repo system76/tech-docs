@@ -12,10 +12,10 @@ The System76 Thelio Astra is a desktop with the following specifications:
 
 - Processor options
     - Supports Ampere Altra and Altra Max family CPUs
-        - Ampere Altra Max M128-30
+        - [Ampere Altra Max M128-30](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
         - [Ampere Altra Max M128-26](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
-        - Ampere Altra Max M96-28
-        - Ampere Altra Q80-30
+        - [Ampere Altra Max M96-28](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
+        - [Ampere Altra Q80-30](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
         - [Ampere Altra Q64-22](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
         - [Ampere Altra Q32-17](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
 - Motherboard options (depending on order date and/or stock availability)

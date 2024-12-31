@@ -430,7 +430,7 @@ The power supply unit (PSU) can be replaced with another unit of the same model.
 
 ![Power supply bracket screw (left)](./img/psu-bracket-screw-left.webp)
 
-3. Unscrew and remove the cable management bracket on the right side of the chassis, then unscrew the power supply's right side from the chassis.
+3. Unscrew and remove the cable management bracket on the right side of the chassis, then unscrew the power supply bracket's right side from the chassis.
 
 ![Cable management bracket](./img/psu-cable-management-bracket.webp)
 ![Power supply bracket screw (right)](./img/psu-bracket-screw-right.webp)

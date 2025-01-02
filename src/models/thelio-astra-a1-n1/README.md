@@ -93,3 +93,5 @@ The System76 Thelio Astra is a desktop with the following specifications:
 - USB
     - Back ports:
         - 4x USB 3.2 Gen 1 (Type-A)
+- Dimensions
+    - 43.8cm × 24.7cm × 37.2cm

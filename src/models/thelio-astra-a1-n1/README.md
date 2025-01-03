@@ -3,8 +3,8 @@
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
-- [Ubuntu 20.04 LTS Setup](./ubuntu-20.04.md)
 - [Ubuntu 24.04 LTS Setup](./ubuntu-24.04.md)
+- [Ubuntu 20.04 LTS Setup](./ubuntu-20.04.md)
 
 ![Thelio Astra](./img/thelio-astra-a1-n1.png)
 

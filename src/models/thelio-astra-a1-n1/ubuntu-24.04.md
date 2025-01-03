@@ -19,8 +19,8 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
 - When using Ampere Altra (non-Max) CPUs, the top two PCIe x16 slots (closest to the CPU) will run at x8 speeds. Place x16 devices into the bottom two slots for optimal performance.
 - Install all required hardware, including GPUs and WiFi cards, before installing the OS.
 - The system firmware version must be `3.02` or above in order to support early boot output on NVIDIA GPUs.
-- There is a jumper labeled `BMC disable` that can bypass the requirement that the BMC boots before the power button is functional.
-    - Bridging the second and third pins disables the BMC. The default behavior (enabling the BMC) is the same as if the first and second pins are bridged.
+- There is a jumper labeled `BMC_DIS` (BMC Disabled) that can bypass the requirement that the BMC boots before the power button is functional.
+    - Bridging the second and third pins disables waiting for the BMC on boot. The default behavior (enabling the BMC) is the same as if the first and second pins are bridged.
 
 ## Operating system installation:
 

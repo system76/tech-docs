@@ -16,7 +16,7 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
 - It's recommended to fill all 8 memory channels for maximum CPU performance.
 - When using Ampere Altra (non-Max) CPUs, the top two PCIe x16 slots (closest to the CPU) will run at x8 speeds. Place x16 devices into the bottom two slots for optimal performance.
 - Install all required hardware, including GPUs and WiFi cards, before installing the OS.
-- The system firmware version must be `3.02` in order to support early boot output on NVIDIA GPUs.
+- The system firmware version must be `3.02` or above in order to support early boot output on NVIDIA GPUs.
 - There is a jumper labeled `BMC disable` that can bypass the requirement that the BMC boots before the power button is functional.
     - Because the BMC may be necessary to complete the initial setup, use of this jumper is not recommended until initial setup is complete.
     - Bridging the second and third pins disables the BMC. The default behavior (enabling the BMC) is the same as if the first and second pins are bridged.
@@ -117,6 +117,7 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
 ## System76 Driver installation:
 
 1. Ensure that DMI information is properly set at this point. If not, set it and reboot.
+    - If you are reinstalling your OS and have not re-flashed your firmware from a non-System76 source, then the DMI information should already be set correctly.
 2. Add the System76 PPA with the following command:
     ```
     sudo add-apt-repository ppa:system76-dev/stable
@@ -130,4 +131,4 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
     sudo apt update
     sudo apt full-upgrade
     ```
-5. Reboot the system with `sudo reboot`.
+5. Reboot the system with the `reboot` command.

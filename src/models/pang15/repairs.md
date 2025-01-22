@@ -5,7 +5,7 @@ Many components in your Pangolin can be upgraded or replaced as necessary. Follo
 - [Removing the bottom cover](#removing-the-bottom-cover)
 - [Replacing the RAM](#replacing-the-ram)
 - [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Removing the battery](#removing-the-battery)
+- [Removing the battery](#replacing-the-battery)
 - [Reseating the WiFi/Bluetooth antennas](#reseating-the-wireless-antenna-connectors)
 - [Replacing the CMOS battery](#replacing-the-cmos-battery)
 - [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
@@ -26,7 +26,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 1. Place the machine lid-side down.
     - Use a soft surface (such as a towel) to avoid scratches.
-2. Remove the 11 bottom panel screws.
+2. Remove the 7 bottom panel screws.
     - The back-center screw (highlighted red below) is longer than the rest of the screws.
     - The front four screws are mounted at an angle into the machine; hold the screwdriver at an angle for the easiest removal/installation.
 
@@ -36,7 +36,7 @@ Removing the cover is required to access the internal components. Prior to remov
 
 ## Replacing the RAM:
 
-The Pangolin 15 supports up to 96GB (2x48GB) of DDR5 SO-DIMMs running at 6400MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Pangolin 15 supports up to 96GB (2x48GB) of DDR5 SO-DIMMs running at 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -45,8 +45,8 @@ The Pangolin 15 supports up to 96GB (2x48GB) of DDR5 SO-DIMMs running at 6400MHz
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Remove the black covers from the RAM strips, shown on the left below.
-    - You can alternatively hold the covers away from the RAM strips while replacing them instead of entirely removing the covers.
+2. Remove the black protective covers from the RAM slots, shown on the left below.
+    - Alternatively, you can pull the outer ends of the covers up and hold them away from the RAM sticks while replacing them instead of entirely removing the covers from the slots.
 
 ![RAM slots](./img/ram-slots.webp)
 
@@ -76,7 +76,7 @@ This model supports two M.2 SSDs. Both slots support PCIe NVMe Generation 4 conn
 5. Insert the new M.2 drive into the slot and hold it in place.
 6. Replace the retainer screw.
 
-## Removing the battery:
+## Replacing the battery:
 
 The battery provides primary power whenever the system is unplugged.
 
@@ -89,7 +89,7 @@ The battery provides primary power whenever the system is unplugged.
 **Time estimate:** 10 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
-### Steps to remove the battery:
+### Steps to replace the battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
 2. Remove the seven battery screws, highlighted cyan below.
@@ -142,9 +142,9 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 ![CMOS battery](./img/cmos-battery.webp)
 
 3. If you are replacing the CMOS battery, carefully peel it away from the adhesive holding it to the chassis.
-4. To clear the CMOS, [disconnect the main battery](#removing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
+4. To clear the CMOS, [disconnect the main battery](#replacing-the-battery), open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 5. Re-connect the CMOS battery and the main battery, and replace the bottom panel.
-    - When connecting the CMOS battery, the red wire goes on the right, and the black wire goes on the left.
+    - When connecting the CMOS battery, the red wire goes on the left, and the black wire goes on the right.
 6. Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.
 
 ## Replacing the cooling system:
@@ -195,7 +195,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
 
 ## Replacing the speakers:
 
-The system has four bottom-firing speakers (two tweeters and two woofers). The left and right channels can be replaced independently.
+The system has four speakers (two top-firing tweeters and two bottom-firing woofers). The left and right channels can be replaced independently.
 
 **Part numbers:**
 - Left speakers (right side of machine when viewing from below):
@@ -221,7 +221,7 @@ The system has four bottom-firing speakers (two tweeters and two woofers). The l
 3. Unscrew the right tweeter screws, highlighted pink above.
 4. Pull the right woofer off of the plastic mounting posts (highlighted yellow above), then lift the speakers out of the machine.
     - The woofer wire is not routed underneath the battery by default, but may become routed underneath the battery after the battery is replaced. If this is the case, it may be necessary to [remove the battery](#replacing-the-battery) before removing the right woofer.
-5. Slide the new woofer onnto the plastic posts, screw the new tweeter in, and connect the `SPK1` connector.
+5. Slide the new woofer onto the plastic posts, screw the new tweeter in, and connect the `SPK1` connector.
 6. Replace the black tape and bottom panel.
 
 ### Steps to replace the left speakers:
@@ -238,5 +238,5 @@ The system has four bottom-firing speakers (two tweeters and two woofers). The l
 
 4. Unscrew the left tweeter screws, highlighted pink above.
 5. Pull the left woofer off of the plastic mounting posts (highlighted yellow above), then lift the speakers out of the machine.
-6. Slide the new woofer onnto the plastic posts, screw the new tweeter in, and connect the `SPK2` connector.
+6. Slide the new woofer onto the plastic posts, screw the new tweeter in, and connect the `SPK2` connector.
 7. Replace the black tape and bottom panel.

@@ -28,7 +28,7 @@ The System76 Pangolin is a laptop with the following specifications:
         - 1x HDMI 2.0
         - 2x DisplayPort 1.4 over USB-C
 - Memory
-    - Up to 96GB (2x48GB) dual-channel DDR5 @ 6400 MHz
+    - Up to 96GB (2x48GB) dual-channel DDR5 @ 5600 MHz
 - Networking
     - WiFi 6E/Bluetooth 5.2 (soldered)
         - Model: AzureWave AW-XM514NF
@@ -37,6 +37,12 @@ The System76 Pangolin is a laptop with the following specifications:
     - 100W USB-C charging
         - Lower-powered chargers supported with performance throttling
     - Included USB-C charger: Dongguan Aohai A879-200500C-US1
+    - 100W (20V, 5A) DC-in port
+        - Barrel size:
+            - Outer port diameter: 3.5mm
+            - Inner pin diameter: 1.35mm
+            - Barrel length: 10mm
+        - Barrel charger not included
     - 57.75Wh 4-cell Lithium-Ion battery
         - Model number: U716849PHV-4S1P
 - Sound

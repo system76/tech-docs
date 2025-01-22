@@ -236,7 +236,7 @@ The system has four bottom-firing speakers (two tweeters and two woofers). The l
 
 ![Left speakers and wire](./img/speakers-left.webp)
 
-3. Unscrew the left tweeter screws, highlighted pink above.
-4. Pull the left woofer off of the plastic mounting posts (highlighted yellow above), then lift the speakers out of the machine.
-5. Slide the new woofer onnto the plastic posts, screw the new tweeter in, and connect the `SPK2` connector.
-6. Replace the black tape and bottom panel.
+4. Unscrew the left tweeter screws, highlighted pink above.
+5. Pull the left woofer off of the plastic mounting posts (highlighted yellow above), then lift the speakers out of the machine.
+6. Slide the new woofer onnto the plastic posts, screw the new tweeter in, and connect the `SPK2` connector.
+7. Replace the black tape and bottom panel.

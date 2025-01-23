@@ -41,10 +41,15 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
     ```
     sudo add-apt-repository ppa:system76-dev/stable
     ```
-3. Install the System76 driver with the following command:
-    ```
-    sudo apt install system76-driver system76-driver-nvidia
-    ```
+3. Install the System76 driver.
+    - If your Thelio Astra contains an NVIDIA GPU, use the following command, which includes a System76-packaged NVIDIA driver along with other drivers and utilities:
+        ```
+        sudo apt install system76-driver-nvidia
+        ```
+    - Otherwise, use the following command to only install non-NVIDIA-related drivers and utilities:
+        ```
+        sudo apt install system76-driver
+        ```
 4. Install all available OS updates again. This may downgrade some packages as they pull the version from the System76 PPA:
     ```
     sudo apt update

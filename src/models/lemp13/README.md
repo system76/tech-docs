@@ -39,7 +39,9 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - 4x [Samsung K4RAH165VB-BCQK](https://semiconductor.samsung.com/dram/ddr/ddr5/k4rah165vb-bcqk/) (2GB each)
     - Channel 1: 8-GB/16-GB/32-GB/48-GB DDR5 SO-DIMM @ 4800 MHz
 - Networking
-    - M.2 PCIe/CNVi WiFi/Bluetooth
+    - M.2 PCIe/CNVi WiFi/Bluetooth options:
+        - Intel Wi-Fi 7 BE200
+            - Bluetooth 5.4
         - Intel Wi-Fi 6E AX210/AX211
             - Bluetooth 5.3
 - Power

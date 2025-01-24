@@ -35,15 +35,15 @@
 
 ## LED indicators:
 
-| Icon                                    | State    | Description                        |
-|-----------------------------------------|----------|------------------------------------|
-| ![Charging LED](./img/led-charging.svg) | On       | Charging                           |
-|                                         | Off      | Fully charged                      |
-| ![Webcam LED](./img/led-webcam.svg )    | On       | Webcam disabled (privacy mode on)  |
-|                                         | Off      | Webcam enabled (privaacy mode off) |
-| ![Storage LED](./img/led-power.svg)     | On       | Powered on                         |
-|                                         | Pulsing  | Suspended                          |
-|                                         | Off      | Powered off                        |
+| Icon                                    | State    | Description                       |
+|-----------------------------------------|----------|-----------------------------------|
+| ![Charging LED](./img/led-charging.svg) | On       | Charging                          |
+|                                         | Off      | Fully charged                     |
+| ![Webcam LED](./img/led-webcam.svg )    | On       | Webcam disabled (privacy mode on) |
+|                                         | Off      | Webcam enabled (privacy mode off) |
+| ![Storage LED](./img/led-power.svg)     | On       | Powered on                        |
+|                                         | Pulsing  | Suspended                         |
+|                                         | Off      | Powered off                       |
 
 ## Keyboard shortcuts
 

@@ -1,0 +1,109 @@
+# Thelio Major (thelio-major-r5-n3)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Major](./img/thelio-major-r5-n3.webp)
+
+The System76 Thelio Major is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Threadripper 7000 series (Zen 4) CPUs
+        - [Threadripper 7980X](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-7000-series/amd-ryzen-threadripper-7980x.html)
+        - [Threadripper 7970X](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-7000-series/amd-ryzen-threadripper-7970x.html)
+        - [Threadripper 7960X](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-7000-series/amd-ryzen-threadripper-7960x.html)
+- Motherboard
+    - [Gigabyte TRX50 Aero D](https://www.gigabyte.com/Motherboard/TRX50-AERO-D-rev-12/sp) running System76 Firmware (non-open)
+    - AMD TRX50 Chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+        - Version 2.3
+- Graphics options
+    - Configured with up to one dedicated GPU
+        - User-expandable to 2 GPUs
+        - Primary GPU slot:
+            - PCIe 5.0 x16
+            - 3-slot height
+                - 4+-slot cards fit if PCIe slot 2 is empty
+        - Secondary GPU slot:
+            - PCIe 5.0 x16
+            - 2-slot height
+                - 3-slot cards fit if PCIe slot 3 is empty
+    - GPU size:
+        - Internal clearance: 358.00mm
+        - Recommended maximum length: 348.00mm
+    - Tested with the following GPUs:
+        - [NVIDIA RTX 6000 Ada](https://www.nvidia.com/en-us/design-visualization/rtx-6000/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA RTX 5000 Ada](https://www.nvidia.com/en-us/design-visualization/rtx-5000/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA RTX 4500 Ada](https://www.nvidia.com/en-us/design-visualization/rtx-4500/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA RTX 4000 Ada](https://www.nvidia.com/en-us/design-visualization/rtx-4000/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 4090](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1a
+        - [NVIDIA GeForce RTX 4080 Super](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1a
+        - [NVIDIA GeForce RTX 4070 Ti Super](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/#specs)
+            - 3x DisplayPort 1.4a
+            - 1x HDMI 2.1a
+        - [NVIDIA RTX A400](https://www.nvidia.com/en-us/design-visualization/rtx-a400/#specifications)
+            - 4x Mini DisplayPort 1.4a
+        - [AMD Radeon Pro W7900](https://www.amd.com/en/products/graphics/workstations/radeon-pro/w7900.html)
+            - 3x DisplayPort 2.1
+            - 1x Mini DisplayPort 2.1
+        - [AMD Radeon RX 7600](https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600.html)
+            - 3x DisplayPort 2.1
+            - 1x HDMI 2.1a
+- Expansion
+    - 2x PCIe 5.0 x16 (primary & secondary GPU slots)
+    - 1x PCIe 4.0 x16
+- Memory
+    - Up to 512GB (4x128GB) dual-channel DDR5 DIMMs @ 5600 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - Hynix HMCT04AGERA202N (128GB/stick)
+        - Hynix HMCG94AGBRA181N (64GB/stick)
+        - Hynix HMCG84AGBRA190N (32GB/stick)
+        - [Kingston KF556R28RBE2K4](https://www.kingston.com/datasheets/KF556R28RBE2K4-128.pdf) (32GB/stick)
+- Networking
+    - 1x 10-Gigabit Ethernet ([Marvell AQtion AQC113C](https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-fastLinq-edge-product-brief.pdf))
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/Product/Index?id=3962))
+    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
+- Power
+    - C13 power cord
+    - 1000W PSU
+    - 80+ Gold Efficiency
+    - Tested with the following PSU models (may ship with other tested models):
+        - [XPG Core Reactor II 1000W](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii?tab=spec)
+        - [Be Quiet! Pure Power 12M 1000W](https://www.bequiet.com/en/powersupply/4161)
+- Sound
+    - Back:
+        - 3.5mm mic in
+        - 3.5mm line out
+        - Realtek ALC4080 audio chipset
+    - Top:
+        - 3.5mm mic in
+        - 3.5mm line out
+        - Realtek ALC897 audio chipset
+    - Up to 2-channel audio output
+    - HDMI/DisplayPort audio (depending on GPU)
+- Storage
+    - 3x M.2 (PCIe NVMe Gen 5) SSDs
+    - 1x M.2 (PCIe NVMe Gen 4) SSD
+    - 4x 2.5" SATA III
+- USB
+    - Back ports:
+        - 2x Thunderbolt 4
+            - Top port supports DisplayPort over USB-C when using DisplayPort passthrough from dedicated GPU
+            - [Intel JHL8540](https://www.intel.com/content/www/us/en/products/sku/193684/intel-jhl8540-thunderbolt-4-controller/specifications.html) controller
+        - 4x USB 3.2 Gen 2 (Type-A)
+        - 4x USB 3.2 Gen 1 (Type-A)
+    - Top ports:
+        - 1x USB 3.2 Gen 1 (Type-C)
+        - 1x USB 3.2 Gen 1 (Type-A)
+- Dimensions
+    - 46.2cm × 26.2cm × 40.8cm

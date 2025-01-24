@@ -27,7 +27,7 @@ The System76 Pangolin is a laptop with the following specifications:
         - 1x DisplayPort 1.4 over USB-C
 - Memory
     - 32GB LPDDR5 (on-board) @ 6400 MHz
-        - 16x [Micron MT62F2G32D8DR-031](https://www.micron.com/products/dram/lpdram/part-catalog/mt62f2g32d8dr-031-wt) (2GB each)
+        - 16x [Micron MT62F2G32D8DR-031](https://www.micron.com/products/memory/dram-components/lpddr5/part-catalog/part-detail/mt62f2g32d8dr-031-wt-b) (2GB each)
 - Networking
     - Gigabit Ethernet
     - M.2 PCIe WiFi/Bluetooth

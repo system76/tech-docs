@@ -72,7 +72,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
         - [Kingston Fury KF556C40BB-32](https://www.kingston.com/datasheets/KF556C40BB-32.pdf) (32GB/stick)
 - Networking
-    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/en/products/communications-network-ics/item/rtl8125bg-s-cg))
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/Product/Index?id=3962))
     - Wi-Fi 6E + Bluetooth 5.2 ([AMD/MediaTek RZ616](https://www.amd.com/en/press-releases/2021-11-18-amd-and-mediatek-develop-amd-rz600-series-wi-fi-6e-modules-to-enhance))
 - Power
     - C13 power cord

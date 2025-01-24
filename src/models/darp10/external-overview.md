@@ -75,22 +75,23 @@
 
 ## Keyboard shortcuts:
 
-|Key                        |Shortcut|Action                             |
-|---------------------------|--------|-----------------------------------|
-|![Fn-F1](./img/fn-f1.png)  |Fn+F1   |Toggle trackpad                    |
-|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Mic mute                           |
-|![Fn-F3](./img/fn-f3.png)  |Fn+F3   |Mute                               |
-|![Fn-F5](./img/fn-f5.png)  |Fn+F5   |Volume down                        |
-|![Fn-F6](./img/fn-f6.png)  |Fn+F6   |Volume up                          |
-|![Fn-F7](./img/fn-f7.png)  |Fn+F7   |Toggle displays                    |
-|![Fn-F8](./img/fn-f8.png)  |Fn+F8   |Screen brightness down             |
-|![Fn-F9](./img/fn-f9.png)  |Fn+F9   |Screen brightness up               |
-|![Fn-F10](./img/fn-f10.png)|Fn+F10  |Toggle webcam                      |
-|![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode               |
-|![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                            |
-|![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                         |
-|![Fn-*](./img/fn-star.png) |Fn+*    |Toggle keyboard backlight          |
-|![Fn-/](./img/fn-slash.png)|Fn+/    |Cycle keyboard brightness levels   |
-|![Fn--](./img/fn-minus.png)|Fn+-    |Decrease keyboard brightness       |
-|![Fn-+](./img/fn-plus.png) |Fn++    |Increase keyboard brightness       |
-|1                          |Fn+1    |Toggle fan between max/automatic   |
+|Key                        |Shortcut|Action                                                    |
+|---------------------------|--------|----------------------------------------------------------|
+|![Fn-F1](./img/fn-f1.png)  |Fn+F1   |Toggle trackpad                                           |
+|![Fn-F2](./img/fn-f2.png)  |Fn+F2   |Mic mute                                                  |
+|![Fn-F3](./img/fn-f3.png)  |Fn+F3   |Mute                                                      |
+|![Fn-F4](./img/fn-star.png)|Fn+F4   |14" model (darp10-b):<br/> Toggle keyboard backlight      |
+|![Fn-F5](./img/fn-f5.png)  |Fn+F5   |Volume down                                               |
+|![Fn-F6](./img/fn-f6.png)  |Fn+F6   |Volume up                                                 |
+|![Fn-F7](./img/fn-f7.png)  |Fn+F7   |Toggle displays                                           |
+|![Fn-F8](./img/fn-f8.png)  |Fn+F8   |Screen brightness down                                    |
+|![Fn-F9](./img/fn-f9.png)  |Fn+F9   |Screen brightness up                                      |
+|![Fn-F10](./img/fn-f10.png)|Fn+F10  |Toggle webcam                                             |
+|![Fn-F11](./img/fn-f11.png)|Fn+F11  |Toggle airplane mode                                      |
+|![Fn-F12](./img/fn-f12.png)|Fn+F12  |Suspend                                                   |
+|![Fn-F12](./img/fn-dia.jpg)|Fn+`    |Play/Pause                                                |
+|![Fn-*](./img/fn-star.png) |Fn+*    |16" model (darp10):<br/> Toggle keyboard backlight        |
+|![Fn-/](./img/fn-slash.png)|Fn+/    |16" model (darp10):<br/> Cycle keyboard brightness levels |
+|![Fn--](./img/fn-minus.png)|Fn+-    |16" model (darp10):<br/> Decrease keyboard brightness     |
+|![Fn-+](./img/fn-plus.png) |Fn++    |16" model (darp10):<br/> Increase keyboard brightness     |
+|1                          |Fn+1    |Toggle fan between max/automatic                          |

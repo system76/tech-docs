@@ -58,7 +58,7 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - [Micron MTA9ASF2G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta9asf2g72az-3g2/mta9asf2g72az-3g2b1)
         - [Micron MTA18ASF4G72AZ-3G2B1](https://www.micron.com/products/dram-modules/udimm/part-catalog/mta18asf4g72az-3g2/mta18asf4g72az-3g2b1)
 - Networking
-    - 1x 2.5-Gigabit Ethernet port (Realtek RTL8125-CG)
+    - 1x 2.5-Gigabit Ethernet port ([Realtek RTL8125-CG](https://www.realtek.com/Product/Index?id=3962))
     - 1x 1-Gigabit Ethernet port (Intel I211-AT)
     - Wi-Fi 6 (Intel AX200)
 - Power

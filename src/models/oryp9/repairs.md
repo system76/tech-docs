@@ -121,6 +121,8 @@ Your Oryx Pro's WiFi and Bluetooth are both handled by the same module. It is a 
 
 The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.
 
+**Warning (ingestion hazard):** Keep batteries out of reach of children. Death or serious injury can occur if ingested. If a battery is suspected to be swallowed or inserted inside any part of the body, seek immediate medical attention. In the US, you can also call the National Battery Ingestion Hotline for guidance: [1 (800) 498-8666](tel:18004988666)
+
 **Tools required:** Cross-head (Phillips) screwdriver    
 **Time estimate:** 15 minutes    
 **Difficulty:** Medium <span style="color:orange;">●</span>

@@ -104,6 +104,8 @@ If your Meerkat is the tall variety, it has a 2.5" drive bay built into the bott
 
 Sometimes resetting CMOS can help if your Meerkat is not booting. A CMOS reset will restore BIOS settings to their factory defaults, so you may have to reconfigure your BIOS afterwards.
 
+**Warning (ingestion hazard):** Keep batteries out of reach of children. Death or serious injury can occur if ingested. If a battery is suspected to be swallowed or inserted inside any part of the body, seek immediate medical attention. In the US, you can also call the National Battery Ingestion Hotline for guidance: [1 (800) 498-8666](tel:18004988666)
+
 **Tools required:** Cross-head (Phillips) screwdriver and (optionally) tweezers  
 **Time estimate:** 15 minutes  
 **Difficulty:** Medium <span style="color:orange;">●</span>  

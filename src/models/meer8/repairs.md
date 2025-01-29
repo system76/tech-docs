@@ -239,6 +239,8 @@ The fan is an AVC `BAZC0810R5HY006`. The screws used for the fan are the same ty
 
 The CMOS battery supplies power to the system's CMOS chip, where UEFI settings and the computer's hardware clock are stored. If your clock is constantly resetting, your CMOS battery may need to be replaced.
 
+**Warning (ingestion hazard):** Keep batteries out of reach of children. Death or serious injury can occur if ingested. If a battery is suspected to be swallowed or inserted inside any part of the body, seek immediate medical attention. In the US, you can also call the National Battery Ingestion Hotline for guidance: [1 (800) 498-8666](tel:18004988666)
+
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 27 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  

@@ -52,7 +52,7 @@ The top case can be removed to access the internal components.
 
 ## Removing the CPU duct:
 
-The CPU duct supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU duct is custom-designed to work with the Noctua `NH-U9S` CPU cooler that's optionally included with nebula19.
+The CPU duct supports one or more of the CPU fans and guides airflow from the side of the case through the CPU radiator to the back exhaust vent. The CPU duct is custom-designed to work with the Noctua `NH-U9S` CPU cooler (before April 2024) or the Be Quiet! Pure Rock Slim 2 `BK030` (after April 2024) that's optionally included with nebula19.
 
 ![CPU duct](./img/cpu-duct.webp)
 
@@ -97,7 +97,8 @@ In addition, nebula19 ships with the following non-installed accessories:
 - 1x Bottom case fan
     - Be Quiet! Silent Wings 4 140mm (`BQ SIW4-14025-LF-PWM`)
 - 1x CPU cooler w/ fan (optional)
-    - Noctua `NH-U9S` cooler w/ `NF-A9 PWM` fan
+    - After April 2024: Be Quiet! Pure Rock Slim 2 (`BK030`) w/ Pure Wings 2 92mm (`BQ PUW2-9225-MR-PWM`)
+    - Before April 2024: Noctua `NH-U9S` cooler w/ `NF-A9 PWM` fan
 - 1x Side bracket fan (optional)
     - Be Quiet! Silent Wings 4 120mm (`BQ SIW4-12025-MF-PWM`)
 
@@ -171,7 +172,7 @@ Four standoffs and motherboard screws are included.
 
 ## Installing the CPU duct fans:
 
-nebula19 ships with one 92mm fan (`BQ PUW2-9225-MR-PWM`) installed in the back of the CPU duct. If you install a CPU cooler with its own 92mm fan, such as the optional Noctua `NH-U9S` cooler sold with nebula19 (which includes a Noctua `NF-A9 PWM` fan), then the CPU cooler's fan can be mounted in the front of the CPU duct.
+nebula19 ships with one 92mm fan (`BQ PUW2-9225-MR-PWM`) installed in the back of the CPU duct. If you install a CPU cooler with its own 92mm fan, such as the optional Be Quiet! Pure Rock Slim 2 `BK030` or Noctua `NH-U9S` coolers sold with nebula19 (which include an additional `BQ PUW2-9225-MR-PWM` fan or a Noctua `NF-A9 PWM` fan, respectively), then the CPU cooler's fan can be mounted in the front of the CPU duct.
 
 These instructions use the Noctua `NH-U9S` as an example.
 

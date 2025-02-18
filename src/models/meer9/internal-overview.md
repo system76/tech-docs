@@ -10,3 +10,4 @@
 - Wireless card (underneath the NVMe 2280 SSD) is highlighted in red
 - RAM slots are highlighted in pink
 - Motherboard screws are highlighted in white
+- BIOS chip (underneath the M.2 SSDs) is highlighted in black

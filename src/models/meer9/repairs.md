@@ -5,8 +5,7 @@ Several components in your Meerkat can be upgraded or replaced as necessary. Pow
 - [Removing the bottom panel](#removing-the-bottom-panel)
 - [Replacing an M.2 drive](#replacing-an-m2-drive)
 - [Replacing the RAM](#replacing-the-ram)
-- [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
-- [Resetting the CMOS](#resetting-the-cmos)
+- [Replacing the 2.5" storage drive](#replacing-the-25-storage-drive)
 - [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 - [Removing the motherboard](#removing-the-motherboard)
 - [Replacing the fan](#replacing-the-fan)
@@ -162,7 +161,7 @@ Removing the motherboard is necessary for replacing the CMOS battery, cooling fa
 ### Steps to remove the motherboard:
 
 1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel).
-2. Optionally [remove the M.2 drive](#replacing-an-m2-drive) and unplug the SATA cable from the motherboard, highlighted cyan below.
+2. [Remove the M.2 drive](#replacing-an-m2-drive) and optionally unplug the SATA cable from the motherboard, highlighted cyan below.
 
 ![SATA cable attached to motherboard](./img/motherboard.webp)
 
@@ -187,7 +186,7 @@ The cooling fan can be removed to clean dust out of the cooling system or to acc
 
 ### Steps to replace the fan:
 
-1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [unplug the wireless card](#replacing-the-wireless-card), and [remove the motherboard](#removing-the-motherboard).
+1. Follow the steps above to [remove the bottom panel](#removing-the-bottom-panel), [unplug the wireless card antennas](#replacing-the-wireless-card), and [remove the motherboard](#removing-the-motherboard).
     - In the below photos, the SATA cable has also been unplugged as detailed in [removing the motherboard](#removing-the-motherboard).
 2. Unplug the fan connector, highlighted red below.
 
@@ -198,8 +197,8 @@ The cooling fan can be removed to clean dust out of the cooling system or to acc
 4. Loosen the three fan screws (highlighted cyan above) and remove the fan.
     - The two small, light silver screws (along the bottom edge) are held captive, and will not fully come away from the fan.
     - The larger, dark silver screw will come apart from the fan when fully loosened.
-5. Peel the CMOS battery off of the old fan and stick it onto the new fan.
-6. Replace the fan and fan screws, then plug the CMOS and fan connectors back into the motherboard.
+5. Peel the CMOS battery off of the old fan and stick it onto the new fan (if applicable).
+6. Reinstall the fan and fan screws, then plug the CMOS and fan connectors back into the motherboard.
 7. Reinstall the motherboard, reconnect the wireless card antennas, reconnect the SATA cable and reinstall the M.2 drive (as necessary), and reinstall the bottom panel.
 
 ## Replacing the CMOS battery:
@@ -224,7 +223,7 @@ The CMOS battery supplies power to the system's CMOS chip, where UEFI settings a
 
 ![CMOS battery](./img/cmos-battery.webp)
 
-3. Slwoly pull the CMOS battery away from where it's adhered to the fan. The double-sided tape may remain on the fan after the CMOS battery is removed.
+3. Slowly pull the CMOS battery away from where it's adhered to the fan. The double-sided tape may remain on the fan after the CMOS battery is removed.
 4. Stick the new CMOS battery onto the fan (next to the black plastic screw arm), then plug the new CMOS battery in and replace the fan, motherboard, and bottom panel.
 
 ## Replacing the thermal paste:

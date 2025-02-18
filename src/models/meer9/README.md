@@ -12,6 +12,9 @@ The System76 Meerkat is a desktop with the following specifications:
     - Supports Intel Core Ultra 1st generation (Meteor Lake) CPUs
         - [Core Ultra 7 155H](https://www.intel.com/content/www/us/en/products/sku/236847/intel-core-ultra-7-processor-155h-24m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 125H](https://www.intel.com/content/www/us/en/products/sku/236848/intel-core-ultra-5-processor-125h-18m-cache-up-to-4-50-ghz/specifications.html)
+- BIOS
+    - Winbond 25Q256JWEQ flash chip
+        - Socketed WSON-8 form factor
 - Graphics
     - GPU: Intel Arc graphics
     - Video output:
@@ -26,14 +29,14 @@ The System76 Meerkat is a desktop with the following specifications:
     - Wi-Fi 6E & Bluetooth 5.3 (Intel [AX211](https://www.intel.com/content/www/us/en/products/sku/204837/intel-wifi-6e-ax211-gig/specifications.html))
 - Power
     - Core Ultra 7 model:
-        - 120W (20V, 6.0A) DC-in port
+        - 120W (19V, 6.32A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
-        - Included AC adapter*: Delta ADP-120VH
+        - Included AC adapter*: AcBel ADC017
             - AC power cord type: IEC C5
     - Core Ultra 5 model:
         - 90W (19V, 4.74A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
-        - Included AC adapter*: APD DA-90J19
+        - Included AC adapter*: AcBel ADA090C19C
             - AC power cord type: IEC C5
     - \* Included AC adapter may be a different model with the same specifications.
 - Sound

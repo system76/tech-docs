@@ -18,11 +18,9 @@ The System76 Thelio Astra is a desktop with the following specifications:
         - [Ampere Altra Q80-30](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
         - [Ampere Altra Q64-22](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
         - [Ampere Altra Q32-17](https://amperecomputing.com/briefs/ampere-altra-family-product-brief)
-- Motherboard options (depending on order date and/or stock availability)
-    - [ASRock ALTRAD8UD-1L2T](https://www.asrockrack.com/general/productdetail.asp?Model=ALTRAD8UD-1L2T#Specifications) running System76 Firmware (non-open)
-        - Used for orders before November 2024.
-    - [ASRock ALTRAD8UD2-1L2Q](https://www.asrockrack.com/general/productdetail.asp?Model=ALTRAD8UD2-1L2Q#Specifications) running System76 Firmware (non-open)
-        - Used for orders after November 2024.
+- Motherboard options
+    - Revision 1.1: [ASRock ALTRAD8UD-1L2T](https://www.asrockrack.com/general/productdetail.asp?Model=ALTRAD8UD-1L2T#Specifications) running System76 Firmware (non-open)
+    - Revision 1: [ASRock ALTRAD8UD2-1L2Q](https://www.asrockrack.com/general/productdetail.asp?Model=ALTRAD8UD2-1L2Q#Specifications) running System76 Firmware (non-open)
 - Daughterboard
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
         - Version 2.3

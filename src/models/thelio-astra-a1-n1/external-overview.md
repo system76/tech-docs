@@ -6,8 +6,9 @@
 
 ### SFP Port Information:
 
-- When ordering Thelio Astra, options for one or two 10GbE RJ-45 transceivers preinstalled into the 25GbE SFP port(s) are offered.
+- When ordering Thelio Astra revision A1 (with the `ALTRAD8UD2-1L2Q` motherboard), options for one or two 10GbE RJ-45 transceivers preinstalled into the 25GbE SFP port(s) are offered.
     - No transceivers are installed in the photo above.
+- Thelio Astra revision A1.1 (with the `ALTRAD8UD-1L2T` motherboard) includes two built-in 10GbE RJ-45 ports instead of SFP ports.
 
 ### Unit Identification (UID) Button Guide:
 

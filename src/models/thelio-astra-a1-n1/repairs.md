@@ -2,7 +2,8 @@
 
 Many components in your Thelio Astra can be upgraded or replaced as necessary. This page uses photos of the the A1-N1 revision, which indicates:
 
-- **A1:** The first Ampere-compatible motherboard used in Thelio Astra.
+- **A1:** The first Ampere-compatible motherboard used in Thelio Astra (`ALTRAD8UD2-1L2Q`).
+    - Units marked **A1.1** include the `ALTRAD8UD-1L2T` motherboard instead.
 - **N1:** The first chassis revision of the Thelio Astra.
     - The Thelio Astra chassis is based on the nebula40 chassis (revision 3), but lacks top I/O and 2.5" drive mounts.
 

@@ -157,22 +157,24 @@ Depending on your climate and the age of the machine, it may be necessary to app
 ### Steps to replace the fans/heatsink/thermal paste:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Locate the CPU heatsink screws.
-3. Remove the screws, starting with #1, then #2, and continuing until you have removed #11.
+2. Disconnect both fan cables, removing any tape securing them.
+3. Locate the CPU heatsink screws.
+4. Remove the screws, starting with #1, then #2, and continuing until you have removed #11.
 
 ![Thermal screws](./img/thermal-screws.jpg)
 
-4. Carefully remove the heatsink/fans from the case.
-5. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
+5. Carefully remove the heatsink/fans from the case.
+6. Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to remove excess or difficult-to-remove paste.
 
 ![Heatsink](./img/heatsink-removed.jpg)
 
-6. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU core.
+7. After cleaning the CPU, GPU, and heatsink, apply a small line of thermal paste directly onto the CPU and GPU core.
 
 ![Thermal paste](./img/thermal-paste.jpg)
 
-7. Carefully replace the heatsink.
-8. Replace the screws, starting with #1, then #2, and so on until #11. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
+8. Carefully replace the heatsink.
+9. Replace the screws, starting with #1, then #2, and so on until #11. Do not fully tighten until all of the screws have been started, then fully tighten all screws.
+10. Reconnect the fan cables.
 
 ## Replacing the CMOS battery:
 

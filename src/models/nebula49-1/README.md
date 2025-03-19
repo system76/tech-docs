@@ -22,8 +22,13 @@ The System76 nebula49 is a desktop chassis (for DIY builds) with the following s
 - Cooling capacity
     - 2x 120mm CPU fans
         - Rear exhaust fan: Be Quiet! `SIW4-12025-MF-PWM`
-        - CPU cooler (optional add-on): Noctua `NH-U12S`
-            - Fan included with add-on: Noctua `NF-F12 PWM`
+        - CPU cooler:
+            - Optional included cooler: Noctua `NH-U12S`
+                - Includes 1x Noctua `NF-F12 PWM` fan
+            - Max dimensions:
+                - Height (top to bottom of duct): 142mm
+                - Width (motherboard to side of duct): 163mm
+                - Length (front to back within duct): 258mm (215mm with fans)
     - 1x 140mm bottom intake fan: Be Quiet! `SIW4-14025-HF-PWM`
     - 2x 120mm side intake fans
         - Optional add-on: Be Quiet! `SIW4-12025-MF-PWM`

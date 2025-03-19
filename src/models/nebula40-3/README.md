@@ -22,9 +22,13 @@ The System76 nebula40 is a desktop chassis (for DIY builds) with the following s
 - Cooling capacity
     - 1x 140mm bottom intake fan
         - Be Quiet! `SIW4-14025-LF-PWM`
-    - CPU cooler (optional add-on)
-        - Thermalright Phantom Spirit 120SE
-        - Includes 2x Thermalright `TL-C12B V2 PWM` 120mm fans
+    - CPU cooler
+        - Optional included cooler: Thermalright Phantom Spirit 120SE
+            - Includes 2x Thermalright `TL-C12B V2 PWM` 120mm fans
+        - Max dimensions:
+            - Height (top to bottom of duct): 143mm
+            - Width (motherboard to side of duct): 170mm
+            - Length (front to back within duct): 176.3mm (126mm with fans)
     - 1x 120mm side intake fan (optional add-on)
         - Be Quiet! `SIW4-12025-MF-PWM`
 - Daughterboards

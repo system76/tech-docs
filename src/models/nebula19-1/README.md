@@ -18,11 +18,16 @@ The System76 nebula19 is a desktop chassis (for DIY builds) with the following s
 - Cooling capacity
     - 2x 92mm CPU fans
         - Rear exhaust fan: Be Quiet! `PUW2-9225-MR-PWM`
-        - CPU cooler (optional add-on): 
-            - After April 2024: Be Quiet! Pure Rock Slim 2 (`BK030`)
-                - Fan included with add-on: Be Quiet! `PUW2-9225-MR-PWM`
-            - Before April 2024: Noctua `NH-U9S`
-                - Fan included with add-on: Noctua `NF-A9 PWM`
+        - CPU cooler:              
+            - Optional included cooler:
+                - After April 2024: Be Quiet! Pure Rock Slim 2 (`BK030`)
+                    - Included cooler fan: Be Quiet! `PUW2-9225-MR-PWM`
+                - Before April 2024: Noctua `NH-U9S`
+                    - Included cooler fan: Noctua `NF-A9 PWM`
+            - Max dimensions:
+                - Height (top to bottom of duct): 106mm
+                - Width (motherboard to side of duct): 133mm
+                - Length (front to back within duct): 125mm (104mm with fans)  
     - 1x 140mm bottom intake fan: Be Quiet! `SIW4-14025-LF-PWM`
     - 1x 120mm side intake fan (optional add-on): Be Quiet! `SIW4-12025-MF-PWM`
 - Daughterboards

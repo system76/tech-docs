@@ -56,3 +56,7 @@ Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Lin
     sudo apt full-upgrade
     ```
 5. Reboot the system with the GUI or with the `reboot` command.
+6. Suspend on this system will interupt long running tasks. Disabling suspend will lead to higher power use of the system but can be done with the folloing command:
+```
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```

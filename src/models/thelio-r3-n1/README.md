@@ -38,7 +38,7 @@ The System76 Thelio is a desktop with the following specifications:
 - Expansion
     - 1x PCIe 4.0 x16 (GPU slot)
 - Memory
-    - Up to 64GB (2x32GB) dual-channel DDR5 DIMMs @ 4800 MHz
+    - Up to 128GB (2x64GB) dual-channel DDR5 DIMMs @ 4800 MHz (JEDEC) or 7200+ MHz (OC)
     - Tested with the following RAM modules (may ship with other tested modules):
         - [Crucial CT32G48C40U5](https://www.crucial.com/memory/ddr5/ct32g48c40u5#spec) (32GB/stick)
 - Networking

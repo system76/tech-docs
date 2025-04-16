@@ -77,11 +77,11 @@ Thelio Mira B4-N3 supports up to two 2.5" SATA III drives.
 1. Follow the steps above to [remove the top case](#removing-the-top-case).
 2. Unscrew the two screws securing the drive bay's cover, highlighted green below.
 
-![2.5" drive cover and 2.5" drive screws](./img/25-slot-cover.webp)
+![2.5" drive cover](./img/25-slot-cover.webp)
 
 3. If you are adding a new drive, pop out the black plastic ring on the top crossbar and slide out four screws (per drive).
 
-![2.5" drive cover and 2.5" drive screws](./img/25-drive-screws.webp)
+![2.5" drive screws](./img/25-drive-screws.webp)
 
 4. Insert four screws into each 2.5" storage drive you wish to install.
 5. Slide each 2.5" drive into one of the slots leading to the Thelio-IO board.

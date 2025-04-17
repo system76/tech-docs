@@ -1,7 +1,6 @@
 [book]
 authors = ["Jeremy Soller"]
 language = "en"
-multilingual = false
 src = "src"
 title = "System76 Technical Documentation"
 

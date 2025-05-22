@@ -1,0 +1,90 @@
+# Thelio Mega (thelio-mega-r4-n3)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Thelio Mega](./img/thelio-mega-r4-n3.webp)
+
+The System76 Thelio Mega is a desktop with the following specifications:
+
+- CPU options
+    - Supports AMD Ryzen Threadripper PRO 7000 series (Zen 4) processors
+        - [7995WX](https://www.amd.com/en/products/specifications/processors.html?product-0=AMD+Ryzen%E2%84%A2+Threadripper%E2%84%A2+PRO+7995WX)
+        - [7985WX](https://www.amd.com/en/products/specifications/processors.html?product-0=AMD+Ryzen%E2%84%A2+Threadripper%E2%84%A2+PRO+7985WX)
+        - [7975WX](https://www.amd.com/en/products/specifications/processors.html?product-0=AMD+Ryzen%E2%84%A2+Threadripper%E2%84%A2+PRO+7975WX)
+        - [7965WX](https://www.amd.com/en/products/specifications/processors.html?product-0=AMD+Ryzen%E2%84%A2+Threadripper%E2%84%A2+PRO+7965WX)
+        - [7955WX](https://www.amd.com/en/products/specifications/processors.html?product-0=AMD+Ryzen%E2%84%A2+Threadripper%E2%84%A2+PRO+7955WX)
+- Motherboard
+    - Gigabyte TRX50 AI TOP running System76 Firmware (non-open)
+    - AMD TRX50 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/thelio_io_2)
+        - Revision 2.3
+- GPU options
+    - Up to four GPUs (4x PCIe 5.0 x16)
+        - Ships with up to three GPUs
+        - Fourth GPU subject to space & power constraints
+    - GPU size:
+        - Internal clearance: 369.10mm
+        - Recommended maximum length: 359.10mm
+    - Tested with the following GPUs:
+        - [NVIDIA RTX Pro 6000](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/#specs)
+            - 4x DisplayPort 2.1b
+        - [NVIDIA A800](https://www.nvidia.com/en-us/design-visualization/a800/#specifications)
+            - Compute only (no video ports)
+            - Ships with [NVIDIA A400](https://www.nvidia.com/en-us/design-visualization/rtx-a400/#specifications) for display
+                - 4x Mini DisplayPort 1.4a
+        - [NVIDIA RTX 6000 ADA](https://www.nvidia.com/en-us/design-visualization/rtx-6000/#specifications)
+            - 4x DisplayPort 1.4
+            - Supports Quadro Sync II in multi-GPU configurations
+        - [NVIDIA RTX 5000 ADA](https://www.nvidia.com/en-us/design-visualization/rtx-5000/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA RTX 4500 ADA](https://www.nvidia.com/en-us/design-visualization/rtx-4500/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA RTX 4000 ADA](https://www.nvidia.com/en-us/design-visualization/rtx-4000/#specifications)
+            - 4x DisplayPort 1.4a
+        - [NVIDIA GeForce RTX 5090](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/#specs)
+            - 3x DisplayPort 2.1b
+            - 1x HDMI 2.1b
+        - [NVIDIA GeForce RTX 5080](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/#specs)
+            - 3x DisplayPort 2.1b
+            - 1x HDMI 2.1b
+        - [NVIDIA A400](https://www.nvidia.com/en-us/design-visualization/rtx-a400/#specifications)
+            - 4x Mini DisplayPort 1.4a
+- Memory
+    - Up to 512GB (8x64GB) quad-channel ECC Unbuffered DDR5 DIMMs @ 5600 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Micron MTC40F2046S1RC56BR](https://www.crucial.com/memory/server-ddr5/mtc40f2046s1rc56br) (64GB/stick)
+        - [Kingston KF556R28RBE2K4](https://www.kingston.com/datasheets/KF556R28RBE2K4-128.pdf) (32GB/stick)
+- Networking
+    - 2x 10-Gigabit Ethernet (Marvell AQtion AQC113C 10GbE LAN chip)
+    - Wi-Fi 6E + Bluetooth 5.3 (Intel AX210)
+- Power
+    - C19 power cord
+    - 1650W PSU
+    - 80+ Gold Efficiency
+    - Tested with the following PSU models (may ship with other tested models):
+        - [Thermaltake Toughpower GF3 1650W](https://thermaltakeusa.com/products/toughpower-gf3-1650w-gold-tt-premium-edition-ps-tpd-1650fnfagu-4#tab-label-specification)
+- Sound
+    - Top:
+        - Realtek ALC897 chipset
+            - 3.5mm mic in
+            - 3.5mm line out
+    - Back:
+        - Realtek ALC4080 chipset
+            - 3.5mm mic in
+            - 3.5mm line out
+        - HDMI and/or DisplayPort audio out (depending on GPU)
+- Storage
+    - 4x M.2 (PCIe Gen 5) SSDs
+    - 4x 2.5" SATA III
+- USB
+    - Top:
+        - 1x USB 3.2 Gen 1 (Type-C)
+        - 1x USB 3.2 Gen 1 (Type-A)
+    - Back:
+        - 2x USB4 (Type-C)
+        - 6x USB 3.2 Gen 2 (Type-A)
+- Dimensions
+    - 47.8cm x 26.3cm x 43.8cm

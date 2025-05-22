@@ -1,9 +1,10 @@
 # Thelio Mega (Parts & Repairs)
 
-Many components in your Thelio Mega can be upgraded or replaced as necessary. This page uses photos of the the B4-N3 revision, which indicates:
+Many components in your Thelio Mega can be upgraded or replaced as necessary. This page uses photos of the the R4-N3 revision, which indicates:
 
-- **B4:** The fourth Intel motherboard used in Thelio Mega.
-- **N3:** Based on the third revision of the nebula49 chassis.
+- **R4:** The fourth AMD motherboard used in Thelio Mega.
+- **N3:** Based on the third major revision of the Thelio Mega chassis.
+    - The Thelio Mega form factor is not currently available as a standalone Nebula chassis.
 
 Minor case details may vary based on the production date of the unit, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
@@ -33,7 +34,7 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 
 ## Replacing the front accent strip:
 
-Thelio Mira includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
+Thelio Mega includes a customizable accent panel on the front of the case, which can be swapped to change the case's look and feel. The instructions for swapping the accent are also available in [video form](https://system76.com/r/diyaccentpanel).
 
 **Tools required:** None  
 **Time estimate:** 30 seconds  
@@ -114,7 +115,7 @@ The 140mm side intake fans can be independently replaced.
 
 ## Adding/removing 2.5" storage drives:
 
-Thelio Mira B4-N3 supports up to four 2.5" SATA III drives.
+Thelio Mega R4-N3 supports up to four 2.5" SATA III drives.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 8 minutes  
@@ -201,7 +202,8 @@ Thelio Mega R4-N3 contains four PCI Express 5.0 x16 slots. Factory configuration
 
 ### Steps to replace a GPU:
 
-1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side fan mount](#removing-the-side-fan-mount), and [remove the GPU brace](#removing-the-gpu-brace).
+1. Follow the steps above to [remove the top case](#removing-the-top-case), [remove the side fan mount](#removing-the-side-fan-mount), [remove the GPU brace](#removing-the-gpu-brace).
+    - To access the top PCIe slot (which is the primary GPU slot), also [remove the CPU duct](#removing-the-cpu-duct).
 2. If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.
 
 ![GPU power connections](./img/gpu-power.webp)
@@ -212,14 +214,14 @@ Thelio Mega R4-N3 contains four PCI Express 5.0 x16 slots. Factory configuration
 ![PCIe bracket screws](./img/pcie-bracket.webp)
 
 4. Press the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
-    - If it's difficult to reach the latch, you can use a long screwdriver to push the latch; you may also need to [remove the CPU duct](#removing-the-cpu-duct) and the [bottom RAM stick](#replacing-the-ram) (or any surrounding GPUs) to make more room to reach the latch.
+    - The top PCIe slot (the primary GPU slot) can also be freed by pressing the square quick-release button above the M.2 heatsink, highlighted red below.
 
 ![GPU order & PCIe latches](./img/pcie-slots.webp)
 
 5. When installing new GPUs, utilize the top slot first. Other slots can be utilized in the order that best fits the GPUs, since they all run at equal bandwidth.
 6. After inserting the new GPU into its slot, connect the power cables.
     - The maximum number of power cables are preinstalled in your system, but some may be secured with velcro straps within the [PSU chamber](#opening-the-psu-chamber) if they weren't used in the factory configuration.
-7. Once all GPUs are installed, replace any removed RAM sticks, as well as the back PCIe bracket, CPU duct, GPU brace, side fan mount, and top case.
+7. Once all GPUs are installed, replace the back PCIe bracket, CPU duct, GPU brace, side fan mount, and top case.
 
 ## Replacing the M.2 drives:
 
@@ -619,7 +621,7 @@ Each of the two SATA backplanes provides two 2.5" SATA III data and power connec
 
 ## Replacing the top I/O:
 
-Thelio Mira B4-N3 includes a top I/O module providing audio and USB ports. If the top ports are damanged or become defective, they can be replaced using the steps below.
+Thelio Mega R4-N3 includes a top I/O module providing audio and USB ports. If the top ports are damanged or become defective, they can be replaced using the steps below.
 
 **Part numbers:**
 - The top I/O module's part number is `MYS7523 Rev. 4.0`.

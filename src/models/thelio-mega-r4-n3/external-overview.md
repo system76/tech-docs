@@ -15,6 +15,13 @@
 
 ![Wireless antenna module](./img/wireless-antenna.webp)
 
+### DisplayPort Pass-Through:
+
+- The DisplayPort pass-through input (labeled `DP IN` on the machine) provides an input to pass a DisplayPort signal from a graphics card into the top USB4 (Type-C) port.
+    1. Connect a GPU's DisplayPort output to the DisplayPort pass-through input (`DP IN`) port.
+    2. Then, connect a USB-C display (or docking station) to the top USB4 (Type-C) port to view the DisplayPort signal.
+        - The top USB4 (Type-C) port is additionally labeled `DP` on the machine to signify that it's the pass-through output port.
+
 ### Power Supply Switch Guide:
 
 #### Power Switch:

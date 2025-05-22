@@ -1,4 +1,4 @@
-# Thelio Major (Internal Overview)
+# Thelio Mega (Internal Overview)
 
 ## Left side overview:
 

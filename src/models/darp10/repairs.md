@@ -146,7 +146,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
     - Outer fan: `FSMD DFS5L22H05B853 EP` (DC 5V 0.8A)
 - 14" model (darp10-b):
     - Heatsink assembly: `6-31-V54TN-101`, also known as the FCN `MSS8 41S 254`.
-    - Inner fan: `FSMC DFS5L22G15B851 EP` (DC 5V 0.8A)
+    - Inner fan: `FSMC DFS5L22H15B851 EP` (DC 5V 0.8A)
     - Outer fan: `FSMB DFS5L22H05B851 EP` (DC 5V 0.8A)
 
 **Tools required:** Cross-head (Phillips) screwdriver, thermal paste  

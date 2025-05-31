@@ -1,0 +1,72 @@
+# Darter Pro (darp11 & darp11-b)
+
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
+![Darter Pro](./img/darp11.webp)
+
+The System76 Darter Pro is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel Core Ultra 2nd generation (Arrow Lake) CPUs
+        - [Core Ultra 7-255H](https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html)
+        - [Core Ultra 5-225H](https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html)
+- BIOS
+    - XMC XM25QU256CXIQT08S flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - Motherboard part number:
+        - 16" (darp11): `6-77-V560TU00-D02-4F#10`
+        - 14" (darp11-b): `6-77-V540TU10-D02-2F#10`
+- EC
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - GPU: Intel Arc Graphics (dependent on CPU)
+        - Core Ultra 7-255H: Intel Arc 140T GPU
+        - Core Ultra 5-225H: Intel Arc 130T GPU
+    - eDP display:
+        - 16" 1920x1200@60Hz LCD (darp11)
+            - LCD panel: AUO B160UAN03.0 (or equivalent)
+                - Brightness: 250 nits (cd/m²)
+                - sRGB color coverage: 65%
+        - 14" 1920x1200@60Hz LCD (darp11-b)
+            - LCD panel: Innolux N140JCA-ELL (or equivalent)
+                - Brightness: 300 nits (cd/m²)
+                - sRGB color coverage: 66%
+    - External video outputs:
+        - 1x HDMI 2.1
+        - 1x DisplayPort 2.1 over USB-C
+- Memory
+    - Up to 96GB (2x48GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
+- Networking
+    - Gigabit Ethernet
+    - M.2 PCIe/CNVi WiFi/Bluetooth:
+        - Intel Wi-Fi 7 BE200
+            - Bluetooth 5.4
+- Power
+    - 90W (19V, 4.74A) DC-in port
+        - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: Chicony A16-090P1A
+        - AC power cord type: IEC C5
+    - USB-C charging compatible with 90W+ charger
+    - 73Wh 4-cell Lithium-ion battery
+        - Model number: V540BAT-4-73
+- Sound
+    - Internal speakers & microphone
+    - Combined headphone & microphone 3.5mm jack
+    - HDMI, USB-C DisplayPort audio
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 4)
+    - MicroSD card reader
+- USB
+    - 1x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort over USB-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-C
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 16" model (darp11): 1.8cm x 35.8cm x 25.86cm, 1.93kg
+    - 14" model (darp11-b): 1.8cm x 31.7cm x 23.5cm, 1.59kg

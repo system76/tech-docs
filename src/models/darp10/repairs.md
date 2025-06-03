@@ -226,8 +226,8 @@ The keyboard can be replaced if its switches or electronics have been damaged.
 
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 5 minutes  
-**Difficulty:** Easy <span style="color:green;">●</span>  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>  
 
 ### Steps to replace the keyboard:
 
@@ -274,8 +274,8 @@ The battery provides primary power whenever the system is unplugged.
 - Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also [contact System76](https://support.system76.com) to purchase a replacement battery.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
-**Time estimate:** 30 minutes  
-**Difficulty:** High <span style="color:red;">●</span>  
+**Time estimate:** 15 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
 
 ### Steps to replace the battery:
 

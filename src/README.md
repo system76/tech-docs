@@ -7,7 +7,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 ## Current Models
 
 - [Adder WS (addw4)](models/addw4/README.md)
-- [Bonobo WS (bonw15)](models/bonw15/README.md)
+- [Bonobo WS (bonw16)](models/bonw16/README.md)
 - [Darter Pro (darp11)](models/darp11/README.md)
 - [Galago Pro (galp7)](models/galp7/README.md)
 - [Gazelle (gaze18)](models/gaze18/README.md)
@@ -22,7 +22,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [nebula49 (nebula49-1)](models/nebula49-1/README.md)
 - [Oryx Pro (oryp12)](models/oryp12/README.md)
 - [Pangolin (pang15)](models/pang15/README.md)
-- [Serval WS (serw13)](models/serw13/README.md)
+- [Serval WS (serw14)](models/serw14/README.md)
 - [Thelio (thelio-r3-n1)](models/thelio-r3-n1/README.md)
 - [Thelio Astra (thelio-astra-a1-n1)](models/thelio-astra-a1-n1/README.md)
 - [Thelio Major (thelio-major-r5-n3)](models/thelio-major-r5-n3/README.md)
@@ -36,6 +36,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Adder WS (addw3)](models/addw3/README.md)
 - [Adder WS (addw2)](models/addw2/README.md)
 - [Adder WS (addw1)](models/addw1/README.md)
+- [Bonobo WS (bonw15)](models/bonw15/README.md)
 - [Bonobo WS (bonw14)](models/bonw14/README.md)
 - [Darter Pro (darp10)](models/darp10/README.md)
 - [Darter Pro (darp9)](models/darp9/README.md)
@@ -71,6 +72,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Pangolin (pang12)](models/pang12/README.md)
 - [Pangolin (pang11)](models/pang11/README.md)
 - [Pangolin (pang10)](models/pang10/README.md)
+- [Serval WS (serw13)](models/serw13/README.md)
 - [Serval WS (serw12)](models/serw12/README.md)
 - [Thelio (thelio-b4)](models/thelio-b4/README.md)
 - [Thelio Major (thelio-major-r3)](models/thelio-major-r3/README.md)

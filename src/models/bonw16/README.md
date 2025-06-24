@@ -1,5 +1,9 @@
 # Bonobo WS (bonw16)
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
+
 ![Bonobo WS](./img/bonw16.png)
 
 The System76 Bonobo WS is a laptop with the following specifications:
@@ -42,6 +46,7 @@ The System76 Bonobo WS is a laptop with the following specifications:
 - Power
     - 330W (20V, 16.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: FSP FSP330-ACAU3
     - 98Wh 8-cell Lithium-Ion battery
         - Model number: X580BAT-8-98
 - Sound

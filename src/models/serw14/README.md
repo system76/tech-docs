@@ -20,11 +20,11 @@ The System76 Serval WS is a laptop with the following specifications:
     - GPU options:
         - NVIDIA GeForce RTX 5070 Ti
     - eDP display: 16" 2560x1600@240Hz LCD
-            - LCP panel: BOE NE160QAM-NZ1 (or equivalent)
-                - Brightness: 500 nits (cd/m²)
-                - Color coverage:
-                    - DCI-P3: 100%
-                    - sRGB: 100%
+        - LCP panel: BOE NE160QAM-NZ1 (or equivalent)
+            - Brightness: 500 nits (cd/m²)
+            - Color coverage:
+                - DCI-P3: 100%
+                - sRGB: 100%
     - External video outputs:
         - 1x HDMI 2.1
         - 2x DisplayPort 2.0 over USB-C

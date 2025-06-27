@@ -1,10 +1,8 @@
 # Summary
 
 - [Current Models](README.md)
-    - [Adder WS (addw4)](models/addw4/README.md)
-        - [External Overview](models/addw4/external-overview.md)
-        - [Internal Overview](models/addw4/internal-overview.md)
-        - [Parts & Repairs](models/addw4/repairs.md)
+    - [Adder WS (addw5)](models/addw5/README.md)
+        - [Parts & Repairs](models/addw5/repairs.md)
     - [Bonobo WS (bonw16)](models/bonw16/README.md)
         - [Parts & Repairs](models/bonw16/repairs.md)
     - [Darter Pro (darp11)](models/darp11/README.md)
@@ -90,6 +88,10 @@
         - [Internal Overview](models/thelio-spark-b1-n2/internal-overview.md)
         - [Parts & Repairs](models/thelio-spark-b1-n2/repairs.md)
 - [Previous Models](README.md)
+    - [Adder WS (addw4)](models/addw4/README.md)
+        - [External Overview](models/addw4/external-overview.md)
+        - [Internal Overview](models/addw4/internal-overview.md)
+        - [Parts & Repairs](models/addw4/repairs.md)
     - [Adder WS (addw3)](models/addw3/README.md)
         - [External Overview](models/addw3/external-overview.md)
         - [Internal Overview](models/addw3/internal-overview.md)

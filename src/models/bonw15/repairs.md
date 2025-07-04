@@ -244,7 +244,7 @@ The keyboard includes per-key RGB LED backlighting, and can be replaced using th
 6. Flip the black latches upwards to free the ribbon cables.
 7. Pull the ribbon cables out of the connectors.
 8. Remove the keyboard and replace it with the new one.
-9. Carefully slide both ribbon cables into their connectors.
+9. Carefully slide all three ribbon cables into their connectors.
 10. Flip the black latches back into place to secure the ribbon cables.
 11. (Optional) Replace the keyboard adhesive strip on the chassis.
 12. Place the keyboard back into position, starting with the tabs on the bottom edge.

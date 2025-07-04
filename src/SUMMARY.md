@@ -4,6 +4,8 @@
     - [Adder WS (addw5)](models/addw5/README.md)
         - [Parts & Repairs](models/addw5/repairs.md)
     - [Bonobo WS (bonw16)](models/bonw16/README.md)
+        - [External Overview](models/bonw16/external-overview.md)
+        - [Internal Overview](models/bonw16/internal-overview.md)
         - [Parts & Repairs](models/bonw16/repairs.md)
     - [Darter Pro (darp11)](models/darp11/README.md)
         - [External Overview](models/darp11/external-overview.md)

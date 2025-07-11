@@ -193,9 +193,11 @@ The system has three bottom-firing speakers, which can be removed and replaced i
 
 The Bonobo WS 16 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
 
-If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
+If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase. These instructions can also be used if physical damage to the heatsink necessitates its replacement.
 
-Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU/GPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment. These instructions can also be used in the unlikely event your heatsink needs to be replaced.
+Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment; depending on your climate and the age of the machine, replacing the thermal paste may improve cooling performance. The thermal paste should generally be replaced whenever the heatsink is removed.
+
+Thermal putty (thicker than thermal paste) is used to bridge the gap between the VRAM chips and the heatsink. Replacing the thermal putty is optional when removing the heatsink. System76 suggests [Thermal Grizzly Putty Basic](https://www.thermal-grizzly.com/en/tg-putty/s-tg-p-b-030) (available at various retailers) or a similar alternative.
 
 **Part numbers:**
 - Heatsink/fan assembly: `6-31-X580N-101`
@@ -203,7 +205,7 @@ Depending on your climate and the age of the machine, it may be necessary to app
     - Left fan: Yingfan `NA901212HHT4B10001 DX1`
     - Right fan: Yingfan `NB901212HHT4B0001 DX2`
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+**Tools required:** Cross-head (Phillips) screwdriver, thermal putty spreader (flat plastic tool)  
 **Time estimate:** 15 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
@@ -222,12 +224,15 @@ Depending on your climate and the age of the machine, it may be necessary to app
 4. Remove any clear tape covering the fan wires.
 5. Unplug the black fan connectors from the motherboard's fan headers, `J_VGAFAN1` (highlighted red above) and `J_CPUFAN1` (highlighted green).
 6. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-7. Using a paper towel, remove the existing thermal paste from the CPU, GPU, VRAM chips, and heatsink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+7. Using a paper towel, remove the existing thermal paste from the CPU, GPU, and heatsink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
     - In the below photos, the subwoofer is screwed into the heatsink, so its cable is visible in addition to the fan cables.
+    - You can optionally remove the thermal putty from the eight VRAM chips surrounding the GPU chip if you have replacement thermal putty to install.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-8. Apply a small line of thermal paste directly onto the CPU chip, the GPU chip, and the eight VRAM chips.
+8. Apply a small line of thermal paste directly onto the CPU chip and the GPU chip.
+    - If you're also replacing the thermal putty, apply the new putty to the eight VRAM chips.
+    - If you aren't replacing the thermal putty, scoop the existing putty (from the VRAM chip and the corresponding location on the heatsink) into the center of each VRAM chip using a flat plastic tool.
 
 ![Thermal paste application](./img/thermal-paste-application.webp)
 

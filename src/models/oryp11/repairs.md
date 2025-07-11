@@ -139,11 +139,13 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 The Oryx Pro 11 uses two fans and a heatsink manufactured as a single assembly. The part number for the complete assembly is YINGFAN `6-31-PE60N-102`. The part number for the left fan is WINMA `EFC-92091S2-0BH`; the part number for the right fan is WINMA `EFC-90091S2-0BH`.
 
-If the CPU/GPU fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase.
+If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase. These instructions can also be used if physical damage to the heatsink necessitates its replacement.
 
-Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling equipment. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU/GPU and the heatsink may help the system run cooler. It's recommended to replace the thermal paste whenever the heatsink is removed.
+Thermal paste helps facilitate effective heat transfer between the CPU/GPU and the cooling equipment; depending on your climate and the age of the machine, replacing the thermal paste may improve cooling performance. The thermal paste should generally be replaced whenever the heatsink is removed.
 
-**Tools required:** Cross-head (Phillips) screwdriver  
+Thermal putty (thicker than thermal paste) is used to bridge the gap between the VRAM chips and the heatsink. Replacing the thermal putty is optional when removing the heatsink. System76 suggests [Thermal Grizzly Putty Basic](https://www.thermal-grizzly.com/en/tg-putty/s-tg-p-b-030) (available at various retailers) or a similar alternative.
+
+**Tools required:** Cross-head (Phillips) screwdriver, thermal putty spreader (flat plastic tool)  
 **Time estimate:** 40 minutes  
 **Difficulty:** High <span style="color:red;">●</span>  
 
@@ -158,12 +160,15 @@ Thermal paste helps facilitate heat transfer between the CPU/GPU and the cooling
 
 4. Unplug the two fan connectors from the motherboard (highlighted red above).
 5. Remove the heatsink/fans from the case, being careful not to bend the heatsink pipes. It may take some pressure to break the seal of the thermal paste.
-6. Using a paper towel, remove the existing thermal paste from the CPU chips, GPU chip, and surrounding components, as well as the corresponding points on the heat sink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
-    - Some thermal paste may already be on the motherboard around the VRAM chips, or may get onto the motherboard while cleaning the paste off of the chips. Thermal paste is typically not conductive; it's safer to leave excess paste on the board than to risk damaging the board with rough removal.
+6. Using a paper towel, remove the existing thermal paste from the CPU chips and the GPU chip, as well as the corresponding points on the heat sink. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+    - You can optionally remove the thermal putty from the three Samsung VRAM chips and the twelve `R15` chips surrounding the GPU chip if you have replacement thermal putty to install.
+    - Some thermal paste and/or putty may already be on the motherboard around the VRAM chips, or may get onto the motherboard while cleaning the paste/putty off of the chips. Thermal paste and putty is typically not conductive; it's safer to leave excess paste on the board than to risk damaging the board with rough removal.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
-7. Apply a small line of thermal paste directly onto both CPU chips, the GPU chip, the three Samsung VRAM chips, and the twelve `R15` chips.
+7. Apply a small line of thermal paste directly onto both CPU chips and the GPU chip.
+    - If you're also replacing the thermal putty, apply the new putty to the three Samsung VRAM chips and the twelve `R15` chips.
+    - If you aren't replacing the thermal putty, scoop the existing putty (from the chip and the corresponding location on the heatsink) into the center of each VRAM and `R15` chip using a flat plastic tool.
 
 ![Thermal paste application](./img/thermal-paste-application.webp)
 

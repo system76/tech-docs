@@ -60,7 +60,16 @@ The battery provides primary power whenever the system is unplugged.
 
 ## Replacing the RAM:
 
-The Bonobo WS 16 supports up to 192GB (4x48GB) of DDR5 SO-DIMMs running in dual-channel configuration at 5600MHz. The supported configurations are two or four SO-DIMMs (one or three SO-DIMMs are not supported configurations). If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
+The Bonobo WS 16 supports up to 192GB (4x48GB) of DDR5 SO-DIMMs running in dual-channel configuration. The RAM speed depends on the rank and number of SO-DIMMs:
+
+- Any number of single-rank SO-DIMMs will run at a speed of 4400MHz.
+    - The 2x16GB (32GB total) factory configuration runs at this speed.
+- A single dual-rank SO-DIMM will run at 4400MHz.
+    - This configuration is not recommended because running in single-channel mode will result in lower performance than the equivalent capacity running in dual-channel mode at a slightly lower speed.
+- More than one dual-rank SO-DIMM will run at 4000MHz.
+    - All other factory configurations run at this speed.
+
+If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  
@@ -158,7 +167,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 The system has three bottom-firing speakers, which can be removed and replaced individually.
 
 **Part numbers:**
-- Subwoofer: 
+- Subwoofer: `6-23-5X580-0W2`
 - Left speaker: `6-23-5X580-0L2`
 - Right speaker: `6-23-5X580-0R2`
 

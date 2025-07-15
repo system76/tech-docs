@@ -37,7 +37,9 @@ The System76 Bonobo WS is a laptop with the following specifications:
         - 1x HDMI 2.1
         - 2x DisplayPort 2.1 over USB-C
 - Memory
-    - Up to 192GB (4x48GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
+    - Up to 192GB (4x48GB) dual-channel DDR5 SO-DIMMs
+        - Single-rank RAM and 1x dual-rank RAM speed: 4400MHz
+        - 2x/3x/4x dual-rank RAM speed: 4000MHz
 - Networking
     - 2.5-Gigabit Ethernet
     - M.2 PCIe/CNVi WiFi/Bluetooth:

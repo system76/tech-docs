@@ -187,14 +187,17 @@ The model number for the Lemur Pro 11's battery is `L140BAT-4`, and the original
 ### Steps to replace the main battery:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
+    - You can optionally [remove the right speaker](#replacing-the-speakers) for easier access to the battery adhesive tabs.
 2. Unplug the white connector that connects the battery to the motherboard.
 
 ![Main battery](./img/battery.webp)
 
-3. Remove the battery.
-    - The battery is secured to foam standoffs with double-sided tape.
-    - A flat plastic object (such as a credit card) can be used to separate the tape from the battery.
-    - If any tabs from the tape are visible around the perimeter of the battery, do not push them back under the battery.
-        - Hold the tabs down while inserting the plastic tool to separate the tape and foam from the battery.
-        - Alternatively, pull the tabs up with the battery to separate the tape and foam from the chassis.
-4. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
+3. Remove the battery's adhesive strips (double-sided tape) by pulling the tabs visible around the battery's perimiter outward from under the battery.
+    - When removing each adhesive strip, pull slowly to avoid breaking it. Grasp farther down the strip as it comes out of the machine (don't pull the end far away from the machine).
+    - If an adhesive strip breaks, remove as much of it as possible.
+    - Use a flat plastic object (such as a credit card) to separate any remaining tape from the battery and/or the chassis.
+    - Leave the foam backing in place for the replacement battery to rest on.
+4. Remove the battery.
+    - If any adhesive strips broke and were not able to be fully removed, significant force may be required to free the battery.
+5. Put the battery back (or put your new battery in its place) and plug it back into the motherboard.
+    - You may need to peel the new battery's cable slightly away from the battery to reach the motherboard's connector.

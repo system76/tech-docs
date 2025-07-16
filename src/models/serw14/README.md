@@ -10,7 +10,8 @@ The System76 Serval WS is a laptop with the following specifications:
 - Chipset
     - [Intel HM870](https://www.intel.com/content/www/us/en/products/sku/240123/intel-hm870-chipset/specifications.html)
 - BIOS
-    - Macronix MX25U25671GZ4I4G flash chip
+    - Flash chip:
+        - XMC XM25QU256C, GigaDevice GD25LB256FYIG, or equivalent
         - WSON-8 form factor
     - Programmed with System76 firmware (non-open)
 - EC
@@ -38,7 +39,9 @@ The System76 Serval WS is a laptop with the following specifications:
 - Power
     - 230W (20V, 11.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: FSP FSP230-ACBS3
     - 80Wh 8-cell Lithium-Ion battery
+        - Model number: X560BAT-4-80
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

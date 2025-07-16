@@ -56,6 +56,8 @@
         - [Internal Overview](models/pang15/internal-overview.md)
         - [Parts & Repairs](models/pang15/repairs.md)
     - [Serval WS (serw14)](models/serw14/README.md)
+        - [External Overview](models/serw14/external-overview.md)
+        - [Internal Overview](models/serw14/internal-overview.md)
         - [Parts & Repairs](models/serw14/repairs.md)
     - [Thelio (thelio-r3-n1)](models/thelio-r3-n1/README.md)
         - [External Overview](models/thelio-r3-n1/external-overview.md)

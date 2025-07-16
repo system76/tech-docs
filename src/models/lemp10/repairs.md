@@ -41,7 +41,7 @@ The Lemur Pro 10 comes with 8GB of RAM soldered onto the motherboard, which cann
 ### Steps to replace the RAM:
 
 1. Follow the steps above to [remove the bottom cover](#removing-the-bottom-cover).
-2. Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.
+2. Press the small tabs on both sides of the RAM apart from each other simultaneously. The RAM should spring up to an angle.
 
 ![RAM tabs](./img/ram-tabs.jpg)
 

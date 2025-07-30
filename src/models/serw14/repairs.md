@@ -153,7 +153,7 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ## Replacing the cooling system:
 
-The Serval WS 13 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
+The Serval WS 14 has a single heatsink assembly with two fans. This assembly cools the CPU and GPU.
 
 If the fans become noisy and cleaning them out doesn't fix the issue, you may need a new fan. [Contact support](https://support.system76.com) to start a warranty claim or parts purchase. These instructions can also be used if physical damage to the heatsink necessitates its replacement.
 

@@ -89,7 +89,7 @@
         - [External Overview](models/thelio-spark-b1-n2/external-overview.md)
         - [Internal Overview](models/thelio-spark-b1-n2/internal-overview.md)
         - [Parts & Repairs](models/thelio-spark-b1-n2/repairs.md)
-- [Previous Models](README.md)
+- [Previous Models](archive.md)
     - [Adder WS (addw4)](models/addw4/README.md)
         - [External Overview](models/addw4/external-overview.md)
         - [Internal Overview](models/addw4/internal-overview.md)

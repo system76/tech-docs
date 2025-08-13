@@ -1,0 +1,886 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parts &amp; Repairs - System76 Technical Documentation</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/variables.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">System76 Technical Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/system76/tech-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="table-of-contents"><a class="header" href="#table-of-contents">Table of Contents</a></h1>
+<h2 id="thelio-major-b2-bios-overview"><a class="header" href="#thelio-major-b2-bios-overview">Thelio Major B2 BIOS Overview</a></h2>
+<h3 id="bios"><a class="header" href="#bios"><a href="#bios">BIOS</a></a></h3>
+<ul>
+<li><a href="#mit">M.I.T.</a></li>
+<li><a href="#system">System</a></li>
+<li><a href="#biosmenu">BIOS Menu</a></li>
+<li><a href="#peripherals">Peripherals</a></li>
+<li><a href="#chipset">Chipset</a></li>
+<li><a href="#power">Power</a></li>
+<li><a href="#save-and-exit">Save and Exit</a></li>
+</ul>
+<h2 id="user-serviceable-parts-and-repairs"><a class="header" href="#user-serviceable-parts-and-repairs">User Serviceable Parts and Repairs</a></h2>
+<h3 id="top-case-remove-or-replace"><a class="header" href="#top-case-remove-or-replace">Top Case (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#removing-the-top-case">Removing the Top Case</a></li>
+<li><a href="#replacing-the-top-case">Replacing the Top Case</a></li>
+</ul>
+<h3 id="power-button-remove-or-replace"><a class="header" href="#power-button-remove-or-replace">Power Button (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#removing-the-power-button">Removing the Power Button</a></li>
+<li><a href="#replacing-the-power-button">Replacing the Power Button</a></li>
+</ul>
+<!--### IO Board (Remove or Replace)
+- [Removing the IO Board](#removing-the-io-board)
+- [Replacing the IO Board](#replacing-the-io-board)
+### Case Fan (Remove or Replace)
+- [Removing the Case Fan](#removing-the-case-fan)
+- [Replacing the Case Fan](#replacing-the-case-fan)-->
+<h3 id="cpu-cooler-duct-remove-or-replace"><a class="header" href="#cpu-cooler-duct-remove-or-replace">CPU Cooler Duct (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#removing-the-cpu-cooler-duct">Removing the CPU Cooler Duct</a></li>
+<li><a href="#replacing-the-cpu-cooler-duct">Replacing the CPU Cooler Duct</a></li>
+</ul>
+<h3 id="ram-remove-or-replace"><a class="header" href="#ram-remove-or-replace">RAM (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#removing-ram-sticks">Removing the RAM</a></li>
+<li><a href="#replacing-ram-sticks">Replacing the RAM</a></li>
+</ul>
+<h3 id="gpu-remove-or-replace"><a class="header" href="#gpu-remove-or-replace">GPU (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#removing-the-gpu">Removing the GPU</a></li>
+<li><a href="#replacing-the-gpu">Replacing the GPU</a></li>
+</ul>
+<h3 id="drives-remove-or-replace"><a class="header" href="#drives-remove-or-replace">Drives (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#replacing-a-25-drive">Replacing a 2.5 Drive</a></li>
+<li><a href="#replacing-an-m2-drive">Replacing an M.2/NVMe Drive</a></li>
+</ul>
+<h3 id="cpu-thermal-paste-remove-or-replace"><a class="header" href="#cpu-thermal-paste-remove-or-replace">CPU Thermal Paste (Remove or Replace)</a></h3>
+<ul>
+<li><a href="#remove-the-cpu-thermal-paste">Remove the CPU Thermal Paste</a></li>
+</ul>
+<h1 id="bios-1"><a class="header" href="#bios-1">BIOS</a></h1>
+<p>Thelio systems ship with the BIOS configured to the preferred settings. For example, OSes are installed on Thelio systems in UEFI mode by default. It is not necessary to change any of these BIOS settings, however the BIOS menus are shown here for reference.</p>
+<h2 id="hardware-keyboard-shortcuts"><a class="header" href="#hardware-keyboard-shortcuts">Hardware Keyboard Shortcuts:</a></h2>
+<p>F12 : Boot Menu</p>
+<p>F9  : System Information</p>
+<p>ESC : BIOS</p>
+<p>END : Q-Flash</p>
+<h2 id="mit"><a class="header" href="#mit">M.I.T</a></h2>
+<p><img src="./img/MIT.BMP" alt="M.I.T" /></p>
+<p><strong>Fig. 1:</strong> The M.I.T. page allows tweaking the frequency of some system components.</p>
+<h2 id="system"><a class="header" href="#system">System</a></h2>
+<p><img src="./img/System.BMP" alt="System summary in BIOS" /></p>
+<p><strong>Fig. 2:</strong> System summary in BIOS.</p>
+<h2 id="bios-menu"><a class="header" href="#bios-menu">BIOS Menu</a></h2>
+<p><img src="./img/BIOS.BMP" alt="BIOS boot summary" /></p>
+<p><strong>Fig. 3:</strong> BIOS boot summary.</p>
+<h2 id="peripherals"><a class="header" href="#peripherals">Peripherals</a></h2>
+<p><img src="./img/Peripherals.BMP" alt="Peripherals" /></p>
+<p><strong>Fig. 4:</strong> BIOS section for Peripheral setup.</p>
+<h2 id="chipset"><a class="header" href="#chipset">Chipset</a></h2>
+<p><img src="./img/Chipset.BMP" alt="Chipset" /></p>
+<p><strong>Fig. 5:</strong> Chipset information in Thelio BIOS.</p>
+<h2 id="power"><a class="header" href="#power">Power</a></h2>
+<p><img src="./img/Power.BMP" alt="Power" /></p>
+<p><strong>Fig. 6:</strong> Power Management settings.</p>
+<h2 id="save-and-exit"><a class="header" href="#save-and-exit">Save and Exit</a></h2>
+<p><img src="./img/Save&amp;Exit.BMP" alt="Save &amp; Exit" /></p>
+<p><strong>Fig. 7:</strong> Exit the BIOS saving changes to settings.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="top-case-remove-or-replace-1"><a class="header" href="#top-case-remove-or-replace-1">Top Case (Remove or replace)</a></h1>
+<h2 id="removing-the-top-case"><a class="header" href="#removing-the-top-case">Removing the Top Case</a></h2>
+<p>Before servicing your Thelio, be sure to power off and unplug all cords from the computer.</p>
+<p>You can find video instructions on this process <a href="https://youtu.be/Ku91wRHFGY8">here.</a></p>
+<p><strong>Tools required:</strong> Fingers or Cross-head (Phillips) screwdriver</p>
+<p><strong>Time estimate:</strong> 2 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 8 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Cross-head).</li>
+</ul>
+<p><strong>Note:</strong> These thumbscrews will be on the top left and right, middle left and right, and bottom left and right of the back of the case.</p>
+<p>Do not unscrew any screws in the center of the panel. Those screws correspond with parts inside; removing them will not assist you in removing the lid.</p>
+<p>All of Thelio’s thumbscrews are the same size, and are interchangeable.</p>
+<!--[Thelio Outer Case views](../../pictures/thelio/thelio-b1/)
+
+PHOTOS NEED ADDED WITH SCREWS HIGHLIGHTED
+
+**Fig. 9:** Thelio Outer Case views, front (left), back (middle), Top Case partial removal (right).-->
+<!--locations of photos and/or description may change.-->
+<ol>
+<li>Unscrew the eight (8) thumbscrews from the back of the Thelio.</li>
+<li>Lift the lid up and off of the chassis.</li>
+</ol>
+<p><img src="./img/b2/top-case-removed.jpeg" alt="Thelio internals with Top Case completely removed" /></p>
+<p><strong>Fig. 10:</strong> Thelio internals with Top Case completely removed.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-the-top-case"><a class="header" href="#replacing-the-top-case">Replacing the Top Case</a></h2>
+<p>This guide explains how to replace the Thelio’s Top Case after performing maintenance.</p>
+<p><strong>Tools required</strong>: Fingers or Crosshead (Phillips) screwdriver</p>
+<p><strong>Time estimate</strong>: 2 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 8 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead).</li>
+</ul>
+<ol>
+<li>Align the grooves inside the case with the front of the Thelio frame (the side where the power-button is located).</li>
+<li>Once aligned, the case should easily slide down over the chassis.</li>
+<li>Press down on the Top Case to make sure it is firmly seated, and the power button is connected internally. There should be no space between the bottom of the Top Case and the Thelio frame.</li>
+<li>To ensure the case is seated correctly, plug the Thelio back into power, turn on the power-supply switch, and examine the front of the unit: the power button LED should light up if you press it, and the system fans should spin to life.</li>
+</ol>
+<p><img src="./img/replacing-case-internal-view-highlighted.png" alt="Aligning the Thelio Top Case for replacing" /></p>
+<p><strong>Fig. 11:</strong> Aligning the Thelio Top Case for replacment. A Thelio (non-major) is pictured here, but the alignment process is the same.</p>
+<!--STRAIGHTEN ALIGNMENT PHOTO AND HIGHLIGHT ALIGNMENT DETAILS-->
+<!-- (left, top and bottom). Detailed view of Thelio internal switch (right, top and bottom).-->
+<!--locations of photos and/or description may change.-->
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="power-button-remove-or-replace-1"><a class="header" href="#power-button-remove-or-replace-1">Power Button (Remove or Replace)</a></h1>
+<p>If you’ve purchased a new top case for your Thelio (or received one for a support case), you may need to move the power button from your old top case to the new one. Conversely, if you’ve received a replacement power button, you may need to remove the old power button from your top case and install the new one.</p>
+<h2 id="removing-the-power-button"><a class="header" href="#removing-the-power-button">Removing the Power Button</a></h2>
+<p>The power button assembly is held on by a single nut inside the case.</p>
+<p><strong>Tools required:</strong> Needle-nose pliers.</p>
+<p><strong>Time estimate:</strong> 5 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<ol>
+<li>Follow the steps to <a href="#removing-the-top-case">remove the top case</a></li>
+<li>Unplug the power button’s wire from the 90-degree connector (Fig. 12).</li>
+<li>Next, unscrew the nut from the power button. Use a pair of needle-nose pliers to loosen the nut (Fig. 14).</li>
+<li>Once the nut has been loosened, use your fingers to remove it the rest of the way (Fig. 15).</li>
+<li>With the wire unplugged and the nut removed, the power button can be pushed out the front of the case (Fig. 17).</li>
+<li>The black plastic rectangle inside of the case will also be loose at this point, and can be removed.</li>
+</ol>
+<p><img src="./img/power-button/unplug-1.jpg" alt="Unplugging power button from 90-degree connector" /></p>
+<p><strong>Fig. 12:</strong> Unplugging power button from 90-degree connector.</p>
+<p><img src="./img/power-button/unplug-2.jpg" alt="Cable disconnected from 90-degree connector" /></p>
+<p><strong>Fig. 13:</strong> Cable disconnected from 90-degree connector.</p>
+<p><img src="./img/power-button/needle-nose.jpg" alt="Needle-nose pliers can help with unscrewing the nut" /></p>
+<p><strong>Fig. 14:</strong> Needle-nose pliers can help with unscrewing the nut.</p>
+<p><img src="./img/power-button/unscrewing.jpg" alt="Once loose, the nut can be unscrewed with fingers" /></p>
+<p><strong>Fig. 15:</strong> Once loose, the nut can be unscrewed with fingers.</p>
+<p><img src="./img/power-button/nut-removal.jpg" alt="Removing the nut" /></p>
+<p><strong>Fig. 16:</strong> Removing the nut.</p>
+<p><img src="./img/power-button/button-removal-1.jpg" alt="Removing button through hole in top-case" /></p>
+<p><strong>Fig. 17:</strong> Once the nut is removed, push the power button through the hole in the Top Case.</p>
+<p><img src="./img/power-button/button-removal-2.jpg" alt="Button removed through Top Case hole" /></p>
+<p><strong>Fig. 18:</strong> Power being pulled completely through Top Case.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-the-power-button"><a class="header" href="#replacing-the-power-button">Replacing the Power Button</a></h2>
+<p><strong>Tools required:</strong> Needle-nose pliers.</p>
+<p><strong>Time estimate:</strong> 5 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<ol>
+<li>Line up the black plastic rectangle with the hole inside of the case (Fig. 20).</li>
+<li>While holding the black plastic rectangle to the hole, feed the power button wire through the hole and push the power button into the case (Fig. 21).</li>
+<li>While holding the button in from the front, thread the power button wire through the nut, then screw the nut onto the power button (Fig. 24).</li>
+<li>Tighten the nut with a pair of needle-nose pliers to ensure the plastic bracket doesn’t move around later (Fig. 26).</li>
+<li>Finally, plug the power button’s wire into the 90-degree connector so the red wire is on the left (Fig. 27).</li>
+<li>Follow the steps to <a href="#replacing-the-top-case">replace the top case</a></li>
+</ol>
+<p><img src="./img/power-button/power-button-hole.jpg" alt="Empty power button hole" /></p>
+<p><strong>Fig. 19:</strong> The empty power button hole in the Top Case.</p>
+<p><img src="./img/power-button/bracket.jpg" alt="Aligning the internal bracket" /></p>
+<p><strong>Fig. 20:</strong> Aligning the internal bracket.</p>
+<p><img src="./img/power-button/button-installation-1.jpg" alt="Inserting power button cables" /></p>
+<p><strong>Fig. 21:</strong> Inserting power button cables.</p>
+<p><img src="./img/power-button/button-installation-2.jpg" alt="Inserting power button through top case" /></p>
+<p><strong>Fig. 22:</strong> Inserting power button through Top Case.</p>
+<p><img src="./img/power-button/button-installation-3.jpg" alt="Power button fully inserted" /></p>
+<p><strong>Fig. 23:</strong> Power button fully inserted in the Top Case.</p>
+<p><img src="./img/power-button/nut-installation-1.jpg" alt="Inserting cables through nut" /></p>
+<p><strong>Fig. 24:</strong> Inserting cables through nut.</p>
+<p><img src="./img/power-button/nut-installation-2.jpg" alt="Finger tighenting nut" /></p>
+<p><strong>Fig. 25:</strong> Finger tightening the nut.</p>
+<p><img src="./img/power-button/nut-installation-3.jpg" alt="Tightening the nut with needle-nose pliers" /></p>
+<p><strong>Fig. 26:</strong> Tightening the nut with needle-nose pliers</p>
+<p><img src="./img/power-button/plugging-in-wire.jpg" alt="Connecting the 90-degree connector." /></p>
+<p><strong>Fig. 27:</strong> Connecting the 90-degree connector.</p>
+<p><img src="./img/power-button/final-assembly.jpg" alt="Final assembly" /></p>
+<p><strong>Fig. 28:</strong> The completed power button assembly.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<!-- This will be for v2.0
+
+# IO Board (Remove or Replace)
+
+## Removing the IO Board
+
+**Tools required:**
+
+**Time estimate:**
+
+**Difficulty:** <span style="color:orange">Medium</span>
+
+## Replacing the IO Board
+
+**Tools required:**
+
+**Time estimate:**
+
+**Difficulty:** <span style="color:orange">Medium</span>
+
+
+[Return to Contents](#table-of-contents)
+
+
+# Case Fan (Remove or Replace)
+
+## Removing the Case Fan
+
+## Replacing the Case Fan
+
+[Return to Contents](#table-of-contents)
+-->
+<h1 id="cpu-cooler-duct-remove-or-replace-1"><a class="header" href="#cpu-cooler-duct-remove-or-replace-1">CPU Cooler Duct (Remove or replace)</a></h1>
+<h2 id="removing-the-cpu-cooler-duct"><a class="header" href="#removing-the-cpu-cooler-duct">Removing the CPU Cooler Duct</a></h2>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver</p>
+<p><strong>Time estimate:</strong> 2 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 16 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Cross-head) Top Case.</li>
+<li>4 Thumbscrews (Phillips/Cross-head) Duct.</li>
+<li>4 Non-Thumbscrews (Phillips/Cross-head) Duct Bracket.</li>
+</ul>
+  <!--This section especially needs checked for accuracy.-->
+<ol>
+<li>Follow the steps in <a href="#removing-the-top-case">Removing the Top Case</a></li>
+<li>Next, unfasten the duct. To do this, unscrew the 4 thumbscrews near the top of your chassis. They frame the planet themed air-vent (see fig 18 above).</li>
+<li>Unscrew the four (4) support bracket screws holding up the cooler duct. There are two (2) Cross-head (Phillips) screws at the bottom of the chassis, and two (2) on the side of the duct.</li>
+<li>Set the bracket and screws safely aside.</li>
+<li>Slide the Cooler Duct horizontally off of the CPU Cooling fan, and set it aside.</li>
+<li>You are now free to perform work on the CPU Cooler fan, or access other components that may have been obstructed by the duct.</li>
+</ol>
+<p><img src="./img/b2/cpu-duct-thumbscrews-back.jpg" alt="Removing CPU Cooler duct thumbscrews" /></p>
+<p><strong>Fig. 29:</strong> the 4 CPU Cooler Duct thumbscrews.</p>
+<p><img src="./img/b2/cpu-duct-screws-side-top.jpg" alt="Bracket screws, top (close)" /></p>
+<p><strong>Fig. 30:</strong> Top two Phillips screws of the Cooler bracket.</p>
+<p><img src="./img/b2/cpu-duct-screws-side-bottom.jpg" alt="Bracket screws, bottom (close)" /></p>
+<p><strong>Fig. 31:</strong> Bottom two Phillips screws of the Cooler bracket.</p>
+<p><img src="./img/b2/cpu-duct-removal.jpg" alt="Side View of Cooler duct" /></p>
+<p><strong>Fig. 32:</strong> Showing the direction to remove the Cooler Duct.</p>
+<p><img src="./img/b2/cpu-duct-removed.jpg" alt="Internals with duct Removed" /></p>
+<p><strong>Fig. 33:</strong> Exposed Cooler Duct.</p>
+<p><img src="./img/b2/cpu-duct-internal.jpg" alt="Internal view of the CPU Cooler duct" /></p>
+<p><strong>Fig. 34:</strong> Removed Cooler Duct for reference.</p>
+<p><img src="./img/b2/cpu-duct-removed-connected.jpg" alt="Cooler and fan set aside" /></p>
+<p><strong>Fig. 35:</strong> Removed CPU Cooler Duct and attached fan beside Thelio Chassis.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-the-cpu-cooler-duct"><a class="header" href="#replacing-the-cpu-cooler-duct">Replacing the CPU Cooler Duct</a></h2>
+<p><strong>Tools required:</strong> Fingers or Cross-head (Phillips) screwdriver</p>
+<p><strong>Time estimate:</strong> 2 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 16 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Cross-head) Top Case.</li>
+<li>4 Thumbscrews (Phillips/Cross-head) Duct.</li>
+<li>4 Non-Thumbscrews (Phillips/Cross-head) Duct Bracket.</li>
+</ul>
+<ol>
+<li>Slide the Cooler Duct horizontally over the CPU
+cooling fan, encasing it.</li>
+<li>Align the holes of the duct with the holes framing
+the air-vent on the back of the chassis.</li>
+<li>Replace the four thumbscrews on the back of the case,
+fastening the duct to the outer frame.</li>
+<li>Replace the four (4) support bracket screws holding up
+the cooler duct. There are two (2) Cross-head (Phillips)
+screws at the bottom of the chassis, and two (2) on the
+side of the duct.</li>
+<li>Follow the steps in <a href="#replacing-the-top-case">Replacing the Top Case.</a></li>
+</ol>
+  <!--Hyperlink to Replacing Top Case section needed.-->
+<p><img src="./img/b2/cpu-cooler.jpg" alt="Exposed Cooler" /></p>
+<p>Fig. 36: The exposed cooler.</p>
+<p><img src="./img/b2/cpu-duct-replacement.jpg" alt="duct replaced" /></p>
+<p>Fig. 37: Direction for replacing the duct.</p>
+<p><img src="./img/b2/cpu-duct-screws-side-top.jpg" alt="Bracket screws, top (close)" /></p>
+<p>Fig. 38: Top two Phillips screws of the Cooler bracket replaced.</p>
+<p><img src="./img/b2/cpu-duct-screws-side-bottom.jpg" alt="Bracket screws, bottom (close)" /></p>
+<p>Fig. 39: Bottom two Phillips screws of the Cooler bracket.</p>
+<p><img src="./img/b2/cpu-duct-thumbscrews-back.jpg" alt="Replace the CPU Cooler duct and thumbscrews" /></p>
+<p><strong>Fig. 40:</strong> Replacing the CPU Cooler Duct thumbscrews.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="ram-remove-or-replace-1"><a class="header" href="#ram-remove-or-replace-1">RAM (Remove or Replace)</a></h1>
+<p>The motherboard in the Thelio Majors require specific placement of the RAM sticks in order for the RAM modules to be utilized properly and for the system to boot.</p>
+<p>You can use the following tables to determine the placement of your RAM modules by number used.</p>
+<h2 id="thelio-major-b1"><a class="header" href="#thelio-major-b1">Thelio Major B1</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>2 Modules</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>4 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>6 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>8 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div>
+<h2 id="thelio-major-b2"><a class="header" href="#thelio-major-b2">Thelio Major B2</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>2 Modules</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>4 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>6 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_1_1B</th><th style="text-align: center">DDR4_3_2B</th><th style="text-align: center">DDR4_2_1A</th><th style="text-align: center">DDR4_4_2A</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_4_2C</th><th style="text-align: center">DDR4_2_1C</th><th style="text-align: center">DDR4_3_2D</th><th style="text-align: center">DDR4_1_1D</th></tr></thead><tbody>
+<tr><td><strong>8 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div>
+<h2 id="thelio-major-r1r2"><a class="header" href="#thelio-major-r1r2">Thelio Major R1/R2</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_D2</th><th style="text-align: center">DDR4_D1</th><th style="text-align: center">DDR4_C2</th><th style="text-align: center">DDR4_C1</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_A1</th><th style="text-align: center">DDR4_A2</th><th style="text-align: center">DDR4_B1</th><th style="text-align: center">DDR4_B2</th></tr></thead><tbody>
+<tr><td><strong>1 Modules</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_D2</th><th style="text-align: center">DDR4_D1</th><th style="text-align: center">DDR4_C2</th><th style="text-align: center">DDR4_C1</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_A1</th><th style="text-align: center">DDR4_A2</th><th style="text-align: center">DDR4_B1</th><th style="text-align: center">DDR4_B2</th></tr></thead><tbody>
+<tr><td><strong>2 Modules</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_D2</th><th style="text-align: center">DDR4_D1</th><th style="text-align: center">DDR4_C2</th><th style="text-align: center">DDR4_C1</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_A1</th><th style="text-align: center">DDR4_A2</th><th style="text-align: center">DDR4_B1</th><th style="text-align: center">DDR4_B2</th></tr></thead><tbody>
+<tr><td><strong>4 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_D2</th><th style="text-align: center">DDR4_D1</th><th style="text-align: center">DDR4_C2</th><th style="text-align: center">DDR4_C1</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_A1</th><th style="text-align: center">DDR4_A2</th><th style="text-align: center">DDR4_B1</th><th style="text-align: center">DDR4_B2</th></tr></thead><tbody>
+<tr><td><strong>6 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"><strong>X</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Modules Used</th><th style="text-align: center">DDR4_D2</th><th style="text-align: center">DDR4_D1</th><th style="text-align: center">DDR4_C2</th><th style="text-align: center">DDR4_C1</th><th style="text-align: center">CPU</th><th style="text-align: center">DDR4_A1</th><th style="text-align: center">DDR4_A2</th><th style="text-align: center">DDR4_B1</th><th style="text-align: center">DDR4_B2</th></tr></thead><tbody>
+<tr><td><strong>8 Modules</strong></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div>
+<h2 id="removing-ram-sticks"><a class="header" href="#removing-ram-sticks">Removing RAM Sticks</a></h2>
+<p>You can find video instructions on this process <a href="https://youtu.be/OFv8ByuDGU0">here.</a></p>
+<p>Link for the video for RAM Service:
+(https://youtu.be/OFv8ByuDGU0)</p>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver (for Top Case)</p>
+<p><strong>Time estimate:</strong> 5 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 12 total</p>
+<ul>
+<li>12 Thumbscrews (Phillips/Crosshead).</li>
+</ul>
+<ol>
+<li>Follow the steps in <a href="#removing-the-top-case">Removing the Top Case.</a></li>
+<li>It may be helpful, but is not necessary, to <a href="#removing-the-duct">Remove the CPU Cooler Duct.</a></li>
+</ol>
+  <!--it may be necessary on this model.-->
+<ol start="3">
+<li>Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.</li>
+<li>Gently, but firmly pull the RAM straight out of the slot, and set aside.</li>
+</ol>
+<p><img src="./img/ram-release-clips.png" alt="Accessing the RAM release clips" /></p>
+<p><strong>Fig.41:</strong> Accessing the RAM release clips.</p>
+<p><img src="./img/ram-slot-notch.png" alt="Placement of the RAM notch on the motherboard" /></p>
+<p><strong>Fig. 42:</strong> Placement of the RAM notch on the motherboard.</p>
+<p><img src="./img/ram-stick-notch.jpg" alt="Placement of the RAM notch on the RAM stick" /></p>
+<p><strong>Fig. 43:</strong>  Placement of the RAM notch on the RAM stick.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-ram-sticks"><a class="header" href="#replacing-ram-sticks">Replacing RAM Sticks</a></h2>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver (for Top Case)</p>
+<p><strong>Time estimate:</strong> 5 minutes</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 12 total</p>
+<ul>
+<li>12 Thumbscrews (Phillips/Crosshead).</li>
+</ul>
+<ol>
+<li>Line up the notch on the stick with the notch in the slot. One side of the RAM stick has fewer pins and is shorter. This will help you orient the stick.</li>
+<li>Insert the RAM stick in the slot. The order of the slots matters, (see tables above).</li>
+<li>Press evenly on the memory stick until both tabs lock into place. You’ll hear two clicks once it’s seated, and the clips will snap closed against the RAM.</li>
+<li>Once the RAM is in place, <a href="#replacing-the-cpu-cooler-duct">replace the CPU Cooler Duct</a> (if applicable).</li>
+<li><a href="#replacing-the-top-case">Replace the Top Case.</a></li>
+<li>Reconnect external devices: keyboard, mouse, monitor(s).</li>
+<li>Reconnect external power cable and turn power-supply switch to the on position.</li>
+<li>Power the Thelio on to ensure the RAM is working correctly. If so, the computer will boot normally.</li>
+</ol>
+<p><img src="./img/ram-slot-notch.png" alt="Placement of the RAM notch on the motherboard" /></p>
+<p><strong>Fig. 44:</strong> Indicating the RAM notch on the motherboard.</p>
+<p><img src="./img/ram-stick-notch.jpg" alt="Placement of the RAM notch on the RAM stick" /></p>
+<p><strong>Fig. 45</strong> Indicating the RAM notch on the RAM stick.</p>
+<p><img src="./img/ram-insertion.png" alt="Pressing the RAM stick down into place" /></p>
+<p><strong>Fig. 46</strong> Pressing the RAM stick down into place.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="gpu-remove-or-replace-1"><a class="header" href="#gpu-remove-or-replace-1">GPU (Remove or replace)</a></h1>
+<h2 id="removing-the-gpu"><a class="header" href="#removing-the-gpu">Removing the GPU</a></h2>
+<p>In this guide, you will learn how to remove the graphics card on your Thelio. These steps must be taken in order to replace the GPU.
+You can find video instructions on this process <a href="https://youtu.be/3bUcp0S1HrE">here.</a></p>
+<p>Link for the video for GPU removal:
+(https://youtu.be/3bUcp0S1HrE)</p>
+<p>For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. <strong>Do not use anything made of metal.</strong></p>
+<p><strong>Tools required:</strong> Fingers or Cross-head (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:yellow">Medium</span></p>
+<p><strong>Screws:</strong> 19 total</p>
+<ul>
+<li>19 Thumbscrews (Phillips/Cross-head).</li>
+</ul>
+<p><strong>Before you remove the lid, be sure to power off and unplug all cords from the computer.</strong></p>
+<ol>
+<li>First follow the steps in <a href="#removing-the-top-case">Removing the Top Case.</a></li>
+<li>It may also be helpful to <a href="#removing-the-duct">Remove the CPU Cooler Duct.</a></li>
+<li>To remove your graphics card, twist off the 3 thumbscrews from the PCI bracket.</li>
+<li>Remove the GPU brace. Unscrew the bottom two screws, and then the top two screws, to remove the brace. Both the PCI bracket and the GPU brace keep your graphics card secure and in place (Fig 23).</li>
+<li>Remove the GPU from the PCIe slot by pressing on the release clip on the right. This is where your chosen (non-metal) poking tool may come in handy, to reach the clip on the board without trying to squeeze your hand between components.</li>
+<li>Disconnect the power cables from the GPU (if applicable), and tie back any cables you are not planning on using with the provided velcro straps.</li>
+<li>Now you are ready to install an alternative or <a href="#replacing-the-gpu">replacement GPU.</a></li>
+<li>If you are not planning on installing another GPU follow the steps to <a href="#replacing-the-duct">Replace the CPU Cooler Duct,</a> <a href="#replacing-top-case">Replace the Top Case,</a> and reconnect all cables and peripherals.</li>
+</ol>
+<!--[Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
+
+**Fig. 23:** Removing the thumbscrews and GPU Bracket.-->
+<p><img src="./img/gpu-removal.jpg" alt="Close view of the GPU leaving the PCIe slot" />
+<img src="./img/pcie-release-latch.png" alt="PCIe release switch" /></p>
+<p><strong>Fig. 47:</strong> Close view of the GPU leaving the PCIe slot (top) and the PCIe release switch (bottom).</p>
+<!--[Removal of the GPU external view](../../pictures/thelio/thelio-b1/)-->
+<!--**Fig. 25:** Removal of the GPU external view.-->
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-the-gpu"><a class="header" href="#replacing-the-gpu">Replacing the GPU</a></h2>
+<p>For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. <strong>Do not use anything made of metal.</strong></p>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:yellow">Medium</span></p>
+<p><strong>Screws:</strong> 19 total</p>
+<ul>
+<li>19 Thumbscrews (Phillips/Crosshead).</li>
+</ul>
+<p>If you have not yet completed the steps to remove the PCI bracket and GPU brace, you will find these instructions in the section on <a href="#removing-the-gpu">Removing the GPU</a></p>
+<p><strong>NOTE: Some GPU's use the PCI-e slot for power and don't need a cable. If your Thelio is configured with a Radeon RX 550 graphics card, for example, you will not find any power connector slots on your GPU. The cards compatible with this Thelio model require 8-pin, 12 pin or 16-pin power cable connections.</strong></p>
+<p><img src="./img/gpu-power-connector-types.webp" alt="Showing variations of pin connections on GPU cards - 8/12/16 pin " /></p>
+<p><strong>Fig: 48</strong> Showing variations of pin connections on GPU cards - 16-pin (left), 12-pin (middle), 8-pin (right).</p>
+<p><img src="./img/b2/pcie-slots.jpg" alt="Thelio internal context view of PCIe slot" /></p>
+<p><strong>Fig. 49:</strong> Thelio internal context view of PCIe slot.</p>
+<p><img src="./img/r1/pcie-slot-latches.png" alt="Close up view of the PCIe slot" /></p>
+<p><strong>Fig. 50:</strong> Close up view of the PCIe slots.</p>
+<!--[PICTURES NEEDED]-->
+<!--[Replacing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)-->
+<ol>
+<li>After <a href="#removing-the-gpu">removing the GPU</a> (Or, if no GPU is installed, removing the bracket, insert the new graphics card into the PCIe slot until it clicks into place.</li>
+<li>Once the GPU is securely in place, attach the internal and external brackets.</li>
+<li>Securely fasten the brackets in place with the provided thumbscrews.</li>
+<li>Prepare the necessary power connectors for your graphics card. You can tell which wires you’ll need by looking at the ports on the front of your GPU. The necessary cabling is provided inside your Thelio’s chassis.</li>
+<li>Do not connect the cables to the GPU until it has been inserted in the PCIe slot and secured with the brackets.</li>
+<li>Connect the power cables to the GPU selecting the cables based on the number of pins (See NOTE below).</li>
+<li>Wrap up any unused wires with the velcro strap and store those wires back in the chassis so that they’re not blocking the fan.</li>
+<li>Once the GPU is connected and the power cables secured (fig #), replace the Top Case, reconnect external power cable.</li>
+<li>Turn the power supply switch at the rear of the machine to the “on” position.</li>
+</ol>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="drives-remove-or-replace-1"><a class="header" href="#drives-remove-or-replace-1">Drives (Remove or Replace)</a></h1>
+<p>In this guide, you will learn how to remove or replace drives in your Thelio.
+You can find video instructions on this process <a href="https://youtu.be/6fIeVEaY7dE">here.</a></p>
+<p>Link for the video for Drive Service removal:
+(https://youtu.be/6fIeVEaY7dE)</p>
+<h2 id="25-sata-drives"><a class="header" href="#25-sata-drives">2.5" SATA Drives</a></h2>
+<p>The Thelio Major B2 provides eight (8) slots for 2.5” SATA drives. They are housed in the Thelio Drive Cage for easy access. Each drive is connected to a SATA port on the Thelio IO board, which acts as a conduit, connecting the drives to the motherboard.</p>
+<h2 id="m2-drives"><a class="header" href="#m2-drives">M.2 Drives</a></h2>
+<p>The number and location of M.2 drives, differs between the Thelio Major R and B models.</p>
+<p><img src="./img/m2-slot-diagrams-r2-b2.png" alt="Thelio Major&#39;s front M.2 drive slots" />
+<strong>Fig. 52:</strong> Thelio Major (thelio-major-r2) front M.2 drive slots (left).
+<strong>Fig. 53:</strong> Thelio Major (thelio-major-b2) front M.2 drive slots (right)</p>
+<h3 id="thelio-major-r2"><a class="header" href="#thelio-major-r2">Thelio Major R2</a></h3>
+<p>The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the PCIe slot which holds the GPU, one below the right-side RAM slots, and one to the right of the lower 3 PCIe slots (<strong>Fig. 52</strong>).</p>
+<h3 id="thelio-major-b2-1"><a class="header" href="#thelio-major-b2-1">Thelio Major B2</a></h3>
+<p>The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (<strong>Fig. 53</strong>).</p>
+<p>Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Duct and/or GPU to gain easier access. You can find video instructions on this process <a href="https://youtu.be/3bUcp0S1HrE">here.</a></p>
+<p>Link for the video for GPU removal:
+(https://youtu.be/3bUcp0S1HrE)</p>
+<h2 id="replacing-a-25-drive"><a class="header" href="#replacing-a-25-drive">Replacing a 2.5 Drive</a></h2>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 12 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead) in the Top Case.</li>
+<li>4 Thumbscrews (Phillips/Crosshead) per Drive.</li>
+</ul>
+<p><strong>Before you remove the lid, be sure to power off and unplug all cords from the computer.</strong></p>
+<p>To remove the drive, gently pull on the drive and slide it out from the drive cage.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="installing-a-25-drive"><a class="header" href="#installing-a-25-drive">Installing a 2.5 Drive</a></h2>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 12 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead) in the Top Case.</li>
+<li>4 Thumbscrews (Phillips/Crosshead) per Drive.</li>
+</ul>
+<p>To add a 2.5-inch drive, you’ll need 4 screws to secure the drive in place. Extra screws are provided on the chassis for convenience.</p>
+<ol>
+<li>Follow the steps to <a href="#removing-the-top-case">Remove the Top Case.</a></li>
+<li>You may want to remove the washer out of the provided bar-bracket. Do so by pushing up from underneath the bracket until the washer pops out.</li>
+<li>Next, slide each screw along the bar-bracket to the opening and remove the screw.</li>
+<li>Screw these four thumbscrews into the holes at the corners of the drive to keep it securely fastened in the drive cage.</li>
+<li>Before inserting the drive into the drive cage, line up the connectors on the drive with the connectors in the drive cage.</li>
+<li>Then, line up the inside of the grommet with the prongs on the drive cage, and insert the drive until it locks into place.</li>
+<li><a href="#replacing-the-top-case">Replace the Top Case</a> and reconnect all cables.</li>
+</ol>
+<p><img src="./img/r1/25-drive-screws.jpg" alt="Thelio Top Bracket with provided drive screws" /></p>
+<p><strong>Fig.54:</strong> Thelio Top Bracket with provided drive screws.</p>
+<p><img src="./img/25-drive-installation-1.png" alt="Aligning the drive screws and grommets with drive cage slots" /></p>
+<p><strong>Fig. 55:</strong> Aligning the drive screws and grommets with drive cage slots.</p>
+<p><img src="./img/25-drive-installation-2.png" alt="Inserting the drive in to the cage slot" /></p>
+<p><strong>Fig. 56:</strong> Inserting the drive in to the cage slot.</p>
+<p><img src="./img/25-drive-installation-3.png" alt="Drive inserted almost fully in the slot" /></p>
+<p><strong>Fig. 57:</strong> Drive inserted almost fully in the slot.</p>
+<p><img src="./img/25-drive-installation-4.png" alt="Pressing the drive firmly into place" /></p>
+<p><strong>Fig: 58</strong> Pressing the drive firmly into place.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="removing-an-m2-drive"><a class="header" href="#removing-an-m2-drive">Removing an M.2 Drive</a></h2>
+<p>Removing an M.2 may require removal of the GPU or CPU Cooler Duct for easier access. A Crosshead (Phillips) screwdriver is required.</p>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 5-10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 9 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead) in the Top Case.</li>
+<li>1 M.2 securing screw (per Drive).</li>
+</ul>
+<ol>
+<li>Follow the steps to <a href="#removing-the-top-case">Remove the Top Case.</a></li>
+<li><a href="#removing-the-duct">Remove the CPU Cooler Duct</a> (if applicable).</li>
+<li><a href="#removing-the-gpu">Remove the GPU</a> (if applicable).</li>
+<li>Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.</li>
+<li>Gently, but firmly remove the M.2 drive horizontally from the slot.</li>
+<li>Replace the screw, fastening the M.2 in place.</li>
+<li><a href="#replacing-the-gpu">Replace the GPU</a> (if applicable).</li>
+<li><a href="#replacing-the-duct">Replace the CPU Cooler Duct</a> (if applicable).</li>
+<li><a href="#replacing-the-top-case">Replace the Top Case.</a></li>
+<li>Reconnect all cables and peripherals.</li>
+</ol>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replacing-an-m2-drive"><a class="header" href="#replacing-an-m2-drive">Replacing an M.2 Drive</a></h2>
+<p>Replacing an M.2 drive may require removal of the GPU or CPU Cooler Duct for easier access. A Crosshead (Phillips) screwdriver is required.</p>
+<p><strong>Tools required:</strong> Fingers or Crosshead (Phillips) screwdriver, a tool for pressing the GPU release bracket (non-conductive).</p>
+<p><strong>Time estimate:</strong> 5-10 minutes.</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 13 total</p>
+<ul>
+<li>12 Thumbscrews (Phillips/Crosshead) in the Top Case.</li>
+<li>1 M.2 securing screw (per Drive).</li>
+</ul>
+<ol>
+<li>Follow the steps to <a href="#removing-the-top-case">Remove the Top Case.</a></li>
+<li><a href="#removing-the-duct">Remove the CPU Cooler Duct</a> (if applicable).</li>
+<li><a href="#removing-the-gpu">Remove the GPU</a> (if applicable).</li>
+<li>Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.</li>
+<li>Line up the notch on the M.2 drive.</li>
+<li>Insert the new drive into its port on the motherboard.</li>
+<li>Replace the screw, fastening the M.2 in place.</li>
+<li><a href="#replacing-the-gpu">Replace the GPU</a> (if applicable).</li>
+<li><a href="replacing-the-cooler">Replace the CPU</a> Cooler Duct (if applicable).</li>
+<li><a href="#replacing-the-top-case">Replace the Top Case.</a></li>
+<li>Reconnect all cables and peripherals.</li>
+</ol>
+<p><strong>NOTE:</strong> By default, the first of the two M.2 drives (NVMe or not) stores your operating system, so you will need to reinstall the OS after replacing it. This can be done by restoring from a backup, or from a fresh install.</p>
+<p>Pop!_OS users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-pop/</p>
+<p>Ubuntu users, instructions to reinstall the OS can be found here: https://support.system76.com/articles/install-ubuntu/.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h1 id="cpu-thermal-paste-remove-or-replace-1"><a class="header" href="#cpu-thermal-paste-remove-or-replace-1">CPU Thermal Paste (Remove or Replace)</a></h1>
+<p>If you are experiencing thermal issues with your Thelio, one possible solution is to change the Thermal paste. Thermal paste helps transfer heat from the CPU to the CPU Cooler via the heat sink.</p>
+<p>Thermal paste can lose its effectiveness over time and may need to be re-applied.</p>
+<p>This guide will explain how to remove the CPU Cooler, clean the CPU of thermal paste, and reapply a new coat.</p>
+<p><strong>WARNING: DO NOT use your Thelio without thermal paste.</strong> Running the machine without thermal paste could result in overheating, system shutdowns and possibly damage to the internal components.</p>
+<h2 id="remove-the-cpu-thermal-paste"><a class="header" href="#remove-the-cpu-thermal-paste">Remove the CPU Thermal Paste</a></h2>
+<p>Removing CPU thermal paste requires removal of the CPU Cooler Duct. It may also require removing the GPU for easier access.</p>
+<p><strong>Tools required:</strong> Crosshead (Phillips) screwdriver, Rubbing Alcohol, Paper Towels, Thermal Paste.</p>
+<p><strong>Time estimate:</strong> 15-20 mins.</p>
+<p><strong>Difficulty:</strong> <span style="color:red">Hard</span></p>
+<p><strong>Screws:</strong> 16 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead) on the Top Case.</li>
+<li>4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler Duct.</li>
+<li>4 Bracket Screws securing the CPU heat sink.</li>
+</ul>
+<!-- all of these screw numbers will need verified-->
+<ol>
+<li>Follow the steps in <a href="#removing-the-top-case">Removing the Top Case.</a></li>
+<li>Follow the steps in <a href="#removing-the-duct">Removing the CPU Cooler Duct.</a></li>
+<li>Follow the steps in <a href="#removing-the-gpu">Removing the GPU</a> (if applicable).</li>
+<li>Gently but firmly separate the Cooling Fans from the Heat Sink. The fans are held on by clips which can be pried from the sides of the heat sink.</li>
+<li>Next, disconnect the power cables from the Cooling Fans.</li>
+<li>Remove the four (4) bracket screws fastening the Heat Sink to the board. Loosen the screws one at a time. Move from opposite corner to opposite corner, diagonally across the Heat Sink. For example: first, top left screw, then bottom right screw (fig. 34). This ensures even pressure between the brackets and the motherboard.</li>
+<li>Lift the Heat Sink off of the motherboard.</li>
+<li>You’ll notice that there is Thermal Paste coating the bottom of the Heat Sink as well as the CPU core.</li>
+<li>Apply Rubbing Alcohol to a sheet of Paper Towel and wipe the Thermal Paste off of the bottom of the Heat Sink and CPU core until they are totally clean.</li>
+<li>If you are replacing the Thermal Paste, continue on to the section Replacing the CPU Thermal Paste (See Important NOTE below).</li>
+<li>Replace the Heat Sink over the CPU core.</li>
+<li>Re-fasten the Heat Sink screws, again using the opposite corner method described above.</li>
+<li>Follow the steps to <a href="#replacing-the-gpu">Replace the GPU</a> (if applicable).</li>
+<li>Follow the steps to <a href="#replacing-the-duct">Replace the CPU Cooler Duct.</a></li>
+<li>Follow the steps to <a href="#replacing-the-top-case">Replace the Top Case.</a></li>
+</ol>
+<!--[PICTURES NEEDED]-->
+<!--[Removing the CPU Cooler Fan from the Heat Sink](../../pictures/path-to-picture)
+
+**Fig. 33:** Removing the CPU Cooler Fan from the Heat Sink.
+
+![Loosening/Removing screws on opposite corners](../../pictures/path-to-picture)
+
+**Fig. 34:** Loosening/Removing screws on opposite corners.
+
+![Lifting the Heat Sink free](../../pictures/thelio/thelio-b1/cooler/cpu-cooler-with-old-paste.JPG)
+
+**Fig. 35:** Lifting the Heat Sink free (left). The bottom of the heat sink covered in old Thermal Paste.
+
+![Cleaning old thermal paste of the bottom of the Heat Sink](../../pictures/path-to-picture)
+![Cleaning old thermal paste of the CPU Core](../../pictures/path-to-picture)
+
+**Fig. 36:** Cleaning old thermal paste of the bottom of the Heat Sink (left), and off the CPU core (right).-->
+<p><a href="#table-of-contents">Return to Contents</a></p>
+<h2 id="replace-the-cpu-thermal-paste"><a class="header" href="#replace-the-cpu-thermal-paste">Replace the CPU Thermal paste</a></h2>
+<p>Replacing CPU thermal requires removal of the CPU Cooler Duct. It may also require removing the GPU for easier access.</p>
+<p><strong>Tools required:</strong> Crosshead (Phillips) screwdriver, Thermal Paste.</p>
+<p><strong>Time estimate:</strong> 15-20 mins.</p>
+<p><strong>Difficulty:</strong> <span style="color:green">Easy</span></p>
+<p><strong>Screws:</strong> 12 total</p>
+<ul>
+<li>8 Thumbscrews (Phillips/Crosshead) on the Top Case.</li>
+<li>4 Thumbscrews (Phillips/Crosshead) on the CPU Cooler Duct.</li>
+<li>4 Bracket Screws securing the CPU heat sink.</li>
+</ul>
+<ol>
+<li>Follow steps 1-9 in <a href="#removing-cpu-thermal-paste">Removing the CPU Thermal Paste.</a></li>
+<li>Once the Heat Sink and CPU core are free of old Thermal Paste, apply new paste in a line down the middle of the CPU core (fig. 37).</li>
+<li>Once the paste is applied, replace the Heat Sink over top of it. The Heat Sink will spread the thermal paste across the CPU core, there is no need to spread it yourself.</li>
+<li>Re-fasten the four (4) screws on the Heat Sink. In fastening the screws, partially tighten them one at a time, and move diagonally to the opposite corner. For example, tighten the top-left screw halfway, then move to the bottom right, and tighten that halfway. Repeat until all screws are tight. This ensures even pressure between the brackets and the motherboard.</li>
+<li>Once the Heat Sink is fastened down, clip the CPU Cooling Fans back onto the Heat Sink.</li>
+<li>Reconnect the power cables to the CPU Cooling Fans.</li>
+<li>Follow the steps in <a href="#replacing-the-gpu">Replacing the GPU</a> (if applicable).</li>
+<li>Next, follow the steps in <a href="#replacing-the-duct">Replacing the CPU Cooler Duct.</a></li>
+<li>Follow the steps in <a href="#replacing-the-top-case">Replacing the Top Case.</a></li>
+<li>Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.</li>
+<li>Power on the Thelio to ensure successful boot.</li>
+</ol>
+<p><strong>NOTE: The pictures shown here are the Thelio R1 (AMD) model with a Threadripper processor. However, the process and cautions when removing and replacing thermal paste are the same for both Intel and AMD Thelio Majors.</strong></p>
+<p><img src="./img/r1/cpu.jpg" alt="A cleaned CPU core" /></p>
+<p><strong>Fig. 59:</strong> A cleaned CPU core.</p>
+<p><img src="./img/r1/thermal-paste-application.jpg" alt="Reapplied thermal paste on the core" /></p>
+<p><strong>Fig. 60:</strong> Reapplied thermal paste on the core.</p>
+<p><a href="#table-of-contents">Return to Contents</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../models/thelio-major-b1-b2-r1-r2/internal-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../models/thelio-mega-r1.0/README.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../models/thelio-major-b1-b2-r1-r2/internal-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../models/thelio-mega-r1.0/README.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

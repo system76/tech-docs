@@ -4,10 +4,8 @@
 
 The System76 Eland 1U is a rack-mounted server. The `R1` model code indicates the first revision based on an AMD platform. This model has the following specifications:
 
-- Chassis (depending on configuration)
-    - [Gigabyte R152-Z30 (Rev. A00)](https://www.gigabyte.com/Enterprise/Rack-Server/R152-Z32-rev-A00)
-    - [Gigabyte R152-Z31 (Rev. A00)](https://www.gigabyte.com/Enterprise/Rack-Server/R152-Z31-rev-A00)
-    - [Gigabyte R152-Z32 (Rev. A00)](https://www.gigabyte.com/Enterprise/Rack-Server/R152-Z32-rev-A00)
+- Chassis
+    - [Gigabyte R152-Z30 (Rev. A00)](https://www.gigabyte.com/Enterprise/Rack-Server/R152-Z30-rev-A00)
 - CPU options
     - Supports 1x AMD EPYC 7003-series processor
 - Memory

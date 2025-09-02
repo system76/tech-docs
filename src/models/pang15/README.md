@@ -63,4 +63,4 @@ The System76 Pangolin is a laptop with the following specifications:
         - Does not support Thunderbolt
     - 3x USB 3.2 Gen 1 Type-A
 - Dimensions
-    - 1.80cm x 35.06cm x 24.06cm, 1.73kg
+    - 1.8cm x 35.6cm x 24.6cm, 1.73kg

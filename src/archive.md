@@ -26,6 +26,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Galago Pro (galp6)](models/galp6/README.md)
 - [Galago Pro (galp5)](models/galp5/README.md)
 - [Galago Pro (galp4)](models/galp4/README.md)
+- [Gazelle (gaze18)](models/gaze18/README.md)
 - [Gazelle (gaze17)](models/gaze17/README.md)
 - [Gazelle (gaze16)](models/gaze16/README.md)
 - [Gazelle (gaze15)](models/gaze15/README.md)

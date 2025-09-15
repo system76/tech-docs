@@ -18,9 +18,12 @@ The System76 Adder WS is a laptop with the following specifications:
     - Programmed with non-open EC firmware
 - Graphics
     - GPU options:
-        - NVIDIA GeForce RTX 5070
-        - NVIDIA GeForce RTX 5060
-        - NVIDIA GeForce RTX 5050
+        - 15" model:
+            - NVIDIA GeForce RTX 5060
+            - NVIDIA GeForce RTX 5050
+        - 17" model:
+            - NVIDIA GeForce RTX 5070
+            - NVIDIA GeForce RTX 5060
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
             - LCP panel: Innolux N156HMA-GA1 (or equivalent)
@@ -61,5 +64,5 @@ The System76 Adder WS is a laptop with the following specifications:
         - Right-side port supports USB-C charging (USB-PD)
     - 2x USB 3.2 Gen 2 Type-A
 - Dimensions
-    - 15.6": 36.1cm x 24.85cm x 2.89cm, 2.4kg
-    - 17": 39.7cm x 26.51cm x 2.86cm, 2.8kg
+    - 15" model: 36.1cm x 24.85cm x 2.89cm, 2.4kg
+    - 17" model: 39.7cm x 26.51cm x 2.86cm, 2.8kg

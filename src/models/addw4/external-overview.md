@@ -26,12 +26,12 @@
 
 ## Materials:
 
-|Part                              |Material |Part Number    |
-|----------------------------------|---------|---------------|
-|LCD back cover (lid)              |Aluminum |6-39-V3501-022 |
-|LCD front cover (bezel)           |Plastic  |6-39-V3501-012 |
-|Top case (palm rests/port covers) |Plastic  |6-39-V3552-S12 |
-|Bottom panel                      |Plastic  |6-39-V3503-012 |
+|Part                              |Material|Part Number    |
+|----------------------------------|--------|---------------|
+|LCD back cover (lid)              |Plastic |6-39-V3501-022 |
+|LCD front cover (bezel)           |Plastic |6-39-V3501-012 |
+|Top case (palm rests/port covers) |Plastic |6-39-V3552-S12 |
+|Bottom panel                      |Plastic |6-39-V3503-012 |
 
 ## LED indicators
 

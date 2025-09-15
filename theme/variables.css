@@ -1,0 +1,24 @@
+:root {
+    --sidebar-width: 420px;
+}
+
+.light {
+    --sidebar-bg: #f6f6f6;
+
+    --sidebar-active: #af5c02;
+
+    --scrollbar: #a6a6a6;
+
+    --icons: #a6a6a6;
+    --icons-hover: #404040;
+
+    --links: #af5c02;
+}
+
+@media (prefers-color-scheme: dark) {
+    .light.no-js {
+      --sidebar-active: #faa41a;
+
+      --links: #faa41a;
+    }
+}

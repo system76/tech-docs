@@ -258,7 +258,7 @@ The system has two bottom-firing speakers, which can be removed and replaced ind
     - The right speaker is secured by three screws; the left speaker is secured by two screws.
     - The screws are surrounded by rubber stabilizer rings, which may hold the screws in place after they're fully unscrewed. 
 
-![Left speaker wire and posts](./img/speakers.webp)
+![Speaker wires and posts](./img/speakers.webp)
 
 3. Disconnect the speaker connector from the motherboard.
 4. Connect the new speaker to the motherboard and screw it into the chassis.

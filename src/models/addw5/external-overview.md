@@ -30,12 +30,12 @@
 
 ### 15" model:
 
-|Part                              |Material |Part Number    |
-|----------------------------------|---------|---------------|
-|LCD back cover (lid)              |Aluminum |6-39-V3501-022 |
-|LCD front cover (bezel)           |Plastic  |6-39-V3501-012 |
-|Top case (palm rests/port covers) |Plastic  |6-39-V3502-012 |
-|Bottom panel                      |Plastic  |6-39-V35W3-011 |
+|Part                              |Material|Part Number    |
+|----------------------------------|--------|---------------|
+|LCD back cover (lid)              |Plastic |6-39-V3501-022 |
+|LCD front cover (bezel)           |Plastic |6-39-V3501-012 |
+|Top case (palm rests/port covers) |Plastic |6-39-V3502-012 |
+|Bottom panel                      |Plastic |6-39-V35W3-011 |
 
 ### 17" model:
 

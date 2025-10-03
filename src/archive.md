@@ -45,6 +45,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Meerkat (meer6)](models/meer6/README.md)
 - [Meerkat (meer5)](models/meer5/README.md)
 - [nebula36 (nebula36-1)](models/nebula36-1/README.md)
+- [Oryx Pro (oryp12)](models/oryp12/README.md)
 - [Oryx Pro (oryp11)](models/oryp11/README.md)
 - [Oryx Pro (oryp10)](models/oryp10/README.md)
 - [Oryx Pro (oryp9)](models/oryp9/README.md)

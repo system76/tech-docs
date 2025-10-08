@@ -34,10 +34,10 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Memory
     - Up to 96GB (2x48GB) dual-channel DDR5 SO-DIMMs @ 5600 MHz
 - Networking
-    - 2.5-Gigabit Ethernet
-    - M.2 PCIe/CNVi WiFi/Bluetooth options:
-        - Intel Wi-Fi 7 BE200
-            - Bluetooth 5.4
+    - Gigabit Ethernet
+    - M.2 PCIe/CNVi WiFi/Bluetooth: Intel AX210
+        - WiFi 6E
+        - Bluetooth 5.3
 - Power
     - 180W DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)

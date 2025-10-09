@@ -20,6 +20,8 @@
         - [Internal Overview](models/galp7/internal-overview.md)
         - [Parts & Repairs](models/galp7/repairs.md)
     - [Gazelle (gaze20)](models/gaze20/README.md)
+        - [External Overview](models/gaze20/external-overview.md)
+        - [Internal Overview](models/gaze20/internal-overview.md)
         - [Parts & Repairs](models/gaze20/repairs.md)
     - [Ibex Pro 2U (ibep2-b1)](models/ibep2-b1/README.md)
     - [Ibex Pro 2U (ibep2-r1)](models/ibep2-r1/README.md)

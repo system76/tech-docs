@@ -30,7 +30,7 @@ The System76 Adder WS is a laptop with the following specifications:
             - NVIDIA GeForce RTX 5060
     - eDP display options:
         - 15.6" 1920x1080@144Hz LCD
-            - LCP panel: Innolux N156HMA-GA1 (or equivalent)
+            - LCD panel: Innolux N156HMA-GA1 (or equivalent)
                 - Brightness: 250 nits (cd/m²)
                 - Color coverage:
                     - DCI-P3: 74%

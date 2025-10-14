@@ -26,7 +26,7 @@ The System76 Bonobo WS is a laptop with the following specifications:
         - NVIDIA GeForce RTX 5080
     - eDP display options:
         - 18" 3840x2400@200Hz LCD
-            - LCP panel: Sharp LQ180D1JW01 (or equivalent)
+            - LCD panel: Sharp LQ180D1JW01 (or equivalent)
                 - Brightness: 400 nits (cd/m²)
                 - DCI-P3 color coverage: 100%
         - 18" 2560x1600@240Hz LCD

@@ -24,12 +24,21 @@ The System76 Serval WS is a laptop with the following specifications:
 - Graphics
     - GPU options:
         - NVIDIA GeForce RTX 5070 Ti
-    - eDP display: 16" 2560x1600@240Hz LCD
-        - LCD panel: BOE NE160QAM-NZ1 (or equivalent)
-            - Brightness: 500 nits (cd/m²)
-            - Color coverage:
-                - DCI-P3: 100%
-                - sRGB: 100%
+    - eDP display options:
+        - 16" 2560x1600@300Hz LCD
+            - LCD panel: BOE NE160QDM-NZL (or equivalent)
+                - Brightness: 500 nits (cd/m²)
+                - Color coverage:
+                    - DCI-P3: 81%
+                    - sRGB: 100%
+            - Defaults to 240Hz due to iGPU limitation
+                - Change "Display Mode" to "Discrete GPU" in BIOS for 300Hz
+        - 16" 2560x1600@240Hz LCD
+            - LCD panel: BOE NE160QAM-NZ1 (or equivalent)
+                - Brightness: 500 nits (cd/m²)
+                - Color coverage:
+                    - DCI-P3: 100%
+                    - sRGB: 100%
     - External video outputs:
         - 1x HDMI 2.1
         - 2x DisplayPort 2.0 over USB-C
@@ -43,7 +52,10 @@ The System76 Serval WS is a laptop with the following specifications:
 - Power
     - 230W (20V, 11.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter: FSP FSP230-ACBS3
+    - Included AC adapter:
+        - FSP FSP230-ACBS3
+        - LiteOn PA-1231-26
+        - ...or other equivalent
     - 80Wh 8-cell Lithium-Ion battery
         - Model number: X560BAT-4-80
 - Sound

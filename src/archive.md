@@ -59,6 +59,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Pangolin (pang10)](models/pang10/README.md)
 - [Serval WS (serw13)](models/serw13/README.md)
 - [Serval WS (serw12)](models/serw12/README.md)
+- [Thelio (thelio-r3-n1)](models/thelio-r3-n1/README.md)
 - [Thelio (thelio-b4)](models/thelio-b4/README.md)
 - [Thelio Major (thelio-major-r3)](models/thelio-major-r3/README.md)
 - [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/README.md)

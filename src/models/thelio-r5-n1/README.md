@@ -1,0 +1,74 @@
+# Thelio (thelio-r5-n1)
+
+![Thelio](./img/thelio-r5-n1.png)
+
+The System76 Thelio is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Ryzen 9000 series (Granite Ridge) CPUs
+        - [Ryzen 9 9950X3D](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html)
+        - [Ryzen 9 9950X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html)
+        - [Ryzen 9 9900X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html)
+        - [Ryzen 7 9800X3D](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html)
+        - [Ryzen 7 9700X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html)
+        - [Ryzen 5 9600X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html)
+- Motherboard
+    - [ASRock B850I Lightning WiFi](https://pg.asrock.com/mb/AMD/B850I%20Lightning%20WiFi/index.us.asp#Specification) running System76 Firmware (non-open)
+    - AMD B850 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/thelio_io_2)
+        - Revision 2
+- Graphics options
+    - One GPU (PCIe 5.0 x16) of up to two-slot height
+    - GPU size:
+        - Internal clearance: 278.175mm
+        - Recommended maximum length: 268.175mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+            - 1x DisplayPort 1.4 over USB-C
+        - [NVIDIA GeForce RTX 5060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [NVIDIA GeForce RTX 5050](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+- Expansion
+    - 1x PCIe 5.0 x16 (GPU slot)
+- Memory
+    - Tested with up to 96GB (2x48GB) dual-channel DDR5 DIMMs @ 6400 MHz
+        - Motherboard supports up to 128GB (2x64GB) @ 8200+ MHz w/ overclocking (not tested)
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Team CTCED596G6400HC32ADC01](https://www.teamgroupinc.com/en/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-black/expert-u-dimm-ddr5-black-CTCED596G6400HC32ADC01/) (48GB/stick @ 6400 MHz)
+        - [G.Skill F5-6400J3239F48GX2-RS5K](https://www.gskill.com/product/165/377/1684287813/F5-6400J3239F48GX2-RS5K) (48GB/stick @ 6400 MHz)
+        - [Crucial CT32G56C46U5](https://www.crucial.com/memory/ddr5/ct32g56c46u5) (32GB/stick @ 5600 MHz)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Killer E3100G](https://www.intel.com/content/www/us/en/products/sku/215261/intel-killer-ethernet-e3100-2-5-gbps/specifications.html))
+    - Wi-Fi 6E + Bluetooth 5.2 ([MediaTek MT7922A22M](https://fccid.io/RAS-MT7922A22M))
+- Power
+    - C13 power cord
+    - 650W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [FSP Dagger Pro 650W 80+ Gold](https://www.fspgroupusa.com/ecommerce/daggerpro650w.html)
+- Sound
+    - Back: 3.5mm line out, line in, microphone jacks
+    - Front: 3.5mm line out, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC1220 audio chipset
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 5) SSD
+    - 1x M.2 (PCIe NVMe Gen 4) SSD
+    - 1x M.2 (PCIe NVMe Gen 3) SSD
+    - 2x 2.5" SATA
+- USB
+    - Back ports:
+        - 1x USB 3.2 Gen 2 Type-C
+        - 2x USB 3.2 Gen 2 Type-A
+        - 1x USB 3.2 Gen 1 Type-A
+        - 4x USB 2.0 Type-A
+    - Top ports:
+        - 1x USB 3.2 Gen 1 Type-C
+        - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 32.7cm × 20.7cm × 29.1cm

@@ -1,0 +1,77 @@
+# Thelio Spark (thelio-spark-r3-n3)
+
+![Thelio Spark](./img/thelio-spark-r3-n3.png)
+
+The System76 Thelio Spark is a desktop with the following specifications:
+
+- Chassis
+    - System76 [Thelio Spark chassis](https://github.com/system76/thelio/tree/4b357c4b3ba90f6d504664dcf8da6e77e8812d55/Thelio%20Mira%20(nebula40%2Cspark%2Castra)) based on nebula40-v3
+- Processor options
+    - Supports AMD Ryzen 8000 Series (Phoenix) CPUs
+        - [Ryzen 7 8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html)
+        - [Ryzen 5 8500G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8500g.html)
+- Motherboard
+    - [B850M Gaming X WiFi6E (rev. 1.0)](https://www.gigabyte.com/us/Motherboard/B850M-GAMING-X-WIFI6E-rev-10/sp#sp) running System76 Firmware (non-open)
+    - AMD B850 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/qmk_firmware/tree/master/keyboards/system76/thelio_io_2)
+- Graphics options
+    - Up to one dedicated GPU
+        - Primary GPU slot:
+            - PCIe 4.0 x8
+            - Up to 4-slot height
+    - GPU size:
+        - Internal clearance: 358mm
+        - Recommended maximum length: 348mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+            - 2x DisplayPort 1.4
+        - [NVIDIA GeForce RTX 5050](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+- Expansion
+    - 1x PCIe 4.0 x8 (primary GPU slot)
+        - Fits physical x16 cards, runs at x8 bandwidth
+    - 1x PCIe 3.0 x4
+        - Fits physical x16 cards, runs at x4 bandwidth
+- Memory
+    - Up to 64 (2x32GB) dual-channel DDR5 DIMMs @ 5600 MHz
+        - User-expandable up to 192GB (4x48GB)
+            - 4-slot configurations run at 3600 MHz
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Crucial CT32G56C46U5](https://www.crucial.com/memory/ddr5/ct32g56c46u5) (32GB/stick @ 5600 MHz)
+        - [Crucial CT16G56C46U5](https://www.crucial.com/memory/ddr5/ct16g56c46u5) (16GB/stick @ 5600 MHz)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Intel I219-V](https://www.intel.com/content/www/us/en/products/sku/82186/intel-ethernet-connection-i219v/specifications.html))
+    - 1x M.2 PCIe wireless card (Realtek RTL8852CE)
+        - WiFi 6E
+        - Bluetooth 5.3
+- Power
+    - C13 power cord
+    - 650W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [XPG Core Reactor II 650W (80+ Gold)](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii)
+- Sound
+    - Back: 3.5mm line out, line in, microphone jacks
+    - Top: 3.5mm line out, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC897 audio chipset
+    - HDMI, DisplayPort audio
+- Storage
+    - 1x M.2 25110/22110/2580/2280 SSD
+        - PCIe NVMe Gen 4
+    - 1x M.2 22110/2280 SSD
+        - PCIe NVMe Gen 4
+    - 2x 2.5" (15mm) SATA III
+- USB
+    - Back ports:
+        - 1x USB 3.2 Gen 2 Type-C
+        - 1x USB 3.2 Gen 2 Type-A
+        - 2x USB 3.2 Gen 1 Type-A
+        - 4x USB 2.0 Type-A
+    - Front ports:
+        - 1x USB 3.2 Gen 1 Type-C
+        - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 43.8cm × 24.7cm × 37.2cm

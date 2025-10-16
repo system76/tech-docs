@@ -1,0 +1,97 @@
+# Thelio Mira (thelio-mira-r4-n3)
+
+![Thelio Mira](./img/thelio-mira-r4-n3.png)
+
+The System76 Thelio Mira is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Ryzen 9000 series (Granite Ridge) CPUs
+        - [Ryzen 9 9950X3D](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html)
+        - [Ryzen 9 9950X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html)
+        - [Ryzen 9 9900X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html)
+        - [Ryzen 7 9800X3D](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html)
+        - [Ryzen 7 9700X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html)
+        - [Ryzen 5 9600X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html)
+- Motherboard
+    - [ASRock X870 Pro RS WiFi](https://www.asrock.com/mb/AMD/X870%20Pro%20RS%20WiFi/index.asp#Specification) running System76 Firmware (non-open)
+    - AMD X870 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- Graphics options
+    - Ships with up to one dedicated GPU
+        - Primary GPU slot:
+            - PCIe 5.0 x16
+            - Up to 4-slot height
+    - GPU size:
+        - Internal clearance: 358mm
+        - Recommended maximum length: 348mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+            - 2x DisplayPort 1.3 via USB-C
+        - [NVIDIA GeFroce RTX 5090](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/#specs) (requires 1000W PSU)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [NVIDIA GeForce RTX 5080](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [NVIDIA GeForce RTX 5070 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [NVIDIA GeForce RTX 5060 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [NVIDIA GeForce RTX 5050](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/#specs)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1b
+        - [AMD Radeon RX 9070 XT](https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html)
+            - 1x HDMI 2.1b
+            - 3x DisplayPort 2.1a
+- Expansion
+    - 1x PCIe 5.0 x16 (primary GPU slot)
+        - Up to 4-slot height
+    - 1x PCIe 4.0 x4
+        - Fits physical x16 cards, runs at x4 bandwidth
+        - Up to 2-slot height
+        - Disabled if second M.2 drive is installed
+- Memory
+    - Up to 192GB (4x48GB) dual-channel DDR5 DIMMs
+        - 192GB (4x48GB) and 128GB (4x32GB) configurations run at 3200 MHz
+        - 96GB (2x48GB) configuration runs at 6400 MHz
+        - 64GB (2x32GB) and 32GB (1x32GB) configurations run at 5600 MHz
+        - Motherboard supports up to 256GB (4x64GB) @ 8000+ MHz w/ overclocking (not tested)
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Team CTCED596G6400HC32ADC01](https://www.teamgroupinc.com/en/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-black/expert-u-dimm-ddr5-black-CTCED596G6400HC32ADC01/) (48GB/stick @ 6400 MHz)
+        - [G.Skill F5-6400J3239F48GX2-RS5K](https://www.gskill.com/product/165/377/1684287813/F5-6400J3239F48GX2-RS5K) (48GB/stick @ 6400 MHz)
+        - [Crucial CT32G56C46U5](https://www.crucial.com/memory/ddr5/ct32g56c46u5) (32GB/stick @ 5600 MHz)
+- Networking
+    - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125BG](https://www.realtek.com/Product/Index?id=3962))
+    - Wi-Fi 7 + Bluetooth 5.2 (MediaTek MT7927 or MediaTek MT7925)
+- Power
+    - C13 power cord
+    - 850W minimum PSU
+        - Some GPU configurations require 1000W PSU
+    - Tested with the following PSU models (may ship with other tested models):
+        - [XPG Core Reactor II 1000W (80+ Gold)](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii?tab=spec)
+        - [XPG Core Reactor II 850W (80+ Gold)](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii?tab=spec)
+- Sound
+    - 3.5mm line out, line in, microphone jacks
+    - Up to 7.1-channel audio output
+    - Realtek ALC1220 audio chipset
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 5) SSD
+    - 1x M.2 (PCIe NVMe Gen 4) SSD
+        - If occupied, second PCIe slot is disabled.
+    - 1x M.2 (PCIe NVMe Gen 3) SSD
+    - 2x 2.5" SATA III
+- USB
+    - Back ports:
+        - 2x USB4 Type-C
+        - 4x USB 3.2 Gen 1 Type-A
+        - 6x USB 2.0 Type-A
+    - Top ports:
+        - 1x USB 3.2 Gen 2
+        - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 43.8cm × 24.7cm × 37.2cm

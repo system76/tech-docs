@@ -56,6 +56,8 @@
         - [External Overview](models/nebula49-1/external-overview.md)
         - [Parts & Assembly](models/nebula49-1/assembly.md)
     - [Oryx Pro (oryp13)](models/oryp13/README.md)
+        - [External Overview](models/oryp13/external-overview.md)
+        - [Internal Overview](models/oryp13/internal-overview.md)
         - [Parts & Repairs](models/oryp13/repairs.md)
     - [Pangolin (pang15)](models/pang15/README.md)
         - [External Overview](models/pang15/external-overview.md)

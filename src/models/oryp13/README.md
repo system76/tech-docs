@@ -1,5 +1,7 @@
 # Oryx Pro (oryp13)
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
 ![Oryx Pro](./img/oryp13.webp)
@@ -41,6 +43,7 @@ The System76 Oryx Pro is a laptop with the following specifications:
 - Power
     - 180W DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: FSP FSP180-ACBU3
     - 80Wh 4-cell battery
 - Sound
     - Internal speakers & microphone
@@ -51,9 +54,9 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - 1x M.2 (PCIe NVMe Gen 4 x2)
     - MicroSD card reader
 - USB
-    - 2x USB Type-C with Thunderbolt 4
-        - Supports DisplayPort over USB-C
-        - Supports USB-C charging (USB-PD) for offline charging
+    - 2x USB4 Type-C
+        - Both ports support DisplayPort over USB-C
+        - Back port supports USB-C charging (USB-PD) for offline charging
     - 1x USB 3.2 Gen 2 Type-C
     - 1x USB 3.2 Gen 1 Type-A
 - Dimensions

@@ -443,8 +443,9 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 The power supply unit (PSU) can be replaced with another unit of the same model.
 
 **Part numbers:**
-- The default PSU in units shipped after July 2024 is the [XPG Core Reactor II (1000W)](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii).
-- The default PSU in older units is the [Be Quiet! Pure Power 12 M 1000W (L12-M-1000W)](https://www.bequiet.com/en/powersupply/4161).
+- The default PSU in units shipped after October 2025 is the XPG Core Shift II (1200W).
+- The default PSU in units shipped from July 2024 until October 2025 is the [XPG Core Reactor II (1000W)](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii).
+- The default PSU in units shipped before July 2024 is the [Be Quiet! Pure Power 12 M 1000W (L12-M-1000W)](https://www.bequiet.com/en/powersupply/4161).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 45 minutes  

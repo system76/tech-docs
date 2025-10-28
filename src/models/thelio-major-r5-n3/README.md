@@ -75,11 +75,17 @@ The System76 Thelio Major is a desktop with the following specifications:
     - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
 - Power
     - C13 power cord
-    - 1000W PSU
+    - PSU wattage (depending on ship date):
+        - After October 2025: 1200W PSU
+        - Before October 2025: 1000W PSU
     - 80+ Gold Efficiency
     - Tested with the following PSU models (may ship with other tested models):
-        - [XPG Core Reactor II 1000W](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii?tab=spec)
-        - [Be Quiet! Pure Power 12M 1000W](https://www.bequiet.com/en/powersupply/4161)
+        - After October 2025:
+            - XPG Core Shift II 1200W
+        - From July 2024 until October 2025:
+            - [XPG Core Reactor II 1000W](https://www.xpg.com/us/xpg/pc-components-core-reactor-ii?tab=spec)
+        - Before July 2024:
+            - [Be Quiet! Pure Power 12M 1000W](https://www.bequiet.com/en/powersupply/4161)
 - Sound
     - Back:
         - 3.5mm mic in

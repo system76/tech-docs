@@ -66,7 +66,8 @@ The System76 Adder WS is a laptop with the following specifications:
     - 2x USB 3.2 Gen 2 Type-C
         - Both ports support DisplayPort over USB-C
         - Right-side port supports USB-C charging (USB-PD)
-    - 2x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
 - Dimensions
     - 15" model: 36.1cm x 24.85cm x 2.89cm, 2.4kg
     - 17" model: 39.7cm x 26.51cm x 2.86cm, 2.8kg

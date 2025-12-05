@@ -37,7 +37,7 @@
 
 | Icon                                    | State    | Description                       |
 |-----------------------------------------|----------|-----------------------------------|
-| ![Charging LED](./img/led-charging.svg) | Blue     | Fully charged                     |
+| ![Charging LED](./img/led-charging.svg) | Green    | Fully charged                     |
 |                                         | Red      | Charging                          |
 |                                         | Off      | Not charging (disconnected)       |
 | ![Webcam LED](./img/led-webcam.svg)     | On       | Webcam disabled (privacy mode on) |

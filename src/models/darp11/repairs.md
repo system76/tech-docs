@@ -39,6 +39,8 @@ Removing the cover is required to access the internal components. Prior to remov
     ![Bottom panel screws (darp11-b, 14")](./img/bottom-screws-14.webp)
 3. Pull the bottom panel off, starting from the hinges in the back.
 
+![Bottom panel removal](./img/bottom-panel-removal.webp)
+
 ## Replacing the RAM:
 
 The Darter Pro 10 supports up to 96GB (2x48GB) of DDR5 SO-DIMMs running at 5600MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.

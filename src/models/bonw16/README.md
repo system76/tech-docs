@@ -57,7 +57,8 @@ The System76 Bonobo WS is a laptop with the following specifications:
     - Combined microphone & S/PDIF (optical) 3.5mm jack
     - HDMI, USB-C DisplayPort audio
 - Storage
-    - 4x M.2 PCIe NVMe Gen 4
+    - 1x M.2 PCIe NVMe Gen 5
+    - 3x M.2 PCIe NVMe Gen 4
 - USB
     - 2x USB Type-C with Thunderbolt 5
         - Both ports support DisplayPort over USB-C

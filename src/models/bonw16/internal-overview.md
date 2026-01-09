@@ -8,7 +8,8 @@
 - Webcam/microphone connector (under the heatsink) is highlighted in brown
 - Keyboard adhesive access point is highlighted in pink
 - M.2 SSDs are highlighted in dark green
-    - All slots support PCIe NVMe Gen 4
+    - Slot 1 (closest to the fan, shown on the top-right) supports PCIe NVMe Gen 5
+    - Slots 2-4 support PCIe NVMe Gen 4
 - Wireless card (under SSD slot 4) is highlighted in cyan
 - Fan connectors are highlighted in orange
     - CPU fan connector is located under SSD slot 1

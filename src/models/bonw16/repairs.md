@@ -89,7 +89,7 @@ If you've purchased new RAM, need to replace your RAM, or are reseating your RAM
 
 ## Replacing an M.2/NVMe SSD:
 
-This model supports up to four M.2 SSDs. All M.2 slots are size 2280 and support PCIe NVMe Generation 4.
+This model supports up to four M.2 SSDs of size 2280. Slot 1 (nearest the fan) supports PCIe NVMe Gen 5; the other slots support PCIe NVMe Gen 4.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 10 minutes  

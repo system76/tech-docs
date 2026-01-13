@@ -59,7 +59,9 @@ The System76 Thelio Mega is a desktop with the following specifications:
         - [Kingston KF556R28RBE2K4](https://www.kingston.com/datasheets/KF556R28RBE2K4-128.pdf) (32GB/stick)
 - Networking
     - 2x 10-Gigabit Ethernet (Marvell AQtion AQC113C 10GbE LAN chip)
-    - Wi-Fi 6E + Bluetooth 5.3 (Intel AX210)
+    - Wireless (depending on ship date):
+        - After November 2025: Wi-Fi 7 + Bluetooth 5.3 (Qualcomm QCNCM865)
+        - Before November 2025: Wi-Fi 6E + Bluetooth 5.3 ([Intel AX210](https://www.intel.com/content/www/us/en/products/sku/204836/intel-wifi-6e-ax210-gig/specifications.html))
 - Power
     - C19 power cord
     - 1650W PSU

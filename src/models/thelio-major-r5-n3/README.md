@@ -72,7 +72,9 @@ The System76 Thelio Major is a desktop with the following specifications:
 - Networking
     - 1x 10-Gigabit Ethernet ([Marvell AQtion AQC113C](https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-fastLinq-edge-product-brief.pdf))
     - 1x 2.5-Gigabit Ethernet ([Realtek RTL8125](https://www.realtek.com/Product/Index?id=3962))
-    - Wi-Fi 6E + Bluetooth 5.2 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
+    - Wireless (depending on ship date):
+        - After November 2025: Wi-Fi 7 + Bluetooth 5.3 (Qualcomm QCNCM865)
+        - Before November 2025: Wi-Fi 6E + Bluetooth 5.3 ([Intel AX211](https://ark.intel.com/content/www/us/en/ark/products/204837/intel-wi-fi-6e-ax211-gig.html))
 - Power
     - C13 power cord
     - PSU wattage (depending on ship date):

@@ -1,0 +1,408 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parts &amp; Repairs - System76 Technical Documentation</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/variables.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">System76 Technical Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/system76/tech-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="pangolin-parts--repairs"><a class="header" href="#pangolin-parts--repairs">Pangolin (Parts &amp; Repairs)</a></h1>
+<p>Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:</p>
+<ul>
+<li><a href="#removing-the-bottom-cover">Removing the bottom cover</a></li>
+<li><a href="#replacing-the-keyboard">Replacing the keyboard</a></li>
+<li><a href="#removing-the-battery">Removing the battery</a></li>
+<li><a href="#replacing-the-ram">Replacing the RAM</a></li>
+<li><a href="#replacing-an-m2nvme-ssd">Replacing an M.2/NVMe SSD</a></li>
+<li><a href="#replacing-the-wireless-card">Replacing the WiFi/Bluetooth module</a></li>
+<li><a href="#replacing-the-cmos-battery">Replacing the CMOS battery</a></li>
+<li><a href="#replacing-the-cooling-system">Replacing the fans/heatsink/thermal paste</a></li>
+</ul>
+<h2 id="removing-the-bottom-cover"><a class="header" href="#removing-the-bottom-cover">Removing the bottom cover:</a></h2>
+<p>Removing the cover is required to access the internal components and to remove the keyboard. Prior to removing the cover, ensure the AC power is unplugged and all peripherals (including SD cards and USB drives) are unplugged or removed from the system.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 5 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-bottom-cover"><a class="header" href="#steps-to-remove-the-bottom-cover">Steps to remove the bottom cover:</a></h3>
+<ol>
+<li>Place the machine lid-side down.
+<ul>
+<li>Use a soft surface (such as a towel) to avoid scratches.</li>
+</ul>
+</li>
+<li>Remove the 12 bottom panel screws.</li>
+</ol>
+<p><img src="./img/bottom-panel-screws.jpg" alt="Bottom panel screws" /></p>
+<ol start="3">
+<li>Lift the bottom panel off, starting from the hinges in the back.</li>
+</ol>
+<h2 id="replacing-the-keyboard"><a class="header" href="#replacing-the-keyboard">Replacing the keyboard:</a></h2>
+<p>The keyboard can be replaced using the instructions below.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-keyboard"><a class="header" href="#steps-to-replace-the-keyboard">Steps to replace the keyboard:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Remove the two keyboard retaining screws (highlighted green below).</li>
+</ol>
+<p><img src="./img/keyboard-screws.jpg" alt="Keyboard screws" /></p>
+<ol start="3">
+<li>Open the lid slightly and place the machine on its side.</li>
+<li>Push the screwdriver into the keyboard push point (highlighted cyan above) until the top edge of the keyboard pops out enough to get your fingers under it.</li>
+</ol>
+<p><img src="./img/keyboard-push-point.jpg" alt="Keyboard push point" />
+<img src="./img/keyboard-popped-out.jpg" alt="Keyboard popped out" /></p>
+<ol start="5">
+<li>Set the machine back down, pull the top and side edges of the keyboard up to free them from the chassis, and raise the keyboard away from the chassis. The larger ribbon cable is for the keyboard, while the smaller ribbon cable is for the keyboard backlight.</li>
+</ol>
+<p><img src="./img/keyboard-ribbons.jpg" alt="Keyboard ribbons" /></p>
+<ol start="6">
+<li>Flip the black latches upwards to free the ribbon cables.</li>
+<li>Pull the ribbon cables out of the connectors.</li>
+<li>Remove the keyboard and replace it with the new one.</li>
+<li>Carefully slide both ribbon cables into their connectors.</li>
+<li>Flip the black latches back into place to secure the ribbon cables.</li>
+<li>Place the keyboard back into position, starting with the tabs on the bottom edge.</li>
+<li>Secure the rest of the keyboard by pressing down on each of its edges.</li>
+<li>Turn the machine lid-side down again and replace the two keyboard screws.</li>
+<li>Replace the bottom cover.</li>
+</ol>
+<h2 id="removing-the-battery"><a class="header" href="#removing-the-battery">Removing the battery:</a></h2>
+<p>The battery provides primary power whenever the system is unplugged.</p>
+<p>The model number for the Pangolin 10's battery is <code>NL40BAT-4</code>, and the original part number is <code>6-87-NL4CS-43G01</code>. Third-party battery sellers may list one or both of these numbers, and may offer other compatible part numbers with the same model number. You can also <a href="https://support.system76.com">contact System76</a> to purchase a replacement battery.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-battery"><a class="header" href="#steps-to-remove-the-battery">Steps to remove the battery:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Remove the four battery screws, highlighted red below.</li>
+</ol>
+<p><img src="./img/battery.jpg" alt="Battery screws" /></p>
+<ol start="3">
+<li>Unplug the battery connector (highlighted green above) and lift the battery out of the chassis.</li>
+</ol>
+<h2 id="replacing-the-ram"><a class="header" href="#replacing-the-ram">Replacing the RAM:</a></h2>
+<p>The Pangolin 10 supports up to 64GB (2x32GB) of DDR4 SO-DIMMs running at 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-ram"><a class="header" href="#steps-to-replace-the-ram">Steps to replace the RAM:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Press the small tabs on both sides of the RAM simultaneously. The RAM should spring up to an angle.</li>
+</ol>
+<p><img src="./img/ram-slots.jpg" alt="RAM slots" /></p>
+<ol start="3">
+<li>Remove the RAM from the slot.</li>
+<li>Insert the new RAM (or reseat the existing RAM) by placing it in the keyed slot and pressing down until it clicks into place.</li>
+</ol>
+<h2 id="replacing-an-m2nvme-ssd"><a class="header" href="#replacing-an-m2nvme-ssd">Replacing an M.2/NVMe SSD:</a></h2>
+<p>This model supports one M.2 SSD of size 2280, either SATA III or PCIe NVMe Generation 3.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-m2-drive"><a class="header" href="#steps-to-replace-the-m2-drive">Steps to replace the M.2 drive:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Unscrew the retainer screw opposite the M.2 slot.</li>
+</ol>
+<p><img src="./img/m2-slot.jpg" alt="M.2 slot" /></p>
+<ol start="3">
+<li>Remove the existing M.2 drive by pulling it out of the slot.</li>
+<li>Insert the new M.2 drive into the slot and hold it in place.</li>
+<li>Replace the retainer screw.</li>
+<li>If a square brace was present on the old drive, transfer it to the new drive.</li>
+</ol>
+<h2 id="replacing-the-wireless-card"><a class="header" href="#replacing-the-wireless-card">Replacing the wireless card:</a></h2>
+<p>Your Pangolin's WiFi and Bluetooth are both handled by the same module. It is a standard M.2 2230 slot with PCIe and USB interfaces (E-key).</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 12 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-replace-the-wifibluetooth-module"><a class="header" href="#steps-to-replace-the-wifibluetooth-module">Steps to replace the WiFi/Bluetooth module:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Locate the wireless module. Remove any clear tape that is securing the wires.</li>
+</ol>
+<p><img src="./img/wireless-card.jpg" alt="Wireless card" /></p>
+<ol start="3">
+<li>Gently remove the two antennas (highlighted red above) by pulling them up and away from the wireless card.</li>
+<li>Remove the retaining screw opposite the M.2 slot, highlighted green above.</li>
+<li>The wireless card will pop up at an angle. Remove the card from the M.2 slot.</li>
+<li>Insert the new wireless card into the M.2 slot at an angle.</li>
+<li>Replace the retaining screw.</li>
+<li>Attach the two antennas by aligning the circular fittings and pressing onto the wireless card. The connectors will snap into place. <em>Use caution when attaching the connectors; the pins can bend, break, or snap.</em></li>
+</ol>
+<h2 id="replacing-the-cmos-battery"><a class="header" href="#replacing-the-cmos-battery">Replacing the CMOS battery:</a></h2>
+<p>The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the computer's hardware clock are stored on the CMOS. If your system doesn't boot, you can reset the CMOS to force a low-level hardware reset. If your clock is constantly resetting, it's likely your CMOS battery needs to be replaced.</p>
+<p><strong>Warning (ingestion hazard):</strong> Keep batteries out of reach of children. Death or serious injury can occur if ingested. If a battery is suspected to be swallowed or inserted inside any part of the body, seek immediate medical attention. In the US, you can also call the National Battery Ingestion Hotline for guidance: <a href="tel:18004988666">1 (800) 498-8666</a></p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-cmos-battery"><a class="header" href="#steps-to-replace-the-cmos-battery">Steps to replace the CMOS battery:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Unplug the white connector attaching the CMOS battery to the motherboard (highlighted green below.)</li>
+</ol>
+<p><img src="./img/cmos-battery.jpg" alt="CMOS battery" /></p>
+<ol start="3">
+<li>If you are replacing the CMOS battery, carefully peel it away from the adhesive holding it to the motherboard.</li>
+<li>To clear the CMOS, <a href="#removing-the-battery">disconnect the main battery</a>, open the lid of the machine, and hold down the power button for at least 15 seconds to discharge any residual energy in the system.</li>
+<li>Re-connect the CMOS battery and the main battery, and replace the bottom panel.</li>
+<li>Power up the machine. The system may power itself off and on after initial boot; this is normal behavior when the CMOS has been reset.</li>
+</ol>
+<h2 id="replacing-the-cooling-system"><a class="header" href="#replacing-the-cooling-system">Replacing the cooling system:</a></h2>
+<p>The Pangolin 10 has a single fan and heatsink assembly to cool the CPU. Since the fan and heatsink are a single assembly, the fan and heatsink cannot be removed or replaced separately from one another.</p>
+<p>If the fan becomes noisy and cleaning it out doesn't fix the issue, you may need a new fan and heatsink assembly. Contact Support to start a warranty claim or parts purchase.</p>
+<p>Depending on your climate and the age of the machine, it may be necessary to apply new thermal paste between the CPU and the heatsink. Thermal paste helps facilitate effective heat transfer between the CPU and the cooling equipment.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver, thermal paste<br />
+<strong>Time estimate:</strong> 20 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-replace-the-fan"><a class="header" href="#steps-to-replace-the-fan">Steps to replace the fan:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-cover">remove the bottom cover</a>.</li>
+<li>Remove the two fan screws, highlighted green below.</li>
+</ol>
+<p><img src="./img/thermal-system.jpg" alt="Thermal screws" /></p>
+<ol start="3">
+<li>Unplug the black fan connector, highlighted cyan above. Remove any clear tape that may be holding the wires in place.</li>
+<li>Remove the three heatsink screws (highlighted red above) in order, starting with #1, then #2, and finally #3.</li>
+<li>Remove the fan and heatsink assembly from the system, being careful not to bend the heatsink pipe. It may take some pressure to break the seal of the thermal paste.</li>
+<li>Using a paper towel, remove the existing thermal paste. You may also use a small amount of rubbing alcohol to moisten the paper towel if the old paste is dried or difficult to remove.</li>
+</ol>
+<p><img src="./img/thermal-paste-removal.jpg" alt="Thermal paste removal" /></p>
+<ol start="7">
+<li>After cleaning the CPU and heatsink, apply a small amount of thermal paste directly onto the CPU chip.</li>
+</ol>
+<p><img src="./img/thermal-paste-application.jpg" alt="Thermal paste application" /></p>
+<ol start="8">
+<li>Carefully replace the heatsink.</li>
+<li>Replace the three heatsink screws, starting with #1, then #2, and finally #3.</li>
+<li>Replace the fan screws and plug in the fan connector.</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../models/pang10/internal-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../models/serw13/README.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../models/pang10/internal-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../models/serw13/README.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

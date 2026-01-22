@@ -1,5 +1,7 @@
 # Meerkat (meer10)
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
 ![Meerkat (short)](./img/meer10.webp)

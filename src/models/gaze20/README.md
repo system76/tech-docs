@@ -16,10 +16,10 @@ The System76 Gazelle is a laptop with the following specifications:
 - BIOS
     - GigaDevice GD25B256EYIGR flash chip
         - WSON-8 form factor
-    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open) or non-open firmware
 - EC
     - ITE IT5570E
-    - Programmed with [System76 EC](https://github.com/system76/ec)
+    - Programmed with [System76 EC](https://github.com/system76/ec) or non-open EC firmware
 - Graphics
     - GPU: NVIDIA GeForce RTX 5050
     - eDP display: 15.6" 1920x1080@144Hz LCD

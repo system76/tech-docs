@@ -1,5 +1,7 @@
 # Meerkat (meer10)
 
+- [External Overview](./external-overview.md)
+- [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 
 ![Meerkat (short)](./img/meer10.webp)
@@ -7,7 +9,7 @@
 The System76 Meerkat is a desktop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 2nd generation (Arrow Lake) and Core 14th generation (Raptor Lake) CPUs
+    - Supports Intel Core Ultra Series 2 (Arrow Lake), Core Series 2 (Raptor Lake), and Core Series 1 (Raptor Lake) CPUs
         - [Core Ultra 7 255H](https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html)
         - [Core 7 240H](https://www.intel.com/content/www/us/en/products/sku/241653/intel-core-7-processor-240h-24m-cache-up-to-5-20-ghz/specifications.html)
         - [Core Ultra 5 225H](https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html)
@@ -28,7 +30,9 @@ The System76 Meerkat is a desktop with the following specifications:
 - Networking
     - 1x 2.5-Gigabit Ethernet (built-in)
     - 1x 2.5-Gigabit Ethernet (optional add-on)
-    - 1x WiFi 7
+    - WiFi 7 and Bluetooth 5.4 (card dependent on model):
+        - Core Ultra 7 and Core Ultra 5 models: [Intel BE201](https://www.intel.com/content/www/us/en/products/sku/230079/intel-wifi-7-be201/specifications.html)
+        - Core 7 and Core 3 models: [Intel BE202](https://www.intel.com/content/www/us/en/products/sku/234444/intel-wifi-7-be202/specifications.html)
 - Power
     - Core Ultra 7, Core 7, and Core Ultra 5 models:
         - 120W (19V, 6.32A) DC-in port

@@ -45,6 +45,8 @@
         - [Internal Overview](models/lemp13/internal-overview.md)
         - [Parts & Repairs](models/lemp13/repairs.md)
     - [Meerkat (meer10)](models/meer10/README.md)
+        - [External Overview](models/meer10/external-overview.md)
+        - [Internal Overview](models/meer10/internal-overview.md)
         - [Parts & Repairs](models/meer10/repairs.md)
     - [nebula19 (nebula19-1)](models/nebula19-1/README.md)
         - [External Overview](models/nebula19-1/external-overview.md)

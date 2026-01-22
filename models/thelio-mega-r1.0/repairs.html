@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parts &amp; Repairs - System76 Technical Documentation</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/variables.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">System76 Technical Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/system76/tech-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="thelio-mega-parts--repairs"><a class="header" href="#thelio-mega-parts--repairs">Thelio Mega (Parts &amp; Repairs)</a></h1>
+<p>Many components in your Thelio Mega can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:</p>
+<ul>
+<li><a href="#removing-the-top-case">Removing the top case</a></li>
+<li><a href="#removing-the-inner-partition">Removing the inner partition</a></li>
+<li><a href="#addingremoving-25-storage-drives">Adding/removing 2.5" storage drives</a></li>
+<li><a href="#replacing-the-case-fans">Replacing the case fans</a></li>
+<li><a href="#replacing-a-gpu">Replacing a GPU</a></li>
+<li><a href="#replacing-the-m2-drives">Replacing the M.2 drives</a></li>
+<li><a href="#removing-the-cpu-duct">Removing the CPU duct</a></li>
+<li><a href="#replacing-the-ram">Replacing the RAM</a></li>
+<li><a href="#removing-the-top-crossbar">Removing the top crossbar</a></li>
+<li><a href="#replacing-the-cpu-fans">Replacing the CPU fans</a></li>
+<li><a href="#replacing-the-cpu-cooler-and-cpu">Replacing the CPU cooler/thermal paste and CPU</a></li>
+<li><a href="#replacing-the-power-supply">Replacing the power supply</a></li>
+<li><a href="#replacing-the-side-fans">Replacing the side fans</a></li>
+<li><a href="#replacing-the-thelio-io-boards">Replacing the Thelio-IO boards</a></li>
+<li><a href="#troubleshooting-the-power-button">Troubleshooting the power button</a></li>
+<li><a href="#troubleshooting-the-thelio-io-usb-connection">Troubleshooting the Thelio-IO USB connection</a></li>
+</ul>
+<h2 id="removing-the-top-case"><a class="header" href="#removing-the-top-case">Removing the top case:</a></h2>
+<p>The top case can be removed to access the internal components.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 2 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-top-case"><a class="header" href="#steps-to-remove-the-top-case">Steps to remove the top case:</a></h3>
+<ol>
+<li>Remove the eight outer screws holding the top case onto the machine.</li>
+</ol>
+<p><img src="./img/top-case-screws.jpg" alt="Top case screws" /></p>
+<ol start="2">
+<li>Slide the top case up and off of the machine.</li>
+</ol>
+<h2 id="removing-the-inner-partition"><a class="header" href="#removing-the-inner-partition">Removing the inner partition:</a></h2>
+<p>The inner partition provides a brace for the outer case and helps hold the internal components in place. The partition needs to be removed to access most internal components.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 5 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-inner-partition"><a class="header" href="#steps-to-remove-the-inner-partition">Steps to remove the inner partition:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>.</li>
+<li>Unscrew the three additional back screws holding the inner partition in place from the back.</li>
+</ol>
+<p><img src="./img/partition-screws-back.jpg" alt="Back partition screws" /></p>
+<ol start="3">
+<li>Unplug the two side fan connectors, highlighted cyan below.</li>
+</ol>
+<p><img src="./img/partition-screws-side.jpg" alt="Side partition screws" /></p>
+<ol start="4">
+<li>Unscrew the two inner screws holding the partition in place from the side.</li>
+<li>Lift the inner partition away from the case.</li>
+</ol>
+<h2 id="addingremoving-25-storage-drives"><a class="header" href="#addingremoving-25-storage-drives">Adding/removing 2.5" storage drives:</a></h2>
+<p>Thelio Mega r1.0 supports up to eight 2.5" SATA III drives. When using four M.2 drives, the following restrictions apply:</p>
+<ul>
+<li>If the bottom right M.2 slot has a SATA drive installed, then 2.5" SATA ports 4 and 5 will be unavailable (leaving a maximum of six 2.5" SATA drives.)</li>
+<li>If the bottom right M.2 slot has a PCIe NVMe drive installed, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable (leaving a maximum of four 2.5" SATA drives.)</li>
+</ul>
+<p>To use all eight 2.5" SATA III slots, use three or less M.2 drives and leave the bottom right M.2 slot empty. See <a href="#replacing-the-m2-drives">Replacing the M.2 drives</a> to add, remove, or rearrange M.2 drives.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-addremove-25-storage-drives"><a class="header" href="#steps-to-addremove-25-storage-drives">Steps to add/remove 2.5" storage drives:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>.</li>
+<li>If you are adding a new drive, unscrew the hard drive screw cover from the inner partition (shown below), then <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+</ol>
+<p><img src="./img/storage-drive-screw-cover.jpg" alt="Storage drive screw cover" /></p>
+<ol start="3">
+<li>Pop out one of the black plastic rings and slide four screws (per drive) out of the inner partition.</li>
+</ol>
+<p><img src="./img/storage-drive-screws.jpg" alt="Storage drive screws" /></p>
+<ol start="4">
+<li>Insert four screws into each 2.5" storage drive you wish to install.</li>
+<li>Unscrew the top cover if you are accessing the top four 2.5" slots, or the bottom cover if you are accessing the bottom four 2.5" slots.</li>
+</ol>
+<p><img src="./img/sata-slot-covers.jpg" alt="SATA slot covers" /></p>
+<ol start="6">
+<li>Slide each 2.5" drive into one of the slots leading to the Thelio-IO boards.</li>
+</ol>
+<p><img src="./img/storage-drive-installation.jpg" alt="2.5&quot; drive installation" /></p>
+<h2 id="replacing-the-case-fans"><a class="header" href="#replacing-the-case-fans">Replacing the case fans:</a></h2>
+<p>Thelio Mega r1.0 has two case-mounted fans: one on the bottom, and one on the side next to the motherboard.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 15 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-replace-the-side-case-fan"><a class="header" href="#steps-to-replace-the-side-case-fan">Steps to replace the side case fan:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a> and <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+<li>Unscrew the fan's screws on the opposite side from where it's mounted.</li>
+</ol>
+<p><img src="./img/case-fan-screws-side.jpg" alt="Case fan screws" /></p>
+<ol start="3">
+<li>Unplug and remove the fan.</li>
+<li>When replacing the fan, the components should be mounted in the following order:
+<ul>
+<li>Chassis</li>
+<li>Dust filter</li>
+<li>Acrylic spacer</li>
+<li>Fan</li>
+</ul>
+</li>
+</ol>
+<h3 id="steps-to-replace-the-bottom-case-fan"><a class="header" href="#steps-to-replace-the-bottom-case-fan">Steps to replace the bottom case fan:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a> and <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+<li>Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.</li>
+</ol>
+<p><img src="./img/case-fan-mounts-bottom.jpg" alt="Case fan rubber mounts" /></p>
+<ol start="3">
+<li>When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from below the machine (it's necessary to tilt the machine when inserting the plastic pins.)</li>
+</ol>
+<p><img src="./img/case-fan-pins-bottom.jpg" alt="Case fan plastic pins" /></p>
+<ol start="4">
+<li>The components should be mounted in the following order:
+<ul>
+<li>Chassis</li>
+<li>Dust filter</li>
+<li>Acrylic spacer</li>
+<li>Fan</li>
+</ul>
+</li>
+</ol>
+<h2 id="replacing-a-gpu"><a class="header" href="#replacing-a-gpu">Replacing a GPU:</a></h2>
+<p>Thelio Mega supports up to four dual-slot GPUs, two with PCIe 4.0 x16 and two with PCIe 4.0 x8 (x16 cards will run at reduced bandwidth in the x8 slots.) Mixing NVIDIA and AMD GPUs is not recommended.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 15 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-a-gpu"><a class="header" href="#steps-to-replace-a-gpu">Steps to replace a GPU:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a> and <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+<li>Unscrew the two back screws holding the PCIe bracket in place, then slide the PCIe bracket open.</li>
+</ol>
+<p><img src="./img/pcie-bracket.webp" alt="PCIe bracket screws" /></p>
+<ol start="3">
+<li>Unscrew the four screws holding the side GPU brace in place. Remove the brace.</li>
+</ol>
+<p><img src="./img/gpu-brace-screws.webp" alt="GPU brace screws" /></p>
+<ol start="4">
+<li>If you're removing a GPU, unplug the GPU power cable from the right side of the card. Hold down the latch on the connector while unplugging the cable.</li>
+</ol>
+<p><img src="./img/gpu-power.jpg" alt="GPU power connections" /></p>
+<ol start="5">
+<li>Hold the latch on the motherboard to free the PCIe connection, then pull the card out of the slot.
+<ul>
+<li>If removing one of the inner GPUs, it may be necessary to remove one of the outer GPUs first in order to reach the latch.</li>
+<li>If space is tight, a long object such as a screwdriver can be used to press the latch.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/gpu-slots.jpg" alt="GPU order &amp; PCIe latches" /></p>
+<ol start="6">
+<li>When installing new GPUs, the slots should be utilized in the following order:
+<ul>
+<li>Primary GPU: top slot.</li>
+<li>Secondary GPU: third slot from the top.</li>
+<li>Tertiary GPU: fourth slot from the top (bottom slot).</li>
+<li>Quaternary GPU: second slot from the top.</li>
+</ul>
+</li>
+<li>After inserting the new GPU into its slot, connect the power cables.
+<ul>
+<li>The maximum number of power cables are preinstalled in your system, but some may be tied back using velcro if the system shipped with less than four GPUs.</li>
+</ul>
+</li>
+<li>Once all GPUs are installed, replace the side GPU brace, back PCIe bracket, inner partition, and top case.
+<ul>
+<li>The side GPU brace includes a plastic piece sized to the GPUs that originally shipped with the system. To remove the plastic piece, unscrew it from the brace.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/gpu-brace-plastic-screws.jpg" alt="GPU brace screws" /></p>
+<p><em>The plastic GPU brace's primary function is to prevent damage during shipping. The system can be run without the brace if it doesn't fit an upgraded card; the back PCIe bracket provides primary support for the GPUs.</em></p>
+<h2 id="replacing-the-m2-drives"><a class="header" href="#replacing-the-m2-drives">Replacing the M.2 drives:</a></h2>
+<p>Thelio Mega has four M.2 slots, which support PCIe NVMe Gen 4 x4, PCIe NVMe Gen 3 x4, or SATA III. The following restrictions apply:</p>
+<ul>
+<li>Top M.2 slot: Supports sizes 22110, 2280, and 2260.</li>
+<li>Middle M.2 slot: Supports sizes 22110 and 2280.</li>
+<li>Bottom left M.2 slot: Supports sizes 22110 and 2280.</li>
+<li>Bottom right M.2 slot:
+<ul>
+<li>Supports size 2280.</li>
+<li>If a SATA drive is installed in this slot, then 2.5" SATA ports 4 and 5 will be unavailable.</li>
+<li>If a PCIe NVMe drive is installed in this slot, then 2.5" SATA ports 4, 5, 6, and 7 will be unavailable.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 23 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-replace-the-m2-drives"><a class="header" href="#steps-to-replace-the-m2-drives">Steps to replace the M.2 drives:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, and <a href="#replacing-a-gpu">remove the GPU brace and GPUs</a>.</li>
+<li>Remove the M.2 heatsink covering the slots you wish to access.
+<ul>
+<li>The top and middle M.2 slots are behind the top M.2 heatsink (highlighted cyan below).</li>
+<li>The bottom left and bottom right M.2 slots are behind the bottom M.2 heatsink (highlighted yellow below).</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/m2-heatsink-screws.jpg" alt="M.2 heatsink screws" /></p>
+<p><em>It may take some pressure to remove the heatsink and thermal tape from the M.2 drive. Pull slowly to avoid breaking the thermal tape.</em></p>
+<ol start="3">
+<li>Unscrew the retainer screw opposite the M.2 slot.</li>
+</ol>
+<p><img src="./img/m2-screws.jpg" alt="M.2 slot screws" /></p>
+<ol start="4">
+<li>Remove the existing M.2 drive by pulling it out of the slot.</li>
+<li>Insert the new M.2 drive into the slot and hold it in place.</li>
+<li>Replace the retainer screw.</li>
+<li>If utilizing a slot for the first time, peel the plastic backing off of the heatsink to expose the double-sided thermal tape for that slot.</li>
+</ol>
+<p><img src="./img/m2-thermal-tape.jpg" alt="M.2 thermal tape" /></p>
+<ol start="8">
+<li>Replace the M.2 heatsinks, GPUs, GPU brace, inner partition, and top case.</li>
+</ol>
+<h2 id="removing-the-cpu-duct"><a class="header" href="#removing-the-cpu-duct">Removing the CPU duct:</a></h2>
+<p>The CPU duct guides airflow through the CPU coolers. It covers the CPU and RAM slots on the motherboard.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 7 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-cpu-duct"><a class="header" href="#steps-to-remove-the-cpu-duct">Steps to remove the CPU duct:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, and <a href="#replacing-a-gpu">remove the GPU brace</a>.</li>
+<li>Unplug the connectors for the two CPU duct-mounted fans.</li>
+</ol>
+<p><img src="./img/top-fan-connectors.jpg" alt="Top exhaust fans" /></p>
+<ol start="3">
+<li>Unscrew the four back screws holding the CPU duct in place.</li>
+</ol>
+<p><img src="./img/cpu-duct-screws.jpg" alt="CPU duct screws" /></p>
+<ol start="5">
+<li>Pull the CPU duct away from the machine.</li>
+</ol>
+<h2 id="replacing-the-ram"><a class="header" href="#replacing-the-ram">Replacing the RAM:</a></h2>
+<p>Thelio Mega r1.0 supports up to 256GB (8x32GB) of RAM. The RAM sticks are Unregistered/Unbuffered ECC DDR4 DIMMs running at a speed of 3200MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 20 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-replace-the-ram"><a class="header" href="#steps-to-replace-the-ram">Steps to replace the RAM:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace</a>, and <a href="#removing-the-cpu-duct">remove the CPU duct</a>.</li>
+<li>To remove an existing RAM stick, flip the bottom latch down away from the stick, then pull the stick out of the slot, starting from the bottom edge. (The top of the RAM slot does not move.)</li>
+</ol>
+<p><img src="./img/ram-slots.jpg" alt="RAM slots" /></p>
+<p><em>The CPU cooler has been removed for better visibility in the above photo; removing the CPU cooler is not required to access all eight of the RAM slots.</em></p>
+<ol start="3">
+<li>Make sure the tab on the bottom of the slot is open (pulled downwards), then insert the new RAM (or re-seat the existing RAM) into the slot.
+<ul>
+<li>The RAM stick will only fit in one direction. On the left side of the CPU, the larger group of pins goes on bottom; on the right side of the CPU, the larger group of pins goes on top.</li>
+<li>Use the following guide for placement of the RAM sticks:</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/ram-order.webp" alt="RAM slot order" /></p>
+<ol start="4">
+<li>Replace the CPU duct, GPU brace, inner partition, and top case.</li>
+</ol>
+<h2 id="removing-the-top-crossbar"><a class="header" href="#removing-the-top-crossbar">Removing the top crossbar:</a></h2>
+<p>The top crossbar provides a brace for the outer case. It needs to be removed when replacing certain components (such as the top Thelio-IO board and the CPU cooler-mounted fan.)</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 7 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-top-crossbar"><a class="header" href="#steps-to-remove-the-top-crossbar">Steps to remove the top crossbar:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>.</li>
+<li>Unplug the two top fan connectors.</li>
+</ol>
+<p><img src="./img/top-fan-connectors.jpg" alt="Top fan connectors" /></p>
+<ol start="3">
+<li>Unscrew the four screws holding the top crossbar in place (two on the front of the machine, and two on the back.)</li>
+</ol>
+<p><img src="./img/top-crossbar-screws.webp" alt="Top crossbar screws" /></p>
+<ol start="4">
+<li>Lift the top crossbar out of the system. (It is not necessary to unplug the fan cable underneath the top crossbar unless you are replacing that cable or the Thelio-IO board it plugs into.)</li>
+</ol>
+<h2 id="replacing-the-cpu-fans"><a class="header" href="#replacing-the-cpu-fans">Replacing the CPU fans:</a></h2>
+<p>Thelio Mega r1.0 contains three CPU fans. Two are mounted on the CPU duct, and one is mounted on the cooler.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 25 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-replace-the-duct-mounted-cpu-fans"><a class="header" href="#steps-to-replace-the-duct-mounted-cpu-fans">Steps to replace the duct-mounted CPU fans:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace</a>, and <a href="#removing-the-cpu-duct">remove the CPU duct</a>.</li>
+<li>To remove the back CPU duct fan, unscrew the four screws holding the fan brackets into the duct (highlighted green below).</li>
+</ol>
+<p><img src="./img/cpu-duct-screws-inner.webp" alt="CPU duct inner screws" /></p>
+<ol start="3">
+<li>Free the cable from the velcro loop (highlighted blue above), then unscrew the four screws holding the brackets onto the fan.</li>
+</ol>
+<p><img src="./img/cpu-duct-fan-screws-back.jpg" alt="CPU duct back fan screws" /></p>
+<ol start="4">
+<li>To remove the front CPU duct fan, unscrew the four screws attaching the front of the duct to the back (highlighted red above).</li>
+<li>Then, unscrew the four screws attaching the fan to the duct.</li>
+</ol>
+<p><img src="./img/cpu-duct-fan-screws-front.jpg" alt="CPU duct front fan screws" /></p>
+<h3 id="steps-to-replace-the-cooler-mounted-cpu-fan"><a class="header" href="#steps-to-replace-the-cooler-mounted-cpu-fan">Steps to replace the cooler-mounted CPU fan:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace and GPUs</a>, <a href="#removing-the-cpu-duct">remove the CPU duct</a>, and <a href="#removing-the-top-crossbar">remove the top crossbar</a>.</li>
+<li>Pull the corners of the fan's top clip away from the heatsink it's held to.</li>
+</ol>
+<p><img src="./img/cpu-cooler-fan-clip.jpg" alt="CPU cooler fan top clip" /></p>
+<ol start="3">
+<li>Repeat the process for the bottom clip, then slide the fan down and out of the CPU cooler.</li>
+<li>Unplug the fan from the Thelio-IO board.
+<ul>
+<li>The CPU cooler fan plugs directly into the <code>CPUOUT0</code> port on the bottom Thelio-IO board.</li>
+</ul>
+</li>
+<li>When reinstalling the CPU fans, all three fans should be oriented so the side with the non-spinning cover faces the back of the machine, while the spinning side faces the front of the machine.</li>
+</ol>
+<h2 id="replacing-the-cpu-cooler-and-cpu"><a class="header" href="#replacing-the-cpu-cooler-and-cpu">Replacing the CPU cooler and CPU:</a></h2>
+<p>The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler/heatsink may help the system run cooler.</p>
+<p>The CPU uses an AMD sTRX4 socket.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (long), torx screwdriver, thermal paste<br />
+<strong>Time estimate:</strong> 35 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-remove-the-cpu-coolerthermal-paste"><a class="header" href="#steps-to-remove-the-cpu-coolerthermal-paste">Steps to remove the CPU cooler/thermal paste:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace and GPUs</a>, <a href="#removing-the-cpu-duct">remove the CPU duct</a>, <a href="#removing-the-top-crossbar">remove the top crossbar</a>, and <a href="#steps-to-replace-the-cooler-mounted-cpu-fan">remove the cooler-mounted CPU fan</a>.</li>
+<li>Unscrew the two screw access covers from the holes in the cooler plate.</li>
+</ol>
+<p><img src="./img/cpu-cooler-screws.jpg" alt="CPU cooler screws" /></p>
+<ol start="3">
+<li>While holding the cooler in place so it doesn't fall, reach a cross-head (Phillips) screwdriver through the holes in the cooler plate and loosen the two screws holding the cooler onto the mounting bracket.</li>
+<li>The cooler will come away from the CPU.
+<ul>
+<li>The two screws on the crossbar attaching the CPU cooler to the mounting bracket are held to the crossbar with small rubber rings.</li>
+<li>If the rubber rings become detached, slide them back onto the screws before reinstalling the cooler.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/cpu-cooler-crossbar-screws.jpg" alt="CPU cooler crossbar screws" /></p>
+<ol start="5">
+<li>Using a paper towel, clean the existing thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.</li>
+</ol>
+<h3 id="steps-to-replace-the-cpu"><a class="header" href="#steps-to-replace-the-cpu">Steps to replace the CPU:</a></h3>
+<ol>
+<li>Unscrew the four screws holding the two mounting brackets onto the motherboard.</li>
+</ol>
+<p><img src="./img/cpu-cooler-mounting-bracket-screws.jpg" alt="CPU cooler mounting bracket screws" /></p>
+<ol start="2">
+<li>The black plastic standoff covers will also come loose once the mounting bracket screws are removed. Remember to replace the black plastic standoff covers when reinstalling the mounting brackets.</li>
+</ol>
+<p><img src="./img/cpu-cooler-mounting-bracket-standoff-covers.jpg" alt="CPU cooler mounting bracket standoff covers" /></p>
+<ol start="3">
+<li>Using the torx screwdriver, loosen the three CPU cover screws in reverse order (starting with #3, then #2, and finally #1.)
+<ul>
+<li>These screws will not come out of the CPU cover when they are fully loosened.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/cpu-cover-screws.jpg" alt="CPU cover screws" /></p>
+<ol start="4">
+<li>The CPU cover will lower once its screws are loosened. There may be additional remnants of thermal paste underneath the CPU cover.</li>
+<li>Pull the blue metal tabs away from the motherboard to flip the CPU holder down on top of the CPU cover.
+<ul>
+<li><strong>Caution:</strong> Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/cpu-holder-lowering.webp" alt="CPU holder lowering" /></p>
+<ol start="6">
+<li>Pull the orange tab to slide the CPU out of the CPU holder.</li>
+</ol>
+<p><img src="./img/cpu-removal.webp" alt="CPU removal" /></p>
+<ol start="7">
+<li>Each AMD Threadripper CPU is shipped inside of an orange plastic clip, so it should not be necessary to remove the CPU from the orange plastic clip. However, if desired (such as to clean off additional thermal paste), the plastic clip can be removed by pulling it back near each of the tabs holding the CPU in place.
+<ul>
+<li>When reinstalling the CPU into the clip, be sure to match the original orientation, with the triangle on the CPU closest to the tab on the plastic clip.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/cpu-clip.jpg" alt="CPU clip" /></p>
+<ol start="8">
+<li>Slide the new CPU into the CPU holder. Make sure the orange CPU clip aligns properly with the black rails on the CPU holder.</li>
+<li>Fold the CPU holder up onto the motherboard until it clicks into place, fold the CPU cover back into place, and tighten the CPU cover screws in ascending order (starting with #1, then #2, and finally #3.)</li>
+<li>Screw the two mounting brackets for the CPU cooler back onto the motherboard (the smaller bracket goes above the CPU, while the larger bracket goes below the CPU.)</li>
+</ol>
+<h3 id="steps-to-install-the-thermal-pastecpu-cooler"><a class="header" href="#steps-to-install-the-thermal-pastecpu-cooler">Steps to install the thermal paste/CPU cooler:</a></h3>
+<ol>
+<li>Place a line of thermal paste onto the CPU.</li>
+</ol>
+<p><img src="./img/thermal-paste.jpg" alt="Thermal paste application" /></p>
+<ol start="2">
+<li>Slide the CPU cooler crossbar on the back of the heatsink until the grooves are positioned correctly.</li>
+</ol>
+<p><img src="./img/cpu-cooler-crossbar.jpg" alt="CPU cooler crossbar" /></p>
+<ol start="3">
+<li>While holding the crossbar onto the heatsink, hold the heatsink in position and use the long cross-head screwdriver (inserted through the holes in the cooler plate) to screw each end of the crossbar into one of the mounting brackets.
+<ul>
+<li>The logo on the cooler should be upright.</li>
+<li>The rubber strips on the inside of the cooler should be closest to the back of the machine, while the rubber strips on the outside of the cooler should be closest to the front of the machine.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/cpu-cooler-orientation.jpg" alt="CPU cooler orientation" /></p>
+<ol start="4">
+<li>Reinstall the cooler-mounted CPU fan, top crossbar, CPU duct, GPUs, GPU bracket, inner partition, and top case.</li>
+</ol>
+<h2 id="replacing-the-power-supply"><a class="header" href="#replacing-the-power-supply">Replacing the power supply:</a></h2>
+<p>The power supply unit (PSU) is modular and can be replaced with another unit of the same model. Different models may not be compatible with the cabling pre-installed in the Thelio Mega.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 30 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-replace-the-power-supply"><a class="header" href="#steps-to-replace-the-power-supply">Steps to replace the power supply:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a> and <a href="#replacing-a-gpu">remove the GPU brace and GPUs</a>.</li>
+<li>Unplug all of the modular cabling from the back of the PSU.
+<ul>
+<li>Some of the cables may be easier to unplug after the PSU has been unscrewed/removed from the case.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/psu-cabling.jpg" alt="PSU cabling" /></p>
+<ol start="3">
+<li>Unscrew the PSU bracket from the reverse side of the case.</li>
+</ol>
+<p><img src="./img/psu-bracket-screw-side.jpg" alt="PSU bracket side screw" /></p>
+<ol start="4">
+<li>Unscrew the PSU bracket from the bottom of the case.</li>
+</ol>
+<p><img src="./img/psu-bracket-screw-bottom.jpg" alt="PSU bracket bottom screw" /></p>
+<ol start="5">
+<li>Remove the PSU bracket.</li>
+<li>Unscrew the four screws holding the PSU in from the back of the case.</li>
+</ol>
+<p><img src="./img/psu-screws.jpg" alt="PSU back screws" /></p>
+<ol start="7">
+<li>Remove/replace the PSU. Set the replacement PSU on top of the two rubber posts that hold it at the correct height.
+<ul>
+<li>The replacement PSU should be installed with the fan facing the bottom of the case.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/psu-posts.jpg" alt="PSU posts" /></p>
+<ol start="8">
+<li>After screwing in the replacement PSU and replacing the PSU bracket, use the labels and pin counts on the cables and ports to ensure the power cables are reconnected in the proper locations.
+<ul>
+<li>Remember that not all of the available connectors will plug into the PSU-- eight connectors (on four cables) are to be plugged into the GPUs.</li>
+</ul>
+</li>
+<li>If the replacement PSU has an "ECO Mode" switch, make sure it is switched on.</li>
+</ol>
+<p><img src="./img/psu-eco-mode.jpg" alt="PSU eco mode switch" /></p>
+<h2 id="replacing-the-side-fans"><a class="header" href="#replacing-the-side-fans">Replacing the side fans:</a></h2>
+<p>Thelio Mega r1.0 has two intake fans mounted on the inner partition. The fans can be replaced if they become defective/noisy.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 15 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-side-fans"><a class="header" href="#steps-to-replace-the-side-fans">Steps to replace the side fans:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a> and <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+<li>Pull the rubber tabs until they come loose from the plastic pins holding the fan in place.</li>
+</ol>
+<p><img src="./img/side-fan-mounts.jpg" alt="Side fan rubber mounts" /></p>
+<ol start="3">
+<li>Pull the end of the fan cable through the opening and release any velcro strips that are holding it in place.</li>
+<li>When replacing the fan, hold the rubber tabs in place while pushing the plastic pins in from the opposite side.</li>
+</ol>
+<p><img src="./img/side-fan-pins.jpg" alt="Side fan plastic pins" /></p>
+<h2 id="replacing-the-thelio-io-boards"><a class="header" href="#replacing-the-thelio-io-boards">Replacing the Thelio-IO boards:</a></h2>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 25 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<p>The Thelio-IO board handles the front power button, fan control, and 2.5" SATA connectors for the system. If one of the Thelio-IO boards becomes defective, it can be replaced using the instructions below.</p>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#removing-the-top-crossbar">remove the top crossbar</a>, and <a href="#addingremoving-25-storage-drives">remove the front cover from the 2.5" drive cage</a> for the Thelio-IO board that is being replaced.</li>
+<li>Use the cutouts on the opposite side of the chassis to unplug all cabling from the Thelio-IO board that is being replaced.</li>
+</ol>
+<p><img src="./img/thelio-io-cabling-cutouts.jpg" alt="Thelio-IO cabling cutouts" /></p>
+<ol start="3">
+<li>Unscrew the two screws on the top of the upper drive cage (for the top Thelio-IO board) or the bottom of the lower drive cage (for the bottom Thelio-IO board).</li>
+</ol>
+<p><img src="./img/thelio-io-drive-cage-screws.jpg" alt="Thelio-IO drive cage screws" /></p>
+<ol start="4">
+<li>While pulling the loose side of the drive cage away from the Thelio-IO board, move the board back and out of the drive cage.</li>
+<li>Place the new Thelio-IO board into the drive cage and replace the screws and wiring.</li>
+</ol>
+<h2 id="troubleshooting-the-power-button"><a class="header" href="#troubleshooting-the-power-button">Troubleshooting the power button:</a></h2>
+<p>If the front power button doesn't power the machine on or doesn't light up when the system is powered on, try the following troubleshooting steps:</p>
+<ol>
+<li>Ensure the system powers on normally using the internal power button.</li>
+<li>Reseat the front power button to ensure it's making proper contact.</li>
+<li>Check the wiring for the front power button.</li>
+<li>Replace the front power button, if necessary.</li>
+</ol>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 20 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-power-the-machine-on-using-the-internal-power-button"><a class="header" href="#steps-to-power-the-machine-on-using-the-internal-power-button">Steps to power the machine on using the internal power button:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a> and <a href="#removing-the-inner-partition">remove the inner partition</a>.</li>
+<li>Ensure the system is plugged into power, and the power supply switch is in the 1 (On) position.</li>
+<li>Push the small button labeled <code>B0</code> on the top Thelio-IO board.</li>
+</ol>
+<p><img src="./img/b0-button.jpg" alt="Internal power button" /></p>
+<ol start="4">
+<li>If the Thelio-IO <code>B0</code> button powers the machine on, then the issue is either the front power button or its connection to the Thelio-IO board. <a href="#steps-to-check-the-front-power-button-wiring">Check the front power button wiring</a>.</li>
+<li>If the Thelio-IO <code>B0</code> button does not work, press the <code>Power</code> button in the top right of the motherboard.</li>
+</ol>
+<p><img src="./img/motherboard-power-button.jpg" alt="Motherboard power button" /></p>
+<ol start="6">
+<li>If the motherboard <code>Power</code> button works, but the Thelio-IO <code>B0</code> button does not work, then the issue is either the Thelio-IO board or its connection to the motherboard. <a href="#steps-to-check-the-front-power-button-wiring">Check the wiring between the Thelio-IO board and the motherboard</a>.
+<ul>
+<li>The second Thelio-IO board's power ports can be used if the first board becomes defective.</li>
+</ul>
+</li>
+<li>If the motherboard <code>Power</code> button does not work, then the issue may be the motherboard, or it may be the power supply or its connection to the motherboard. Ensure all connections are plugged in properly and that the power supply is switched to the 1 (On) position.</li>
+</ol>
+<h3 id="steps-to-check-the-front-power-button-wiring"><a class="header" href="#steps-to-check-the-front-power-button-wiring">Steps to check the front power button wiring:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace</a>, and <a href="#removing-the-cpu-duct">remove the CPU duct</a>.</li>
+<li>On the back of the power button, the four pins should be connected to the four-wire connector as follows:</li>
+</ol>
+<p><img src="./img/power-button-wiring.jpg" alt="Power button wiring" /></p>
+<ol start="3">
+<li>On the front power button receptacle, the four-pin connector should have the red wire on the left and the black wire on the right.</li>
+</ol>
+<p><img src="./img/power-button-receptacle.jpg" alt="Power button receptacle" /></p>
+<ol start="4">
+<li>The front power button receptacle should plug into the <code>PFPD</code> port on the top Thelio-IO board, with the red wire on the bottom and the black wire on the top.</li>
+</ol>
+<p><img src="./img/power-wiring-thelio-io.jpg" alt="Power button wiring on Thelio-IO board" /></p>
+<ol start="5">
+<li>The <code>PMBD</code> port on the Thelio-IO board should connect to an adapter:
+<ul>
+<li>The red wire on the four-port connector should be on the bottom on the Thelio-IO board.</li>
+<li>The other side of the cable connects to the adapter, with the red wire on the top left, the blue pair immediately following the red pair, and a black wire on the right.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/power-wiring-adapter.webp" alt="Power button wiring adapter" /></p>
+<ol start="6">
+<li>The adapter should connect to the <code>F-PANEL</code> (front panel) input on the motherboard.</li>
+</ol>
+<p><img src="./img/power-wiring-motherboard.jpg" alt="Power button wiring on motherboard" /></p>
+<h3 id="steps-to-replace-the-power-button"><a class="header" href="#steps-to-replace-the-power-button">Steps to replace the power button:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>.</li>
+<li>Follow the instructions in the <a href="https://support.system76.com/articles/thelio-power-button/">Replace the Thelio Power Button</a> support article.</li>
+</ol>
+<h2 id="troubleshooting-the-thelio-io-usb-connection"><a class="header" href="#troubleshooting-the-thelio-io-usb-connection">Troubleshooting the Thelio-IO USB connection:</a></h2>
+<p>The Thelio-IO boards connect to the motherboard's USB headers for firmware updates and fan control within the host OS. If the fans seem to be stuck on full blast, check the Thelio-IO USB connections.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver (optional)<br />
+<strong>Time estimate:</strong> 15 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-check-the-usb-wiring"><a class="header" href="#steps-to-check-the-usb-wiring">Steps to check the USB wiring:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-top-case">remove the top case</a>, <a href="#removing-the-inner-partition">remove the inner partition</a>, <a href="#replacing-a-gpu">remove the GPU brace</a>, and <a href="#removing-the-cpu-duct">remove the CPU duct</a>.</li>
+<li>Two of the Thelio-IO boards have <code>USB0</code> ports. The port on each board connects to a cable (labeled <code>USB</code>) with the red wire on the bottom.</li>
+</ol>
+<p><img src="./img/thelio-io-usb.jpg" alt="USB wiring on Thelio-IO board" /></p>
+<ol start="3">
+<li>The two internal USB cables plug into the motherboard's USB headers.</li>
+</ol>
+<p><img src="./img/motherboard-thelio-io-usb.jpg" alt="USB input on motherboard" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../models/thelio-mega-r1.0/internal-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../models/thelio-mira-b4-n3/README.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../models/thelio-mega-r1.0/internal-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../models/thelio-mira-b4-n3/README.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

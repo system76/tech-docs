@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Customization &amp; Repairs - System76 Technical Documentation</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/variables.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">System76 Technical Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/system76/tech-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="launch-customization--repairs"><a class="header" href="#launch-customization--repairs">Launch (Customization &amp; Repairs)</a></h1>
+<p>The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.</p>
+<ul>
+<li><a href="#connecting-and-using-launch">Connecting and using Launch</a></li>
+<li><a href="#removing-and-installing-keycaps">Removing and installing keycaps</a></li>
+<li><a href="#removing-and-installing-switches">Removing and installing switches</a></li>
+<li><a href="#removing-the-pcb">Removing the PCB</a></li>
+</ul>
+<h2 id="connecting-and-using-launch"><a class="header" href="#connecting-and-using-launch">Connecting and using Launch:</a></h2>
+<p><img src="./img/ports-back.webp" alt="Launch ports" /></p>
+<ol>
+<li>Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch's center USB-C port, shown above.</li>
+<li>Connect the other side of the cable to your computer.</li>
+<li>Connect any other USB devices to the four downstream USB ports on either side of the Launch.</li>
+</ol>
+<h2 id="removing-and-installing-keycaps"><a class="header" href="#removing-and-installing-keycaps">Removing and installing keycaps:</a></h2>
+<p>Launch uses only three sizes of uniform profile keycaps, which allows for a high degree of customization. Any two keycaps of the same size can be swapped on the keyboard, and several extras are included in the box.</p>
+<p><strong>Tools required:</strong> Keycap puller<br />
+<strong>Time estimate:</strong> 20 minutes (to replace all keycaps)<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-a-keycap"><a class="header" href="#steps-to-remove-a-keycap">Steps to remove a keycap:</a></h3>
+<ol>
+<li>Separate the two wire loops of the keycap puller and place them around two opposite corners of the keycap.
+<ul>
+<li>The keycap puller can be partially inserted over the sides of the key first, then twisted to go over the corners.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/keycap-removal-1.webp" alt="Inserting the keycap puller" /></p>
+<p><img src="./img/keycap-removal-2.webp" alt="Removing a keycap" /></p>
+<ol start="2">
+<li>Pull slowly but firmly (directly away from the keyboard) until the keycap slides off of the switch's stem.</li>
+</ol>
+<p><img src="./img/keycap-removed.webp" alt="Removed keycap" /></p>
+<h4 id="removing-larger-keycaps"><a class="header" href="#removing-larger-keycaps">Removing larger keycaps:</a></h4>
+<ul>
+<li>The included keycap puller works on all three of Launch's keycap sizes.</li>
+<li>The three 2U keycaps (both space bars and left shift) have stabilizers, so be sure to pull both sides evenly.
+<ul>
+<li>These 2U keycaps take slightly more pulling force than the rest of the keycaps.</li>
+</ul>
+</li>
+</ul>
+<p><img src="./img/keycap-removal-15u-2u.webp" alt="Removing larger keycaps" /></p>
+<h3 id="steps-to-install-a-keycap"><a class="header" href="#steps-to-install-a-keycap">Steps to install a keycap:</a></h3>
+<ol>
+<li>Position the keycap on top of the switch.</li>
+<li>Press the keycap down firmly until it's fully on the switch.
+<ul>
+<li>The keycap will be held onto the switch by friction.</li>
+<li>The 2U keycaps with stabilizers require slightly more pressure to install.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/keycap-installation.webp" alt="Installing a keycap" /></p>
+<h2 id="removing-and-installing-switches"><a class="header" href="#removing-and-installing-switches">Removing and installing switches:</a></h2>
+<p>Because Launch uses Kailh hot swap sockets, key switches can be removed and installed without soldering.</p>
+<p>If you are changing all of the switches in your Launch, it is recommended to completely <a href="#removing-the-pcb">remove the PCB</a>, install the switches into the top case without the PCB, then install the PCB into the case and onto the switch pins. This makes switch installation easier and reduces the likelihood of bending switch pins or damaging the PCB.</p>
+<p>If you are installing new switches, ensure that the switches you're installing are compatible with surface-mount (SMD) LEDs.</p>
+<p><strong>Tools required:</strong> MX-style switch puller<br />
+<strong>Time estimate:</strong> ~1 minute per switch<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-remove-a-switch"><a class="header" href="#steps-to-remove-a-switch">Steps to remove a switch:</a></h3>
+<ol>
+<li><a href="#removing-and-installing-keycaps">Remove the keycap</a> on the switch you wish to remove.</li>
+<li>Place the two tongs of the switch removal tool into the switch's locking tabs on the top and bottom edges of the switch.</li>
+</ol>
+<p><img src="./img/switch-removal.webp" alt="Switch removal" /></p>
+<ol start="3">
+<li>Pinch the tongs together to release the switch's locking clips from the chassis.</li>
+<li>Pull the switch upwards out of the socket.
+<ul>
+<li>The switch's locking tabs can sometimes catch on the edges of the chassis cutouts. If the switch feels stuck, remove the tool and press the switch back down into place, then try removing it again.</li>
+<li>Switches take more force to remove than keycaps.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/switch-removed.webp" alt="A removed switch" /></p>
+<h3 id="steps-to-install-a-switch"><a class="header" href="#steps-to-install-a-switch">Steps to install a switch:</a></h3>
+<ol>
+<li>Make sure the switch's pins are straight.
+<ul>
+<li>If either of the pins is bent, gently bend it back into place.</li>
+<li><strong>Caution:</strong> Attempting to install a switch with bent pins may damage the PCB and/or switch.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/switch-pins.webp" alt="Bent vs. straight switch pins" /></p>
+<ol start="2">
+<li>Orient the switch so the clear LED window aligns with the LED on the PCB, near the top of the socket.</li>
+</ol>
+<p><img src="./img/switch-orientation.webp" alt="Switch orientation" /></p>
+<ol start="3">
+<li>Place the switch straight into the plate.
+<ul>
+<li><strong>Caution:</strong> Forcing the pins into the hot swap socket if the pins are not properly aligned could damage the PCB and/or switch.</li>
+<li>If you feel excessive resistance, pull the switch out, double-check that the pins are straight, and try installing the switch again.</li>
+</ul>
+</li>
+<li>Once you feel the pins plug into the hot swap socket, press the switch down with more force to snap it into place within the chassis.</li>
+</ol>
+<p><img src="./img/switch-installation.webp" alt="Switch installation" /></p>
+<h2 id="removing-the-pcb"><a class="header" href="#removing-the-pcb">Removing the PCB:</a></h2>
+<p><strong>Tools required:</strong> Keycap puller, MX-style switch puller, and cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 50 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<p>If the PCB in your Launch becomes damaged and needs to be replaced, or if you are changing all of the switches on the PCB, it can be removed and replaced using these instructions.</p>
+<h3 id="steps-to-remove-the-pcb"><a class="header" href="#steps-to-remove-the-pcb">Steps to remove the PCB:</a></h3>
+<ol>
+<li><a href="#removing-and-installing-keycaps">Remove all of the keycaps</a> and <a href="#removing-and-installing-switches">all of the switches</a>.
+<ul>
+<li>The 2U stabilizers do not need to be removed.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/all-keycaps-removed.webp" alt="Launch with all keycaps removed" />
+<img src="./img/all-switches-removed.webp" alt="Launch with all switches removed" /></p>
+<ol start="2">
+<li>Turn the keyboard over and remove the five bottom panel screws.
+<ul>
+<li>The screws are set into adapters that may or may not come out with the screws.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/bottom-panel-screws.webp" alt="Bottom panel screws" /></p>
+<ol start="3">
+<li>Remove the bottom panel.
+<ul>
+<li>If the magnetic lift bar is installed, it can be used as a handle.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/internal-bottom.webp" alt="Bottom panel removed" /></p>
+<ol start="4">
+<li>Push the PCB up out of the chassis through one of the switch holes, then lift the PCB out of the chassis.
+<ul>
+<li>To avoid the USB-C port catching on the chassis, push through one of the bottom row switch holes and lift the bottom edge of the PCB first.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/pcb-removed.webp" alt="Loose PCB" /></p>
+<h3 id="steps-to-install-the-pcb"><a class="header" href="#steps-to-install-the-pcb">Steps to install the PCB:</a></h3>
+<ol>
+<li>Install all of the switches into the chassis.
+<ul>
+<li>The switches can also be installed after installing the PCB, but installing the switches first is recommended because it reduces the risk of individual bent pins damaging the PCB or switches during installation.</li>
+<li>Make sure the switches are in the correct orientation with the LED window at the top.</li>
+<li>The switches are not specific to their key/hole.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/chassis-with-switches.webp" alt="Switches installed in chassis" /></p>
+<ol start="2">
+<li>Turn the chassis over and check that all of the switch pins are straight.
+<ul>
+<li>Look down the rows of pins from the sides of the chassis to identify any bent pins.</li>
+<li>If any of the pins are bent when installing the PCB, the switch or the PCB may be damaged.</li>
+<li>In the image below, the pin marked with a red arrow is an example of a pin that is bent and needs to be straightened.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/chassis-switch-pin-check.webp" alt="Switch pins in chassis (with a bent pin)" /></p>
+<ol start="3">
+<li>Carefully line up the PCB with the switch pins and place it in the chassis, starting with the USB-C ports on the top edge.
+<ul>
+<li>Evenly press the PCB down until all of the switch pins are fully seated in their sockets.</li>
+<li>It may help to pick up the keyboard and pinch to press both the PCB and the switches at the same time.</li>
+<li>If you feel excessive resistance, stop, remove the PCB, and ensure that all of the switch pins are lined up.</li>
+<li>The switch pins can be seen from the back of the sockets when they are fully seated, highlighted below.</li>
+</ul>
+</li>
+</ol>
+<p><img src="./img/pcb-switch-pins.webp" alt="Switch pins visible through sockets" /></p>
+<ol start="4">
+<li>Install the bottom cover and its four screws, flip the keyboard over, and put all of the keycaps back on.
+<ul>
+<li>If any of the oval steel inserts came loose from the bottom cover, put them back into place before reinstalling the bottom cover.
+<ul>
+<li>The steel inserts are held in with glue, but are also held in place magnetically if the magnetic lift bar is installed. They can be re-glued with CA glue.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../models/launch_3/external-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../models/launch_heavy_3/README.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../models/launch_3/external-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../models/launch_heavy_3/README.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

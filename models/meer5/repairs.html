@@ -1,0 +1,445 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parts &amp; Repairs - System76 Technical Documentation</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/variables.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">System76 Technical Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/system76/tech-docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="meerkat-parts--repairs"><a class="header" href="#meerkat-parts--repairs">Meerkat (Parts &amp; Repairs)</a></h1>
+<p>Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:</p>
+<ul>
+<li><a href="#removing-the-bottom-panel">Removing the bottom panel</a></li>
+<li><a href="#replacing-the-m2-drive">Replacing the M.2 drive</a></li>
+<li><a href="#replacing-the-ram">Replacing the RAM</a></li>
+<li><a href="#addingremoving-a-25-storage-drive">Adding/removing a 2.5" storage drive</a></li>
+<li><a href="#resetting-cmos">Resetting CMOS</a></li>
+<li><a href="#removing-the-motherboard">Removing the motherboard</a></li>
+<li><a href="#removing-the-fan">Removing the fan</a></li>
+<li><a href="#replacing-thermal-paste">Replacing thermal paste</a></li>
+<li><a href="#mounting-with-vesa-mount">Mounting with VESA mount</a></li>
+</ul>
+<h2 id="removing-the-bottom-panel"><a class="header" href="#removing-the-bottom-panel">Removing the bottom panel:</a></h2>
+<p>The bottom panel can be removed to access the internal components.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 3 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-remove-the-bottom-panel"><a class="header" href="#steps-to-remove-the-bottom-panel">Steps to remove the bottom panel:</a></h3>
+<ol>
+<li>Place the machine lid-side down.
+<ul>
+<li>Use a soft surface (such as a towel) to avoid scratches.</li>
+</ul>
+</li>
+<li>Completely loosen the four screws in the corners.</li>
+</ol>
+<p><img src="./img/meer5-bottom-screws.png" alt="Bottom panel screws" /></p>
+<ol start="3">
+<li>
+<p>The screws are held captive in the bottom panel, so they will not come completely out of the machine, but once they are fully loose, you will be able to grab the screws and gently lift the bottom panel out of the machine.</p>
+<p>If your Meerkat is the Tall variation, use caution when lifting the bottom panel off, as there is a thin cable that attaches to the drive bay in the bottom panel. The cable should be long enough that you can set the bottom panel next to the machine without having to disconnect it at the motherboard, as shown below:</p>
+</li>
+</ol>
+<p><img src="./img/meer5-components.png" alt="Meerkat internal components" /></p>
+<p>If your Meerkat is the Short variation, you will have no such cable, allowing you to completely remove the bottom panel after the four screws are completely loosened.</p>
+<h2 id="replacing-the-m2-drive"><a class="header" href="#replacing-the-m2-drive">Replacing the M.2 drive:</a></h2>
+<p>Your Meerkat has one M.2 slot, which supports either PCIe NVMe Gen 3 x4 or SATA III. The following M.2 sizes are supported: 2280 and 2242.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-m2-drive"><a class="header" href="#steps-to-replace-the-m2-drive">Steps to replace the M.2 drive:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-panel">remove the bottom panel</a>.</li>
+<li>Unscrew the retainer screw on the end of the SSD opposite the M.2 slot.</li>
+</ol>
+<p><img src="./img/m2-screw.jpg" alt="M.2 slot screw" /></p>
+<ol start="3">
+<li>Remove the existing M.2 drive by pulling it out of the slot.</li>
+<li>Insert the new M.2 drive into the slot and hold it in place.</li>
+<li>Replace the retainer screw.</li>
+<li>Replace the bottom panel.</li>
+</ol>
+<h2 id="replacing-the-ram"><a class="header" href="#replacing-the-ram">Replacing the RAM:</a></h2>
+<p>Your Meerkat supports up to 64GB (2x32GB) of RAM. The RAM sticks are DDR4 SODIMMs running at a speed of 2666MHz. If you've purchased new RAM, need to replace your RAM, or are re-seating your RAM, follow these steps.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-replace-the-ram"><a class="header" href="#steps-to-replace-the-ram">Steps to replace the RAM:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-panel">remove the bottom panel</a>.</li>
+<li>Since the RAM slots are stacked on your Meerkat, if you have two RAM sticks installed, the top one must be removed before you can access the one below it. To remove a RAM stick, both RAM latches need to be simultaneously pushed out and away from the edges of the RAM stick.</li>
+</ol>
+<p><img src="./img/ram-latch.jpg" alt="RAM latch" /></p>
+<ol start="3">
+<li>Once both latches are released, the RAM stick will pop up, pushed by the spring tension from the RAM slot. This means the RAM stick can be pulled backwards out of the slot.</li>
+</ol>
+<p><img src="./img/unlatched-ram.jpg" alt="Unlatched RAM" /></p>
+<ol start="4">
+<li>
+<p>To install a RAM stick, slide the stick into the slot at roughly the same angle it was sitting after the latches were released, then push the back edge of the RAM stick downwards so the latches on the sides re-engage.</p>
+</li>
+<li>
+<p>Replace the bottom panel.</p>
+</li>
+</ol>
+<h2 id="addingremoving-a-25-storage-drive"><a class="header" href="#addingremoving-a-25-storage-drive">Adding/removing a 2.5" storage drive:</a></h2>
+<p>If your Meerkat is the tall variety, it has a 2.5" drive bay built into the bottom panel.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-addremove-25-storage-drives"><a class="header" href="#steps-to-addremove-25-storage-drives">Steps to add/remove 2.5" storage drives:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-panel">remove the bottom panel</a>.</li>
+<li>Take note of the orientation of the connector on the drive you are installing.</li>
+</ol>
+<p><img src="./img/drive-connector.jpg" alt="2.5&quot; drive connector" /></p>
+<ol start="3">
+<li>Slide the drive into the slot on the bottom panel until it plugs all the way into its connector.</li>
+</ol>
+<p><img src="./img/drive-insertion.jpg" alt="2.5&quot; drive installation" /></p>
+<ol start="4">
+<li>Replace the bottom panel.</li>
+</ol>
+<h2 id="resetting-cmos"><a class="header" href="#resetting-cmos">Resetting CMOS:</a></h2>
+<p>Sometimes resetting CMOS can help if your Meerkat is not booting. A CMOS reset will restore BIOS settings to their factory defaults, so you may have to reconfigure your BIOS afterwards.</p>
+<p><strong>Warning (ingestion hazard):</strong> Keep batteries out of reach of children. Death or serious injury can occur if ingested. If a battery is suspected to be swallowed or inserted inside any part of the body, seek immediate medical attention. In the US, you can also call the National Battery Ingestion Hotline for guidance: <a href="tel:18004988666">1 (800) 498-8666</a></p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver and (optionally) tweezers<br />
+<strong>Time estimate:</strong> 15 minutes<br />
+<strong>Difficulty:</strong> Medium <span style="color:orange;">●</span></p>
+<h3 id="steps-to-reset-cmos"><a class="header" href="#steps-to-reset-cmos">Steps to reset CMOS:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-panel">remove the bottom panel</a> and <a href="#replacing-the-m2-drive">remove the M.2 drive</a>.</li>
+<li>Disconnect the CMOS battery connector, shown circled in red below. Tweezers may make this easier, but try to pull it by the plug itself rather than by the wires.</li>
+</ol>
+<p><img src="./img/cmos-connector.jpg" alt="CMOS battery connector" /></p>
+<ol start="3">
+<li>Leave the connector unplugged for several minutes. CMOS values don't always clear instantly, and sometimes it takes a couple minutes for them to reset.</li>
+<li>Reconnect the CMOS battery.</li>
+<li>Replace the M.2 drive and the bottom panel.</li>
+<li>When you boot your Meerkat after resetting CMOS, it may take a minute or two longer than usual to boot the first time. It has to re-initialize some of the CMOS values that were reset.</li>
+</ol>
+<h2 id="removing-the-motherboard"><a class="header" href="#removing-the-motherboard">Removing the Motherboard:</a></h2>
+<p>Removing the motherboard is necessary for removing the cooling fan, cleaning the CPU heatsink, and replacing the CPU thermal paste.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 20 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-remove-the-motherboard"><a class="header" href="#steps-to-remove-the-motherboard">Steps to remove the motherboard:</a></h3>
+<ol>
+<li>Follow the steps above to <a href="#removing-the-bottom-panel">remove the bottom panel</a>, <a href="#replacing-the-m2-drive">remove the M.2 drive</a>, and <a href="#replacing-the-ram">remove the RAM</a>.</li>
+<li>If your Meerkat is the tall variety, disconnect the ribbon cable that leads to the 2.5" drive bay built into the bottom panel. The small white latch comes up to unlock the cable, then the cable can be gently pulled free from its socket.</li>
+</ol>
+<p><img src="./img/sata-bay-connector.jpg" alt="SATA drive bay ribbon cable connector" /></p>
+<ol start="3">
+<li>Disconnect the front microphone cable.</li>
+</ol>
+<p><img src="./img/front-mic-connector.jpg" alt="Front microphone connector" /></p>
+<ol start="4">
+<li>Disconnect the two wireless antenna cables.</li>
+</ol>
+<p><img src="./img/wifi-antenna-connectors.jpg" alt="Wireless antenna connectors" /></p>
+<ol start="5">
+<li>Remove the two motherboard mounting screws.</li>
+</ol>
+<p><img src="./img/motherboard-screws.jpg" alt="Motherboard mounting screws" /></p>
+<ol start="6">
+<li>Carefully lift the motherboard out of the case. It is easiest to lift from the back side, grabbing the USB type A ports as shown below. The back wall of the case can be pulled slightly outwards, away from the motherboard, to help the ports come out of their cutouts in the case.</li>
+</ol>
+<p><img src="./img/removing-motherboard.jpg" alt="Removing the motherboard" /></p>
+<h2 id="removing-the-fan"><a class="header" href="#removing-the-fan">Removing the Fan:</a></h2>
+<p>The cooling fan can be removed to clean dust out of the cooling system or to access the CPU heatsink to replace the CPU thermal paste.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 25 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-remove-the-fan"><a class="header" href="#steps-to-remove-the-fan">Steps to remove the fan:</a></h3>
+<ol>
+<li>
+<p>Follow the steps above to <a href="#removing-the-motherboard">remove the motherboard</a>.</p>
+</li>
+<li>
+<p>Completely loosen the three mounting screws (highlighted in red) and disconnect the fan cable (highlighted in green). The screws are captive, so they will not come out of the fan assembly when they are completely loosened.</p>
+</li>
+</ol>
+<p><img src="./img/fan-screws-and-cable.jpg" alt="Fan screws and cable locations" /></p>
+<ol start="3">
+<li>The fan can now be lifted away from the motherboard.</li>
+</ol>
+<p><img src="./img/fan-removed.jpg" alt="Fan removed from motherboard" /></p>
+<h2 id="replacing-thermal-paste"><a class="header" href="#replacing-thermal-paste">Replacing Thermal Paste:</a></h2>
+<p>The CPU cooler dissipates heat from the CPU to the heatsink, where the CPU fan expels it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the heatsink may help the system run cooler.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 35 minutes<br />
+<strong>Difficulty:</strong> High <span style="color:red;">●</span></p>
+<h3 id="steps-to-replace-the-thermal-paste"><a class="header" href="#steps-to-replace-the-thermal-paste">Steps to replace the thermal paste:</a></h3>
+<ol>
+<li>
+<p>Follow the steps above to <a href="#removing-the-fan">remove the fan</a>.</p>
+</li>
+<li>
+<p>Completely loosen the four screws that hold the heatsink onto the motherboard (highlighted in red). The screws are captive, so they will not come out of the heatsink brackets when completely loosened.</p>
+</li>
+</ol>
+<p><img src="./img/heatsink-screws.jpg" alt="Heatsink screws" /></p>
+<ol start="3">
+<li>Gently lift the heatsink off of the motherboard.</li>
+</ol>
+<p><img src="./img/heatsink-removed.jpg" alt="Heatsink removed from motherboard" /></p>
+<ol start="4">
+<li>Using a paper towel, clean the old thermal paste off of the heatsink and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.</li>
+</ol>
+<p><img src="./img/heatsink-cleaned.jpg" alt="Heatsink and motherboard after cleaning" /></p>
+<ol start="5">
+<li>Apply new thermal paste to both silicon dies on the CPU. Be careful not to use too much, as just a little goes a long way.</li>
+</ol>
+<p><img src="./img/thermal-paste-applied.jpg" alt="Thermal paste applied to CPU" /></p>
+<ol start="6">
+<li>Reinstall the heatsink and tighten the four screws in the order indicated by the numbers stamped on the heatsink (highlighted in red).</li>
+</ol>
+<p><img src="./img/heatsink-screw-order.jpg" alt="Heatsink screw tightening order" /></p>
+<ol start="7">
+<li>Reinstall the cooling fan (remember to plug it in!), motherboard, RAM, drive, and bottom panel.</li>
+</ol>
+<h2 id="mounting-with-vesa-mount"><a class="header" href="#mounting-with-vesa-mount">Mounting with VESA Mount:</a></h2>
+<p>Your Meerkat comes with a VESA mount adapter, which allows it to be mounted on the back of a monitor. Because it mounts to the monitor's VESA mount, this will only work on monitors which aren't already mounted via the VESA mount.</p>
+<p><strong>Tools required:</strong> Cross-head (Phillips) screwdriver<br />
+<strong>Time estimate:</strong> 10 minutes<br />
+<strong>Difficulty:</strong> Easy <span style="color:green;">●</span></p>
+<h3 id="steps-to-mount-with-the-vesa-adapter"><a class="header" href="#steps-to-mount-with-the-vesa-adapter">Steps to mount with the VESA adapter:</a></h3>
+<p><img src="./img/vesa-mount-and-screws.jpg" alt="VESA mount and screws" /></p>
+<ol>
+<li>Thread the two shoulder screws into the two screw holes in the bottom of the Meerkat.</li>
+</ol>
+<p><img src="./img/shoulder-screws.jpg" alt="Screws in Meerkat" /></p>
+<ol start="2">
+<li>Mount the VESA adapter plate to the VESA mount on your monitor with the remaining four screws. The "UP" arrow indicates the orientation it should be mounted in.</li>
+</ol>
+<p><img src="./img/adapter-installed.jpg" alt="Adapter installed on monitor" /></p>
+<ol start="3">
+<li>Align the two shoulder screw studs to the cutouts in the VESA adapter. Once the studs are lined up, slide the Meerkat downwards and rotate it slightly clockwise to lock it into place.</li>
+</ol>
+<p><img src="./img/vesa-studs.jpg" alt="Installing the Meerkat" />
+<img src="./img/meer5-vesa-installed.jpg" alt="Meerkat installed" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../models/meer5/internal-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../models/nebula36-1/README.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../models/meer5/internal-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../models/nebula36-1/README.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

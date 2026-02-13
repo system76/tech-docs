@@ -82,7 +82,9 @@ The Meerkat 10 supports an optional expansion card to add either a second 2280-s
 
 Your Meerkat has two M.2 slots.
 
-- The first slot supports PCIe NVMe Gen 5 drives of size 2280.
+- The first slot fits size 2280 drives.
+    - On Core Ultra 7 and Core Ultra 5 models, the first slot supports PCIe NVMe Gen 5.
+    - On the Core 7 and Core 3 models, the first slot supports PCIe NVMe Gen 4.
 - The second slot supports PCIe NVMe Gen 4 drives, and fits drives of size 2242 by default. An optional [adapter](#steps-to-replace-the-storage-expansion-card) can be installed to fit 2280 drives in the 2242-size slot. The 2280 adapter is installed by default if you purchased additional storage as part of your original order.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
@@ -93,14 +95,14 @@ Your Meerkat has two M.2 slots.
 
 1. Follow the steps above to [open the bottom panel](#opening-the-bottom-panel).
 2. Free the drive from its retainer clip.
-    - For the primary (Gen 5) slot, nearest the side of the chassis, twist the blue clip clockwise to free the drive.
+    - For the primary slot (Gen 5 or Gen 4, depending on CPU model), nearest the side of the chassis, twist the blue clip clockwise to free the drive.
     - For the secondary (Gen 4) adapter slot, nearest the RAM, slide the yellow clip away from the drive.
     ![M.2 storage drives (with adapter slot)](./img/m2-slots-expansion.webp)
     - If an aftermarket 2242-size drive has been installed directly into the secondary (Gen 4) slot, as shown below, pull the black plastic pin out of the mounting hole.
     ![M.2 storage drives (without expansion slot)](./img/m2-slots-base.webp)
 3. Remove the old drive from the slot and insert the new drive into the slot.
 4. Secure the new drive in place as necessary.
-    - If you installed a drive into the primary (Gen 5) slot, twist the blue clip counterclockwise to lock the drive into place.
+    - If you installed a drive into the primary (Gen 5 or Gen 4) slot, twist the blue clip counterclockwise to lock the drive into place.
     - If you installed a drive into the secondary (Gen 4) adapter, the yellow clip locks automatically.
     - If you installed a 2242-size drive into the secondary (Gen 4) slot, press the black pin back into the hole to hold the drive down.
 

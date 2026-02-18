@@ -12,8 +12,9 @@ use-default-preprocessors = false
 theme = "theme"
 additional-css = ["theme/variables.css"]
 git-repository-url = "https://github.com/system76/tech-docs"
-git-repository-icon = "fa-github"
+git-repository-icon = "fab-github"
 no-section-label = true
+sidebar-header-nav = false
 
 [output.html.fold]
 enable = true

@@ -2,11 +2,11 @@
 
 ## Left side:
 
-![Left Ports](./img/ports-left.webp)
+<span class="text-on-transparency">![Left Ports](./img/ports-left.webp)</span>
 
 ## Right side:
 
-![Right Ports](./img/ports-right.webp)
+<span class="text-on-transparency">![Right Ports](./img/ports-right.webp)</span>
 
 ## Front side:
 
@@ -14,7 +14,7 @@
 
 ## Back side:
 
-![Back Ports](./img/ports-back.webp)
+<span class="text-on-transparency">![Back Ports](./img/ports-back.webp)</span>
 
 ## Keyboard & touchpad:
 

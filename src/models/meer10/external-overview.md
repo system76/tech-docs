@@ -2,11 +2,11 @@
 
 ## Front side:
 
-![Front ports](./img/ports-front.webp)
+<span class="text-on-transparency">![Front ports](./img/ports-front.webp)</span>
 
 ## Left side:
 
-![Left ports](./img/ports-left.webp)
+<span class="text-on-transparency">![Left ports](./img/ports-left.webp)</span>
 
 ## Right side:
 
@@ -14,7 +14,7 @@
 
 ## Back side:
 
-![Back ports](./img/ports-back.webp)
+<span class="text-on-transparency">![Back ports](./img/ports-back.webp)</span>
 
 ## Top:
 

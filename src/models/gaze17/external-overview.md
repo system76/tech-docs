@@ -2,25 +2,25 @@
 
 ## Left side overview:
 
-![17" Left Ports](./img/ports-left-17.webp)
+<span class="text-on-transparency">![17" Left Ports](./img/ports-left-17.webp)</span>
 
 ## Right side overview:
 
 ### RTX 3060 model:
 
-![17" Right Ports (3060)](./img/ports-right-17-3060.webp)
+<span class="text-on-transparency">![17" Right Ports (3060)](./img/ports-right-17-3060.webp)</span>
 
 ### RTX 3050 & 3050 Ti models:
 
-![17" Right Ports (3050, 3050 Ti)](./img/ports-right-17-3050x.webp)
+<span class="text-on-transparency">![17" Right Ports (3050, 3050 Ti)](./img/ports-right-17-3050x.webp)</span>
 
 ## Front side overview:
 
-![17" Front Ports](./img/ports-front-17.webp)
+<span class="text-on-transparency">![17" Front Ports](./img/ports-front-17.webp)</span>
 
 ## Back side overview:
 
-![17" Back Ports (3060)](./img/ports-back-17.webp)
+<span class="text-on-transparency">![17" Back Ports (3060)](./img/ports-back-17.webp)</span>
 
 ## Keyboard & touchpad overview:
 

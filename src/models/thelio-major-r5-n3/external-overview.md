@@ -19,4 +19,4 @@
 
 ## Top/bottom overview:
 
-![Top & Bottom Views](./img/ports-top-bottom.webp)
+<span class="text-on-transparency">![Top & Bottom Views](./img/ports-top-bottom.webp)</span>

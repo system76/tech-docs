@@ -2,19 +2,19 @@
 
 ## Left side overview:
 
-![15" Left Ports](./img/ports-left.webp)
+<span class="text-on-transparency">![15" Left Ports](./img/ports-left.webp)</span>
 
 ## Right side overview:
 
-![15" Right Ports (3060)](./img/ports-right.webp)
+<span class="text-on-transparency">![15" Right Ports (3060)](./img/ports-right.webp)</span>
 
 ## Front side overview:
 
-![15" Front Ports](./img/ports-front.webp)
+<span class="text-on-transparency">![15" Front Ports](./img/ports-front.webp)</span>
 
 ## Back side overview:
 
-![15" Back Ports](./img/ports-back.webp)
+<span class="text-on-transparency">![15" Back Ports](./img/ports-back.webp)</span>
 
 ## Keyboard & touchpad overview:
 

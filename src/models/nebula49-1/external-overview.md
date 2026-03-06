@@ -10,4 +10,4 @@
 
 ## Top/bottom overview:
 
-![Top & Bottom Views](./img/external-top-bottom.webp)
+<span class="text-on-transparency">![Top & Bottom Views](./img/external-top-bottom.webp)</span>

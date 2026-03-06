@@ -2,19 +2,19 @@
 
 ## Left side:
 
-![Left Ports (17")](./img/ports-left-17.webp)
+<span class="text-on-transparency">![Left Ports (17")](./img/ports-left-17.webp)</span>
 
 ## Right side:
 
-![Right Ports (17")](./img/ports-right-17.webp)
+<span class="text-on-transparency">![Right Ports (17")](./img/ports-right-17.webp)</span>
 
 ## Front side:
 
-![Front Ports (17")](./img/ports-front-17.webp)
+<span class="text-on-transparency">![Front Ports (17")](./img/ports-front-17.webp)</span>
 
 ## Back side:
 
-![Back Ports (17")](./img/ports-back-17.webp)
+<span class="text-on-transparency">![Back Ports (17")](./img/ports-back-17.webp)</span>
 
 ## Keyboard & touchpad:
 

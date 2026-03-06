@@ -2,19 +2,19 @@
 
 ## Left side overview:
 
-![Left Ports](./img/ports-left.png)
+<span class="text-on-transparency">![Left Ports](./img/ports-left.png)</span>
 
 ## Right side overview:
 
-![Right Ports](./img/ports-right.png)
+<span class="text-on-transparency">![Right Ports](./img/ports-right.png)</span>
 
 ## Front side overview:
 
-![Front Ports](./img/ports-front.png)
+<span class="text-on-transparency">![Front Ports](./img/ports-front.png)</span>
 
 ## Back side overview:
 
-![Back Ports](./img/ports-back.png)
+<span class="text-on-transparency">![Back Ports](./img/ports-back.png)</span>
 
 ### Keyboard Shortcuts
 

@@ -4,61 +4,61 @@
 
 ### Left side:
 
-![15" Left Ports](./img/ports-15-left.webp)
+<span class="text-on-transparency">![15" Left Ports](./img/ports-15-left.webp)</span>
 
 ### Right side:
 
 #### 3050 & 3050 Ti:
 
-![15" Right Ports (3050/3050 Ti)](./img/ports-15-right-3050x.webp)
+<span class="text-on-transparency">![15" Right Ports (3050/3050 Ti)](./img/ports-15-right-3050x.webp)</span>
 
 #### 3060:
 
-![15" Right Ports (3060)](./img/ports-15-right-3060.webp)
+<span class="text-on-transparency">![15" Right Ports (3060)](./img/ports-15-right-3060.webp)</span>
 
 ### Front side:
 
-![15" Front Ports](./img/ports-15-front.webp)
+<span class="text-on-transparency">![15" Front Ports](./img/ports-15-front.webp)</span>
 
 ### Back side:
 
 #### 3050 & 3050 Ti:
 
-![15" Back Ports (3050/3050 Ti)](./img/ports-15-back-3050x.webp)
+<span class="text-on-transparency">![15" Back Ports (3050/3050 Ti)](./img/ports-15-back-3050x.webp)</span>
 
 #### 3060:
 
-![15" Back Ports (3060)](./img/ports-15-back-3060.webp)
+<span class="text-on-transparency">![15" Back Ports (3060)](./img/ports-15-back-3060.webp)</span>
 
 ## 17" models:
 
 ### Left side:
 
-![17" Left Ports](./img/ports-17-left.webp)
+<span class="text-on-transparency">![17" Left Ports](./img/ports-17-left.webp)</span>
 
 ### Right side:
 
 #### 3050 & 3050 Ti:
 
-![17" Right Ports (3050/3050 Ti)](./img/ports-17-right-3050x.webp)
+<span class="text-on-transparency">![17" Right Ports (3050/3050 Ti)](./img/ports-17-right-3050x.webp)</span>
 
 #### 3060:
 
-![17" Right Ports (3060)](./img/ports-17-right-3060.webp)
+<span class="text-on-transparency">![17" Right Ports (3060)](./img/ports-17-right-3060.webp)</span>
 
 ### Front side:
 
-![17" Front Ports](./img/ports-17-front.webp)
+<span class="text-on-transparency">![17" Front Ports](./img/ports-17-front.webp)</span>
 
 ### Back side:
 
 #### 3050 & 3050 Ti:
 
-![17" Back Ports (3050/3050 Ti)](./img/ports-17-back-3050x.webp)
+<span class="text-on-transparency">![17" Back Ports (3050/3050 Ti)](./img/ports-17-back-3050x.webp)</span>
 
 #### 3060:
 
-![17" Back Ports (3060)](./img/ports-17-back-3060.webp)
+<span class="text-on-transparency">![17" Back Ports (3060)](./img/ports-17-back-3060.webp)</span>
 
 ## Lid/chassis design differences:
 

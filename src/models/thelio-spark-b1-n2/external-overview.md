@@ -25,4 +25,4 @@ Cards can be moved into other compatible slots to accomplish different aftermark
 
 ## Top/bottom overview:
 
-![Top & Bottom Views](./img/ports-top-bottom.webp)
+<span class="text-on-transparency">![Top & Bottom Views](./img/ports-top-bottom.webp)</span>

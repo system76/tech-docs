@@ -39,4 +39,4 @@
 
 ## Top/bottom overview:
 
-![Top & Bottom View](./img/ports-top-bottom.webp)
+<span class="text-on-transparency">![Top & Bottom View](./img/ports-top-bottom.webp)</span>

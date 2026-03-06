@@ -2,11 +2,11 @@
 
 ## Front side overview:
 
-![Front ports](./img/ports-short-front.webp)
+<span class="text-on-transparency">![Front ports](./img/ports-short-front.webp)</span>
 
 ## Left side overview:
 
-![Left ports](./img/ports-short-left.webp)
+<span class="text-on-transparency">![Left ports](./img/ports-short-left.webp)</span>
 
 ## Right side overview:
 
@@ -16,7 +16,7 @@
 
 ### Short model:
 
-![Back ports](./img/ports-short-back.webp)
+<span class="text-on-transparency">![Back ports](./img/ports-short-back.webp)</span>
 
 ### Tall model with optional I/O add-on:
 

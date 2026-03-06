@@ -6,7 +6,7 @@
 
 ## Back overview:
 
-![Launch Ports](./img/ports-back.webp)
+<span class="text-on-transparency">![Launch Ports](./img/ports-back.webp)</span>
 
 ## Box contents overview:
 

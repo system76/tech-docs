@@ -4,27 +4,27 @@
 
 ### 16" model (darp10):
 
-![Left Ports](./img/ports-left-16.webp)
+<span class="text-on-transparency">![Left Ports](./img/ports-left-16.webp)</span>
 
 ### 14" model (darp10-b):
 
-![Left Ports](./img/ports-left-14.webp)
+<span class="text-on-transparency">![Left Ports](./img/ports-left-14.webp)</span>
 
 ## Right side:
 
 ### 16" model (darp10):
 
-![Right Ports](./img/ports-right-16.webp)
+<span class="text-on-transparency">![Right Ports](./img/ports-right-16.webp)</span>
 
 ### 14" model (darp10-b):
 
-![Left Ports](./img/ports-right-14.webp)
+<span class="text-on-transparency">![Left Ports](./img/ports-right-14.webp)</span>
 
 ## Front side:
 
 ### 16" model (darp10):
 
-![Front Ports](./img/ports-front-16.webp)
+<span class="text-on-transparency">![Front Ports](./img/ports-front-16.webp)</span>
 
 ### 14" model (darp10-b):
 
@@ -34,11 +34,11 @@
 
 ### 16" model (darp10):
 
-![Back Ports](./img/ports-back-16.webp)
+<span class="text-on-transparency">![Back Ports](./img/ports-back-16.webp)</span>
 
 ### 14" model (darp10-b):
 
-![Back Ports](./img/ports-back-14.webp)
+<span class="text-on-transparency">![Back Ports](./img/ports-back-14.webp)</span>
 
 ## Keyboard & touchpad:
 

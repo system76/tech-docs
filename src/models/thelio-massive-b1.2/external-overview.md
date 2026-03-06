@@ -2,7 +2,7 @@
 
 ## Back side overview:
 
-![Back Ports](./img/ports-back.webp)
+<span class="text-on-transparency">![Back Ports](./img/ports-back.webp)</span>
 
 ### Audio Port Guide:
 

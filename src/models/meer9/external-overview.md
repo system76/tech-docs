@@ -2,7 +2,7 @@
 
 ## Front side overview:
 
-![Front ports](./img/ports-front.webp)
+<span class="text-on-transparency">![Front ports](./img/ports-front.webp)</span>
 
 ## Left side overview:
 
@@ -14,5 +14,5 @@
 
 ## Back side overview:
 
-![Back ports](./img/ports-back.webp)
+<span class="text-on-transparency">![Back ports](./img/ports-back.webp)</span>
 

@@ -21,20 +21,17 @@ Power the machine off, switch off the power supply, and unplug all peripherals b
 - [Replacing the WiFi/Bluetooth card](#replacing-the-wireless-card)
 - [Accessing spare 2.5" drive screws](#accessing-spare-25-drive-screws)
 - [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
+- [Replacing the included 2.5“ backplane](#replacing-the-included-25-backplane)
+- [Installing an additional 2.5" or 3.5" bay](#installing-an-additional-25-or-35-bay)
 - [Replacing the power supply](#replacing-the-power-supply)
+- [Cleaning the side dust filter](#cleaning-the-side-dust-filter)
+- [Replacing the side fans](#replacing-the-side-fans)
 - [Cleaning the bottom dust filter](#cleaning-the-bottom-dust-filter)
 - [Replacing the bottom fans](#replacing-the-bottom-fans)
 - [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
 - [Replacing the Thelio Io board](#replacing-the-thelio-io-board)
-
-> [!NOTE]   
-> Because this is an upcoming model, some parts of this page are missing or incomplete.
-
-<!--
-- [Replacing the SATA backplane](#replacing-the-sata-backplane)
-- [Replacing the top I/O](#replacing-the-top-io)
-- [Troubleshooting the power button](#troubleshooting-the-power-button)
--->
+- [Replacing the front I/O](#replacing-the-front-io)
+- [Replacing the power button](#replacing-the-power-button)
 
 ## Removing the protective plastic:
 
@@ -315,6 +312,9 @@ Additional screws for 2.5" storage drives are stored under the top shell of the 
 
 1. Follow the steps above to [remove the left side panel](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), and [remove the top shell](#removing-the-top-shell).
 2. Pop the plastic ring out of the diagonal crossbar.
+
+![2.5" screws](./img/25-screws.webp)
+
 3. Slide four screws (per drive) out of the crossbar's cutout.
 4. Reinstall the plastic ring, top shell, front glass, and left side panel.
 
@@ -322,7 +322,7 @@ Additional screws for 2.5" storage drives are stored under the top shell of the 
 
 Thelio Mira B4-N4 supports up to two 2.5" SATA III drives.
 
-**Tools required:** Cross-head (Phillips) screwdriver (optional)  
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 7 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>  
 
@@ -332,10 +332,92 @@ Thelio Mira B4-N4 supports up to two 2.5" SATA III drives.
 
 ![2.5" drive cover](./img/25-cover.webp)
 
-2. If screws for your drive aren't already installed in the 2.5" drive cage, follow the steps above to [access the spare 2.5" drive screws](#accessing-spare-25-drive-screws).
+2. If screws for your drive aren't already installed in the 2.5" drive cage, follow the steps above to [remove the left side panel](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), [remove the top shell](#removing-the-top-shell), and [access the spare 2.5" drive screws](#accessing-spare-25-drive-screws).
 3. Insert four screws into each 2.5" storage drive you wish to install.
 4. Slide each 2.5" drive into one of the slots leading to the SATA backplane.
+    - The larger group of pins goes on the top.
+
+![2.5" drive installation](./img/25-drive-installation.webp)
+![2.5" drive (installed)](./img/25-drive-installed.webp)
+
 5. Replace the 2.5" drive bay cover.
+
+## Replacing the included 2.5" backplane:
+
+The backplane that connects 2.5" storage drives to the system upon insertion can be independently replaced using the steps below.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to replace the included 2.5" backplane:
+
+1. Follow the steps above to [remove the 2.5" backplate and any installed 2.5" storage drives](#addingremoving-25-storage-drives) and [remove the right side panel](#removing-the-side-panels).
+2. Unplug the SATA and power connectors from the back of the 2.5" backplane.
+
+![2.5" bay backplane](./img/25-backplane.webp)
+
+3. Unscrew the four screws holding the 2.5" backplane into the 2.5" bay.
+4. Remove the old backplane from the 2.5" bay by tilting it until it fits out the back of the bay.
+    - Alternatively, push the backplane out the back of the computer.
+5. Insert the new backplane into the 2.5" bay.
+    - The backplane should be oriented so the port labels are upside-down.
+6. Screw the new backplane into the 2.5" bay.
+7. Plug the SATA and power connectors into the new backplane.
+    - The order of the SATA data cables shouldn’t matter as long as your operating system and software is configured to address disks by UUID (e.g. `/dev/disk/by-id/...`) instead of by letter (e.g. `/dev/sd_`).
+    - By default, the ports connect as follows:
+        - `DATA0` (on the left) connects to `SATA3_A2` (on the left, farthest from the motherboard).
+        - `DATA1` (on the right) connects to `SATA3_A1` (on the right, closest to the motherboard).
+        - The 4-pin Berg adapter connects to a 4-pin Molex cable, which connects to the [power supply](#replacing-the-power-supply).
+
+## Installing an additional 2.5" or 3.5" bay:
+
+In addition to the included 2.5" bay, you can also install an additional 2.5" bay to add two additional 2.5" drive slots (for a total of four). Alternatively, you can install a 3.5" bay to add two 3.5" drive slots (in addition to the two included 2.5" drive slots).
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>  
+
+### Steps to install an additional 2.5" bay:
+
+1. Follow the steps above to [remove both side panels](#removing-the-side-panels) and [remove the front glass](#removing-the-front-glass); also remove the new 2.5" drive bay's cover (if installed).
+2. If it's not already installed, insert the 2.5" drive backplane into the 2.5" drive cage, then screw it in from the back.
+    - On the interior of the cage, the backplane's larger side gap should face towards the closed side of the cage.
+    - On the exterior of the cage, the orientation of the backplane will cause the port labels to be upside-down when the cage is installed in the Thelio.
+
+![2.5" drive cage backplane screws](./img/additional-25-backplane.webp)
+
+3. Screw the 2.5" drive cage onto the front of the chassis.
+
+![2.5" drive cage screws](./img/additional-25-cage-screws.webp)
+
+4. Connect the backplane to the top two SATA ports on the motherboard, and to the power supply.
+    - M.2 Slot 3 will be limited to PCIe NVMe Gen 3 speeds while either of the top SATA ports is connected.
+    - The SATA ports are located behind the dedicated GPU (if installed), but can be accessed from behind using the cutout behind the right side panel.
+5. If drive mounting screws weren't included with the additional 2.5" cage, [remove the top shell](#removing-the-top-shell) to [access the extra screws](#accessing-spare-25-drive-screws).
+6. Install any desired drives in the 2.5" cage.
+    - The drives should be oriented so the larger set of pins is on top.
+7. Install the 2.5" cage's cover.
+
+![Additional 2.5" drive cage cover](./img/additional-25-cover.webp)
+
+### Steps to install an additional 3.5" bay:
+
+1. Follow the steps above to [remove both side panels](#removing-the-side-panels) and [remove the front glass](#removing-the-front-glass).
+2. Screw the 3.5" drive cage onto the front of the chassis.
+
+![3.5" drive cage screws](./img/additional-35-cage-screws.webp)
+
+3. If drive mounting screws weren't included with the 3.5" cage, [remove the top shell](#removing-the-top-shell) to [access the extra screws](#accessing-spare-25-drive-screws).
+4. Install any desired drives in the 3.5" cage.
+    - The drives should be oriented so the larger portion faces the front of the chassis.
+5. After installing any desired drives in the 3.5" cage, install the 3.5" cage's cover.
+
+![3.5" drive cage cover](./img/additional-35-cover.webp)
+
+6. Connect any installed 3.5" drives to the top two SATA ports on the motherboard, and to the power supply.
+    - M.2 Slot 3 will be limited to PCIe NVMe Gen 3 speeds while either of the top SATA ports is connected.
+    - The SATA ports are located behind the dedicated GPU (if installed), but can be accessed from behind using the cutout behind the right side panel.
 
 ## Replacing the power supply:
 
@@ -344,10 +426,10 @@ Thelio Mira R4-N4 uses a standard SFX (small form-factor) power supply.
 **Part numbers:**
 - 1000W models:
     - Thermaltake `PS-STP-1000FNFAPU-1`
-- 850W models:
-    - Cooler Master `MPY-8501-SFHAGV`
-    - Lian Li `SP850G.B`
-    - Thermaltake `PS-STP-0850FNFAPU-1`
+    - Lian Li `SP1000P.B`
+    - ...or other equivalent
+- 850W model (pictured below; not a standard configuration): Cooler Master `MPY-8501-SFHAGV`
+- 750W model: Lian Li `SP750G.B` (or equivalent)
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 45 minutes  
@@ -355,7 +437,7 @@ Thelio Mira R4-N4 uses a standard SFX (small form-factor) power supply.
 
 ### Steps to replace the power supply:
 
-1. Follow the steps above to [remove the left side panel](#removing-the-side-panels).
+1. Follow the steps above to [remove the right side panel](#removing-the-side-panels).
 2. Unscrew the power supply's four screws from the back of the chassis.
 
 ![Power supply screws](./img/psu-screws.webp)
@@ -370,6 +452,70 @@ Thelio Mira R4-N4 uses a standard SFX (small form-factor) power supply.
 5. Connect the power cables to the new power supply.
     - If the new PSU is not the same model as the old one, it's recommended to completely remove the old power cables and replace them with the cables that came with the new PSU.
 6. Reinstall the right side panel.
+
+## Cleaning the side dust filters:
+
+The side intake fans are covered by individual dust filters, which can be removed for cleaning.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 10 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to clean the side dust filters:
+
+1. Follow the steps above to [remove the left side panel](#removing-the-side-panels).
+2. Unscrew the four screws holding the fan panel onto the side panel.
+    - Do not unscrew any of the six sideways screws.
+
+![Side fan panel screws](./img/side-fan-panel-screws.webp)
+
+3. Unscrew the four screws (per fan) holding the dust filter and fan onto the panel.
+
+![Side fan screws](./img/side-fan-screws.webp)
+
+4. Pull the dust filters off of the panel.
+    - If you're not replacing the fans, leave them in place under the panel to keep them in the correct orientation.
+5. Clean dust out of the dust filter using compressed air or gentle running water.
+    - If liquid is used to clean the dust filter, wait until the dust filter has completely dried before reinstalling it.
+6. Reinstall each dust filter.
+    - The glossy side of the dust filter should face away from the panel; the matte side should face towards the panel.
+    - The curved/glossy side of the washer faces the screw head; the flat/matte side faces the dust filter.
+    - From bottom to top, the order of components should be: fan, panel, dust filter, washer, screw.
+7. Reattach the fan panel to the rest of the left side panel.
+    - The pogo pins should be visible and nearest to the top of the panel.
+8. Reinstall the left side panel.
+
+## Replacing the side fans:
+
+The two 120mm side intake fans can be individually replaced.
+
+**Part numbers:**
+- Side fans: Be Quiet! Silent Wings 4 120mm (`SIW4-12025-MF-PWM`)
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 25 minutes  
+**Difficulty:** Easy <span style="color:green;">●</span>
+
+### Steps to replace the side fans:
+
+1. Follow the steps above to [remove the left side panel](#removing-the-left-side-panel) and [remove the side fan dust filters and screws](#cleaning-the-side-dust-filters).
+2. Disconnect then fan(s) being replaced from the pogo pin fan splitter.
+    - By default, the fan pictured on the left is plugged into the left connector of the splitter, and the fan pictured on the right is plugged into the right connector. However, both connectors provide the same signal.
+
+![Side fan cables](./img/side-fan-cables.webp)
+
+3. Unfasten the velcro strips and free the fan cables.
+4. Pull each fan being replaced away from the panel, passing the end of the cable through the channel in the panel.
+5. Place the new fan(s) under the panel.
+    - With the panel oriented as shown above, both fans should be oriented so their cables point towards the top left.
+    - The spinning side of the fan should face through the panel, while the stationary cover should face away from the panel.
+5. Screw each fan into the panel along with its corresponding dust filter.
+    - The glossy side of the dust filter should face away from the panel; the matte side should face towards the panel.
+    - The curved/glossy side of the washer faces the screw head; the flat/matte side faces the dust filter.
+    - From bottom to top, the order of components should be: fan, panel, dust filter, washer, screw.
+7. Reattach the fan panel to the rest of the left side panel.
+    - The pogo pins should be visible and nearest to the top of the panel.
+8. Reinstall the left side panel.
 
 ## Cleaning the bottom dust filter:
 
@@ -396,9 +542,12 @@ The bottom intake fans are covered by a dust filter, which can be removed for cl
 
 ## Replacing the bottom fans:
 
-The two bottom intake fans can be individually replaced.
+The two 140mm bottom intake fans can be individually replaced.
 
-**Tools required:** Cross-head (Phillips) screwdriver, thermal paste  
+**Part numbers:**
+- Bottom fans: Be Quiet! Silent Wings 4 140mm (`SIW4-14025-MF-PWM`)
+
+**Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 20 minutes  
 **Difficulty:** Easy <span style="color:green;">●</span>
 
@@ -433,7 +582,7 @@ Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from
 1. Follow the steps above to [remove the left and right side panels](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), and [remove the top shell](#removing-the-top-shell).
 2. Unfasten the velcro strip to free the CPU cooler's signal cables from behind the motherboard.
     - The braided cable leading to the `FANIN1` port of the Thelio Io board plugs into the motherboard's `CPU_FAN1` header.
-    - The thinner cable leading to the CPU cooler pump plugs into the motherboard's `CPU_FAN2`/`AIO_PUMP` header.
+    - The thinner cable leading to the CPU cooler pump plugs into the motherboard's `AIO_PUMP` header.
 
 ![CPU cooler cables](./img/cpu-cooler-cables.webp)
 
@@ -443,7 +592,7 @@ Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from
 
 ![CPU cooler pump screws](./img/cpu-cooler-pump.webp)
 
-4. Unplug the CPU cooler pump from the `CPU_FAN2`/`AIO_PUMP` header on the motherboard, highlighted cyan above.
+4. Unplug the CPU cooler pump from the `AIO_PUMP` header on the motherboard, highlighted cyan above.
 5. Unplug the combined CPU cooler fan cable from the fan splitter board next to the motherboard, highlighted green above.
 6. Unfasten the velcro strip holding the CPU cooler's liquid tubes to the back of the chassis, highlighted yellow above.
 7. While holding the radiator in place so it doesn't fall, unscrew the eight silver screws holding the radiator on from the top of the chassis.
@@ -506,8 +655,9 @@ Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from
 5. While holding the cooler's radiator in place against the top of the chassis, screw it in from above using its eight silver screws.
     - Again, partially install all eight screws first to ensure alignment, then go back and tighten them all.
 6. Set the computer upright.
-7. Plug the cooler pump into the `CPU_FAN2`/`AIO_PUMP` header at the top right corner of the motherboard.
-8. Plug the fan cable into the top header of the fan splitter to the right of the motherboard.
+7. Plug the cooler pump into the `AIO_PUMP` header at the top right corner of the motherboard.
+8. Plug the fan cable into the fan splitter to the right of the motherboard.
+    - By default, the cable plugs into the bottom header; both headers provide the same signal.
 9. Pull the excess cooler pump cable through the cable management cutout above the motherboard, and secure it behind the motherboard along with the braided motherboard fan input cable using the velcro strap.
 10. Hold the liquid tubes against the back of the chassis and secure them in place using the velcro strap.
 11. Reinstall the top shell, front glass, and both side panels.
@@ -581,3 +731,80 @@ Named after Jupiter's moon Io, the Thelio Io daughterboard handles the front pow
         - A small clip needs to be held down to unplug this cable from the Thelio Io board.
         
     ![Motherboard bottom headers](./img/motherboard-headers-bottom.webp)
+
+## Replacing the front I/O:
+
+The front I/O board (containing the front USB and audio ports) can be replaced if necessary.
+
+**Part numbers:**
+- I/O board: `MYS7823` (Rev. `A01`)
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 35 minutes  
+**Difficulty:** High <span style="color:red;">●</span>  
+
+### Steps to replace the front I/O:
+
+1. Follow the steps above to [remove both side panels](#removing-the-side-panels).
+2. If installed, [remove the additional 2.5" or 3.5" drive bay](#installing-an-additional-25-or-35-bay).
+3. From the left side of the case, unscrew the two screws holding the I/O board in place.
+
+![I/O board screws](./img/front-io-screws.webp)
+
+4. From the right side of the case, unfasten the velcro straps holding the I/O board's cabling in place.
+    - All four cables pass through the first two velcro straps (highlighted green below).
+    - The three USB cables pass through the third velcro strap (highlighted cyan).
+
+![I/O board cabling](./img/front-io-cabling.webp)
+
+5. Unplug the I/O board's cables from the `USB32_TC1` and `USB32_5_6` headers on the right side of the motherboard (above the GPU), and the `HD_AUDIO1` header at the bottom left of the motherboard (below the GPU).
+
+![I/O board headers (USB)](./img/front-io-headers-usb.webp)<br/><br/>
+![I/O board header (audio)](./img/front-io-header-audio.webp)
+
+6. Plug the new I/O board's cables into the same headers.
+7. Fasten the new I/O board's cables into the velcro straps.
+8. Slide the new I/O board into its cutout on the front of the chassis, then screw it into place.
+    - Ensure the ports extend all the way through the front accent's cutouts before inserting the screws.
+9. Reinstall the side panels.
+
+## Replacing the power button:
+
+The power button can be replaced independently of the surrounding front panel.
+
+**Part numbers:**
+- Power button: `PB-02A-19-RF-BOW` (stainless steel, white LED)
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 35 minutes  
+**Difficulty:** High <span style="color:red;">●</span> 
+
+### Steps to troubleshoot the power button:
+
+1. Ensure the power supply switch on the back of the computer is set to the `1` position.
+    - If it was set to `0`, change it to `1` and try powering on the computer again.
+2. Follow the steps above to [remove the left side panel](#removing-the-side-panels).
+3. Press the white `POWER` button on the right side of the Thelio Io's chassis cutout, located behind the radiator fans at the top of the chassis.
+
+![Thelio Io power button](./img/thelio-io-power-button.webp)
+
+4. If the system powers on with the `POWER` button, then the front power button or its connection to the [Thelio Io board](#thelio-io-wiring-guide) may be faulty. Proceed to the next section to try re-plugging or replacing the power button.
+    - If the system doesn't power on with the `POWER` button, the Thelio Io board or another component (such as the motherboard or power supply) may be faulty, or a connection between those components may be missing. Check the [Thelio Io wiring](#thelio-io-wiring-guide) and the [power supply cabling](#replacing-the-power-supply).
+
+### Steps to replace the power button:
+
+1. Follow the steps above to [remove both side panels](#removing-the-side-panels) and [remove the front glass](#removing-the-front-glass).
+2. Unscrew the two screws holding the front accent onto the chassis.
+
+![Front accent screws](./img/front-accent-screws.webp)
+
+3. Unplug the power button from the `FRONT PANEL`/`PFP1` port at the top left of the [Thelio Io board](#thelio-io-wiring-guide).
+4. Unscrew the power button through the front of the accent.
+    - A gripping pad or tool may be required to loosen the button.
+5. Screw the new power button into the accent.
+6. Plug the new power button into the `FRONT PANEL`/`PFP1` port on the Thelio Io board with the red wire on the left (facing the power button).
+    - The wires connected to the power button should be laid out as shown below:
+    ![Power button wiring](./img/power-button-wiring.jpg)
+7. Place the front accent against the front panel and screw it into place from behind.
+    - Ensure the front I/O ports are properly aligned within the accent while screwing in the accent. If necessary, [unscrew the front I/O ports](#replacing-the-front-io) to adjust them.
+8. Reinstall the front glass and side panels.

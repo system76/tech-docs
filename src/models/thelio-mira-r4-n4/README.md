@@ -74,18 +74,22 @@ The System76 Thelio Mira is a desktop with the following specifications:
     - Wi-Fi 7 + Bluetooth 5.2 (MediaTek MT7927 or MediaTek MT7925)
 - Power
     - C13 power cord
-    - 850W minimum PSU
+    - 750W minimum PSU
         - Some GPU configurations require 1000W PSU
     - SFX form factor
     - Tested with the following PSU models (may ship with other tested models):
         - 1000W:
+            - [Lian Li SP1000P (Black)](https://lian-li.com/product/sp-platinum/)
             - [Thermaltake Toughpower Platinum (PS-STP-1000FNFAPU-1)](https://thermaltakeusa.com/products/toughpower-sfx-platinum-1000w-tt-premium-edition-ps-stp-1000fnfapu-1)
-        - 850W:
-            - [Cooler Master V850 Gold (MPY-8501-SFHAGV)](https://www.coolermaster.com/en-global/products/v850-sfx-gold/)
-            - [Lian Li SP850](https://lian-li.com/product/sp850/)
-            - [Thermaltake Toughpower Platinum (PS-STP-0850FNFAPU-1)](https://thermaltakeusa.com/products/toughpower-sfx-platinum-850w-tt-premium-edition-ps-stp-0850fnfapu-1)
+        - 750W:
+            - [Lian Li SP750G (Black)](https://lian-li.com/product/sp750/)
 - Sound
-    - 3.5mm line out, line in, microphone jacks
+    - Back:
+        - 3.5mm line out
+        - 3.5mm mic in
+        - S/PDIF digital audio out
+    - Front:
+        - 3.5mm combo jack
     - Up to 7.1-channel audio output
     - Realtek ALC1220 audio chipset
     - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
@@ -98,10 +102,10 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - USB
     - Back ports:
         - 2x USB4 Type-C
-        - 4x USB 3.2 Gen 1 Type-A
-        - 6x USB 2.0 Type-A
-    - Top ports:
-        - 1x USB 3.2 Gen 2
-        - 1x USB 3.2 Gen 1 Type-A
+        - 4x USB 3.2 Gen 1 (Type-A)
+        - 6x USB 2.0 (Type-A)
+    - Front ports:
+        - 1x USB 3.2 Gen 2 (Type-C)
+        - 2x USB 3.2 Gen 1 (Type-A)
 - Dimensions
     - 44.0cm × 25.4cm × 38.4cm

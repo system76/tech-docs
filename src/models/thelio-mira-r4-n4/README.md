@@ -61,9 +61,9 @@ The System76 Thelio Mira is a desktop with the following specifications:
         - Disabled if second M.2 drive is installed
 - Memory
     - Up to 192GB (4x48GB) dual-channel DDR5 DIMMs
-        - 192GB (4x48GB) and 128GB (4x32GB) configurations run at 3200 MHz
-        - 96GB (2x48GB) configuration runs at 6400 MHz
-        - 64GB (2x32GB) and 32GB (1x32GB) configurations run at 5600 MHz
+        - 192GB (4x48GB) and 128GB (4x32GB) configurations run at 3600 MHz
+        - 96GB (2x48GB), 64GB (2x32GB), 32GB (1x32GB), and 24GB (1x24GB) configurations run at 5600 MHz
+        - 16GB (1x16GB) configuration runs at 5200 MHz
         - Motherboard supports up to 256GB (4x64GB) @ 8000+ MHz w/ overclocking (not tested)
     - Tested with the following RAM modules (may ship with other tested modules):
         - [Team CTCED596G6400HC32ADC01](https://www.teamgroupinc.com/en/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-black/expert-u-dimm-ddr5-black-CTCED596G6400HC32ADC01/) (48GB/stick @ 6400 MHz)

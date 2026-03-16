@@ -121,10 +121,12 @@ The top shell of the chassis can be removed to access the 2.5" drive screws.
 
 Thelio Mira B4-N4 supports up to 192GB (4x48GB) of DDR5 (non-ECC) RAM.
 
-- With up to 64GB of RAM, the RAM runs at a speed of 5600 MHz.
-- 96GB (2x48GB) of RAM runs at 6400 MHz.
-- 128GB and above (with four DIMMs) runs at 3200 MHz.
-- Greater RAM amounts and speeds may be possible with aftermarket upgrades and overclocking, but are not tested or guaranteed.
+- The 1x16GB factory configuration runs at a speed of 5200 MHz.
+- With 24GB (1x24GB) to 96GB (2x48GB) of RAM, the RAM runs at a speed of 5600 MHz.
+- 128GB and above (with four DIMMs) runs at 3600 MHz.
+- Greater RAM amounts and speeds may be possible with aftermarket upgrades and overclocking.
+    - 96GB (2x48GB) has been tested to run at 6400 MHz with DIMMs supporting that speed.
+    - Other amounts and speeds are not tested or guaranteed.
 
 If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
 

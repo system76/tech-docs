@@ -15,6 +15,7 @@ git-repository-url = "https://github.com/system76/tech-docs"
 git-repository-icon = "fab-github"
 no-section-label = true
 sidebar-header-nav = false
+google-analytics = "G-H37KSF3165"
 
 [output.html.fold]
 enable = true

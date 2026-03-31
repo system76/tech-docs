@@ -19,7 +19,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Jackal Pro 2U (jacp2-b2)](models/jacp2-b2/README.md)
 - [Kudu (kudu6)](models/kudu6/README.md)
 - [Launch (launch\_3b)](models/launch_3b/README.md)
-- [Launch Heavy (launch\_heavy\_3)](models/launch_heavy_3/README.md)
+- [Launch Heavy (launch\_heavy\_3b)](models/launch_heavy_3b/README.md)
 - [Launch Lite (launch\_lite\_1)](models/launch_lite_1/README.md)
 - [Lemur Pro (lemp13)](models/lemp13/README.md)
 - [Meerkat (meer10)](models/meer10/README.md)

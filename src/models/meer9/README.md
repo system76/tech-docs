@@ -31,7 +31,7 @@ The System76 Meerkat is a desktop with the following specifications:
     - Core Ultra 7 model:
         - 120W (19V, 6.32A) DC-in port
             - Barrel size: 5.5mm (outer), 2.5mm (inner)
-        - Included AC adapter*: AcBel ADC017
+        - Included AC adapter*: AcBel ADC027
             - AC power cord type: IEC C5
     - Core Ultra 5 model:
         - 90W (19V, 4.74A) DC-in port

@@ -569,10 +569,12 @@ The two 140mm bottom intake fans can be individually replaced.
 
 ## Replacing the CPU cooler and CPU:
 
-Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from the CPU to the radiator, where the CPU cooler's fans expel it from the system. Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler may help the system run cooler.
+Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from the CPU to the radiator, where the CPU cooler's fans expel it from the system. Supported cooler sizes are 280mm (2x140mm) and 240mm (2x120mm). Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler may help the system run cooler.
 
 **Part numbers:**
-- The CPU cooler is an [ID-Cooling Frostflow X 280](http://www.idcooling.com/product/detail?id=300&name=FROSTFLOW%20X%20280).
+- CPU cooler (280mm or 240mm):
+    - [ID-Cooling Frostflow X 280](http://www.idcooling.com/product/detail?id=300&name=FROSTFLOW%20X%20280)
+    - ...or equivalent.
 - The CPU uses an AMD AM5 socket.
 
 **Tools required:** Cross-head (Phillips) screwdriver, thermal paste  

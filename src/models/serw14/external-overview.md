@@ -39,13 +39,13 @@ The Serval WS has the following LED indicators:
 
 |Icon                                    |Color          |Description                      |
 |----------------------------------------|---------------|---------------------------------|
-|![Power LED](./img/led-power.png)       |Orange         |Powered off, DC power plugged in |
+|![Power LED](./img/led-power.avif)      |Orange         |Powered off, DC power plugged in |
 |                                        |Green          |Powered on                       |
 |                                        |Blinking green |Sleeping (suspended)             |
-|![Battery LED](./img/led-battery.png)   |Orange         |Battery charging                 |
+|![Battery LED](./img/led-battery.avif)  |Orange         |Battery charging                 |
 |                                        |Green          |Battery fully charged            |
 |                                        |Blinking orange|Battery critically low           |
-|![Storage LED](./img/led-storage.png)   |Green          |Storage drive activity           |
+|![Storage LED](./img/led-storage.avif)  |Green          |Storage drive activity           |
 
 ### Keyboard Shortcuts
 

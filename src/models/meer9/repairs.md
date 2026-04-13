@@ -120,7 +120,7 @@ A CMOS reset will restore the UEFI firmware settings to their factory defaults, 
 2. Disconnect the CMOS battery connector (labeled `RTCBAT` on the motherboard).
     - Try to pull the plug, not the wires.
 
-![CMOS battery connector](./img/cmos-connector.webp)
+![CMOS battery connector](./img/cmos-battery.webp)
 
 3. Hold down the power button for at least 15 seconds to discharge any residual energy in the system.
 4. Reconnect the CMOS battery.

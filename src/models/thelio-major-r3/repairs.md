@@ -433,7 +433,6 @@ The Thelio-IO board handles the front power button, fan control, and 2.5" SATA c
     ![SATA connectors on motherboard](./img/motherboard-sata-usb-power-headers.webp)
     - **6\*:** `PFP0` - to the [power button receptacle](#troubleshooting-the-power-button) on the front panel.
     - **7\*:** `USB0` - to the `F_USB1` header on motherboard, highlighted cyan above.
-    ![USB connector on the motherboard](./img/motherboard-usb-header.webp)
         - On the Thelio-IO board, the row of four pins plugs in, while the row of five pins hangs off the back and does not plug in.
         - This connector provides fan control and firmware updates.
     - **8\*:** `PMB0` - to the `+PLED-` and `+PW-` pins (the four top-left pins of the `F_PANEL` header) on the motherboard, highlighted red above.

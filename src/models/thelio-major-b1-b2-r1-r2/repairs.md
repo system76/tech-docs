@@ -3,7 +3,7 @@
 ### [BIOS](#bios)
 - [M.I.T.](#mit)
 - [System](#system)
-- [BIOS Menu](#biosmenu)
+- [BIOS Menu](#bios-menu)
 - [Peripherals](#peripherals)
 - [Chipset](#chipset)
 - [Power](#power)
@@ -101,7 +101,7 @@ END : Q-Flash
 ## Removing the Top Case
 Before servicing your Thelio, be sure to power off and unplug all cords from the computer.
 
-You can find video instructions on this process [here.](https://youtu.be/Ku91wRHFGY8)
+You can find video instructions on this process at [youtu.be/Ku91wRHFGY8](https://youtu.be/Ku91wRHFGY8).
 
 **Tools required:** Fingers or Cross-head (Phillips) screwdriver
 
@@ -486,11 +486,7 @@ You can use the following tables to determine the placement of your RAM modules 
 
 ## Removing RAM Sticks
 
-You can find video instructions on this process [here.](https://youtu.be/OFv8ByuDGU0)
-
-Link for the video for RAM Service:
-(https://youtu.be/OFv8ByuDGU0)
-
+You can find video instructions on this process at [youtu.be/OFv8ByuDGU0](https://youtu.be/OFv8ByuDGU0).
 
 **Tools required:** Fingers or Crosshead (Phillips) screwdriver (for Top Case)
 
@@ -502,7 +498,7 @@ Link for the video for RAM Service:
   - 12 Thumbscrews (Phillips/Crosshead).
 
   1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
-  2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Duct.](#removing-the-duct)
+  2. It may be helpful, but is not necessary, to [Remove the CPU Cooler Duct.](#removing-the-cpu-cooler-duct)
   <!--it may be necessary on this model.-->
   3. Press simultaneously on each clip on either side of the RAM stick (fig 21 above). These clips will release the RAM stick and lever it out of it’s slot on the board.
   4. Gently, but firmly pull the RAM straight out of the slot, and set aside.
@@ -569,10 +565,7 @@ Link for the video for RAM Service:
 ## Removing the GPU
 
 In this guide, you will learn how to remove the graphics card on your Thelio. These steps must be taken in order to replace the GPU.
-You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
-
-Link for the video for GPU removal:
-(https://youtu.be/3bUcp0S1HrE)
+You can find video instructions on this process at [youtu.be/3bUcp0S1HrE](https://youtu.be/3bUcp0S1HrE).
 
 For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well as a wooden or plastic (non-conductive) tool for reaching between components. A pencil, ruler, chopsticks or a plastic computer repair tool will work well. **Do not use anything made of metal.**
 
@@ -588,13 +581,13 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 **Before you remove the lid, be sure to power off and unplug all cords from the computer.**
 
 1. First follow the steps in [Removing the Top Case.](#removing-the-top-case)
-2. It may also be helpful to [Remove the CPU Cooler Duct.](#removing-the-duct)
+2. It may also be helpful to [Remove the CPU Cooler Duct.](#removing-the-cpu-cooler-duct)
 3. To remove your graphics card, twist off the 3 thumbscrews from the PCI bracket.
 4. Remove the GPU brace. Unscrew the bottom two screws, and then the top two screws, to remove the brace. Both the PCI bracket and the GPU brace keep your graphics card secure and in place (Fig 23).
 5. Remove the GPU from the PCIe slot by pressing on the release clip on the right. This is where your chosen (non-metal) poking tool may come in handy, to reach the clip on the board without trying to squeeze your hand between components.
 6. Disconnect the power cables from the GPU (if applicable), and tie back any cables you are not planning on using with the provided velcro straps.
 7. Now you are ready to install an alternative or [replacement GPU.](#replacing-the-gpu)
-8. If you are not planning on installing another GPU follow the steps to [Replace the CPU Cooler Duct,](#replacing-the-duct) [Replace the Top Case,](#replacing-top-case) and reconnect all cables and peripherals.
+8. If you are not planning on installing another GPU follow the steps to [Replace the CPU Cooler Duct,](#replacing-the-cpu-cooler-duct) [Replace the Top Case,](#replacing-the-top-case) and reconnect all cables and peripherals.
 
 <!--[Removing the thumbscrews and GPU Bracket](../../pictures/thelio/thelio-b1/)
 
@@ -663,11 +656,7 @@ For this procedure, a Cross-head (Phillips) screwdriver may be helpful, as well 
 # Drives (Remove or Replace)
 
 In this guide, you will learn how to remove or replace drives in your Thelio.
-You can find video instructions on this process [here.](https://youtu.be/6fIeVEaY7dE)
-
-Link for the video for Drive Service removal:
-(https://youtu.be/6fIeVEaY7dE)
-
+You can find video instructions on this process at [youtu.be/6fIeVEaY7dE](https://youtu.be/6fIeVEaY7dE).
 
 ## 2.5" SATA Drives
 
@@ -691,10 +680,7 @@ The Thelio Major R2 has three (3) M.2 drive slots. One on the board, above the P
 
 The Thelio Major B2 has one two (2) M.2 Drive slots. One on above the top PCIe slot, and one below the top PCIe slot (**Fig. 53**).
 
-Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Duct and/or GPU to gain easier access. You can find video instructions on this process [here.](https://youtu.be/3bUcp0S1HrE)
-
-Link for the video for GPU removal:
-(https://youtu.be/3bUcp0S1HrE)
+Depending on the M.2 drive slot you intend to use, remove the CPU Cooler Duct and/or GPU to gain easier access. You can find video instructions on this process at [youtu.be/3bUcp0S1HrE](https://youtu.be/3bUcp0S1HrE).
 
 ## Replacing a 2.5 Drive
 
@@ -775,13 +761,13 @@ Removing an M.2 may require removal of the GPU or CPU Cooler Duct for easier acc
   - 1 M.2 securing screw (per Drive).
 
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
-2. [Remove the CPU Cooler Duct](#removing-the-duct) (if applicable).
+2. [Remove the CPU Cooler Duct](#removing-the-cpu-cooler-duct) (if applicable).
 3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Gently, but firmly remove the M.2 drive horizontally from the slot.
 6. Replace the screw, fastening the M.2 in place.
 7. [Replace the GPU](#replacing-the-gpu) (if applicable).
-8. [Replace the CPU Cooler Duct](#replacing-the-duct) (if applicable).
+8. [Replace the CPU Cooler Duct](#replacing-the-cpu-cooler-duct) (if applicable).
 9. [Replace the Top Case.](#replacing-the-top-case)
 10. Reconnect all cables and peripherals.
 
@@ -803,14 +789,14 @@ Replacing an M.2 drive may require removal of the GPU or CPU Cooler Duct for eas
   - 1 M.2 securing screw (per Drive).
 
 1. Follow the steps to [Remove the Top Case.](#removing-the-top-case)
-2. [Remove the CPU Cooler Duct](#removing-the-duct) (if applicable).
+2. [Remove the CPU Cooler Duct](#removing-the-cpu-cooler-duct) (if applicable).
 3. [Remove the GPU](#removing-the-gpu) (if applicable).
 4. Unscrew the M.2 screw opposite the M.2 slot. Set it safely aside.
 5. Line up the notch on the M.2 drive.
 6. Insert the new drive into its port on the motherboard.
 7. Replace the screw, fastening the M.2 in place.
 8. [Replace the GPU](#replacing-the-gpu) (if applicable).
-9. [Replace the CPU](replacing-the-cooler) Cooler Duct (if applicable).
+9. [Replace the CPU](#replacing-the-cpu-cooler-duct) Cooler Duct (if applicable).
 10. [Replace the Top Case.](#replacing-the-top-case)
 11. Reconnect all cables and peripherals.
 
@@ -851,7 +837,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Duct. It may also 
 <!-- all of these screw numbers will need verified-->
 
 1. Follow the steps in [Removing the Top Case.](#removing-the-top-case)
-2. Follow the steps in [Removing the CPU Cooler Duct.](#removing-the-duct)
+2. Follow the steps in [Removing the CPU Cooler Duct.](#removing-the-cpu-cooler-duct)
 3. Follow the steps in [Removing the GPU](#removing-the-gpu) (if applicable).
 4. Gently but firmly separate the Cooling Fans from the Heat Sink. The fans are held on by clips which can be pried from the sides of the heat sink.
 5. Next, disconnect the power cables from the Cooling Fans.
@@ -863,7 +849,7 @@ Removing CPU thermal paste requires removal of the CPU Cooler Duct. It may also 
 11. Replace the Heat Sink over the CPU core.
 12. Re-fasten the Heat Sink screws, again using the opposite corner method described above.
 13. Follow the steps to [Replace the GPU](#replacing-the-gpu) (if applicable).
-14. Follow the steps to [Replace the CPU Cooler Duct.](#replacing-the-duct)
+14. Follow the steps to [Replace the CPU Cooler Duct.](#replacing-the-cpu-cooler-duct)
 15. Follow the steps to [Replace the Top Case.](#replacing-the-top-case)
 
 
@@ -913,7 +899,7 @@ Replacing CPU thermal requires removal of the CPU Cooler Duct. It may also requi
 5. Once the Heat Sink is fastened down, clip the CPU Cooling Fans back onto the Heat Sink.
 6. Reconnect the power cables to the CPU Cooling Fans.
 7. Follow the steps in [Replacing the GPU](#replacing-the-gpu) (if applicable).
-8. Next, follow the steps in [Replacing the CPU Cooler Duct.](#replacing-the-duct)
+8. Next, follow the steps in [Replacing the CPU Cooler Duct.](#replacing-the-cpu-cooler-duct)
 9. Follow the steps in [Replacing the Top Case.](#replacing-the-top-case)
 10. Reconnect all external cables and peripherals, and turn the Power Supply switch to the “on” position.
 11. Power on the Thelio to ensure successful boot.

@@ -11,7 +11,7 @@ This page uses photos of the `launch_3b` revision, which is identical in structu
 
 ## Connecting and using Launch:
 
-![Launch ports](./img/ports-back.avif)
+<span class="text-on-transparency">![Launch ports](./img/ports-back.avif)</span>
 
 1. Connect the USB-C side of either the USB-C/USB-C or USB-C/USB-A cable to the Launch's center USB-C port, shown above.
 2. Connect the other side of the cable to your computer.

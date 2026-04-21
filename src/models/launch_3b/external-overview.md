@@ -6,7 +6,7 @@
 
 ## Back overview:
 
-![Launch Ports](./img/ports-back.avif)
+<span class="text-on-transparency">![Launch Ports](./img/ports-back.avif)</span>
 
 ## Box contents overview:
 

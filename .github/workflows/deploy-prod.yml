@@ -24,10 +24,8 @@ jobs:
         run: mdbook build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.RELEASE_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./book
-          force_orphan: true
-          cname: 'tech-docs.system76.com'
+        run: aws s3 sync ./book s3://${{ secrets.PRODUCTION_AWS_S3_BUCKET }}/tech-docs --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.PRODUCTION_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.PRODUCTION_AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.PRODUCTION_AWS_REGION }}

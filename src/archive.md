@@ -63,6 +63,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Serval WS (serw12)](models/serw12/README.md)
 - [Thelio (thelio-r3-n1)](models/thelio-r3-n1/README.md)
 - [Thelio (thelio-b4)](models/thelio-b4/README.md)
+- [Thelio Major (thelio-major-r5-n3)](models/thelio-major-r5-n3/README.md)
 - [Thelio Major (thelio-major-r3)](models/thelio-major-r3/README.md)
 - [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/README.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/README.md)

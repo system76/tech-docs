@@ -1,5 +1,5 @@
 [book]
-authors = ["Jeremy Soller"]
+authors = ["Jacob Kauffmann", "Jeremy Soller"]
 language = "en"
 src = "src"
 title = "System76 Technical Documentation"

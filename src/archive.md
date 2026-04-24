@@ -54,6 +54,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Oryx Pro (oryp8)](models/oryp8/README.md)
 - [Oryx Pro (oryp7)](models/oryp7/README.md)
 - [Oryx Pro (oryp6)](models/oryp6/README.md)
+- [Pangolin (pang15)](models/pang15/README.md)
 - [Pangolin (pang14)](models/pang14/README.md)
 - [Pangolin (pang13)](models/pang13/README.md)
 - [Pangolin (pang12)](models/pang12/README.md)

@@ -15,8 +15,7 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
-  // Uncomment the next line to run commands after the container is created.
-  // "postCreateCommand": "cat /etc/os-release",
+  "postCreateCommand": "",
 
   "mounts": [
     "source=devcontainer-bash-history,target=/history,type=volume"
@@ -27,10 +26,14 @@
     "vscode": {
       "extensions": [
         "astro-build.astro-vscode",
+        "unifiedjs.vscode-mdx",
         "Vue.volar"
       ]
     }
-  }
+  },
+
+  "remoteUser": "node",
+  "updateRemoteUserUID": true
 
   // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "devcontainer"

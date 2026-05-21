@@ -6,12 +6,13 @@
     "dev": "astro dev --host 0.0.0.0",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro preview --host 0.0.0.0",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.39.2",
     "astro": "^6.3.1",
+    "astro-rehype-relative-markdown-links": "^0.19.0",
     "sharp": "^0.34.5"
   }
 }

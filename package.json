@@ -1,5 +1,5 @@
 {
-  "name": "beneficial-belt",
+  "name": "tech-docs",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,13 +7,20 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview --host 0.0.0.0",
-    "astro": "astro"
+    "astro": "astro",
+    "convert": "node scripts/md-to-mdx.ts"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.39.2",
-    "astro": "^6.3.1",
+    "@types/mdast": "^4.0.4",
+    "astro": "^6.3.8",
     "astro-rehype-relative-markdown-links": "^0.19.0",
     "remark": "^15.0.1",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.1",
+    "remark-frontmatter": "^5.0.0"
   }
 }

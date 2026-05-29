@@ -1,4 +1,6 @@
-# Introduction
+---
+title: Introduction
+---
 
 [System76](https://system76.com) provides laptops, desktops, servers, and accessories.
 This book contains technical documentation for System76 hardware.
@@ -39,4 +41,4 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Previous Models
 
-- See [Previous Models](archive.md).
+- See [Previous Models](./archive.md).

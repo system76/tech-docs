@@ -1,4 +1,6 @@
-# Oryx Pro (External Overview)
+---
+title: Oryx Pro (External Overview)
+---
 
 ## Left side overview:
 

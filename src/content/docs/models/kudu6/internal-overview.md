@@ -1,4 +1,6 @@
-# Kudu (Internal Overview)
+---
+title: Kudu (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

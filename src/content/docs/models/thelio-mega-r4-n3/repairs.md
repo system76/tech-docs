@@ -1,4 +1,6 @@
-# Thelio Mega (Parts & Repairs)
+---
+title: Thelio Mega (Parts & Repairs)
+---
 
 Many components in your Thelio Mega can be upgraded or replaced as necessary. This page uses photos of the the R4-N3 revision, which indicates:
 

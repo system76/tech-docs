@@ -1,4 +1,6 @@
-# Launch (launch_3)
+---
+title: Launch (launch_3)
+---
 
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)

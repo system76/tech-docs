@@ -1,4 +1,6 @@
-# Thelio Astra (Parts & Repairs)
+---
+title: Thelio Astra (Parts & Repairs)
+---
 
 Many components in your Thelio Astra can be upgraded or replaced as necessary. This page uses photos of the the A1-N1 revision, which indicates:
 

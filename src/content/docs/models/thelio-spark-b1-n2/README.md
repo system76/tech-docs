@@ -1,4 +1,6 @@
-# Thelio Spark (thelio-spark-b1-n2)
+---
+title: Thelio Spark (thelio-spark-b1-n2)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

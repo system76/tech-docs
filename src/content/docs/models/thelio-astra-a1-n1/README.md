@@ -1,4 +1,6 @@
-# Thelio Astra (thelio-astra-a1-n1)
+---
+title: Thelio Astra (thelio-astra-a1-n1)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

@@ -1,4 +1,6 @@
-# Launch Heavy (launch\_heavy\_3)
+---
+title: Launch Heavy (launch_heavy_3)
+---
 
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)

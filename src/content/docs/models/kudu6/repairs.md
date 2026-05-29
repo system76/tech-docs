@@ -1,4 +1,6 @@
-# Kudu (Parts & Repairs)
+---
+title: Kudu (Parts & Repairs)
+---
 
 Many components in your Kudu can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

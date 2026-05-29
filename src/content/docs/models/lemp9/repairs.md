@@ -1,4 +1,6 @@
-# Lemur Pro (Parts & Repairs)
+---
+title: Lemur Pro (Parts & Repairs)
+---
 
 Many components in your Lemur Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

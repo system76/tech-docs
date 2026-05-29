@@ -1,4 +1,6 @@
-# Meerkat (Parts & Repairs)
+---
+title: Meerkat (Parts & Repairs)
+---
 
 Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 

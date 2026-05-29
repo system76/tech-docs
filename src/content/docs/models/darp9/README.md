@@ -1,4 +1,6 @@
-# Darter Pro (darp9)
+---
+title: Darter Pro (darp9)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

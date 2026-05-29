@@ -1,4 +1,6 @@
-# Oryx Pro (oryp7)
+---
+title: Oryx Pro (oryp7)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

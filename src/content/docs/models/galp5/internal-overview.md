@@ -1,4 +1,6 @@
-# Galago Pro (Internal Overview)
+---
+title: Galago Pro (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

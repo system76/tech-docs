@@ -1,4 +1,6 @@
-# Thelio Mira (thelio-mira-b4-n3)
+---
+title: Thelio Mira (thelio-mira-b4-n3)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

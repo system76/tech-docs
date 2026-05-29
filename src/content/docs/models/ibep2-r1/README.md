@@ -1,4 +1,6 @@
-# Ibex Pro 2U (ibep2-r1)
+---
+title: Ibex Pro 2U (ibep2-r1)
+---
 
 ![Ibex Pro 2U](./img/ibep2-r1.webp)
 

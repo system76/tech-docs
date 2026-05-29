@@ -1,4 +1,6 @@
-# Lemur Pro (lemp12)
+---
+title: Lemur Pro (lemp12)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

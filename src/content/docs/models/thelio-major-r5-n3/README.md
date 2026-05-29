@@ -1,4 +1,6 @@
-# Thelio Major (thelio-major-r5-n3)
+---
+title: Thelio Major (thelio-major-r5-n3)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

@@ -1,4 +1,6 @@
-# Darter Pro (Internal Overview)
+---
+title: Darter Pro (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

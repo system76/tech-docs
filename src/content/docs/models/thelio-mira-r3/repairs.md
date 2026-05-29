@@ -1,4 +1,6 @@
-# Thelio Mira (Parts & Repairs)
+---
+title: Thelio Mira (Parts & Repairs)
+---
 
 Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the initial revision for this generation (R3-0). Minor case details may vary on newer units, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 

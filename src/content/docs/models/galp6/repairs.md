@@ -1,4 +1,6 @@
-# Galago Pro (Parts & Repairs)
+---
+title: Galago Pro (Parts & Repairs)
+---
 
 Many components in your Galago Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

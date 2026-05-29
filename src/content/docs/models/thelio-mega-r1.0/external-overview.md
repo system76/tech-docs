@@ -1,4 +1,6 @@
-# Thelio Mega (External Overview)
+---
+title: Thelio Mega (External Overview)
+---
 
 ## Back side overview:
 

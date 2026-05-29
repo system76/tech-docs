@@ -1,4 +1,6 @@
-# nebula36 (nebula36-1)
+---
+title: nebula36 (nebula36-1)
+---
 
 - [External Overview](./external-overview.md)
 - [Parts & Assembly](./assembly.md)

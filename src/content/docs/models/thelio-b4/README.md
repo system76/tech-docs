@@ -1,4 +1,6 @@
-# Thelio (thelio-b4)
+---
+title: Thelio (thelio-b4)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

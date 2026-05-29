@@ -1,4 +1,6 @@
-# Bonobo WS (Parts & Repairs)
+---
+title: Bonobo WS (Parts & Repairs)
+---
 
 Many components in your Bonobo WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

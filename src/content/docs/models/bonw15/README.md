@@ -1,4 +1,6 @@
-# Bonobo WS (bonw15 & bonw15-b)
+---
+title: Bonobo WS (bonw15 & bonw15-b)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

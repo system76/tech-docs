@@ -1,4 +1,6 @@
-# Thelio Mega (thelio-mega-r1.0)
+---
+title: Thelio Mega (thelio-mega-r1.0)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

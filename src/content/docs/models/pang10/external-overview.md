@@ -1,4 +1,6 @@
-# Pangolin (External Overview)
+---
+title: Pangolin (External Overview)
+---
 
 ## Left side overview:
 

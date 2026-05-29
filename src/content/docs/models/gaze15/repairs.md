@@ -1,4 +1,6 @@
-# Gazelle (Parts & Repairs)
+---
+title: Gazelle (Parts & Repairs)
+---
 
 Many components in your Gazelle can be upgraded or replaced as necessary. Individual component or connector locations may vary between the 15" and 17" models, but steps remain the same unless otherwise noted.
 

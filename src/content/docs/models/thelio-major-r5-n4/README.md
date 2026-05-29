@@ -1,4 +1,6 @@
-# Thelio Major (thelio-major-r5-n4)
+---
+title: Thelio Major (thelio-major-r5-n4)
+---
 
 ![Thelio Major](./img/thelio-major-r5-n4.webp)
 

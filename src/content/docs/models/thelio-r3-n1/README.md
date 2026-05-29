@@ -1,4 +1,6 @@
-# Thelio (thelio-r3-n1)
+---
+title: Thelio (thelio-r3-n1)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

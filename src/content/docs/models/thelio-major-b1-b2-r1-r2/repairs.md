@@ -1,4 +1,7 @@
-# Table of Contents
+---
+title: Table of Contents
+---
+
 ## Thelio Major B2 BIOS Overview
 ### [BIOS](#bios)
 - [M.I.T.](#mit)

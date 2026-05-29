@@ -1,4 +1,6 @@
-# Bonobo WS (bonw14)
+---
+title: Bonobo WS (bonw14)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

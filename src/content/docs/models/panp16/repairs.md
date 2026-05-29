@@ -1,4 +1,6 @@
-# Pangolin Pro (Parts & Repairs)
+---
+title: Pangolin Pro (Parts & Repairs)
+---
 
 Many components in your Pangolin Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

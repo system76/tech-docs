@@ -1,4 +1,6 @@
-# Pangolin Pro (panp16)
+---
+title: Pangolin Pro (panp16)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

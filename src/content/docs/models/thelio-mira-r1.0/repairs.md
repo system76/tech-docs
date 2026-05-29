@@ -1,4 +1,6 @@
-# Thelio Mira (Parts & Repairs)
+---
+title: Thelio Mira (Parts & Repairs)
+---
 
 Many components in your Thelio Mira can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
 

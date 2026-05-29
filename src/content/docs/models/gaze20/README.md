@@ -1,4 +1,6 @@
-# Gazelle (gaze20)
+---
+title: Gazelle (gaze20)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

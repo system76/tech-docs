@@ -1,4 +1,6 @@
-# Adder WS (Internal Overview)
+---
+title: Adder WS (Internal Overview)
+---
 
 ## Bottom panel overview:
 

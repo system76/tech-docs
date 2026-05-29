@@ -1,4 +1,6 @@
-# Pangolin Pro (External Overview)
+---
+title: Pangolin Pro (External Overview)
+---
 
 ## Left side:
 

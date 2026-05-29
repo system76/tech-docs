@@ -1,4 +1,6 @@
-# Oryx Pro (Internal Overview)
+---
+title: Oryx Pro (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

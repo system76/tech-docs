@@ -1,4 +1,6 @@
-# Serval WS (External Overview)
+---
+title: Serval WS (External Overview)
+---
 
 ## Left side:
 

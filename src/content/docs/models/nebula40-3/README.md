@@ -1,4 +1,6 @@
-# nebula40 (nebula40-3)
+---
+title: nebula40 (nebula40-3)
+---
 
 - [External Overview](./external-overview.md)
 - [Parts & Assembly](./assembly.md)

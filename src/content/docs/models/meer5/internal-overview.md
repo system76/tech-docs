@@ -1,4 +1,6 @@
-# Meerkat (Internal Overview)
+---
+title: Meerkat (Internal Overview)
+---
 
 ## Component overview:
 

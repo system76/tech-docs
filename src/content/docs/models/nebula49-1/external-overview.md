@@ -1,4 +1,6 @@
-# nebula49 (External Overview)
+---
+title: nebula49 (External Overview)
+---
 
 ## Front/back overview:
 

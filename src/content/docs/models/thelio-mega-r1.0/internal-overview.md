@@ -1,4 +1,6 @@
-# Thelio Mega (Internal Overview)
+---
+title: Thelio Mega (Internal Overview)
+---
 
 ## Side overview:
 

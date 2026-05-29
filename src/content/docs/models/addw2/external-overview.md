@@ -1,4 +1,6 @@
-# Adder WS (External Overview)
+---
+title: Adder WS (External Overview)
+---
 
 ## Left side overview:
 

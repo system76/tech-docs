@@ -1,4 +1,6 @@
-# Pangolin Pro (Internal Overview)
+---
+title: Pangolin Pro (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

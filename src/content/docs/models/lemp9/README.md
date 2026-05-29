@@ -1,4 +1,6 @@
-# Lemur Pro (lemp9)
+---
+title: Lemur Pro (lemp9)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

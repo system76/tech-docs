@@ -1,4 +1,6 @@
-# Kudu (External Overview)
+---
+title: Kudu (External Overview)
+---
 
 ## Left side overview:
 

@@ -1,4 +1,6 @@
-# Thelio Major (Parts & Repairs)
+---
+title: Thelio Major (Parts & Repairs)
+---
 
 Many components in your Thelio Major can be upgraded or replaced as necessary. This page uses photos of the the R5-N3 revision, which indicates:
 

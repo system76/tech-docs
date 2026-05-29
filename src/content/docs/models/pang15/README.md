@@ -1,4 +1,6 @@
-# Pangolin (pang15)
+---
+title: Pangolin (pang15)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

@@ -1,4 +1,6 @@
-# Internal Overview
+---
+title: Internal Overview
+---
 
 ## Thelio Major B1
 

@@ -1,4 +1,6 @@
-# Bonobo WS (Internal Overview)
+---
+title: Bonobo WS (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

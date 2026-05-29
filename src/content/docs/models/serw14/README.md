@@ -1,4 +1,6 @@
-# Serval WS (serw14)
+---
+title: Serval WS (serw14)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

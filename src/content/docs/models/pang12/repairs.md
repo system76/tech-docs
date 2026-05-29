@@ -1,4 +1,6 @@
-# Pangolin (Parts & Repairs)
+---
+title: Pangolin (Parts & Repairs)
+---
 
 Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

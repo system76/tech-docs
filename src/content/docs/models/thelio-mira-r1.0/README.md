@@ -1,4 +1,6 @@
-# Thelio Mira (thelio-mira-r1.0)
+---
+title: Thelio Mira (thelio-mira-r1.0)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

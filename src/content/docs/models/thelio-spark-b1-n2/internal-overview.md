@@ -1,4 +1,6 @@
-# Thelio Spark (Internal Overview)
+---
+title: Thelio Spark (Internal Overview)
+---
 
 ## Left side overview:
 

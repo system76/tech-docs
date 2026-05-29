@@ -1,4 +1,6 @@
-# Thelio Major B2
+---
+title: Thelio Major B2
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

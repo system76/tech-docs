@@ -1,4 +1,6 @@
-# Bonobo WS (External Overview)
+---
+title: Bonobo WS (External Overview)
+---
 
 ## Left side:
 

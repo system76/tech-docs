@@ -1,4 +1,6 @@
-# Thelio (thelio-r5-n1)
+---
+title: Thelio (thelio-r5-n1)
+---
 
 ![Thelio](./img/thelio-r5-n1.png)
 

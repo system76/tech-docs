@@ -1,4 +1,6 @@
-# Thelio Mira (thelio-mira-r4-n3)
+---
+title: Thelio Mira (thelio-mira-r4-n3)
+---
 
 ![Thelio Mira](./img/thelio-mira-r4-n3.png)
 

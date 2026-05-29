@@ -1,4 +1,6 @@
-# Kudu (kudu6)
+---
+title: Kudu (kudu6)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

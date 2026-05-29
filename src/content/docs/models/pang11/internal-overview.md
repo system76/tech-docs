@@ -1,4 +1,6 @@
-# Pangolin (Internal Overview)
+---
+title: Pangolin (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

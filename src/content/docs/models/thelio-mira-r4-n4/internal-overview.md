@@ -1,4 +1,6 @@
-# Thelio Mira (Internal Overview)
+---
+title: Thelio Mira (Internal Overview)
+---
 
 ## Left side:
 

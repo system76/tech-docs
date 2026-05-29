@@ -1,4 +1,6 @@
-# Thelio Spark (thelio-spark-r3-n3)
+---
+title: Thelio Spark (thelio-spark-r3-n3)
+---
 
 ![Thelio Spark](./img/thelio-spark-r3-n3.png)
 

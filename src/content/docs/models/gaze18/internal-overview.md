@@ -1,4 +1,6 @@
-# Gazelle (Internal Overview)
+---
+title: Gazelle (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

@@ -1,4 +1,6 @@
-# Oryx Pro (Parts & Repairs)
+---
+title: Oryx Pro (Parts & Repairs)
+---
 
 Many components in your Oryx Pro can be upgraded or replaced as necessary.
 

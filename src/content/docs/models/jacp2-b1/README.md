@@ -1,4 +1,6 @@
-# Jackal Pro 2U (jacp2-b1)
+---
+title: Jackal Pro 2U (jacp2-b1)
+---
 
 ![Jackal Pro 2U](./img/jacp2-b1.webp)
 

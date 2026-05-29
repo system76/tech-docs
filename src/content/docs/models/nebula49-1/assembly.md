@@ -1,4 +1,6 @@
-# nebula49 (Parts & Assembly)
+---
+title: nebula49 (Parts & Assembly)
+---
 
 The nebula49 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
 

@@ -1,4 +1,6 @@
-# Adder WS (Parts & Repairs)
+---
+title: Adder WS (Parts & Repairs)
+---
 
 Many components in your Adder WS can be upgraded or replaced as necessary. This page uses photos of the 15" model, but screw counts, general component locations, and other details are the same on the 17" model unless otherwise noted.
 

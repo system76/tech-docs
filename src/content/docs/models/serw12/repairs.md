@@ -1,4 +1,6 @@
-# Serval WS (Parts & Repairs)
+---
+title: Serval WS (Parts & Repairs)
+---
 
 Many components in your Serval WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

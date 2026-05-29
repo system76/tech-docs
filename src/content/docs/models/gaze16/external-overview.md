@@ -1,4 +1,6 @@
-# Gazelle (External Overview)
+---
+title: Gazelle (External Overview)
+---
 
 ## 15" models:
 

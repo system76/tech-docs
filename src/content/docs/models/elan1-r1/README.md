@@ -1,4 +1,6 @@
-# Eland 1U (elan1-r1)
+---
+title: Eland 1U (elan1-r1)
+---
 
 ![Eland 1U](./img/elan1-r1.webp)
 

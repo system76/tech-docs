@@ -1,4 +1,6 @@
-# Thelio Major (Parts & Repairs)
+---
+title: Thelio Major (Parts & Repairs)
+---
 
 A service manual for the Thelio Major R5-N4 (thelio-major-r5-n4) is not yet available. Please reference the service manuals for these related models:
 

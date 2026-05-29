@@ -1,4 +1,6 @@
-# Launch Lite (launch_lite_1)
+---
+title: Launch Lite (launch_lite_1)
+---
 
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)

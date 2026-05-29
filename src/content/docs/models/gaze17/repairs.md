@@ -1,4 +1,6 @@
-# Gazelle (Parts & Repairs)
+---
+title: Gazelle (Parts & Repairs)
+---
 
 Many components in your Gazelle can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

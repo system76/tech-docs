@@ -1,4 +1,6 @@
-# Galago Pro (External Overview)
+---
+title: Galago Pro (External Overview)
+---
 
 ## Left side overview:
 

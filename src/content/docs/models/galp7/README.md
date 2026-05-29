@@ -1,4 +1,6 @@
-# Galago Pro (galp7)
+---
+title: Galago Pro (galp7)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

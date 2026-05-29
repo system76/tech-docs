@@ -1,4 +1,6 @@
-# Lemur Pro (External Overview)
+---
+title: Lemur Pro (External Overview)
+---
 
 ## Left side overview:
 

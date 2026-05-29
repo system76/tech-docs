@@ -1,4 +1,6 @@
-# Adder WS (addw1)
+---
+title: Adder WS (addw1)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

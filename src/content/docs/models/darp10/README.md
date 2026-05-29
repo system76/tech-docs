@@ -1,4 +1,6 @@
-# Darter Pro (darp10 & darp10-b)
+---
+title: Darter Pro (darp10 & darp10-b)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

@@ -1,4 +1,6 @@
-# Thelio Major (Internal Overview)
+---
+title: Thelio Major (Internal Overview)
+---
 
 ## Left side overview:
 

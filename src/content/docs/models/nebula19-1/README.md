@@ -1,4 +1,6 @@
-# nebula19 (nebula19-1)
+---
+title: nebula19 (nebula19-1)
+---
 
 - [External Overview](./external-overview.md)
 - [Parts & Assembly](./assembly.md)

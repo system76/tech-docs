@@ -1,4 +1,6 @@
-# Thelio (Parts & Repairs)
+---
+title: Thelio (Parts & Repairs)
+---
 
 Many components in your Thelio can be upgraded or replaced as necessary. This page uses photos of the R3-N1 revision, which indicates:
 

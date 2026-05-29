@@ -1,4 +1,6 @@
-# Serval WS (Internal Overview)
+---
+title: Serval WS (Internal Overview)
+---
 
 ## Bottom components and connectors:
 

@@ -1,4 +1,6 @@
-# Eland Pro 2U (elap2-r2)
+---
+title: Eland Pro 2U (elap2-r2)
+---
 
 ![Eland Pro 2U](./img/elap2-r2.webp)
 

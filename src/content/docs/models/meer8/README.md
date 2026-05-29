@@ -1,4 +1,6 @@
-# Meerkat (meer8)
+---
+title: Meerkat (meer8)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

@@ -1,4 +1,6 @@
-# Thelio Mira (Parts & Repairs)
+---
+title: Thelio Mira (Parts & Repairs)
+---
 
 Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the the B4-N3 revision, which indicates:
 

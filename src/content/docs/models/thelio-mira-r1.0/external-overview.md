@@ -1,4 +1,6 @@
-# Thelio Mira (External Overview)
+---
+title: Thelio Mira (External Overview)
+---
 
 ## Back side overview:
 

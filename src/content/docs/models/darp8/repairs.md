@@ -1,4 +1,6 @@
-# Darter Pro (Parts & Repairs)
+---
+title: Darter Pro (Parts & Repairs)
+---
 
 Many components in your Darter Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
 

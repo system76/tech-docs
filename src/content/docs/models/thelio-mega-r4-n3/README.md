@@ -1,4 +1,6 @@
-# Thelio Mega (thelio-mega-r4-n3)
+---
+title: Thelio Mega (thelio-mega-r4-n3)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

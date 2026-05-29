@@ -1,4 +1,6 @@
-# Thelio (Internal Overview)
+---
+title: Thelio (Internal Overview)
+---
 
 ## Left side overview:
 

@@ -1,4 +1,6 @@
-# Launch (Customization & Repairs)
+---
+title: Launch (Customization & Repairs)
+---
 
 The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
 

@@ -1,4 +1,6 @@
-# Darter Pro (External Overview)
+---
+title: Darter Pro (External Overview)
+---
 
 ## Left side:
 

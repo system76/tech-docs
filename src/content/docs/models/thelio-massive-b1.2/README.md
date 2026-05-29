@@ -1,4 +1,6 @@
-# Thelio Massive (thelio-massive-b1.2)
+---
+title: Thelio Massive (thelio-massive-b1.2)
+---
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)

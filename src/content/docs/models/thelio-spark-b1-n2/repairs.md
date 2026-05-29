@@ -1,4 +1,6 @@
-# Thelio Spark (Parts & Repairs)
+---
+title: Thelio Spark (Parts & Repairs)
+---
 
 Many components in your Thelio Spark can be upgraded or replaced as necessary. This page uses photos of the the B1-N2 revision, which indicates:
 

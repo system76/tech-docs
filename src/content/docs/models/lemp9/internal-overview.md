@@ -1,4 +1,6 @@
-# Lemur Pro (Internal Overview)
+---
+title: Lemur Pro (Internal Overview)
+---
 
 ## User-replaceable components:
 

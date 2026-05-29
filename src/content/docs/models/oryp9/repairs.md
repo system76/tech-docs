@@ -1,4 +1,6 @@
-# Oryx Pro (Parts & Repairs)
+---
+title: Oryx Pro (Parts & Repairs)
+---
 
 Many components in your Oryx Pro can be upgraded or replaced as necessary. This page uses photos of the 17" model, but screw counts, general component locations, and other details are the same on the 15" model unless otherwise noted.
 

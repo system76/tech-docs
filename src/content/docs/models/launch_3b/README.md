@@ -1,4 +1,6 @@
-# Launch (launch_3b)
+---
+title: Launch (launch_3b)
+---
 
 - [External Overview](./external-overview.md)
 - [Customization & Repairs](./repairs.md)

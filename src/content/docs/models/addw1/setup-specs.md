@@ -1,4 +1,6 @@
-# Adder WS (UEFI Setup & Specifications)
+---
+title: Adder WS (UEFI Setup & Specifications)
+---
 
 When starting your Adder WS, it takes a few seconds to conduct a quick check of the components. As it proceeds, it will notify you if anything is wrong. Any issues that prevent the system from booting will be displayed and you will be prompted to enter the Setup. If no problems are detected, your Adder WS will load GRUB for Ubuntu or systemd-boot for Pop!_OS.
 

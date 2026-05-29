@@ -3,9 +3,6 @@ import { remark } from 'remark';
 import { dump } from 'js-yaml';
 import type { Root, Heading, PhrasingContent } from 'mdast';
 
-function parseMarkdown(source: string): Root {
-    return remark().parse(source) as Root;
-}
 
 function findFirstH1(tree: Root): Heading | null {
     for (const node of tree.children) {
@@ -40,7 +37,7 @@ function buildFrontmatter(title: string): string {
 }
 
 function migrateSource(source: string): string | null {
-    const tree = parseMarkdown(source);
+    const tree = remark().parse(source) as Root;
     const h1   = findFirstH1(tree);
     if (!h1) return null;
     const title = extractHeadingText(h1);

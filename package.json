@@ -8,18 +8,22 @@
     "build": "astro build",
     "preview": "astro preview --host 0.0.0.0",
     "astro": "astro",
-    "convert": "node scripts/md-to-mdx.ts"
+    "convert": "node scripts/add-frontmatter-migrate.ts"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.2.0",
     "@astrojs/starlight": "^0.39.2",
     "@types/mdast": "^4.0.4",
-    "astro": "^6.3.8",
+    "astro": "^6.4.2",
     "astro-rehype-relative-markdown-links": "^0.19.0",
     "remark": "^15.0.1",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "unified": "^11.0.5",
+    "vite-plugin-static-copy": "^4.1.0"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
-    "js-yaml": "^4.1.1"
-  }
+    "js-yaml": "^4.2.0"
+  },
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485"
 }

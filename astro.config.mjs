@@ -1,19 +1,36 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import starlight from '@astrojs/starlight';
-import { generateSidebar } from './scripts/summary-to-sidebar.ts';
 
 import rehypeAstroRelativeMarkdownLinks from 'astro-rehype-relative-markdown-links';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
+
+import remarkWrapImagesWithOriginals from './src/plugins/remark-wrap-images-with-originals.mjs';
+import { generateSidebar } from './src/plugins/summary-to-sidebar.ts';
 
 // https://astro.build/config
 export default defineConfig({
     integrations: [
         starlight({
             title: 'System76 Technical Documentation',
-            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-            sidebar: generateSidebar(new URL('./src/SUMMARY.md', import.meta.url).pathname)
+            logo: {
+                light: './src/assets/system76_logo-light.svg',
+                dark: './src/assets/system76_logo-dark.svg',
+                replacesTitle: true
+            },
+            lastUpdated: true,
+            social: [
+                { icon: 'x.com', label: 'Twitter', href: 'https://x.com/system76' },
+                { icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/system76' },
+                { icon: 'reddit', label: 'reddit', href: 'https://www.reddit.com/r/System76/' },
+                { icon: 'github', label: 'GitHub', href: 'https://github.com/system76' },
+            ],
+            sidebar: generateSidebar(new URL('./src/SUMMARY.md', import.meta.url).pathname),
+            favicon: '/favicon.svg'
         }),
     ],
+    // base: 'tech-docs',
     site: 'http://localhost:4321',
     image: {
         service: {
@@ -23,6 +40,24 @@ export default defineConfig({
         responsiveStyles: true
     },
     markdown: {
-        rehypePlugins: [[rehypeAstroRelativeMarkdownLinks, { collectionBase: false }]],
-      },
+        processor: unified({
+            remarkPlugins: [remarkWrapImagesWithOriginals],
+            rehypePlugins: [
+                [rehypeAstroRelativeMarkdownLinks, { collectionBase: false }],
+            ],
+        }),
+    },
+    vite: {
+        plugins: [
+            viteStaticCopy({
+                targets: [
+                    {
+                        src: 'src/content/docs/**/*.{jpg,jpeg,png,gif,webp,tiff}',
+                        dest: 'originals',
+                        rename: { stripBase: 3}
+                    },
+                ],
+            }),
+        ],
+    },
 });

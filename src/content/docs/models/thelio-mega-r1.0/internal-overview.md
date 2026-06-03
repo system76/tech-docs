@@ -1,5 +1,6 @@
 ---
 title: Thelio Mega (Internal Overview)
+slug: models/thelio-mega-r1.0/internal-overview
 ---
 
 ## Side overview:

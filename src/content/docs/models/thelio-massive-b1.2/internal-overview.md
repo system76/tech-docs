@@ -1,5 +1,6 @@
 ---
 title: Thelio Massive (Internal Overview)
+slug: models/thelio-massive-b1.2/internal-overview
 ---
 
 ## Side overview:

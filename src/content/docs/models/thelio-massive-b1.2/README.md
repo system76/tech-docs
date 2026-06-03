@@ -1,5 +1,6 @@
 ---
 title: Thelio Massive (thelio-massive-b1.2)
+slug: models/thelio-massive-b1.2/readme
 ---
 
 - [External Overview](./external-overview.md)

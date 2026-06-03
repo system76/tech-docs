@@ -1,5 +1,6 @@
 ---
 title: Thelio Mega (External Overview)
+slug: models/thelio-mega-r1.0/external-overview
 ---
 
 ## Back side overview:

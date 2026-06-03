@@ -1,5 +1,6 @@
 ---
 title: Thelio Mega (thelio-mega-r1.0)
+slug: models/thelio-mega-r1.0/readme
 ---
 
 - [External Overview](./external-overview.md)

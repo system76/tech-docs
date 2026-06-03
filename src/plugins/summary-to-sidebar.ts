@@ -11,6 +11,11 @@ function toAstroPath(p: string): string {
     return p.replace(/\.md$/, '').toLowerCase();
 }
 
+function resolveLabel(label: string, link: string): string {
+    const filename = link.split('/').pop() ?? '';
+    return filename.toLowerCase() === 'readme.md' ? 'Overview' : label;
+}
+
 /**
  * Pull the first `[label](url)` link out of a list item's paragraph node.
  * Returns null if the item doesn't follow that pattern (e.g. plain text, no link).
@@ -25,17 +30,18 @@ function extractLink(item: ListItem): { label: string; link: string } | null {
     return { label: text.value, link: linkNode.url };
 }
 
-/** Level 3 — a single page leaf (e.g. "External Overview"). */
+/** Level 3 — a single page leaf. README links are labelled "Overview". */
 function buildPageItem(item: ListItem): SidebarItem | null {
     const page = extractLink(item);
     if (!page) return null;
-    return { label: page.label, link: toAstroPath(page.link) };
+    return { label: resolveLabel(page.label, page.link), link: toAstroPath(page.link) };
 }
 
 /**
  * Level 2 — a model (e.g. "Lemur Pro (lemp13)").
  * If the model has sub-pages, returns a group whose first entry is the model's
- * own README so it remains directly linkable.
+ * own README labelled "Overview" so it remains directly linkable.
+ * If there are no sub-pages, returns a direct link with the model's original label.
  */
 function buildModelItem(item: ListItem): SidebarItem | null {
     const model = extractLink(item);
@@ -47,7 +53,7 @@ function buildModelItem(item: ListItem): SidebarItem | null {
     const pages = pageList.children.map(buildPageItem).filter(Boolean) as SidebarItem[];
     return {
         label: model.label,
-        items: [{ label: model.label, link: toAstroPath(model.link) }, ...pages],
+        items: [{ label: resolveLabel(model.label, model.link), link: toAstroPath(model.link) }, ...pages],
     };
 }
 

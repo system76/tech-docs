@@ -1,5 +1,6 @@
 ---
 title: Thelio Massive (Parts & Repairs)
+slug: models/thelio-massive-b1.2/repairs
 ---
 
 Many components in your Thelio Massive can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:

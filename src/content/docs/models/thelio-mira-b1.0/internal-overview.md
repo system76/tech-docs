@@ -1,5 +1,6 @@
 ---
 title: Thelio Mira (Internal Overview)
+slug: models/thelio-mira-b1.0/internal-overview
 ---
 
 ## Side overview:

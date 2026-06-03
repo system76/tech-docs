@@ -1,5 +1,6 @@
 ---
 title: Thelio Massive (External Overview)
+slug: models/thelio-massive-b1.2/external-overview
 ---
 
 ## Back side overview:

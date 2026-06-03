@@ -35,7 +35,7 @@ function walk(node: Parent, relDir: string, originalsBase: string): void {
         const child = node.children[i];
         if (child.type === 'image') {
             const image = child as Image;
-            if (image.url && !image.url.startsWith('/') && !image.url.includes('://')) {
+            if (image.url && !image.url.startsWith('/') && !image.url.includes('://') && !image.url.toLowerCase().endsWith('.svg')) {
                 const resolved = posix.join(relDir, image.url);
                 const link: Link = {
                     type: 'link',

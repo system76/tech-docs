@@ -1,5 +1,6 @@
 ---
 title: Thelio Mira (External Overview)
+slug: models/thelio-mira-r1.0/external-overview
 ---
 
 ## Back side overview:

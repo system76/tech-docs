@@ -24,25 +24,29 @@ jobs:
           node-version: 24
           cache: pnpm
 
-      - name: Restore Astro cache
-        uses: actions/cache/restore@v4
-        with:
-          path: node_modules/.astro
-          key: ${{ runner.os }}-astro-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-astro-
+      - name: Restore cache from S3
+        run: |
+          aws s3 cp s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/astro-cache.tar.gz astro-cache.tar.gz || true
+          tar -xzf astro-cache.tar.gz || true
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
 
       - name: Install
-        run: pnpm install
+        run: pnpm install --prod
 
       - name: Build
         run: pnpm build
 
-      - name: Save Astro cache
-        uses: actions/cache/save@v4
-        with:
-          path: node_modules/.astro
-          key: ${{ runner.os }}-astro-${{ github.run_id }}
+      - name: Save cache to S3
+        run: |
+          tar -czf astro-cache.tar.gz node_modules/.astro
+          aws s3 cp astro-cache.tar.gz s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/astro-cache.tar.gz
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
 
       - name: Deploy
         run: aws s3 sync ./dist s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/tech-docs --delete

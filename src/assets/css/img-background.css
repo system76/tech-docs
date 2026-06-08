@@ -1,0 +1,7 @@
+.text-on-transparency {
+    img {
+        background-color: white; /* For transparent images w/ text */
+        color: black; /* For image alt text */
+        box-shadow: 0px 0px 5px 5px white; /* To blend in better */
+    }
+}

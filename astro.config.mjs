@@ -17,8 +17,8 @@ export default defineConfig({
         starlight({
             title: "System76 Technical Documentation",
             logo: {
-                light: "./src/assets/system76_logo-light.svg",
-                dark: "./src/assets/system76_logo-dark.svg",
+                light: "./src/assets/img/system76_logo-light.svg",
+                dark: "./src/assets/img/system76_logo-dark.svg",
                 replacesTitle: true,
             },
             lastUpdated: true,
@@ -48,6 +48,10 @@ export default defineConfig({
                 new URL("./src/SUMMARY.md", import.meta.url).pathname,
             ),
             favicon: "/favicon.png",
+            customCss: [
+              "./src/assets/css/variables.css", 
+              "./src/assets/css/img-background.css",
+            ],
         }),
     ],
     base,

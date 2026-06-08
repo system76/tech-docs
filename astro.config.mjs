@@ -49,8 +49,8 @@ export default defineConfig({
             ),
             favicon: "/favicon.png",
             customCss: [
-              "./src/assets/css/variables.css", 
-              "./src/assets/css/img-background.css",
+                "./src/assets/css/variables.css",
+                "./src/assets/css/img-background.css",
             ],
         }),
     ],

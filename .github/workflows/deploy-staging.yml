@@ -11,8 +11,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
+            fetch-depth: 0
             lfs: true
 
       - name: Setup pnpm
@@ -26,8 +27,8 @@ jobs:
 
       - name: Restore cache from S3
         run: |
-          aws s3 cp s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/astro-cache.tar.gz astro-cache.tar.gz || true
-          tar -xzf astro-cache.tar.gz || true
+          aws s3 cp s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/astro-cache.tar.gz astro-cache.tar.zst || true
+          tar -xf astro-cache.tar.zst --use-compress-program "zstdmt" || true
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
@@ -41,8 +42,8 @@ jobs:
 
       - name: Save cache to S3
         run: |
-          tar -czf astro-cache.tar.gz node_modules/.astro
-          aws s3 cp astro-cache.tar.gz s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/astro-cache.tar.gz
+          tar -cf astro-cache.tar.zst node_modules/.astro --use-compress-program "zstdmt"
+          aws s3 cp astro-cache.tar.zst s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/${{ github.event.repository.name }}/astro-cache.tar.zst
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}

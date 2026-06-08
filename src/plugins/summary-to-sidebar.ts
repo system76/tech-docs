@@ -13,7 +13,7 @@ function toAstroPath(p: string): string {
 
 function resolveLabel(label: string, link: string): string {
     const filename = link.split('/').pop() ?? '';
-    return filename.toLowerCase() === 'readme.md' ? 'Overview' : label;
+    return filename.toLowerCase() === 'readme.md' ? 'Specifications' : label;
 }
 
 /**
@@ -48,7 +48,7 @@ function buildModelItem(item: ListItem): SidebarItem | null {
     if (!model) return null;
 
     const pageList = item.children.find((n): n is List => n.type === 'list');
-    if (!pageList) return { label: model.label, link: toAstroPath(model.link) };
+    if (!pageList) return { label: model.label, link: toAstroPath(model.link), attrs: { class: 'group-label large' } };
 
     const pages = pageList.children.map(buildPageItem).filter(Boolean) as SidebarItem[];
     return {

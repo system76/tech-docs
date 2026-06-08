@@ -1,0 +1,8 @@
+.text-on-transparency {
+    img {
+        background-color: white; /* For transparent images w/ text */
+        color: black; /* For image alt text */
+        padding: 5px;
+        margin: -5px;
+    }
+}

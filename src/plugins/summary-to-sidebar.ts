@@ -1,19 +1,19 @@
-import { readFileSync } from 'fs';
-import { remark } from 'remark';
-import type { Root, List, ListItem, Link } from 'mdast';
-import type { StarlightUserConfig } from '@astrojs/starlight/types';
+import type { StarlightUserConfig } from "@astrojs/starlight/types";
+import { readFileSync } from "fs";
+import type { Link, List, ListItem, Root } from "mdast";
+import { remark } from "remark";
 
-type Sidebar = NonNullable<StarlightUserConfig['sidebar']>;
+type Sidebar = NonNullable<StarlightUserConfig["sidebar"]>;
 type SidebarItem = Sidebar[number];
 
 /** Strip the `.md` extension and lowercase the path for Astro routing. */
 function toAstroPath(p: string): string {
-    return p.replace(/\.md$/, '').toLowerCase();
+    return p.replace(/\.md$/, "").toLowerCase();
 }
 
 function resolveLabel(label: string, link: string): string {
-    const filename = link.split('/').pop() ?? '';
-    return filename.toLowerCase() === 'readme.md' ? 'Specifications' : label;
+    const filename = link.split("/").pop() ?? "";
+    return filename.toLowerCase() === "readme.md" ? "Specifications" : label;
 }
 
 /**
@@ -22,11 +22,11 @@ function resolveLabel(label: string, link: string): string {
  */
 function extractLink(item: ListItem): { label: string; link: string } | null {
     const para = item.children[0];
-    if (para?.type !== 'paragraph') return null;
-    const linkNode = para.children.find((n): n is Link => n.type === 'link');
+    if (para?.type !== "paragraph") return null;
+    const linkNode = para.children.find((n): n is Link => n.type === "link");
     if (!linkNode) return null;
     const text = linkNode.children[0];
-    if (text?.type !== 'text') return null;
+    if (text?.type !== "text") return null;
     return { label: text.value, link: linkNode.url };
 }
 
@@ -47,13 +47,24 @@ function buildModelItem(item: ListItem): SidebarItem | null {
     const model = extractLink(item);
     if (!model) return null;
 
-    const pageList = item.children.find((n): n is List => n.type === 'list');
-    if (!pageList) return { label: model.label, link: toAstroPath(model.link), attrs: { class: 'group-label large' } };
+    const pageList = item.children.find((n): n is List => n.type === "list");
+    if (!pageList)
+        return {
+            label: model.label,
+            link: toAstroPath(model.link),
+            attrs: { class: "group-label large" },
+        };
 
     const pages = pageList.children.map(buildPageItem).filter(Boolean) as SidebarItem[];
     return {
         label: model.label,
-        items: [{ label: resolveLabel(model.label, model.link), link: toAstroPath(model.link) }, ...pages],
+        items: [
+            {
+                label: resolveLabel(model.label, model.link),
+                link: toAstroPath(model.link),
+            },
+            ...pages,
+        ],
     };
 }
 
@@ -65,13 +76,15 @@ function buildSectionItem(item: ListItem): SidebarItem | null {
     const section = extractLink(item);
     if (!section) return null;
 
-    const modelList = item.children.find((n): n is List => n.type === 'list');
+    const modelList = item.children.find((n): n is List => n.type === "list");
     if (!modelList) return null;
 
-    const models = modelList.children.map(buildModelItem).filter(Boolean) as SidebarItem[];
+    const models = modelList.children
+        .map(buildModelItem)
+        .filter(Boolean) as SidebarItem[];
     return {
         label: section.label,
-        collapsed: section.label === 'Previous Models',
+        collapsed: section.label === "Previous Models",
         items: models,
     };
 }
@@ -81,8 +94,8 @@ function buildSectionItem(item: ListItem): SidebarItem | null {
  * The SUMMARY uses a three-level nested list: section → model → pages.
  */
 export function generateSidebar(summaryPath: string): Sidebar {
-    const tree = remark().parse(readFileSync(summaryPath, 'utf-8')) as Root;
-    const topList = tree.children.find((n): n is List => n.type === 'list');
+    const tree = remark().parse(readFileSync(summaryPath, "utf-8")) as Root;
+    const topList = tree.children.find((n): n is List => n.type === "list");
     if (!topList) return [];
     return topList.children.map(buildSectionItem).filter(Boolean) as Sidebar;
 }

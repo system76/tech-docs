@@ -1,22 +1,23 @@
-import { readFileSync, writeFileSync, globSync } from 'node:fs';
-import { remark } from 'remark';
-import { dump } from 'js-yaml';
-import type { Root, Heading, PhrasingContent } from 'mdast';
-
+import { dump } from "js-yaml";
+import type { Heading, PhrasingContent, Root } from "mdast";
+import { globSync, readFileSync, writeFileSync } from "node:fs";
+import { remark } from "remark";
 
 function findFirstH1(tree: Root): Heading | null {
     for (const node of tree.children) {
-        if (node.type === 'heading' && node.depth === 1) return node;
+        if (node.type === "heading" && node.depth === 1) return node;
     }
     return null;
 }
 
 function extractText(nodes: PhrasingContent[]): string {
-    return nodes.map(n => {
-        if ('value' in n) return n.value;
-        if ('children' in n) return extractText(n.children as PhrasingContent[]);
-        return '';
-    }).join('');
+    return nodes
+        .map((n) => {
+            if ("value" in n) return n.value;
+            if ("children" in n) return extractText(n.children as PhrasingContent[]);
+            return "";
+        })
+        .join("");
 }
 
 function extractHeadingText(node: Heading): string {
@@ -25,9 +26,9 @@ function extractHeadingText(node: Heading): string {
 
 function removeHeading(source: string, node: Heading): string {
     const start = node.position!.start.offset!;
-    const end   = node.position!.end.offset!;
+    const end = node.position!.end.offset!;
     const before = source.slice(0, start);
-    const after  = source.slice(end).replace(/^\n/, '');
+    const after = source.slice(end).replace(/^\n/, "");
     return (before + after).trimStart();
 }
 
@@ -38,24 +39,24 @@ function buildFrontmatter(title: string): string {
 
 function migrateSource(source: string): string | null {
     const tree = remark().parse(source) as Root;
-    const h1   = findFirstH1(tree);
+    const h1 = findFirstH1(tree);
     if (!h1) return null;
     const title = extractHeadingText(h1);
-    const body  = removeHeading(source, h1);
+    const body = removeHeading(source, h1);
     return buildFrontmatter(title) + body;
 }
 
 function processFile(filePath: string): void {
-    const source   = readFileSync(filePath, 'utf-8');
+    const source = readFileSync(filePath, "utf-8");
     const migrated = migrateSource(source);
-    if (!migrated) throw new Error('no H1 heading found');
-    writeFileSync(filePath, migrated, 'utf-8');
+    if (!migrated) throw new Error("no H1 heading found");
+    writeFileSync(filePath, migrated, "utf-8");
 }
 
 // CLI
-const files = process.argv.slice(2).flatMap(arg => globSync(arg));
+const files = process.argv.slice(2).flatMap((arg) => globSync(arg));
 if (files.length === 0) {
-    console.error('Usage: node scripts/add-frontmatter-title.ts <file...>');
+    console.error("Usage: node scripts/add-frontmatter-title.ts <file...>");
     process.exit(1);
 }
 

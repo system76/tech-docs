@@ -1,4 +1,4 @@
-# Thelio Mira (thelio-mira-r4-n4)
+# Thelio Mira (thelio-mira-r5-n4)
 
 ![Thelio Mira](./img/thelio-mira-r5-n4.webp)
 

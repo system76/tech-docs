@@ -1,6 +1,6 @@
 ---
 title: Thelio Mira (thelio-mira-r1.0)
-slug: models/thelio-mira-r1.0/readme
+slug: models/thelio-mira-r1.0/specs
 ---
 
 - [External Overview](./external-overview.md)

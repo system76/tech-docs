@@ -4,5 +4,6 @@
         color: black; /* For image alt text */
         padding: 5px;
         margin: -5px;
+        border-radius: 5px;
     }
 }

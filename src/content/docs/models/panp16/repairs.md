@@ -1,16 +1,11 @@
 ---
 title: Pangolin Pro (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Pangolin Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
-
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Removing the battery](#replacing-the-battery)
-- [Reseating the WiFi/Bluetooth antennas](#replacing-the-wireless-card)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the speakers](#replacing-the-speakers)
+Many components in your Pangolin Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions.
 
 ## Removing the bottom cover:
 

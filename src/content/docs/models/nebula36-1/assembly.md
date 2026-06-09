@@ -1,25 +1,13 @@
 ---
 title: nebula36 (Parts & Assembly)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 The nebula36 chassis is ready to be outfitted with standard personal computer components. If the system has already been built, ensure the system is powered off and all cables are unplugged from the motherboard, PCIe cards, power supply, and front I/O before opening the chassis.
 
 The preinstalled velcro strips are left partially unwrapped to aid in removal. When building the system, you can optionally wrap the velcro up the rest of the way.
-
-- [Replacing the front accent strip](#replacing-the-front-accent-strip)
-- [Removing the top case](#removing-the-top-case)
-- [Removing the side fan bracket](#removing-the-side-fan-bracket)
-- [Removing the CPU duct](#removing-the-cpu-duct)
-- [Unpacking the included accessories](#unpacking-the-included-accessories)
-- [Installing the motherboard](#installing-the-motherboard)
-- [Installing the CPU duct fans](#installing-the-cpu-duct-fans)
-- [Installing the GPU](#installing-the-gpu)
-- [Installing the SATA backplane](#installing-the-sata-backplane)
-- [Installing 2.5" drives](#installing-25-drives)
-- [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Installing side intake fans](#installing-side-intake-fans)
-- [Installing the power supply](#installing-the-power-supply)
-- [Wiring the front I/O and power button](#wiring-the-front-io-and-power-button)
 
 ## Replacing the front accent strip:
 

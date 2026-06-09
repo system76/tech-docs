@@ -1,5 +1,8 @@
 ---
 title: Thelio (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 Many components in your Thelio can be upgraded or replaced as necessary. This page uses photos of the R3-N1 revision, which indicates:
@@ -10,24 +13,7 @@ Many components in your Thelio can be upgraded or replaced as necessary. This pa
 
 Minor case details may vary based on the production date of the unit, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
-Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
-
-- [Replacing the front accent strip](#replacing-the-front-accent-strip)
-- [Removing the top case](#removing-the-top-case)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Removing the side brace](#removing-the-side-brace)
-- [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Replacing the GPU](#replacing-the-gpu)
-- [Removing the CPU duct](#removing-the-cpu-duct)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Replacing the CPU fans](#replacing-the-cpu-fans)
-- [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
-- [Replacing the power supply](#replacing-the-power-supply)
-- [Replacing the Thelio Io board](#replacing-the-thelio-io-board)
-- [Replacing the SATA backplane](#replacing-the-sata-backplane)
-- [Replacing the top I/O](#replacing-the-top-io)
-- [Troubleshooting the power button](#troubleshooting-the-power-button)
+Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components.
 
 ## Replacing the front accent strip:
 

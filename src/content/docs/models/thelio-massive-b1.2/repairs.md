@@ -1,24 +1,12 @@
 ---
 title: Thelio Massive (Parts & Repairs)
 slug: models/thelio-massive-b1.2/repairs
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Thelio Massive can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
-
-- [Removing the top case](#removing-the-top-case)
-- [Removing the inner partition](#removing-the-inner-partition)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the case fans](#replacing-the-case-fans)
-- [Replacing a GPU](#replacing-a-gpu)
-- [Replacing the M.2 drive](#replacing-the-m2-drive)
-- [Removing the CPU duct](#removing-the-cpu-duct)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing the CPU fans](#replacing-the-cpu-fans)
-- [Replacing the CPU cooler](#replacing-the-cpu-cooler)
-- [Replacing the CPU/thermal paste](#replacing-the-cputhermal-paste)
-- [Replacing the top exhaust fans](#replacing-the-top-exhaust-fans)
-- [Troubleshooting the power button](#troubleshooting-the-power-button)
-- [Troubleshooting the Thelio-IO USB connection](#troubleshooting-the-thelio-io-usb-connection)
+Many components in your Thelio Massive can be upgraded or replaced as necessary. Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components.
 
 ## Removing the top case:
 

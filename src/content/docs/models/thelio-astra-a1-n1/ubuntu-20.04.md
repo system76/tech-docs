@@ -1,6 +1,9 @@
 ---
 title: Thelio Astra (Ubuntu 20.04 LTS Setup)
 slug: models/thelio-astra-a1-n1/ubuntu-20.04
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 Thelio Astra uses an Ampere processor supporting AArch64 (ARM64) versions of Linux. If you need to reinstall the operating system, the instructions on this page can be used to set up Ubuntu 20.04 LTS.

@@ -1,15 +1,13 @@
 ---
 title: Launch (Customization & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
 
 This page uses photos of the `launch_3b` revision, which is identical in structure and electronics to the [launch_3](../launch_3/README.html), but ships with black shine-through keycaps and a darker powder coat finish with top port etchings.
-
-- [Connecting and using Launch](#connecting-and-using-launch)
-- [Removing and installing keycaps](#removing-and-installing-keycaps)
-- [Removing and installing switches](#removing-and-installing-switches)
-- [Removing the PCB](#removing-the-pcb)
 
 ## Connecting and using Launch:
 

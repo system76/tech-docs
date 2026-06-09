@@ -1,19 +1,11 @@
 ---
 title: Bonobo WS (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Bonobo WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
-
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Removing the battery](#removing-the-battery)
-- [Replacing the keyboard](#replacing-the-keyboard)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the CPU](#replacing-the-cpu)
-- [Replacing the GPU](#replacing-the-gpu)
+Many components in your Bonobo WS can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions.
 
 ## Removing the bottom cover:
 

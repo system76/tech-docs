@@ -1,18 +1,11 @@
 ---
 title: Gazelle (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 Many components in your Gazelle can be upgraded or replaced as necessary. Individual component or connector locations may vary between the 15" and 17" models, but steps remain the same unless otherwise noted.
-
-- [Replacing the keyboard](#replacing-the-keyboard)
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Replacing a 2.5" storage drive](#replacing-a-25-storage-drive)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the external battery](#replacing-the-external-battery)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
 
 ## Replacing the keyboard:
 

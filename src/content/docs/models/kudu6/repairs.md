@@ -1,18 +1,11 @@
 ---
 title: Kudu (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Kudu can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
-
-- [Removing the battery](#removing-the-battery)
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the DC-in jack](#replacing-the-dc-in-jack)
-- [Replacing the keyboard](#replacing-the-keyboard)
+Many components in your Kudu can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions.
 
 ## Removing the battery:
 

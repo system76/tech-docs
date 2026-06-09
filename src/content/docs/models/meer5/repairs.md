@@ -1,18 +1,11 @@
 ---
 title: Meerkat (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
-
-- [Removing the bottom panel](#removing-the-bottom-panel)
-- [Replacing the M.2 drive](#replacing-the-m2-drive)
-- [Replacing the RAM](#replacing-the-ram)
-- [Adding/removing a 2.5" storage drive](#addingremoving-a-25-storage-drive)
-- [Resetting CMOS](#resetting-cmos)
-- [Removing the motherboard](#removing-the-motherboard)
-- [Removing the fan](#removing-the-fan)
-- [Replacing thermal paste](#replacing-thermal-paste)
-- [Mounting with VESA mount](#mounting-with-vesa-mount)
+Several components in your Meerkat can be upgraded or replaced as necessary. Power the machine off and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions.
 
 ## Removing the bottom panel:
 

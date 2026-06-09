@@ -47,11 +47,19 @@ export default defineConfig({
             sidebar: generateSidebar(
                 new URL("./src/SUMMARY.md", import.meta.url).pathname,
             ),
+            tableOfContents: false, // Turned on per-page.
             favicon: "/favicon.png",
             customCss: [
                 "./src/assets/css/variables.css",
                 "./src/assets/css/img-background.css",
             ],
+            locales: {
+                root: {
+                    label: 'English',
+                    lang: 'en',
+                },
+            },
+            routeMiddleware: './src/plugins/toc-formatting.ts',
         }),
     ],
     base,

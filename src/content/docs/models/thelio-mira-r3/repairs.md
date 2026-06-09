@@ -1,24 +1,13 @@
 ---
 title: Thelio Mira (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the initial revision for this generation (R3-0). Minor case details may vary on newer units, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
-Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
-
-- [Replacing the front accent strip](#replacing-the-front-accent-strip)
-- [Removing the top case](#removing-the-top-case)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the bottom case fan](#replacing-the-bottom-case-fan)
-- [Replacing the GPU](#replacing-the-gpu)
-- [Removing the CPU duct](#removing-the-cpu-duct)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Replacing the CPU fans](#replacing-the-cpu-fans)
-- [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
-- [Replacing the power supply](#replacing-the-power-supply)
-- [Replacing the Thelio-IO board](#replacing-the-thelio-io-board)
-- [Troubleshooting the power button](#troubleshooting-the-power-button)
+Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components.
 
 ## Replacing the front accent strip:
 

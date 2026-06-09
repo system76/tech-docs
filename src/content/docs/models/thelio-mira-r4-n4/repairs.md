@@ -1,5 +1,8 @@
 ---
 title: Thelio Mira (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 Many components in your Thelio Mira can be upgraded or replaced as necessary. This page uses photos of the the R4-N4 revision, which indicates:
@@ -9,31 +12,7 @@ Many components in your Thelio Mira can be upgraded or replaced as necessary. Th
 
 Minor case details may vary based on the production date of the unit, but screw counts, general component locations, and other details should remain the same unless otherwise noted.
 
-Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components. Then, follow these step-by-step guides for instructions:
-
-- [Removing the protective plastic](#removing-the-protective-plastic)
-- [Removing the side panels](#removing-the-side-panels)
-- [Removing the front glass](#removing-the-front-glass)
-- [Removing the top shell](#removing-the-top-shell)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing the GPU](#replacing-the-gpu)
-- [Replacing the M.2 drives](#replacing-the-m2-drives)
-- [Clearing the CMOS](#clearing-the-cmos)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the WiFi/Bluetooth card](#replacing-the-wireless-card)
-- [Accessing spare 2.5" drive screws](#accessing-spare-25-drive-screws)
-- [Adding/removing 2.5" storage drives](#addingremoving-25-storage-drives)
-- [Replacing the included 2.5“ backplane](#replacing-the-included-25-backplane)
-- [Installing an additional 2.5" or 3.5" bay](#installing-an-additional-25-or-35-bay)
-- [Replacing the power supply](#replacing-the-power-supply)
-- [Cleaning the side dust filter](#cleaning-the-side-dust-filter)
-- [Replacing the side fans](#replacing-the-side-fans)
-- [Cleaning the bottom dust filter](#cleaning-the-bottom-dust-filter)
-- [Replacing the bottom fans](#replacing-the-bottom-fans)
-- [Replacing the CPU cooler/thermal paste and CPU](#replacing-the-cpu-cooler-and-cpu)
-- [Replacing the Thelio Io board](#replacing-the-thelio-io-board)
-- [Replacing the front I/O](#replacing-the-front-io)
-- [Replacing the power button](#replacing-the-power-button)
+Power the machine off, switch off the power supply, and unplug all peripherals before working with any internal components.
 
 ## Removing the protective plastic:
 

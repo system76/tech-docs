@@ -1,5 +1,8 @@
 ---
 title: Table of Contents
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 ## Thelio Major B2 BIOS Overview

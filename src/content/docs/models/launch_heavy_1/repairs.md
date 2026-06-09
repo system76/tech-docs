@@ -1,13 +1,11 @@
 ---
 title: Launch Heavy (Customization & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
 The Launch Heavy Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch Heavy before changing keycaps or switches.
-
-- [Connecting and using Launch Heavy](#connecting-and-using-launch-heavy)
-- [Removing and installing keycaps](#removing-and-installing-keycaps)
-- [Removing and installing switches](#removing-and-installing-switches)
-- [Removing the PCBs](#removing-the-pcbs)
 
 ## Connecting and using Launch Heavy:
 

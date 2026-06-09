@@ -1,17 +1,11 @@
 ---
 title: Darter Pro (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Darter Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
-
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Replacing the RAM](#replacing-the-ram)
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the keyboard](#replacing-the-keyboard)
-- [Replacing the battery](#replacing-the-battery)
+Many components in your Darter Pro can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions.
 
 ## Removing the bottom cover:
 

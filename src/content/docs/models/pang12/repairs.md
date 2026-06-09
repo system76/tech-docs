@@ -1,16 +1,11 @@
 ---
 title: Pangolin (Parts & Repairs)
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 2
 ---
 
-Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions:
-
-- [Replacing an M.2/NVMe SSD](#replacing-an-m2nvme-ssd)
-- [Removing the bottom cover](#removing-the-bottom-cover)
-- [Removing the battery](#removing-the-battery)
-- [Replacing the WiFi/Bluetooth module](#replacing-the-wireless-card)
-- [Replacing the CMOS battery](#replacing-the-cmos-battery)
-- [Replacing the fans/heatsink/thermal paste](#replacing-the-cooling-system)
-- [Replacing the speakers](#replacing-the-speakers)
+Many components in your Pangolin can be upgraded or replaced as necessary. Follow these step-by-step guides for instructions.
 
 ## Replacing an M.2/NVMe SSD:
 

@@ -8,7 +8,7 @@
         "build": "astro build",
         "preview": "astro preview --host 0.0.0.0",
         "astro": "astro",
-        "convert": "node scripts/add-frontmatter-migrate.ts",
+        "convert": "node ./src/scripts/add-frontmatter-migrate.ts",
         "format": "prettier --write .",
         "format:check": "prettier --check ."
     },

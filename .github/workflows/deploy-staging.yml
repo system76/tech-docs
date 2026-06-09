@@ -35,19 +35,19 @@ jobs:
           AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
 
       - name: Install
-        run: pnpm install --prod
+        run: pnpm install --frozen-lockfile --prod
 
       - name: Build
         run: pnpm build
 
-      - name: Save cache to S3
-        run: |
-          tar -cf astro-cache.tar.zst node_modules/.astro --use-compress-program "zstdmt"
-          aws s3 cp astro-cache.tar.zst s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/${{ github.event.repository.name }}/astro-cache.tar.zst
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
+      # - name: Save cache to S3
+      #   run: |
+      #     tar -cf astro-cache.tar.zst node_modules/.astro --use-compress-program "zstdmt"
+      #     aws s3 cp astro-cache.tar.zst s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/cache/${{ github.event.repository.name }}/astro-cache.tar.zst
+      #   env:
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+      #     AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
 
       - name: Deploy
         run: aws s3 sync ./dist s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/tech-docs --delete

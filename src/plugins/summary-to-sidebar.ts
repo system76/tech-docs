@@ -13,7 +13,7 @@ function toAstroPath(p: string): string {
 
 function resolveLabel(label: string, link: string): string {
     const filename = link.split("/").pop() ?? "";
-    return filename.toLowerCase() === "readme.md" ? "Specifications" : label;
+    return filename.toLowerCase() === "specs.md" ? "Specifications" : label;
 }
 
 /**

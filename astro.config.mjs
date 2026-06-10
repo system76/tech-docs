@@ -59,7 +59,7 @@ export default defineConfig({
                     lang: "en",
                 },
             },
-            routeMiddleware: "./src/plugins/toc-formatting.ts",
+            routeMiddleware: "./src/plugins/toc-formatting-middleware.ts",
         }),
     ],
     base,

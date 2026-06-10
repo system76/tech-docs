@@ -11,7 +11,9 @@ import { generateSidebar } from "./src/plugins/summary-to-sidebar.ts";
 
 const base = "tech-docs";
 
-const site = import.meta.env.PROD ? `https://system76.com/${base}` : `http://localhost:4321/${base}`;
+const site = import.meta.env.PROD
+    ? `https://system76.com/${base}`
+    : `http://localhost:4321/${base}`;
 
 // https://astro.build/config
 export default defineConfig({

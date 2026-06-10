@@ -1,0 +1,5 @@
+/* Workaround for https://github.com/withastro/starlight/issues/3513 */
+
+.right-sidebar-panel > .sl-container {
+    padding-right: 0.75em;
+}

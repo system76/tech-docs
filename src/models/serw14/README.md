@@ -51,12 +51,17 @@ The System76 Serval WS is a laptop with the following specifications:
         - Intel Wi-Fi 7 BE200
             - Bluetooth 5.4
 - Power
-    - 230W (20V, 11.5A) DC-in port
-        - Barrel size: 5.5mm (outer), 2.5mm (inner)
-    - Included AC adapter:
-        - FSP FSP230-ACBS3
-        - LiteOn PA-1231-26
-        - ...or other equivalent
+    - Core Ultra 9 290HX Plus model:
+        - 280W (20V, 14A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter: FSP FSP280-ACAU3
+    - Core Ultra 9 275HX model:
+        - 230W (20V, 11.5A) DC-in port
+            - Barrel size: 5.5mm (outer), 2.5mm (inner)
+        - Included AC adapter:
+            - FSP FSP230-ACBS3
+            - LiteOn PA-1231-26
+            - ...or other equivalent
     - 80Wh 8-cell Lithium-Ion battery
         - Model number: X560BAT-4-80
 - Sound

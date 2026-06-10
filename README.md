@@ -23,7 +23,13 @@ The book can be viewed and edited on GitHub by going to
 - Clone the repository using `git`.
 - From the cloned repository run
     - `devcontainer up`
-    - `devcontainer pnpm install`
-    - `devcontainer pnpm dev`
+    - `devcontainer exec pnpm install`
+    - `devcontainer exec pnpm dev`
 - You may now view the book at `http://localhost:4321/tech-docs`
 - Edits are made in the `src/content/docs` directory. The server will automatically update
+
+#### Cleanup
+
+- When finished editing, run `docker ps` to get the container's ID or name
+- To stop the container (for quicker setup next time), run `docker stop <container>`
+- To stop and remove the container (to start fresh next time), `docker rm -f <container>`

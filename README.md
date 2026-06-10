@@ -1,7 +1,7 @@
 # System76 Technical Documentation
 
 This repository contains the Technical documentation about System76 products. It
-can be viewed at https://tech-docs.system76.com.
+can be viewed at https://system76.com/tech-docs/.
 
 ## Editing
 
@@ -12,12 +12,18 @@ that will render the book as it is rendered on the official website.
 ### GitHub (Quick)
 
 The book can be viewed and edited on GitHub by going to
-[src/README.md](src/README.md).
+[src/content/docs/index.md](src/content/docs/index.md).
 
-### mdBook (Complete)
+### Astro (Complete)
 
-- Install [mdBook](https://github.com/rust-lang/mdBook#installation)
+- Install one of the following packages via apt
+    - docker.io
+    - podman-docker
+- Install [Dev Container CLI](https://github.com/devcontainers/cli#try-it-out)
 - Clone the repository using `git`.
-- From the cloned repository, run `mdbook serve`
-- You may now view the book at `http://localhost:3000`
-- Edits are made in the `src` directory. The server will automatically update
+- From the cloned repository run
+    - `devcontainer up`
+    - `devcontainer pnpm install`
+    - `devcontainer pnpm dev`
+- You may now view the book at `http://localhost:4321/tech-docs`
+- Edits are made in the `src/content/docs` directory. The server will automatically update

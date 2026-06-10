@@ -56,6 +56,7 @@ export default defineConfig({
             customCss: [
                 "./src/assets/css/variables.css",
                 "./src/assets/css/img-background.css",
+                "./src/assets/css/toc-width-fix.css",
             ],
             locales: {
                 root: {

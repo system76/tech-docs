@@ -55,11 +55,11 @@ export default defineConfig({
             ],
             locales: {
                 root: {
-                    label: 'English',
-                    lang: 'en',
+                    label: "English",
+                    lang: "en",
                 },
             },
-            routeMiddleware: './src/plugins/toc-formatting.ts',
+            routeMiddleware: "./src/plugins/toc-formatting.ts",
         }),
     ],
     base,

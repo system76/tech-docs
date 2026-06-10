@@ -11,6 +11,8 @@ import { generateSidebar } from "./src/plugins/summary-to-sidebar.ts";
 
 const base = "tech-docs";
 
+const site = import.meta.env.PROD ? `https://system76.com/${base}` : `http://localhost:4321/${base}`;
+
 // https://astro.build/config
 export default defineConfig({
     integrations: [
@@ -63,7 +65,7 @@ export default defineConfig({
         }),
     ],
     base,
-    site: `http://localhost:4321/${base}`,
+    site,
     image: {
         service: {
             entrypoint: "./src/avifImageService.mjs",

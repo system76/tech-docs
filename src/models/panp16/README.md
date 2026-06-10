@@ -30,7 +30,7 @@ The System76 Pangolin is a laptop with the following specifications:
 - Memory
     - Up to 96GB (2x48GB) dual-channel DDR5 @ 5600 MHz
 - Networking
-    - 2.5-Gigabit Ethernet
+    - Gigabit Ethernet
     - M.2 PCIe WiFi 6E/Bluetooth 5.2
         - MediaTek MT7922A22M
 - Power

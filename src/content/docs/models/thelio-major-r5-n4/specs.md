@@ -22,7 +22,7 @@ The System76 Thelio Major is a desktop with the following specifications:
     - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
         - Version 2.3
 - Graphics options
-    - Configured with up to one dedicated GPU
+    - Configured with one dedicated GPU
         - User-expandable to 2 GPUs
         - Primary GPU slot:
             - PCIe 5.0 x16

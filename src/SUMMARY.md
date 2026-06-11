@@ -78,6 +78,8 @@
         - [Ubuntu 24.04 LTS Setup](models/thelio-astra-a1-n1/ubuntu-24.04.md)
         - [Ubuntu 20.04 LTS Setup](models/thelio-astra-a1-n1/ubuntu-20.04.md)
     - [Thelio Major (thelio-major-r5-n4)](models/thelio-major-r5-n4/specs.md)
+        - [External Overview](models/thelio-major-r5-n4/external-overview.md)
+        - [Internal Overview](models/thelio-major-r5-n4/internal-overview.md)
         - [Parts & Repairs](models/thelio-major-r5-n4/repairs.md)
     - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/specs.md)
         - [External Overview](models/thelio-massive-b1.2/external-overview.md)

@@ -5,13 +5,13 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    reviewers:
-      - "system76/web-engineering"
+    cooldown:
+      default-days: 1
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
-    reviewers:
-      - "system76/web-engineering"
+    cooldown:
+      default-days: 1

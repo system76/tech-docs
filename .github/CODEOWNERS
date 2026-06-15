@@ -1,0 +1,4 @@
+# Dependency updates
+package.json @system76/web-engineering
+pnpm-lock.yaml @system76/web-engineering
+pnpm-workspace.yaml @system76/web-engineering

@@ -33,3 +33,4 @@ The book can be viewed and edited on GitHub by going to
 - When finished editing, run `docker ps` to get the container's ID or name
 - To stop the container (for quicker setup next time), run `docker stop <container>`
 - To stop and remove the container (to start fresh next time), `docker rm -f <container>`
+    - Remove generated files outside of the container: `rm -r .astro .pnpm-store`

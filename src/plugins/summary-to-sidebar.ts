@@ -8,7 +8,7 @@ type SidebarItem = Sidebar[number];
 
 /** Strip the `.md` extension and lowercase the path for Astro routing. */
 function toAstroPath(p: string): string {
-    return p.replace(/\.md$/, "").toLowerCase();
+    return p.replace(/\.mdx?$/, "").toLowerCase();
 }
 
 function resolveLabel(label: string, link: string): string {

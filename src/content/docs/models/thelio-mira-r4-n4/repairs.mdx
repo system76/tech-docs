@@ -96,7 +96,7 @@ The top shell of the chassis can be removed to access the 2.5" drive screws.
 ![Top chassis screws](./img/top-screws.webp)
 
 3. Pull the top shell off of the chassis.
-    - When reinstalling the top shell, ensure the ventilation cutouts are aligned with the heatsink underneath.
+    - When reinstalling the top shell, ensure the ventilation cutouts are aligned with the radiator underneath.
 
 ## Replacing the RAM:
 
@@ -150,22 +150,22 @@ Thelio Mira ships with an optional dedicated GPU in the PCIe 5.0 x16 slot (top s
 
 ![GPU power connection](./img/gpu-power.webp)
 
-3. Partially loosen the two back screws holding the PCIe bracket in place, and slide it into the rightmost position.
+5. Partially loosen the two back screws holding the PCIe bracket in place, and slide it into the rightmost position.
 
 ![PCIe bracket screws](./img/pcie-bracket.webp)
 
-4. While holding the GPU, push back the latch on the motherboard (accessible from above the GPU) to free the PCIe connection, then pull the card out of the slot.
+6. While holding the GPU, push back the latch on the motherboard (accessible from above the GPU) to free the PCIe connection, then pull the card out of the slot.
 
 ![PCIe slots & latches](./img/pcie-slots.webp)
 
-5. Insert the new GPU (or re-seat the existing GPU) into the top PCIe slot.
-6. Close the back PCIe bracket.
-7. Connect the GPU power cable.
-8. If necessary, adjust the position of the GPU brace fingers.
+7. Insert the new GPU (or re-seat the existing GPU) into the top PCIe slot.
+8. Close the back PCIe bracket.
+9. Connect the GPU power cable.
+10. If necessary, adjust the position of the GPU brace fingers.
     - To adjust the height of the GPU brace fingers, partially loosen each finger's singular screw (highlighted cyan below) from the back, slide the finger to the appropriate height, and re-tighten the screw.
     - To adjust the horizontal position of the brace fingers, use the screws at the top and bottom of the brace columns (highlighted red below).
     ![GPU brace adjustment](./img/gpu-brace-adjustment.webp)
-9. Reinstall the GPU brace, front glass, and left side panel.
+11. Reinstall the GPU brace, front glass, and left side panel.
 
 ## Replacing the M.2 drives:
 
@@ -293,7 +293,7 @@ Additional screws for 2.5" storage drives are stored under the top shell of the 
 
 ### Steps to access spare 2.5" drive screws:
 
-1. Follow the steps above to [remove the left side panel](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), and [remove the top shell](#removing-the-top-shell).
+1. Follow the steps above to [remove the left and right side panels](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), and [remove the top shell](#removing-the-top-shell).
 2. Pop the plastic ring out of the diagonal crossbar.
 
 ![2.5" screws](./img/25-screws.webp)
@@ -481,7 +481,7 @@ The two 120mm side intake fans can be individually replaced.
 
 ### Steps to replace the side fans:
 
-1. Follow the steps above to [remove the left side panel](#removing-the-left-side-panel) and [remove the side fan dust filters and screws](#cleaning-the-side-dust-filters).
+1. Follow the steps above to [remove the left side panel](#removing-the-side-panels) and [remove the side fan dust filters and screws](#cleaning-the-side-dust-filters).
 2. Disconnect then fan(s) being replaced from the pogo pin fan splitter.
     - By default, the fan pictured on the left is plugged into the left connector of the splitter, and the fan pictured on the right is plugged into the right connector. However, both connectors provide the same signal.
 
@@ -572,21 +572,21 @@ Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from
 ![CPU cooler cables](./img/cpu-cooler-cables.webp)
 
 3. Set the computer on its right side (with the motherboard at the bottom).
-3. Unscrew the four screw heads holding the CPU cooler pump onto the CPU (highlighted red below).
+4. Unscrew the four screw heads holding the CPU cooler pump onto the CPU (highlighted red below).
     - The screw heads will come off of the posts underneath when fully unscrewed.
 
 ![CPU cooler pump screws](./img/cpu-cooler-pump.webp)
 
-4. Unplug the CPU cooler pump from the `AIO_PUMP` header on the motherboard, highlighted cyan above.
-5. Unplug the combined CPU cooler fan cable from the fan splitter board next to the motherboard, highlighted green above.
-6. Unfasten the velcro strip holding the CPU cooler's liquid tubes to the back of the chassis, highlighted yellow above.
-7. While holding the radiator in place so it doesn't fall, unscrew the eight silver screws holding the radiator on from the top of the chassis.
+5. Unplug the CPU cooler pump from the `AIO_PUMP` header on the motherboard, highlighted cyan above.
+6. Unplug the combined CPU cooler fan cable from the fan splitter board next to the motherboard, highlighted green above.
+7. Unfasten the velcro strip holding the CPU cooler's liquid tubes to the back of the chassis, highlighted yellow above.
+8. While holding the radiator in place so it doesn't fall, unscrew the eight silver screws holding the radiator on from the top of the chassis.
     - If you aren't replacing the CPU cooler or fans (but are replacing only the thermal paste and/or the CPU), you can skip this step and leave the radiator attached to the chassis.
 
 ![CPU cooler radiator screws](./img/cpu-cooler-radiator.webp)
 
-8. Remove the CPU cooler pump and radiator (if applicable) from the chassis.
-9. Using a paper towel, clean the existing thermal paste off of the cooler and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
+9. Remove the CPU cooler pump and radiator (if applicable) from the chassis.
+10. Using a paper towel, clean the existing thermal paste off of the cooler and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
 
 ![Thermal paste removal](./img/thermal-paste-removal.webp)
 
@@ -652,7 +652,7 @@ Thelio Mira R4-N4 includes a self-contained liquid cooler to dissipate heat from
 Named after Jupiter's moon Io, the Thelio Io daughterboard handles the front power button and fan control. If the Thelio Io board becomes defective, it can be replaced using the instructions below.
 
 **Part numbers:**
-- Thelio Mira B4-N3 uses [Thelio Io version 2](https://github.com/system76/thelio-io/tree/92c2a60b6d6acc0f9d51d819cba07ad28e2b03f3) ([PCB revision thelio_io_2.3](https://github.com/system76/thelio-io-hardware/tree/91814370002f762ac01cd1dd99dcbb43336352ab/pcb-thelio-io)).
+- Thelio Mira B4-N4 uses [Thelio Io version 2](https://github.com/system76/thelio-io/tree/92c2a60b6d6acc0f9d51d819cba07ad28e2b03f3) ([PCB revision thelio_io_2.3](https://github.com/system76/thelio-io-hardware/tree/91814370002f762ac01cd1dd99dcbb43336352ab/pcb-thelio-io)).
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 35 minutes  

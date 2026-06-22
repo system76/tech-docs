@@ -7,6 +7,10 @@ updates:
       day: "monday"
     cooldown:
       default-days: 1
+    groups:
+      github-actions:
+        patterns:
+          - "*"
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -15,3 +19,7 @@ updates:
       day: "monday"
     cooldown:
       default-days: 1
+    groups:
+      npm-all:
+        patterns:
+          - "*"

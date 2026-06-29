@@ -14,7 +14,7 @@
     },
     "dependencies": {
         "@astrojs/markdown-remark": "^7.2.0",
-        "@astrojs/starlight": "^0.40.0",
+        "@astrojs/starlight": "^0.41.1",
         "@types/mdast": "^4.0.4",
         "astro": "^6.4.8",
         "astro-rehype-relative-markdown-links": "^0.19.0",
@@ -25,8 +25,8 @@
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.9",
-        "js-yaml": "^4.2.0",
-        "prettier": "^3.8.4",
+        "js-yaml": "^5.2.0",
+        "prettier": "^3.9.1",
         "prettier-plugin-astro": "^0.14.1",
         "prettier-plugin-organize-imports": "^4.3.0"
     },

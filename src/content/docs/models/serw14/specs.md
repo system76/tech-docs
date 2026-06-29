@@ -2,9 +2,9 @@
 title: Serval WS (serw14)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Serval WS](./img/serw14.webp)
 

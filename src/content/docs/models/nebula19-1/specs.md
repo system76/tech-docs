@@ -2,8 +2,8 @@
 title: nebula19 (nebula19-1)
 ---
 
-- [External Overview](./external-overview.md)
-- [Parts & Assembly](./assembly.md)
+- [External Overview](./external-overview.mdx)
+- [Parts & Assembly](./assembly.mdx)
 
 ![nebula19](./img/nebula19-1.webp)
 

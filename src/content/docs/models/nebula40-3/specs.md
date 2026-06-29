@@ -2,7 +2,7 @@
 title: nebula40 (nebula40-3)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Parts & Assembly](./assembly.md)
 
 ![nebula36](./img/nebula40-3.png)

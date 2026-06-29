@@ -2,9 +2,9 @@
 title: Oryx Pro (oryp13)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Oryx Pro](./img/oryp13.webp)
 

@@ -5,7 +5,7 @@ slug: models/thelio-mega-r1.0/specs
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Thelio Mega](./img/thelio-mega-r1.0.webp)
 

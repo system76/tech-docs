@@ -2,7 +2,7 @@
 title: Galago Pro (galp7)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 

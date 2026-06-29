@@ -2,7 +2,7 @@
 title: nebula36 (nebula36-1)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Parts & Assembly](./assembly.md)
 
 ![nebula36](./img/nebula36-1.webp)

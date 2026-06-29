@@ -2,9 +2,9 @@
 title: Bonobo WS (bonw15 & bonw15-b)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Bonobo WS](./img/bonw15.webp)
 

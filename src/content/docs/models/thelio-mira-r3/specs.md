@@ -2,9 +2,9 @@
 title: Thelio Mira (thelio-mira-r3)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Thelio Mira](./img/thelio-mira-r3.webp)
 

@@ -2,7 +2,7 @@
 title: Darter Pro (darp11 & darp11-b)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.md)
 

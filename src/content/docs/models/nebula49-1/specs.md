@@ -2,7 +2,7 @@
 title: nebula49 (nebula49-1)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Parts & Assembly](./assembly.md)
 
 ![nebula49](./img/nebula49-1.webp)

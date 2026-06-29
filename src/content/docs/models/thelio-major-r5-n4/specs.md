@@ -2,6 +2,10 @@
 title: Thelio Major (thelio-major-r5-n4)
 ---
 
+- [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.mdx)
+
 ![Thelio Major](./img/thelio-major-r5-n4.webp)
 
 The System76 Thelio Major is a desktop with the following specifications:

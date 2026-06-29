@@ -2,9 +2,9 @@
 title: Thelio Astra (thelio-astra-a1-n1)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 - [Ubuntu 24.04 LTS Setup](./ubuntu-24.04.md)
 - [Ubuntu 20.04 LTS Setup](./ubuntu-20.04.md)
 

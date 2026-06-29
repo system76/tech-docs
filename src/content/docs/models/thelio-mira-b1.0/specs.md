@@ -5,7 +5,7 @@ slug: models/thelio-mira-b1.0/specs
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Thelio Mira](./img/thelio-mira-b1.0.webp)
 

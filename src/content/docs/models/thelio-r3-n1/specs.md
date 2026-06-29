@@ -2,9 +2,9 @@
 title: Thelio (thelio-r3-n1)
 ---
 
-- [External Overview](./external-overview.md)
+- [External Overview](./external-overview.mdx)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Thelio](./img/thelio-r3-n1.webp)
 

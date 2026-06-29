@@ -4,7 +4,7 @@ title: Thelio (thelio-b4)
 
 - [External Overview](./external-overview.md)
 - [Internal Overview](./internal-overview.md)
-- [Parts & Repairs](./repairs.md)
+- [Parts & Repairs](./repairs.mdx)
 
 ![Thelio](./img/thelio-b4.webp)
 

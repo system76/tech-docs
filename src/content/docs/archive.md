@@ -38,6 +38,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Launch (launch\_1)](models/launch_1/specs.md)
 - [Launch Heavy (launch\_heavy\_3)](models/launch_heavy_3/specs.md)
 - [Launch Heavy (launch\_heavy\_1)](models/launch_heavy_1/specs.md)
+- [Lemur Pro (lemp13)](models/lemp13/specs.md)
 - [Lemur Pro (lemp12)](models/lemp12/specs.md)
 - [Lemur Pro (lemp11)](models/lemp11/specs.md)
 - [Lemur Pro (lemp10)](models/lemp10/specs.md)

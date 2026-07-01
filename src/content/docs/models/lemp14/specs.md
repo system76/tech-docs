@@ -1,0 +1,68 @@
+---
+title: Lemur Pro (lemp14)
+---
+
+![Lemur Pro](./img/lemp14.avif)
+
+The System76 Lemur Pro is a laptop with the following specifications:
+
+- CPU
+    - Supports Intel Core Ultra 3rd generation (Panther Lake) CPUs
+        - [Core Ultra X7 358H](https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html)
+        - [Core Ultra 5 325](https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html) (14" model only)
+- BIOS
+    - [XMC XM25QU256C](https://www.xmcwh.com/en/site/product_con/224) flash chip
+        - WSON-8 form factor
+    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+- EC
+    - ITE IT5570E
+    - Programmed with [System76 EC](https://github.com/system76/ec)
+- Graphics
+    - GPU options:
+        - Core Ultra X7 358H models: Intel Arc B390
+        - Core Ultra 5 325 model: Intel Graphics (integrated)
+    - eDP display options:
+        - 16.0" 2560×1600@60Hz LCD
+            - LCD panel: AUO B160QAN03.L00 (or equivalent)
+                - Brightness: 400 nits (cd/m²)
+                - sRGB color coverage: 100%
+        - 14.0" 1920x1200@60Hz LCD
+            - LCD panel: Tianma TM140VDHP21-00 (or equivalent)
+                - Brightness: 400 nits (cd/m²)
+                - sRGB color coverage: 100%
+    - External video outputs:
+        - 1x HDMI 2.1
+        - 1x DisplayPort 1.4 over USB-C
+- Memory
+    - 32GB LPDDR5X (on-board) @ 7467 MHz
+- Networking
+    - M.2 PCIe/CNVi wireless card ([Intel BE200](https://www.intel.com/content/www/us/en/products/sku/230078/intel-wifi-7-be200/specifications.html)):
+        - Wi-Fi 7
+        - Bluetooth 5.4
+- Power
+    - 20V, 3.25A (65W) DC-in
+        - Power input via either USB-C port
+    - Included AC adapter: Chicony A20-065N3A
+        - AC power cord type: IEC C5
+    - 73Wh 4-cell Lithium-Ion battery
+        - Model number: L240BAT-4-73
+- Sound
+    - Intel Meteor Lake-P HD Audio Controller
+        - Realtek ALC245 audio codec
+    - Internal speakers & microphone
+    - 3.5mm headphone/microphone combo jack
+    - HDMI, USB-C DisplayPort audio
+- Storage
+    - 1x M.2 (PCIe NVMe Gen 4)
+    - MicroSD card reader (OZ711LV2)
+- USB
+    - 1x USB Type-C with Thunderbolt 4
+        - Supports DisplayPort over USB-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-C
+        - Supports USB-C charging (USB-PD)
+    - 1x USB 3.2 Gen 2 Type-A
+    - 1x USB 3.2 Gen 1 Type-A
+- Dimensions
+    - 16" model: 1.96cm x 35.8cm x 25.3cm, 1.34kg
+    - 14" model: 1.7cm x 31.2cm x 22.3cm, 0.998kg

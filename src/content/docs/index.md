@@ -23,7 +23,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Launch (launch\_3b)](models/launch_3b/specs.md)
 - [Launch Heavy (launch\_heavy\_3b)](models/launch_heavy_3b/specs.md)
 - [Launch Lite (launch\_lite\_1)](models/launch_lite_1/specs.md)
-- [Lemur Pro (lemp13)](models/lemp13/specs.md)
+- [Lemur Pro (lemp14)](models/lemp14/specs.md)
 - [Meerkat (meer10)](models/meer10/specs.md)
 - [nebula19 (nebula19-1)](models/nebula19-1/specs.md)
 - [nebula40 (nebula40-3)](models/nebula40-3/specs.md)

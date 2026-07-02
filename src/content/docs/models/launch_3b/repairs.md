@@ -7,7 +7,7 @@ tableOfContents:
 
 The Launch Configurable Keyboard can be customized and personalized in a variety of ways. It is recommended to unplug all USB cables and devices from your Launch before changing keycaps or switches.
 
-This page uses photos of the `launch_3b` revision, which is identical in structure and electronics to the [launch_3](../launch_3/README.html), but ships with black shine-through keycaps and a darker powder coat finish with top port etchings.
+This page uses photos of the `launch_3b` revision, which is identical in structure and electronics to the [launch_3](../launch_3/specs.md), but ships with black shine-through keycaps and a darker powder coat finish with top port etchings.
 
 ## Connecting and using Launch:
 

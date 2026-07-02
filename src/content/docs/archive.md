@@ -70,7 +70,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Thelio Major (thelio-major-r3)](models/thelio-major-r3/specs.md)
 - [Thelio Major (thelio-major-b1/b2/r1/r2)](models/thelio-major-b1-b2-r1-r2/specs.md)
 - [Thelio Mega (thelio-mega-r1.0)](models/thelio-mega-r1.0/specs.md)
-- [Thelio Mira (thelio-mira-r5-n4)](models/thelio-mira-r5-n4/specs.md)
+- [Thelio Mira (thelio-mira-r4-n4)](models/thelio-mira-r4-n4/specs.md)
 - [Thelio Mira (thelio-mira-b4-n3)](models/thelio-mira-b4-n3/specs.md)
 - [Thelio Mira (thelio-mira-r4-n3)](models/thelio-mira-r4-n3/specs.md)
 - [Thelio Mira (thelio-mira-r3.0)](models/thelio-mira-r3/specs.md)
@@ -84,4 +84,4 @@ Some older models that aren't listed on the Tech Docs website have quickstart gu
 
 ## Current Models
 
-See [Current Models](index.md).
+See [Current Models](/tech-docs).

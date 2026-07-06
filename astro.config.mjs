@@ -1,12 +1,12 @@
 // @ts-check
-import { unified } from "@astrojs/markdown-remark";
+import { satteri } from "@astrojs/markdown-satteri";
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
 
-import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-links";
+import { satteriRelativeMarkdownLinks } from "@system76/satteri-relative-markdown-links";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 
-import remarkWrapImagesWithOriginals from "./src/plugins/remark-wrap-images-with-originals.ts";
+import wrapImagesWithOriginals from "./src/plugins/satteri-wrap-images-with-originals.ts";
 import { generateSidebar } from "./src/plugins/summary-to-sidebar.ts";
 
 const base = "tech-docs";
@@ -77,10 +77,15 @@ export default defineConfig({
         responsiveStyles: true,
     },
     markdown: {
-        processor: unified({
-            remarkPlugins: [[remarkWrapImagesWithOriginals, { base }]],
-            rehypePlugins: [
-                [rehypeAstroRelativeMarkdownLinks, { base, collectionBase: false }],
+        processor: satteri({
+            mdastPlugins: [
+                satteriRelativeMarkdownLinks({
+                    base,
+                    collectionBase: false,
+                }),
+                wrapImagesWithOriginals({
+                    base,
+                }),
             ],
         }),
     },

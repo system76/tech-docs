@@ -1,6 +1,15 @@
 :root {
     --sl-content-width: 47rem;
 
+    /* Brand typography, migrated from the old Nuxt site's @system76/design fonts. */
+    --sl-font: var(--font-fira-sans), var(--sl-font-system);
+    --sl-font-mono: var(--font-ubuntu-mono), var(--sl-font-system-mono);
+    --sl-heading-font: var(--font-roboto-slab), serif;
+
+    /* Match code block/inline code font size to body text (Starlight defaults them smaller). */
+    --sl-text-code: var(--sl-text-body);
+    --sl-text-code-sm: var(--sl-text-body);
+
     /* Dark mode colors. */
     --sl-color-accent-low: #0c292c;
     --sl-color-accent: #007883;

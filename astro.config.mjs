@@ -1,7 +1,7 @@
 // @ts-check
 import { satteri } from "@astrojs/markdown-satteri";
 import starlight from "@astrojs/starlight";
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 
 import { satteriRelativeMarkdownLinks } from "@system76/satteri-relative-markdown-links";
 import { viteStaticCopy } from "vite-plugin-static-copy";
@@ -65,10 +65,39 @@ export default defineConfig({
                 },
             },
             routeMiddleware: "./src/plugins/toc-formatting-middleware.ts",
+            components: {
+                Head: "./src/components/Head.astro",
+            },
         }),
     ],
     base,
     site,
+    fonts: [
+        {
+            provider: fontProviders.fontsource(),
+            name: "Fira Sans",
+            cssVariable: "--font-fira-sans",
+            weights: [400, 700],
+            styles: ["normal"],
+            subsets: ["latin"],
+        },
+        {
+            provider: fontProviders.fontsource(),
+            name: "Roboto Slab",
+            cssVariable: "--font-roboto-slab",
+            weights: [400, 700],
+            styles: ["normal"],
+            subsets: ["latin"],
+        },
+        {
+            provider: fontProviders.fontsource(),
+            name: "Ubuntu Mono",
+            cssVariable: "--font-ubuntu-mono",
+            weights: [400],
+            styles: ["normal"],
+            subsets: ["latin"],
+        },
+    ],
     image: {
         service: {
             entrypoint: "./src/avifImageService.mjs",

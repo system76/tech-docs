@@ -11,9 +11,21 @@ import { generateSidebar } from "./src/plugins/summary-to-sidebar.ts";
 
 const base = "tech-docs";
 
-const site = import.meta.env.PROD
-    ? `https://system76.com/${base}`
-    : `http://localhost:4321/${base}`;
+const buildEnv = process.env.BUILD_ENV ?? "local";
+
+const siteByBuildEnv = {
+    local: `http://localhost:4321/${base}`,
+    staging: `https://genesis76.com/${base}`,
+    production: `https://system76.com/${base}`,
+};
+
+if (!(buildEnv in siteByBuildEnv)) {
+    throw new Error(
+        `Invalid BUILD_ENV "${buildEnv}", expected one of: ${Object.keys(siteByBuildEnv).join(", ")}`,
+    );
+}
+
+const site = siteByBuildEnv[/** @type {keyof typeof siteByBuildEnv} */ (buildEnv)];
 
 // https://astro.build/config
 export default defineConfig({

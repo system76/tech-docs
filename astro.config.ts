@@ -1,6 +1,6 @@
-// @ts-check
 import { satteri } from "@astrojs/markdown-satteri";
 import starlight from "@astrojs/starlight";
+import type { StarlightConfig } from "@astrojs/starlight/types";
 import { defineConfig, fontProviders } from "astro/config";
 
 import { satteriRelativeMarkdownLinks } from "@system76/satteri-relative-markdown-links";
@@ -8,6 +8,8 @@ import { viteStaticCopy } from "vite-plugin-static-copy";
 
 import wrapImagesWithOriginals from "./src/plugins/satteri-wrap-images-with-originals.ts";
 import { generateSidebar } from "./src/plugins/summary-to-sidebar.ts";
+
+type HeadConfig = NonNullable<StarlightConfig["head"]>[number];
 
 const base = "tech-docs";
 
@@ -25,7 +27,30 @@ if (!(buildEnv in siteByBuildEnv)) {
     );
 }
 
-const site = siteByBuildEnv[/** @type {keyof typeof siteByBuildEnv} */ (buildEnv)];
+function googleAnalyticsHead(): HeadConfig[] {
+    if (buildEnv !== "production") {
+        return [];
+    }
+
+    return [
+        {
+            tag: "script",
+            attrs: {
+                async: true,
+                src: "https://www.googletagmanager.com/gtag/js?id=G-H37KSF3165",
+            },
+        },
+        {
+            tag: "script",
+            content: `window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-H37KSF3165');`,
+        },
+    ];
+}
+
+const site = siteByBuildEnv[buildEnv as keyof typeof siteByBuildEnv];
 
 // https://astro.build/config
 export default defineConfig({
@@ -80,6 +105,7 @@ export default defineConfig({
             components: {
                 Head: "./src/components/Head.astro",
             },
+            head: [...googleAnalyticsHead()],
         }),
     ],
     base,

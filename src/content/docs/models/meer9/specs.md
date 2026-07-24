@@ -11,7 +11,7 @@ title: Meerkat (meer9)
 The System76 Meerkat is a desktop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 1st generation (Meteor Lake) CPUs
+    - Supports Intel Core Ultra Series 1 (Meteor Lake) CPUs
         - [Core Ultra 7 155H](https://www.intel.com/content/www/us/en/products/sku/236847/intel-core-ultra-7-processor-155h-24m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 125H](https://www.intel.com/content/www/us/en/products/sku/236848/intel-core-ultra-5-processor-125h-18m-cache-up-to-4-50-ghz/specifications.html)
 - BIOS

@@ -11,7 +11,7 @@ title: Darter Pro (darp11 & darp11-b)
 The System76 Darter Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 2nd generation (Arrow Lake) CPUs
+    - Supports Intel Core Ultra Series 2 (Arrow Lake) CPUs
         - [Core Ultra 7-255H](https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html)
         - [Core Ultra 5-225H](https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html)
 - BIOS

@@ -1,10 +1,8 @@
 # Summary
 
 - [Current Models](README.md)
-    - [Adder WS (addw5)](models/addw5/specs.md)
-        - [External Overview](models/addw5/external-overview.mdx)
-        - [Internal Overview](models/addw5/internal-overview.md)
-        - [Parts & Repairs](models/addw5/repairs.mdx)
+    - [Adder WS (addp6)](models/addp6/specs.md)
+        - [Parts & Repairs](models/addp6/repairs.mdx)
     - [Bonobo WS (bonw16)](models/bonw16/specs.md)
         - [External Overview](models/bonw16/external-overview.mdx)
         - [Internal Overview](models/bonw16/internal-overview.md)
@@ -92,6 +90,10 @@
     - [Thelio Spark (thelio-spark-r3-n3)](models/thelio-spark-r3-n3/specs.md)
         - [Parts & Repairs](models/thelio-spark-r3-n3/repairs.md)
 - [Previous Models](archive.md)
+    - [Adder WS (addw5)](models/addw5/specs.md)
+        - [External Overview](models/addw5/external-overview.mdx)
+        - [Internal Overview](models/addw5/internal-overview.md)
+        - [Parts & Repairs](models/addw5/repairs.mdx)
     - [Adder WS (addw4)](models/addw4/specs.md)
         - [External Overview](models/addw4/external-overview.mdx)
         - [Internal Overview](models/addw4/internal-overview.md)

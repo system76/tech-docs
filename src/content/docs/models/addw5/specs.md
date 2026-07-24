@@ -37,7 +37,6 @@ The System76 Adder WS is a laptop with the following specifications:
                 - Color coverage:
                     - DCI-P3: 74%
                     - sRGB: 100%
-                - sRGB color coverage: 100
         - 17.3" 1920x1080@144Hz LCD
             - LCD panel: Innolux N173HCE-G33 (or equivalent)
                 - Brightness: 300 nits (cd/m²)

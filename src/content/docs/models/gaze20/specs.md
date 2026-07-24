@@ -11,7 +11,7 @@ title: Gazelle (gaze20)
 The System76 Gazelle is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core 2nd generation (Arrow Lake) CPUs
+    - Supports Intel Core Series 2 (Arrow Lake) CPUs
         - [Core 7 250H](https://www.intel.com/content/www/us/en/products/sku/241651/intel-core-7-processor-250h-24m-cache-up-to-5-40-ghz/specifications.html)
 - Chipset
     - [Intel HM870](https://www.intel.com/content/www/us/en/products/sku/240123/intel-hm870-chipset/specifications.html)

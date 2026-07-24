@@ -11,7 +11,7 @@ title: Darter Pro (darp10 & darp10-b)
 The System76 Darter Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 1st generation (Meteor Lake) CPUs
+    - Supports Intel Core Ultra Series 1 (Meteor Lake) CPUs
         - [Core Ultra 7-155H](https://ark.intel.com/content/www/us/en/ark/products/236847/intel-core-ultra-7-processor-155h-24m-cache-up-to-4-80-ghz.html)
         - [Core Ultra 5-125H](https://ark.intel.com/content/www/us/en/ark/products/236848/intel-core-ultra-5-processor-125h-18m-cache-up-to-4-50-ghz.html)
 - BIOS

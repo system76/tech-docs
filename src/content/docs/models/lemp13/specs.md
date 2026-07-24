@@ -11,7 +11,7 @@ title: Lemur Pro (lemp13)
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 1st generation (Meteor Lake) CPUs
+    - Supports Intel Core Ultra Series 1 (Meteor Lake) CPUs
         - [Core Ultra 7 155U](https://www.intel.com/content/www/us/en/products/sku/237327/intel-core-ultra-7-processor-155u-12m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 125U](https://www.intel.com/content/www/us/en/products/sku/237330/intel-core-ultra-5-processor-125u-12m-cache-up-to-4-30-ghz/specifications.html)
 - BIOS

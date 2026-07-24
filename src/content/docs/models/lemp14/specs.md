@@ -7,7 +7,7 @@ title: Lemur Pro (lemp14)
 The System76 Lemur Pro is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 3rd generation (Panther Lake) CPUs
+    - Supports Intel Core Ultra Series 3 (Panther Lake) CPUs
         - [Core Ultra X7 358H](https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 325](https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html) (14" model only)
 - BIOS

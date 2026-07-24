@@ -11,7 +11,7 @@ title: Bonobo WS (bonw16)
 The System76 Bonobo WS is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 2nd generation (Arrow Lake) CPUs
+    - Supports Intel Core Ultra Series 2 (Arrow Lake) CPUs
         - [Core Ultra 9 290HX Plus](https://www.intel.com/content/www/us/en/products/sku/245960/intel-core-ultra-9-processor-290hx-plus-36m-cache-up-to-5-50-ghz/specifications.html)
         - [Core Ultra 9 275HX](https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html)
 - Chipset

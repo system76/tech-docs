@@ -11,7 +11,7 @@ title: Adder WS (addw5)
 The System76 Adder WS is a laptop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra 2nd generation (Arrow Lake) CPUs
+    - Supports Intel Core Ultra Series 2 (Arrow Lake) CPUs
         - [Core Ultra 9 275HX](https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html)
 - Chipset
     - [Intel HM870](https://www.intel.com/content/www/us/en/products/sku/240123/intel-hm870-chipset/specifications.html)

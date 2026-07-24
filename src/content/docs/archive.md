@@ -7,6 +7,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Previous Models
 
+- [Adder WS (addw5)](models/addw5/specs.md)
 - [Adder WS (addw4)](models/addw4/specs.md)
 - [Adder WS (addw3)](models/addw3/specs.md)
 - [Adder WS (addw2)](models/addw2/specs.md)

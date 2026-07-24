@@ -8,7 +8,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Current Models
 
-- [Adder WS (addw5)](models/addw5/specs.md)
+- [Adder WS (addp6)](models/addp6/specs.md)
 - [Bonobo WS (bonw16)](models/bonw16/specs.md)
 - [Darter Pro (darp11)](models/darp11/specs.md)
 - [Eland 1U (elan1-r3)](models/elan1-r3/specs.md)

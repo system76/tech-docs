@@ -13,10 +13,10 @@ The System76 Lemur Pro is a laptop with the following specifications:
 - BIOS
     - [XMC XM25QU256C](https://www.xmcwh.com/en/site/product_con/224) flash chip
         - WSON-8 form factor
-    - Programmed with [System76 Open Firmware](https://github.com/system76/firmware-open)
+    - Programmed with System76 firmware (non-open)
 - EC
     - ITE IT5570E
-    - Programmed with [System76 EC](https://github.com/system76/ec)
+    - Programmed with non-open EC firmware
 - Graphics
     - GPU options:
         - Core Ultra X7 358H models: Intel Arc B390

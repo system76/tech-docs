@@ -28,7 +28,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [nebula19 (nebula19-1)](models/nebula19-1/specs.md)
 - [nebula40 (nebula40-3)](models/nebula40-3/specs.md)
 - [nebula49 (nebula49-1)](models/nebula49-1/specs.md)
-- [Oryx Pro (oryp13)](models/oryp13/specs.md)
+- [Oryx Pro (oryp14)](models/oryp14/specs.md)
 - [Pangolin Pro (panp16)](models/panp16/specs.md)
 - [Serval WS (serw14)](models/serw14/specs.md)
 - [Thelio (thelio-r5-n1)](models/thelio-r5-n1/specs.md)

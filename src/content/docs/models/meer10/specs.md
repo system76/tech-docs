@@ -1,5 +1,5 @@
 ---
-title: Meerkat (meer10)
+title: Meerkat (meer10 & meer10-b)
 ---
 
 - [External Overview](./external-overview.md)
@@ -11,11 +11,14 @@ title: Meerkat (meer10)
 The System76 Meerkat is a desktop with the following specifications:
 
 - CPU
-    - Supports Intel Core Ultra Series 2 (Arrow Lake), Core Series 2 (Raptor Lake), and Core Series 1 (Raptor Lake) CPUs
+    - Supports Intel Core Ultra Series 2 "Arrow Lake" CPUs (meer10):
         - [Core Ultra 7 255H](https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html)
-        - [Core 7 240H](https://www.intel.com/content/www/us/en/products/sku/241653/intel-core-7-processor-240h-24m-cache-up-to-5-20-ghz/specifications.html)
         - [Core Ultra 5 225H](https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html)
+    - Supports Intel Core Series 2 "Raptor Lake" and Core Series 1 "Raptor Lake" CPUs (meer10-b):
+        - [Core 7 240H](https://www.intel.com/content/www/us/en/products/sku/241653/intel-core-7-processor-240h-24m-cache-up-to-5-20-ghz/specifications.html)
         - [Core 3 100U](https://www.intel.com/content/www/us/en/products/sku/236776/intel-core-3-processor-100u-10m-cache-up-to-4-70-ghz/specifications.html)
+- BIOS
+    - Programmed with System76 firmware (non-open)
 - Graphics
     - GPU: Dependent on CPU
         - Core Ultra 7 255H: Intel Arc 140T GPU

@@ -13,11 +13,11 @@
         "format:check": "prettier --check ."
     },
     "dependencies": {
-        "@astrojs/markdown-satteri": "^0.3.4",
-        "@astrojs/starlight": "^0.41.3",
-        "@system76/satteri-relative-markdown-links": "^1.0.2",
+        "@astrojs/markdown-satteri": "^0.3.7",
+        "@astrojs/starlight": "^0.41.7",
+        "@system76/satteri-relative-markdown-links": "^1.1.0",
         "@types/mdast": "^4.0.4",
-        "astro": "^7.0.6",
+        "astro": "^7.2.4",
         "remark": "^15.0.1",
         "satteri": "^0.9.5",
         "sharp": "^0.35.3",
@@ -25,10 +25,10 @@
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.9",
-        "js-yaml": "^4.3.0",
-        "prettier": "^3.9.5",
+        "js-yaml": "^4.3.1",
+        "prettier": "^3.9.6",
         "prettier-plugin-astro": "^0.14.1",
         "prettier-plugin-organize-imports": "^4.3.0"
     },
-    "packageManager": "pnpm@11.10.0+sha512.0b7f8b98060031904c017e3a41eb187a16d40eeb829b95c4f8cb03681761fc4ab53dd219115b9b447f4dce1a05a214764461e7d3703392a9f32f9511ce8c86c8"
+    "packageManager": "pnpm@11.22.0+sha512.1ff870c4c6133dfd88fb2afc46dd13d47f09c9794b438c6fdb47ca98caf3bc16381ee0be93a091b8e3824cf01f889f46d7d9e20910fb0be1ab0fb5baa80dd621"
 }

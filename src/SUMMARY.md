@@ -1,7 +1,9 @@
 # Summary
 
 - [Current Models](README.md)
-    - [Adder WS (addp6)](models/addp6/specs.md)
+    - [Adder Pro (addp6)](models/addp6/specs.md)
+        - [External Overview](models/addp6/external-overview.mdx)
+        - [Internal Overview](models/addp6/internal-overview.md)
         - [Parts & Repairs](models/addp6/repairs.mdx)
     - [Bonobo WS (bonw16)](models/bonw16/specs.md)
         - [External Overview](models/bonw16/external-overview.mdx)

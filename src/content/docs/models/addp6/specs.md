@@ -2,9 +2,13 @@
 title: Adder Pro (addp6)
 ---
 
+- [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.mdx)
+
 ![Adder WS](./img/addp6.avif)
 
-The System76 Adder WS is a laptop with the following specifications:
+The System76 Adder Pro is a laptop with the following specifications:
 
 - CPU
     - Supports Intel Core Ultra Series 3 (Panther Lake) CPUs
@@ -40,7 +44,10 @@ The System76 Adder WS is a laptop with the following specifications:
 - Power
     - 230W (20V, 11.5A) DC-in port
         - Barrel size: 5.5mm (outer), 2.5mm (inner)
+    - Included AC adapter: LiteOn PA-1231-26
+        - AC power cord type: IEC C5
     - 60Wh 3-cell Lithium-Polymer battery
+        - Model number: V740BAT-3-60
 - Sound
     - Internal speakers & microphone
     - Combined headphone & microphone 3.5mm jack

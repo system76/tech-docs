@@ -61,7 +61,6 @@ The System76 Thelio is a desktop with the following specifications:
 - Storage
     - 1x M.2 (PCIe NVMe Gen 5) SSD
     - 1x M.2 (PCIe NVMe Gen 4) SSD
-    - 1x M.2 (PCIe NVMe Gen 3) SSD
     - 2x 2.5" SATA
 - USB
     - Back ports:

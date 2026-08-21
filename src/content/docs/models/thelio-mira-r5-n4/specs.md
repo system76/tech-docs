@@ -110,6 +110,8 @@ The System76 Thelio Mira is a desktop with the following specifications:
 - USB
     - Back ports:
         - 2x USB4 Type-C
+            - USB4 ports share bandwidth (multiple high-bandwidth devices at once may have limited functionality)
+            - Connect USB4 devices before system power-on for best compatibility
         - 1x USB 3.2 Gen 2 (Type-A)
         - 5x USB 3.2 Gen 1 (Type-A)
         - 4x USB 2.0 (Type-A)

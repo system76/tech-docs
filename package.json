@@ -19,7 +19,7 @@
         "@types/mdast": "^4.0.4",
         "astro": "^7.2.4",
         "remark": "^15.0.1",
-        "satteri": "^0.9.5",
+        "satteri": "^0.10.5",
         "sharp": "^0.35.3",
         "vite-plugin-static-copy": "^4.1.1"
     },

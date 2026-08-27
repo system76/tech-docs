@@ -1,5 +1,5 @@
 ---
-title: Lemur Pro (lemp13)
+title: Lemur Pro (lemp13 & lemp13-b)
 ---
 
 - [External Overview](./external-overview.mdx)
@@ -37,9 +37,14 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - 1x HDMI 2.1
         - 1x DisplayPort 1.4 over USB-C
 - Memory
-    - Channel 0: 8-GB on-board DDR5
-        - 4x [Samsung K4RAH165VB-BCQK](https://semiconductor.samsung.com/dram/ddr/ddr5/k4rah165vb-bcqk/) (2GB each)
-    - Channel 1: 8-GB/16-GB/32-GB/48-GB DDR5 SO-DIMM @ 4800 MHz
+    - After July 2024 (lemp13-b only):
+        - Channel 0: 8-GB on-board DDR5
+            - 4x Samsung M425R1GB4PB0-CWMOD (2GB each)
+        - Channel 1: 8-GB/16-GB/32-GB/48-GB DDR5 SO-DIMM @ 5600 MHz  
+    - Before July 2024 (lemp13-b or lemp13):
+        - Channel 0: 8-GB on-board DDR5
+            - 4x Samsung K4RAH165VB-BCQK (2GB each)
+        - Channel 1: 8-GB/16-GB/32-GB/48-GB DDR5 SO-DIMM @ 4800 MHz
 - Networking
     - M.2 PCIe/CNVi WiFi/Bluetooth options:
         - Intel Wi-Fi 7 BE200

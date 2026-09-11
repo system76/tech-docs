@@ -1,6 +1,10 @@
 ---
-title: Lemur Pro (lemp14)
+title: Lemur Pro (lemp14 & lemp14-b)
 ---
+
+- [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.md)
 
 ![Lemur Pro](./img/lemp14.avif)
 
@@ -11,7 +15,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
         - [Core Ultra X7 358H](https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html)
         - [Core Ultra 5 325](https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html) (14" model only)
 - BIOS
-    - [XMC XM25QU256C](https://www.xmcwh.com/en/site/product_con/224) flash chip
+    - [Puya PY25F256LC](https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/Flash/PY25F256LC_Datasheet_V1.1.pdf) flash chip
         - WSON-8 form factor
     - Programmed with System76 firmware (non-open)
 - EC
@@ -47,8 +51,7 @@ The System76 Lemur Pro is a laptop with the following specifications:
     - 73Wh 4-cell Lithium-Ion battery
         - Model number: L240BAT-4-73
 - Sound
-    - Intel Meteor Lake-P HD Audio Controller
-        - Realtek ALC245 audio codec
+    - Realtek ALC245 audio codec
     - Internal speakers & microphone
     - 3.5mm headphone/microphone combo jack
     - HDMI, USB-C DisplayPort audio

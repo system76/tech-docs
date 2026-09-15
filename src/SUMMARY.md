@@ -41,6 +41,8 @@
         - [External Overview](models/launch_lite_1/external-overview.md)
         - [Customization & Repairs](models/launch_lite_1/repairs.md)
     - [Lemur Pro (lemp14)](models/lemp14/specs.md)
+        - [External Overview](models/lemp14/external-overview.mdx)
+        - [Internal Overview](models/lemp14/internal-overview.md)
         - [Parts & Repairs](models/lemp14/repairs.md)
     - [Meerkat (meer10)](models/meer10/specs.md)
         - [External Overview](models/meer10/external-overview.md)

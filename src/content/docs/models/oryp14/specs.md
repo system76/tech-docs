@@ -2,6 +2,10 @@
 title: Oryx Pro (oryp14)
 ---
 
+- [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.mdx)
+
 ![Oryx Pro](./img/oryp14.avif)
 
 The System76 Oryx Pro is a laptop with the following specifications:
@@ -20,6 +24,11 @@ The System76 Oryx Pro is a laptop with the following specifications:
     - Dedicated GPU: NVIDIA GeForce RTX 5060
     - Integrated GPU: AMD Radeon 860M
     - eDP display: 16" 2560x1600@300Hz LCD
+        - LCD panel: BOE NE160QDM-NZL (or equivalent)
+            - Brightness: 500 nits (cd/m²)
+            - Color coverage:
+                - sRGB: 100%
+                - DCI-P3: 81%
     - External video output:
         - 1x HDMI 2.1
         - 2x DisplayPort 2.1 over USB-C

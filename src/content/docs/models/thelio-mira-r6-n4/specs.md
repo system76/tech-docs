@@ -1,0 +1,116 @@
+---
+title: Thelio Mira AI (thelio-mira-r6-n4)
+---
+
+- [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
+- [Parts & Repairs](./repairs.mdx)
+
+![Thelio Mira AI](./img/thelio-mira-r6-n4.avif)
+
+The System76 Thelio Mira AI is a desktop with the following specifications:
+
+- Processor options
+    - Supports AMD Ryzen 9000 series (Granite Ridge) CPUs
+        - [Ryzen 9 9950X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html)
+        - [Ryzen 9 9900X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html)
+        - [Ryzen 7 9700X](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html)
+- Motherboard
+    - [ASUS ProArt B850-Creator WiFi Neo](https://www.asus.com/us/motherboards-components/motherboards/proart/proart-b850-creator-wifi-neo/techspec/) running System76 Firmware (non-open)
+    - AMD B850 chipset
+- Daughterboard
+    - [Thelio Io](https://github.com/system76/thelio-io) board running [open-source firmware](https://github.com/system76/thelio-io-firmware)
+- Graphics options
+    - Ships with up to two dedicated GPUs
+        - Primary GPU slot:
+            - PCIe 5.0 x16
+            - Up to 3-slot height
+                - 4+ slots supported if lower PCIe slots are unoccupied
+        - Secondary GPU slot:
+            - PCIe 5.0 x16
+            - Up to 2-slot height
+    - GPU size:
+        - Internal clearance: 358mm
+        - Recommended maximum length: 348mm
+    - Tested with the following GPUs:
+        - Integrated Graphics
+            - 1x HDMI 2.1
+            - 1x DisplayPort 1.4
+            - 1x DisplayPort 1.4 via USB-C
+        - [NVIDIA RTX Pro 6000](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/#specs)
+            - Single requires 1000W primary PSU
+            - Dual requires additional 750W PSU
+            - 4x DisplayPort 2.1b
+        - [NVIDIA RTX Pro 6000 Max-Q](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/#specifications)
+            - Dual requires 1000W primary PSU
+            - 4x DisplayPort 2.1b
+        - [NVIDIA RTX Pro 5000](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5000/#specs)
+            - Dual requires 1000W primary PSU
+            - 4x DisplayPort 2.1b
+        - [NVIDIA RTX Pro 4000](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-4000/#specs)
+            - 4x DisplayPort 2.1b
+        - [NVIDIA RTX A400](https://www.nvidia.com/en-us/products/workstations/rtx-a400/#specifications)
+            - 4x Mini DisplayPort 1.4a
+        - [AMD Radeon AI Pro R9700](https://www.amd.com/en/products/graphics/workstations/radeon-ai-pro/ai-9000-series/amd-radeon-ai-pro-r9700.html)
+            - Dual requires 1000W primary PSU
+            - 3x DisplayPort 2.1a
+            - 1x HDMI 2.1b
+- Expansion
+    - 2x PCIe 5.0 x16 (primary & secondary GPU slots)
+        - Primary slot is up to 4-slot height
+        - Secondary slot is up to 2-slot height
+    - 1x PCIe 4.0 x16
+        - Usage limits secondary GPU slot to 1-slot height
+    - 1x PCIe 4.0 x1
+        - Usage limits primary GPU slot to 3-slot height
+- Memory
+    - Up to 192GB (4x48GB) dual-channel DDR5 DIMMs
+        - 192GB (4x48GB) and 128GB (4x32GB) configurations run at 3600 MHz
+        - All lower-capacity configurations run at 5600 MHz
+        - Motherboard supports up to 256GB (4x64GB) @ 8400 MHz w/ overclocking (not tested)
+    - Tested with the following RAM modules (may ship with other tested modules):
+        - [Team CTCED596G6400HC32ADC01](https://www.teamgroupinc.com/en/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-black/expert-u-dimm-ddr5-black-CTCED596G6400HC32ADC01/) (48GB/stick @ 6400 MHz)
+        - [G.Skill F5-6400J3239F48GX2-RS5K](https://www.gskill.com/product/165/377/1684287813/F5-6400J3239F48GX2-RS5K) (48GB/stick @ 6400 MHz)
+        - [Crucial CT32G56C46U5](https://www.crucial.com/memory/ddr5/ct32g56c46u5) (32GB/stick @ 5600 MHz)
+        - [ADATA AD5U560024G-B](https://www.adata.com/us/consumer/category/computer-memory/dram-module-ddr5-5600-u-dimm/) (24GB/stick @ 5600 MHz)
+- Networking
+    - 2x 5-Gigabit Ethernet (Realtek RTL8126)
+    - Wi-Fi 7 + Bluetooth 5.4 (Realtek RTL8922AE)
+- Power
+    - C13 power cord
+    - 750W minimum PSU
+        - Some GPU configurations require 1000W or 1000W + 750W PSU configurations
+    - SFX form factor
+    - Tested with the following PSU models (may ship with other tested models):
+        - 1000W:
+            - [Lian Li SP1000P (Black)](https://lian-li.com/product/sp-platinum/)
+            - [Thermaltake Toughpower Platinum (PS-STP-1000FNFAPU-1)](https://thermaltakeusa.com/products/toughpower-sfx-platinum-1000w-tt-premium-edition-ps-stp-1000fnfapu-1)
+        - 750W:
+            - [Lian Li SP750G (Black)](https://lian-li.com/product/sp750/)
+- Sound
+    - Back:
+        - 3.5mm mic in/center, subwoofer speaker out
+        - 3.5mm line out/front speaker out
+        - 3.5mm line in/side speaker out
+    - Front:
+        - 3.5mm combo jack
+    - Up to 7.1-channel audio output
+    - Realtek ALC1220P audio chipset
+    - HDMI, DisplayPort, USB-C DisplayPort audio (depending on GPU)
+- Storage
+    - 2x M.2 (PCIe NVMe Gen 5) SSD
+    - 1x M.2 (PCIe NVMe Gen 4) SSD
+    - 4x SATA III
+        - Chassis fits 2x 2.5" SATA by default
+        - With single-PSU configurations, chassis is expandable to 4x 2.5" or 2x 3.5" + 2x 2.5"
+- USB
+    - Back ports:
+        - 2x USB 3.2 Gen 2 Type-C
+            - Top port supports DisplayPort 1.4 over USB-C
+        - 2x USB 3.2 Gen 2 (Type-A)
+        - 4x USB 2.0 (Type-A)
+    - Front ports:
+        - 1x USB 3.2 Gen 2 (Type-C)
+        - 2x USB 3.2 Gen 1 (Type-A)
+- Dimensions
+    - 44.0cm × 25.4cm × 38.4cm

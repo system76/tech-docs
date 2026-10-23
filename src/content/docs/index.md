@@ -36,7 +36,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Thelio Major (thelio-major-r5-n4)](models/thelio-major-r5-n4/specs.md)
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/specs.md)
 - [Thelio Mega (thelio-mega-r4-n3)](models/thelio-mega-r4-n3/specs.md)
-- [Thelio Mira (thelio-mira-r5-n4)](models/thelio-mira-r5-n4/specs.md)
+- [Thelio Mira AI (thelio-mira-r6-n4)](models/thelio-mira-r6-n4/specs.md)
 - [Thelio Spark (thelio-spark-r3-n3)](models/thelio-spark-r3-n3/specs.md)
 
 ## Previous Models

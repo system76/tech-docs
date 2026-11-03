@@ -2,4 +2,4 @@ allowBuilds:
   esbuild: true
   sharp: true
 minimumReleaseAgeExclude:
-  - '@system76/satteri-relative-markdown-links@1.0.0'
+  - '@system76/satteri-relative-markdown-links@1.0.0 || 1.1.1'

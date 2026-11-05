@@ -51,4 +51,4 @@ title: Thelio Mira (Internal Overview)
 - CPU cooler radiator is highlighted in cyan
 - Spare 2.5" drive screws are highlighted in white
 
-See the [repairs page](./repairs.md) for detailed information about installing or replacing components.
+See the [repairs page](./repairs.mdx) for detailed information about installing or replacing components.

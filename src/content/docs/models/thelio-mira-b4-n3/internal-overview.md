@@ -60,4 +60,4 @@ title: Thelio Mira (Internal Overview)
 - Power button receptacle is highlighted in cyan
     - Connects to Thelio Io board
 
-See the [repairs page](./repairs.md) for detailed information about installing or replacing components.
+See the [repairs page](./repairs.mdx) for detailed information about installing or replacing components.

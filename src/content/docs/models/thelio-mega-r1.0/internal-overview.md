@@ -26,4 +26,4 @@ From top to bottom:
 3. PCIe Gen 4 x16 slot (GPU 2)
 4. PCIe Gen 4 x8 slot (GPU 3)
 
-See the [repairs page](./repairs.md) for detailed information about installing or replacing components.
+See the [repairs page](./repairs.mdx) for detailed information about installing or replacing components.

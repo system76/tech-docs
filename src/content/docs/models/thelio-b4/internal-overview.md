@@ -38,4 +38,4 @@ title: Thelio (Internal Overview)
 - CPU power connector is highlighted in red
     - Connects to power supply
 
-See the [repairs page](./repairs.md) for detailed information about installing or replacing components.
+See the [repairs page](./repairs.mdx) for detailed information about installing or replacing components.

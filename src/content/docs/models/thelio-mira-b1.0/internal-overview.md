@@ -35,4 +35,4 @@ From top to bottom:
     - Runs with x4 bandwidth.
     - Runs at Gen 3 speeds with 10th Gen CPUs.
 
-See the [repairs page](./repairs.md) for detailed information about installing or replacing components.
+See the [repairs page](./repairs.mdx) for detailed information about installing or replacing components.

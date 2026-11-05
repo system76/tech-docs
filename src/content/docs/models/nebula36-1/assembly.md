@@ -386,4 +386,4 @@ Both daughterboards can be removed and replaced if necessary. The external power
 ### Steps to replace the power button:
 
 1. [Remove the top case](#removing-the-top-case).
-2. Follow the instructions in the [Replace the Thelio Power Button](https://support.system76.com/articles/thelio-power-button/) support article.
+2. Follow the instructions in the [Replace the Thelio Power Button](https://system76.com/support/thelio-power-button/) support article.

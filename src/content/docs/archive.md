@@ -82,7 +82,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 
 ## Previous Models Not in Tech Docs
 
-Some older models that aren't listed on the Tech Docs website have quickstart guides or service manuals available on the [System76 Support website](https://support.system76.com/articles/guides).
+Some older models that aren't listed on the Tech Docs website have quickstart guides or service manuals available on the [System76 Support website](https://system76.com/support/guides/).
 
 ## Current Models
 

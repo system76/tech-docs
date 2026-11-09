@@ -31,7 +31,7 @@ The source can be viewed [on GitHub](https://github.com/system76/tech-docs).
 - [Oryx Pro (oryp14)](models/oryp14/specs.md)
 - [Pangolin Pro (panp16)](models/panp16/specs.md)
 - [Serval WS (serw14)](models/serw14/specs.md)
-- [Thelio (thelio-r5-n1)](models/thelio-r5-n1/specs.md)
+- [Thelio (thelio-r5-n2)](models/thelio-r5-n2/specs.md)
 - [Thelio Astra (thelio-astra-a1-n1)](models/thelio-astra-a1-n1/specs.md)
 - [Thelio Major (thelio-major-r5-n4)](models/thelio-major-r5-n4/specs.md)
 - [Thelio Massive (thelio-massive-b1.2)](models/thelio-massive-b1.2/specs.md)

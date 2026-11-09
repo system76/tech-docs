@@ -101,7 +101,10 @@ export default defineConfig({
                     lang: "en",
                 },
             },
-            routeMiddleware: "./src/plugins/toc-formatting-middleware.ts",
+            routeMiddleware: [
+                "./src/plugins/toc-formatting-middleware.ts",
+                "./src/plugins/techarticle-json-ld-middleware.ts",
+            ],
             components: {
                 Head: "./src/components/Head.astro",
             },

@@ -10,8 +10,8 @@ const ORGANIZATION = {
 export const onRequest = defineRouteMiddleware((context) => {
     const { starlightRoute } = context.locals;
 
-    // The 404 page isn't an article.
-    if (starlightRoute.id === "404") {
+    // The 404 page and the landing pages (home has an empty id, plus archive) aren't articles.
+    if (["404", "", "archive"].includes(starlightRoute.id)) {
         return;
     }
 

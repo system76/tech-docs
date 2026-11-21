@@ -135,6 +135,51 @@ If the CPU heatsink is removed, it's recommended to replace the thermal paste fo
     - Orient the heatsink so the larger portion of fins sits below the screws.
 2. Partially screw each heatsink screw into the mounting brackets, then fully tighten each screw.
 
+## Replacing the CPU:
+
+Thelio Major R5-N4 includes a self-contained liquid cooler to dissipate heat from the CPU to the radiator, where the CPU cooler's fans expel it from the system. Supported cooler sizes are 280mm (2x140mm) and 240mm (2x120mm). Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler may help lower operating temperatures.
+
+**Part numbers:**
+- CPU cooler (280mm or 240mm):
+    - Apaltek DW0149 TR5 280mm AIO Cooler
+    - ...or equivalent.
+- The CPU uses an AMD AM5 socket.
+
+**Tools required:** Cross-head (Phillips) screwdriver, AMD Threadripper torque tool or compatible 1.5 Nm (13.275 in-lb) torque 3.95mm six-point star (Torx T20) screwdriver, thermal paste  
+**Time estimate:** 45 minutes  
+**Difficulty:** High <span style="color:red;">●</span>
+
+### Steps to replace the CPU:
+
+1. Using the AMD Threadripper torque screwdriver (or a compatible T20 screwdriver), loosen the three CPU bracket Torx screws in reverse order of the printed numbers (starting with #3).
+    - The screws are held captive and will not come out of the bracket.
+
+! [CPU Torx screws](./img/cpu-bracket-screws.avif)
+
+2. The CPU bracket cover will spring up when all screws are fully loosened.
+    - If the bracket cover only partially opens, you may need to loosen screws #2 and/or #3 more.
+    - Additional thermal paste may be stuck underneath the bracket cover, and can be cleaned off after the bracket is opened.
+
+! [CPU bracket (open)](./img/cpu-bracket-open.avif)
+
+3. Using the blue corner tabs (visible above), flip the orange CPU carrier frame up and away from the CPU socket.
+
+! [CPU carrier frame (raised)](./img/cpu-carrier-raised.avif)
+
+4. Slide the CPU carrier tray out of the CPU bracket.
+    - Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.
+
+! [CPU (removed)](./img/cpu-removed.avif)
+
+5. Slide the new CPU's carrier tray into the CPU bracket.
+    - AMD Threadripper CPUs come with carrier trays, so removing the CPU from the tray is generally not necessary.
+6. Flip the CPU bracket back down onto the socket, gently pressing the blue tabs to seat the CPU carrier tray onto the motherboard.
+7. Flip the CPU bracket cover back down.
+8. Screw the three Torx screws back into place in order of the printed numbers (starting with #1).
+    - The AMD Threadripper-branded tool applies 1.5 Nm of torque. When the screw is tight enough, it will give way.
+    - If you're using a different screwdriver, use a torque tool to apply approximately the same amount of torque (1.5 Nm, or ~13.275 in-lb).
+    - If you're using a screwdriver without a torque tool, try to tighten all three screws evenly. After re-assembling the computer, [run a RAM test](https://system76.com/support/hardware-failure/#memory) to ensure the CPU is secured with the correct amount of force.
+
 ## Replacing the RAM:
 
 Thelio Prime R5-N2 supports up to 96GB (2x48GB) of ECC DDR5 RAM running at a speed of 6400 MHz. If you've purchased new RAM, need to replace your RAM, or are reseating your RAM, follow these steps.
@@ -250,11 +295,9 @@ Thelio Prime R5-N2 has two M.2 storage slots. Both slots are M-key and size 2280
 5. While holding the M.2 drive against the motherboard, reinstall the M.2 retainer screw.
 6. Reinstall the GPU riser, GPU, and left side panel as applicable.
 
-{/*
-
 ## Clearing the CMOS:
 
-The CMOS can be cleared without removing the CMOS battery using a button on the motherboard.
+The CMOS can be cleared without removing the CMOS battery using a jumper on the motherboard.
 
 **Tools required:** Cross-head (Phillips) screwdriver  
 **Time estimate:** 15 minutes  
@@ -262,13 +305,58 @@ The CMOS can be cleared without removing the CMOS battery using a button on the 
 
 ### Steps to clear the CMOS:
 
-1. Follow the steps above to [remove the left side panel](#removing-the-side-panels).
-2. Push the top button, labeled `CLR_SW`, near the CMOS battery (at the bottom right of the motherboard).
-    - Do not confuse this button with the bottom button, labeled `RST_SW`, which is near the `CLR_CMOS` jumper label.
+1. Follow the steps above to [remove the right side panel](#removing-the-side-panels), and ensure the computer's power cable is unplugged.
+2. Use a conductive metal object (such as a screwdriver) to bridge the two pins on the `CLRCMOS1` jumper at the top-left of the motherboard, holding the connection for at least 10 seconds.
+    - While the pins are bridged, also hold down the power button on the front of the computer to discharge any residual energy from the computer's capacitors.
+    - The front panel audio cable may already be touching one of the pins. The rubber sleeve of this cable is not conductive, and can be left in place.
 
-! [Clear CMOS button](./img/cmos-button.avif)
+![Clear CMOS jumper](./img/cmos-jumper.avif)
 
-3. Reinstall the left side panel.
+3. Reinstall the right side panel.
+
+## Replacing the motherboard:
+
+The motherboard can be removed from the chassis for replacement or repair.
+
+**Part numbers:**
+- The motherboard is an ASRock B850I Lightning WiFi.
+    - Motherboards shipped by System76 are flashed with custom firmware. [Contact System76 support](https://system76.com/support) with your Thelio Prime's serial number to obtain the corresponding firmware.
+
+**Tools required:** Cross-head (Phillips) screwdriver  
+**Time estimate:** 15 minutes  
+**Difficulty:** Medium <span style="color:orange;">●</span>
+
+### Steps to replace the motherboard:
+
+1. Follow the steps above to [remove both side panels](#removing-the-side-panels), [remove the CPU fan](#replacing-the-cpu-fan), [remove the CPU cooler heatsink](#replacing-the-cpu-heatsink--thermal-paste), [disconnect the GPU riser from the motherboard's PCIe slot](#replacing-the-gpu-riser), and [remove the dedicated GPU](#replacing-the-gpu) (if installed).
+    - You can also optionally remove the [front glass](#removing-the-front-glass) and [top shell](#removing-the-top-shell) for easier access to the top-right motherboard screw.
+2. From the right side of the computer, unplug the necessary cables to free the motherboard:
+    - The audio header at the top right of the motherboard.
+    - The USB and power cables along the left side of the motherboard.
+    - The braided fan cable at the bottom center of the motherboard.
+    - The power cable at the bottom right of the motherboard.
+        - This cable's clip may be difficult to access due to being located immediately next to the PSU; it can alternatively be unplugged after the motherboard's unscrewed.
+3. From the left side of the computer, unscrew the two screws holding the I/O shield onto the chassis.
+
+![I/O shield screws](./img/io-shield-screws.avif)
+
+4. Set the computer on its left side so the motherboard is facing up.
+5. Unscrew the four screws holding the motherboard onto the chassis.
+    - The screws are screwed in via standoffs and secured via a weak threadlocker. Each screw may unscrew from its standoff, or its standoff may unscrew from the chassis; either is fine as long as it's completley unscrewed.
+
+![Motherboard screws](./img/motherboard-screws.avif)
+
+6. Pull the motherboard and I/O shield out of the machine.
+    - When removing the motherboard, it's easiest to pivot the left side of the motherboard against the front corner within the chassis, and slightly flex the back of the machine to clear the Wi-Fi antenna mounts through the I/O shield cutout.
+    - It may also help to first slide the motherboard up (away from the power supply), then remove it from the chassis.
+7. If you're replacing the motherboard, [remove the CPU]() from the old motherboard and install it into the new one, and move the I/O shield from the old motherboard to the new motherboard.
+8. Whole holding the I/O shield onto the motherboard, position the motherboard into the chassis so the four motherboard screw holes are aligned with those in the chassis.
+    - As with removal, it's easiest to pivot the board against the front of the chassis while flexing the back of the chassis, and it may help to insert the board slightly higher up before sliding it into place within the chassis.
+9. Screw in the four motherboard screws.
+10. Stand the computer upright.
+11. From the left side of the computer, screw in the two screws to secure the I/O shield into place.
+12. Reconnect all disconnected cables to their corresponding headers on the motherboard.
+13. Reinstall the GPU riser, GPU (if applicable), CPU cooler heatsink (including thermal paste if it was removed earlier), CPU fan, both side panels, and the top shell and front glass if they were removed earlier.
 
 ## Replacing the CMOS battery:
 
@@ -285,18 +373,24 @@ The CMOS battery supplies power to the system's CMOS chip. UEFI settings and the
 
 ### Steps to replace the CMOS battery:
 
-1. Follow the steps above to [remove the left side panel](#removing-the-side-panels).
-    - Depending on the size of your GPU, you may also need to [remove the front glass](#removing-the-front-glass) and [remove the GPU brace and GPU](#replacing-the-gpu).
-2. Lift the CMOS battery against the spring at the top of the slot by prying from behind the opening at the bottom of the slot.
-    - A flat plastic tool can be used to help lift the battery.
+1. Follow the steps above to [remove the motherboard](#replacing-the-motherboard).
+2. Unscrew the two screws on the back of the motherboard holding the I/O heatsink onto the motherboard.
 
-! [CMOS battery](./img/cmos-battery.avif)
+![Motherboard I/O heatsink screws](./img/motherboard-io-heatsink.avif)
 
-3. Pull the CMOS battery out of its slot.
-4. If you are resetting the CMOS, hold down the power button for 10 seconds to discharge any residual energy in the system.
-5. Install the new CMOS battery (or reinstall the existing CMOS battery) starting at the top of the slot.
-    - The positive side of the battery (with text) should face outward.
-6. Replace the GPU, GPU brace, front glass, and left side panel as applicable.
+3. Flip the motherboard over and pivot the I/O heatsink away from the I/O ports, then pull the I/O heatsink away from the motherboard.
+    - The I/O heatsink's bracket (on the side with the I/O heatsink screws) does not need to be removed from the motherboard; if it comes away during handling of the motherboard, set it aside.
+    - If any of the thermal pads come off of the I/O heatsink, lay them back into place before reinstalling the heatsink.
+4. Unplug the white CMOS battery connector from its header, directly underneath the WiFi antenna ports.
+
+![CMOS battery](./img/cmos-battery.avif)
+
+5. Pull the CMOS battery off of the audio ports that it's adhered to.
+6. Stick the new CMOS battery into place on the audio ports.
+    - If the replacement CMOS battery doesn't come with adhesive, it can be left loose between the WiFi antenna ports and the audio ports.
+7. Plug the new CMOS battery into the motherboard.
+8. Position the I/O heatsink on the motherboard (as well as the I/O heatsink bracket on the reverse side), and screw the I/O heatsink back onto the motherboard.
+9. Reinstall the motherboard into the chassis (then reinstall the GPU riser, CPU cooler heatsink, thermal paste, CPU fan, side panels, top shell, and front glass, as applicable).
 
 ## Replacing a power supply:
 
@@ -411,115 +505,6 @@ The bottom intake fans are covered by a dust filter, which can be removed for cl
 5. While holding the dust filter onto the bottom of the machine, reinstall its five screws.
     - By default, the rockets point towards the front of the machine.
     - The mesh should face inward towards the chassis, with the metal frame facing outward.
-
-## Replacing the CPU cooler and CPU:
-
-Thelio Major R5-N4 includes a self-contained liquid cooler to dissipate heat from the CPU to the radiator, where the CPU cooler's fans expel it from the system. Supported cooler sizes are 280mm (2x140mm) and 240mm (2x120mm). Depending on your climate and the age of the machine, replacing the thermal paste between the CPU and the cooler may help lower operating temperatures.
-
-**Part numbers:**
-- CPU cooler (280mm or 240mm):
-    - Apaltek DW0149 TR5 280mm AIO Cooler
-    - ...or equivalent.
-- The CPU uses an AMD AM5 socket.
-
-**Tools required:** Cross-head (Phillips) screwdriver, AMD Threadripper torque tool or compatible 1.5 Nm (13.275 in-lb) torque 3.95mm six-point star (Torx T20) screwdriver, thermal paste  
-**Time estimate:** 45 minutes  
-**Difficulty:** High <span style="color:red;">●</span>
-
-### Steps to remove the CPU cooler/thermal paste:
-
-1. Follow the steps above to [remove the left and right side panels](#removing-the-side-panels), [remove the front glass](#removing-the-front-glass), and [remove the top shell](#removing-the-top-shell).
-2. Unfasten the velcro strip(s) to free any signal cables leading to the CPU cooler or its fans.
-    - The four-wire fan cables are secured in the velcro before extending back out to the dual-port splitter next to the motherboard.
-    - The three-wire cable extending from the top of the radiator plugs into the motherboard's `SYS_FAN8_PUMP` header.
-        - This cable does not need to be tied back due to its short length.
-    - The braided cable leading to the `FANIN1` port of the Thelio Io board plugs into the motherboard's `CPU_FAN1` header. Another braided cable connects the back of the dual-port splitter to the Thelio Io board's `FANOUT2` port.
-        - These braided cables do not need to be unplugged to replace the CPU cooler, but may be secured by the same velcro as the fan cables.
-
-! [CPU cooler cables](./img/cpu-cooler-cables.avif)
-
-3. Set the computer on its right side (with the motherboard at the bottom).
-4. Unscrew the four Torx T20 screws holding the CPU cooler plate onto the CPU (highlighted red below).
-    - The screws are held captive and will not come apart from the cooler when fully unscrewed.
-
-! [CPU cooler pump screws](./img/cpu-cooler-pump.avif)
-
-5. Unplug the CPU cooler pump from the `SYS_FAN8_PUMP` header on the motherboard, highlighted cyan above.
-6. Unplug the CPU cooler fans cable from the fan splitter board next to the motherboard, highlighted green above.
-7. While holding the radiator in place so it doesn't fall, unscrew the eight silver screws holding the radiator on from the top of the chassis.
-    - If you aren't replacing the CPU cooler or fans (but are replacing only the thermal paste and/or the CPU), you can skip this step and leave the radiator attached to the chassis.
-
-! [CPU cooler radiator screws](./img/cpu-cooler-radiator.avif)
-
-8. Remove the CPU cooler pump and radiator (if applicable) from the chassis.
-9. Using a paper towel, clean the existing thermal paste off of the cooler and CPU. You may also use a small amount of rubbing alcohol if the old paste is dried or difficult to remove.
-
-! [Thermal paste removal](./img/thermal-paste-removal.avif)
-
-### Steps to replace the CPU:
-
-1. Using the AMD Threadripper torque screwdriver (or a compatible T20 screwdriver), loosen the three CPU bracket Torx screws in reverse order of the printed numbers (starting with #3).
-    - The screws are held captive and will not come out of the bracket.
-
-! [CPU Torx screws](./img/cpu-bracket-screws.avif)
-
-2. The CPU bracket cover will spring up when all screws are fully loosened.
-    - If the bracket cover only partially opens, you may need to loosen screws #2 and/or #3 more.
-    - Additional thermal paste may be stuck underneath the bracket cover, and can be cleaned off after the bracket is opened.
-
-! [CPU bracket (open)](./img/cpu-bracket-open.avif)
-
-3. Using the blue corner tabs (visible above), flip the orange CPU carrier frame up and away from the CPU socket.
-
-! [CPU carrier frame (raised)](./img/cpu-carrier-raised.avif)
-
-4. Slide the CPU carrier tray out of the CPU bracket.
-    - Be careful not to bend any of the gold pins on the CPU socket, and do not touch the gold pads on the CPU.
-
-! [CPU (removed)](./img/cpu-removed.avif)
-
-5. Slide the new CPU's carrier tray into the CPU bracket.
-    - AMD Threadripper CPUs come with carrier trays, so removing the CPU from the tray is generally not necessary.
-6. Flip the CPU bracket back down onto the socket, gently pressing the blue tabs to seat the CPU carrier tray onto the motherboard.
-7. Flip the CPU bracket cover back down.
-8. Screw the three Torx screws back into place in order of the printed numbers (starting with #1).
-    - The AMD Threadripper-branded tool applies 1.5 Nm of torque. When the screw is tight enough, it will give way.
-    - If you're using a different screwdriver, use a torque tool to apply approximately the same amount of torque (1.5 Nm, or ~13.275 in-lb).
-    - If you're using a screwdriver without a torque tool, try to tighten all three screws evenly. After re-assembling the computer, [run a RAM test](https://system76.com/support/hardware-failure/#memory) to ensure the CPU is secured with the correct amount of force.
-
-### Steps to replace the CPU cooler's fans:
-
-1. Unscrew the four screws (per fan) holding the fan(s) onto the radiator.
-
-! [CPU cooler fan scrwes](./img/cpu-cooler-fans.avif)
-
-2. Remove the old fan(s) from the radiator.
-3. Align the new fan(s) with the radiator.
-    - The spinning side of the fans should face away from the radiator.
-    - The cable from each fan should point towards the radiator's cable.
-4. Screw in the new fan(s).
-
-### Steps to install the thermal paste/CPU cooler:
-
-1. Draw an `X` shape of thermal paste onto the CPU.
-
-! [Thermal paste application](./img/thermal-paste-application.avif)
-
-2. Place the all-in-one liquid cooler back into the chassis with the tubes running against the front of the chassis.
-3. Place the cooler plate back onto the four posts surrounding the CPU.
-    - The tubes running off of the cooler plate should be oriented towards the front of the chassis.
-4. Screw in the four Torx T20 screws to secure the cooler plate.
-    - Partially install each screw cap first, then fully tighten them in diagonal pairs.
-5. While holding the cooler's radiator in place against the top of the chassis, screw it in from above using its eight screws.
-    - Again, partially install all eight screws first to ensure alignment, then go back and tighten them all.
-    - The radiator's cable (which starts on the top) wraps around the side of the radiator through a channel in the radiator, and does not need to be run through any other part of the chassis.
-6. Set the computer upright.
-7. Plug the cooler pump into the `SYS_FAN8_PUMP` header at the top right corner of the motherboard.
-8. Plug the fan cable into the fan splitter to the right of the motherboard.
-    - By default, the cable plugs into the bottom header; both headers provide the same signal.
-9. Pull the excess cooler pump cable through the cable management cutout above the motherboard, and secure it behind the motherboard along with the braided motherboard fan input cable using the velcro strap.
-10. Hold the liquid tubes against the back of the chassis and secure them in place using the velcro strap.
-11. Reinstall the top shell, front glass, and both side panels.
 
 ## Replacing the Thelio Io board:
 
@@ -666,9 +651,3 @@ The power button can be replaced independently of the surrounding front panel.
 7. Place the front accent against the front panel and screw it into place from behind.
     - Ensure the front I/O ports are properly aligned within the accent while screwing in the accent. If necessary, [unscrew the front I/O ports](#replacing-the-front-io) to adjust them.
 8. Reinstall the front glass and side panels.
-
-*/}
-
-## Work in Progress
-
-This repairs page is still in-progress. Please check back later for further instructions, or [contact System76 support](https://system76.com/support) with specific questions.

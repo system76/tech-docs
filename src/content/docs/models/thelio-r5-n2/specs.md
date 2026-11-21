@@ -3,6 +3,7 @@ title: Thelio Prime (thelio-r5-n2)
 ---
 
 - [External Overview](./external-overview.mdx)
+- [Internal Overview](./internal-overview.md)
 - [Parts & Repairs](./repairs.mdx)
 
 ![Thelio Prime](./img/thelio-r5-n2.avif)

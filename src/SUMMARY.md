@@ -93,6 +93,7 @@
         - [Parts & Repairs](models/thelio-mira-r6-n4/repairs.mdx)
     - [Thelio Prime (thelio-r5-n2)](models/thelio-r5-n2/specs.md)
         - [External Overview](models/thelio-r5-n2/external-overview.mdx)
+        - [External Overview](models/thelio-r5-n2/internal-overview.md)
         - [Parts & Repairs](models/thelio-r5-n2/repairs.mdx)
     - [Thelio Spark (thelio-spark-r3-n3)](models/thelio-spark-r3-n3/specs.md)
         - [Parts & Repairs](models/thelio-spark-r3-n3/repairs.md)
